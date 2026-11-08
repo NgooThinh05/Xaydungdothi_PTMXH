@@ -1,0 +1,65 @@
+id,name,status,valid_from
+prov:hai_phong,Hải Phòng,hiện hành,2025-07-01
+prov:hai_duong_cu,Hải Dương,đã sáp nhập,
+prov:quang_ngai,Quảng Ngãi,hiện hành,2025-07-01
+prov:kon_tum_cu,Kon Tum,đã sáp nhập,
+prov:phu_tho,Phú Thọ,hiện hành,2025-07-01
+prov:ninh_binh,Ninh Bình,hiện hành,2025-07-01
+prov:an_giang,An Giang,hiện hành,2025-07-01
+prov:thanh_pho_ho_chi_minh,Thành phố Hồ Chí Minh,hiện hành,2025-07-01
+prov:ba_ria_vung_tau_cu,Bà Rịa – Vũng Tàu,đã sáp nhập,
+prov:ha_noi,Hà Nội,hiện hành,2025-07-01
+prov:ca_mau,Cà Mau,hiện hành,2025-07-01
+prov:thanh_hoa,Thanh Hóa,hiện hành,2025-07-01
+prov:bac_ninh,Bắc Ninh,hiện hành,2025-07-01
+prov:nam_dinh_cu,Nam Định,đã sáp nhập,
+prov:quang_tri,Quảng Trị,hiện hành,2025-07-01
+prov:gia_lai,Gia Lai,hiện hành,2025-07-01
+prov:binh_dinh_cu,Bình Định,đã sáp nhập,
+prov:lao_cai,Lào Cai,hiện hành,2025-07-01
+prov:kien_giang_cu,Kiên Giang,đã sáp nhập,
+prov:bac_giang_cu,Bắc Giang,đã sáp nhập,
+prov:dong_thap,Đồng Tháp,hiện hành,2025-07-01
+prov:nghe_an,Nghệ An,hiện hành,2025-07-01
+prov:ha_nam_cu,Hà Nam,đã sáp nhập,
+prov:hoa_binh_cu,Hòa Bình,đã sáp nhập,
+prov:ha_tinh,Hà Tĩnh,hiện hành,2025-07-01
+prov:quang_binh_cu,Quảng Bình,đã sáp nhập,
+prov:lam_dong,Lâm Đồng,hiện hành,2025-07-01
+prov:dak_nong_cu,Đắk Nông,đã sáp nhập,
+prov:hung_yen,Hưng Yên,hiện hành,2025-07-01
+prov:quang_ninh,Quảng Ninh,hiện hành,2025-07-01
+prov:thai_binh_cu,Thái Bình,đã sáp nhập,
+prov:cao_bang,Cao Bằng,hiện hành,2025-07-01
+prov:binh_thuan_cu,Bình Thuận,đã sáp nhập,
+prov:thai_nguyen,Thái Nguyên,hiện hành,2025-07-01
+prov:vinh_long,Vĩnh Long,hiện hành,2025-07-01
+prov:ben_tre_cu,Bến Tre,đã sáp nhập,
+prov:khanh_hoa,Khánh Hòa,hiện hành,2025-07-01
+prov:dong_nai,Đồng Nai,hiện hành,2025-07-01
+prov:son_la,Sơn La,hiện hành,2025-07-01
+prov:ninh_thuan_cu,Ninh Thuận,đã sáp nhập,
+prov:dak_lak,Đắk Lắk,hiện hành,2025-07-01
+prov:phu_yen_cu,Phú Yên,đã sáp nhập,
+prov:can_tho,Cần Thơ,hiện hành,2025-07-01
+prov:hau_giang_cu,Hậu Giang,đã sáp nhập,
+prov:hue,Huế,hiện hành,2025-07-01
+prov:thua_thien_hue_cu,Thừa Thiên Huế,đã sáp nhập,
+prov:da_nang,Đà Nẵng,hiện hành,2025-07-01
+prov:quang_nam_cu,Quảng Nam,đã sáp nhập,
+prov:tien_giang_cu,Tiền Giang,đã sáp nhập,
+prov:tuyen_quang,Tuyên Quang,hiện hành,2025-07-01
+prov:lang_son,Lạng Sơn,hiện hành,2025-07-01
+prov:tay_ninh,Tây Ninh,hiện hành,2025-07-01
+prov:long_an_cu,Long An,đã sáp nhập,
+prov:bac_kan_cu,Bắc Kạn,đã sáp nhập,
+prov:yen_bai_cu,Yên Bái,đã sáp nhập,
+prov:vinh_phuc_cu,Vĩnh Phúc,đã sáp nhập,
+prov:bac_lieu_cu,Bạc Liêu,đã sáp nhập,
+prov:lai_chau,Lai Châu,hiện hành,2025-07-01
+prov:ha_giang_cu,Hà Giang,đã sáp nhập,
+prov:soc_trang_cu,Sóc Trăng,đã sáp nhập,
+prov:binh_phuoc_cu,Bình Phước,đã sáp nhập,
+prov:tra_vinh_cu,Trà Vinh,đã sáp nhập,
+prov:binh_duong_cu,Bình Dương,đã sáp nhập,
+prov:dien_bien,Điện Biên,hiện hành,2025-07-01

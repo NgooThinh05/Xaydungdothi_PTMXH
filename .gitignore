@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Dữ liệu thô/lớn không đưa lên GitHub (chỉ giữ file processed nhỏ + mẫu)
+data/raw/
+data/interim/
+*.jsonl
+!data/samples/*.jsonl
+logs/

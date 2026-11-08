@@ -1,0 +1,1799 @@
+id,name,wiki_title,wikidata,birth_year,hometown
+per:barack_obama,Barack Obama,Barack Obama,Q76,1961,
+per:bui_mau_quan,Bùi Mậu Quân,Bùi Mậu Quân,Q10742788,1960,Hải Dương
+per:a_pot,A Pớt,A Pớt,Q47506309,1963,Kon Tum
+per:bui_minh_chau,Bùi Minh Châu,Bùi Minh Châu,Q47506344,1961,Phú Thọ
+per:bui_ngoc_hoa,Bùi Ngọc Hòa,Bùi Ngọc Hòa,Q49054919,1955,
+per:bui_manh_cuong,Bùi Mạnh Cường,Bùi Mạnh Cường,Q49055027,,
+per:bui_ba_dinh,Bùi Bá Định,Bùi Bá Định,Q61128807,,
+per:bui_be_tu,Bùi Bé Tư,Bùi Bé Tư,Q61130857,,
+per:bui_chi_thanh,Bùi Chí Thành,Bùi Chí Thành,Q86005202,1974,
+per:bui_nhat_quang,Bùi Nhật Quang,Bùi Nhật Quang,Q86005215,1975,Hà Nội
+per:bui_cong_buu,Bùi Công Bửu,Bùi Công Bửu,Q109430219,,
+per:bui_anh_chung,Bùi Anh Chung,Bùi Anh Chung,Q108335518,1963,
+per:bui_hoai_son,Bùi Hoài Sơn,Bùi Hoài Sơn,Q116847060,1975,Phú Thọ
+per:bui_hong_minh,Bùi Hồng Minh,Bùi Hồng Minh,Q118249998,1971,
+per:bui_manh_khoa,Bùi Mạnh Khoa,Bùi Mạnh Khoa,Q117000819,1972,Thanh Hóa
+per:bui_duy_hung,Bùi Duy Hưng,Bùi Duy Hưng,,1978,Hải Phòng
+per:bui_hoang_phuong,Bùi Hoàng Phương,Bùi Hoàng Phương,,1983,Nam Định
+per:bui_van_ga,Bùi Văn Ga,Bùi Văn Ga,Q10742856,1957,Bình Định
+per:bui_quang_vinh,Bùi Quang Vinh,Bùi Quang Vinh,Q10742805,1953,Hà Nội
+per:bui_quang_ben,Bùi Quang Bền,Bùi Quang Bền,Q10742797,1955,An Giang
+per:bui_van_nam,Bùi Văn Nam,Bùi Văn Nam,Q10742860,1955,Nam Định
+per:bui_thi_an,Bùi Thị An,Bùi Thị An,Q10742820,1943,Nam Định
+per:bui_van_cuong,Bùi Văn Cường,Bùi Văn Cường,Q10742852,1965,Hải Dương
+per:bui_tuyet_minh,Bùi Tuyết Minh,Bùi Tuyết Minh,Q10742844,1962,Kiên Giang
+per:bui_van_hai,Bùi Văn Hải,Bùi Văn Hải,Q19704961,1960,Bắc Giang
+per:bui_van_huan,Bùi Văn Huấn,Bùi Văn Huấn,Q19704968,1945,Đồng Tháp
+per:bui_thi_quynh_van,Bùi Thị Quỳnh Vân,Bùi Thị Quỳnh Vân,Q24958439,1974,Quảng Ngãi
+per:bui_sy_loi,Bùi Sỹ Lợi,Bùi Sỹ Lợi,Q30921673,1959,Thanh Hóa
+per:bui_thanh_son,Bùi Thanh Sơn,Bùi Thanh Sơn,Q30921853,1962,Hà Nội
+per:bui_quang_huy_chinh_khach,Bùi Quang Huy,Bùi Quang Huy (chính khách),Q30924050,1977,Nghệ An
+per:bui_thi_minh_hoai,Bùi Thị Minh Hoài,Bùi Thị Minh Hoài,Q49054637,1965,Hà Nam
+per:bui_van_khanh,Bùi Văn Khánh,Bùi Văn Khánh,Q86005236,1964,
+per:bui_quang_hai,Bùi Quang Hải,Bùi Quang Hải,Q86005218,,Kiên Giang
+per:bui_tien_cam,Bùi Tiến Cam,Bùi Tiến Cam,Q86005230,1959,Nam Định
+per:bui_the_duy,Bùi Thế Duy,Bùi Thế Duy,Q109640035,1978,Hà Tĩnh
+per:bui_thien_dung,Bùi Thiện Dũng,Bùi Thiện Dũng,Q139604628,,
+per:bui_thi_hoa,Bùi Thị Hòa,Bùi Thị Hòa,Q118250225,1965,Hòa Bình
+per:bui_sy_hoan,Bùi Sỹ Hoàn,Bùi Sỹ Hoàn,Q116921401,1975,Hải Dương
+per:bui_quang_thanh,Bùi Quang Thanh,Bùi Quang Thanh,Q132831024,1977,Quảng Bình
+per:bui_quoc_dung,Bùi Quốc Dũng,Bùi Quốc Dũng,,1979,
+per:bui_van_khang,Bùi Văn Khắng,Bùi Văn Khắng,,1971,Hưng Yên
+per:bui_quang_binh,Bùi Quang Bình,Bùi Quang Bình,,1978,Thái Bình
+per:be_xuan_truong,Bế Xuân Trường,Bế Xuân Trường,Q10743430,1957,Cao Bằng
+per:bui_van_thanh_cong_an,Bùi Văn Thành,Bùi Văn Thành (công an),Q10742863,1958,Ninh Bình
+per:bui_van_tinh,Bùi Văn Tỉnh,Bùi Văn Tỉnh,Q10742866,1958,Hòa Bình
+per:bui_duc_hanh,Bùi Đức Hạnh,Bùi Đức Hạnh,Q25418557,1960,Nam Định
+per:bo_thi_xuan_linh,Bố Thị Xuân Linh,Bố Thị Xuân Linh,Q30921893,1970,Bình Thuận
+per:bui_dang_dung,Bùi Đặng Dũng,Bùi Đặng Dũng,Q47506306,1960,Hà Nội
+per:bui_van_phuong,Bùi Văn Phương (Bùi Việt Phương),Bùi Văn Phương,Q47506334,1960,Ninh Bình
+per:bui_xuan_hoa,Bùi Xuân Hòa,Bùi Xuân Hòa,Q49055947,2004,Phú Thọ
+per:bui_van_quang,Bùi Văn Quang,Bùi Văn Quang,Q65171984,1967,
+per:bui_van_nghiem,Bùi Văn Nghiêm,Bùi Văn Nghiêm,Q65174425,1966,
+per:bui_van_thang,Bùi Văn Thắng,Bùi Văn Thắng,Q109436176,,
+per:bui_duc_hinh,Bùi Đức Hinh,Bùi Đức Hinh,Q109876166,1968,Hòa Bình
+per:be_trung_anh,Bế Trung Anh,Bế Trung Anh,Q117014363,1966,Cao Bằng
+per:be_thanh_tinh,Bế Thanh Tịnh,Bế Thanh Tịnh,,1970,Cao Bằng
+per:cao_si_kiem,Cao Sĩ Kiêm,Cao Sĩ Kiêm,Q10744253,1941,Thái Bình
+per:cao_duc_phat,Cao Đức Phát,Cao Đức Phát,Q10744338,1956,Nam Định
+per:cao_ngoc_oanh,Cao Ngọc Oánh,Cao Ngọc Oánh,Q10744240,1954,Quảng Bình
+per:cao_tan_khong,Cao Tấn Khổng,Cao Tấn Khổng,Q10744282,1958,Bến Tre
+per:chu_van_dat,Chu Văn Đạt,Chu Văn Đạt,Q10748042,1952,Nam Định
+per:chu_ngoc_anh_chinh_khach,Chu Ngọc Anh,Chu Ngọc Anh (chính khách),Q16480526,1965,Hà Nội
+per:cao_van_trong,Cao Văn Trọng,Cao Văn Trọng,Q30921865,1961,Bến Tre
+per:cao_minh_nhan,Cao Minh Nhạn,Cao Minh Nhạn,Q49056127,1954,Khánh Hòa
+per:cao_tien_dung,Cao Tiến Dũng,Cao Tiến Dũng,Q86005512,1972,
+per:cao_khoa,Cao Khoa,Cao Khoa,Q109436178,,
+per:cao_tuong_huy,Cao Tường Huy,Cao Tường Huy,Q115653568,1973,Nam Định
+per:cha_a_cua,Chá A Của,Chá A Của,Q116226109,1974,Sơn La
+per:chamalea_thi_thuy,Chamaléa Thị Thủy,Chamaléa Thị Thủy,Q116779257,1983,
+per:cao_manh_linh,Cao Mạnh Linh,Cao Mạnh Linh,Q117000848,1982,Hà Nội
+per:cao_thi_hoa_an,Cao Thị Hòa An,Cao Thị Hòa An,,1973,Nghệ An
+per:chiem_thong_nhat,Chiêm Thống Nhất,Chiêm Thống Nhất,,1976,Hậu Giang
+per:chu_tuan_cap,Chu Tuấn Cáp,Chu Tuấn Cáp,,1943,Hà Nội
+per:cu_thi_hau,Cù Thị Hậu,Cù Thị Hậu,Q10752077,1944,Phú Thọ
+per:cu_hoa_van,Cư Hòa Vần,Cư Hòa Vần,Q10752198,1935,Lào Cai
+per:duong_anh_dien,Dương Anh Điền,Dương Anh Điền,Q10757548,1955,Hải Phòng
+per:chau_thi_thu_nga,Châu Thị Thu Nga,Châu Thị Thu Nga,Q10748267,1965,Thừa Thiên Huế
+per:chau_van_man,Châu Văn Mẫn,Châu Văn Mẫn,Q10748276,1950,Quảng Nam
+per:doan_the_cuong,Doãn Thế Cường,Doãn Thế Cường,Q10756757,1958,Hưng Yên
+per:chau_thi_my_phuong,Châu Thị Mỹ Phương,Châu Thị Mỹ Phương,Q24958542,1972,Đồng Tháp
+per:chau_van_lam,Chẩu Văn Lâm,Chẩu Văn Lâm,Q30921973,1967,Tuyên Quang
+per:doan_van_huong,Doãn Văn Hưởng,Doãn Văn Hưởng,Q47506342,1956,Lào Cai
+per:cam_ngoc_minh,Cầm Ngọc Minh,Cầm Ngọc Minh,Q47506385,1959,Sơn La
+per:chau_van_minh,Châu Văn Minh,Châu Văn Minh,Q49054644,1961,Thừa Thiên Huế
+per:danh_ut,Danh Út,Danh Út,Q61128614,1956,Kiên Giang
+per:duong_anh_duc,Dương Anh Đức,Dương Anh Đức,Q97170225,1968,Đà Nẵng
+per:chau_ngoc_tuan,Châu Ngọc Tuấn,Châu Ngọc Tuấn,Q109441616,1970,
+per:cam_ha_chung,Cầm Hà Chung,Cầm Hà Chung,Q116959524,1975,Phú Thọ
+per:duong_binh_phu,Dương Bình Phú,Dương Bình Phú,Q116970144,1969,
+per:duong_trung_quoc,Dương Trung Quốc,Dương Trung Quốc,Q10757616,1947,Hà Nội
+per:duong_ngoc_long,Dương Ngọc Long,Dương Ngọc Long,Q10757580,1957,
+per:duong_chi_dung,Dương Chí Dũng,Dương Chí Dũng,Q10757551,1957,Hải Dương
+per:duong_cong_da,Dương Công Đá,Dương Công Đá,Q10757553,1943,Lạng Sơn
+per:duong_mac_thang,Dương Mạc Thăng,Dương Mạc Thăng,Q10757575,1946,Cao Bằng
+per:duong_thanh_binh,Dương Thanh Bình,Dương Thanh Bình,Q10757600,1961,
+per:duong_van_trang,Dương Văn Trang,Dương Văn Trang,Q10757633,1961,Quảng Ngãi
+per:duong_minh_anh,Dương Minh Ánh,Dương Minh Ánh,Q24959119,1975,Hưng Yên
+per:duong_ngoc_hai_chinh_khach,Dương Ngọc Hải,Dương Ngọc Hải (chính khách),Q30923886,1967,Long An
+per:duong_quang_thanh,Dương Quang Thành,Dương Quang Thành,Q30921478,1962,Quảng Ninh
+per:duong_dinh_thong,Dương Đình Thông,Dương Đình Thông,Q30921848,1964,Bắc Kạn
+per:duong_quoc_anh,Dương Quốc Anh,Dương Quốc Anh,Q30921915,1961,Bắc Ninh
+per:duong_van_thong,Dương Văn Thống,Dương Văn Thống,Q30921956,1961,Yên Bái
+per:duong_van_an_chinh_khach,Dương Văn An,Dương Văn An (chính khách),Q30924063,1971,Thừa Thiên Huế
+per:duong_thanh_trung,Dương Thành Trung,Dương Thành Trung,Q49054436,1961,Bạc Liêu
+per:duong_van_thang,Dương Văn Thăng,Dương Văn Thăng,Q65164388,1969,Hà Nội
+per:duong_thanh_bieu,Dương Thanh Biểu,Dương Thanh Biểu,Q86006835,,
+per:duong_van_thai_chinh_khach,Dương Văn Thái,Dương Văn Thái (chính khách),Q86006845,1970,Bắc Giang
+per:duong_ha_tuong_cong_an,Dương Hà,Dương Hà (tướng công an),Q86006829,,
+per:duong_khac_mai,Dương Khắc Mai,Dương Khắc Mai,Q116880054,1969,Đắk Lắk
+per:duong_van_phuoc,Dương Văn Phước,Dương Văn Phước,Q116970325,1967,Quảng Nam
+per:duong_quoc_huy,Dương Quốc Huy,Dương Quốc Huy,,1974,Hưng Yên
+per:duong_trung_y,Dương Trung Ý,Dương Trung Ý,,1971,Bắc Giang
+per:duong_duc_hai,Dương Đức Hải,Dương Đức Hải,Q138779584,1977,Hà Nội
+per:hillary_clinton,Hillary Clinton,Hillary Clinton,Q6294,1947,
+per:giang_seo_phu,Giàng Seo Phử,Giàng Seo Phử,Q10761668,1951,Lào Cai
+per:giuse_le_ngoc_hoan,Lê Ngọc Hoàn,Giuse Lê Ngọc Hoàn,Q10787757,1941,Nam Định
+per:hoang_huu_phuoc,Hoàng Hữu Phước,Hoàng Hữu Phước,Q10768939,1957,Thành phố Hồ Chí Minh
+per:hoang_binh_quan,Hoàng Bình Quân,Hoàng Bình Quân,Q10768892,1959,Hưng Yên
+per:hoang_dan_mac,Hoàng Dân Mạc,Hoàng Dân Mạc,Q16157188,1958,Phú Thọ
+per:hoang_anh_xuan,Hoàng Anh Xuân,Hoàng Anh Xuân,Q20025769,1954,Thanh Hóa
+per:hoang_duy_chinh,Hoàng Duy Chinh,Hoàng Duy Chinh,Q30921831,1968,Bắc Kạn
+per:giang_pao_my,Giàng Páo Mỷ,Giàng Páo Mỷ,Q47506315,1963,Lai Châu
+per:hoang_quang_ham,Hoàng Quang Hàm,Hoàng Quang Hàm,Q47506347,1970,Phú Thọ
+per:hoang_kong_tu,Hoàng Kông Tư,Hoàng Kông Tư,Q49055585,1953,Nghệ An
+per:hoang_phuoc_thuan,Hoàng Phước Thuận,Hoàng Phước Thuận,Q49056074,,
+per:hoang_kien,Hoàng Kiền,Hoàng Kiền,Q61128572,1950,Nam Định
+per:hoang_anh_tuyen,Hoàng Anh Tuyên,Hoàng Anh Tuyên,Q86008050,,
+per:hoang_nghia_mai,Hoàng Nghĩa Mai,Hoàng Nghĩa Mai,Q86008070,,
+per:hoang_huu_nang,Hoàng Hữu Năng,Hoàng Hữu Năng,Q86008069,1953,
+per:hoang_ngoc_duong,Hoàng Ngọc Đường,Hoàng Ngọc Đường,Q109436181,1954,Bắc Kạn
+per:hoang_anh_cong,Hoàng Anh Công,Hoàng Anh Công,Q116149098,1971,Thái Bình
+per:hoang_ngoc_dinh,Hoàng Ngọc Định,Hoàng Ngọc Định,Q116813880,1973,Hà Giang
+per:hoang_minh_hieu,Hoàng Minh Hiếu,Hoàng Minh Hiếu,Q116949088,1976,Nghệ An
+per:hoang_cong_thuy,Hoàng Công Thủy,Hoàng Công Thủy,Q130236047,1966,Phú Thọ
+per:hoang_nghia_hieu,Hoàng Nghĩa Hiếu,Hoàng Nghĩa Hiếu,Q136711533,1967,
+per:hoang_minh_son,Hoàng Minh Sơn,Hoàng Minh Sơn,Q139738109,1969,Hưng Yên
+per:hoang_van_phong,Hoàng Văn Phong,Hoàng Văn Phong,Q2971491,1948,Hà Nội
+per:hoang_tuan_anh,Hoàng Tuấn Anh,Hoàng Tuấn Anh,Q10769061,1952,Đà Nẵng
+per:hoang_van_nghien,Hoàng Văn Nghiên,Hoàng Văn Nghiên,Q10769092,1941,Nam Định
+per:hoang_thi_thuy_lan,Hoàng Thị Thúy Lan,Hoàng Thị Thúy Lan,Q24957812,1966,Vĩnh Phúc
+per:hoang_van_cuong_chinh_khach,Hoàng Văn Cường,Hoàng Văn Cường (chính khách),Q30923901,1963,Nam Định
+per:hoang_van_lien,Hoàng Văn Liên,Hoàng Văn Liên,Q47506328,1965,Thanh Hóa
+per:hoang_van_chat,Hoàng Văn Chất,Hoàng Văn Chất,Q47506339,1959,Nam Định
+per:hoang_thanh_tung_chinh_khach,Hoàng Thanh Tùng,Hoàng Thanh Tùng (chính khách),Q49054233,1966,Nghệ An
+per:hoang_van_thuong,Hoàng Văn Thượng,Hoàng Văn Thượng,Q49055975,1948,Cao Bằng
+per:hoang_van_nghiem,Hoàng Văn Nghiệm,Hoàng Văn Nghiệm,Q61129021,1968,
+per:hoang_thi_ut_lan,Hoàng Thị Út Lan,Hoàng Thị Út Lan,Q61129510,,
+per:hoang_trong_hai,Hoàng Trọng Hải,Hoàng Trọng Hải,Q65174999,1954,Bình Định
+per:hoang_quoc_khanh_son_la,Hoàng Quốc Khánh,Hoàng Quốc Khánh (Sơn La),Q65164541,1969,
+per:hoang_van_huu,Hoàng Văn Hữu,Hoàng Văn Hữu,Q97166858,1966,Cao Bằng
+per:hoang_van_huay,Hoàng Văn Huây,Hoàng Văn Huây,Q134375947,1943,
+per:hoang_van_binh_lai_chau,Hoàng Văn Bình,Hoàng Văn Bình (Lai Châu),Q116941732,1970,Lai Châu
+per:hoang_quoc_khanh_cao_bang,Hoàng Quốc Khánh,Hoàng Quốc Khánh (Cao Bằng),Q116941779,1974,Lai Châu
+per:hoang_thi_doi,Hoàng Thị Đôi,Hoàng Thị Đôi,Q116979918,1977,Sơn La
+per:hoang_thi_thanh_thuy,Hoàng Thị Thanh Thúy,Hoàng Thị Thanh Thúy,Q116979920,1984,Tây Ninh
+per:hoang_trung_dung,Hoàng Trung Dũng,Hoàng Trung Dũng,Q120751695,1971,Hà Tĩnh
+per:hoang_van_ha,Hoàng Văn Hà,Hoàng Văn Hà,Q132853582,1976,Hải Dương
+per:hoang_quoc_vuong,Hoàng Quốc Vượng,Hoàng Quốc Vượng,Q140006653,1963,
+per:huynh_minh_chac,Huỳnh Minh Chắc,Huỳnh Minh Chắc,Q10769900,1955,Sóc Trăng
+per:huynh_thanh_lap,Huỳnh Thành Lập,Huỳnh Thành Lập,Q10769929,1956,Bến Tre
+per:huynh_phong_tranh,Huỳnh Phong Tranh,Huỳnh Phong Tranh,Q10769913,1955,Hậu Giang
+per:hoang_xuan_cu,Hoàng Xuân Cừ,Hoàng Xuân Cừ,Q16157220,1946,Phú Thọ
+per:hoang_dang_quang,Hoàng Đăng Quang,Hoàng Đăng Quang,Q10769151,1961,Quảng Trị
+per:huynh_ngoc_son,Huỳnh Ngọc Sơn,Huỳnh Ngọc Sơn,Q10769907,1951,Đà Nẵng
+per:hoang_xuan_chien,Hoàng Xuân Chiến,Hoàng Xuân Chiến,Q24958786,1961,Hưng Yên
+per:huynh_chien_thang,Huỳnh Chiến Thắng,Huỳnh Chiến Thắng,Q24958787,1965,Bến Tre
+per:huynh_thanh_chung,Huỳnh Thành Chung,Huỳnh Thành Chung,Q30921238,1968,Bến Tre
+per:hoang_duc_thang,Hoàng Đức Thắng,Hoàng Đức Thắng,Q30921761,1964,Quảng Trị
+per:huynh_thanh_liem,Huỳnh Thanh Liêm,Huỳnh Thanh Liêm,Q30921779,1966,
+per:huynh_cao_nhat,Huỳnh Cao Nhất,Huỳnh Cao Nhất,Q30921876,1970,Bình Định
+per:huynh_thanh_canh,Huỳnh Thanh Cảnh,Huỳnh Thanh Cảnh,Q30921898,1961,Bình Thuận
+per:huynh_minh_tuan,Huỳnh Minh Tuấn,Huỳnh Minh Tuấn,Q30922152,1980,Bến Tre
+per:huynh_thanh_tao,Huỳnh Thanh Tạo,Huỳnh Thanh Tạo,Q47506291,1961,Hậu Giang
+per:hoang_van_tra,Hoàng Văn Trà,Hoàng Văn Trà,Q47506351,1964,Nghệ An
+per:hoang_dinh_chung,Hoàng Đình Chung,Hoàng Đình Chung,Q47506370,1966,Thanh Hóa
+per:huynh_cach_mang,Huỳnh Cách Mạng,Huỳnh Cách Mạng,Q49054368,1965,Bình Định
+per:hoang_xuan_anh,Hoàng Xuân Ánh,Hoàng Xuân Ánh,Q49054560,1964,Cao Bằng
+per:hoang_dinh_toan,Hoàng Đình Toàn,Hoàng Đình Toàn,Q61129918,1958,
+per:huynh_minh_doan,Huỳnh Minh Đoàn,Huỳnh Minh Đoàn,Q61131335,1953,Đồng Tháp
+per:hoang_duc_lung,Hoàng Đức Lừng,Hoàng Đức Lừng,Q86008092,1968,Hưng Yên
+per:hoang_van_toai,Hoàng Văn Toái,Hoàng Văn Toái,Q109438263,1950,Hà Giang
+per:huynh_quoc_viet,Huỳnh Quốc Việt,Huỳnh Quốc Việt,Q109438393,1976,Cà Mau
+per:hoang_duc_chinh_hoa_binh,Hoàng Đức Chính,Hoàng Đức Chính (Hòa Bình),Q116921404,1981,Hòa Bình
+per:hoang_dao_cuong,Hoàng Đạo Cương,Hoàng Đạo Cương,Q133280063,1970,Hà Nội
+per:ha_hung_cuong,Hà Hùng Cường,Hà Hùng Cường,Q10770525,1953,Vĩnh Phúc
+per:huynh_thi_nhan,Huỳnh Thị Nhân,Huỳnh Thị Nhân,Q10769943,1952,
+per:huynh_dam,Huỳnh Đảm,Huỳnh Đảm,Q16157285,1948,Cà Mau
+per:huynh_van_be,Huỳnh Văn Be,Huỳnh Văn Be,Q10769951,1949,Bến Tre
+per:ha_quang_du,Hà Quang Dự,Hà Quang Dự,Q10770572,1945,Tuyên Quang
+per:ha_hoc_trac,Hà Học Trạc,Hà Học Trạc,Q10770528,1930,Hà Tĩnh
+per:ha_manh_tri,Hà Mạnh Trí,Hà Mạnh Trí,Q10770554,1942,Thái Bình
+per:ha_ngoc_chien,Hà Ngọc Chiến,Hà Ngọc Chiến,Q10770557,1957,Cao Bằng
+per:huynh_thanh_dat,Huỳnh Thành Đạt,Huỳnh Thành Đạt,Q10769930,1962,Bến Tre
+per:huynh_van_ti,Huỳnh Văn Tí,Huỳnh Văn Tí,Q10769962,1956,
+per:huynh_duc_hoa,Huỳnh Đức Hòa,Huỳnh Đức Hòa,Q10769970,1954,Quảng Nam
+per:ha_son_nhin,A Nhin (Hà Sơn Nhin),Hà Sơn Nhin,Q10770579,1954,Gia Lai
+per:ha_ban,Hà Ban,Hà Ban,Q16157120,1957,Quảng Nam
+per:huynh_duc_tho,Huỳnh Đức Thơ,Huỳnh Đức Thơ,Q20025805,1962,
+per:huynh_tan_viet,Huỳnh Tấn Việt,Huỳnh Tấn Việt,Q24957831,1962,Phú Yên
+per:huynh_the_ky,Huỳnh Thế Kỳ,Huỳnh Thế Kỳ,Q30920690,1956,
+per:huynh_vinh_ai,Huỳnh Vĩnh Ái,Huỳnh Vĩnh Ái,Q47506396,1957,Vĩnh Long
+per:ha_huy_thong,Hà Huy Thông,Hà Huy Thông,Q49055807,1957,Hà Nội
+per:huynh_van_luu,Huỳnh Văn Lưu,Huỳnh Văn Lưu,Q61130963,1961,Thành phố Hồ Chí Minh
+per:ha_kim_ngoc,Hà Kim Ngọc,Hà Kim Ngọc,Q86008135,1963,
+per:huynh_thi_hang,Huỳnh Thị Hằng,Huỳnh Thị Hằng,Q109441190,1975,Bình Phước
+per:huynh_thi_chien_hoa,Huỳnh Thị Chiến Hòa,Huỳnh Thị Chiến Hòa,Q114376657,1973,Quảng Ngãi
+per:ha_quoc_tri,Hà Quốc Trị,Hà Quốc Trị,Q116783514,1969,Phú Thọ
+per:ha_phuoc_thang,Hà Phước Thắng,Hà Phước Thắng,Q116844801,1976,Quảng Nam
+per:huynh_thi_phuc,Huỳnh Thị Phúc,Huỳnh Thị Phúc,Q116857381,1976,Đồng Nai
+per:ha_sy_huan,Hà Sỹ Huân,Hà Sỹ Huân,Q116858893,1978,Bắc Kạn
+per:ha_hong_hanh,Hà Hồng Hạnh,Hà Hồng Hạnh,Q116924372,1976,Khánh Hòa
+per:huynh_thi_anh_suong,Huỳnh Thị Ánh Sương,Huỳnh Thị Ánh Sương,Q116976150,1976,Quảng Ngãi
+per:huynh_thi_hang_nga,Huỳnh Thị Hằng Nga,Huỳnh Thị Hằng Nga,Q117014367,1982,Trà Vinh
+per:ho_nghia_dung,Hồ Nghĩa Dũng,Hồ Nghĩa Dũng,Q10771978,1950,Đà Nẵng
+per:ha_thi_khiet,Hà Thị Khiết Hà Thị Khích,Hà Thị Khiết,Q10770600,1950,Tuyên Quang
+per:ho_mau_ngoat,Hồ Mẫu Ngoạt,Hồ Mẫu Ngoạt,Q10771976,1956,
+per:ha_thanh_toan,GS.TS Hà Thanh Toàn,Hà Thanh Toàn,Q10770588,1963,
+per:ho_thi_cam_dao,Hồ Thị Cẩm Đào,Hồ Thị Cẩm Đào,Q10772012,1972,
+per:ha_van_khoat,Hà Văn Khoát,Hà Văn Khoát,Q10770639,1955,
+per:ha_sy_dong,Hà Sỹ Đồng,Hà Sỹ Đồng,Q10770580,1964,Quảng Trị
+per:hau_a_lenh,Hầu A Lềnh,Hầu A Lềnh,Q30919833,1973,Lào Cai
+per:ho_thanh_dinh,Hồ Thanh Đình,Hồ Thanh Đình,Q30920556,1960,Quảng Bình
+per:ho_thi_kim_thoa,Hồ Thị Kim Thoa,Hồ Thị Kim Thoa,Q30920904,1960,Nghệ An
+per:hau_van_ly,Hầu Văn Lý,Hầu Văn Lý,Q30922137,1967,Hà Giang
+per:ha_thi_nga,Hà Thị Nga,Hà Thị Nga,Q49054138,1969,Hòa Bình
+per:ho_quoc_dung,Hồ Quốc Dũng,Hồ Quốc Dũng,Q49054402,1966,Bình Định
+per:ho_sy_tien,Hồ Sỹ Tiến,Hồ Sỹ Tiến,Q61128500,1957,Nghệ An
+per:ho_quang_tuan,Hồ Quang Tuấn,Hồ Quang Tuấn,Q61129310,1967,Hà Tĩnh
+per:ho_thi_hoang_yen,Hồ Thị Hoàng Yến,Hồ Thị Hoàng Yến,Q114397936,1971,Bến Tre
+per:ha_duc_minh,Hà Đức Minh,Hà Đức Minh,Q116946986,1987,Lào Cai
+per:ha_tho_binh,Hà Thọ Bình,Hà Thọ Bình,,1968,Thanh Hóa
+per:ho_an_phong,Hồ An Phong,Hồ An Phong,,1971,Quảng Bình
+per:ho_sy_hung,Hồ Sỹ Hùng,Hồ Sỹ Hùng,,1968,Nghệ An
+per:huu_uoc,Nguyễn Hữu Ước,Hữu Ước,Q10772460,1953,Hưng Yên
+per:ho_duc_viet,Hồ Đức Việt,Hồ Đức Việt,Q10772080,1947,Nghệ An
+per:huu_tho,Nguyễn Hữu Thọ,Hữu Thọ,Q10772450,1932,Hà Nội
+per:ho_trong_ngu,Hồ Trọng Ngũ,Hồ Trọng Ngũ,Q10772029,1958,Hà Tĩnh
+per:ho_duc_phoc,Hồ Đức Phớc,Hồ Đức Phớc,Q16157242,1963,Nghệ An
+per:khuat_viet_dung,Khuất Việt Dũng,Khuất Việt Dũng,Q20025821,1959,Quảng Ninh
+per:ho_van_nam,Hồ Văn Năm,Hồ Văn Năm,Q30921773,1961,Đồng Nai
+per:ho_van_nien,Hồ Văn Niên,Hồ Văn Niên,Q30921912,1975,Gia Lai
+per:ksor_h_bo_khap,Ksor H'Bơ Khăp,Ksor H’Bơ Khăp,Q30921920,1982,Gia Lai
+per:k_choi,K'Choi,K'Choi,Q30922107,1958,Đắk Nông
+per:ho_van_thai,Hồ Văn Thái,Hồ Văn Thái,Q47506305,1968,Kiên Giang
+per:k_nhieu,K'Nhiễu,K'Nhiễu,Q47506324,1972,Lâm Đồng
+per:ho_thi_van,Hồ Thị Vân,Hồ Thị Vân,Q47506359,1983,Quảng Ngãi
+per:ksor_nham,Ksor Nham,Ksor Nham,Q49056060,1960,
+per:ho_dinh_trung,Hồ Đình Trung,Hồ Đình Trung,Q61130004,1962,
+per:ho_tien_thieu,Hồ Tiến Thiệu,Hồ Tiến Thiệu,Q97729654,1965,Lạng Sơn
+per:ho_van_mung,Hồ Văn Mừng,Hồ Văn Mừng,Q109682984,1977,
+per:ho_van_muoi_sinh_1969,Hồ Văn Mười,Hồ Văn Mười (sinh 1969),Q109779486,1969,Đà Nẵng
+per:kim_ngoc_thai,Kim Ngọc Thái,Kim Ngọc Thái,Q114395950,1969,Trà Vinh
+per:ho_xuan_hung,Hồ Xuân Hùng,Hồ Xuân Hùng,Q131928072,1951,Nghệ An
+per:ho_xuan_truong,Hồ Xuân Trường,Hồ Xuân Trường,,1979,Phú Thọ
+per:le_doan_hop,Lê Doãn Hợp,Lê Doãn Hợp,Q10787609,1951,Nghệ An
+per:le_cong_phung,Lê Công Phụng,Lê Công Phụng,Q10787596,1948,Thanh Hóa
+per:ksor_phuoc,Ksor Phước,Ksor Phước,Q10781878,1954,Gia Lai
+per:le_dung,Lê Dũng,Lê Dũng,Q10787622,1961,Hà Nội
+per:le_hien_van,Lê Hiền Vân,Lê Hiền Vân,Q16480033,1960,Hà Nội
+per:le_dien,Lê Diễn,Lê Diễn,Q10787606,1960,Bình Định
+per:la_ngoc_thoang,La Ngọc Thoáng,La Ngọc Thoáng,Q10783847,1957,Cao Bằng
+per:le_chiem,Lê Chiêm,Lê Chiêm,Q20025849,1958,Quảng Nam
+per:lam_thi_phuong_thanh,Lâm Thị Phương Thanh,Lâm Thị Phương Thanh,Q24958382,1967,Ninh Bình
+per:lam_quang_dai,Lâm Quang Đại,Lâm Quang Đại,Q24959189,1962,Hải Dương
+per:le_anh_tuan_chinh_khach,Lê Anh Tuấn,Lê Anh Tuấn (chính khách),Q30924004,1976,Hà Tĩnh
+per:leo_thi_lich,Leo Thị Lịch,Leo Thị Lịch,Q30921843,1969,Bắc Giang
+per:le_cong_nhuong,Lê Công Nhường,Lê Công Nhường,Q30921870,1963,Bình Định
+per:lam_van_man,Lâm Văn Mẫn,Lâm Văn Mẫn,Q49054507,1970,Sóc Trăng
+per:lam_minh_chieu,Lâm Minh Chiếu,Lâm Minh Chiếu,Q49055729,1953,An Giang
+per:lam_minh_chien,Lâm Minh Chiến,Lâm Minh Chiến,Q61129094,,
+per:lam_ngoc_huy,Lâm Ngọc Huy,Lâm Ngọc Huy,Q47536756,1951,
+per:le_danh_cuong,Lê Danh Cường,Lê Danh Cường,Q86009126,,
+per:le_duy_thanh,Lê Duy Thành,Lê Duy Thành,Q97160597,1969,
+per:lam_minh_thanh,Lâm Minh Thành,Lâm Minh Thành,Q109430244,1972,
+per:le_hoai_thanh,Lê Hoài Thanh,Lê Hoài Thanh,Q109439377,1950,
+per:lam_van_doan,Lâm Văn Đoan,Lâm Văn Đoan,Q116205526,1976,Hà Nội
+per:la_cong_phuong,La Công Phương,La Công Phương,,1972,Thái Nguyên
+per:le_hong_anh,Lê Hồng Anh,Lê Hồng Anh,Q6507069,1949,
+per:le_kha_phieu,Lê Khả Phiêu,Lê Khả Phiêu,Q949408,1931,Thanh Hóa
+per:le_hoang_quan,Lê Hoàng Quân (Lê Minh Sơn),Lê Hoàng Quân,Q10787642,1953,Bình Dương
+per:le_huy_ngo,Lê Huy Ngọ,Lê Huy Ngọ,Q10787645,1938,Thanh Hóa
+per:le_hoai_trung,Lê Hoài Trung,Lê Hoài Trung,Q10787630,1961,
+per:le_huu_duc_thuong_tuong,Lê Hữu Đức,Lê Hữu Đức (thượng tướng),Q10787685,1955,Phú Thọ
+per:le_luong_minh,Lê Lương Minh,Lê Lương Minh,Q1464707,1952,Thanh Hóa
+per:le_hai_binh,Lê Hải Bình,Lê Hải Bình,Q16480025,1977,
+per:le_hai_anh,Lê Hải Anh,Lê Hải Anh,Q20025856,1945,Thanh Hóa
+per:le_huy_vinh,Lê Huy Vịnh,Lê Huy Vịnh,Q24956381,1961,Hà Nội
+per:le_minh_chuan,Lê Minh Chuẩn,Lê Minh Chuẩn,Q47506363,1965,Thái Bình
+per:le_hung_dung_chinh_khach,Lê Hùng Dũng,Lê Hùng Dũng (chính khách),Q49054476,1957,Bạc Liêu
+per:le_hong_quang_an_giang,Lê Hồng Quang,Lê Hồng Quang (An Giang),Q49054646,1968,Kiên Giang
+per:le_huu_the,Lê Hữu Thể,Lê Hữu Thể,Q49055016,1958,
+per:le_hai_an,Lê Hải An,Lê Hải An,Q61132311,1971,Hà Tĩnh
+per:le_huynh_quoc,Lê Huỳnh Quốc,Lê Huỳnh Quốc,Q86009133,,
+per:le_hong_nam,Lê Hồng Nam,Lê Hồng Nam,Q97160619,1966,
+per:le_khanh_hai,Lê Khánh Hải,Lê Khánh Hải,Q97927041,1966,Quảng Trị
+per:le_huu_phuc,Lê Hữu Phúc,Lê Hữu Phúc,Q109436180,1954,
+per:le_huu_loc,Lê Hữu Lộc,Lê Hữu Lộc,Q109436189,1954,Bình Định
+per:le_hoa_binh,Lê Hòa Bình,Lê Hòa Bình,Q109452284,1970,Quảng Ngãi
+per:le_hoang_hai,Lê Hoàng Hải,Lê Hoàng Hải,Q116884417,1970,Nghệ An
+per:le_hoang_anh,Lê Hoàng Anh,Lê Hoàng Anh,Q116894412,1973,Thanh Hóa
+per:le_huu_tri,Lê Hữu Trí,Lê Hữu Trí,Q116924371,1968,Khánh Hòa
+per:le_hong_vinh,Lê Hồng Vinh,Lê Hồng Vinh,Q137643591,1974,Nghệ An
+per:le_hai_hoa,Lê Hải Hòa,Lê Hải Hòa,,,Nghệ An
+per:le_minh_huong,Lê Minh Hương,Lê Minh Hương,Q10787737,1936,Hà Tĩnh
+per:le_ngoc_hoan,Lê Ngọc Hoàn,Lê Ngọc Hoàn,Q25418315,1937,Hà Nội
+per:le_minh_hoan,Lê Minh Hoan,Lê Minh Hoan,Q16157439,1961,Đồng Tháp
+per:le_quang_huy,Lê Quang Huy,Lê Quang Huy,Q10787782,1966,
+per:le_phuoc_thanh,Lê Phước Thanh,Lê Phước Thanh,Q10787769,1956,Quảng Nam
+per:le_nam_gioi,Lê Nam Giới,Lê Nam Giới,Q10787749,1947,Cần Thơ
+per:le_minh_tri,Lê Minh Trí,Lê Minh Trí,Q16480107,1960,
+per:le_minh_hung,Lê Minh Hưng,Lê Minh Hưng,Q24254499,1970,Hà Tĩnh
+per:le_manh_ha,Lê Mạnh Hà,Lê Mạnh Hà,Q16157428,1957,Thừa Thiên Huế
+per:le_minh_khai,Lê Minh Khái,Lê Minh Khái,Q24957821,1964,Bạc Liêu
+per:le_minh_thong_tinh_gia,Lê Minh Thông,Lê Minh Thông (Tĩnh Gia),Q30923997,1961,Thanh Hóa
+per:le_quang_tri,Lê Quang Trí,Lê Quang Trí,Q30922054,1973,Tiền Giang
+per:le_ngoc_hai,Lê Ngọc Hải,Lê Ngọc Hải,Q47506358,1970,Quảng Nam
+per:le_quang_tung,Lê Quang Tùng,Lê Quang Tùng,Q47506391,1971,Hà Tĩnh
+per:le_ngoc_hung,Lê Ngọc Hưng,Lê Ngọc Hưng,Q47506392,1960,Yên Bái
+per:le_quang_cuong,Lê Quang Cường,Lê Quang Cường,Q49054346,1958,Hà Nội
+per:le_quang_hung_chinh_khach,Lê Quang Hùng,Lê Quang Hùng (chính khách),Q49054378,1962,Phú Thọ
+per:le_minh_hien_chinh_khach,Lê Minh Hiển,Lê Minh Hiền (chính khách),Q49056047,1963,Quảng Ngãi
+per:le_ngoc_nam_tuong_cong_an,Lê Ngọc Nam 1953,Lê Ngọc Nam (tướng công an),Q61128786,1953,Quảng Nam
+per:le_minh_hung_ha_tinh,Lê Minh Hùng,Lê Minh Hùng (Hà Tĩnh),Q61130779,1963,Hà Tĩnh
+per:le_quang_tien,Lê Quang Tiến,Lê Quang Tiến,Q65171726,,
+per:le_quang_manh,Lê Quang Mạnh,Lê Quang Mạnh,Q65171363,1974,
+per:le_quang_bon,Lê Quang Bốn,Lê Quang Bốn,Q86009152,1968,Nam Định
+per:le_ngoc_an,Lê Ngọc An,Lê Ngọc An,Q86009146,,
+per:le_minh_quy,Lê Minh Quý,Lê Minh Quý,Q86009140,,
+per:le_minh_ngan,Lê Minh Ngân,Lê Minh Ngân,Q86009137,1969,Quảng Bình
+per:le_quang_minh,Lê Quang Minh,Lê Quang Minh,Q97163862,1968,
+per:le_ngoc_tuan,Lê Ngọc Tuấn,Lê Ngọc Tuấn,Q109429585,1965,Bình Dương
+per:le_ngoc_quang,Lê Ngọc Quang,Lê Ngọc Quang,Q106107357,1974,Thanh Hóa
+per:le_manh_hung,Lê Mạnh Hùng,Lê Mạnh Hùng,Q116790160,1973,Hưng Yên
+per:le_nhat_thanh,Lê Nhật Thành,Lê Nhật Thành,Q116813881,1975,Ninh Bình
+per:le_ngoc_chau,Lê Ngọc Châu,Lê Ngọc Châu,Q132855394,1972,Hà Nội
+per:le_thanh_hai_chinh_khach,Lê Thanh Hải,Lê Thanh Hải (chính khách),Q6507746,1950,Tiền Giang
+per:le_quang_dao,Lê Quang Đạo,Lê Quang Đạo,Q6507548,1921,Bắc Ninh
+per:le_quy_vuong,Lê Quý Vương,Lê Quý Vương,Q10787792,1956,
+per:le_thanh_van_chinh_khach,Lê Thanh Vân,Lê Thanh Vân (chính khách),Q10787819,1964,
+per:le_thanh_binh,Lê Thanh Bình,Lê Thanh Bình,Q10787808,1956,Bến Tre
+per:le_thanh_cung,Lê Thanh Cung Chín Cung,Lê Thanh Cung,Q16157449,1954,Bình Dương
+per:le_quy_dam,Lê Quý Đạm,Lê Quý Đạm,Q20025867,1960,Nam Định
+per:le_thanh_long,Lê Thành Long,Lê Thành Long,Q24958947,1963,Thanh Hóa
+per:le_quoc_phong,Lê Quốc Phong,Lê Quốc Phong,Q26237024,1978,Thành phố Hồ Chí Minh
+per:le_quan,Lê Quân,Lê Quân,Q30921476,1974,Hà Nội
+per:le_thu_ha_chinh_khach,Lê Thu Hà,Lê Thu Hà (chính khách),Q47506297,1968,Hà Tĩnh
+per:le_thanh_do,Lê Thành Đô,Lê Thành Đô,Q47506389,1968,Thái Bình
+per:le_thanh_quang,Lê Thanh Quang,Lê Thanh Quang,Q49054419,1960,Khánh Hòa
+per:le_thai_ngoc,Lê Thái Ngọc,Lê Thái Ngọc,Q49054967,1957,Quảng Bình
+per:le_the_tiem,Lê Thế Tiệm,Lê Thế Tiệm,Q49056089,1949,Quảng Nam
+per:le_thanh_liem,Lê Thanh Liêm,Lê Thanh Liêm,Q49078490,1963,Bến Tre
+per:le_thi_minh_hieu,Lê Thị Minh Hiếu,Lê Thị Minh Hiếu,Q61129988,1968,
+per:le_thuc_anh,Lê Thúc Anh,Lê Thúc Anh,Q61133190,1943,
+per:le_thanh_phong_tham_phan,Lê Thanh Phong,Lê Thanh Phong (thẩm phán),Q65163178,1967,
+per:le_quoc_hung,Lê Quốc Hùng,Lê Quốc Hùng,Q86009158,1966,Thừa Thiên Huế
+per:le_thanh_hai_tuong_cong_an,Lê Thanh Hải,Lê Thanh Hải (tướng công an),Q86009170,1963,Quảng Nam
+per:le_quang_dao_sinh_nam_1971,Lê Quang Đạo (sinh năm 1971),Lê Quang Đạo (sinh năm 1971),Q98132926,,
+per:le_quoc_minh,Lê Quốc Minh,Lê Quốc Minh,Q98748545,1969,Nghệ An
+per:le_quoc_chinh,Lê Quốc Chỉnh,Lê Quốc Chỉnh,Q109441606,1968,Nam Định
+per:le_thanh_hoan,Lê Thanh Hoàn,Lê Thanh Hoàn,Q117000843,1976,Thanh Hóa
+per:le_thi_kim_dung,Lê Thị Kim Dung,Lê Thị Kim Dung,,1974,Vĩnh Phúc
+per:le_sy_vuong_ha,Lê Sỹ Vương Hà,Lê Sỹ Vương Hà,Q139254411,,
+per:le_van_dung,Lê Văn Dũng,Lê Văn Dũng,Q10787909,1945,Bến Tre
+per:le_thi_thu_ba,Lê Thị Thu Ba,Lê Thị Thu Ba,Q10787860,1956,
+per:le_thi_nga,Lê Thị Nga,Lê Thị Nga,Q10787854,1964,Hà Tĩnh
+per:le_tuan_tu,Lê Tuấn Tứ,Lê Tuấn Tứ,Q10787887,1958,Quảng Ngãi
+per:le_thi_thuy,Lê Thị Thủy,Lê Thị Thủy,Q24956955,1964,Nghệ An
+per:le_viet_chu,Lê Viết Chữ,Lê Viết Chữ,Q24957822,1963,Quảng Ngãi
+per:le_truong_luu,Lê Trường Lưu,Lê Trường Lưu,Q24957825,1963,Thừa Thiên Huế
+per:le_thi_thu_hong,Lê Thị Thu Hồng,Lê Thị Thu Hồng,Q30921839,1970,Thanh Hóa
+per:le_tan_toi,Lê Tấn Tới,Lê Tấn Tới,Q30921860,1969,Cà Mau
+per:le_thi_yen_chinh_khach,Lê Thị Yến,Lê Thị Yến (chính khách),Q47506295,1962,Phú Thọ
+per:le_thi_ai_nam,Lê Thị Ái Nam,Lê Thị Ái Nam,Q49054440,1963,Bạc Liêu
+per:le_thi_thu_hang,Lê Thị Thu Hằng,Lê Thị Thu Hằng,Q49054555,1972,Hà Nội
+per:le_tan_tao,Lê Tấn Tảo,Lê Tấn Tảo,Q61128519,,
+per:le_tien_chau,Lê Tiến Châu,Lê Tiến Châu,Q61128959,1969,Tây Ninh
+per:le_tien,Lê Tiến,Lê Tiến,Q65171729,1969,
+per:le_tri_thanh,Lê Trí Thanh,Lê Trí Thanh,Q86009179,1970,Quảng Nam
+per:le_van_tuong_cong_an,Lê Vân,Lê Vân (tướng công an),Q86009187,,
+per:le_tien_phuong,Lê Tiến Phương,Lê Tiến Phương,Q109436191,1957,
+per:le_trung_chinh,Lê Trung Chinh,Lê Trung Chinh,Q109440068,1969,Đà Nẵng
+per:le_tuan_phong,Lê Tuấn Phong,Lê Tuấn Phong,Q107190690,1974,Bình Thuận
+per:le_thi_thanh_lam,Lê Thị Thanh Lam,Lê Thị Thanh Lam,Q132600480,1974,Đồng Nai
+per:le_van_hieu,Lê Văn Hiệu,Lê Văn Hiệu,Q116789010,1967,
+per:le_van_dung_chinh_khach,Lê Văn Dũng,Lê Văn Dũng (chính khách),Q116817945,1966,Quảng Nam
+per:le_van_bang,Lê Văn Bàng,Lê Văn Bàng,Q140157335,1947,Ninh Bình
+per:le_vinh_tan,Lê Vĩnh Tân,Lê Vĩnh Tân,Q10787955,1958,Vĩnh Long
+per:le_van_hoang,Lê Văn Hoàng,Lê Văn Hoàng,Q10787913,,
+per:le_xuan_than,Lê Xuân Thân,Lê Xuân Thân,Q10787962,1961,Khánh Hòa
+per:le_van_thanh_ha_tay,Lê Văn Thành,Lê Văn Thành (Hà Tây),Q10787938,1947,
+per:le_xuan_duy,Lê Xuân Duy,Lê Xuân Duy,Q24958349,1962,Vĩnh Phúc
+per:le_van_thanh_chinh_khach,Lê Văn Thành,Lê Văn Thành (chính khách),Q49054321,1962,Hải Phòng
+per:le_van_khoa,Lê Văn Khoa,Lê Văn Khoa,Q49054355,1961,
+per:le_van_huong,Lê Văn Hưởng,Lê Văn Hưởng,Q49055214,1962,Đồng Tháp
+per:le_van_minh_trung_tuong,Lê Văn Minh,Lê Văn Minh (trung tướng),Q61128720,1958,Tây Ninh
+per:le_van_thang_tuong_cong_an,Lê Văn Thắng,Lê Văn Thắng (tướng công an),Q86009211,1963,
+per:le_van_sao,Lê Văn Sao,Lê Văn Sao,Q109439606,1967,
+per:le_van_han,Lê Văn Hẳn,Lê Văn Hẳn,Q107134484,1970,Trà Vinh
+per:le_van_tuyen,Lê Văn Tuyến,Lê Văn Tuyến,Q123852031,1973,
+per:le_van_ha,Lê Văn Hà,Lê Văn Hà,Q127869509,,Hà Tĩnh
+per:le_van_kham,Lê Văn Khảm,Lê Văn Khảm,Q116867152,1969,Bắc Ninh
+per:le_van_thin,Lê Văn Thìn,Lê Văn Thìn,Q116970164,1976,Phú Yên
+per:le_van_luong_sinh_nam_1968,Lê Văn Lương (sinh năm 1968),Lê Văn Lương (sinh năm 1968),Q120732816,1968,Hà Nam
+per:le_xuan_minh,Lê Xuân Minh,Lê Xuân Minh,Q133832467,1976,Hà Nội
+per:le_van_nung,Lê Văn Nưng,Lê Văn Nưng,,,
+per:le_xuan_thuan,Lê Xuân Thuân,Lê Xuân Thuân,,1971,Hải Dương
+per:le_van_huong,Lê Văn Hướng,Lê Văn Hướng,,1974,Hà Tĩnh
+per:le_van_loi_chinh_khach,Lê Văn Lợi,Lê Văn Lợi (chính khách),,1974,
+per:le_duc_thuy,Lê Đức Thúy,Lê Đức Thúy,Q10787996,1948,Hà Tĩnh
+per:ly_khanh_hong,Lý Khánh Hồng,Lý Khánh Hồng,Q10788087,1957,Vĩnh Long
+per:le_dac_lam,Lê Đắc Lâm,Lê Đắc Lâm,Q10787990,1958,Quảng Nam
+per:lo_van_muon,Lò Văn Muôn,Lò Văn Muôn,Q10788007,1961,
+per:le_dong_phong,Lê Đông Phong,Lê Đông Phong,Q10787982,1960,Long An
+per:le_dinh_son,Lê Đình Sơn,Lê Đình Sơn,Q24957843,1960,Hà Tĩnh
+per:le_dinh_nhuong,Lê Đình Nhường,Lê Đình Nhường,Q30920692,1962,Ninh Bình
+per:luu_binh_nhuong,Lưu Bình Nhưỡng,Lưu Bình Nhưỡng,Q30921515,1963,
+per:ly_tiet_hanh,Lý Tiết Hạnh,Lý Tiết Hạnh,Q30921873,1972,Bình Định
+per:lo_a_tu,Lò A Tư,Lò A Tư,Q47506314,1991,Lai Châu
+per:ly_duc_thuong_toa,Lý Đức (Thượng tọa Lý Minh Đức),Lý Đức (thượng tọa),Q49054235,1970,Sóc Trăng
+per:lo_van_giang,Lò Văn Giàng,Lò Văn Giàng,Q47506379,1956,Điện Biên
+per:lo_van_tien,Lò Văn Tiến,Lò Văn Tiến,Q47506387,1969,Điện Biên
+per:ly_thai_hai,Lý Thái Hải,Lý Thái Hải,Q49054489,1960,Cao Bằng
+per:le_duc_vinh,Lê Đức Vinh,Lê Đức Vinh,Q49054501,1965,Khánh Hòa
+per:ly_anh_dung,Lý Anh Dũng,Lý Anh Dũng,Q49056050,1961,
+per:le_dang_dung,Lê Đăng Dũng,Lê Đăng Dũng,Q61130546,1959,Quảng Trị
+per:le_xuan_duc,Lê Xuân Đức,Lê Xuân Đức,Q86009218,1964,Hưng Yên
+per:le_duc_thai,Lê Đức Thái,Lê Đức Thái,Q97446675,1967,Quảng Ninh
+per:lo_mai_trinh,Lò Mai Trinh,Lò Mai Trinh,Q109435483,1957,
+per:le_anh_duong,Lê Ánh Dương,Lê Ánh Dương,Q109430250,1966,Ninh Bình
+per:le_duc_tho_chinh_khach_sinh_1970,Lê Đức Thọ,Lê Đức Thọ (chính khách sinh 1970),Q127022886,1970,Phú Thọ
+per:le_dao_an_xuan,Lê Đào An Xuân,Lê Đào An Xuân,Q109439382,,
+per:lo_van_phuong,Lò Văn Phương,Lò Văn Phương,Q109875882,1967,Điện Biên
+per:lo_viet_phuong,Lò Việt Phương,Lò Việt Phương,Q116748775,1973,Sơn La
+per:ly_thi_lan,Lý Thị Lan,Lý Thị Lan,Q116896480,1974,Cao Bằng
+per:lo_thi_viet_ha,Lò Thị Việt Hà,Lò Thị Việt Hà,Q117021261,1977,Sơn La
+per:le_xuan_the,Lê Xuân Thế,Lê Xuân Thế,,1970,Vĩnh Long
+per:lu_ngoc_cu,Lữ Ngọc Cư,Lữ Ngọc Cư,Q10788893,1955,Quảng Ngãi
+per:luong_ngoc_toan,Lương Ngọc Toản,Lương Ngọc Toản,Q10788353,1937,
+per:luong_van_thanh,Lương Văn Thành,Lương Văn Thành,Q10788407,1960,
+per:luong_ngoc_binh,Lương Ngọc Bính,Lương Ngọc Bính,Q10788351,1955,Quảng Trị
+per:luong_cuong,Lương Cường,Lương Cường,Q18459548,1957,Phú Thọ
+per:lai_xuan_mon,Lại Xuân Môn,Lại Xuân Môn,Q30921862,1963,Nam Định
+per:lu_thanh_hai,Lữ Thanh Hải,Lữ Thanh Hải,Q30921936,1968,Bình Định
+per:ma_thi_thuy,Ma Thị Thúy,Ma Thị Thúy,Q30921967,1978,Tuyên Quang
+per:mai_khanh_chinh_tri_gia,Mai Khanh,Mai Khanh (chính trị gia),Q47506335,1974,Ninh Bình
+per:luu_duc_huy,Lưu Đức Huy,Lưu Đức Huy,Q47506341,1954,
+per:lu_van_hung,Lữ Văn Hùng,Lữ Văn Hùng,Q49054386,1963,
+per:luong_dinh_hong,Lương Đình Hồng,Lương Đình Hồng,Q49054853,1963,Hưng Yên
+per:luong_viet_hung,Lương Việt Hùng,Lương Việt Hùng,Q49055009,,
+per:luu_xuan_vinh,Lưu Xuân Vĩnh,Lưu Xuân Vĩnh,Q49055210,1961,Ninh Thuận
+per:luong_tam_quang,Lương Tam Quang,Lương Tam Quang,Q49056049,1965,Hưng Yên
+per:lu_quang_ngoi,Lữ Quang Ngời,Lữ Quang Ngời,Q86009323,1972,
+per:luu_phuoc_luong,Lưu Phước Lượng,Lưu Phước Lượng,Q86009260,1948,Thành phố Hồ Chí Minh
+per:luong_ngoc_duong,Lương Ngọc Dương,Lương Ngọc Dương,Q86009276,,
+per:luong_nguyen_minh_triet,Lương Nguyễn Minh Triết,Lương Nguyễn Minh Triết,Q109431325,1976,
+per:luong_quoc_doan,Lương Quốc Đoàn,Lương Quốc Đoàn,Q109438997,1970,Thái Bình
+per:mai_hoang,Mai Hoàng,Mai Hoàng,Q133874910,1979,Hưng Yên
+per:lai_van_hoan,Lại Văn Hoàn,Lại Văn Hoàn,Q116707263,1974,Thái Bình
+per:lai_the_nguyen,Thạc Sĩ Lại Thế Nguyên,Lại Thế Nguyên,Q116730645,1970,Thanh Hóa
+per:luu_van_trung,Lưu Văn Trung,Lưu Văn Trung,Q135285250,1974,
+per:ma_the_hong,Ma Thế Hồng,Ma Thế Hồng,,,
+per:luong_van_kiem,Lương Văn Kiểm,Lương Văn Kiểm,,1970,Nam Định
+per:mai_thuc_lan,Mai Thúc Lân,Mai Thúc Lân,Q10789971,1935,Quảng Nam
+per:nguyen_an_vinh,Nguyễn An Vinh,Nguyễn An Vinh,Q10798954,1940,Nghệ An
+per:nguyen_anh_dung_chinh_khach,Nguyễn Anh Dũng,Nguyễn Anh Dũng (chính khách),Q10798955,1959,Nam Định
+per:mai_the_duong,Mai Thế Dương,Mai Thế Dương,Q10789974,1954,Bắc Kạn
+per:mai_trong_nhuan,Mai Trọng Nhuận,Mai Trọng Nhuận,Q6773036,1952,Hà Tĩnh
+per:mai_van_ha,Mai Văn Hà,Mai Văn Hà,Q18459667,1962,
+per:mai_quang_phan,Mai Quang Phấn,Mai Quang Phấn,Q18459664,1953,Thanh Hóa
+per:mai_tien_dung_chinh_khach,Mai Tiến Dũng,Mai Tiến Dũng (chính khách),Q20025905,1959,Hà Nam
+per:mai_van_chinh,Mai Văn Chính,Mai Văn Chính,Q24958352,1961,Long An
+per:nguyen_anh_tri,Nguyễn Anh Trí,Nguyễn Anh Trí,Q30920721,,
+per:mai_sy_dien,Mai Sỹ Diến,Mai Sỹ Diến,Q30921674,1963,Thanh Hóa
+per:mong_van_tinh,Mong Văn Tình,Mong Văn Tình,Q30921688,1988,
+per:mai_thi_anh_tuyet,Mai Thị Ánh Tuyết,Mai Thị Ánh Tuyết,Q30921754,1960,
+per:nguyen_anh_tuan_chinh_khach,Nguyễn Anh Tuấn,Nguyễn Anh Tuấn (chính khách),Q30924053,1979,Thanh Hóa
+per:mua_a_vang,Mùa A Vảng,Mùa A Vảng,Q30922114,1983,Điện Biên
+per:mai_thi_phuong_hoa,Mai Thị Phương Hoa,Mai Thị Phương Hoa,Q47506330,1971,Nam Định
+per:mua_a_son,Mùa A Sơn,Mùa A Sơn,Q10796270,1964,Điện Biên
+per:mai_truc,Mai Trực,Mai Trực,Q49054607,1957,Khánh Hòa
+per:mai_van_ninh,Mai Văn Ninh,Mai Văn Ninh,Q49055932,1957,Thanh Hóa
+per:nguyen_anh_tuan_ha_noi,Nguyễn Anh Tuấn,Nguyễn Anh Tuấn (Hà Nội),Q61128502,1957,Hà Nội
+per:mai_ai_truc,Mai Ái Trực,Mai Ái Trực,Q61128670,1946,Bình Định
+per:nguyen_bien_thuy,Nguyễn Biên Thùy,Nguyễn Biên Thùy,Q61129931,1970,Bến Tre
+per:nguyen_anh_tuan_thai_binh,Nguyễn Anh Tuấn,Nguyễn Anh Tuấn (Thái Bình),Q86010360,1962,
+per:mai_van_huynh,Mai Văn Huỳnh,Mai Văn Huỳnh,Q109430242,1965,Kiên Giang
+per:nghiem_xuan_thanh,Nghiêm Xuân Thành,Nghiêm Xuân Thành,Q109438994,1969,Phú Thọ
+per:mai_dai_tu,Mai Đại Từ,Mai Đại Từ,Q109429820,1948,
+per:mai_van_hai,Mai Văn Hải,Mai Văn Hải,Q117000838,1973,Thanh Hóa
+per:nguyen_ba_hung,Nguyễn Bá Hùng,Nguyễn Bá Hùng,Q140050802,1961,
+per:nguyen_chi_vinh,Nguyễn Chí Vịnh,Nguyễn Chí Vịnh,Q10799008,1959,Hà Nội
+per:nguyen_ba_thanh,Nguyễn Bá Thanh,Nguyễn Bá Thanh,Q10798976,1953,Quảng Nam
+per:nguyen_chi_dung_chinh_khach,Nguyễn Chí Dũng,Nguyễn Chí Dũng (chính khách),Q10799005,1960,Hà Tĩnh
+per:nguyen_bac_son,Nguyễn Bắc Son,Nguyễn Bắc Son,Q10798983,1953,
+per:nguyen_cong_tan,Nguyễn Công Tạn,Nguyễn Công Tạn,Q10799023,1935,Thái Bình
+per:nguyen_bac_viet_chinh_khach,Nguyễn Bắc Việt,Nguyễn Bắc Việt (chính khách),Q10798984,1961,
+per:nguyen_cong_ngo,Nguyễn Công Ngọ,Nguyễn Công Ngọ,Q16157693,1954,Bắc Ninh
+per:nguyen_cong_nghiep,Nguyễn Công Nghiệp,Nguyễn Công Nghiệp,Q20025936,1954,Thái Bình
+per:nguyen_chien,Nguyễn Chiến (Nguyễn Văn Chiến),Nguyễn Chiến,Q30921220,1963,Hà Nội
+per:nguyen_ba_son,Nguyễn Bá Sơn,Nguyễn Bá Sơn,Q30921649,1963,Đà Nẵng
+per:nguyen_bon,Nguyễn Bốn,Nguyễn Bốn,Q49054632,1962,Quảng Nam
+per:nguyen_chi_thanh_tong_cuc_an_ninh,Nguyễn Chí Thành,Nguyễn Chí Thành (Tổng cục An ninh),Q49055581,,
+per:nguyen_chi_dung_thieu_tuong,Nguyễn Chí Dũng,Nguyễn Chí Dũng (thiếu tướng),Q49055592,1949,Long An
+per:nguyen_cong_son,Nguyễn Công Sơn,Nguyễn Công Sơn,Q49056096,,
+per:nguyen_chi_thanh_giam_doc_cong_an,Nguyễn Chí Thành,Nguyễn Chí Thành (giám đốc công an),Q49056130,1956,Bà Rịa – Vũng Tàu
+per:nguyen_chien_thang,Nguyễn Chiến Thắng,Nguyễn Chiến Thắng,Q86010374,1955,Khánh Hòa
+per:nguyen_bach_dang,Nguyễn Bạch Đằng,Nguyễn Bạch Đằng,Q86010372,,
+per:nguyen_cong_long,Nguyễn Công Long,Nguyễn Công Long,Q116884867,1970,Phú Thọ
+per:nguyen_cong_hoang,Nguyễn Công Hoàng,Nguyễn Công Hoàng,Q116982967,1974,Thái Nguyên
+per:nguyen_ba_luc,Nguyễn Bá Lực,Nguyễn Bá Lực,,1972,Nghệ An
+per:nguyen_dy_nien,Nguyễn Dy Niên,Nguyễn Dy Niên,Q10799078,1935,Thanh Hóa
+per:nguyen_doan_khanh,Nguyễn Doãn Khánh,Nguyễn Doãn Khánh,Q10799057,1956,Hà Tĩnh
+per:nguyen_hoang_anh_chinh_tri_gia,Nguyễn Hoàng Anh,Nguyễn Hoàng Anh (chính trị gia),Q16157745,1963,Hải Phòng
+per:nguyen_hoai_phuong,Nguyễn Hoài Phương,Nguyễn Hoài Phương,Q10799099,1964,Cần Thơ
+per:nguyen_duy_huu,Nguyễn Duy Hữu,Nguyễn Duy Hữu,Q10799073,1963,Thái Bình
+per:nguyen_huy_hieu,Nguyễn Huy Hiệu,Nguyễn Huy Hiệu,Q10799108,1947,Nam Định
+per:nguyen_doan_anh,Nguyễn Doãn Anh,Nguyễn Doãn Anh,Q24955863,1967,Hà Nội
+per:nguyen_van_thao,Nguyễn Văn Thao (Nguyễn Hoàng Thao) Phạm Văn Thao,Nguyễn Văn Thao,Q30921692,1963,
+per:nguyen_huy_thai,Nguyễn Huy Thái,Nguyễn Huy Thái,Q30921859,1968,Ninh Bình
+per:nguyen_hoang_mai,Nguyễn Hoàng Mai,Nguyễn Hoàng Mai,Q30922053,1965,Long An
+per:nguyen_duong_thai,Nguyễn Dương Thái,Nguyễn Dương Thái,Q47506282,1962,Thái Bình
+per:nguyen_hoang_thuy,Nguyễn Hoàng Thủy,Nguyễn Hoàng Thủy,Q49054809,,
+per:nguyen_hoang_viet,Nguyễn Hoàng Việt Đinh Công Khoa,Nguyễn Hoàng Việt,Q49085649,1953,
+per:nguyen_duy_ngoc,Nguyễn Duy Ngọc,Nguyễn Duy Ngọc,Q49056012,1964,Hưng Yên
+per:nguyen_danh_cong,Nguyễn Danh Cộng,Nguyễn Danh Cộng,Q61128544,1957,
+per:nguyen_huy_canh,Nguyễn Huy Cảnh,Nguyễn Huy Cảnh,Q61128849,1968,Bắc Giang
+per:nguyen_huy_tien,Nguyễn Huy Tiến,Nguyễn Huy Tiến,Q61129148,1968,Thái Bình
+per:nguyen_duy_giang,Nguyễn Duy Giảng,Nguyễn Duy Giảng,Q61129200,1966,Hà Tĩnh
+per:nguyen_hoai_anh_chinh_khach,Nguyễn Hoài Anh,Nguyễn Hoài Anh (chính khách),Q109648805,1977,
+per:nguyen_duy_minh,Nguyễn Duy Minh,Nguyễn Duy Minh,Q116848857,1982,Quảng Nam
+per:nguyen_danh_tu,Nguyễn Danh Tú,Nguyễn Danh Tú,Q116938007,1981,Hà Nội
+per:nguyen_huy_dung,Nguyễn Huy Dũng,Nguyễn Huy Dũng,Q120052148,1983,Hà Nội
+per:nguyen_duy_lam,Nguyễn Duy Lâm,Nguyễn Duy Lâm,,1972,Thái Nguyên
+per:nguyen_hoang_giang,Nguyễn Hoàng Giang,Nguyễn Hoàng Giang,,1971,Hải Phòng
+per:nguyen_hoang_long,Nguyễn Hoàng Long,Nguyễn Hoàng Long,Q131160713,1976,Hà Nội
+per:nguyen_danh_thai,Nguyễn Danh Thái,Nguyễn Danh Thái,Q140697536,,Bắc Ninh
+per:nguyen_danh_huy,Nguyễn Danh Huy,Nguyễn Danh Huy,,1974,Quảng Bình
+per:nguyen_hong_quan_chinh_khach,Nguyễn Hồng Quân,Nguyễn Hồng Quân (chính khách),Q10799144,1949,Hải Dương
+per:nguyen_hanh_phuc,Nguyễn Hạnh Phúc,Nguyễn Hạnh Phúc,Q10799135,1959,Thái Bình
+per:nguyen_hoa_binh,Nguyễn Hòa Bình,Nguyễn Hòa Bình,Q10799132,1958,Quảng Ngãi
+per:nguyen_hong_dien,Nguyễn Hồng Diên,Nguyễn Hồng Diên,Q24953723,1965,Thái Bình
+per:nguyen_hong_linh,Nguyễn Hồng Lĩnh,Nguyễn Hồng Lĩnh,Q10799141,1964,
+per:nguyen_huu_chi_chinh_khach,Nguyễn Hữu Chí,Nguyễn Hữu Chí (chính khách),Q10799154,1957,Đồng Tháp
+per:nguyen_huu_cuong,Nguyễn Hữu Cường,Nguyễn Hữu Cường,Q10799158,1954,Quảng Bình
+per:nguyen_huu_hoai,Nguyễn Hữu Hoài,Nguyễn Hữu Hoài,Q30921268,1958,Quảng Bình
+per:nguyen_huu_chinh_tham_phan,Nguyễn Hữu Chính,Nguyễn Hữu Chính (thẩm phán),Q30923976,1963,Hải Dương
+per:nguyen_huu_cau_chinh_khach,Nguyễn Hữu Cầu,Nguyễn Hữu Cầu (chính khách),Q30923983,1962,Nghệ An
+per:nguyen_hong_hai_chinh_khach,Nguyễn Hồng Hải,Nguyễn Hồng Hải (chính khách),Q30921902,1973,Bình Thuận
+per:nguyen_hai_hung,Nguyễn Hải Hưng,Nguyễn Hải Hưng,Q47506288,1966,Nam Định
+per:nguyen_hong_thai_tuong_quan_doi,Nguyễn Hồng Thái,Nguyễn Hồng Thái (tướng quân đội),Q47506346,1969,Hưng Yên
+per:nguyen_hong_van,Nguyễn Hồng Vân,Nguyễn Hồng Vân,Q47506352,1962,Phú Yên
+per:nguyen_huu_dung_chinh_khach,Nguyễn Hữu Dũng,Nguyễn Hữu Dũng (chính khách),Q49054338,1964,Quảng Trị
+per:nguyen_huong_giang,Nguyễn Hương Giang,Nguyễn Hương Giang,Q49054380,1969,
+per:nguyen_hai_phong_chinh_khach,Nguyễn Hải Phong,Nguyễn Hải Phong (chính khách),Q49055023,1958,Hà Nội
+per:nguyen_hong_son_hung_yen,Nguyễn Hồng Sơn,Nguyễn Hồng Sơn (Hưng Yên),Q49055816,1960,Hưng Yên
+per:nguyen_hai_ninh_chinh_khach,Nguyễn Hải Ninh,Nguyễn Hải Ninh (chính khách),Q61129349,1976,Hưng Yên
+per:nguyen_hai_tram,Nguyễn Hải Trâm,Nguyễn Hải Trâm,Q61130319,1975,Phú Thọ
+per:nguyen_hai_trung,Nguyễn Hải Trung,Nguyễn Hải Trung,Q61131145,1968,
+per:nguyen_ho_hai,Nguyễn Hồ Hải,Nguyễn Hồ Hải,Q109441623,1977,Thành phố Hồ Chí Minh
+per:nguyen_hong_thanh,Nguyễn Hồng Thanh,Nguyễn Hồng Thanh,Q109439376,1945,
+per:nguyen_hai_anh_chinh_khach,Nguyễn Hải Anh,Nguyễn Hải Anh (chính khách),Q116890760,1967,Hà Nội
+per:nguyen_hai_dung,Nguyễn Hải Dũng,Nguyễn Hải Dũng,Q116949045,1967,Nam Định
+per:nguyen_hai_nam,Nguyễn Hải Nam,Nguyễn Hải Nam,Q117001301,1977,Bắc Ninh
+per:nguyen_hong_phong_phu_tho,Nguyễn Hồng Phong,Nguyễn Hồng Phong (Phú Thọ),,1979,Phú Thọ
+per:nguyen_khac_nghien,Nguyễn Khắc Nghiên,Nguyễn Khắc Nghiên,Q10799232,1951,Phú Thọ
+per:nguyen_khoa_diem,Nguyễn Khoa Điềm,Nguyễn Khoa Điềm,Q10799213,1943,
+per:nguyen_khanh_pho_thu_tuong,Nguyễn Khánh,Nguyễn Khánh (Phó Thủ tướng),Q10799217,1928,Hà Nội
+per:nguyen_khanh_toan_thuong_tuong,Nguyễn Khánh Toàn,Nguyễn Khánh Toàn (thượng tướng),Q10799223,1945,Quảng Trị
+per:nguyen_huu_khanh,Nguyễn Hữu Khánh,Nguyễn Hữu Khánh,Q10799168,1942,An Giang
+per:nguyen_huu_duc_ha_noi,Nguyễn Hữu Đức,Nguyễn Hữu Đức (Hà Nội),Q10799206,1971,Hà Nội
+per:nguyen_kim_khoa,Nguyễn Kim Khoa,Nguyễn Kim Khoa,Q10799243,1955,Phú Thọ
+per:nguyen_huu_van,Nguyễn Hữu Vạn,Nguyễn Hữu Vạn,Q16480137,1956,Thái Bình
+per:nguyen_khac_chu,Nguyễn Khắc Chử,Nguyễn Khắc Chử,Q24957849,1958,Thái Bình
+per:nguyen_khac_dinh,Nguyễn Khắc Định,Nguyễn Khắc Định,Q30920504,1964,Hòa Bình
+per:nguyen_huu_the,Nguyễn Hữu Thể,Nguyễn Hữu Thể,Q47506397,1959,Ninh Bình
+per:nguyen_khac_hung_chinh_khach,Nguyễn Khắc Hưng,Nguyễn Khắc Hưng (chính khách),Q49054699,1955,Nam Định
+per:nguyen_huu_do_chinh_khach,Nguyễn Hữu Độ,Nguyễn Hữu Độ (chính khách),Q49055068,1962,
+per:nguyen_kim_hong_chinh_khach,Nguyễn Kim Hồng,Nguyễn Kim Hồng (chính khách),Q49055815,1959,Hà Nội
+per:nguyen_huu_duc_dong_thap,Nguyễn Hữu Đức,Nguyễn Hữu Đức (Đồng Tháp),Q49055822,1966,
+per:nguyen_khac_khanh,Nguyễn Khắc Khanh,Nguyễn Khắc Khanh,Q61128570,,
+per:nguyen_huu_dong,Nguyễn Hữu Đông,Nguyễn Hữu Đông,Q86010400,1972,
+per:nguyen_khac_thuy,Nguyễn Khắc Thủy,Nguyễn Khắc Thủy,Q86010405,,
+per:nguyen_khac_toan,Nguyễn Khắc Toàn,Nguyễn Khắc Toàn,Q97164015,1970,Khánh Hòa
+per:nguyen_huu_nghia,Nguyễn Hữu Nghĩa,Nguyễn Hữu Nghĩa,Q109431316,1972,Hà Nội
+per:nguyen_khac_than,Nguyễn Khắc Thận,Nguyễn Khắc Thận,Q107289491,1974,Thái Bình
+per:nguyen_huu_thong,Nguyễn Hữu Thông,Nguyễn Hữu Thông,Q116869155,1981,Bình Thuận
+per:nguyen_huu_manh_tuong_linh_cong_an,Nguyễn Hữu Mạnh,Nguyễn Hữu Mạnh (tướng lĩnh Công an),Q139323875,1977,Thanh Hóa
+per:nguyen_minh_triet,Nguyễn Minh Triết,Nguyễn Minh Triết,Q57400,1942,
+per:nguyen_minh_hien,Nguyễn Minh Hiển,Nguyễn Minh Hiển,Q10799276,1948,Thái Bình
+per:nguyen_minh_quang_bo_truong,Nguyễn Minh Quang,Nguyễn Minh Quang (bộ trưởng),Q10799285,1953,Hà Tĩnh
+per:nguyen_lam_thanh,Nguyễn Lâm Thành,Nguyễn Lâm Thành,Q10799262,1964,Lạng Sơn
+per:nguyen_minh_chu,Nguyễn Minh Chữ,Nguyễn Minh Chữ,Q10799274,1946,Cần Thơ
+per:nguyen_lan_hieu,Nguyễn Lân Hiếu,Nguyễn Lân Hiếu,Q20025976,1972,Hưng Yên
+per:nguyen_long_cang,Nguyễn Long Cáng,Nguyễn Long Cáng,Q24955916,,Quảng Nam
+per:nguyen_kim_son,Nguyễn Kim Sơn,Nguyễn Kim Sơn,Q30923376,1966,Hải Phòng
+per:nguyen_minh_hoang_thieu_tuong,Nguyễn Minh Hoàng,Nguyễn Minh Hoàng (thiếu tướng),Q30923954,1960,Thành phố Hồ Chí Minh
+per:nguyen_minh_duc_cong_an,Nguyễn Minh Đức,Nguyễn Minh Đức (công an),Q30923952,1969,Nam Định
+per:nguyen_mai_bo,Nguyễn Mai Bộ,Nguyễn Mai Bộ,Q30921744,1961,Hà Nội
+per:nguyen_long_hai,Nguyễn Long Hải,Nguyễn Long Hải,Q30924048,1976,Phú Thọ
+per:nguyen_minh_son,Nguyễn Minh Sơn,Nguyễn Minh Sơn,Q30922041,1972,Long An
+per:nguyen_kim_tuyen,Nguyễn Kim Tuyến,Nguyễn Kim Tuyến,Q30922047,1977,Tiền Giang
+per:nguyen_minh_hong,Nguyễn Minh Hồng,Nguyễn Minh Hồng,Q49056048,1944,Nghệ An
+per:nguyen_kim_quy,Nguyễn Kim Quy,Nguyễn Kim Quy,Q61128505,,
+per:nguyen_minh_chinh,Nguyễn Minh Chính,Nguyễn Minh Chính,Q61130830,1964,Lạng Sơn
+per:nguyen_minh_vu_nha_ngoai_giao_sinh_nam_1976,"Nguyễn Minh Vũ (nhà ngoại giao, sinh năm 1976)","Nguyễn Minh Vũ (nhà ngoại giao, sinh năm 1976)",Q86010417,1976,Hà Nội
+per:nguyen_lan_huong,Nguyễn Lan Hương,Nguyễn Lan Hương,Q97160790,1968,Thái Bình
+per:nguyen_minh_quang_hai_phong,Nguyễn Minh Quang,Nguyễn Minh Quang (Hải Phòng),Q108732911,1969,Hải Phòng
+per:nguyen_minh_triet_sinh_nam_1988,Nguyễn Minh Triết,Nguyễn Minh Triết (sinh năm 1988),Q118250901,1988,Cà Mau
+per:nguyen_minh_dung_chinh_khach,Thạc sĩ Nguyễn Minh Dũng,Nguyễn Minh Dũng (chính khách),,1980,Vĩnh Long
+per:nguyen_minh_vu_nha_ngoai_giao_sinh_nam_1965,Nguyễn Minh Vũ,"Nguyễn Minh Vũ (nhà ngoại giao, sinh năm 1965)",Q139254617,1965,Hà Nội
+per:nguyen_minh_hang_nha_ngoai_giao,Nguyễn Minh Hằng,Nguyễn Minh Hằng (nhà ngoại giao),Q140088193,1976,Hà Nội
+per:nguyen_minh_tuan,Nguyễn Minh Tuấn,Nguyễn Minh Tuấn,,1975,
+per:nguyen_manh_cam,Nguyễn Mạnh Cầm,Nguyễn Mạnh Cầm,Q10799296,1929,Nghệ An
+per:nguyen_manh_hien,Nguyễn Mạnh Hiển,Nguyễn Mạnh Hiển,Q10799298,1960,Hải Dương
+per:nguyen_ngoc_phi,Nguyễn Ngọc Phi,Nguyễn Ngọc Phi,Q10799349,1954,Vĩnh Phúc
+per:nguyen_ngoc_phuong,Nguyễn Ngọc Phương,Nguyễn Ngọc Phương,Q10799351,1959,Quảng Trị
+per:nguyen_manh_tien_chinh_khach,Nguyễn Mạnh Tiến,Nguyễn Mạnh Tiến (chính khách),Q10799303,1966,
+per:nguyen_ngoc_hai,Nguyễn Ngọc Hai,Nguyễn Ngọc Hai,Q10799333,1962,
+per:nguyen_manh_hung_thieu_tuong,Nguyễn Mạnh Hùng,Nguyễn Mạnh Hùng (thiếu tướng),Q20025979,1962,Phú Thọ
+per:nguyen_ngoc_quang,Nguyễn Ngọc Quang,Nguyễn Ngọc Quang,Q24957852,1958,Đà Nẵng
+per:nguyen_ngoc_thien_chinh_khach,Nguyễn Ngọc Thiện,Nguyễn Ngọc Thiện (chính khách),Q25418008,1959,Thừa Thiên Huế
+per:nguyen_manh_cuong_nam_dinh,Nguyễn Mạnh Cường,Nguyễn Mạnh Cường (Nam Định),Q30923937,1967,
+per:nguyen_ngoc_bao_doanh_nhan,Nguyễn Ngọc Bảo,Nguyễn Ngọc Bảo (doanh nhân),Q30924029,1967,Bắc Ninh
+per:nguyen_manh_dung_chinh_khach,Nguyễn Mạnh Dũng,Nguyễn Mạnh Dũng (chính khách),Q30924045,1973,Hà Nam
+per:nguyen_ngoc_luong,Tiến sĩ Nguyễn Ngọc Lương,Nguyễn Ngọc Lương,Q30921984,1978,Thanh Hóa
+per:nguyen_manh_hung_ha_tinh,Nguyễn Mạnh Hùng,Nguyễn Mạnh Hùng (Hà Tĩnh),Q47506298,1960,Hà Tĩnh
+per:nguyen_ngoc_bang,Nguyễn Ngọc Bằng,Nguyễn Ngọc Bằng,Q49055595,,
+per:nguyen_ngoc_phuc,Nguyễn Ngọc Phúc,Nguyễn Ngọc Phúc,Q61131171,,
+per:nguyen_ngoc_thai,Nguyễn Ngọc Thái,Nguyễn Ngọc Thái,Q85852925,1952,
+per:nguyen_manh_dung_tuong,Nguyễn Mạnh Dũng,Nguyễn Mạnh Dũng (tướng),Q86010419,,
+per:nguyen_manh_trung,Nguyễn Mạnh Trung,Nguyễn Mạnh Trung,Q86010426,,
+per:nguyen_ngoc_hieu_tuong_cong_an,Nguyễn Ngọc Hiếu,Nguyễn Ngọc Hiếu (tướng công an),Q86010431,,
+per:nguyen_ngoc_thanh_tuong_cong_an,Nguyễn Ngọc Thanh,Nguyễn Ngọc Thanh (tướng công an),Q124507636,1965,
+per:nguyen_manh_cuong_nghe_an,Nguyễn Mạnh Cường,Nguyễn Mạnh Cường (Nghệ An),Q135103116,1973,
+per:nguyen_ngoc_lam,Nguyễn Ngọc Lâm,Nguyễn Ngọc Lâm,Q132853269,1973,Hà Nội
+per:nguyen_manh_hung_hai_duong,Nguyễn Mạnh Hùng,Nguyễn Mạnh Hùng (Hải Dương),Q116850650,1975,
+per:nguyen_ngoc_son_chinh_khach,Nguyễn Ngọc Sơn,Nguyễn Ngọc Sơn (chính khách),Q116921399,1975,Hải Dương
+per:nguyen_ngoc_cuong,Nguyễn Ngọc Cương,Nguyễn Ngọc Cương,Q133136508,1968,Thái Bình
+per:nguyen_manh_hung_vinh_long,Nguyễn Mạnh Hùng (Vĩnh Long),Nguyễn Mạnh Hùng (Vĩnh Long),,1974,Trà Vinh
+per:nguyen_manh_hung_ha_noi,Nguyễn Mạnh Hùng,Nguyễn Mạnh Hùng (Hà Nội),,1974,Hà Nội
+per:nguyen_manh_dung_nha_ngoai_giao,Nguyễn Mạnh Dũng,Nguyễn Mạnh Dũng (nhà ngoại giao),Q138508767,,
+per:nguyen_phu_trong,Nguyễn Phú Trọng,Nguyễn Phú Trọng,Q318458,1944,Bắc Ninh
+per:nguyen_phong_quang,Nguyễn Phong Quang,Nguyễn Phong Quang,Q10799386,1949,Cần Thơ
+per:nguyen_nhu_hoat,Nguyễn Như Hoạt,Nguyễn Như Hoạt,Q10799364,1950,Bắc Ninh
+per:nguyen_phuong_nga,Nguyễn Phương Nga,Nguyễn Phương Nga,Q10799401,1963,Hà Nội
+per:nguyen_phuc_thanh,Nguyễn Phúc Thanh,Nguyễn Phúc Thanh,Q10799395,1944,
+per:nguyen_quang_cuong,Nguyễn Quang Cường,Nguyễn Quang Cường,Q10799417,1965,Hải Phòng
+per:nguyen_phuoc_loc,Nguyễn Phước Lộc,Nguyễn Phước Lộc,Q10799404,1970,
+per:nguyen_nhat,Nguyễn Nhật,Nguyễn Nhật,Q10799369,1961,Hà Tĩnh
+per:nguyen_nang_nguyen,Nguyễn Năng Nguyễn,Nguyễn Năng Nguyễn,Q18415852,1949,Hải Dương
+per:nguyen_phuong_nam,Nguyễn Phương Nam,Nguyễn Phương Nam,Q20025991,1957,Khánh Hòa
+per:nguyen_phu_cuong,Nguyễn Phú Cường,Nguyễn Phú Cường,Q24957809,1967,Bình Phước
+per:nguyen_nhan_chien,Nguyễn Nhân Chiến,Nguyễn Nhân Chiến,Q22298582,1960,Bắc Ninh
+per:nguyen_quang_tuan_bac_si,Nguyễn Quang Tuấn,Nguyễn Quang Tuấn (bác sĩ),Q30921474,1967,Hà Nội
+per:nguyen_phi_long,Nguyễn Phi Long,Nguyễn Phi Long,Q30921693,1976,Yên Bái
+per:nguyen_nhu_so,Nguyễn Như So,Nguyễn Như So,Q30921827,1957,Bắc Ninh
+per:nguyen_quang_ngoc,Nguyễn Quang Ngọc,Nguyễn Quang Ngọc,Q47506332,1968,Nam Định
+per:nguyen_phuong_tuan,Nguyễn Phương Tuấn,Nguyễn Phương Tuấn,Q47506336,1975,Ninh Bình
+per:nguyen_quang_duong,Nguyễn Quang Dương,Nguyễn Quang Dương,Q47506355,1962,Hà Nội
+per:nguyen_quang_dung_chinh_khach,Nguyễn Quang Dũng,Nguyễn Quang Dũng (chính khách),Q49054224,1966,Quảng Nam
+per:nguyen_ngoc_dong,Nguyễn Ngọc Đông,Nguyễn Ngọc Đông,Q47506372,1962,Ninh Bình
+per:nguyen_phi_hung_thieu_tuong,Nguyễn Phi Hùng,Nguyễn Phi Hùng (thiếu tướng),Q61128493,,
+per:nguyen_phong_hoa,Nguyễn Phong Hòa,Nguyễn Phong Hòa,Q61128497,,
+per:nguyen_phuc_thao,Nguyễn Phúc Thảo,Nguyễn Phúc Thảo,Q61128602,,
+per:nguyen_nho_trung,Nguyễn Nho Trung,Nguyễn Nho Trung,Q61128962,1963,Quảng Nam
+per:nguyen_quang_thuan,Nguyễn Quang Thuấn,Nguyễn Quang Thuấn,Q61129394,1959,Bắc Ninh
+per:nguyen_ngoc_van,Nguyễn Ngọc Vân,Nguyễn Ngọc Vân,Q61129885,1961,
+per:nguyen_ngoc_toan,Nguyễn Ngọc Toàn,Nguyễn Ngọc Toàn,Q86010433,1969,Thái Bình
+per:nguyen_ngoc_tuan_ha_noi,Nguyễn Ngọc Tuấn,Nguyễn Ngọc Tuấn (Hà Nội),Q126811570,1966,Hải Dương
+per:nguyen_phuong_thuy,Nguyễn Phương Thủy,Nguyễn Phương Thủy,Q116783425,1974,Hà Nội
+per:nguyen_ngoc_van_phu_tho,Nguyễn Ngọc Vân,Nguyễn Ngọc Vân (Phú Thọ),Q125088562,1976,Phú Thọ
+per:nguyen_quang_phuong,Nguyễn Quang Phương,Nguyễn Quang Phương,Q140936709,1976,Quảng Ninh
+per:nguyen_quang_khai,Nguyễn Quang Khai,Nguyễn Quang Khai,Q137922033,,Phú Thọ
+per:nguyen_quang_duc,Nguyễn Quang Đức,Nguyễn Quang Đức,,1971,Hà Nội
+per:nguyen_phu_binh,Nguyễn Phú Bình,Nguyễn Phú Bình,Q138719740,1948,
+per:nguyen_sinh_hung,Nguyễn Sinh Hùng,Nguyễn Sinh Hùng,Q4120045,1946,Nghệ An
+per:nguyen_quoc_trieu,Nguyễn Quốc Triệu,Nguyễn Quốc Triệu,Q10799450,1951,Bắc Ninh
+per:nguyen_thanh_binh_ha_tinh,Nguyễn Thanh Bình,Nguyễn Thanh Bình (Hà Tĩnh),Q10799480,1957,Hà Tĩnh
+per:nguyen_quan,Nguyễn Quân,Nguyễn Quân,Q10799433,1955,Thái Bình
+per:nguyen_quoc_hung_chinh_khach,Nguyễn Quốc Hùng,Nguyễn Quốc Hùng (chính khách),Q10799444,1969,Hải Phòng
+per:nguyen_sy_cuong,Nguyễn Sỹ Cương,Nguyễn Sỹ Cương,Q10799475,1961,
+per:nguyen_sy_hoi,Nguyễn Sỹ Hội,Nguyễn Sỹ Hội,Q10799476,1960,Nghệ An
+per:nguyen_sang_vang,Nguyễn Sáng Vang,Nguyễn Sáng Vang,Q10799458,1957,
+per:nguyen_quoc_cuong_chinh_khach_sinh_1952,Nguyễn Quốc Cường,"Nguyễn Quốc Cường (chính khách, sinh 1952)",Q7022933,1952,Bắc Giang
+per:nguyen_quoc_khanh_trung_tuong,Nguyễn Quốc Khánh,Nguyễn Quốc Khánh (trung tướng),Q18459921,1956,Nam Định
+per:nguyen_sy_thang,Nguyễn Sỹ Thăng,Nguyễn Sỹ Thăng,Q20025995,,
+per:nguyen_quoc_hung_chinh_khach,Nguyễn Quốc Hưng,Nguyễn Quốc Hưng (chính khách),Q30921477,1961,Vĩnh Phúc
+per:nguyen_thanh_hien_chinh_khach,Nguyễn Thanh Hiền,Nguyễn Thanh Hiền (chính khách),Q30924003,1961,Nghệ An
+per:nguyen_quoc_han,Nguyễn Quốc Hận,Nguyễn Quốc Hận,Q30921706,1965,
+per:nguyen_thanh_duong,Nguyễn Thanh Dương,Nguyễn Thanh Dương,Q47506343,1959,Thái Bình
+per:nguyen_son_tham_phan,Nguyễn Sơn,Nguyễn Sơn (thẩm phán),Q49055043,1957,Hà Nội
+per:nguyen_thanh_binh_tra_vinh,Nguyễn Thanh Bình,Nguyễn Thanh Bình (Trà Vinh),Q49055793,1955,Trà Vinh
+per:nguyen_thanh_ha,Nguyễn Thanh Hà,Nguyễn Thanh Hà,Q61128875,1950,
+per:nguyen_quoc_dung_nha_ngoai_giao,Nguyễn Quốc Dũng,Nguyễn Quốc Dũng (nhà ngoại giao),Q86010491,1964,Hà Nội
+per:nguyen_thanh_binh_an_giang,Nguyễn Thanh Bình,Nguyễn Thanh Bình (An Giang),Q65172105,1964,An Giang
+per:nguyen_quoc_duyet,Nguyễn Quốc Duyệt,Nguyễn Quốc Duyệt,Q65163337,1968,Hải Dương
+per:nguyen_thanh_banh,Nguyễn Thanh Bảnh,Nguyễn Thanh Bảnh,Q86010496,,
+per:nguyen_quoc_chung,Nguyễn Quốc Chung,Nguyễn Quốc Chung,Q109441189,1965,
+per:nguyen_sy,Nguyễn Sỹ,Nguyễn Sỹ,Q109436187,,
+per:nguyen_quoc_doan,Nguyễn Quốc Đoàn,Nguyễn Quốc Đoàn,Q109439584,1975,Ninh Bình
+per:nguyen_sy_quang,Nguyễn Sỹ Quang,Nguyễn Sỹ Quang,Q118251322,1970,Nghệ An
+per:nguyen_thanh_cam,Nguyễn Thanh Cầm,Nguyễn Thanh Cầm,Q117007119,1975,Hà Nội
+per:nguyen_quoc_luan,Nguyễn Quốc Luận,Nguyễn Quốc Luận,Q117023369,1975,Yên Bái
+per:nguyen_quoc_toan,Nguyễn Quốc Toản,Nguyễn Quốc Toản,,1978,Hải Phòng
+per:nguyen_sy_hiep,Nguyễn Sỹ Hiệp,Nguyễn Sỹ Hiệp,,1974,Nam Định
+per:nguyen_quoc_dzung,Nguyễn Quốc Dzũng,Nguyễn Quốc Dzũng,,,
+per:nguyen_thien_nhan,Nguyễn Thiện Nhân,Nguyễn Thiện Nhân,Q7022980,1953,Cà Mau
+per:nguyen_thanh_phong,Nguyễn Thành Phong,Nguyễn Thành Phong,Q10799539,1962,Bến Tre
+per:nguyen_thanh_nghi,Nguyễn Thanh Nghị,Nguyễn Thanh Nghị,Q10799491,1976,Cà Mau
+per:nguyen_thanh_son_can_tho,Nguyễn Thanh Sơn,Nguyễn Thanh Sơn (Cần Thơ),Q10799496,1957,Kiên Giang
+per:nguyen_thanh_son_kien_giang,Nguyễn Thanh Sơn,Nguyễn Thanh Sơn (Kiên Giang),Q10799497,1960,Kiên Giang
+per:nguyen_thanh_son_nha_ngoai_giao,Nguyễn Thanh Sơn,Nguyễn Thanh Sơn (nhà ngoại giao),Q10799499,1957,Hà Nội
+per:nguyen_thanh_bo,Nguyễn Thành Bộ,Nguyễn Thành Bộ,Q16157961,1956,
+per:nguyen_thanh_hai_nu_chinh_khach,Nguyễn Thanh Hải,Nguyễn Thanh Hải (nữ chính khách),Q10799486,1970,Hà Nội
+per:nguyen_thanh_hong,Nguyễn Thanh Hồng,Nguyễn Thanh Hồng,Q10799489,1960,Thanh Hóa
+per:nguyen_thanh_nam,Nguyễn Thanh Nam,Nguyễn Thanh Nam,Q10799490,1958,Cà Mau
+per:nguyen_thanh_tung_binh_dinh,Nguyễn Thanh Tùng,Nguyễn Thanh Tùng (Bình Định),Q10799508,,
+per:nguyen_thanh_cung_thuong_tuong,Nguyễn Thành Cung,Nguyễn Thành Cung (thượng tướng),Q18415856,1953,Tây Ninh
+per:nguyen_thanh_tuan,Nguyễn Thanh Tuấn,Nguyễn Thanh Tuấn,Q20026003,1954,Quảng Nam
+per:nguyen_thanh_phuong,Nguyễn Thanh Phương,Nguyễn Thanh Phương,Q10799494,1965,Vĩnh Long
+per:nguyen_thanh_long,Nguyễn Thanh Long,Nguyễn Thanh Long,Q24957446,1966,
+per:nguyen_thanh_xuan_dai_bieu_quoc_hoi,Nguyễn Thanh Xuân,Nguyễn Thanh Xuân (đại biểu Quốc hội),Q30921639,1962,
+per:nguyen_thanh_quang,Nguyễn Thanh Quang,Nguyễn Thanh Quang,Q30921656,1964,
+per:nguyen_thanh_cong,Nguyễn Thành Công,Nguyễn Thành Công,Q47506333,,Quảng Trị
+per:nguyen_thanh_long_sinh_1960,Nguyễn Thành Long,Nguyễn Thành Long (sinh 1960),Q86010510,1960,Thành phố Hồ Chí Minh
+per:nguyen_thanh_son_tuong_cong_an,Nguyễn Thanh Sơn,Nguyễn Thanh Sơn (tướng công an),Q86010499,,
+per:nguyen_thanh_ngoc,Nguyễn Thanh Ngọc,Nguyễn Thanh Ngọc,Q109441194,1969,Long An
+per:nguyen_thanh_son_ninh_binh,Nguyễn Thanh Sơn,Nguyễn Thanh Sơn (Ninh Bình),Q134398146,1967,Ninh Bình
+per:nguyen_thanh_nam_phu_tho,Nguyễn Thành Nam,Nguyễn Thành Nam (Phú Thọ),Q116959533,1966,Phú Thọ
+per:nguyen_thanh_tung_trung_tuong,Nguyễn Thanh Tùng (Trung tướng),Nguyễn Thanh Tùng (Trung tướng),Q135706383,1968,Hưng Yên
+per:nguyen_thanh_hai_tay_ninh,Nguyễn Thanh Hải (Tây Ninh),Nguyễn Thanh Hải (Tây Ninh),,1972,Ninh Bình
+per:nguyen_thanh_tu,Nguyễn Thanh Tú,Nguyễn Thanh Tú,,1978,Quảng Bình
+per:nguyen_thanh_lam,Nguyễn Thanh Lâm,Nguyễn Thanh Lâm,,1972,Hà Nội
+per:nguyen_thanh_tuan_sinh_nam_1976,Nguyễn Thanh Tuấn,Nguyễn Thanh Tuấn (sinh năm 1976),,1976,Thanh Hóa
+per:nguyen_thanh_nhan_chinh_khach,Nguyễn Thanh Nhàn,Nguyễn Thanh Nhàn (chính khách),,1977,
+per:nguyen_thi_binh,Nguyễn Thị Bình,Nguyễn Thị Bình,Q446909,1927,
+per:nguyen_thi_doan,Nguyễn Thị Doan,Nguyễn Thị Doan,Q7022967,1951,Hà Nam
+per:nguyen_the_thao,Nguyễn Thế Thảo,Nguyễn Thế Thảo,Q10799582,1952,Bắc Ninh
+per:nguyen_thai_binh_chinh_khach,Nguyễn Thái Bình,Nguyễn Thái Bình (chính khách),Q10799548,1954,Trà Vinh
+per:nguyen_the_tri,Nguyễn Thế Trị,Nguyễn Thế Trị,Q10799584,1940,Hải Dương
+per:nguyen_thuy_anh,Nguyễn Thúy Anh,Nguyễn Thúy Anh,Q10799565,1963,Phú Thọ
+per:nguyen_thai_hoc_phu_yen,Nguyễn Thái Học,Nguyễn Thái Học (Phú Yên),Q10799555,1972,Phú Yên
+per:nguyen_thi_huong_thao,Nguyễn Thị Hương Thảo,Nguyễn Thị Hương Thảo,Q10799616,1984,Hải Dương
+per:nguyen_thi_hang,Nguyễn Thị Hằng,Nguyễn Thị Hằng,Q16158047,1944,Thanh Hóa
+per:nguyen_thi_bich_ngoc,Nguyễn Thị Bích Ngọc,Nguyễn Thị Bích Ngọc,Q10799591,1961,Hà Nội
+per:nguyen_thi_hoang_anh,Nguyễn Thị Hoàng Anh,Nguyễn Thị Hoàng Anh,Q16480301,1960,
+per:nguyen_thanh_ut,Nguyễn Thành Út,Nguyễn Thành Út,Q20026004,1942,Phú Yên
+per:nguyen_the_ket,Nguyễn Thế Kết,Nguyễn Thế Kết,Q24956420,1959,
+per:nguyen_thi_hong_chinh_khach_sinh_1968,Nguyễn Thị Hồng,"Nguyễn Thị Hồng (chính khách, sinh 1968)",Q25417879,1968,
+per:nguyen_the_ky,Nguyễn Thế Kỷ,Nguyễn Thế Kỷ,Q24957346,1960,Nghệ An
+per:nguyen_thanh_tam,Nguyễn Thành Tâm,Nguyễn Thành Tâm,Q49054816,1974,Tây Ninh
+per:nguyen_thuy_hien_tham_phan,Nguyễn Thúy Hiền,Nguyễn Thúy Hiền (thẩm phán),Q49054975,1960,Thái Bình
+per:nguyen_the_bau,Nguyễn Thế Báu,Nguyễn Thế Báu,Q61128709,,Hải Phòng
+per:nguyen_thanh_tai,Nguyễn Thành Tài,Nguyễn Thành Tài,Q61129478,1952,
+per:nguyen_the_binh,Nguyễn Thế Bình,Nguyễn Thế Bình,Q86010513,,
+per:nguyen_thai_hung,Nguyễn Thái Hưng,Nguyễn Thái Hưng,Q109433997,1965,
+per:nguyen_the_tot,Nguyễn Thế Tốt,Nguyễn Thế Tốt,Q108335618,,
+per:nguyen_the_manh,Nguyễn Thế Mạnh,Nguyễn Thế Mạnh,Q116204805,1972,Hưng Yên
+per:nguyen_thanh_trung_chinh_khach,Nguyễn Thành Trung,Nguyễn Thành Trung (chính khách),Q117023362,1982,Hải Phòng
+per:nguyen_thuy_quynh_sinh_nam_1971,Nguyễn Thúy Quỳnh,Nguyễn Thúy Quỳnh (sinh năm 1971),Q132644517,1971,Nam Định
+per:nguyen_thi_bich_ngoc_chinh_khach_sinh_1971,Nguyễn Thị Bích Ngọc,"Nguyễn Thị Bích Ngọc (chính khách, sinh 1971)",Q140009773,1971,
+per:nguyen_thi_kim_ngan,Nguyễn Thị Kim Ngân,Nguyễn Thị Kim Ngân,Q10799637,1954,Bến Tre
+per:nguyen_thi_thanh_chinh_khach,Nguyễn Thị Thanh,Nguyễn Thị Thanh (chính khách),Q10799695,1967,Ninh Bình
+per:nguyen_thi_minh_hai_duong,Nguyễn Thị Minh,Nguyễn Thị Minh (Hải Dương),Q10799660,1960,Hải Dương
+per:nguyen_thi_kim_tien,Nguyễn Thị Kim Tiến,Nguyễn Thị Kim Tiến,Q10799643,1959,Hà Tĩnh
+per:nguyen_thi_quyet_tam,Nguyễn Thị Quyết Tâm,Nguyễn Thị Quyết Tâm,Q16480319,1958,Tây Ninh
+per:nguyen_thi_thanh_hoa,Nguyễn Thị Thanh Hòa,Nguyễn Thị Thanh Hòa,Q10799702,1954,Bắc Ninh
+per:nguyen_thi_nuong,Nguyễn Thị Nương,Nguyễn Thị Nương,Q10799681,1955,Cao Bằng
+per:nguyen_thi_kim_thuy,Nguyễn Thị Kim Thúy,Nguyễn Thị Kim Thúy,Q10799642,1967,Quảng Nam
+per:nguyen_thi_mai_hoa,Nguyễn Thị Mai Hoa,Nguyễn Thị Mai Hoa,Q10799656,1967,Nghệ An
+per:nguyen_thi_hong_minh,Nguyễn Thị Hồng Minh,Nguyễn Thị Hồng Minh,Q10799625,1951,
+per:nguyen_thi_thu_ha_chinh_tri_gia_sinh_1970,Nguyễn Thị Thu Hà,"Nguyễn Thị Thu Hà (chính trị gia, sinh 1970)",Q10799708,1970,Ninh Bình
+per:nguyen_thi_ngoc_lan,Nguyễn Thị Ngọc Lan,Nguyễn Thị Ngọc Lan,Q47506273,1985,Bắc Ninh
+per:nguyen_thi_nhu_y,Nguyễn Thị Như Ý,Nguyễn Thị Như Ý,Q30921771,1973,Lâm Đồng
+per:nguyen_thi_le_thuy,Nguyễn Thị Lệ Thủy,Nguyễn Thị Lệ Thủy,Q30921867,1968,Vĩnh Long
+per:nguyen_thi_mai_phuong,Nguyễn Thị Mai Phương,Nguyễn Thị Mai Phương,Q30921917,1970,Hà Nội
+per:nguyen_thi_minh_trang,Nguyễn Thị Minh Trang,Nguyễn Thị Minh Trang,Q30921952,1979,Vĩnh Long
+per:nguyen_thi_nghia_thu_truong,Nguyễn Thị Nghĩa,Nguyễn Thị Nghĩa (thứ trưởng),Q49054823,1959,
+per:nguyen_thi_thu_ha_chinh_tri_gia_sinh_1956,Nguyễn Thị Thu Hà,"Nguyễn Thị Thu Hà (chính trị gia, sinh 1956)",Q49055073,1956,Tây Ninh
+per:nguyen_thi_thanh_thuy,Nguyễn Thị Thanh Thủy,Nguyễn Thị Thanh Thủy,Q49055851,1963,
+per:nguyen_thi_nga_tham_phan,Nguyễn Thị Nga,Nguyễn Thị Nga (thẩm phán),Q61129855,1969,
+per:nguyen_thi_le,Nguyễn Thị Lệ,Nguyễn Thị Lệ,Q65172108,1967,
+per:nguyen_thi_phu_ha,Nguyễn Thị Phú Hà,Nguyễn Thị Phú Hà,Q116250560,1972,Hà Nội
+per:nguyen_thi_kim_anh,Nguyễn Thị Kim Anh,Nguyễn Thị Kim Anh,Q116866289,1973,Thanh Hóa
+per:nguyen_thi_ngoc_xuan,Nguyễn Thị Ngọc Xuân,Nguyễn Thị Ngọc Xuân,Q116866378,1985,Thành phố Hồ Chí Minh
+per:nguyen_thi_thu_nguyet,Nguyễn Thị Thu Nguyệt,Nguyễn Thị Thu Nguyệt,Q116874292,1972,Bình Định
+per:nguyen_thi_mai_thoa,Nguyễn Thị Mai Thoa,Nguyễn Thị Mai Thoa,Q116910303,1974,Hải Dương
+per:nguyen_thi_thu_ha_chinh_tri_gia_sinh_1978,Nguyễn Thị Thu Hà,"Nguyễn Thị Thu Hà (chính trị gia, sinh 1978)",Q116976085,1978,Quảng Ninh
+per:nguyen_thi_suu,Nguyễn Thị Sửu,Nguyễn Thị Sửu,Q117001290,1973,Thừa Thiên Huế
+per:nguyen_thi_thanh_mai,Nguyễn Thị Thanh Mai,Nguyễn Thị Thanh Mai,Q137945589,1974,Quảng Ngãi
+per:nguyen_thi_quyen_thanh,Nguyễn Thị Quyên Thanh,Nguyễn Thị Quyên Thanh,,1978,Vĩnh Long
+per:nguyen_tien_sam,Nguyễn Tiến Sâm,Nguyễn Tiến Sâm,Q10799752,1946,Hà Nội
+per:nguyen_thi_thu_thuy_tay_ninh,Nguyễn Thị Thu Thủy,Nguyễn Thị Thu Thủy (Tây Ninh),Q10799712,1957,Tây Ninh
+per:nguyen_trung_hieu,Nguyễn Trung Hiếu,Nguyễn Trung Hiếu,Q10799761,1959,Sóc Trăng
+per:nguyen_thi_xuan_my,Nguyễn Thị Xuân Mỹ,Nguyễn Thị Xuân Mỹ,Q10799736,1940,Hải Dương
+per:nguyen_tien_sinh,Nguyễn Tiến Sinh,Nguyễn Tiến Sinh,Q10799751,1968,
+per:nguyen_thi_thuy_khiem,Nguyễn Thị Thủy Khiêm,Nguyễn Thị Thủy Khiêm,Q10799722,1958,Long An
+per:nguyen_trung_nhan,Nguyễn Trung Nhân,Nguyễn Trung Nhân,Q16481377,1965,
+per:nguyen_thi_tuyen,Nguyễn Thị Tuyến,Nguyễn Thị Tuyến,Q10799724,1971,Hà Nội
+per:nguyen_trung_thu_trung_tuong,Nguyễn Trung Thu,Nguyễn Trung Thu (trung tướng),Q20026019,1954,Quảng Nam
+per:nguyen_thi_xuan_chinh_khach,Nguyễn Thị Xuân,Nguyễn Thị Xuân (chính khách),Q30921212,1967,Thái Bình
+per:nguyen_thi_thuy,Nguyễn Thị Thủy,Nguyễn Thị Thủy,Q30090896,1977,Bắc Ninh
+per:nguyen_thi_thao,Nguyễn Thị Thảo,Nguyễn Thị Thảo,Q30921241,1984,Nghệ An
+per:nguyen_thi_xuan_thu,Nguyễn Thị Xuân Thu,Nguyễn Thị Xuân Thu,Q30921931,1961,Thanh Hóa
+per:nguyen_truong_giang,Nguyễn Trường Giang,Nguyễn Trường Giang,Q30922103,1971,Bắc Ninh
+per:nguyen_thi_viet_nga,Nguyễn Thị Việt Nga,Nguyễn Thị Việt Nga,Q47506289,1976,Hải Dương
+per:nguyen_tien_hai_chinh_khach,Nguyễn Tiến Hải,Nguyễn Tiến Hải (chính khách),Q49054446,1965,Cà Mau
+per:nguyen_tri_tue,Nguyễn Trí Tuệ,Nguyễn Trí Tuệ,Q49055049,1963,
+per:nguyen_tri_thuc,Nguyễn Tri Thức,Nguyễn Tri Thức,Q108164910,1973,Bình Định
+per:nguyen_tien_thanh_sinh_1965,Nguyễn Tiến Thành,Nguyễn Tiến Thành (sinh 1965),Q109850719,1965,Thái Bình
+per:nguyen_thi_thuy_ngan,Nguyễn Thị Thúy Ngần,Nguyễn Thị Thúy Ngần,Q116729648,1972,
+per:nguyen_thi_yen_nhi,Nguyễn Thị Yến Nhi,Nguyễn Thị Yến Nhi,Q116735172,1980,Bến Tre
+per:nguyen_truc_son,Nguyễn Trúc Sơn,Nguyễn Trúc Sơn,Q116738553,1971,
+per:nguyen_truc_anh_chinh_khach,Nguyễn Trúc Anh,Nguyễn Trúc Anh (chính khách),Q116822545,1974,Hưng Yên
+per:nguyen_thi_thu_thuy_binh_dinh,Nguyễn Thị Thu Thủy,Nguyễn Thị Thu Thủy (Bình Định),Q116867624,1976,Bình Định
+per:nguyen_tien_nam,Nguyễn Tiến Nam,Nguyễn Tiến Nam,Q116970186,1967,Hà Tĩnh
+per:nguyen_thi_uyen_trang,Nguyễn Thị Uyên Trang,Nguyễn Thị Uyên Trang,Q117007128,1982,Tiền Giang
+per:nguyen_tan_dung,Nguyễn Tấn Dũng,Nguyễn Tấn Dũng,Q57600,1949,Cà Mau
+per:nguyen_tuan_khanh,Nguyễn Tuấn Khanh,Nguyễn Tuấn Khanh,Q10799805,1954,An Giang
+per:nguyen_tan_quyen,Nguyễn Tấn Quyên,Nguyễn Tấn Quyên,Q10799830,1953,Trà Vinh
+per:nguyen_trong_nhan,Nguyễn Trọng Nhân,Nguyễn Trọng Nhân,Q10799789,1930,Hà Nam
+per:nguyen_tan_tuan,Nguyễn Tấn Tuân,Nguyễn Tấn Tuân,Q10799833,1964,Khánh Hòa
+per:nguyen_tan_hung,Nguyễn Tấn Hưng,Nguyễn Tấn Hưng,Q16157896,1955,Bình Phước
+per:nguyen_tuan_minh,Nguyễn Tuấn Minh,Nguyễn Tuấn Minh,Q10799806,1953,Thành phố Hồ Chí Minh
+per:nguyen_tan_trinh,Nguyễn Tấn Trịnh,Nguyễn Tấn Trịnh,Q16157912,1936,Quảng Nam
+per:nguyen_trong_nghia,Nguyễn Trọng Nghĩa,Nguyễn Trọng Nghĩa,Q18459937,1962,
+per:nguyen_tuan_dung,Nguyễn Tuấn Dũng,Nguyễn Tuấn Dũng,Q18459940,,
+per:nguyen_tan_cuong,Nguyễn Tân Cương,Nguyễn Tân Cương,Q20025996,1966,Hà Nam
+per:nguyen_trong_binh_tuong_linh,Nguyễn Trọng Bình,Nguyễn Trọng Bình (tướng lĩnh),Q30921630,1965,Hà Nội
+per:nguyen_tuan_anh_ha_noi,Nguyễn Tuấn Anh,Nguyễn Tuấn Anh (Hà Nội),Q30924038,1964,Hà Nội
+per:nguyen_tuan_anh_thanh_hoa,Nguyễn Tuấn Anh,Nguyễn Tuấn Anh (Thanh Hóa),Q47506299,1975,Thanh Hóa
+per:nguyen_tao_sinh_nam_1963,Nguyễn Tạo,Nguyễn Tạo (sinh năm 1963),Q47506323,1963,Thừa Thiên Huế
+per:nguyen_tuan_anh_sinh_nam_1968,Nguyễn Tuấn Anh,Nguyễn Tuấn Anh (sinh năm 1968),Q86010547,1968,Nghệ An
+per:nguyen_truong_son,Nguyễn Trường Sơn,Nguyễn Trường Sơn,Q109438948,1964,Thành phố Hồ Chí Minh
+per:nguyen_tuong_van,Nguyễn Tường Văn,Nguyễn Tường Văn,Q109438858,1971,Hải Phòng
+per:nguyen_tam_hung,Nguyễn Tâm Hùng,Nguyễn Tâm Hùng,Q116796826,1969,Đà Nẵng
+per:nguyen_tran_phuong_tran,Nguyễn Trần Phượng Trân,Nguyễn Trần Phượng Trân,Q116847509,1976,Lâm Đồng
+per:nguyen_truong_thang,Nguyễn Trường Thắng,Nguyễn Trường Thắng,Q120764077,1970,Bình Dương
+per:nguyen_tam_chien,Nguyễn Tâm Chiến,Nguyễn Tâm Chiến,Q137101695,1948,Nghệ An
+per:nguyen_tuan_anh_chinh_khach_sinh_1975,"Nguyễn Tuấn Anh (chính khách, sinh 1975)","Nguyễn Tuấn Anh (chính khách, sinh 1975)",,1975,Hà Nội
+per:nguyen_trong_dong,Nguyễn Trọng Đông,Nguyễn Trọng Đông,,1969,
+per:nguyen_van_an,Nguyễn Văn An,Nguyễn Văn An,Q392709,1937,Nam Định
+per:nguyen_van_chi_sinh_nam_1945,Nguyễn Văn Chi,Nguyễn Văn Chi (sinh năm 1945),Q10799877,1945,Đà Nẵng
+per:nguyen_viet_thanh,Nguyễn Việt Thành,Nguyễn Việt Thành,Q10799860,1947,
+per:nguyen_van_binh_chinh_khach,Nguyễn Văn Bình,Nguyễn Văn Bình (chính khách),Q10799870,1961,Phú Thọ
+per:nguyen_van_chia,Nguyễn Văn Chia,Nguyễn Văn Chia,Q10799878,1942,
+per:nguyen_van_chien,Nguyễn Văn Chiền,Nguyễn Văn Chiền,Q10799880,1949,
+per:nguyen_van_danh_chinh_khach,Nguyễn Văn Danh,Nguyễn Văn Danh (chính khách),Q25417949,1962,Long An
+per:nguyen_van_du_chinh_khach,Nguyễn Văn Du,Nguyễn Văn Du (chính khách),Q24957833,1960,Bắc Kạn
+per:nguyen_viet_quan,Nguyễn Việt Quân,Nguyễn Việt Quân,Q24958386,1951,Cần Thơ
+per:nguyen_van_chi,Nguyễn Vân Chi,Nguyễn Vân Chi,Q24959112,1966,Nghệ An
+per:nguyen_van_canh_chinh_khach,Nguyễn Văn Cảnh,Nguyễn Văn Cảnh (chính khách),Q30923915,1977,Bình Định
+per:nguyen_van_chuong_chinh_khach,Nguyễn Văn Chương,Nguyễn Văn Chương (chính khách),Q30923947,1950,Thành phố Hồ Chí Minh
+per:nguyen_van_binh_doanh_nhan,Nguyễn Văn Bình,Nguyễn Văn Bình (doanh nhân),Q30923962,1957,Hải Phòng
+per:nguyen_van_danh,Nguyễn Văn Dành,Nguyễn Văn Dành,Q30921699,1966,Bình Dương
+per:nguyen_viet_thang_chinh_khach,Nguyễn Việt Thắng,Nguyễn Việt Thắng (chính khách),Q30924034,1948,Đồng Tháp
+per:nguyen_viet_tien,Nguyễn Viết Tiến,Nguyễn Viết Tiến,Q47506395,1959,Hà Tĩnh
+per:nguyen_tu_quynh,Nguyễn Tử Quỳnh,Nguyễn Tử Quỳnh,Q49054383,1959,Bắc Ninh
+per:nguyen_van_du_tham_phan,Nguyễn Văn Du Nguyễn Huy Du,Nguyễn Văn Du (thẩm phán),Q49054969,1963,Bắc Ninh
+per:nguyen_van_cao_chinh_khach,Nguyễn Văn Cao,Nguyễn Văn Cao (chính khách),Q49055212,1958,
+per:nguyen_van_cong,Nguyễn Văn Công,Nguyễn Văn Công,Q123508219,1960,
+per:nguyen_tat_loi,Nguyễn Tất Lợi,Nguyễn Tất Lợi,Q86010548,1960,
+per:nguyen_van_du,Nguyễn Văn Dư,Nguyễn Văn Dư,Q86010561,,
+per:nguyen_van_an_thai_binh,Nguyễn Văn An,Nguyễn Văn An (Thái Bình),Q116982950,1968,Thái Bình
+per:nguyen_viet_oanh,Nguyễn Việt Oanh,Nguyễn Việt Oanh,Q137535580,1980,Bắc Giang
+per:nguyen_van_giau,Nguyễn Văn Giàu,Nguyễn Văn Giàu,Q10799895,1957,An Giang
+per:nguyen_van_hien_ninh_binh,Nguyễn Văn Hiến,Nguyễn Văn Hiến (Ninh Bình),Q7023019,1954,Ninh Bình
+per:nguyen_van_hieu_thu_truong,Nguyễn Văn Hiếu,Nguyễn Văn Hiếu (thứ trưởng),Q10799902,1959,Bến Tre
+per:nguyen_van_hien,Nguyễn Văn Hiện,Nguyễn Văn Hiện,Q10799904,1954,Thái Bình
+per:nguyen_van_hung_thieu_tuong,Nguyễn Văn Hưng,Nguyễn Văn Hưng (thiếu tướng),Q10799911,1958,Bình Dương
+per:nguyen_van_huong_thuong_tuong,Nguyễn Văn Hưởng,Nguyễn Văn Hưởng (thượng tướng),Q10799913,1946,Quảng Ninh
+per:nguyen_van_hung_chinh_khach_sinh_1961,Nguyễn Văn Hùng,"Nguyễn Văn Hùng (chính khách, sinh 1961)",Q25417952,1961,Quảng Trị
+per:nguyen_van_hanh,Nguyễn Văn Hạnh,Nguyễn Văn Hạnh,Q24958790,1959,
+per:nguyen_van_hien_chinh_khach,Nguyễn Văn Hiển,Nguyễn Văn Hiển (chính khách),Q49054159,1974,Ninh Bình
+per:nguyen_van_hieu_gia_lai,Nguyễn Văn Hiếu,Nguyễn Văn Hiếu (Gia Lai),Q43674737,1976,Bình Định
+per:nguyen_van_duong,Nguyễn Văn Dương,Nguyễn Văn Dương,Q49054454,1961,
+per:nguyen_van_hoa_chinh_khach,Nguyễn Văn Hòa,Nguyễn Văn Hòa (chính khách),Q49054598,1963,Bình Định
+per:nguyen_van_hung_chinh_khach_sinh_1964,Nguyễn Văn Hùng,"Nguyễn Văn Hùng (chính khách, sinh 1964)",Q49054601,1964,Quảng Nam
+per:nguyen_van_hien_nghe_an,Nguyễn Văn Hiến,Nguyễn Văn Hiến (Nghệ An),Q49055762,1962,Nghệ An
+per:nguyen_van_hoa,Nguyễn Văn Hoa,Nguyễn Văn Hoa,Q61130026,1960,
+per:nguyen_van_hoa_kiem_sat_vien,Nguyễn Văn Hòa,Nguyễn Văn Hòa (kiểm sát viên),Q61131822,1965,
+per:nguyen_van_hien_thuong_tuong,Nguyễn Văn Hiền,Nguyễn Văn Hiền (thượng tướng),Q115914712,1967,Hòa Bình
+per:nguyen_van_gau,Nguyễn Văn Gấu,Nguyễn Văn Gấu,Q109440932,1967,
+per:nguyen_van_han,Nguyễn Văn Hận,Nguyễn Văn Hận,Q118250009,1971,
+per:nguyen_van_huy_thai_binh,Nguyễn Văn Huy,Nguyễn Văn Huy (Thái Bình),Q116982934,1979,Hòa Bình
+per:nguyen_van_khang,Nguyễn Văn Khang,Nguyễn Văn Khang,Q16158203,1956,Tiền Giang
+per:nguyen_van_linh_bac_giang,Nguyễn Văn Linh,Nguyễn Văn Linh (Bắc Giang),Q25417901,1959,Bắc Giang
+per:nguyen_van_man,Nguyễn Văn Man,Nguyễn Văn Man,Q30921272,1966,Quảng Bình
+per:nguyen_van_khanh_trung_tuong,Nguyễn Văn Khánh,Nguyễn Văn Khánh (trung tướng),Q30924002,1959,Phú Thọ
+per:nguyen_van_loi_gia_dinh,Nguyễn Văn Lợi Tám Lợi,Nguyễn Văn Lợi (Gia Định),Q30924046,1961,
+per:nguyen_van_nghia_tuong,Nguyễn Văn Nghĩa,Nguyễn Văn Nghĩa (tướng),Q49054887,1964,Bắc Giang
+per:nguyen_van_ngoc_trung_tuong,Nguyễn Văn Ngọc,Nguyễn Văn Ngọc (trung tướng),Q49055404,1957,
+per:nguyen_van_luu_trung_tuong,Nguyễn Văn Lưu,Nguyễn Văn Lưu (trung tướng),Q61128710,,
+per:nguyen_van_lang,Nguyễn Văn Lạng,Nguyễn Văn Lạng,Q65175052,1953,Ninh Bình
+per:nguyen_van_khao,Nguyễn Văn Khảo,Nguyễn Văn Khảo,Q97160861,,
+per:nguyen_van_minh_tuong_cong_an,Nguyễn Văn Minh,Nguyễn Văn Minh (tướng công an),Q97927045,,
+per:nguyen_van_nam_trung_tuong,Nguyễn Văn Nam,Nguyễn Văn Nam (trung tướng),Q129900228,1966,
+per:nguyen_van_manh_chinh_khach,Nguyễn Văn Mạnh,Nguyễn Văn Mạnh (chính khách),Q117023329,1978,Vĩnh Phúc
+per:nguyen_van_long_si_quan,Nguyễn Văn Long,Nguyễn Văn Long (sĩ quan),Q135182082,1974,Bắc Ninh
+per:nguyen_van_nganh,Nguyễn Văn Ngạnh,Nguyễn Văn Ngạnh,Q138503071,1940,Thừa Thiên Huế
+per:nguyen_van_thanh_chinh_khach,Nguyễn Văn Thành,Nguyễn Văn Thành (chính khách),Q10799984,1957,Ninh Bình
+per:nguyen_van_nen,Nguyễn Văn Nên,Nguyễn Văn Nên,Q10799955,1957,Tây Ninh
+per:nguyen_van_rop,Nguyễn Văn Rốp,Nguyễn Văn Rốp,Q10799972,1949,Tây Ninh
+per:nguyen_van_than_trung_tuong,Nguyễn Văn Thân,Nguyễn Văn Thân (trung tướng),Q10799987,1945,Ninh Bình
+per:nguyen_van_thong_hung_yen,Nguyễn Văn Thông,Nguyễn Văn Thông (Hưng Yên),Q24957558,1956,Hưng Yên
+per:nguyen_van_son_thuong_tuong,Nguyễn Văn Sơn,Nguyễn Văn Sơn (thượng tướng),Q25418519,1961,Quảng Nam
+per:nguyen_van_than_chinh_khach,Nguyễn Văn Thân,Nguyễn Văn Thân (chính khách),Q30923911,1955,Thái Bình
+per:nguyen_van_quyen_chinh_khach,Nguyễn Văn Quyền,Nguyễn Văn Quyền (chính khách),Q30923995,1953,Ninh Bình
+per:nguyen_van_son_ha_giang,Nguyễn Văn Sơn,Nguyễn Văn Sơn (Hà Giang),Q49054325,1964,Hà Giang
+per:nguyen_van_quang_hoa_binh,Nguyễn Văn Quang,Nguyễn Văn Quang (Hòa Bình),Q49054467,1959,Hòa Bình
+per:nguyen_van_quang_vinh_long,Nguyễn Văn Quang,Nguyễn Văn Quang (Vĩnh Long),Q49054484,1959,Đồng Tháp
+per:nguyen_van_phong,Nguyễn Văn Phóng,Nguyễn Văn Phóng,Q49054793,1960,Hưng Yên
+per:nguyen_van_thuan,Nguyễn Văn Thuân,Nguyễn Văn Thuân,Q49055046,1958,
+per:nguyen_van_phuc_chinh_khach_sinh_nam_1974,Nguyễn Văn Phúc,Nguyễn Văn Phúc (chính khách sinh năm 1974),Q49055064,1974,Long An
+per:nguyen_van_son_tuyen_quang,Nguyễn Văn Sơn,Nguyễn Văn Sơn (Tuyên Quang),Q49055209,1970,
+per:nguyen_van_phung_chinh_khach,Nguyễn Văn Phụng,Nguyễn Văn Phụng (chính khách),Q49055314,1960,Thành phố Hồ Chí Minh
+per:nguyen_van_thanh_chinh_khach,Nguyễn Văn Thanh,Nguyễn Văn Thanh (chính khách),Q49055795,1956,Cần Thơ
+per:nguyen_van_quang,Nguyễn Văn Quảng,Nguyễn Văn Quảng,Q61129687,1969,Hải Phòng
+per:nguyen_van_quang_kiem_sat_vien,Nguyễn Văn Quang,Nguyễn Văn Quang (kiểm sát viên),Q61131825,1967,
+per:nguyen_van_thuan_tuong_cong_an,Nguyễn Văn Thuận,Nguyễn Văn Thuận (tướng công an),Q86010581,1965,Hậu Giang
+per:nguyen_van_phong,Nguyễn Văn Phong,Nguyễn Văn Phong,Q109434028,1968,
+per:nguyen_van_sy_quang_nam,Nguyễn Văn Sỹ,Nguyễn Văn Sỹ (Quảng Nam),Q115533597,,
+per:nguyen_van_thien_chinh_khach,Nguyễn Văn Thiện,Nguyễn Văn Thiện (chính khách),Q131375608,1954,
+per:nguyen_van_phuong,Nguyễn Văn Phương,Nguyễn Văn Phương,Q109422839,1970,Thừa Thiên Huế
+per:nguyen_van_quyet_chinh_khach,Nguyễn Văn Quyết,Nguyễn Văn Quyết (chính khách),Q138333039,1972,Ninh Bình
+per:nguyen_van_tho,Nguyễn Văn Thơ,Nguyễn Văn Thơ,Q115896458,1953,
+per:nguyen_van_tinh_thuong_tuong,Nguyễn Văn Tính,Nguyễn Văn Tính (thượng tướng),Q10800024,1944,Nam Định
+per:nguyen_van_the,Nguyễn Văn Thể,Nguyễn Văn Thể,Q10799994,1966,Đồng Tháp
+per:nguyen_van_tu,Nguyễn Văn Tư (Nguyễn Văn Huấn),Nguyễn Văn Tư,Q10800027,1936,
+per:nguyen_van_tinh_can_tho,Nguyễn Văn Tính,Nguyễn Văn Tính (Cần Thơ),Q10800025,1961,Cần Thơ
+per:nguyen_van_tri,Nguyễn Văn Trì,Nguyễn Văn Trì,Q10800006,1962,
+per:nguyen_van_vuong,Nguyễn Văn Vượng,Nguyễn Văn Vượng,Q10800029,1956,Ninh Bình
+per:nguyen_van_thang_trung_tuong,Nguyễn Văn Thắng,Nguyễn Văn Thắng (trung tướng),Q10799993,1947,Quảng Bình
+per:nguyen_van_tram,Nguyễn Văn Trăm,Nguyễn Văn Trăm,Q24956719,1959,Phú Thọ
+per:nguyen_van_tuyet_chinh_khach,Nguyễn Văn Tuyết,Nguyễn Văn Tuyết (chính khách),Q30924010,1960,Yên Bái
+per:nguyen_van_vinh_chinh_khach,Nguyễn Văn Vịnh,Nguyễn Văn Vịnh (chính khách),Q47506277,1960,Yên Bái
+per:nguyen_van_tung_hai_phong,Nguyễn Văn Tùng,Nguyễn Văn Tùng (Hải Phòng),Q47506378,1964,Hải Phòng
+per:nguyen_van_trinh_chinh_khach,Nguyễn Văn Trình,Nguyễn Văn Trình (chính khách),Q49054464,1959,Thành phố Hồ Chí Minh
+per:nguyen_van_thang_chinh_khach,Nguyễn Văn Thắng,Nguyễn Văn Thắng (chính khách),Q49054660,1973,Hà Nội
+per:nguyen_van_tien_sinh_1966,Nguyễn Văn Tiến,Nguyễn Văn Tiến (sinh 1966),Q49055640,1966,
+per:nguyen_van_thang_tham_phan,Nguyễn Văn Thắng,Nguyễn Văn Thắng (thẩm phán),Q61129987,1960,
+per:nguyen_van_tho_chinh_khach,Nguyễn Văn Thọ,Nguyễn Văn Thọ (chính khách),Q86010586,1968,
+per:nguyen_van_trung_sinh_nam_1967,Nguyễn Văn Trung,Nguyễn Văn Trung (sinh năm 1967),Q97160896,1967,Hòa Bình
+per:nguyen_van_vien,Nguyễn Văn Viện,Nguyễn Văn Viện,Q97393758,1966,
+per:nguyen_van_tuan_chinh_khach,Nguyễn Văn Tuấn,Nguyễn Văn Tuấn (chính khách),Q115533167,1954,Nam Định
+per:nguyen_van_vinh_chinh_khach,Nguyễn Văn Vĩnh,Nguyễn Văn Vĩnh (chính khách),Q107301319,1967,Đồng Tháp
+per:nguyen_xuan_phuc,Nguyễn Xuân Phúc,Nguyễn Xuân Phúc,Q10800073,1954,Quảng Nam
+per:nguyen_xuan_anh_chinh_khach,Nguyễn Xuân Anh,Nguyễn Xuân Anh (chính khách),Q10800058,1976,
+per:nguyen_van_dua,Nguyễn Văn Đua,Nguyễn Văn Đua,Q10800040,1954,Thành phố Hồ Chí Minh
+per:nguyen_xuan_yem_tuong_cong_an,Nguyễn Xuân Yêm,Nguyễn Xuân Yêm (tướng công an),Q24956874,1957,Vĩnh Phúc
+per:nguyen_xuan_tien,Nguyễn Xuân Tiến,Nguyễn Xuân Tiến,Q24957847,1958,Thừa Thiên Huế
+per:nguyen_van_doc,Nguyễn Văn Đọc,Nguyễn Văn Đọc,Q24957879,1959,Hải Phòng
+per:nguyen_xuan_cuong,Nguyễn Xuân Cường,Nguyễn Xuân Cường,Q24957904,1959,Hà Nội
+per:nguyen_xuan_sang,Nguyễn Xuân Sang,Nguyễn Xuân Sang,Q24958900,1951,Quảng Bình
+per:nguyen_van_duoc,Nguyễn Văn Được,Nguyễn Văn Được,Q30921187,1946,Quảng Ngãi
+per:nguyen_xuan_duong,Nguyễn Xuân Đường,Nguyễn Xuân Đường,Q47506386,1958,Nghệ An
+per:nguyen_xuan_son_chinh_khach,Nguyễn Xuân Sơn,Nguyễn Xuân Sơn (chính khách),Q49054341,1962,Nghệ An
+per:nguyen_xuan_dong,Nguyễn Xuân Đông,Nguyễn Xuân Đông,Q49054479,1961,Hà Nam
+per:nguyen_xuan_thang,Nguyễn Xuân Thắng,Nguyễn Xuân Thắng,Q49054650,1957,Nghệ An
+per:nguyen_xuan_xinh,Nguyễn Xuân Xinh,Nguyễn Xuân Xinh,Q49056081,1947,Hậu Giang
+per:nguyen_xuan_muoi,Nguyễn Xuân Mười,Nguyễn Xuân Mười,Q61128805,,Thanh Hóa
+per:nguyen_xuan_dat,Nguyễn Xuân Dắt,Nguyễn Xuân Dắt,Q61129337,1967,Cần Thơ
+per:nguyen_van_yeu,Nguyễn Văn Yểu,Nguyễn Văn Yểu,Q65171395,1942,Hưng Yên
+per:nguyen_xuan_ky,Nguyễn Xuân Ký,Nguyễn Xuân Ký,Q86010599,1972,Nam Định
+per:nguyen_xuan_lam,Nguyễn Xuân Lâm,Nguyễn Xuân Lâm,Q86010601,,
+per:nguyen_xuan_ha,Nguyễn Xuân Hà,Nguyễn Xuân Hà,Q86010595,1960,
+per:nguyen_xuan_ngu,Nguyễn Xuân Ngư,Nguyễn Xuân Ngư,Q86010603,,
+per:nguyen_van_duoc_chinh_tri_gia,Nguyễn Văn Được,Nguyễn Văn Được (chính trị gia),Q107248790,1968,Long An
+per:nguyen_xuan_hong,Nguyễn Xuân Hồng,Nguyễn Xuân Hồng,Q109441557,1966,
+per:nguyen_van_ut,Nguyễn Văn Út,Nguyễn Văn Út,Q107248224,1969,Long An
+per:nguyen_van_dao_trung_tuong,Nguyễn Văn Đạo,Nguyễn Văn Đạo (trung tướng),Q128039660,1950,
+per:nguyen_xuan_phong_nha_ngoai_giao_sinh_nam_1943,Nguyễn Xuân Phong,"Nguyễn Xuân Phong (nhà ngoại giao, sinh năm 1943)",Q140697752,1943,Quảng Trị
+per:nguyen_dinh_loc,Nguyễn Đình Lộc,Nguyễn Đình Lộc,Q10800109,1935,Nghệ An
+per:nguyen_dac_vinh,Nguyễn Đắc Vinh,Nguyễn Đắc Vinh,Q10800157,1972,Hà Nội
+per:nguyen_duc_chinh_ha_nam,Nguyễn Đức Chính,Nguyễn Đức Chính (Hà Nam),Q10800167,1953,
+per:nguyen_duc_chung,Nguyễn Đức Chung,Nguyễn Đức Chung,Q10800166,1967,Phú Thọ
+per:nguyen_dang_tien_chinh_khach,Nguyễn Đăng Tiến,Nguyễn Đăng Tiến (chính khách),Q10800149,1955,
+per:nguyen_dinh_phach,Nguyễn Đình Phách,Nguyễn Đình Phách,Q10800114,1954,Hưng Yên
+per:nguyen_dinh_xung,Nguyễn Đình Xứng,Nguyễn Đình Xứng,Q18459962,1962,Thanh Hóa
+per:nguyen_dinh_toan_chinh_khach,Nguyễn Đình Toàn,Nguyễn Đình Toàn (chính khách),Q25417871,1960,Hải Dương
+per:nguyen_dinh_khang,Nguyễn Đình Khang,Nguyễn Đình Khang,Q30919781,1967,
+per:nguyen_dinh_tien,Nguyễn Đình Tiến,Nguyễn Đình Tiến,Q47506356,1963,Quảng Nam
+per:nguyen_dac_quynh,Nguyễn Đắc Quỳnh,Nguyễn Đắc Quỳnh,Q47506368,1961,Bắc Ninh
+per:nguyen_duc_chinh_quang_tri,Nguyễn Đức Chính,Nguyễn Đức Chính (Quảng Trị),Q49054478,1959,Quảng Trị
+per:nguyen_dinh_thuan_thieu_tuong,Nguyễn Đình Thuận,Nguyễn Đình Thuận (thiếu tướng),Q48644358,1953,Quảng Ninh
+per:nguyen_dang_khoa,Nguyễn Đăng Khoa,Nguyễn Đăng Khoa,Q49055942,1971,
+per:nguyen_dinh_bin,Nguyễn Đình Bin,Nguyễn Đình Bin,Q61132278,1944,
+per:nguyen_dinh_thuan_cuc_an_ninh_kinh_te,Nguyễn Đình Thuận,Nguyễn Đình Thuận (Cục An ninh kinh tế),Q86010622,1964,Hà Nam
+per:nguyen_dac_hoan,Nguyễn Đắc Hoan,Nguyễn Đắc Hoan,Q86010631,1965,Nghệ An
+per:nguyen_dac_tai,Nguyễn Đắc Tài,Nguyễn Đắc Tài,Q86010635,1962,
+per:nguyen_dang_loi,Nguyễn Đăng Lợi,Nguyễn Đăng Lợi,Q97274186,,
+per:nguyen_dang_binh,Nguyễn Đăng Bình,Nguyễn Đăng Bình,Q97273340,1978,Hà Nội
+per:nguyen_dinh_trung_sinh_nam_1973,Nguyễn Đình Trung,Nguyễn Đình Trung (sinh năm 1973),Q124555036,1973,Nghệ An
+per:nguyen_dinh_hung,Nguyễn Đình Hùng,Nguyễn Đình Hùng,Q135416973,,
+per:nguyen_dinh_viet,Nguyễn Đình Việt,Nguyễn Đình Việt,Q116784854,1977,Hưng Yên
+per:nguyen_dai_thang,Nguyễn Đại Thắng,Nguyễn Đại Thắng,Q116922961,1975,Hưng Yên
+per:nguyen_dang_quang_sinh_nam_1968,Nguyễn Đăng Quang,Nguyễn Đăng Quang (sinh năm 1968),,1968,
+per:nguyen_duc_soat,Nguyễn Đức Soát,Nguyễn Đức Soát,Q7022823,1946,
+per:nguyen_duc_nhanh,Nguyễn Đức Nhanh,Nguyễn Đức Nhanh,Q10800185,1952,Hà Nội
+per:nguyen_duc_hoan,Nguyễn Đức Hoan,Nguyễn Đức Hoan,Q10800174,1938,Quảng Trị
+per:nguyen_duc_hai_chinh_khach,Nguyễn Đức Hải,Nguyễn Đức Hải (chính khách),Q10800176,1961,Quảng Nam
+per:nguyen_duc_thanh,Nguyễn Đức Thanh,Nguyễn Đức Thanh,Q10800188,1962,Hà Tĩnh
+per:nguyen_duc_kien_ninh_binh,Nguyễn Đức Kiên,Nguyễn Đức Kiên (Ninh Bình),Q10800181,1960,Ninh Bình
+per:nguyen_duc_kien_hai_duong,Nguyễn Đức Kiên,Nguyễn Đức Kiên (Hải Dương),Q10800180,1948,Hải Dương
+per:nguyen_duc_sau,Nguyễn Đức Sáu,Nguyễn Đức Sáu,Q30921324,1954,Hải Dương
+per:nguyen_duc_long,Nguyễn Đức Long,Nguyễn Đức Long,Q47506377,1959,Quảng Ninh
+per:nguyen_duc_loi,Nguyễn Đức Lợi,Nguyễn Đức Lợi,Q49054641,1960,Quảng Trị
+per:nguyen_duc_minh_trung_tuong_2012,Nguyễn Đức Minh,Nguyễn Đức Minh (trung tướng 2012),Q61128517,,
+per:nguyen_duc_minh_thieu_tuong_2018,Nguyễn Đức Minh,Nguyễn Đức Minh (thiếu tướng 2018),Q86010639,,
+per:nguyen_duc_trung_chinh_khach,Nguyễn Đức Trung,Nguyễn Đức Trung (chính khách),Q133324440,1974,Thanh Hóa
+per:nguyen_duc_dung_tuong_cong_an,Nguyễn Đức Dũng,Nguyễn Đức Dũng (tướng Công an),Q133573920,1967,
+per:nguyen_duc_dung_thieu_tuong,Nguyễn Đức Dũng,Nguyễn Đức Dũng (thiếu tướng),Q133776819,1967,Hải Phòng
+per:nguyen_duc_manh,Nguyễn Đức Mạnh,Nguyễn Đức Mạnh,Q97446677,1969,
+per:nguyen_duc_nghi,Nguyễn Đức Nghi,Nguyễn Đức Nghi,Q109438844,,
+per:nguyen_duc_hung,Nguyễn Đức Hưng,Nguyễn Đức Hưng,,1970,
+per:nguyen_duc_tam_sinh_nam_1981,Nguyễn Đức Tâm,Nguyễn Đức Tâm (sinh năm 1981),,1981,Hưng Yên
+per:ngo_van_du,Ngô Văn Dụ Hai Dụ,Ngô Văn Dụ,Q7022460,1947,Vĩnh Phúc
+per:ngo_thi_doan_thanh,Ngô Thị Doãn Thanh,Ngô Thị Doãn Thanh,Q6106666,1957,Hà Nội
+per:ngo_xuan_lich,Ngô Xuân Lịch,Ngô Xuân Lịch,Q10800424,1954,Hà Nam
+per:ngo_van_minh,Ngô Văn Minh,Ngô Văn Minh,Q10800421,1959,Quảng Nam
+per:ngo_thi_minh,Ngô Thị Minh,Ngô Thị Minh,Q10800402,1964,Quảng Ninh
+per:ngo_minh_tien,Ngô Minh Tiến,Ngô Minh Tiến,Q10800356,1962,Bắc Giang
+per:ngo_quang_xuan,Ngô Quang Xuân,Ngô Quang Xuân,Q10800372,1951,Nghệ An
+per:ngo_thi_thanh_hang,Ngô Thị Thanh Hằng,Ngô Thị Thanh Hằng,Q24958378,1960,Nam Định
+per:ngo_tuan_nghia,Ngô Tuấn Nghĩa,Ngô Tuấn Nghĩa,Q30921319,1962,Thành phố Hồ Chí Minh
+per:ngo_minh_chau,Ngô Minh Châu,Ngô Minh Châu,Q30921318,1964,
+per:ngo_sach_thuc,Ngô Sách Thực,Ngô Sách Thực,Q30921852,1962,Bắc Giang
+per:ngo_chi_cuong,Ngô Chí Cường,Ngô Chí Cường,Q30922015,1967,Trà Vinh
+per:ngo_thanh_danh,Ngô Thanh Danh,Ngô Thanh Danh,Q30922077,1965,Quảng Nam
+per:ngo_ngoc_tuan,Ngô Ngọc Tuấn,Ngô Ngọc Tuấn,Q30922127,1964,Yên Bái
+per:ngo_hong_chieu,Ngô Hồng Chiều,Ngô Hồng Chiều,Q47506278,1961,
+per:ngo_tien_hung,Ngô Tiến Hùng,Ngô Tiến Hùng,Q49055850,1962,
+per:ngo_thi_hoang_yen,Ngô Thị Hoàng Yến,Ngô Thị Hoàng Yến,Q86010663,1968,Hưng Yên
+per:ngo_quy_duc,Ngô Quý Đức,Ngô Quý Đức,Q97165332,1960,Nghệ An
+per:ngo_van_tuan,Ngô Văn Tuấn,Ngô Văn Tuấn,Q109435466,1971,Bắc Ninh
+per:ngo_luong_hanh,Ngô Lương Hanh,Ngô Lương Hanh,Q108732960,1950,
+per:ngo_hoang_ngan,Ngô Hoàng Ngân,Ngô Hoàng Ngân,Q116976058,1966,Quảng Ninh
+per:ngo_hoai_thu,Ngô Hoài Thu,Ngô Hoài Thu,Q138506478,1970,Hà Nội
+per:ngo_phuong_lan_nha_phe_binh_dien_anh,Ngô Phương Lan,Ngô Phương Lan (nhà phê bình điện ảnh),Q129002372,1963,Hà Nội
+per:ngo_thanh_binh,Ngô Thanh Bình,Ngô Thanh Bình,,1978,Ninh Bình
+per:ngo_le_van,Ngô Lê Văn (nhà ngoại giao),Ngô Lê Văn,,1976,
+per:ngo_thinh_duc,Ngô Thịnh Đức,Ngô Thịnh Đức,,,Cà Mau
+per:nong_duc_manh,Nông Đức Mạnh,Nông Đức Mạnh,Q369596,1940,Bắc Kạn
+per:nong_quoc_tuan,Nông Quốc Tuấn,Nông Quốc Tuấn,Q10801985,1963,Bắc Kạn
+per:phan_dien,Phan Diễn,Phan Diễn,Q10805019,1937,Quảng Nam
+per:ngo_duc_manh,Ngô Đức Mạnh,Ngô Đức Mạnh,Q10800447,1960,Hà Tĩnh
+per:nie_thuat,Niê Thuật,Niê Thuật,Q10801467,1956,Đắk Lắk
+per:phan_anh_minh,Phan Anh Minh,Phan Anh Minh,Q10805009,1959,Long An
+per:ngo_duy_hieu,Ngọ Duy Hiểu,Ngọ Duy Hiểu,Q30921494,1973,Thanh Hóa
+per:phan_anh_khoa,Phan Anh Khoa,Phan Anh Khoa,Q47506349,1965,Phú Yên
+per:ngo_dong_hai,Ngô Đông Hải,Ngô Đông Hải,Q49054673,1970,Hà Nội
+per:phan_chi_thanh,Phan Chí Thanh,Phan Chí Thanh,Q61128922,1958,
+per:nong_van_luu,Nông Văn Lưu,Nông Văn Lưu,Q86010846,,
+per:phan_chi_hieu,Phan Chí Hiếu,Phan Chí Hiếu,Q116197936,1969,Ninh Bình
+per:phan_huy_ngoc,Phan Huy Ngọc,Phan Huy Ngọc,,1972,Vĩnh Phúc
+per:phan_van_khai,Phan Văn Khải,Phan Văn Khải,Q379489,1933,
+per:phan_trung_kien,Phan Trung Kiên,Phan Trung Kiên,Q10805105,1946,
+per:phan_the_hung,Phan Thế Hùng,Phan Thế Hùng,Q10805088,1942,Hải Phòng
+per:phan_trung_ly,Phan Trung Lý,Phan Trung Lý,Q10805106,1954,Nghệ An
+per:phan_quang,Phan Quang,Phan Quang,Q10805052,1928,Quảng Trị
+per:phan_van_giang,Phan Văn Giang,Phan Văn Giang,Q20026119,1960,Thái Nguyên
+per:phan_the_rue,Phan Thế Ruệ,Phan Thế Ruệ,Q20026114,1946,Thái Bình
+per:phan_viet_cuong,Phan Việt Cường,Phan Việt Cường,Q24958697,1963,Quảng Nam
+per:phan_nguyen_nhu_khue,Phan Nguyễn Như Khuê,Phan Nguyễn Như Khuê,Q30921317,1964,Đồng Tháp
+per:phan_thi_binh_thuan,Phan Thị Bình Thuận,Phan Thị Bình Thuận,Q30921325,1971,Hải Phòng
+per:phan_huynh_son,Phan Huỳnh Sơn,Phan Huỳnh Sơn,Q30921745,1963,
+per:phan_thi_my_thanh,Phan Thị Mỹ Thanh,Phan Thị Mỹ Thanh,Q30921766,1965,Bình Dương
+per:phan_ngoc_tho,Phan Ngọc Thọ,Phan Ngọc Thọ,Q30922035,1963,
+per:phan_thai_binh,Phan Thái Bình,Phan Thái Bình,Q47506357,1974,Quảng Nam
+per:phan_son_ha,Phan Sơn Hà,Phan Sơn Hà,Q49056084,,
+per:phan_thanh_ha,Phan Thanh Hà,Phan Thanh Hà,Q49056119,,
+per:phan_nhu_lam,Phan Như Lâm,Phan Như Lâm,Q65166652,,
+per:phan_tuan_hung,Phan Tuấn Hùng,Phan Tuấn Hùng,Q98109362,,
+per:phan_khue_tao,Phan Khuê Tảo,Phan Khuê Tảo,Q108743985,1949,Hải Phòng
+per:phan_nhu_nguyen,Phan Như Nguyện,Phan Như Nguyện,Q109688870,1976,
+per:phan_quoc_hung,Phan Tấn Đạt,Phan Quốc Hưng,Q10805115,1949,Hòa Bình
+per:phan_thi_thanh_phuong,Phan Thị Thanh Phương,Phan Thị Thanh Phương,Q116755400,1984,Quảng Nam
+per:phan_thi_nguyet_thu,Phan Thị Nguyệt Thu,Phan Thị Nguyệt Thu,Q116909726,1974,Hà Tĩnh
+per:phan_thang_an,Phan Thăng An,Phan Thăng An,,1974,Bình Dương
+per:phan_thien_dinh,Phan Thiên Định,Phan Thiên Định,,1971,Thừa Thiên Huế
+per:phung_quang_thanh,Phùng Quang Thanh,Phùng Quang Thanh,Q485476,1949,Hà Nội
+per:phung_huu_phu,Phùng Hữu Phú,Phùng Hữu Phú,Q10805837,1948,Nam Định
+per:phan_xuan_dung,Phan Xuân Dũng,Phan Xuân Dũng,Q10805139,1960,Hà Tĩnh
+per:phung_quoc_hien,Phùng Quốc Hiển,Phùng Quốc Hiển,Q10805845,1958,Phú Thọ
+per:phung_duc_tien_chinh_khach,Phùng Đức Tiến,Phùng Đức Tiến (chính khách),Q10805869,1964,
+per:phan_dinh_trac,Phan Đình Trạc,Phan Đình Trạc,Q10805156,1958,Nghệ An
+per:phan_van_tuong,Phan Văn Tường,Phan Văn Tường,Q10805128,1960,
+per:phan_duc_huong,Phan Đức Hưởng,Phan Đức Hưởng,Q10805159,1951,Vĩnh Long
+per:phung_thanh_kiem,Phùng Thanh Kiểm,Phùng Thanh Kiểm,Q10805846,1958,Lạng Sơn
+per:phan_van_vinh,Phan Văn Vĩnh,Phan Văn Vĩnh,Q10805131,1955,Nam Định
+per:phung_xuan_nha,Phùng Xuân Nhạ,Phùng Xuân Nhạ,Q10805862,1963,Hưng Yên
+per:phan_van_sau,Phan Văn Sáu,Phan Văn Sáu,Q24956888,1959,
+per:phan_van_mai,Phan Văn Mãi,Phan Văn Mãi,Q24958694,1973,
+per:phan_van_thang,Phan Văn Thắng,Phan Văn Thắng,Q49054452,1967,
+per:phung_quang_hung,Phùng Quang Hùng,Phùng Quang Hùng,Q49055907,1955,
+per:phan_van_son,Phan Văn Sơn,Phan Văn Sơn,Q61130226,,
+per:phan_duc_du,Phan Đức Dư,Phan Đức Dư,Q86011080,1951,
+per:phi_duc_tuan,Phí Đức Tuấn,Phí Đức Tuấn,Q86011130,,
+per:phan_xuan_sang,Phan Xuân Sang,Phan Xuân Sang,Q109432290,1952,Quảng Nam
+per:phan_xuan_tuy,Phan Xuân Tuy,Phan Xuân Tuy,Q109436231,1966,Nghệ An
+per:phan_van_xung,Phan Văn Xựng,Phan Văn Xựng,Q109438450,1967,Thành phố Hồ Chí Minh
+per:phung_khanh_tai,Phùng Khánh Tài,Phùng Khánh Tài,Q109442142,1971,
+per:phan_duc_hieu,Phan Đức Hiếu,Phan Đức Hiếu,Q116982958,1974,Vĩnh Phúc
+per:phung_si_tan,Phùng Sĩ Tấn,Phùng Sĩ Tấn,Q123366001,1966,Phú Thọ
+per:phung_thi_hong_ha,Phùng Thị Hồng Hà,Phùng Thị Hồng Hà,,1971,Hà Nội
+per:phan_dai_nghia,Phan Đại Nghĩa,Phan Đại Nghĩa,,1976,Nghệ An
+per:pham_gia_khiem,Phạm Gia Khiêm,Phạm Gia Khiêm,Q58170,1944,Hà Nội
+per:pham_minh_chinh,Phạm Minh Chính,Phạm Minh Chính,Q10806940,1958,Thanh Hóa
+per:pham_khoi_nguyen,Phạm Khôi Nguyên,Phạm Khôi Nguyên,Q10806933,1950,Hà Nội
+per:pham_binh_minh,Phạm Bình Minh,Phạm Bình Minh,Q10806892,1959,Nam Định
+per:pham_chuyen,Phạm Chuyên,Phạm Chuyên,Q10806896,1943,Thái Bình
+per:pham_khue,Phạm Khuê,Phạm Khuê,Q10806930,1925,Hải Dương
+per:pham_hong_ha,Phạm Hồng Hà,Phạm Hồng Hà,Q10806918,1958,Nam Định
+per:pham_hong_huong,Phạm Hồng Hương,Phạm Hồng Hương,Q10806920,1959,Hà Nam
+per:pham_khanh_phong_lan,Phạm Khánh Phong Lan,Phạm Khánh Phong Lan,Q10806932,1970,
+per:pham_hong_phong,Phạm Hồng Phong,Phạm Hồng Phong,Q10806921,1962,
+per:pham_dung,Phạm Dũng,Phạm Dũng,Q18415673,1956,Hưng Yên
+per:phuong_minh_hoa,Phương Minh Hòa,Phương Minh Hòa,Q20026131,1955,
+per:pham_hong_thanh,Phạm Hồng Thanh,Phạm Hồng Thanh,Q20026074,1946,Quảng Bình
+per:pham_bao_son,Phạm Bảo Sơn,Phạm Bảo Sơn,Q20026061,1977,
+per:pham_hoai_nam,Phạm Hoài Nam,Phạm Hoài Nam,Q24956383,1967,Bình Định
+per:pham_duy_cuong,Phạm Duy Cường,Phạm Duy Cường,Q28100065,1958,Hà Nội
+per:phuong_thi_thanh_chinh_khach,Nguyễn Phương Thanh,Phương Thị Thanh (chính khách),Q30924033,1967,Cao Bằng
+per:pham_le_tuan,Phạm Lê Tuấn,Phạm Lê Tuấn,Q47506394,1958,Hà Nội
+per:pham_hoang_be,Phạm Hoàng Bê,Phạm Hoàng Bê,Q109436185,1955,Bạc Liêu
+per:pham_gia_tuc,Phạm Gia Túc,Phạm Gia Túc,Q105149971,1965,
+per:pham_anh_tuan_chinh_khach,Phạm Anh Tuấn,Phạm Anh Tuấn (chính khách),Q113951505,1973,Hà Tĩnh
+per:pham_hung_thai,Phạm Hùng Thái,Phạm Hùng Thái,Q116769696,1970,
+per:phuc_binh_nie_kdam,Phúc Bình Niê Kdăm,Phúc Bình Niê Kdăm,Q116875328,1983,Đắk Lắk
+per:pham_hung_thang,Phạm Hùng Thắng,Phạm Hùng Thắng,Q116909018,1974,Nghệ An
+per:pham_cong_nguyen,Phạm Công Nguyên,Phạm Công Nguyên,Q132889019,1975,Hải Dương
+per:pham_hong_chuong,Phạm Hồng Chương,Phạm Hồng Chương,Q133852727,1964,Phú Thọ
+per:pham_hoang_son,Phạm Hoàng Sơn,Phạm Hoàng Sơn,Q141485167,1976,
+per:pham_quang_nghi,Phạm Quang Nghị,Phạm Quang Nghị,Q7180375,1949,Thanh Hóa
+per:pham_phuong_thao_chinh_khach,Phạm Phương Thảo,Phạm Phương Thảo (chính khách),Q10806979,1952,Bạc Liêu
+per:pham_minh_tuyen_chinh_khach,Phạm Minh Tuyên,Phạm Minh Tuyên (chính khách),Q10806946,1949,Ninh Bình
+per:pham_manh_hung_chinh_khach,Phạm Mạnh Hùng,Phạm Mạnh Hùng (chính khách),Q10806950,1958,Thái Nguyên
+per:pham_minh_toan,Phạm Minh Toản,Phạm Minh Toản,Q10806945,1953,
+per:pham_phu_thai,Phạm Phú Thái,Phạm Phú Thái,Q20026084,1949,Thái Bình
+per:pham_ngoc_minh,Phạm Ngọc Minh,Phạm Ngọc Minh,Q20026081,1959,
+per:pham_minh_thang,Phạm Minh Thắng,Phạm Minh Thắng,Q24958714,1960,
+per:pham_quang_thanh,Phạm Quang Thanh,Phạm Quang Thanh,Q24959120,1981,Thanh Hóa
+per:pham_phu_quoc_doanh_nhan,Phạm Phú Quốc,Phạm Phú Quốc (doanh nhân),Q30923922,1968,Quảng Trị
+per:pham_quang_dung_sinh_nam_1954,Phạm Quang Dũng (Phạm Văn Nấng),Phạm Quang Dũng (sinh năm 1954),Q30921407,1954,Nam Định
+per:pham_nhu_hiep,Phạm Như Hiệp,Phạm Như Hiệp,Q30922040,1965,Thừa Thiên Huế
+per:pham_ngoc_thuong,Phạm Ngọc Thưởng,Phạm Ngọc Thưởng,Q49054487,1968,Lạng Sơn
+per:pham_minh_huan,Phạm Minh Huấn,Phạm Minh Huấn,Q49054582,1960,Hà Nội
+per:pham_ngoc_nghi,Phạm Ngọc Nghị,Phạm Ngọc Nghị,Q49054610,1965,Quảng Ngãi
+per:pham_quang_cu,Phạm Quang Cử,Phạm Quang Cử,Q61128809,,
+per:pham_ngoc_chi_chinh_khach,Phạm Ngọc Chi,Phạm Ngọc Chi (chính khách),Q61132959,1949,
+per:pham_manh_hung_tuong_quan_doi,Phạm Mạnh Hùng,Phạm Mạnh Hùng (tướng quân đội),Q86011159,1964,Hải Phòng
+per:pham_nhu_xuan,Phạm Như Xuân,Phạm Như Xuân,Q109440212,1965,
+per:pham_quang_vinh_dai_su,Phạm Quang Vinh,Phạm Quang Vinh (đại sứ),Q97571285,1957,
+per:pham_ngoc_viet,Phạm Ngọc Việt,Phạm Ngọc Việt,Q109441177,,Lâm Đồng
+per:pham_quang_ngoc,Phạm Quang Ngọc,Phạm Quang Ngọc,Q107262621,1973,Ninh Bình
+per:pham_nam_tien,Phạm Nam Tiến,Phạm Nam Tiến,Q116880055,1968,Ninh Bình
+per:pham_phu_binh,Phạm Phú Bình,Phạm Phú Bình,Q116956202,1973,Thái Bình
+per:pham_quang_hung,Phạm Quang Hưng,Phạm Quang Hưng,,1974,Ninh Bình
+per:pham_quang_hieu,Phạm Quang Hiệu,Phạm Quang Hiệu,Q118442472,1975,Hà Nội
+per:pham_the_duyet,Phạm Thế Duyệt,Phạm Thế Duyệt,Q10807009,1936,Hải Dương
+per:pham_thanh_ngan,Phạm Thanh Ngân,Phạm Thanh Ngân,Q7180379,1939,Thái Nguyên
+per:pham_quy_ngo,Phạm Quý Ngọ,Phạm Quý Ngọ,Q10806988,1954,Thái Bình
+per:pham_thi_hai_chuyen,Phạm Thị Hải Chuyền,Phạm Thị Hải Chuyền,Q10807019,1952,Bắc Giang
+per:pham_quy_ty,Phạm Quý Tỵ,Phạm Quý Tỵ,Q10806990,1953,Bắc Giang
+per:pham_thi_my_le,Phạm Thị Mỹ Lệ,Phạm Thị Mỹ Lệ,Q10807023,1958,
+per:pham_thi_thanh_tra,Phạm Thị Thanh Trà,Phạm Thị Thanh Trà,Q24958645,1964,
+per:pham_thi_minh_hien,Phạm Thị Minh Hiền,Phạm Thị Minh Hiền,Q30921379,1978,Phú Yên
+per:pham_thi_thanh_thuy,Phạm Thị Thanh Thủy,Phạm Thị Thanh Thủy,Q30921675,1974,Thái Bình
+per:pham_thanh_tam,Phạm Thành Tâm,Phạm Thành Tâm,Q47506290,1960,Đồng Tháp
+per:pham_thi_thu_trang,Phạm Thị Thu Trang,Phạm Thị Thu Trang,Q47506361,1967,Quảng Ngãi
+per:pham_quy_tieu,Phạm Quý Tiêu,Phạm Quý Tiêu,Q39039482,1957,Thái Bình
+per:pham_quoc_cuong,Phạm Quốc Cương,Phạm Quốc Cương,Q61128581,1962,Ninh Bình
+per:pham_sy_loi,Phạm Sỹ Lợi,Phạm Sỹ Lợi,Q61129023,1962,Hà Nam
+per:pham_quoc_hung,Phạm Quốc Hưng,Phạm Quốc Hưng,Q65171815,1973,
+per:pham_tien_cuong,Phạm Tiến Cương,Phạm Tiến Cương,Q86011169,1964,Thái Bình
+per:pham_quoc_hung,Phạm Quốc Hùng,Phạm Quốc Hùng,Q86011162,,
+per:pham_thanh_tuoi,Phạm Thành Tươi,Phạm Thành Tươi,Q109430218,,
+per:pham_thien_nghia,Phạm Thiện Nghĩa,Phạm Thiện Nghĩa,Q109431345,1966,
+per:pham_the_tung,Phạm Thế Tùng,Phạm Thế Tùng,Q134588882,1972,Hưng Yên
+per:pham_thuy_chinh,Phạm Thúy Chinh,Phạm Thúy Chinh,Q115863390,1970,Lào Cai
+per:pham_thi_thanh_mai,Phạm Thị Thanh Mai,Phạm Thị Thanh Mai,Q116834094,1975,Hà Nội
+per:pham_thi_hong_yen,Phạm Thị Hồng Yến,Phạm Thị Hồng Yến,Q116872722,1975,Hà Nội
+per:pham_thi_minh_hue,Phạm Thị Minh Huệ,Phạm Thị Minh Huệ,Q116976224,1984,Sóc Trăng
+per:pham_thi_phuc,Phạm Thị Phúc,Phạm Thị Phúc,Q136672470,1977,Bình Dương
+per:pham_thanh_ngai,Phạm Thành Ngại,Phạm Thành Ngại,,1971,Cà Mau
+per:pham_thanh_hung,Phạm Thanh Hùng,Phạm Thanh Hùng,,1974,Nghệ An
+per:pham_van_tra,Phạm Văn Trà,Phạm Văn Trà,Q1320534,1934,Bắc Ninh
+per:pham_van_sinh_chinh_khach,Phạm Văn Sinh,Phạm Văn Sinh (chính khách),Q10807073,1958,Thái Bình
+per:pham_van_long,Phạm Văn Long,Phạm Văn Long,Q10807067,1946,Hà Tĩnh
+per:pham_van_cuong_chinh_khach,Phạm Văn Cường,Phạm Văn Cường (chính khách),Q16480852,1958,
+per:pham_van_gon,Phạm Văn Gòn,Phạm Văn Gòn,Q10807059,1956,Bến Tre
+per:pham_van_ha,Phạm Văn Hà,Phạm Văn Hà,Q10807062,1960,Nghệ An
+per:pham_trong_nhan,Phạm Trọng Nhân,Phạm Trọng Nhân,Q10807048,1972,Tiền Giang
+per:pham_tat_thang,Phạm Tất Thắng,Phạm Tất Thắng,Q10807051,1970,Hải Dương
+per:pham_viet_muon,Tiến sĩ Phạm Viết Muôn,Phạm Viết Muôn,Q10807055,1954,Hải Dương
+per:pham_van_dy,Phạm Văn Dỹ,Phạm Văn Dỹ,Q16480950,1958,Long An
+per:pham_van_ranh,Phạm Văn Rạnh,Phạm Văn Rạnh,Q24957845,1960,Long An
+per:pham_van_tuan,Phạm Văn Tuân,Phạm Văn Tuân,Q30921719,1966,Thái Bình
+per:pham_viet_thanh,Phạm Viết Thanh,Phạm Viết Thanh,Q47506354,1962,Quảng Nam
+per:pham_van_canh,Phạm Văn Cành,Phạm Văn Cành,Q49054456,1958,Thành phố Hồ Chí Minh
+per:pham_van_hieu,Phạm Văn Hiểu,Phạm Văn Hiểu,Q49054477,1964,Cần Thơ
+per:pham_van_tan,Phạm Văn Tân,Phạm Văn Tân,Q49054512,1960,Tây Ninh
+per:pham_van_vong,Phạm Văn Vọng,Phạm Văn Vọng,Q49055916,1957,Vĩnh Phúc
+per:pham_van_dan,Phạm Văn Dần,Phạm Văn Dần,Q61128722,,
+per:pham_van_mien,Phạm Văn Miên,Phạm Văn Miên,Q61128917,1959,
+per:pham_van_cac,Phạm Văn Các,Phạm Văn Các,Q61130828,1960,
+per:pham_van_can,Phạm Văn Cần,Phạm Văn Cần,Q61131852,,
+per:pham_van_bang,Phạm Văn Bảng,Phạm Văn Bảng,Q86011171,,
+per:pham_van_vinh,Phạm Văn Vinh,Phạm Văn Vinh,Q86011175,,
+per:pham_van_thieu,Phạm Văn Thiều,Phạm Văn Thiều,Q109440059,1970,
+per:pham_van_lap_chinh_khach,Phạm Văn Lập,Phạm Văn Lập (chính khách),Q109744789,1973,Hải Phòng
+per:pham_van_chua,Phạm Văn Chua,Phạm Văn Chua,Q109800074,1957,Trà Vinh
+per:pham_van_chanh,Phạm Văn Chánh,Phạm Văn Chánh,Q114474239,1966,
+per:pham_truong_son_ha_tinh,Phạm Trường Sơn,Phạm Trường Sơn (Hà Tĩnh),Q116768511,1967,
+per:pham_van_thinh_chinh_khach,Phạm Văn Thịnh,Phạm Văn Thịnh (chính khách),Q116775732,1981,Bắc Giang
+per:pham_trong_nghia,Phạm Trọng Nghĩa,Phạm Trọng Nghĩa,Q116941914,1978,Yên Bái
+per:pham_truong_giang,Phạm Trường Giang,Phạm Trường Giang,Q132797292,1968,Hải Dương
+per:pham_xuan_quac,Phạm Xuân Quắc,Phạm Xuân Quắc,Q10807092,1946,Hải Dương
+per:quach_le_thanh,Quách Lê Thanh,Quách Lê Thanh,Q10810220,1947,Thanh Hóa
+per:pham_vu_luan,Phạm Vũ Luận,Phạm Vũ Luận,Q10807090,1955,Hà Nội
+per:pham_xuan_duong,Phạm Xuân Đương,Phạm Xuân Đương,Q10807097,1956,Nam Định
+per:surin_pitsuwan,Surin Pitsuwan,Surin Pitsuwan,Q1301964,1949,
+per:pham_xuan_thang,Phạm Xuân Thăng,Phạm Xuân Thăng,Q10807094,1966,Hải Dương
+per:pham_xuan_thuong,Phạm Xuân Thường,Phạm Xuân Thường,Q10807096,1956,Thái Bình
+per:pham_dinh_phu,Phạm Đình Phú,Phạm Đình Phú,Q10807100,1948,Hưng Yên
+per:pham_xuan_hung,Phạm Xuân Hùng,Phạm Xuân Hùng,Q20026098,1952,Nam Định
+per:pham_vu_hong,Phạm Vũ Hồng,Phạm Vũ Hồng,Q24958269,1961,Kiên Giang
+per:pham_dinh_cuc,Phạm Đình Cúc,Phạm Đình Cúc,Q30921764,1964,Nam Định
+per:quach_the_tan,Quách Thế Tản,Quách Thế Tản,Q47506294,1949,Hòa Bình
+per:pham_dinh_toan,Phạm Đình Toản,Phạm Đình Toản,Q47506304,1966,Thái Bình
+per:pham_duc_hai,Phạm Đức Hải,Phạm Đức Hải,Q49054361,1963,Nam Định
+per:pham_dinh_nghi,Phạm Đình Nghị,Phạm Đình Nghị,Q49054468,1965,Nam Định
+per:pham_duc_duyen,Phạm Đức Duyên,Phạm Đức Duyên,Q49054949,1967,Yên Bái
+per:pham_dai_duong,Phạm Đại Dương,Phạm Đại Dương,Q61132836,1974,Hà Nội
+per:pham_dinh_cu,Phạm Đình Cự,Phạm Đình Cự,Q61132894,1956,
+per:quach_huy_hoang,Quách Huy Hoàng,Quách Huy Hoàng,Q97164241,,
+per:rah_lan_lam,Rah Lan Lâm,Rah Lan Lâm,Q109430450,1966,
+per:pham_duc_an,Phạm Đức Ấn,Phạm Đức Ấn,Q115861569,1970,Nghệ An
+per:quan_minh_cuong,Quản Minh Cường,Quản Minh Cường,Q118250026,1969,Hưng Yên
+per:pham_dinh_thanh,Phạm Đình Thanh,Phạm Đình Thanh,Q116941482,1967,Hà Tĩnh
+per:rah_lan_chung,Rah Lan Chung,Rah Lan Chung,Q135921516,1971,Gia Lai
+per:pham_duc_tien,Phạm Đức Tiến,Phạm Đức Tiến,,1976,Thái Bình
+per:thi_van_tam,Thi Văn Tám,Thi Văn Tám,Q10825100,1948,Long An
+per:thuan_huu,Thuận Hữu (Nguyễn Hữu Thuận),Thuận Hữu,Q10825452,1958,Hà Tĩnh
+per:thai_phung_ne,Thái Phụng Nê,Thái Phụng Nê,Q10825753,1936,Phú Yên
+per:sung_a_hong,Sùng A Hồng,Sùng A Hồng,Q16158630,1966,Điện Biên
+per:thao_hong_son,Thào Hồng Sơn,Thào Hồng Sơn,Q10825627,1965,
+per:son_minh_thang,Sơn Minh Thắng,Sơn Minh Thắng,Q24957685,1960,Trà Vinh
+per:sung_thin_co,Sùng Thìn Cò,Sùng Thìn Cò,Q24959168,1959,Hà Giang
+per:thao_xuan_sung,Thào Xuân Sùng,Thào Xuân Sùng,Q30921251,1958,
+per:thai_truong_giang,Thái Trường Giang,Thái Trường Giang,Q30921713,1971,
+per:son_cang,Sơn Cang,Sơn Cang,Q49056085,1948,Trà Vinh
+per:thang_van_phuc,Thang Văn Phúc,Thang Văn Phúc,Q61129002,,
+per:thai_thanh_quy,Thái Thanh Quý,Thái Thanh Quý,Q61131730,1976,Nghệ An
+per:thai_thu_xuong,Thái Thu Xương,Thái Thu Xương,Q132531130,1975,Hậu Giang
+per:thai_bao_chinh_khach,Thái Bảo,Thái Bảo (chính khách),Q114403829,1974,
+per:sung_a_lenh,Sùng A Lềnh,Sùng A Lềnh,Q116946987,1975,Lào Cai
+per:thai_van_thanh,Thái Văn Thành,Thái Văn Thành,Q116956044,1969,Nghệ An
+per:thai_quynh_mai_dung,Thái Quỳnh Mai Dung,Thái Quỳnh Mai Dung,Q117023344,1977,Hà Tĩnh
+per:thai_dai_ngoc,Thái Đại Ngọc,Thái Đại Ngọc,Q120758721,1966,Đà Nẵng
+per:son_thi_anh_hong,Sơn Thị Ánh Hồng,Sơn Thị Ánh Hồng,,1963,Trà Vinh
+per:thich_pho_tue,Thích Phổ Tuệ,Thích Phổ Tuệ,Q10825899,1917,Ninh Bình
+per:trang_a_pao,Tráng A Pao,Tráng A Pao,Q10828593,1945,Lào Cai
+per:truong_chi_trung,Trương Chí Trung,Trương Chí Trung,Q10828685,1956,Hà Nội
+per:thich_bao_nghiem,Thích Bảo Nghiêm,Thích Bảo Nghiêm,Q10825888,1956,Thái Bình
+per:thach_du,Thạch Dư,Thạch Dư,Q10826145,1957,Trà Vinh
+per:than_van_khoa,Thân Văn Khoa,Thân Văn Khoa,Q10825872,1958,Bắc Giang
+per:than_duc_nam,Thân Đức Nam,Thân Đức Nam,Q10825873,1958,Quảng Nam
+per:thich_thanh_quyet,Thích Thanh Quyết,Thích Thanh Quyết,Q10825902,1962,Hà Nam
+per:thich_chon_thien,Thích Chơn Thiện,Thích Chơn Thiện,Q10771140,1942,Thừa Thiên Huế
+per:trieu_xuan_hoa,Triệu Xuân Hòa,Triệu Xuân Hòa,Q10828201,1953,Vĩnh Phúc
+per:thich_tri_tinh,Thích Trí Tịnh,Thích Trí Tịnh,Q16029486,1917,Đồng Tháp
+per:trieu_tai_vinh,Triệu Tài Vinh,Triệu Tài Vinh,Q24957810,1968,Hà Giang
+per:trieu_thi_huyen,Triệu Thị Huyền,Triệu Thị Huyền,Q24959158,1992,Yên Bái
+per:thich_nu_tin_lien,Thích Nữ Tín Liên,Thích Nữ Tín Liên,Q30921247,1951,
+per:trieu_thanh_dung,Triệu Thanh Dung,Triệu Thanh Dung,Q30921914,1988,Cao Bằng
+per:trieu_tuan_hai,Triệu Tuấn Hải,Triệu Tuấn Hải,Q47506318,1972,Lạng Sơn
+per:trieu_the_hung,Triệu Thế Hùng,Triệu Thế Hùng,Q47506322,1971,Hà Nội
+per:truong_anh_tuan,Trương Anh Tuấn,Trương Anh Tuấn,Q47506331,1963,Hà Nội
+per:trang_thi_xuan,Tráng Thị Xuân,Tráng Thị Xuân,Q47506369,1969,Sơn La
+per:thich_thien_sieu,Thích Thiện Siêu,Thích Thiện Siêu,Q48644357,1921,Thừa Thiên Huế
+per:trieu_van_dat,Triệu Văn Đạt,Triệu Văn Đạt,Q48644370,1955,Phú Thọ
+per:trinh_van_thong,Trình Văn Thống,Trình Văn Thống,Q49056137,,
+per:thach_huon,Thạch Huôn,Thạch Huôn,Q61128644,1944,Sóc Trăng
+per:truong_bao_thuan,Trương Bảo Thuận,Trương Bảo Thuận,Q702803,1950,
+per:thich_thien_nhon,Thích Thiện Nhơn,Thích Thiện Nhơn,Q86012111,1950,Trà Vinh
+per:trinh_lam_sinh,Trình Lam Sinh,Trình Lam Sinh,Q116857347,1972,Long An
+per:trang_a_duong,Tráng A Dương,Tráng A Dương,Q116896478,1977,Lào Cai
+per:trieu_quang_huy,Triệu Quang Huy,Triệu Quang Huy,Q116941857,1973,Lạng Sơn
+per:trieu_thi_ngoc_diem,Triệu Thị Ngọc Diễm,Triệu Thị Ngọc Diễm,Q116976243,1985,Sóc Trăng
+per:truong_canh_tuyen,Trương Cảnh Tuyên,Trương Cảnh Tuyên,Q138298979,1969,
+per:truong_my_hoa,Trương Mỹ Hoa,Trương Mỹ Hoa,Q7848000,1945,Đồng Tháp
+per:truong_dinh_tuyen,Trương Đình Tuyển,Trương Đình Tuyển,Q10828770,1942,Nghệ An
+per:truong_hoa_binh,Trương Hòa Bình Sáu Đạt,Trương Hòa Bình,Q7847999,1955,Long An
+per:truong_tan_sang,Trương Tấn Sang,Trương Tấn Sang,Q57407,1949,
+per:truong_vinh_trong,Trương Vĩnh Trọng Hai Nghĩa,Trương Vĩnh Trọng,Q10828766,1942,Bến Tre
+per:truong_thi_anh,Trương Thị Ánh,Trương Thị Ánh,Q10828748,1959,Đồng Nai
+per:truong_thi_mai,Trương Thị Mai,Trương Thị Mai,Q10828738,1958,Quảng Ninh
+per:truong_quang_khanh,Trương Quang Khánh,Trương Quang Khánh,Q10828717,1953,Quảng Nam
+per:truong_quang_duoc,Trương Quang Được,Trương Quang Được,Q10828719,1940,Quảng Nam
+per:truong_thai_hien,Trương Thái Hiền,Trương Thái Hiền,Q10828733,1958,An Giang
+per:truong_trong_nghia,Trương Trọng Nghĩa,Trương Trọng Nghĩa,Q10828749,1953,
+per:truong_van_sau,Trương Văn Sáu,Trương Văn Sáu,Q10828762,1959,Vĩnh Long
+per:truong_quang_nghia,Trương Quang Nghĩa,Trương Quang Nghĩa,Q24954947,1958,Hà Nội
+per:truong_minh_tuan,Trương Minh Tuấn,Trương Minh Tuấn,Q24958913,1960,Quảng Bình
+per:truong_phi_hung,Trương Phi Hùng,Trương Phi Hùng,Q47506326,1977,Long An
+per:truong_quoc_cuong,Trương Quốc Cường,Trương Quốc Cường,Q49054776,1961,Hưng Yên
+per:truong_giang_long,Trương Giang Long,Trương Giang Long,Q49055119,1955,Thanh Hóa
+per:truong_van_phuoc,Trương Văn Phước,Trương Văn Phước,Q61129498,1959,Quảng Trị
+per:truong_dinh_nghe,Trương Đình Nghệ,Trương Đình Nghệ,Q61131786,1966,
+per:truong_van_thong,Trương Văn Thông,Trương Văn Thông,Q61132977,,
+per:truong_van_hai,Trương Văn Hai,Trương Văn Hai,Q97161725,1958,
+per:truong_tan_thieu,Trương Tấn Thiệu,Trương Tấn Thiệu,Q109436190,1954,
+per:truong_thien_to,Trương Thiên Tô,Trương Thiên Tô,Q107092243,1970,Quảng Ngãi
+per:truong_thi_ngoc_anh,Trương Thị Ngọc Ánh,Trương Thị Ngọc Ánh,Q109442141,1966,Thanh Hóa
+per:truong_quoc_huy,Trương Quốc Huy,Trương Quốc Huy,Q109421964,1970,Ninh Bình
+per:truong_hai_long,Trương Hải Long,Trương Hải Long,Q113955992,1976,
+per:truong_manh_dung,Trương Mạnh Dũng,Trương Mạnh Dũng,Q133001408,1970,Hà Nội
+per:truong_son_lam,Trương Sơn Lâm,Trương Sơn Lâm,,1972,Thanh Hóa
+per:tran_hanh,Trần Hanh,Trần Hanh,Q7833299,1932,Nam Định
+per:tran_cam_tu,Trần Cẩm Tú,Trần Cẩm Tú,Q10829281,1961,Hà Tĩnh
+per:tran_binh_minh,Trần Bình Minh,Trần Bình Minh,Q10829246,1958,Hải Dương
+per:tran_hoang_ngan,Trần Hoàng Ngân,Trần Hoàng Ngân,Q10829301,1964,Đồng Tháp
+per:tran_cong_thuat,Trần Công Thuật,Trần Công Thuật,Q10829272,1961,Quảng Ninh
+per:tran_ba_thieu,Trần Bá Thiều,Trần Bá Thiều,Q10829245,1955,
+per:tran_cong_chanh,Trần Công Chánh,Trần Công Chánh,Q24957842,1959,Hậu Giang
+per:tran_anh_tuan,Trần Anh Tuấn,Trần Anh Tuấn,Q47506274,1977,Long An
+per:tran_hoai_trung,Trần Hoài Trung,Trần Hoài Trung,Q49054729,1965,Hà Nam
+per:tran_cong_phan,Trần Công Phàn,Trần Công Phàn,Q49055020,1960,Nam Định
+per:tran_duy_giang,Trần Duy Giang,Trần Duy Giang,Q49056272,1965,Hà Nam
+per:tran_huy_hong,Trần Huy Hồng,Trần Huy Hồng,Q86012429,,
+per:tran_anh_du,Trần Anh Du,Trần Anh Du,Q109438488,1964,
+per:tran_huy_tuan,Trần Huy Tuấn,Trần Huy Tuấn,Q107301929,1974,Yên Bái
+per:tran_duy_dong,Trần Duy Đông,Trần Duy Đông,,1979,Hà Giang
+per:tran_cong_chinh,Trần Công Chính,Trần Công Chính,,1969,Nam Định
+per:tran_anh_tuan_sinh_nam_1959,Trần Anh Tuấn,Trần Anh Tuấn (sinh năm 1959),,1959,Nam Định
+per:tran_hong_quan,Trần Hồng Quân,Trần Hồng Quân,Q10829325,1937,Sóc Trăng
+per:tran_hong_ha_chinh_khach,Trần Hồng Hà,Trần Hồng Hà (chính khách),Q10829324,1963,Hà Tĩnh
+per:tran_luu_quang,Trần Lưu Quang,Trần Lưu Quang,Q10829370,1967,
+per:tran_minh_sanh,Trần Minh Sanh,Trần Minh Sanh,Q10829382,1956,
+per:tran_mai_hanh,Trần Mai Hạnh,Trần Mai Hạnh,Q10829374,1943,Hải Dương
+per:tran_minh_dieu,Trần Minh Diệu,Trần Minh Diệu,Q10829377,1958,Quảng Trị
+per:tran_minh_thong,Trần Minh Thống,Trần Minh Thống,Q10829383,1958,An Giang
+per:tran_huu_the_phu_yen,Trần Hữu Thế,Trần Hữu Thế (Phú Yên),Q10829335,1973,
+per:tran_khieu,Trần Khiêu,Trần Khiêu,Q10829341,1954,Trà Vinh
+per:tran_hong_minh,Trần Hồng Minh,Trần Hồng Minh,Q20026217,1967,Hà Nội
+per:tran_kim_yen,Trần Kim Yến,Trần Kim Yến,Q30921328,1969,Phú Yên
+per:tran_hong_ha_vinh_phuc,Trần Hồng Hà,Trần Hồng Hà (Vĩnh Phúc),Q30924005,1966,Vĩnh Phúc
+per:tran_hong_nguyen,Trần Hồng Nguyên,Trần Hồng Nguyên,Q30921901,1969,Thanh Hóa
+per:tran_ngoc_cang,Trần Ngọc Căng,Trần Ngọc Căng,Q49054578,1960,Quảng Ngãi
+per:tran_hong_quang,Trần Hồng Quảng,Trần Hồng Quảng,Q49055951,1963,
+per:tran_minh_huong,Trần Minh Hưởng,Trần Minh Hưởng,Q86012436,1969,Nam Định
+per:tran_minh_le,Trần Minh Lệ,Trần Minh Lệ,Q86012439,1969,Phú Thọ
+per:tran_hai_quan,Trần Hải Quân,Trần Hải Quân,Q109441176,1970,Hà Nội
+per:tran_hong_chau,Trần Hồng Châu,Trần Hồng Châu,Q109441327,,
+per:tran_hai_chau,Trần Hải Châu,Trần Hải Châu,Q109438445,1966,Quảng Ninh
+per:tran_minh_tien,Trần Minh Tiến,Trần Minh Tiến,Q134124300,1967,Hà Nam
+per:tran_hong_thai,Trần Hồng Thái,Trần Hồng Thái,,1974,Hà Tĩnh
+per:tran_phuong_chinh_khach,Trần Phương,Trần Phương (chính khách),Q10829433,1927,Hưng Yên
+per:tran_quang_khue,Trần Quang Khuê,Trần Quang Khuê,Q10829442,1950,Ninh Bình
+per:tran_quang_chieu,Trần Quang Chiểu,Trần Quang Chiểu,Q10829434,1958,Nam Định
+per:tran_quang_phuong,Trần Quang Phương,Trần Quang Phương,Q24956399,1961,Quảng Bình
+per:tran_phuoc_toi,Trần Phước Tới,Trần Phước Tới,Q24957507,1954,Quảng Nam
+per:tran_quoc_cuong_sinh_nam_1961,Trần Quốc Cường,Trần Quốc Cường (sinh năm 1961),Q25418509,1961,Nam Định
+per:tran_ngoc_khanh,Trần Ngọc Khánh,Trần Ngọc Khánh,Q30920689,1964,Khánh Hòa
+per:tran_ngoc_ha,Trần Ngọc Hà,Trần Ngọc Hà,Q86012442,1968,Hà Nội
+per:tran_quoc_toan_chinh_khach,Trần Quốc Toản,Trần Quốc Toản (chính khách),Q97168298,1973,Hưng Yên
+per:tran_phu_ha,Trần Phú Hà,Trần Phú Hà,Q109441802,1967,Nam Định
+per:tran_ngoc_tam,Trần Ngọc Tam,Trần Ngọc Tam,Q109441627,1965,
+per:tran_quoc_nam,Trần Quốc Nam,Trần Quốc Nam,Q107265355,1971,Tuyên Quang
+per:tran_phong_chinh_khach,Trần Phong,Trần Phong (chính khách),,1974,Quảng Bình
+per:tran_quan,Trần Quân,Trần Quân,,1983,Hà Nam
+per:tran_quoc_khanh_bo_khoa_hoc_cong_nghe,Trần Quốc Khánh,Trần Quốc Khánh (bộ Khoa học Công nghệ),Q140157349,1958,Nam Định
+per:tran_thi_trung_chien,Trần Thị Trung Chiến,Trần Thị Trung Chiến,Q10829531,1946,Bến Tre
+per:tran_thanh_man,Trần Thanh Mẫn,Trần Thanh Mẫn,Q10829474,1962,
+per:tran_the_ngoc,Trần Thế Ngọc,Trần Thế Ngọc,Q10829499,1955,Đồng Tháp
+per:tran_thi_hoa_ry,Trần Thị Hoa Ry,Trần Thị Hoa Ry,Q7833321,1976,Bạc Liêu
+per:tran_thi_quoc_khanh,Trần Thị Quốc Khánh,Trần Thị Quốc Khánh,Q10829524,1959,Hà Nam
+per:tran_thi_dieu_thuy,Trần Thị Diệu Thúy,Trần Thị Diệu Thúy,Q10829504,1977,Thành phố Hồ Chí Minh
+per:tran_thi_kim_cuc,Trần Thị Kim Cúc,Trần Thị Kim Cúc,Q10829510,1949,Đồng Tháp
+per:tran_quoc_to,Trần Quốc Tỏ,Trần Quốc Tỏ,Q16158905,1962,Ninh Bình
+per:tran_quoc_trung_chinh_khach,Trần Quốc Trung,Trần Quốc Trung (chính khách),Q24957839,1960,Hậu Giang
+per:tran_quoc_vuong,Trần Quốc Vượng,Trần Quốc Vượng,Q10829462,1953,Thái Bình
+per:tran_thi_ngoc_dep,Trần Thị Ngọc Đẹp,Trần Thị Ngọc Đẹp,Q30921019,1960,Hậu Giang
+per:tran_thi_phuong_hoa_hai_duong,Trần Thị Phương Hoa,Trần Thị Phương Hoa (Hải Dương),Q30923936,1975,Hải Dương
+per:tran_thi_dung_chinh_khach,Trần Thị Dung,Trần Thị Dung (chính khách),Q30924068,1961,Nam Định
+per:tran_thanh_liem,Trần Thanh Liêm,Trần Thanh Liêm,Q49054458,1962,Bình Dương
+per:tran_quoc_tuan_chinh_khach,Trần Quốc Tuấn,Trần Quốc Tuấn (chính khách),Q49055799,1970,Bình Định
+per:tran_son_ha,Trần Sơn Hà,Trần Sơn Hà,Q61128604,,
+per:tran_thanh_nghiem,Trần Thanh Nghiêm,Trần Thanh Nghiêm,Q86012454,1970,Hà Nam
+per:tran_thang_phuc,Trần Thắng Phúc,Trần Thắng Phúc,Q86012458,,
+per:tran_thang_chinh_khach,Trần Thắng,Trần Thắng (chính khách),Q107146984,1966,Quảng Bình
+per:tran_quoc_van,Trần Quốc Văn,Trần Quốc Văn,Q107182437,1968,Hưng Yên
+per:tran_thi_be_nhan,Trần Thị Bé Nhân,Trần Thị Bé Nhân,Q134411331,,
+per:tran_thi_thanh_huong,Trần Thị Thanh Hương,Trần Thị Thanh Hương,Q116796525,1971,Tiền Giang
+per:tran_thi_nhi_ha,Trần Thị Nhị Hà,Trần Thị Nhị Hà,Q116823004,1973,Hà Tĩnh
+per:tran_thi_thu_phuoc,Trần Thị Thu Phước,Trần Thị Thu Phước,Q116941512,1976,Kon Tum
+per:tran_thi_hong_thanh,Trần Thị Hồng Thanh,Trần Thị Hồng Thanh,Q116955683,1977,Ninh Bình
+per:tran_thi_kim_nhung,Trần Thị Kim Nhung,Trần Thị Kim Nhung,Q116976114,1973,Hà Nam
+per:tran_thi_hong_an,Trần Thị Hồng An,Trần Thị Hồng An,Q116976173,1971,Nam Định
+per:tran_thanh_lam,Trần Thanh Lâm,Trần Thanh Lâm,Q135551800,1973,Hà Nam
+per:tran_viet_tan,Trần Việt Tân,Trần Việt Tân,Q10829575,1955,Thái Bình
+per:tran_tri_dung,Trần Trí Dũng,Trần Trí Dũng,Q10829553,1959,Trà Vinh
+per:tran_tho_da_nang,Trần Thọ,Trần Thọ (Đà Nẵng),Q10829537,1956,Quảng Nam
+per:tran_tuan_anh,Trần Tuấn Anh,Trần Tuấn Anh,Q24954814,1964,Hà Nội
+per:tran_viet_khoa,Trần Việt Khoa,Trần Việt Khoa,Q24954938,1965,Phú Thọ
+per:tran_van_chuyen,Trần Văn Chuyện,Trần Văn Chuyện,Q30919872,1962,Sóc Trăng
+per:tran_thi_vinh_nghi,Trần Thị Vĩnh Nghi,Trần Thị Vĩnh Nghi,Q30921581,1983,Cần Thơ
+per:tran_van_cuong,Trần Văn Cường,Trần Văn Cường,Q30922156,1964,Đồng Tháp
+per:tran_tri_quang,Trần Trí Quang,Trần Trí Quang,Q47506279,1977,Đồng Tháp
+per:tran_van_hien,Trần Văn Hiện,Trần Văn Hiện,Q49054448,1963,Cà Mau
+per:tran_tue_hien,Trần Tuệ Hiền,Trần Tuệ Hiền,Q49054459,1969,Quảng Nam
+per:tran_van_chung,Trần Văn Chung,Trần Văn Chung,Q49054466,1962,Nam Định
+per:tran_van_can,Trần Văn Cần,Trần Văn Cần,Q49054591,1962,Long An
+per:tran_tien_dung_ha_tinh,Trần Tiến Dũng,Trần Tiến Dũng (Hà Tĩnh),Q10829546,1954,Hà Tĩnh
+per:tran_trong_luong,Trần Trọng Lượng,Trần Trọng Lượng,Q49056141,,Nam Định
+per:tran_tho_dat,Trần Thọ Đạt,Trần Thọ Đạt,Q61129397,1959,Nam Định
+per:tran_tien_dung_nam_dinh,Trần Tiến Dũng,Trần Tiến Dũng (Nam Định),Q65172356,1975,Nam Định
+per:tran_tien_hung,Trần Tiến Hưng,Trần Tiến Hưng,Q86012468,1976,Vĩnh Phúc
+per:tran_vi_dan,Trần Vi Dân,Trần Vi Dân,Q86012478,1965,
+per:tran_viet_truong,Trần Việt Trường,Trần Việt Trường,Q107167513,1971,Hậu Giang
+per:tran_van_hiep,Trần Văn Hiệp,Trần Văn Hiệp,Q107212435,1965,Lâm Đồng
+per:tran_van_huyen,Trần Văn Huyến,Trần Văn Huyến,Q132258871,1971,Ninh Bình
+per:tran_viet_kieu,Trần Việt Kiều,Trần Việt Kiều,Q134431037,1966,Nam Định
+per:tran_viet_anh,Trần Việt Anh,Trần Việt Anh,Q116825814,1975,Quảng Nam
+per:tran_thi_van,Trần Thị Vân,Trần Thị Vân,Q116860552,1975,Bắc Ninh
+per:tran_viet_phi_cong,Trần Việt,Trần Việt (phi công),Q136416366,1946,Bình Định
+per:tran_van_bac,Trần Văn Bắc,Trần Văn Bắc,,1974,Nam Định
+per:tran_vinh_ngoc,Trần Vinh Ngọc,Trần Vinh Ngọc,,1971,Thành phố Hồ Chí Minh
+per:tran_van_tuan,Trần Văn Tuấn,Trần Văn Tuấn,Q10829633,1950,Hải Dương
+per:tran_van_hang,Trần Văn Hằng,Trần Văn Hằng,Q10829594,1953,Nghệ An
+per:tran_van_truyen,Trần Văn Truyền,Trần Văn Truyền,Q10829628,1950,Bến Tre
+per:tran_van_thanh_chinh_khach_viet_nam,Trần Văn Thanh,Trần Văn Thanh (chính khách Việt Nam),Q10829619,1953,
+per:tran_van_tuy,Trần Văn Túy,Trần Văn Túy,Q10829634,1957,Bắc Ninh
+per:tran_van_dang,Trần Văn Đăng,Trần Văn Đăng,Q10829640,1933,
+per:tran_van_phac,Trần Văn Phác,Trần Văn Phác,Q10829612,1926,Hưng Yên
+per:tran_van_do_ha_tinh,Trần Văn Độ,Trần Văn Độ (Hà Tĩnh),Q10829643,1954,Hà Tĩnh
+per:tran_van_tu,Trần Văn Tư,Trần Văn Tư,Q10829635,1958,Đồng Nai
+per:tran_van_nam,Trần Văn Nam,Trần Văn Nam,Q10829609,1963,Bình Dương
+per:tran_van_ron,Trần Văn Rón,Trần Văn Rón,Q24957830,1961,Vĩnh Long
+per:tran_van_son,Trần Văn Sơn,Trần Văn Sơn,Q25418498,1961,Nam Định
+per:tran_van_mao,Trần Văn Mão,Trần Văn Mão,Q30921687,1962,Nghệ An
+per:tran_van_quy,Trần Văn Quý,Trần Văn Quý,Q47506303,1962,Hưng Yên
+per:tran_van_minh_chinh_khach,Trần Văn Minh,Trần Văn Minh (chính khách),Q49054690,1955,
+per:tran_van_ve,Trần Văn Vệ,Trần Văn Vệ,Q49055572,1959,Thái Bình
+per:tran_van_tuan_tham_phan,Trần Văn Tuân,Trần Văn Tuân (thẩm phán),Q49055848,1962,
+per:tran_van_vinh,Trần Văn Vinh,Trần Văn Vinh,Q49055945,1961,Vĩnh Phúc
+per:tran_van_nhuan,Trần Văn Nhuận,Trần Văn Nhuận,Q61128796,,
+per:tran_van_thao_trung_tuong,Trần Văn Thảo,Trần Văn Thảo (trung tướng),Q61128817,,
+per:tran_van_kinh,Trần Văn Kình,Trần Văn Kình,Q61129319,,
+per:tran_van_thiep,Trần Văn Thiệp,Trần Văn Thiệp,Q86012485,,
+per:tran_van_thien_tuong_cong_an,Trần Văn Thiện,Trần Văn Thiện (tướng công an),Q97845895,1967,Thái Bình
+per:tran_van_lau,Trần Văn Lâu,Trần Văn Lâu,Q107300425,1970,Sóc Trăng
+per:tran_van_sau_dong_thap,Trần Văn Sáu,Trần Văn Sáu (Đồng Tháp),Q116890759,1966,Đồng Tháp
+per:tran_van_khai,Trần Văn Khải,Trần Văn Khải,Q116909017,1975,Hưng Yên
+per:tran_van_thuc_thanh_hoa,Trần Văn Thức,Trần Văn Thức (Thanh Hóa),Q117000825,1969,Thanh Hóa
+per:tran_van_toan,Trần Văn Toản,Trần Văn Toản,Q104887778,1967,Thái Bình
+per:tran_van_phuc,Trần Văn Phúc,Trần Văn Phúc,Q141667992,1978,Hà Nội
+per:tran_duc_luong,Trần Đức Lương,Trần Đức Lương,Q139324,1937,Quảng Ngãi
+per:tran_dinh_dan,Trần Đình Đàn,Trần Đình Đàn,Q10829677,1951,Hà Tĩnh
+per:tran_dinh_hoan,Trần Đình Hoan,Trần Đình Hoan,Q2457300,1939,Hưng Yên
+per:tran_dong_a,Trần Đông A,Trần Đông A,Q10829679,1941,Nam Định
+per:trinh_hong_duong,Trịnh Hồng Dương,Trịnh Hồng Dương,Q10829866,1938,Ninh Bình
+per:tran_xuan_gia,Trần Xuân Giá,Trần Xuân Giá,Q10829649,1939,Thừa Thiên Huế
+per:trinh_ngoc_phuong,Trịnh Ngọc Phương,Trịnh Ngọc Phương,Q10829870,1970,
+per:tran_dinh_son_chinh_khach,Trần Đình Sơn,Trần Đình Sơn (chính khách),Q16158847,1958,Thanh Hóa
+per:tran_don,Trần Đơn,Trần Đơn,Q20026211,1958,Long An
+per:tran_xuan_ha,Trần Xuân Hà,Trần Xuân Hà,Q24957050,1961,Nghệ An
+per:trinh_ngoc_thuy,Trịnh Ngọc Thúy,Trịnh Ngọc Thúy,Q30921331,1967,Thành phố Hồ Chí Minh
+per:tran_dinh_gia,Trần Đình Gia,Trần Đình Gia,Q30921725,1969,Hà Tĩnh
+per:tran_dang_ninh_chinh_khach,Trần Đăng Ninh,Trần Đăng Ninh (chính khách),Q49054242,1962,Thái Bình
+per:tran_vinh_tuyen,Trần Vĩnh Tuyến,Trần Vĩnh Tuyến,Q49054354,1965,Quảng Bình
+per:tran_dang_yen,Trần Đăng Yến,Trần Đăng Yến,Q49056098,,
+per:trinh_luong_hy,Trịnh Lương Hy,Trịnh Lương Hy,Q49056143,1951,Quảng Ngãi
+per:tran_xuan_hoa_chinh_khach,Trần Xuân Hòa,Trần Xuân Hòa (chính khách),Q61128638,1954,Quảng Ngãi
+per:tran_duc_quan,Trần Đức Quận,Trần Đức Quận,Q61129024,1967,Đà Nẵng
+per:tran_dai_quang,Trần Đại Quang,Trần Đại Quang,Q7833292,1956,Ninh Bình
+per:tran_duc_tai,Trần Đức Tài,Trần Đức Tài,Q86012491,1964,Thành phố Hồ Chí Minh
+per:trinh_ngoc_bao_duy,Trịnh Ngọc Bảo Duy,Trịnh Ngọc Bảo Duy,Q86012498,,
+per:tran_duc_tuan,Trần Đức Tuấn,Trần Đức Tuấn,Q86012489,1965,Bắc Ninh
+per:tran_duc_thuan,Trần Đức Thuận,Trần Đức Thuận,Q107016076,1968,Nghệ An
+per:tran_dinh_chung,Trần Đình Chung,Trần Đình Chung,Q109452118,1967,Đà Nẵng
+per:tran_duc_thang,Trần Đức Thắng,Trần Đức Thắng,Q109438999,1973,Phú Thọ
+per:tran_dinh_van,Trần Đình Văn,Trần Đình Văn,Q116784303,1966,Thừa Thiên Huế
+per:trinh_ngoc_quyen,Trịnh Ngọc Quyên,Trịnh Ngọc Quyên,Q132531329,1969,
+per:tran_dang_quynh,Trần Đăng Quỳnh,Trần Đăng Quỳnh,,1979,Thanh Hóa
+per:tran_vu_khiem,Trần Vũ Khiêm,Trần Vũ Khiêm,,1973,Quảng Bình
+per:trinh_dinh_dung,Trịnh Đình Dũng,Trịnh Đình Dũng,Q10829899,1956,Vĩnh Phúc
+per:to_huy_rua,Tô Huy Rứa,Tô Huy Rứa,Q7810975,1947,Thanh Hóa
+per:tong_thi_phong,Tòng Thị Phóng,Tòng Thị Phóng,Q7820947,1954,Sơn La
+per:to_lam,Tô Lâm,Tô Lâm,Q10831196,1957,Hưng Yên
+per:trinh_thi_thanh_binh,Trịnh Thị Thanh Bình,Trịnh Thị Thanh Bình,Q10829885,1961,
+per:trinh_dinh_thach,Trịnh Đình Thạch,Trịnh Đình Thạch,Q10829901,1965,Quảng Ngãi
+per:trinh_van_chien,Trịnh Văn Chiến,Trịnh Văn Chiến,Q24957832,1960,Thanh Hóa
+per:trinh_xuan_thanh,Trịnh Xuân Thanh,Trịnh Xuân Thanh,Q26945273,1966,Hà Nội
+per:to_thi_bich_chau,Tô Thị Bích Châu,Tô Thị Bích Châu,Q30921323,1969,
+per:ton_ngoc_hanh,Tôn Ngọc Hạnh,Tôn Ngọc Hạnh,Q30921897,1980,Bình Dương
+per:to_ai_vang,Tô Ái Vang,Tô Ái Vang,Q47506365,1975,Sóc Trăng
+per:trinh_van_quyet_chinh_khach,Trịnh Văn Quyết,Trịnh Văn Quyết (chính khách),Q49054807,1966,Hải Dương
+per:to_thuong,Tô Thường (Tô Văn Thường),Tô Thường,Q49056140,1955,Hải Phòng
+per:to_an_xo,Tô Ân Xô,Tô Ân Xô,Q61130865,1963,Bắc Ninh
+per:to_van_hue,Tô Văn Huệ,Tô Văn Huệ,Q86012572,1962,Thái Bình
+per:to_anh_dung,Tô Anh Dũng,Tô Anh Dũng,Q109435367,1964,Nam Định
+per:trinh_xuan_truong,Trịnh Xuân Trường,Trịnh Xuân Trường,Q107195057,1977,Lào Cai
+per:trinh_viet_hung,Trịnh Việt Hùng,Trịnh Việt Hùng,Q107299194,1977,Hải Dương
+per:trinh_xuan_an,Trịnh Xuân An,Trịnh Xuân An,Q116883849,1982,Thanh Hóa
+per:to_long,Tô Long,Tô Long,,1982,Hà Nội
+per:to_anh_dung_sinh_nam_1978,Tô Anh Dũng (sinh năm 1978),Tô Anh Dũng (sinh năm 1978),,1978,Hưng Yên
+per:trinh_duc_du,Trịnh Đức Dụ,Trịnh Đức Dụ,Q139254584,,
+per:ta_huu_thanh,Tạ Hữu Thanh,Tạ Hữu Thanh,Q10831486,1942,Phú Thọ
+per:ta_ngoc_tan,Tạ Ngọc Tấn,Tạ Ngọc Tấn,Q10831492,1954,Phú Thọ
+per:tat_thanh_cang,Tất Thành Cang,Tất Thành Cang,Q10831559,1971,Long An
+per:ta_van_ha,Tạ Văn Hạ,Tạ Văn Hạ,Q30921861,1970,Bắc Giang
+per:ta_minh_tam_chinh_khach,Tạ Minh Tâm,Tạ Minh Tâm (chính khách),Q30924069,1978,Bến Tre
+per:tong_thanh_binh,Tống Thanh Bình,Tống Thanh Bình,Q47506311,1970,Lai Châu
+per:tong_anh_hao,Tống Anh Hào,Tống Anh Hào,Q49055040,1956,Đồng Tháp
+per:ta_quang_khai,Tạ Quang Khải,Tạ Quang Khải,Q86012614,1964,Nam Định
+per:ta_van_long,Tạ Văn Long,Tạ Văn Long,Q109882221,1966,Phú Thọ
+per:ta_anh_tuan,Tạ Anh Tuấn,Tạ Anh Tuấn,Q115213727,1969,Hà Nội
+per:ta_dinh_thi,Tạ Đình Thi,Tạ Đình Thi,Q116770957,1973,Hà Nội
+per:tong_van_bang,Tống Văn Băng,Tống Văn Băng,Q116788781,1974,Hải Phòng
+per:ta_thi_yen,Tạ Thị Yên,Tạ Thị Yên,Q116806454,1972,Bắc Ninh
+per:ta_quang_dong,Tạ Quang Đông,Tạ Quang Đông,Q118249587,1966,Hà Nội
+per:ta_quang_huy,Tạ Quang Huy,Tạ Quang Huy,Q103331179,1969,
+per:ta_van_dep,Tạ Văn Đẹp,Tạ Văn Đẹp,,1975,Tây Ninh
+per:tu_hong_son,Từ Hồng Sơn,Từ Hồng Sơn,Q49056131,1959,Quảng Bình
+per:ung_thi_xuan_huong,Ung Thị Xuân Hương,Ung Thị Xuân Hương,Q49056294,1964,Bình Dương
+per:u_huan,U Huấn,U Huấn,Q109672424,1980,
+per:uong_chu_luu,Uông Chu Lưu,Uông Chu Lưu,Q10832258,1955,Hà Tĩnh
+per:vo_hong_phuc,Võ Hồng Phúc,Võ Hồng Phúc,Q7939147,1945,Hà Tĩnh
+per:vo_thanh_binh,Võ Thanh Bình,Võ Thanh Bình,Q10833269,1951,Cà Mau
+per:vo_minh_chien,Võ Minh Chiến,Võ Minh Chiến,Q10833255,1956,Sóc Trăng
+per:vo_kim_cu,Võ Kim Cự,Võ Kim Cự,Q16159022,1957,Hà Tĩnh
+per:vy_van_thanh,Vy Văn Thành,Vy Văn Thành,Q16480940,1956,Lạng Sơn
+per:vo_thanh_hao,Võ Thành Hạo,Võ Thành Hạo,Q16159034,1959,Bến Tre
+per:vo_minh_luong,Võ Minh Lương,Võ Minh Lương,Q24958454,1963,Đồng Nai
+per:vo_ngoc_thanh,Võ Ngọc Thành,Võ Ngọc Thành,Q49054462,1963,Bình Định
+per:vo_thanh_thong,Võ Thành Thống,Võ Thành Thống,Q49054472,1963,Sóc Trăng
+per:vo_anh_kiet,Võ Anh Kiệt,Võ Anh Kiệt,Q49054488,1960,
+per:vo_thanh_khiet,Võ Thanh Khiết Tư Khiết,Võ Thanh Khiết,Q49055637,1952,An Giang
+per:vo_hoai_viet,Võ Hoài Việt,Võ Hoài Việt,Q49056138,,
+per:vi_van_long,Vi Văn Long,Vi Văn Long,Q61128588,1958,
+per:vo_ngoc_thu,Võ Ngọc Thứ,Võ Ngọc Thứ,Q61128617,1961,Kiên Giang
+per:vo_thanh_duc,Võ Thành Đức,Võ Thành Đức,Q61130822,,
+per:vien_thuan_thanh,Viên Thuần Thanh,Viên Thuần Thanh,Q935107,1952,
+per:vo_hung_viet,Võ Hùng Việt,Võ Hùng Việt,Q109436183,1956,Tây Ninh
+per:vo_chi_cong_sinh_nam_1979,Võ Chí Công (sinh năm 1979),Võ Chí Công (sinh năm 1979),Q109653524,1979,Hậu Giang
+per:vi_duc_tho,Vi Đức Thọ,Vi Đức Thọ,Q116777857,1976,Sơn La
+per:vi_van_son,Vi Văn Sơn,Vi Văn Sơn,Q116955663,1973,Nghệ An
+per:vo_manh_son,Võ Mạnh Sơn,Võ Mạnh Sơn,Q117000832,1971,Thanh Hóa
+per:vo_van_thuong,Võ Văn Thưởng,Võ Văn Thưởng,Q10833302,1970,Hải Dương
+per:vo_trong_viet,Võ Trọng Việt,Võ Trọng Việt,Q10833289,1957,Hà Tĩnh
+per:vo_van_dung_chinh_khach,Võ Văn Dũng,Võ Văn Dũng (chính khách),Q10833296,1960,
+per:vo_van_phuong,Võ Văn Phuông,Võ Văn Phuông,Q10833301,1960,Tây Ninh
+per:vo_duc_huy,Võ Đức Huy,Võ Đức Huy,Q10833328,1950,Quảng Ngãi
+per:vo_thi_dung,Võ Thị Dung,Võ Thị Dung,Q10833274,1960,Thành phố Hồ Chí Minh
+per:vo_tien_trung,Võ Tiến Trung,Võ Tiến Trung,Q10833284,1954,Quảng Nam
+per:vo_van_tuan,Võ Văn Tuấn,Võ Văn Tuấn,Q18461286,1955,Thừa Thiên Huế
+per:vo_van_viet,Võ Văn Việt,Võ Văn Việt,Q20026299,1957,Nghệ An
+per:vo_thi_anh_xuan,Võ Thị Ánh Xuân,Võ Thị Ánh Xuân,Q24957799,1970,
+per:van_thi_bach_tuyet,Văn Thị Bạch Tuyết,Văn Thị Bạch Tuyết,Q30921330,1976,Thành phố Hồ Chí Minh
+per:vo_thi_nhu_hoa,Võ Thị Như Hoa,Võ Thị Như Hoa,Q30921655,1967,Quảng Nam
+per:vo_van_binh,Võ Văn Bình,Võ Văn Bình,Q30922044,1975,Đồng Tháp
+per:vo_dinh_tin,Võ Đình Tín,Võ Đình Tín,Q30922109,1965,Bình Định
+per:van_huu_chien,Văn Hữu Chiến,Văn Hữu Chiến,Q49054685,1954,Quảng Nam
+per:vo_tuan_nhan,Võ Tuấn Nhân,Võ Tuấn Nhân,Q61128632,1963,Quảng Nam
+per:vo_van_hoan,Võ Văn Hoan,Võ Văn Hoan,Q61129303,1965,
+per:vo_van_minh,Võ Văn Minh,Võ Văn Minh,Q65172178,1972,
+per:vo_trong_thanh,Võ Trọng Thanh,Võ Trọng Thanh,Q86012813,,
+per:vo_van_hung,Võ Văn Hưng,Võ Văn Hưng,Q97164788,1972,
+per:vo_trong_hai,Võ Trọng Hải,Võ Trọng Hải,Q109441806,1968,Hà Tĩnh
+per:vo_van_hoi,Võ Văn Hội,Võ Văn Hội,Q116728261,1971,Bến Tre
+per:vo_thi_minh_sinh,Võ Thị Minh Sinh,Võ Thị Minh Sinh,Q116767989,1970,Nghệ An
+per:vo_tien_nghi,Võ Tiến Nghị,Võ Tiến Nghị,Q130382677,1976,Hà Tĩnh
+per:vu_khoan,Vũ Khoan,Vũ Khoan,Q7943276,1937,
+per:vu_huy_hoang,Vũ Huy Hoàng,Vũ Huy Hoàng,Q10833804,1953,Hải Phòng
+per:vu_oanh,Vũ Oanh,Vũ Oanh,Q16481476,1924,Hải Dương
+per:vu_mao,Vũ Mão,Vũ Mão,Q10833847,1939,Hà Nội
+per:vu_hong_bac,Vũ Hồng Bắc,Vũ Hồng Bắc,Q10833816,1961,Thái Bình
+per:vu_ba_trung,Vũ Bá Trung,Vũ Bá Trung,Q20026304,,
+per:vu_hai_san,Vũ Hải Sản,Vũ Hải Sản,Q24958441,1961,Nam Định
+per:vu_hong_thanh,Vũ Hồng Thanh,Vũ Hồng Thanh,Q30921400,1962,Hải Dương
+per:vu_hai_ha,Vũ Hải Hà,Vũ Hải Hà,Q30921776,1969,Nam Định
+per:vu_hai_chinh_khach,Vũ Hải,Vũ Hải (chính khách),Q49055957,1959,Hải Dương
+per:vu_cong_tien,Vũ Công Tiến,Vũ Công Tiến,Q49056009,1956,Quảng Nam
+per:vu_bang_chinh_khach,Vũ Bằng,Vũ Bằng (chính khách),Q49056317,1957,Thái Bình
+per:vu_hung_vuong,Vũ Hùng Vương,Vũ Hùng Vương,Q61128515,1951,
+per:vu_ngoc_riem,Vũ Ngọc Riềm,Vũ Ngọc Riềm,Q86012867,,
+per:vu_ngoc_hoang,Vũ Ngọc Hoàng,Vũ Ngọc Hoàng,Q86012863,1953,Quảng Nam
+per:vu_ngoc_lan,Vũ Ngọc Lân,Vũ Ngọc Lân,Q86012866,,
+per:vu_hai_quan,Vũ Hải Quân,Vũ Hải Quân,Q109440061,1974,Ninh Bình
+per:vu_hong_van,Vũ Hồng Văn,Vũ Hồng Văn,Q109439518,1976,Hưng Yên
+per:vu_kim_ha,Vũ Kim Hà,Vũ Kim Hà,Q109438234,,
+per:vu_manh_ha,Vũ Mạnh Hà,Vũ Mạnh Hà,Q109667493,1979,Tuyên Quang
+per:vu_ngoc_long,Vũ Ngọc Long,Vũ Ngọc Long,Q116868950,1971,Thanh Hóa
+per:vu_hong_luyen,Vũ Hồng Luyến,Vũ Hồng Luyến,Q116922962,1983,Hưng Yên
+per:vu_quang_minh,Vũ Quang Minh,Vũ Quang Minh,Q94641229,,Hà Nội
+per:vu_dung,Vũ Dũng,Vũ Dũng,Q131552284,1949,Nam Định
+per:vu_hoang_anh,Vũ Hoàng Anh,Vũ Hoàng Anh,,1977,
+per:vu_hong_son_trung_tuong,Vũ Hồng Sơn,Vũ Hồng Sơn (trung tướng),,1971,Hà Nội
+per:vu_van_ninh,Vũ Văn Ninh,Vũ Văn Ninh,Q7943286,1955,Nam Định
+per:vu_xuan_hong,Vũ Xuân Hồng,Vũ Xuân Hồng,Q10833941,1950,Ninh Bình
+per:vu_viet_ngoan,Vũ Viết Ngoạn,Vũ Viết Ngoạn,Q10833932,1958,Hà Nội
+per:vu_tien_loc,Vũ Tiến Lộc,Vũ Tiến Lộc,Q10833913,1960,Thái Bình
+per:vu_van_hien_nha_nghien_cuu,Vũ Văn Hiền,Vũ Văn Hiền (nhà nghiên cứu),Q20026321,1950,
+per:vu_van_hien,Vũ Văn Hiến,Vũ Văn Hiến,Q25418535,1947,Hưng Yên
+per:vu_thi_luu_mai,Vũ Thị Lưu Mai,Vũ Thị Lưu Mai,Q30921502,1972,Hải Dương
+per:vu_xuan_hung,Vũ Xuân Hùng,Vũ Xuân Hùng,Q30921677,1967,Thanh Hóa
+per:vu_trong_kim,Võ Văn Kim (Vũ Trọng Kim),Vũ Trọng Kim,Q47506286,1953,Quảng Nam
+per:vu_thi_nguyet,Vũ Thị Nguyệt,Vũ Thị Nguyệt,Q47506302,1983,
+per:vu_xuan_cuong,Vũ Xuân Cường,Vũ Xuân Cường,Q49054155,1966,Hải Dương
+per:vu_van_hoan,Vũ Văn Hoàn,Vũ Văn Hoàn,Q49054504,1962,Thái Bình
+per:vu_xuan_sinh,Vũ Xuân Sinh,Vũ Xuân Sinh,Q49056122,,
+per:vu_thanh_binh,Vũ Thanh Bình,Vũ Thanh Bình,Q61128591,,
+per:vu_xuan_truong_chinh_tri_gia,Vũ Xuân Trường,Vũ Xuân Trường (chính trị gia),Q61128626,1954,Ninh Bình
+per:vu_van_sy,Vũ Văn Sỹ,Vũ Văn Sỹ,Q61128851,,
+per:vu_thuat,Vũ Thuật (Vũ Xuân Thuật),Vũ Thuật,Q61128944,1955,Hà Nam
+per:vu_xuan_vien,Vũ Xuân Viên,Vũ Xuân Viên,Q61131144,1964,
+per:vu_thanh_chuong,Vũ Thanh Chương,Vũ Thanh Chương,Q86012870,1968,Thái Bình
+per:vu_viet_trang,Vũ Việt Trang,Vũ Việt Trang,Q109435567,1969,Hà Nội
+per:vu_tuan_anh,Vũ Tuấn Anh,Vũ Tuấn Anh,Q116959581,1969,Lào Cai
+per:vu_trung_kien,Vũ Trung Kiên,Vũ Trung Kiên,,1974,Hưng Yên
+per:vu_van_kha,Vũ Văn Kha,Vũ Văn Kha,,1963,Thái Bình
+per:dinh_la_thang,Đinh La Thăng,Đinh La Thăng,Q94392,1960,Nam Định
+per:vu_duc_dam,Vũ Đức Đam,Vũ Đức Đam,Q10833975,1963,Hải Dương
+per:vuong_dinh_hue,Vương Đình Huệ,Vương Đình Huệ,Q2595973,1957,Nghệ An
+per:vu_dinh_cu,Vũ Đình Cự,Vũ Đình Cự,Q10833958,1936,Thái Bình
+per:y_luyen_niek_dam,Y Luyện Niêk Đăm,Y Luyện Niêk Đăm,Q10836761,1943,Đắk Lắk
+per:dinh_cong_sy,Đinh Công Sỹ,Đinh Công Sỹ,Q10840090,1979,Sơn La
+per:y_ly_nie_kdam,Y Ly Niê Kdăm,Y Ly Niê Kdăm,Q10836762,1944,Đắk Lắk
+per:vuong_binh_thanh,Vương Bình Thạnh,Vương Bình Thạnh,Q24957729,1959,An Giang
+per:y_bier_nie,Y Biêr Niê,Y Biêr Niê,Q30922074,1963,Đắk Lắk
+per:vuong_ngoc_ha,Vương Ngọc Hà,Vương Ngọc Hà,Q30922131,1977,
+per:dinh_huu_cuong,Đinh Hữu Cường,Đinh Hữu Cường,Q49055091,,
+per:y_thong_chinh_khach,Y Thông,Y Thông (chính khách),Q49055810,1966,
+per:eban_y_phu,Êban Y Phu,Êban Y Phu,Q61129049,1959,
+per:vu_dai_thang,Vũ Đại Thắng,Vũ Đại Thắng,Q61130245,1975,Hải Phòng
+per:vu_do_anh_dung,Vũ Đỗ Anh Dũng,Vũ Đỗ Anh Dũng,Q61130785,1961,Phú Thọ
+per:y_thanh_ha_nie_kdam,Y Thanh Hà Niê Kđăm,Y Thanh Hà Niê Kđăm,Q65172375,1973,Đắk Lắk
+per:vuong_hoc_quan,Vương Học Quân,Vương Học Quân,Q8292107,1952,
+per:y_dham_enu_i,Y Dhăm Ênuði,Y Dhăm Ênuði,Q65175148,1958,Đắk Lắk
+per:dinh_huy_hieu,Đinh Huy Hiệu,Đinh Huy Hiệu,Q86013157,,
+per:vuong_quoc_tuan,Vương Quốc Tuấn,Vương Quốc Tuấn,Q109674088,1977,
+per:y_vinh_tor,Y Vinh Tơr,Y Vinh Tơr,Q109679197,1976,Đắk Lắk
+per:vuong_quoc_thang,Vương Quốc Thắng,Vương Quốc Thắng,Q116970319,1975,Nghệ An
+per:vuong_duy_bien,Vương Duy Biên,Vương Duy Biên,Q136461325,1958,Hà Nội
+per:dinh_huu_thanh,Đinh Hữu Thành,Đinh Hữu Thành,,1977,Quảng Bình
+per:dinh_tien_dung,Đinh Tiến Dũng,Đinh Tiến Dũng,Q10840142,1961,Ninh Bình
+per:dinh_the_huynh,Đinh Thế Huynh,Đinh Thế Huynh,Q5278305,1953,Nam Định
+per:dieu_k_re,Điểu K'Ré,Điểu K'Ré,Q10840217,1968,Đắk Nông
+per:doan_hong_phong,Đoàn Hồng Phong,Đoàn Hồng Phong,Q24955865,1963,Nam Định
+per:doan_duy_khuong,Đoàn Duy Khương,Đoàn Duy Khương,Q24958803,1960,Nam Định
+per:dinh_van_dien,Đinh Văn Điến,Đinh Văn Điến,Q26237028,1961,
+per:doan_minh_huan,Đoàn Minh Huấn,Đoàn Minh Huấn,Q30920053,1971,Hà Tĩnh
+per:dinh_thi_binh,Đinh Thị Bình,Đinh Thị Bình,Q30921244,1984,Phú Thọ
+per:dinh_dang_luan,Đinh Đăng Luận,Đinh Đăng Luận,Q30921960,1963,Hà Nội
+per:dinh_van_nha,Đinh Văn Nhã,Đinh Văn Nhã,Q47506350,1960,
+per:dinh_thi_hong_minh,Đinh Thị Hồng Minh,Đinh Thị Hồng Minh,Q47506362,1970,Quảng Ngãi
+per:dinh_van_cuong,Đinh Văn Cương,Đinh Văn Cương,Q39039480,1952,Hà Nam
+per:dinh_quoc_thai,Đinh Quốc Thái,Đinh Quốc Thái,Q49054460,1959,Bến Tre
+per:dinh_van_thu,Đinh Văn Thu,Đinh Văn Thu,Q49054634,1959,Quảng Nam
+per:dien_thanh_binh,Điền Thành Bình,Điền Thành Bình,Q3372348,1945,
+per:dinh_van_toan,Đinh Văn Toản,Đinh Văn Toản,Q61130837,,
+per:dinh_thanh_nhan,Đinh Thanh Nhàn,Đinh Thanh Nhàn,Q86013161,1968,
+per:doan_hung_son,Đoàn Hùng Sơn,Đoàn Hùng Sơn,Q138052989,,Lào Cai
+per:doan_anh_dung,Đoàn Anh Dũng,Đoàn Anh Dũng,Q115213744,1977,
+per:dinh_van_noi,Đinh Văn Nơi,Đinh Văn Nơi,Q118250027,1976,Cần Thơ
+per:dinh_viet_dung,Đinh Việt Dũng,Đinh Việt Dũng,Q116693077,1972,Nghệ An
+per:dinh_van_the,Đinh Văn Thê,Đinh Văn Thê,Q116813883,1975,Gia Lai
+per:dinh_ngoc_quy,Đinh Ngọc Quý,Đinh Ngọc Quý,Q116894193,1973,Hà Nam
+per:dinh_xuan_luu,Đinh Xuân Lưu,Đinh Xuân Lưu,Q5278306,,
+per:dinh_thi_phuong_lan_dai_bieu_quoc_hoi_viet_nam,Đinh Thị Phương Lan,Đinh Thị Phương Lan (đại biểu Quốc hội Việt Nam),,1976,Hà Nội
+per:doan_manh_giao,Đoàn Mạnh Giao,Đoàn Mạnh Giao,Q16157036,1944,Thừa Thiên Huế
+per:dao_ngoc_dung,Đào Ngọc Dung,Đào Ngọc Dung,Q10840462,1962,Hà Nam
+per:dao_duy_minh,Đào Duy Minh,Đào Duy Minh,Q18461573,1954,Quảng Ngãi
+per:doan_van_viet,Đoàn Văn Việt,Đoàn Văn Việt,Q24956796,1963,
+per:doan_viet_manh,Đoàn Việt Mạnh,Đoàn Việt Mạnh,Q30920064,1959,
+per:dao_thanh_hai,Đào Thanh Hải,Đào Thanh Hải,Q30921488,1962,Thanh Hóa
+per:dam_van_eng,Đàm Văn Eng,Đàm Văn Eng,Q49054570,1960,Cao Bằng
+per:dao_hong_lan,Đào Hồng Lan,Đào Hồng Lan,Q49081097,1971,Hải Dương
+per:dao_tuan_anh,Đào Tuấn Anh,Đào Tuấn Anh,Q49054951,1970,Thái Bình
+per:dao_thi_xuan_lan,Đào Thị Xuân Lan,Đào Thị Xuân Lan,Q49054981,1961,Hải Dương
+per:dao_gia_bao,Đào Gia Bảo,Đào Gia Bảo,Q86013211,,
+per:doan_minh_ly,Đoàn Minh Lý,Đoàn Minh Lý,Q134589450,1964,Đồng Tháp
+per:dao_chi_nghia,Đào Chí Nghĩa,Đào Chí Nghĩa,Q118251030,1982,Cần Thơ
+per:dao_hong_van,Đào Hồng Vận,Đào Hồng Vận,Q116784170,1973,
+per:dam_minh_dien,Đàm Minh Diện,Đàm Minh Diện,Q116787767,1970,
+per:doan_thi_hau,Đoàn Thị Hậu,Đoàn Thị Hậu,Q138333134,1969,Lạng Sơn
+per:doan_xuan_hung,Đoàn Xuân Hưng,Đoàn Xuân Hưng,Q124293346,1957,Hải Phòng
+per:doan_xuan_buong,Đoàn Xuân Bường,Đoàn Xuân Bường,,1974,Hà Tĩnh
+per:doan_thanh_thuy,Đoàn Thanh Thủy,Đoàn Thanh Thủy,,1977,Nam Định
+per:doan_trung_kien,Đoàn Trung Kiên,Đoàn Trung Kiên,,1979,Hà Nam
+per:dao_dinh_binh,Đào Đình Bình,Đào Đình Bình,Q10840501,1945,Bắc Ninh
+per:dao_van_binh,Đào Văn Bình,Đào Văn Bình,Q10839670,1956,Hà Nội
+per:dang_huu,Đặng Hữu,Đặng Hữu,Q10841524,1930,Bình Định
+per:dang_ngoc_nghia,Đặng Ngọc Nghĩa,Đặng Ngọc Nghĩa,Q10841540,1959,
+per:dao_viet_trung,Đào Việt Trung,Đào Việt Trung,Q10840482,1959,Hà Nam
+per:dang_hung_vo,Đặng Hùng Võ,Đặng Hùng Võ,Q24957521,1946,
+per:dao_tu_hoa,Đào Tú Hoa,Đào Tú Hoa,Q30921493,1970,
+per:don_tuan_phong,Đôn Tuấn Phong,Đôn Tuấn Phong,Q30921742,1970,Hà Nội
+per:dang_hoai_tan,Đặng Hoài Tân,Đặng Hoài Tân,Q30921872,1966,Bình Định
+per:dao_duc_toan,Đào Đức Toàn,Đào Đức Toàn,Q30921888,1962,Bắc Ninh
+per:dang_huy_dong,Đặng Huy Đông,Đặng Huy Đông,Q47506375,1957,Hưng Yên
+per:dao_xuan_qui,Đào Xuân Quí,Đào Xuân Quí,Q49054625,1958,Phú Yên
+per:dao_tan_loc,Đào Tấn Lộc,Đào Tấn Lộc,Q49055829,1953,Phú Yên
+per:dang_ngoc_quynh,Đặng Ngọc Quỳnh,Đặng Ngọc Quỳnh,Q49056041,1963,Hưng Yên
+per:duong_minh_hung,Đường Minh Hưng,Đường Minh Hưng,Q49056135,,Thanh Hóa
+per:dang_cong_ly,Đặng Công Lý,Đặng Công Lý,Q49055821,1960,
+per:dao_van_loi,Đào Văn Lợi,Đào Văn Lợi,Q59847380,1947,Hải Dương
+per:dang_hoang_da,Đặng Hoàng Đa,Đặng Hoàng Đa,Q86013395,1965,Sóc Trăng
+per:dang_ngoc_tuyen,Đặng Ngọc Tuyến,Đặng Ngọc Tuyến,Q86013399,,
+per:dang_minh_khoi,Đặng Minh Khôi,Đặng Minh Khôi,Q99964787,1964,Hà Nội
+per:dang_huynh_mai,Đặng Huỳnh Mai,Đặng Huỳnh Mai,Q98132985,1952,
+per:dang_hong_duc,Đặng Hồng Đức,Đặng Hồng Đức,Q118250014,1977,Nam Định
+per:dang_ngoc_huy,Đặng Ngọc Huy,Đặng Ngọc Huy,Q116728517,1975,Hà Nội
+per:dang_hong_sy,Đặng Hồng Sỹ,Đặng Hồng Sỹ,Q116800224,1976,Bình Thuận
+per:dang_bich_ngoc,Đặng Bích Ngọc,Đặng Bích Ngọc,Q116921405,1980,Hòa Bình
+per:dang_khanh_toan,Đặng Khánh Toàn,Đặng Khánh Toàn,,1971,
+per:dang_hoang_giang,Đặng Hoàng Giang,Đặng Hoàng Giang,Q140088175,1977,Bắc Ninh
+per:dang_vu_minh,Đặng Vũ Minh,Đặng Vũ Minh,Q10841611,1946,
+per:dang_van_hieu,Đặng Văn Hiếu,Đặng Văn Hiếu,Q10841593,1953,Ninh Bình
+per:dang_quan_thuy,Đặng Quân Thụy,Đặng Quân Thụy,Q10841550,1928,Nam Định
+per:dang_ngoc_tung,Đặng Ngọc Tùng,Đặng Ngọc Tùng,Q10841542,1952,Quảng Ngãi
+per:dang_thi_ngoc_thinh,Đặng Thị Ngọc Thịnh,Đặng Thị Ngọc Thịnh,Q10841571,1959,Quảng Nam
+per:dang_quoc_khanh_chinh_khach,Đặng Quốc Khánh,Đặng Quốc Khánh (chính khách),Q25418084,1976,
+per:dang_thuan_phong,Đặng Thuần Phong,Đặng Thuần Phong,Q30921582,1964,
+per:dang_xuan_phuong,Đặng Xuân Phương,Đặng Xuân Phương,Q30922070,1974,Nam Định
+per:dang_the_vinh,Đặng Thế Vinh,Đặng Thế Vinh,Q30922083,1963,Hà Nội
+per:dang_xuan_phong_chinh_khach,Đặng Xuân Phong,Đặng Xuân Phong (chính khách),Q47506287,1972,Phú Thọ
+per:dang_thi_phuong_thao,Đặng Thị Phương Thảo,Đặng Thị Phương Thảo,Q47506329,1984,Nam Định
+per:dang_tuyet_em,Đặng Tuyết Em,Đặng Tuyết Em,Q49054548,1960,Kiên Giang
+per:dang_quang_phuong,Đặng Quang Phương,Đặng Quang Phương,Q49054907,1953,Hà Tĩnh
+per:dang_trong_thang,Đặng Trọng Thăng,Đặng Trọng Thăng,Q49055258,1960,Hưng Yên
+per:dang_xuan_huy,Đặng Xuân Huy,Đặng Xuân Huy,Q49055825,1979,Đồng Tháp
+per:dang_xuan_loan,Đặng Xuân Loan,Đặng Xuân Loan,Q49056056,,Nghệ An
+per:dang_viet_dung,Đặng Việt Dũng,Đặng Việt Dũng,Q65169940,1960,
+per:dang_tran_chieu,Đặng Trần Chiêu,Đặng Trần Chiêu,Q86013402,1960,
+per:dang_van_xuong,Đặng Văn Xướng,Đặng Văn Xướng,Q86013415,1958,
+per:dang_van_sinh,Đặng Văn Sinh,Đặng Văn Sinh,Q97166378,,
+per:dang_van_minh_chinh_khach,Đặng Văn Minh,Đặng Văn Minh (chính khách),Q130466850,,
+per:dang_xuan_hong,Đặng Xuân Hồng,Đặng Xuân Hồng,Q131928008,1967,
+per:dang_van_lam,Đặng Văn Lẫm,Đặng Văn Lẫm,Q116691801,1968,Long An
+per:dang_van_dung,Đặng Văn Dũng,Đặng Văn Dũng,,1972,Nghệ An
+per:do_ba_ty,Đỗ Bá Tỵ,Đỗ Bá Tỵ,Q10842107,1954,
+per:do_quang_trung,Đỗ Quang Trung,Đỗ Quang Trung,Q10842154,1946,Hà Nội
+per:do_quoc_sam,Đỗ Quốc Sam,Đỗ Quốc Sam,Q10842155,1929,Hà Nội
+per:dong_dai_loc,Đồng Đại Lộc,Đồng Đại Lộc,Q10842092,1958,Thanh Hóa
+per:do_kim_tuyen,Đỗ Kim Tuyến,Đỗ Kim Tuyến,Q10842131,1958,Thái Bình
+per:do_nguyen_phuong,Đỗ Nguyên Phương,Đỗ Nguyên Phương,Q10842139,1937,Hà Nội
+per:do_hong_quan,Đỗ Hồng Quân,Đỗ Hồng Quân,Q20063543,1956,Hải Dương
+per:do_can_tuong,Đỗ Căn,Đỗ Căn (tướng),Q10842113,1962,Hà Nội
+per:dong_van_lam,Đồng Văn Lâm,Đồng Văn Lâm,Q18415826,1961,Thanh Hóa
+per:do_quang_hung,Đỗ Quang Hưng,Đỗ Quang Hưng,Q20025628,1929,Cà Mau
+per:dang_dinh_quy,Đặng Đình Quý,Đặng Đình Quý,Q24958956,1961,Nam Định
+per:do_quang_thanh,Đỗ Quang Thành,Đỗ Quang Thành,Q30921906,1965,Hưng Yên
+per:do_ngoc_thinh,Đỗ Ngọc Thịnh,Đỗ Ngọc Thịnh,Q30921928,1960,Bắc Ninh
+per:do_ngoc_an,Đỗ Ngọc An,Đỗ Ngọc An,Q49054394,1963,Hà Nội
+per:do_quy_doan,Đỗ Quý Doãn,Đỗ Quý Doãn,Q49054864,1953,Quảng Bình
+per:do_manh_hung_chinh_khach,Đỗ Mạnh Hùng,Đỗ Mạnh Hùng (chính khách),Q49056004,1958,Hưng Yên
+per:do_manh_bong,Đỗ Mạnh Bổng,Đỗ Mạnh Bổng,Q61132991,1969,
+per:do_le_chi,Đỗ Lê Chi,Đỗ Lê Chi,Q86013452,1962,Quảng Ninh
+per:do_thanh_binh,Đỗ Thanh Bình,Đỗ Thanh Bình,Q97162445,1967,Cà Mau
+per:do_phuong_thuan,Đỗ Phương Thuấn,Đỗ Phương Thuấn,Q97580902,,
+per:dong_van_thanh,Đồng Văn Thanh,Đồng Văn Thanh,Q107155103,1969,Cần Thơ
+per:do_minh_tuan,Đỗ Minh Tuấn,Đỗ Minh Tuấn,Q107295137,1972,Thanh Hóa
+per:do_manh_hien,Đỗ Mạnh Hiến,Đỗ Mạnh Hiến,Q109743824,1969,Hải Phòng
+per:do_hung_viet,Đỗ Hùng Việt,Đỗ Hùng Việt,Q115589649,1977,Hà Nội
+per:dong_ngoc_ba,Đồng Ngọc Ba,Đồng Ngọc Ba,Q116868864,1972,Bắc Giang
+per:do_chi_nghia,Đỗ Chí Nghĩa,Đỗ Chí Nghĩa,Q116970024,1975,Hà Nam
+per:do_thanh_binh_sinh_nam_1976,Đỗ Thanh Bình,Đỗ Thanh Bình (sinh năm 1976),,1976,Thái Bình
+per:do_huu_huy,Đỗ Hữu Huy,Đỗ Hữu Huy,,1980,Hải Phòng
+per:do_xuan_cong,Đỗ Xuân Công,Đỗ Xuân Công,Q10842194,1943,Thanh Hóa
+per:do_trung_ta,Đỗ Trung Tá,Đỗ Trung Tá,Q10842176,1945,Hà Nội
+per:do_van_chien,Đỗ Văn Chiến,Đỗ Văn Chiến,Q10842188,1962,Tuyên Quang
+per:do_van_duong,Đỗ Văn Đương,Đỗ Văn Đương,Q10842192,1960,Hải Dương
+per:do_thi_huyen_tam,Đỗ Thị Huyền Tâm,Đỗ Thị Huyền Tâm,Q10842166,1966,Bắc Ninh
+per:do_trung_duong,Đỗ Trung Dương,Đỗ Trung Dương,Q20025632,1945,
+per:do_tien_sy,Đỗ Tiến Sỹ,Đỗ Tiến Sỹ,Q24957814,1965,Hưng Yên
+per:do_duc_hong_ha,Đỗ Đức Hồng Hà,Đỗ Đức Hồng Hà,Q30921480,1969,Hải Dương
+per:do_trong_hung,Tiến sĩ Đỗ Trọng Hưng,Đỗ Trọng Hưng,Q30921667,1971,Thanh Hóa
+per:do_dai_phong,Đỗ Đại Phong,Đỗ Đại Phong,Q30921741,1965,Hà Nam
+per:do_thi_thu_hang,Đỗ Thị Thu Hằng,Đỗ Thị Thu Hằng,Q30921772,1971,Hà Nam
+per:do_duc_duy,Đỗ Đức Duy,Đỗ Đức Duy,Q30921991,1970,Thái Bình
+per:do_thi_lan,Đỗ Thị Lan,Đỗ Thị Lan,Q47506364,1967,Hà Nội
+per:do_tan_minh,Đỗ Tấn Minh,Đỗ Tấn Minh,Q49055817,,
+per:do_viet_anh,Đỗ Việt Anh,Đỗ Việt Anh,Q49055953,1964,
+per:do_dinh_nghi,Đỗ Đình Nghị,Đỗ Đình Nghị,Q49056117,,
+per:do_duc_kinh,Đỗ Đức Kính,Đỗ Đức Kính,Q61128584,1954,
+per:do_thi_hoang,Đỗ Thị Hoàng,Đỗ Thị Hoàng,Q61128639,1958,
+per:do_xuan_tuyen,Đỗ Xuân Tuyên,Đỗ Xuân Tuyên,Q61129032,1966,Hưng Yên
+per:do_duc_hien,Đỗ Đức Hiển,Đỗ Đức Hiển,Q116844673,1977,Hưng Yên
+per:do_thi_viet_ha,Đỗ Thị Việt Hà,Đỗ Thị Việt Hà,Q116859368,1978,Bắc Giang
+per:do_van_hoanh,Đỗ Văn Hoành,Đỗ Văn Hoành,Q86013464,1963,Vĩnh Phúc
+per:do_van_banh,Đỗ Văn Bảnh,Đỗ Văn Bảnh,Q133163619,1969,Long An
+per:do_xuan_tung,Đỗ Xuân Tụng,Đỗ Xuân Tụng,,1970,Vĩnh Phúc
+per:do_thanh_trung_chinh_khach,Đỗ Thành Trung,Đỗ Thành Trung (chính khách),,1976,Gia Lai
+per:do_trieu_phong,Đỗ Triệu Phong,Đỗ Triệu Phong,,1967,Quảng Trị
+per:do_thi_thu_thao,Đỗ Thị Thu Thảo,Đỗ Thị Thu Thảo,,1975,Bến Tre

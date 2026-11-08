@@ -1,0 +1,21 @@
+# Thu thập
+requests
+beautifulsoup4
+lxml
+trafilatura
+mwparserfromhell      # phân tích wikitext / infobox Wikipedia
+# Xử lý & chuẩn hoá
+pandas
+rapidfuzz             # so khớp mờ tên người / cơ quan
+unidecode
+tqdm
+python-dotenv
+# Đồ thị
+neo4j                 # Python driver (Bolt)
+networkx
+scipy                 # PageRank trong networkx
+matplotlib
+# NLP (giai đoạn trích xuất quan hệ - cài sau)
+# underthesea
+# torch
+# transformers         # vinai/phobert-base-v2
