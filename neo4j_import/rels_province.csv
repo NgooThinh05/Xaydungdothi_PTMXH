@@ -1,0 +1,1232 @@
+﻿person_name,province_name,is_primary
+Phạm Gia Túc,Hà Tĩnh,True
+Lê Minh Hưng,Hải Phòng,True
+Lương Tam Quang,Hà Nội,True
+Vũ Đại Thắng,Hà Nội,True
+Vũ Thu Hà,Hà Nội,True
+Nguyễn Văn Thắng,Hà Nội,True
+Nguyễn Văn Thắng,Cần Thơ,False
+Nguyễn Văn Thắng,Nghệ An,False
+Nguyễn Văn Gấu,Cần Thơ,True
+Bùi Thị Minh Hoài,Hà Nội,True
+Bùi Thị Minh Hoài,TP.HCM,False
+Đỗ Văn Chiến,Hà Nội,True
+Thái Đại Ngọc,Gia Lai,True
+Trương Việt Dũng,Hà Nội,True
+Nguyễn Trọng Đông,Hà Nội,True
+Lê Quang Mạnh,TP.HCM,True
+Lê Quang Mạnh,Tây Ninh,False
+Bùi Duy Cường,Hà Nội,True
+Nguyễn Hồng Ky,Hà Nội,True
+Nguyễn Thanh Tùng,Hà Nội,True
+Nguyễn Bá Hoan,Hà Nội,True
+Hồ Văn Mừng,An Giang,True
+Trần Thế Thuận,TP.HCM,True
+Lê Trí Thanh,Huế,True
+Nguyễn Phước Lộc,TP.HCM,True
+Nguyễn Văn Được,TP.HCM,True
+Lê Thị Ánh Mai,Hà Nội,True
+Nguyễn Huy Dũng,Hà Nội,True
+Nguyễn Ngọc Tú,Hà Nội,True
+Nguyễn Ngọc Tú,Hải Phòng,False
+Nguyễn Thanh Hải,Thái Nguyên,True
+Lê Ngọc Quang,Đà Nẵng,True
+Trần Lưu Quang,TP.HCM,True
+Nguyễn Xuân Lưu,Hà Nội,True
+Nguyễn Thanh Bình,Ninh Bình,True
+Nguyễn Thanh Bình,Nghệ An,False
+Nguyễn Huy Tiến,Cà Mau,True
+Nguyễn Thế Mạnh,Thái Nguyên,True
+Nguyễn Thế Mạnh,Nghệ An,False
+Nguyễn Đắc Vinh,Hà Nội,True
+Nguyễn Đắc Vinh,Tuyên Quang,False
+Nguyễn Thị Loan,Thái Nguyên,True
+Nguyễn Thị Loan,Đồng Nai,False
+Phùng Thị Hồng Hà,Hà Nội,True
+Trần Vũ Khiêm,Quảng Trị,True
+Nguyễn Hữu Phước,Khánh Hòa,True
+Nguyễn Hữu Phước,Quảng Trị,False
+Trịnh Xuân Trường,Thái Nguyên,True
+Nguyễn Văn Khởi,Cần Thơ,True
+Nguyễn Văn Khởi,Cà Mau,False
+Trần Sỹ Thanh,Hải Phòng,True
+Trần Thanh Hải,Hà Nội,True
+Nguyễn Thanh Nhàn,Đồng Tháp,True
+Nguyễn Mạnh Cường,TP.HCM,True
+Ngô Vũ Thăng,Cà Mau,True
+Hồ Văn Mười,Lâm Đồng,True
+Nguyễn Bá Út,Lâm Đồng,True
+Nguyễn Bá Út,Đồng Nai,False
+Nguyễn Phi Long,Hòa Bình,True
+Nguyễn Văn Công,Quảng Ninh,True
+Nguyễn Minh,Lâm Đồng,True
+Đinh Văn Nơi,An Giang,True
+Võ Trọng Hải,Nghệ An,True
+Nguyễn Minh Luân,Cà Mau,True
+Nguyễn Thanh Hà,Khánh Hòa,True
+Trần Nam Hưng,Đà Nẵng,True
+Bùi Hoàng Phương,Quảng Trị,True
+Nguyễn Hồ Hải,Cà Mau,True
+Trần Tiến Dũng,Điện Biên,True
+Trần Tiến Dũng,Hải Phòng,False
+Nguyễn Mạnh Hùng,Đà Nẵng,True
+Nguyễn Mạnh Hùng,Phú Thọ,False
+Nguyễn Minh Tuấn,Phú Thọ,True
+Nguyễn Minh Tuấn,Hà Tĩnh,False
+Nguyễn Minh Tuấn,Cần Thơ,False
+Nguyễn Lộc Hà,TP.HCM,True
+Phạm Thị Thanh Hường,Hà Nội,True
+Dương Mạnh Hùng,Hà Nội,True
+Nguyễn Thanh Phong,An Giang,True
+Trần Hồng Minh,TP.HCM,True
+Hoàng Nghĩa Hiếu,Nghệ An,True
+Trần Duy Đông,Phú Thọ,True
+Nguyễn Hồng Hải,Lâm Đồng,True
+Nguyễn Khắc Hiếu,Phú Thọ,True
+Lâm Thị Phương Thanh,Hà Nội,True
+Nguyễn Mạnh Quyền,Hưng Yên,True
+Phan Huy Ngọc,Tuyên Quang,True
+Phạm Văn Thịnh,Bắc Ninh,True
+Lê Văn Sử,Cà Mau,True
+Phạm Tấn Hòa,Tây Ninh,True
+Nguyễn Đình Chuẩn,TP.HCM,True
+Phạm Quang Ngọc,Hưng Yên,True
+Đỗ Văn Hưng,Hà Nội,True
+Trần Trí Quang,Vĩnh Long,True
+Bùi Văn Lương,Thái Nguyên,True
+Nguyễn Trung Kiên,Đồng Nai,True
+Nguyễn Minh Tiến,Ninh Bình,True
+Nguyễn Minh Tiến,Sơn La,False
+Nguyễn Hữu Nghĩa,Hưng Yên,True
+Nguyễn Hữu Hợp,Đà Nẵng,True
+Nguyễn Hồng Thái,Bắc Ninh,True
+Nguyễn Hồng Thái,Đồng Nai,False
+Trần Phước Sơn,Đà Nẵng,True
+Trần Quang Hưng,Hà Nội,True
+Lê Hải Hòa,Cao Bằng,True
+Lê Huyền,Khánh Hòa,True
+Nguyễn Văn Út,Đồng Nai,True
+Lê Ngọc Châu,Hải Phòng,True
+Lê Trung Kiên,Hải Phòng,True
+Lê Trung Kiên,Hà Nội,False
+Nguyễn Cảnh Toàn,Lạng Sơn,True
+Nguyễn Cao Sơn,Ninh Bình,True
+Lê Quang Tùng,An Giang,True
+Nguyễn Đình Phương,Hà Nội,True
+Trương Minh Huy Vũ,TP.HCM,True
+Nguyễn Thiên Văn,Đắk Lắk,True
+Nguyễn Trần Quang,Hà Nội,True
+Tạ Văn Tường,Hà Nội,True
+Nguyễn Thị Thu Hà,Sơn La,True
+Phan Thiên Định,Hà Tĩnh,True
+Đỗ Thanh Bình,Cần Thơ,True
+Đỗ Thanh Bình,Hải Phòng,False
+Phan Đình Tuệ,TP.HCM,True
+Phan Đình Tuệ,Hà Tĩnh,False
+Phan Đình Tuệ,Nghệ An,False
+Nguyễn Hồng Sơn,Tây Ninh,True
+Nguyễn Hồng Sơn,Hà Nội,False
+Nguyễn Hồng Sơn,Nghệ An,False
+Ngô Chí Cường,Đồng Tháp,True
+Nguyễn Phước Thiện,Đồng Tháp,True
+Đinh Văn Tuấn,Lâm Đồng,True
+Đặng Văn Dũng,Cà Mau,True
+Nguyễn Công Vinh,TP.HCM,True
+Nguyễn Thái Nhàn,Hà Nội,True
+Hoàng Nam,Quảng Trị,True
+Hoàng Nam,Khánh Hòa,False
+Phạm Đại Dương,Phú Thọ,True
+Nguyễn Việt Hùng,Khánh Hòa,True
+Lữ Quang Ngời,Cà Mau,True
+Trần Huy Tuấn,Ninh Bình,True
+Lê Công Lý,Cần Thơ,True
+Tống Thanh Hải,Lai Châu,True
+Đặng Thị Mai,Hà Nội,True
+Hoàng Vũ Thảnh,TP.HCM,True
+Lê Minh Dưỡng,Hà Nội,True
+Đặng Xuân Phong,TP.HCM,True
+Đặng Xuân Phong,Vĩnh Phúc,False
+Trần Minh Khoa,An Giang,True
+Võ Thị Minh Sinh,Nghệ An,True
+Đinh Quang Tuyên,Thái Nguyên,True
+Đinh Quang Tuyên,Bắc Kạn,False
+Lê Văn Phước,An Giang,True
+Trần Thị Phương Hoa,Hà Nội,True
+Trần Thị Phương Hoa,TP.HCM,False
+Võ Ngọc Hiệp,Lâm Đồng,True
+Trịnh Thị Hồng Vân,Khánh Hòa,True
+Nguyễn Thế Hiệp,Hà Nội,True
+Nguyễn Duy Lâm,Hà Tĩnh,True
+Đinh Thị Lụa,Ninh Bình,True
+Phạm Bảo Sơn,Hưng Yên,True
+Nguyễn Ngọc Phúc,Lâm Đồng,True
+Nguyễn Hồng Phong,Thanh Hóa,True
+Nguyễn Thanh Hồng,Đà Nẵng,True
+Lê Văn Hẳn,Tây Ninh,True
+Hoàng Giang,Lào Cai,True
+Nguyễn Tây Nam,Hà Nội,True
+Tôn Ngọc Hạnh,Đồng Nai,True
+Bùi Thế Duy,Hà Nội,True
+Vương Quốc Tuấn,Quảng Trị,True
+Đỗ Hữu Huy,Đắk Lắk,True
+Nguyễn Văn Quảng,Đà Nẵng,True
+Lê Văn Bảo,Quảng Trị,True
+Nguyễn Thị Mai Hương,Hà Nội,True
+Phùng Thành Vinh,Nghệ An,True
+Nguyễn Quang Phúc,Hải Phòng,True
+Nguyễn Thị Bé Mười,Vĩnh Long,True
+Phạm Quốc Toản,Hà Nội,True
+Nguyễn Thị Ngọc Điệp,Cần Thơ,True
+Nguyễn Mạnh Tuấn,Tuyên Quang,True
+Lê Thị Hường,Lai Châu,True
+Lê Thị Hường,Quảng Trị,False
+Hoàng Quốc Khánh,Lạng Sơn,True
+Nguyễn Thị Hội An,Đà Nẵng,True
+Nguyễn Minh Tấn,Hà Nội,True
+Dương Văn Lượng,Thái Nguyên,True
+Nguyễn Thanh Liêm,Cà Mau,True
+Nguyễn Thanh Liêm,Hà Nội,False
+Đinh Hữu Học,Lạng Sơn,True
+Lê Thị Riêng,TP.HCM,True
+Lâm Đông,Khánh Hòa,True
+Quản Minh Cường,Quảng Ninh,True
+Nguyễn Đình Trung,Huế,True
+Cao Văn Cường,Thanh Hóa,True
+Nguyễn Thành Công,Sơn La,True
+Hồ Xuân Trường,Khánh Hòa,True
+Trần Văn Dũng,Đồng Tháp,True
+Đinh Công Sứ,Phú Thọ,True
+Bùi Thắng,Lâm Đồng,True
+Bùi Thắng,Đồng Nai,False
+Nguyễn Văn Dũng,Hà Nội,True
+Nguyễn Văn Dũng,Đồng Nai,False
+Nguyễn Văn Phong,Hà Nội,True
+Nguyễn Việt Oanh,Bắc Ninh,True
+Lê Hà Luân,Đồng Tháp,True
+Nguyễn Thị Nguyệt,Hà Tĩnh,True
+Phan Văn Thắng,Đồng Tháp,True
+Huỳnh Minh Tuấn,Đồng Tháp,True
+Nguyễn Việt Dũng,Quảng Ninh,True
+Lê Văn Lương,Điện Biên,True
+Nguyễn Thị Hà,Nghệ An,True
+Nguyễn Hữu Quế,Gia Lai,True
+Lê Thị Thủy,Hà Nam,True
+Hoàng Văn Lộc,Phú Thọ,True
+Nguyễn Thành Trung,TP.HCM,True
+Đỗ Tâm Hiển,Quảng Ngãi,True
+Mai Hoàng,TP.HCM,True
+Dương Quốc Huy,Lào Cai,True
+Lê Quang Hùng,Thanh Hóa,True
+Lê Quang Hùng,Gia Lai,False
+Lê Lưu Dũng,Quảng Trị,True
+Đặng Thanh Sơn,Ninh Bình,True
+Đặng Thanh Sơn,Hà Nam,False
+Lê Văn Thái,TP.HCM,True
+Hà Trọng Hải,Lai Châu,True
+Hà Nhật Lệ,Cao Bằng,True
+Nguyễn Hoàng Hiệp,Quảng Ngãi,True
+Lê Hoàng Châu,TP.HCM,True
+Phạm Văn Hòa,Đồng Tháp,True
+Phạm Văn Hòa,Khánh Hòa,False
+Hồ Văn Niên,Quảng Ngãi,True
+Nguyễn Xuân Tốt,Thái Nguyên,True
+Lê Văn Sơn,Quảng Trị,True
+Phạm Như Hiệp,Huế,True
+Huỳnh Quốc Việt,Cà Mau,True
+Nguyễn Sỹ Cảnh,Lai Châu,True
+Trần Văn Bảy,TP.HCM,True
+Nguyễn Quang Vinh,Hà Nội,True
+Hồ Thị Hoàng Yến,Tây Ninh,True
+Trần Trung Hiếu,Hà Nội,True
+Trần Hòa Nam,Khánh Hòa,True
+Nguyễn Tiến Đạt,Hà Nội,True
+Nguyễn Văn Đoạt,Điện Biên,True
+Nguyễn Ny Hương,Hà Tĩnh,True
+Phạm Hoàng Sơn,Bắc Ninh,True
+Phạm Văn Thọ,Thái Nguyên,True
+Phạm Duy Hùng,Thái Nguyên,True
+Trần Đăng Quỳnh,Ninh Bình,True
+Đỗ Thu Hằng,Hà Nội,True
+Cù Ngọc Trang,Hà Nội,True
+Nghiêm Đình Hiếu,Lâm Đồng,True
+Nguyễn Văn Khánh,Quảng Trị,True
+Nguyễn Văn Khánh,Lâm Đồng,False
+Nguyễn Bá Thanh,Đà Nẵng,True
+Nguyễn Văn Hùng,Đà Nẵng,True
+Nguyễn Văn Hùng,Tây Ninh,False
+Dương Đình Chỉnh,Nghệ An,True
+Nguyễn Tuấn Thanh,Gia Lai,True
+Trịnh Trường Huy,Cao Bằng,True
+Phan Thế Tuấn,Bắc Ninh,True
+Y Thanh Hà Niê Kđăm,Lâm Đồng,True
+Nguyễn Hoàng Uyên,Tây Ninh,True
+Bùi Thị Duyên,Hà Nội,True
+Hoàng Văn Thạch,Cao Bằng,True
+Nguyễn Minh Sơn,TP.HCM,True
+Nguyễn Thị Tuyến,Hà Nội,True
+Lương Đình Hưng,Nghệ An,True
+Vũ Hồng Quang,Cao Bằng,True
+Phan Thăng An,Cao Bằng,True
+Vương Quốc Nam,Cần Thơ,True
+Lê Quang Minh,Nghệ An,True
+Chu Thị Hồng Hà,Hà Tĩnh,True
+Nguyễn Khắc Hà,Khánh Hòa,True
+Trương Thanh Liêm,Tây Ninh,True
+Đinh Văn Dũng,Đồng Tháp,True
+Hồ Thanh Thủy,Cà Mau,True
+Nguyễn Tự Công Hoàng,Gia Lai,True
+Đinh Việt Dũng,TP.HCM,True
+Đinh Việt Dũng,Ninh Bình,False
+Lê Trường Sơn,Đồng Nai,True
+Phan Huy Văn,TP.HCM,True
+Nguyễn Đình Hoa,Hà Nội,True
+Phan Thái Bình,Đà Nẵng,True
+Nguyễn Thị Hương,Bắc Ninh,True
+Nguyễn Thị Hương,Lâm Đồng,False
+Lê Minh Cường,Cần Thơ,True
+Nguyễn Đăng Quang,Quảng Trị,True
+Bùi Minh Thạnh,TP.HCM,True
+Trương Cảnh Tuyên,Cần Thơ,True
+Tô Hoài Phương,Cà Mau,True
+Trần Chí Hùng,Cần Thơ,True
+Phạm Thị Phương Hạnh,Ninh Bình,True
+Đỗ Thành Trung,Hải Phòng,True
+Nguyễn Ngọc Vinh,Lai Châu,True
+Nguyễn Ngọc Vinh,Tuyên Quang,False
+Giàng Quốc Hưng,Lào Cai,True
+Nguyễn Tiến Hưng,Hà Nội,True
+Trần Mạnh Hùng,Quảng Trị,True
+Trần Mạnh Hùng,Cao Bằng,False
+Kiều Đình Cảnh,Hà Nội,True
+Bùi Văn Quang,Phú Thọ,True
+Quách Thị Thanh Bình,Cần Thơ,True
+Nguyễn Khắc Thận,Nghệ An,True
+Nguyễn Văn Quyết,Tây Ninh,True
+Trần Văn Hùng,Cà Mau,True
+Trần Văn Hùng,Lâm Đồng,False
+Trịnh Văn Cường,Hải Phòng,True
+Hoàng Quốc Việt,Thanh Hóa,True
+Hoàng Quốc Việt,TP.HCM,False
+Lê Văn Tuấn,Ninh Bình,True
+Hoàng Nguyên Dinh,TP.HCM,True
+Lê Quốc Chỉnh,Ninh Bình,True
+Trần Hữu Thùy Giang,Huế,True
+Trần Hoài Thu,Quảng Ngãi,True
+Lưu Nam Tiến,Hà Nội,True
+Nguyễn Minh Hùng,Hải Phòng,True
+Hầu A Lềnh,Tuyên Quang,True
+Nguyễn Minh Khôi,Tuyên Quang,True
+Lê Văn Ánh,Quảng Ninh,True
+Nguyễn Duy Quang,Khánh Hòa,True
+Nguyễn Văn Trọng,Quảng Ngãi,True
+Huỳnh Thị Hồng Nhung,Tây Ninh,True
+Phạm Trung Kiên,TP.HCM,True
+Vũ Đăng Định,Hà Nội,True
+Nguyễn Thanh Hùng,Quảng Ngãi,True
+Hồ Kỳ Minh,Đà Nẵng,True
+Lương Nguyễn Minh Triết,Đắk Lắk,True
+Nguyễn Văn Thanh,Lâm Đồng,True
+Bùi Thanh Nhân,TP.HCM,True
+Nguyễn Mạnh Phương,Hà Nội,True
+Trần Minh Ngọc,Nghệ An,True
+Châu Văn Hòa,Vĩnh Long,True
+Trần Thanh Nhàn,Lạng Sơn,True
+Bùi Thị Minh,Phú Thọ,True
+Bùi Huy Vĩnh,Phú Thọ,True
+Vũ Hồng Văn,Đồng Nai,True
+Nguyễn Thị Xuân Tiên,Đà Nẵng,True
+Trịnh Minh Hoàng,Khánh Hòa,True
+Trần Huy Phương,Bắc Ninh,True
+Thân Trung Kiên,Bắc Ninh,True
+Nguyễn Hữu Dũng,Lạng Sơn,True
+Nguyễn Hữu Dũng,Hà Nội,False
+Nguyễn Văn Hiếu,Vĩnh Long,True
+Hoàng Ngọc Định,Tuyên Quang,True
+Dương Hoàng Hương,Phú Thọ,True
+Phạm Văn Nghiêm,Hưng Yên,True
+Bùi Thanh An,Nghệ An,True
+Nguyễn Ngọc Sâm,Quảng Ngãi,True
+Nguyễn Minh Lâm,Tây Ninh,True
+Lâm Văn Bi,Cà Mau,True
+Nguyễn Hữu An,Phú Yên,True
+Nguyễn Hữu An,Đắk Lắk,False
+Nguyễn Công Minh,Hà Tĩnh,True
+Nguyễn Minh Hợi,Đồng Nai,True
+Phạm Văn Hoành,Thanh Hóa,True
+Trịnh Tuấn Sinh,Thanh Hóa,True
+Võ Văn Thật,TP.HCM,True
+Nguyễn Văn Thọ,TP.HCM,True
+Nguyễn Thị Kim Thoa,Vĩnh Long,True
+Hà Quang Trung,Lai Châu,True
+Ngô Nam Cường,Nghệ An,True
+Trần Thị Lộc,Thái Nguyên,True
+Nguyễn Long Biên,Khánh Hòa,True
+Hoàng Quốc Thưởng,Hải Phòng,True
+Quách Tất Liêm,Hòa Bình,True
+Quách Tất Liêm,Phú Thọ,False
+Lê Thị Ngọc Linh,Cà Mau,True
+Nguyễn Đình Vĩnh,Đà Nẵng,True
+Trần Văn Huyến,Cần Thơ,True
+Nguyễn Văn Sơn,Tuyên Quang,True
+Đinh Thanh Tùng,Phú Thọ,True
+Nguyễn Văn Tuấn,Thanh Hóa,True
+Nguyễn Văn Tuấn,Đắk Lắk,False
+Nguyễn Thiện Nhân,TP.HCM,True
+Hoàng Quốc Cường,Cần Thơ,True
+Nguyễn Minh Hải,Ninh Bình,True
+Nông Quang Nhất,Thái Nguyên,True
+Vũ Thị Hiền Hạnh,Lào Cai,True
+Nông Quốc Khôi,Cao Bằng,True
+Phạm Tuấn Long,Hà Nội,True
+Nguyễn Thị Hạnh,Quảng Ninh,True
+Nguyễn Trường Nhật Phượng,TP.HCM,True
+Đỗ Thị Minh Hoa,Thái Nguyên,True
+Đặng Ngọc Hậu,Sơn La,True
+Nguyễn Chiến Thắng,Quảng Trị,True
+Ngô Công Thức,An Giang,True
+Trương Quân,Đà Nẵng,True
+Bùi Quang Hùng,TP.HCM,True
+Hoàng Gia Long,Tuyên Quang,True
+Hoàng Trung Kiên,Quảng Ninh,True
+Lê Thành Đô,Điện Biên,True
+Nguyễn Văn Hưng,Hải Phòng,True
+Trần Tuấn Lĩnh,TP.HCM,True
+Nguyễn Ngọc Út,Đồng Nai,True
+Nguyễn Hồng Nhung,Phú Thọ,True
+Nguyễn Thành Hưng,TP.HCM,True
+Nguyễn Hoài Nam,Đà Nẵng,True
+Phạm Ngọc Cảnh,Nghệ An,True
+Nguyễn Tiến Quyết,Hà Nội,True
+Nguyễn Khánh Vũ,Quảng Trị,True
+Mùa A Vảng,Điện Biên,True
+Nguyễn Thành Diệu,Đồng Tháp,True
+Phạm Văn Mười,Cà Mau,True
+Phạm Huỳnh Quang Hiếu,TP.HCM,True
+Lê Thị Nhung,Cà Mau,True
+Bùi Minh Châu,Phú Thọ,True
+Đinh Thị Phương Khanh,Tây Ninh,True
+Lê Trung Hồ,An Giang,True
+Nguyễn Thị Ngọc Xuân,TP.HCM,True
+Trần Hoàng,Hà Nội,True
+Lê Văn Đông,Vĩnh Long,True
+Nguyễn Nhật Trường,An Giang,True
+Y Ngọc,Quảng Ngãi,True
+Nguyễn Thành Lâm,TP.HCM,True
+Huỳnh Thanh Lâm,An Giang,True
+Trần Xuân Phương,Cần Thơ,True
+Nguyễn Văn Hận,An Giang,True
+Hoàng Phú Hiền,TP.HCM,True
+Hoàng Phú Hiền,Nghệ An,False
+Đặng Thanh Tùng,TP.HCM,True
+Trần Hoàng Vĩnh,Quảng Ngãi,True
+Bùi Hoàng Minh,Huế,True
+Nguyễn Văn Mạnh,Phú Thọ,True
+Đặng Ngọc Sơn,Đà Nẵng,True
+Hà Văn Út,TP.HCM,True
+Lê Thanh Nam,Hà Nội,True
+Phạm Văn Định,Hải Phòng,True
+Lê Quang Nam,Đà Nẵng,True
+Hoàng Việt Trung,Huế,True
+Lương Tuấn Hùng,Cao Bằng,True
+Kim Hoàng Văn Lộc,Phú Thọ,True
+Tô Hoàng Khương,Đồng Tháp,True
+Nguyễn Hồng Lai,Đà Nẵng,True
+Phạm Minh Tuấn,TP.HCM,True
+Lê Thị Ngọc Thanh,TP.HCM,True
+Nguyễn Đăng Bình,Thái Nguyên,True
+Hoàng Văn Nghiệm,Sơn La,True
+Trần Song Tùng,Ninh Bình,True
+Nguyễn Trọng Hiếu,Hà Tĩnh,True
+Nguyễn Thành Phú,Khánh Hòa,True
+Nguyễn Quỳnh Thiện,Vĩnh Long,True
+Hoàng Thị Thu Hiền,Nghệ An,True
+Nguyễn Hữu Lương,Hà Nội,True
+Nguyễn Quân,Khánh Hòa,True
+Đặng Văn Hòa,Huế,True
+Vũ Duy Hoàng,Thái Nguyên,True
+Phùng Bá Nhân,Hà Nội,True
+Trịnh Thanh Bình,Quảng Trị,True
+Bùi Đăng Ninh,Tây Ninh,True
+Nguyễn Thị Hồng Lâm,Phú Thọ,True
+Huỳnh Thanh Nhân,TP.HCM,True
+Trần Văn Sơn,Hải Phòng,True
+Lê Xuân Trường,Hải Phòng,True
+Đặng Hồng Sỹ,Lâm Đồng,True
+Phan Minh Đan,Quảng Ngãi,True
+Lã Hoài Nam,Cao Bằng,True
+Nguyễn Thị Phương Thảo,Lâm Đồng,True
+Lê Thanh Dũng,An Giang,True
+Hà Văn Tuấn,Huế,True
+Hồ Văn Hà,Đồng Nai,True
+Vũ Văn Diện,Quảng Ninh,True
+Ngô Tân Phượng,Bắc Ninh,True
+Nguyễn Thị Minh Tú,Nghệ An,True
+Ngô Nguyên Phong,Cà Mau,True
+Hoàng Thanh Hải,Cao Bằng,True
+Huỳnh Quốc Huy,Gia Lai,True
+Nguyễn Văn Quang,Lâm Đồng,True
+Trần Phong,Khánh Hòa,True
+Nguyễn Thị Minh Thuý,An Giang,True
+Đặng Minh Thông,TP.HCM,True
+Nguyễn Mậu An,Khánh Hòa,True
+Nguyễn Ngọc Lâm,Thái Nguyên,True
+Bùi Duy Hưng,Bắc Ninh,True
+Phạm Viết Thuận,TP.HCM,True
+Trần Thị Kim Hoa,Đà Nẵng,True
+Nguyễn Quốc Ấn,Đồng Nai,True
+Nguyễn Văn Nghĩa,Quảng Trị,True
+Lê Thành Chung,Tây Ninh,True
+Lý Công Bắc,Cà Mau,True
+Trần Thị Thanh Lam,TP.HCM,True
+Nguyễn Sinh Nhật Tân,TP.HCM,True
+Lê Thị Hoài Chung,Nghệ An,True
+Nguyễn Ngọc Yến,TP.HCM,True
+Nguyễn Chí Công,Cà Mau,True
+Nguyễn Chí Công,Sơn La,False
+Trần Quang Bình,Đồng Nai,True
+Trương Quốc Lâm,TP.HCM,True
+Trương Quốc Lâm,Phú Thọ,False
+Nguyễn Phúc Nhân,Quảng Ngãi,True
+Lê Quang Nhân,Gia Lai,True
+Bế Thanh Tịnh,Cao Bằng,True
+Lê Hữu Toàn,An Giang,True
+Nguyễn Văn Minh,Đắk Lắk,True
+Nguyễn Văn Minh,Hà Nội,False
+Nguyễn Bá Hảo,Nghệ An,True
+Nguyễn Lê Huy,Hưng Yên,True
+Nguyễn Đài Thy,Tây Ninh,True
+Nguyễn Quốc Việt,Quảng Ngãi,True
+Phạm Quang Nhật,TP.HCM,True
+Trần Thế Cương,Hà Nội,True
+Nguyễn Mạnh Dũng,Hà Nội,True
+Nguyễn Viết Đạt,Hà Nội,True
+Bùi Công Thản,Hà Nội,True
+Đinh Nam Thắng,Bắc Ninh,True
+Nguyễn Quang Bình,Hà Nội,True
+Huỳnh Quyết Thắng,Hà Nội,True
+Trần Văn Hậu,Thái Nguyên,True
+Cao Sơn Dũng,Lâm Đồng,True
+Huỳnh Duy Khôi,Lâm Đồng,True
+Hà Thị Khiết,Tuyên Quang,True
+Triệu Quang Hùng,Thái Nguyên,True
+Nguyễn Thị Bích Vân,Đồng Tháp,True
+Nguyễn Khoa Hải,TP.HCM,True
+Hoàng Hải Minh,Huế,True
+Vũ Tiến Phụng,Hải Phòng,True
+Phùng Văn Huy,Đà Nẵng,True
+Nguyễn Văn Hiệu,Đà Nẵng,True
+Đỗ Thị Quỳnh Trâm,Đà Nẵng,True
+Hồ Quang Bửu,Đà Nẵng,True
+Huỳnh Thị Hằng,Đồng Nai,True
+Lê Quang Hòa,Hưng Yên,True
+Thái Thị Thu Hường,Hưng Yên,True
+Mai Khanh,Ninh Bình,True
+Nguyễn Thanh Bắc,Quảng Trị,True
+Nguyễn Văn Ân,Quảng Trị,True
+Nguyễn Văn Tứ,Quảng Trị,True
+Đỗ Mạnh Tài,Quảng Trị,True
+Trần Xuân Quang,Quảng Trị,True
+Đinh Duy Hòa,Quảng Trị,True
+Nguyễn Hữu Hán,Quảng Trị,True
+Trần Thị Oanh,Quảng Trị,True
+Lê Vĩnh Phú,Quảng Trị,True
+Hoàng Ngọc Đan,Quảng Trị,True
+Nguyễn Thế Hậu,Quảng Trị,True
+Trần Hữu Bắc,Quảng Trị,True
+Nguyễn Văn Biên,Quảng Trị,True
+Võ Quốc Hoàng,Quảng Trị,True
+Trần Lích,Quảng Trị,True
+Mai Hồng Ngọc,Quảng Trị,True
+Nguyễn Minh Tâm,Quảng Trị,True
+Nguyễn Minh Tâm,Thanh Hóa,False
+Nguyễn Thị Thu Thủy,Gia Lai,True
+Lữ Thanh Hải,Khánh Hòa,True
+Võ Hoàn Hải,Khánh Hòa,True
+Nguyễn Minh Thư,Khánh Hòa,True
+Phạm Minh Nhựt,Khánh Hòa,True
+Trần Thị Thanh Hương,Đồng Tháp,True
+Trần Thị Thanh Hương,An Giang,False
+Huỳnh Công Quân,Cà Mau,True
+Dương Vũ Nam,Cà Mau,True
+Ngô Đình Loát,Hà Nội,True
+Nguyễn Toàn Thắng,TP.HCM,True
+Lê Sơn Phong,Đà Nẵng,True
+Nguyễn Thị Ngọc Dung,Quảng Ngãi,True
+Nguyễn Thị Ngọc Dung,Vĩnh Long,False
+Nguyễn Văn Nên,TP.HCM,True
+Trần Thị Thanh Tâm,Đà Nẵng,True
+Đinh Thị Thanh Thủy,TP.HCM,True
+Trần Hoàng Quân,TP.HCM,True
+Trần Hoàng Quân,Hưng Yên,False
+Phạm Hồng Hiệp,Gia Lai,True
+Trương Văn Đạt,Gia Lai,True
+Lưu Nhất Phong,Gia Lai,True
+Nguyễn Thị Kiều Tiên,Đồng Tháp,True
+Nguyễn Minh Dũng,Vĩnh Long,True
+Nguyễn Thị Hợi,Nghệ An,True
+Hoàng Hồng Bàn,Hải Phòng,True
+Hoàng Hồng Bàn,TP.HCM,False
+Nguyễn Ngọc Lương,Gia Lai,True
+Võ Hùng Nhân,Đà Nẵng,True
+Ngô Văn Triệu,TP.HCM,True
+Huỳnh Quốc Thái,An Giang,True
+Nguyễn Văn Vịnh,Lào Cai,True
+Vũ Quốc Ân,Điện Biên,True
+Nguyễn Doãn Toản,Hà Nội,True
+Phạm Ngọc Quỳnh,Hà Nội,True
+Lê Quốc Phong,TP.HCM,True
+Nguyễn Ngọc Tùng,Hà Nội,True
+Trần Thị Hằng,Bắc Ninh,True
+Trương Trung Thắng,Lâm Đồng,True
+Kim Ngọc Thái,Vĩnh Long,True
+Hồ Thanh Thuỷ,Cà Mau,True
+Lê Văn Minh,TP.HCM,True
+Trần Minh Sơn,Gia Lai,True
+Tống Học Nghĩa,Hà Nội,True
+Nguyễn Duy Tráng,Đắk Lắk,True
+Nguyễn Trường Sơn,Hà Nội,True
+Võ Văn Tuấn,Đắk Lắk,True
+Nguyễn Mai Hương,Hà Nội,True
+Nguyễn Hồng Bách,Ninh Bình,True
+Y Nhuân Byă,Đắk Lắk,True
+Trần Hồng Quân,Đắk Nông,True
+Hoàng Văn Thuyết,Quảng Ninh,True
+Võ Ngọc Thanh Trúc,TP.HCM,True
+Hà Thị Hạnh,Lâm Đồng,True
+Phạm Thị Mai Hương,Đồng Nai,True
+Nguyễn Xuân Hoàng,Đà Nẵng,True
+Phạm Thị Kim Hoa,Nghệ An,True
+Phạm Văn Khuê,Hưng Yên,True
+Mai Hoàng Khởi,An Giang,True
+Lý Văn Lâm,Cà Mau,True
+Nguyễn Phương Mai,Bắc Ninh,True
+Hoàng Quang Tuyến,Ninh Bình,True
+Phan Văn Hợp,Đồng Tháp,True
+Phạm Văn Chuẩn,Đồng Tháp,True
+Nguyễn Hữu Vinh,Quảng Trị,True
+Lương Bảo Toàn,Huế,True
+Nguyễn Minh Quang,Đồng Nai,True
+Trần Lưu Hoa,Hà Nội,True
+Vũ Cao Cương,Hà Nội,True
+Tô Minh Đương,Cà Mau,True
+Nguyễn Thị Cát Tiên,Đồng Nai,True
+Mai Thị Ánh Hồng,Đà Nẵng,True
+Nguyễn Như Công,Đà Nẵng,True
+Nguyễn Thiện Nhơn,Cần Thơ,True
+Nguyễn Phú Tiến,Cần Thơ,True
+Hoàng Thị Thanh Bình,Lào Cai,True
+Thái Quỳnh Mai Dung,Phú Thọ,True
+Lâm Viên,Lâm Đồng,True
+Trần Văn Lập,Đồng Tháp,True
+Đặng Tấn Phương,Đà Nẵng,True
+Lương Tuấn Long,Cao Bằng,True
+Lê Minh Công,TP.HCM,True
+Nguyễn Thanh Xuân,Huế,True
+Phạm Thị Thanh Hiền,TP.HCM,True
+Đinh Thị Phương Thảo,TP.HCM,True
+Chu Văn Trọng,Bắc Ninh,True
+Nguyễn Xuân Yêm,Hà Nội,True
+Phạm Quang Thanh,Hà Nội,True
+Lê Thị Kim Dung,Tuyên Quang,True
+Đinh Bạt Văn,Thanh Hóa,True
+Mai Xuân Liêm,Thanh Hóa,True
+Trịnh Công Sơn,Quảng Ngãi,True
+Huỳnh Nguyễn Ngọc Giang,Đắk Lắk,True
+Trần Hùng Sơn,Lâm Đồng,True
+Huỳnh Văn Sơn,Tây Ninh,True
+Phạm Dứt Điểm,TP.HCM,True
+Mai Sơn,Bắc Ninh,True
+Phạm Văn Cư,TP.HCM,True
+Nguyễn Sỹ Hiệp,Hải Phòng,True
+Mã Thị Tươi,Cần Thơ,True
+Vi Văn Chung,Tuyên Quang,True
+Nguyễn Công Xưng,Ninh Thuận,True
+Ngô Thị Ngọc Hạnh,Đồng Tháp,True
+Nguyễn Quốc Thanh,Đồng Tháp,True
+Nguyễn Phúc Nhi,Đồng Tháp,True
+Bùi Văn Khắng,Quảng Ninh,True
+Lê Hồng Thịnh,Cà Mau,True
+Mai Văn Tân,Cần Thơ,True
+Lâm Tiến Thạch,Cần Thơ,True
+Bùi Hữu Nam,Hà Nội,True
+Trần Việt Hà,TP.HCM,True
+Nguyễn Tiến Lâm,Hà Nội,True
+Trần Thanh Hòa,Đồng Nai,True
+Bùi Tấn Bảy,Cà Mau,True
+Cù Quốc Thắng,Ninh Bình,True
+Phạm Duy Hưng,Ninh Bình,True
+Võ Chí Vương,Khánh Hòa,True
+Trần Văn Công,Lai Châu,True
+Trần Thủy Tiên,Đồng Nai,True
+Nguyễn Trần Hiệu,Tây Ninh,True
+Nguyễn Vân,Hà Nội,True
+Nguyễn Thị Giang,Cần Thơ,True
+Võ Hải Quân,Quảng Trị,True
+Vũ Duy Cường,Hà Nội,True
+Huỳnh Minh Chín,TP.HCM,True
+Lê Trung Ái,Tây Ninh,True
+Bùi Duy Quang,Hà Nội,True
+Đặng Văn Dương,Quảng Trị,True
+Lê Thị Thanh,Quảng Trị,True
+Nguyễn Phong Điền,Hà Nội,True
+Nguyễn Thị Tuyết Thanh,Đồng Nai,True
+Đinh Quốc Hùng,Hà Nội,True
+Phan Văn Phúc,Hà Nội,True
+Phạm Văn Lập,Hải Phòng,True
+Trần Văn Thắng,Hải Phòng,True
+Tào Viết Hải,Đà Nẵng,True
+Hoàng Minh Cường,Hải Phòng,True
+Ngô Xuân Thắng,Đà Nẵng,True
+Sơn Mai Thị Ánh Hồng,Đà Nẵng,True
+Cao Thị Huyền Trân,Đà Nẵng,True
+Huỳnh Huy Hòa,Đà Nẵng,True
+Cao Trí Dũng,Đà Nẵng,True
+Lê Văn Ninh,Đà Nẵng,True
+Trần Văn Mi,Đồng Nai,True
+Đỗ Minh Trung,Đồng Nai,True
+Nguyễn Huy Ngọc,Phú Thọ,True
+Phạm Trọng La,Hà Nội,True
+Nguyễn Thị Thanh Tâm,Hà Nội,True
+Trịnh Ngọc Trâm,Hà Nội,True
+Vũ Quyết Tiến,Quảng Ninh,True
+Nguyễn Hồng Nhân,Đà Nẵng,True
+Tô Ái Vang,Cần Thơ,True
+Dương Quốc Lâm,Phú Thọ,True
+Vũ Văn Thượng,Điện Biên,True
+Vàng Văn Châu,Lai Châu,True
+Phạm Đồng Thụy,Hưng Yên,True
+Trần Quốc Văn,Hưng Yên,True
+Phạm Thị Thu Hằng,Ninh Bình,True
+Nguyễn Cao Tấn,Ninh Bình,True
+Nguyễn Trung Dũng,Nghệ An,True
+Nguyễn Văn Đệ,Nghệ An,True
+Phan Tuấn Hoàng,Gia Lai,True
+Đỗ Thị Diệu Hạnh,Gia Lai,True
+Cao Thị Hòa An,Đắk Lắk,True
+Trương Ngọc Tuấn,Đắk Lắk,True
+Nguyễn Đồng Dũng,Tây Ninh,True
+Huỳnh Văn Thiêm,Tây Ninh,True
+Đặng Thị Lệ,Tây Ninh,True
+Vũ Thị Diễm Thúy,An Giang,True
+Vũ Thị Diễm Thúy,Kiên Giang,False
+Huỳnh Minh Thức,Đồng Tháp,True
+Bùi Văn Sáng,Hà Nội,True
+Lê Xuân Rao,Hà Nội,True
+Võ Hoàng Khai,Đồng Nai,True
+Tô Vũ Ninh,Lạng Sơn,True
+Phạm Xuân Tài,Hà Nội,True
+Phan Nguyễn Như Khuê,TP.HCM,True
+Nguyễn Thu Tư,Cà Mau,True
+Lê Hồng Lân,Hà Nội,True
+Lương Minh Tùng,Đắk Lắk,True
+Phạm Thị Ngọc,Cà Mau,True
+Nguyễn Vĩnh Toàn,TP.HCM,True
+Huỳnh Thị Phương Duyên,Lâm Đồng,True
+Nguyễn Hoàng Bắc,TP.HCM,True
+Nguyễn Đồng Kim,Hải Phòng,True
+Phạm Văn Hạnh,Hải Phòng,True
+Trần Nhật Tân,Hà Tĩnh,True
+Bùi Văn Biên,Hải Phòng,True
+Tôn Thị Ngọc Sang,TP.HCM,True
+Ngô Quốc Vương,Đà Nẵng,True
+Bùi Trường Giang,Gia Lai,True
+Dương Đình Dân,Thái Nguyên,True
+Huỳnh Hà Giang,Cần Thơ,True
+Lê Xuân Hoa,Cần Thơ,True
+Trương Mạnh Hùng,Quảng Ninh,True
+Ngô Triều Phương,Cần Thơ,True
+Ma Thị Mận,Thái Nguyên,True
+Phan Viết Điện,Hải Phòng,True
+Trần Thọ Khanh,Lạng Sơn,True
+Đinh Nguyên Mạnh,Hà Nội,True
+Lý Thị Lan,Tuyên Quang,True
+Nguyễn Đình Cương,Tuyên Quang,True
+Vũ Nguyên Lý,Hưng Yên,True
+Nguyễn Đình Sơn,Hà Nội,True
+Nguyễn Viết Hải Đăng,Hà Tĩnh,True
+Trương Đình Tùng,Quảng Trị,True
+Hồ Thanh Hải,Quảng Trị,True
+Bùi Thanh Toàn,Đắk Lắk,True
+Trần Thu Mai,Khánh Hòa,True
+Nguyễn Thành Minh,Lâm Đồng,True
+Vũ Thanh Ngữ,Đồng Nai,True
+Trần Đăng Tiến,Tây Ninh,True
+Nguyễn Thị Thanh Sơn,Tây Ninh,True
+Lê Xuân Thịnh,Tây Ninh,True
+Thái Ngọc Bảo Trâm,Đồng Tháp,True
+Nguyễn Hoàng Thông,An Giang,True
+Lâm Hồ Sỹ,Cà Mau,True
+Trương Văn Liếp,Tây Ninh,True
+Phạm Xuân Bách,Tây Ninh,True
+Bùi Tuấn Hải,Tây Ninh,True
+Nguyễn Tấn Quốc,Tây Ninh,True
+Dương Minh Dũng,Đồng Nai,True
+Trần Đình Nghị,Hà Tĩnh,True
+Trần Báu Hà,Hà Tĩnh,True
+Trương Thanh Thúy,An Giang,True
+Ngô Thị Trúc Linh,An Giang,True
+Nguyễn Thị Thúy An,An Giang,True
+Giang Văn Phục,An Giang,True
+Nguyễn Giang Châu,Đồng Nai,True
+Trần Đình Cảnh,Hà Nội,True
+Huỳnh Gia Giang,TP.HCM,True
+Lê Thành Trung,Tuyên Quang,True
+Trần Văn Hiếu,Khánh Hòa,True
+Võ Văn Bửu,Cà Mau,True
+Trần Việt Dũng,Quảng Trị,True
+Đặng Hữu Trường,Ninh Bình,True
+Bùi Huyền Mai,Hà Nội,True
+Nông Ngọc Huấn,Thái Nguyên,True
+Phan Văn Đại,Thanh Hóa,True
+Nguyễn Ngọc Hoàng,Đà Nẵng,True
+Hồ Hoàng Khôn,Đồng Tháp,True
+Trần Văn Lâu,Vĩnh Long,True
+Nguyễn Văn Huy,Hưng Yên,True
+Dương Khắc Mai,Lâm Đồng,True
+Dư Minh Hùng,Cà Mau,True
+Mã Minh Tâm,Cà Mau,True
+Nguyễn Thế Châu,Cà Mau,True
+Nguyễn Trúc Ly,Cà Mau,True
+Võ Minh Tám,Cà Mau,True
+Tăng Hồng Trường,Cà Mau,True
+Nguyễn Bình Thuận,Cà Mau,True
+Trịnh Thanh Sang,Cà Mau,True
+Trần Văn Đoan,Cà Mau,True
+Ngô Văn Huynh,Cà Mau,True
+Dương Chí Bình,Cà Mau,True
+Tiêu Thanh Phương,Cà Mau,True
+Trần Hải,Quảng Trị,True
+Mã Phương Khanh,Cần Thơ,True
+Giang Văn Cử,Hà Nội,True
+Phạm Mạnh Thắng,Hòa Bình,True
+Võ Quang Thiện,Thanh Hóa,True
+Nguyễn Quang Hòa,Lạng Sơn,True
+Trần Trọng Cường,Thái Nguyên,True
+Nguyễn Hữu Hào,Nghệ An,True
+Huỳnh Lê Như Trang,TP.HCM,True
+Nguyễn Thanh Hưởng,TP.HCM,True
+Võ Thị Trung Trinh,TP.HCM,True
+Võ Thị Nhung,Nghệ An,True
+Đinh Văn Tiến,Hà Nội,True
+Nguyễn Thị Thu,Lâm Đồng,True
+Võ Đắc Hòa,Quảng Trị,True
+Đặng Trọng Vân,Quảng Trị,True
+Võ Văn Minh,TP.HCM,True
+Nguyễn Minh Kha,TP.HCM,True
+Mai Trung Hưng,TP.HCM,True
+Hồ Trúc Thanh,TP.HCM,True
+Văn Thị Bạch Tuyết,TP.HCM,True
+Nguyễn Ngọc Hồi,TP.HCM,True
+Nguyễn Khắc Nhân,Hà Nội,True
+Nguyễn Đình Hiếu,Bắc Ninh,True
+Đàm Thế Sử,Bắc Ninh,True
+Trần Nhựt Thanh,Vĩnh Long,True
+Châu Thành Hưng,Quảng Ninh,True
+Nguyễn Công Hân,Hải Phòng,True
+Thái Minh Châu,Gia Lai,True
+Huỳnh Minh Chương,Quảng Ngãi,True
+Nguyễn Thị Quỳnh,Lai Châu,True
+Lưu Văn Dần,Quảng Ninh,True
+Lê Hồng Giang,Quảng Ninh,True
+Hoàng Sơn Trà,Đà Nẵng,True
+Trần Văn Thi,Đồng Tháp,True
+Bùi Hoài Nam,Khánh Hòa,True
+Nguyễn Xuân Toàn,Đà Nẵng,True
+Phạm Hồng Quang,TP.HCM,True
+Trịnh Thanh Hải,TP.HCM,True
+Phạm Văn Hoá,TP.HCM,True
+Phạm Thị Bích Thảo,Ninh Bình,True
+Võ Thị Ngọc Hân,Cà Mau,True
+Võ Kế Nghiệp,Cà Mau,True
+Nguyễn Thành Luân,Hà Nội,True
+Lê Thế Chuyên,Hà Nội,True
+Nguyễn Viết Hùng,Nghệ An,True
+Nguyễn Chí Tài,Huế,True
+Trần Quân,Lạng Sơn,True
+Nguyễn Duy Tân,TP.HCM,True
+Hoàng Văn Hùng,Thái Nguyên,True
+Bùi Quang Thoại,Gia Lai,True
+Nguyễn Thị Hiệp,Gia Lai,True
+Hà Thị Giang Thảo,Gia Lai,True
+Nguyễn Văn Hải,Lâm Đồng,True
+Trần Thị Bạch Huệ,TP.HCM,True
+Nguyễn Trần Phượng Trân,TP.HCM,True
+Kim Duy Cương,Thanh Hóa,True
+Nguyễn Tấn Lực,Cà Mau,True
+Thái Văn Ngụ,Hà Tĩnh,True
+Nguyễn Hữu Định,Đồng Nai,True
+Nguyễn Thanh Hiếu,Quảng Trị,True
+Cao Xuân Thắng,Quảng Trị,True
+Trần Viết Năng,Thái Nguyên,True
+Phan Thanh Nam,Phú Thọ,True
+Nguyễn Thị Minh Thúy,An Giang,True
+Lê Thị Tuyết Trinh,Gia Lai,True
+Châu Thanh Bình,Gia Lai,True
+Lý Quốc Khánh,Cao Bằng,True
+Nguyễn Trí Công,Đồng Nai,True
+Nguyễn Trần Thức,Cà Mau,True
+Võ Văn Tường,Cần Thơ,True
+Mai Văn Luân,Hà Tĩnh,True
+Đặng Thị Thanh Bình,Hà Nội,True
+Nguyễn Thế Thích,Ninh Bình,True
+Nguyễn Bá Quân,An Giang,True
+Đỗ Văn Vẻ,Hưng Yên,True
+Đinh Xuân Hương,Khánh Hòa,True
+Nguyễn Minh Nhựt,TP.HCM,True
+Nguyễn Thế Lãm,Quảng Ninh,True
+Trần Trung Nhân,Đồng Nai,True
+Trần Thị Quốc Hiền,Đồng Nai,True
+Nguyễn Xuân Hải,Hưng Yên,True
+Nguyễn Đình Khánh Vân,Đà Nẵng,True
+Phạm Thị Minh Huệ,Quảng Trị,True
+Nguyễn Văn Khải,Hải Phòng,True
+Vũ Xuân Trường,Hà Nội,True
+Vũ Tất Thắng,Ninh Bình,True
+Lữ Ngọc Bình,Quảng Ngãi,True
+Hoàng Trung Thông,Quảng Ngãi,True
+Phạm Xuân Vinh,Quảng Ngãi,True
+Nguyễn Bảo Tân,Quảng Ngãi,True
+Nguyễn Quang Thạch,Quảng Ngãi,True
+Trần Thị Yến,Quảng Ngãi,True
+Hồ Thị Nguyên Thảo,Đắk Lắk,True
+Bàn Thanh Thảo,Lào Cai,True
+Lê Thanh Hùng,An Giang,True
+Nguyễn Văn Hợp,An Giang,True
+Nguyễn Thị Phương Linh,An Giang,True
+Vi Văn Sơn,Nghệ An,True
+Nguyễn Tiến Thiết,Hà Nội,True
+Biện Tấn Tài,Lâm Đồng,True
+Nguyễn Hồng Dương,Quảng Ninh,True
+Doãn Trung Tuấn,Hà Nội,True
+Nghiêm Xuân Hưởng,Bắc Ninh,True
+Trần Hợp Dũng,Hà Nội,True
+Đỗ Chí Hưng,Hà Nội,True
+Phùng Hữu Lộc,Hà Nội,True
+Nguyễn Minh Kiên,Đồng Nai,True
+Huỳnh Thanh Khiết,TP.HCM,True
+Huỳnh Việt Hòa,Cần Thơ,True
+Phạm Công Hưng,Hải Phòng,True
+Hà Cảnh Dương,Hải Phòng,True
+Nguyễn Đình Nghĩa,Hải Phòng,True
+Phan Văn Hạ,Đà Nẵng,True
+Lý Việt Quang,Hải Phòng,True
+Đinh Nguyên Vũ,Đà Nẵng,True
+Lê Hồng Cương,Đà Nẵng,True
+Nguyễn Mạnh Toàn,Đà Nẵng,True
+Đặng Bá Tú,Đà Nẵng,True
+Huỳnh Đình Quốc Thiện,Đà Nẵng,True
+Sơn Nguyễn Hòa,Đà Nẵng,True
+Trương Xuân Tý,Đà Nẵng,True
+Nguyễn Thế Thảo,Hà Nội,True
+Nguyễn Thị Kiều Diễm,Cần Thơ,True
+Nguyễn Thế Phước,Lào Cai,True
+Giang Đình Hải,Lai Châu,True
+Ngô Hạnh Phúc,Lào Cai,True
+Nguyễn Thành Sinh,Lào Cai,True
+Nguyễn Quang Vĩnh,Lào Cai,True
+Âu Thị Mai,Tuyên Quang,True
+Dương Văn Tiến,Thái Nguyên,True
+Hà Thị Bích Hồng,Thái Nguyên,True
+Nguyễn Thị Vinh,Thái Nguyên,True
+Hoàng Hải An,Thái Nguyên,True
+Phan Trọng Tấn,Phú Thọ,True
+Lê Xuân Tùng,Vĩnh Phúc,True
+Trần Việt Cường,Phú Thọ,True
+Đỗ Quốc Hà,Phú Thọ,True
+Nguyễn Văn Sáng,Lạng Sơn,True
+Hà Huy Phước,Lạng Sơn,True
+Duy Hoàng Dương,Hà Nội,True
+Phan Thanh Quang,Hà Nội,True
+Lê Minh Tuấn,Hà Nội,True
+Nguyễn Xuân Thanh,Hà Nội,True
+Trương Thanh Hưng,Hà Nội,True
+Phạm Thị Thanh Mai,Hà Nội,True
+Phan Cao Đăng,Hà Nội,True
+Phạm Hải Hoa,Hà Nội,True
+Tăng Hữu Phong,TP.HCM,True
+Nguyễn Khắc Văn,TP.HCM,True
+Nguyễn Hồng Kỳ,Hà Nội,True
+Nguyễn Thị Hiền,Đồng Tháp,True
+Nguyễn Phương Bình,Đồng Tháp,True
+Huỳnh Thị Hoài Thu,Đồng Tháp,True
+Phạm Nguyễn Hoàng Vũ,Đồng Tháp,True
+Trần Út,Đà Nẵng,True
+Trần Văn Mẫn,Đà Nẵng,True
+Lê Thị Thu Hương,TP.HCM,True
+Nguyễn Thị Thu Lan,Đà Nẵng,True
+Đặng Thị Khánh,Hải Phòng,True
+Văn Bá Sơn,Đà Nẵng,True
+Mai Văn Tuất,Ninh Bình,True
+Trần Thị Hồng Thanh,Ninh Bình,True
+Nguyễn Công Duy,Cần Thơ,True
+Trần Thị Hoa Phượng,Cần Thơ,True
+Hà Thanh Liêm,Cần Thơ,True
+Lâm Minh Hoàng,Cần Thơ,True
+Trần Thị Minh Hoàng,Đồng Nai,True
+Nguyễn Thị Thuận Bích,Đồng Nai,True
+Huỳnh Thị Thúy Hằng,Vĩnh Long,True
+Phạm Thị Hằng,Bắc Ninh,True
+Ngô Thị Hồng Huệ,Hưng Yên,True
+Nông Thị Minh Huệ,Đồng Nai,True
+Mai Nguyễn Ngọc Huyền,Sơn La,True
+Vũ Thị Hương,Đồng Nai,True
+Nguyễn Thị Liên,Lâm Đồng,True
+Nguyễn Thị Ngọc Linh,TP.HCM,True
+Trần Thị Minh Nguyệt,Ninh Bình,True
+Nguyễn Thị Quyên,Hà Tĩnh,True
+Lê Thu Sa,Đà Nẵng,True
+Trịnh Thị Thanh,TP.HCM,True
+Vũ Thị Thanh Thúy,Hải Phòng,True
+Nguyễn Thụy Nhã Trúc,Tây Ninh,True
+Phùng Thị Ngọc Tuyết,Gia Lai,True
+Bùi Thị Thủy,Phú Thọ,True
+Trần Thị Quyên,Phú Thọ,True
+Nguyễn Văn Chung,Phú Thọ,True
+Vi Thị Lụa,Lạng Sơn,True
+Nguyễn Quốc Trung,Cao Bằng,True
+Lý Minh Sơn,Cao Bằng,True
+Đặng Lê Nam,Cao Bằng,True
+Nguyễn Minh Phú,Điện Biên,True
+Vương Đình Hòa,Điện Biên,True
+Lò Văn Cương,Điện Biên,True
+Lò Minh Hùng,Sơn La,True
+Lê Xuân Thái,Khánh Hòa,True
+Trần Quốc Toản,Hưng Yên,True
+Lê Văn Khoa,Ninh Bình,True
+Lê Quang Hải,Ninh Bình,True
+Mai Thanh Long,Ninh Bình,True
+Trần Đăng Sơn,Ninh Bình,True
+Đỗ Hoàng Hải,Hà Nam,True
+Bùi Võ Công,Ninh Bình,True
+Trần Minh Hoan,Ninh Bình,True
+Lê Duy Trung,Thanh Hóa,True
+Ngọ Viết Thắng,Thanh Hóa,True
+Trần Duy Tiến,Thanh Hóa,True
+Nguyễn Trường Giang,Nghệ An,True
+Hờ Bá Chá,Nghệ An,True
+Lê Trường Giang,Nghệ An,True
+Mai Hữu Tín,TP.HCM,True
+Hà Thị Việt Ánh,Hà Tĩnh,True
+Trương An Ninh,Quảng Trị,True
+Hoàng Xuân Tân,Quảng Trị,True
+Nguyễn Thị Bích Thủy,Quảng Trị,True
+Huỳnh Thị Thùy Trinh,Quảng Ngãi,True
+Lâm Hải Giang,Gia Lai,True
+Trần Thị Như Hoa,Gia Lai,True
+Đặng Thị Thủy,Đắk Lắk,True
+Cao Đình Huy,Đắk Lắk,True
+Nguyễn Hoàng Quốc Dũng,Khánh Hòa,True
+Võ Văn Thuận,Khánh Hòa,True
+Chu Văn An,Khánh Hòa,True
+Trần Quốc Sanh,Khánh Hòa,True
+Huỳnh Quốc Tuấn,Tây Ninh,True
+Trần Quốc Tuấn,Lâm Đồng,True
+Nguyễn Văn Trí,Lâm Đồng,True
+Trừ Vĩnh Thăng,Tây Ninh,True
+Trần Thanh Hiệp,Cà Mau,True
+Nguyễn Hồ Bảo Linh,Tây Ninh,True
+Lê Văn Chất,Đồng Tháp,True
+Nguyễn Văn Dương,Đồng Tháp,True
+Bùi Thanh Sơn,Đồng Tháp,True
+Nguyễn Văn Vũ Minh,Đồng Tháp,True
+Nguyễn Phương Bắc,Cà Mau,True
+Bùi Tứ Hải,Cà Mau,True
+Lâm Hoàng Đảo,Hòa Bình,True
+Đỗ Việt Hải,Hà Nội,True
+Nguyễn Lương Sơn,Quảng Ngãi,True
+Hoàng Thị Hà,Hà Nội,True
+Bùi Đình Thái,Hà Nội,True
+Lê Đại Dương,Khánh Hòa,True
+Nguyễn Ngọc Tuyến,Khánh Hòa,True
+Nguyễn Thế Thi,Bắc Ninh,True
+Đinh Ngọc Bình,Khánh Hòa,True
+Huỳnh Việt Triều,Cà Mau,True
+Võ Thành Công,Lâm Đồng,True
+Phạm Thị Nhâm,Lâm Đồng,True
+Vũ Đình Cường,Lâm Đồng,True
+Nguyễn Cao Thắng,Hải Phòng,True
+Võ Cao Thị Mộng Hoài,Gia Lai,True
+Lê Thị Thu Hà,Hà Nội,True
+Lê Quang Thanh,TP.HCM,True
+Nguyễn Đình Hưng,Hà Nội,True
+Hoàng Minh Lâm,Hà Nội,True
+Huỳnh Ngọc Tâm,Lâm Đồng,True
+Nguyễn Lê Vũ,Đắk Lắk,True
+Nguyễn Thị Thanh Chuyên,Điện Biên,True
+Nguyễn Hải,Phú Thọ,True
+Lê Đình Hùng,Hà Nội,True
+Phạm Hải Quỳnh,Cao Bằng,True
+Nguyễn Văn Tánh,Huế,True
+Nguyễn Mạnh Hà,Hà Nội,True
+Hồ Thái Hòa,TP.HCM,True
+Nguyễn Công Danh,TP.HCM,True
+Nguyễn Quang Thắng,Ninh Bình,True
+Phạm Công Chinh,Điện Biên,True
+Nguyễn Đình Tuấn,Hà Tĩnh,True
+Vi Êban,Lâm Đồng,True
+Hà Thị Ngọc Yến,Sơn La,True
+Bùi Minh Hải,Cà Mau,True
+Bùi Xuân Khởi,Cà Mau,True
+Nguyễn Trọng Đô,Hà Nội,True
+Tống Văn Thái,Hà Nội,True
+Lưu Thị Hằng,Hà Nội,True
+Trần Sỹ Đạt,Hà Nội,True
+Phan Thăng Long,Khánh Hòa,True
+Ngô Văn Quang,Đà Nẵng,True
+Vương Minh Sơn,Đắk Lắk,True
+Nguyễn Tố Quyên,Hà Nội,True
+Trần Trọng Tuyên,TP.HCM,True
+Nguyễn Đình Thoan,Khánh Hòa,True
+Đỗ Duy Hưng,Hải Phòng,True
+Lê Đình Phong,Huế,True
+Lê Đình Hưng,Nghệ An,True
+Nguyễn Văn Khiết,Ninh Bình,True
+Nguyễn Văn Khiết,Thanh Hóa,False
+Lê Thành Bắc,Đà Nẵng,True
+Lê Thị Bích Thuận,Đà Nẵng,True
+Phan Diễn,Đà Nẵng,True
+Nguyễn Thế Vinh,Đà Nẵng,True
+Nguyễn Dũng,Đà Nẵng,True
+Nguyễn Tấn Tuân,Đà Nẵng,True
+Đinh Ngọc Lực,Đà Nẵng,True
+Lê Văn Đại,Đà Nẵng,True
+Lê Công Hùng,Đà Nẵng,True
+Lê Xuân Hải,Huế,True
+Thái Văn Tuấn,Huế,True
+Trần Kiêm Hảo,Huế,True
+Phan Thanh Hải,Huế,True
+Hồ Đắc Quang,Huế,True
+Nguyễn Thành Úy,TP.HCM,True
+Võ Huỳnh Ngọc Thủy,TP.HCM,True
+Lê Thanh Sơn,Thái Nguyên,True
+Ngô Đoàn Long,Huế,True
+Nguyễn Ánh Cầu,Huế,True
+Hà Vũ Sơn,Cần Thơ,True
+Phạm Ngọc Quang,Cần Thơ,True
+Nguyễn Thanh Thúy,Cần Thơ,True
+Nguyễn Thị Hồng Tâm,Bắc Ninh,True
+Nguyễn Thị Thùy Linh,Cần Thơ,True
+Trần Văn Hiệp,Cần Thơ,True
+Nguyễn Tấn Nhơn,Cần Thơ,True
+Ngô Hồng Khanh,Cần Thơ,True
+Phan Văn Nhớ,Cần Thơ,True
+Hà Văn Thắng,Lào Cai,True
+Giàng A Tạng,Lào Cai,True
+Nguyễn Thanh Sơn,Điện Biên,True
+Nguyễn Đình Tứ,Tuyên Quang,True
+Lưu Thị Bình,Thái Nguyên,True
+Nguyễn Viết Dũng,Thái Nguyên,True
+Hà Ngọc Việt,Thái Nguyên,True
+Trương Văn Vĩnh,Thái Nguyên,True
+Nguyễn Quang Minh,Phú Thọ,True
+Hoàng Mạnh Cường,Phú Thọ,True
+Nguyễn Thanh Hiệp,Phú Thọ,True
+Vũ Đình Tiến,Hải Phòng,True
+Vũ Hữu Vững,Hải Phòng,True
+Phạm Phương Thảo,TP.HCM,True
+Hồ Thị Ánh Tuyết,Phú Thọ,True
+Lê Văn Phong,Phú Thọ,True
+Lê Trương Hải Hiếu,Phú Thọ,True
+Nguyễn Thị Lệ Hà,Hà Tĩnh,True
+Đặng Văn Tuấn,Đồng Tháp,True
+Bùi Thị Tiên,Phú Thọ,True
+Bùi Văn Luyến,Phú Thọ,True
+Lê Xuân Thắng,Bắc Ninh,True
+Đỗ Bình Dương,Bắc Ninh,True
+Lê Văn Định,Cao Bằng,True
+Nông Thị Thanh Huyền,Cao Bằng,True
+Đàm Trung Nghĩa,Cao Bằng,True
+Nông Tuấn Phong,Cao Bằng,True
+Lê Văn Giáp,Nghệ An,True
+Hà Trung Văn,Cao Bằng,True
+Đỗ Thị Lan Hương,Hà Nội,True
+Nguyễn Minh Long,Hà Nội,True
+Bùi Bảo Tuấn,Hà Nội,True
+Trần Quang Trung,Nghệ An,True
+Đinh Quốc Tuyền,Hà Nội,True
+Huỳnh Thị Thúy Phương,TP.HCM,True
+Phạm Viết Dũng,Hải Phòng,True
+Châu Hà,Hải Phòng,True
+Trần Thu Hương,Hải Phòng,True
+Trần Ngọc Thanh,Đà Nẵng,True
+Lê Thành Hưng,Đà Nẵng,True
+Đỗ Quốc Hưng,TP.HCM,True
+Lê Văn Tư,Đà Nẵng,True
+Trương Công Thanh,Đà Nẵng,True
+Trần Thị Ngọc Loan,Huế,True
+Lò Thị Việt Hà,Tuyên Quang,True
+Vũ Việt Văn,Phú Thọ,True
+Nguyễn Hữu Cường,Phú Thọ,True
+Nguyễn Giáp Đông,Hà Nội,True
+Đặng Xuân Phương,Quảng Ninh,True
+Lò Thị Luyến,Điện Biên,True
+Lê Đình Hải,Điện Biên,True
+Nguyễn Đình Việt,Sơn La,True
+Đỗ Văn Trụ,Sơn La,True
+Nguyễn Văn Năng,Bắc Ninh,True
+Nguyễn Hải Long,Ninh Bình,True
+Phạm Thị Kim Oanh,Ninh Bình,True
+Đỗ Hồng Thanh,Ninh Bình,True
+Vũ Kiên,Ninh Bình,True
+Lê Văn Kiên,Ninh Bình,True
+Nguyễn Thị Phương Quỳnh,Ninh Bình,True
+Hoàng Ngọc Trung,Thanh Hóa,True
+Trịnh Huy Triều,Thanh Hóa,True
+Nguyễn Xuân Hưng,Thanh Hóa,True
+Mai Cao Cường,Thanh Hóa,True
+Phan Trung Bá,Lào Cai,True
+Lý Thị Vinh,Lào Cai,True
+Vi Văn Thuấn,Thanh Hóa,True
+Phạm Bá Chiến,Thanh Hóa,True
+Ngô Thị Hằng,Quảng Ninh,True
+Đinh Nho Tài,Nghệ An,True
+Trần Quốc Dũng,Hà Tĩnh,True
+Phạm Thanh Phương,Hà Tĩnh,True
+Lê Văn Thông,Quảng Trị,True
+Vũ Văn Minh,Quảng Trị,True
+Đinh Xuân Hùng,Quảng Trị,True
+Trần Xuân Lạn,Quảng Trị,True
+Nguyễn Thị Hồng Hà,Quảng Trị,True
+Nguyễn Hồng Phương,Quảng Trị,True
+Bùi Thị Thanh Thúy,Quảng Trị,True
+Hồ Thị Thúy An,Quảng Trị,True
+Võ Văn Lương,Quảng Ngãi,True
+Đinh Văn Hai,Quảng Ngãi,True
+Hồ Song Ân,Quảng Ngãi,True
+Đỗ Ngọc Tây,Quảng Ngãi,True
+Lê Viết Nam,Quảng Ngãi,True
+Nguyễn Quốc Huy Hoàng,Quảng Ngãi,True
+Nguyễn Minh Hướng,Gia Lai,True
+Nguyễn Triều Quang,Gia Lai,True
+Phạm Văn Nam,Gia Lai,True
+Nguyễn Chí Linh,Gia Lai,True
+Phan Ngọc Phận,Gia Lai,True
+Phạm Xuân Độ,Lâm Đồng,True
+Đặng Thị Âu,Phú Yên,True
+Đặng Thị Âu,Đắk Lắk,False
+Nguyễn Văn Nhựt,Khánh Hòa,True
+Thái Thị Lệ Hằng,Khánh Hòa,True
+Nguyễn Quang Hồng Văn,Khánh Hòa,True
+Ngụy Như Ánh,Khánh Hòa,True
+Huỳnh Hữu Phúc,Khánh Hòa,True
+Võ Quang Trung,Lâm Đồng,True
+Nguyễn Văn Diễn,Đồng Nai,True
+Hà Minh Tuấn,Tây Ninh,True
+Trần Quốc Quân,Tây Ninh,True
+Trần Đăng Ninh,Tây Ninh,True
+Phạm Văn Hậu,Tây Ninh,True
+Trần Hải Phú,Tây Ninh,True
+Lâm Thị Ngọc Kim,Đồng Tháp,True
+Lê Hoàng Quyết,Đồng Tháp,True
+Ngô Huỳnh Quang Thái,Đồng Tháp,True
+Trần Thanh Vũ,An Giang,True
+Huỳnh Hoàng Sơn,An Giang,True
+Lê Thanh Nhàn,An Giang,True
+Lê Quang Thạnh,Vĩnh Long,True
+Lê Văn Tiến,Vĩnh Long,True
+Võ Văn Tám,Vĩnh Long,True
+Lê Minh Khớp,Vĩnh Long,True
+Đặng Thị Huệ,Tây Ninh,True
+Tô Nguyễn Nhị Linh,Tây Ninh,True
+Trần Ngọc Uyển,Tây Ninh,True
+Trương Công Quốc Việt,Cần Thơ,True
