@@ -1,7 +1,7 @@
 """Trích xuất quan hệ từ tin tức bằng luật (trigger + ràng buộc kiểu thực thể + khoảng cách).
 
 Đầu vào : data/interim/news_docs.jsonl (preprocess/build_corpus.py)
-Đầu ra  : data/processed/edges_news.csv           cạnh đã gộp (src, rel, dst) – weight = số lần xuất hiện
+Đầu ra  : data/processed/edges_news.csv           sự kiện giữ từng event_id; cạnh chức vụ/cấu trúc được gộp
           data/processed/nodes_person_news.csv    người mới phát hiện từ tin tức
           data/processed/nodes_org_news.csv       cơ quan mới (chủ yếu cấp tỉnh)
           data/interim/relation_mentions.jsonl    từng lần trích (câu bằng chứng) – dùng để đánh giá
@@ -23,6 +23,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from ner_link import DocContext, Linker, Mention, analyse_sentence  # noqa: E402
+from event_identity import EVENT_RELS, assertion_id, explicit_event_date  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 PROC = ROOT / "data" / "processed"
@@ -31,6 +32,11 @@ EVAL = ROOT / "data" / "eval"
 
 P, O = "PER", "ORG"
 LIST_RELS = {"BO_NHIEM", "DIEU_DONG", "MIEN_NHIEM", "KY_LUAT", "KIEM_TRA"}
+
+
+def corpus_lines():
+    with (INTERIM / "news_docs.jsonl").open(encoding="utf-8") as source:
+        yield from source
 
 
 @dataclass
@@ -276,14 +282,17 @@ def extract_sentence(s: str, ms: list[Mention]):
 def main():
     lk = Linker()
     wiki_pos = set()
-    for r in csv.DictReader((PROC / "edges_wiki.csv").open(encoding="utf-8")):
-        if r["rel"] == "GIU_CHUC_VU":
-            wiki_pos.add((r["src"], r["dst"]))
+    wiki_edges_path = PROC / "edges_wiki.csv"
+    if wiki_edges_path.exists():
+        for r in csv.DictReader(wiki_edges_path.open(encoding="utf-8")):
+            if r["rel"] == "GIU_CHUC_VU":
+                wiki_pos.add((r["src"], r["dst"]))
     mentions_out = (INTERIM / "relation_mentions.jsonl").open("w", encoding="utf-8")
     agg = {}
     n_docs = n_sents = 0
     ent_stats = Counter()
-    for line in (INTERIM / "news_docs.jsonl").open(encoding="utf-8"):
+    person_mentions = {}
+    for line in corpus_lines():
         d = json.loads(line)
         n_docs += 1
         ctx = DocContext()
@@ -292,6 +301,11 @@ def main():
             ms = analyse_sentence(s, lk, ctx)
             for m in ms:
                 ent_stats[(m.kind, m.via or "gaz")] += 1
+                if m.kind == P and m.via != "coref":
+                    person_mentions.setdefault((m.id, d["doc_id"]), {
+                        "person_id": m.id, "name": m.text, "doc_id": d["doc_id"],
+                        "url": d["url"], "date": d["date"], "evidence": s[:500],
+                    })
             rels = extract_sentence(s, ms)
             # GIU_CHUC_VU từ cụm chức danh (chỉ khi Wikipedia chưa có cặp người–cơ quan này)
             for m in ms:
@@ -305,8 +319,13 @@ def main():
                                      "role": role, "former": role.startswith("nguyên"), "passive": False})
             for r in rels:
                 r.update({"doc_id": d["doc_id"], "url": d["url"], "date": d["date"], "sent_idx": i, "sentence": s})
+                if r["rel"] in EVENT_RELS:
+                    r["event_date"] = explicit_event_date(s)
+                    r["event_id"] = assertion_id(d["doc_id"], i, r["rel"], r["src"], r["dst"], r["trigger"])
                 mentions_out.write(json.dumps(r, ensure_ascii=False) + "\n")
-                key = (r["src"], r["rel"], r["dst"], r.get("role", "") if r["rel"] == "GIU_CHUC_VU" else "")
+                key = ((r["src"], r["rel"], r["dst"], r["event_id"])
+                       if r["rel"] in EVENT_RELS else
+                       (r["src"], r["rel"], r["dst"], r.get("role", "") if r["rel"] == "GIU_CHUC_VU" else ""))
                 a = agg.get(key)
                 if a is None:
                     agg[key] = a = {"src": r["src"], "src_label": r["src_label"], "rel": r["rel"], "dst": r["dst"],
@@ -314,6 +333,10 @@ def main():
                                     "current": "" if r["rel"] != "GIU_CHUC_VU" else str(not r.get("former")),
                                     "source": r["url"], "confidence": r["conf"], "weight": 0, "evidence": s[:500],
                                     "date": r["date"], "method": "rule:" + r["trigger"], "to_org": r.get("to_org", "")}
+                    if r["rel"] in EVENT_RELS:
+                        a["event_id"] = r["event_id"]
+                        a["event_date"] = r["event_date"]
+                        a["review_status"] = "candidate"
                 a["weight"] += 1
                 a["confidence"] = max(a["confidence"], r["conf"])
                 if r["date"] and (not a["start"] or r["date"] < a["start"]):
@@ -331,19 +354,39 @@ def main():
             w.writeheader()
             w.writerows(rows)
 
-    used = {a["src"] for a in agg.values()} | {a["dst"] for a in agg.values()}
-    new_p = [p for pid, p in lk.new_persons.items() if pid in used]
+    # A person mentioned in a news article stays discoverable even if no relation rule fired.
+    new_p = list(lk.new_persons.values())
     write(PROC / "nodes_person_news.csv", new_p, ["id", "name", "wiki_title", "wikidata", "birth_year", "hometown", "source"])
+    write(PROC / "person_mentions_news.csv", list(person_mentions.values()),
+          ["person_id", "name", "doc_id", "url", "date", "evidence"])
+    used = {a["src"] for a in agg.values()} | {a["dst"] for a in agg.values()}
     new_o = [o for oid, o in lk.new_orgs.items() if oid in used or any(e[0] == oid for e in lk.new_org_edges)]
     keep_o = {o["id"] for o in new_o}
     write(PROC / "nodes_org_news.csv", new_o, ["id", "name", "type", "level", "province"])
-    existing_prov = {r["id"] for r in csv.DictReader((PROC / "nodes_province.csv").open(encoding="utf-8"))}
+    prov_path = PROC / "nodes_province.csv"
+    existing_prov = {r["id"] for r in csv.DictReader(prov_path.open(encoding="utf-8"))} if prov_path.exists() else set()
     missing_prov = []
     for name, pid in lk.prov_id.items():
         if pid not in existing_prov and pid not in {m["id"] for m in missing_prov}:
             missing_prov.append({"id": pid, "name": name, "status": lk.prov_status[name], "valid_from": ""})
     write(PROC / "nodes_province_news.csv", missing_prov, ["id", "name", "status", "valid_from"])
 
+    # Người đã có trong Wikipedia: chỉ bổ sung chức vụ từ tin tức khi được nhắc >= 2 lần
+    # (1 lần nhắc thường là lỗi gán chức danh trong câu liệt kê nhiều lãnh đạo)
+    # Chức vụ cao nhất của Đảng/Nhà nước/Quốc hội/Chính phủ chỉ lấy từ Wikipedia (đầy đủ, đáng tin);
+    # trong tin tức các chức danh này hay đứng thành chuỗi liệt kê nhiều lãnh đạo ("Tổng Bí thư, Chủ tịch nước X")
+    TOP_ORGS = ("org:chinh_phu", "org:quoc_hoi", "org:chu_tich_nuoc", "org:ban_chap_hanh_trung_uong_dang")
+    TOP_ROLES = {"Tổng Bí thư", "Chủ tịch nước", "Phó Chủ tịch nước", "Thủ tướng", "Phó Thủ tướng",
+                 "Phó Thủ tướng Thường trực", "Chủ tịch", "Phó Chủ tịch", "Phó Chủ tịch Thường trực"}
+
+    def top_office(a):
+        return a["dst"].startswith(TOP_ORGS) and re.sub(r"^(nguyên|tân|quyền) ", "", a["role"]) in TOP_ROLES
+
+    n0 = len(agg)
+    agg = {k: a for k, a in agg.items()
+           if not (a["rel"] == "GIU_CHUC_VU" and not a["src"].startswith("per:news:")
+                   and (a["weight"] < 2 or top_office(a)))}
+    print(f"bỏ {n0 - len(agg)} cạnh GIU_CHUC_VU 1 lần nhắc của người có trong Wikipedia")
     edges = list(agg.values())
     for src, rel, dst, dl in lk.new_org_edges:
         if src in keep_o:
@@ -351,11 +394,11 @@ def main():
                           "source": "rule:org_name", "confidence": 1.0, "weight": 1, "method": "rule:org_name"})
     seen, uniq = set(), []
     for e in edges:
-        k = (e["src"], e["rel"], e["dst"], e.get("role", ""))
+        k = (e["src"], e["rel"], e["dst"], e.get("event_id", e.get("role", "")))
         if k not in seen:
             seen.add(k); uniq.append(e)
     fields = ["src", "src_label", "rel", "dst", "dst_label", "role", "start", "end", "current", "source", "confidence",
-              "weight", "evidence", "date", "method", "to_org"]
+              "weight", "evidence", "date", "method", "to_org", "event_id", "event_date", "review_status"]
     write(PROC / "edges_news.csv", uniq, fields)
 
     # mẫu đánh giá: 20 cạnh / loại cho 10 loại tin tức (+ GIU_CHUC_VU từ tin tức)

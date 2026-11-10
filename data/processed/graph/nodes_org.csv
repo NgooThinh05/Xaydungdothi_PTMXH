@@ -1,0 +1,1517 @@
+id,name,type,level,province,cu_the
+org:quoc_hoi,Quốc hội,Quốc hội,TW,,True
+org:tong_cuc_an_ninh_bo_cong_an,"Tổng cục An ninh, Bộ Công an",Lực lượng vũ trang,TW,,True
+org:cong_an_tinh_hai_duong,Công an tỉnh Hải Dương,Công an tỉnh,Tỉnh,Hải Phòng,True
+org:tinh_uy_kon_tum,Tỉnh ủy Kon Tum,Cấp ủy tỉnh,Tỉnh,Quảng Ngãi,True
+org:tinh_uy_phu_tho,Tỉnh ủy Phú Thọ,Cấp ủy tỉnh,Tỉnh,Phú Thọ,True
+org:hoi_dong_nhan_dan_tinh_phu_tho,Hội đồng nhân dân tỉnh Phú Thọ,HĐND tỉnh,Tỉnh,Phú Thọ,True
+org:ban_chap_hanh_trung_uong_dang,Ban Chấp hành Trung ương Đảng,Cơ quan lãnh đạo Đảng,TW,,True
+org:uy_ban_nhan_dan_tinh_phu_tho,Ủy ban nhân dân tỉnh Phú Thọ,Cơ quan Quốc hội,TW,Phú Thọ,True
+org:uy_ban_kiem_tra_tinh_uy_phu_tho,Ủy ban kiểm tra Tỉnh ủy Phú Thọ,Cơ quan Quốc hội,TW,Phú Thọ,True
+org:so_tai_chinh_tinh_phu_tho,Sở Tài chính tỉnh Phú Thọ,Sở,Tỉnh,Phú Thọ,True
+org:toa_an_nhan_dan_toi_cao,Tòa án nhân dân tối cao,Cơ quan tư pháp/kiểm toán,TW,,True
+org:tong_cuc_chinh_tri_cong_an_nhan_dan_bo_cong_an_viet_nam,"Tổng cục Chính trị Công an nhân dân, Bộ Công an Việt Nam",Lực lượng vũ trang,TW,,True
+org:cong_an_tinh_ninh_binh,Công an tỉnh Ninh Bình,Công an tỉnh,Tỉnh,Ninh Bình,True
+org:cong_an_tinh_an_giang,Công an tỉnh An Giang,Công an tỉnh,Tỉnh,An Giang,True
+org:dang_uy_phuong_phu_my,Đảng ủy phường Phú Mỹ,Đảng ủy,,,True
+org:ban_thuong_vu_thanh_uy_thanh_pho_ho_chi_minh,Ban Thường vụ Thành ủy Thành phố Hồ Chí Minh,Cơ quan Đảng tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:tinh_uy_ba_ria_vung_tau,Tỉnh ủy Bà Rịa – Vũng Tàu,Cấp ủy tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_ba_ria_vung_tau_khoa_6,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Bà Rịa – Vũng Tàu khóa 6,Cơ quan Quốc hội,TW,Thành phố Hồ Chí Minh,True
+org:ban_chap_hanh_trung_uong_dang_cong_san_viet_nam_khoa_12,Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa 12,Cơ quan Đảng TW,TW,,True
+org:hoi_dong_ly_luan_trung_uong,Hội đồng Lý luận Trung ương,Mặt trận & đoàn thể,TW,,True
+org:vien_han_lam_khoa_hoc_xa_hoi_viet_nam,Viện Hàn lâm Khoa học xã hội Việt Nam,Đơn vị sự nghiệp,TW,,True
+org:hoi_dong_nhan_dan_tinh_ca_mau,Hội đồng nhân dân tỉnh Cà Mau,HĐND tỉnh,Tỉnh,Cà Mau,True
+org:uy_ban_nhan_dan_tinh_ca_mau,Ủy ban nhân dân tỉnh Cà Mau,Cơ quan Quốc hội,TW,Cà Mau,True
+org:quan_chung_phong_khong_khong_quan_quan_doi_nhan_dan_viet_nam,"Quân chủng Phòng không – Không quân, Quân đội nhân dân Việt Nam",Lực lượng vũ trang,TW,,True
+org:ban_tuyen_giao_trung_uong,Ban Tuyên giáo Trung ương,Cơ quan Đảng TW,TW,,True
+org:uy_ban_van_hoa_va_xa_hoi_cua_quoc_hoi,Ủy ban Văn hóa và Xã hội của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:uy_ban_van_hoa_giao_duc_cua_quoc_hoi,"Ủy ban Văn hóa, Giáo dục của Quốc hội",Cơ quan Quốc hội,TW,,True
+org:bo_xay_dung,Bộ Xây dựng,Bộ,TW,,True
+org:ban_chuyen_trach_ban_chi_dao_doi_moi_va_phat_trien_doanh_nghiep,Ban chuyên trách Ban Chỉ đạo Đổi mới và Phát triển doanh nghiệp,Khác,,,True
+org:uy_ban_phap_luat_cua_quoc_hoi,Ủy ban Pháp luật của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:cong_an_thanh_pho_bac_ninh,Công an thành phố Bắc Ninh,Công an tỉnh,Tỉnh,Bắc Ninh,True
+org:cong_an_tinh_bac_ninh,Công an tỉnh Bắc Ninh,Công an tỉnh,Tỉnh,Bắc Ninh,True
+org:uy_ban_nhan_dan_tinh_quang_tri,Ủy ban nhân dân tỉnh Quảng Trị,Cơ quan Quốc hội,TW,Quảng Trị,True
+org:tinh_uy_quang_tri,Tỉnh ủy Quảng Trị,Cấp ủy tỉnh,Tỉnh,Quảng Trị,True
+org:bo_khoa_hoc_va_cong_nghe,Bộ Khoa học và Công nghệ,Bộ,TW,,True
+org:bo_thong_tin_va_truyen_thong,Bộ Thông tin và Truyền thông,Bộ,TW,,True
+org:tinh_uy_lao_cai,Tỉnh ủy Lào Cai,Cấp ủy tỉnh,Tỉnh,Lào Cai,True
+org:tinh_uy_kien_giang,Tỉnh ủy Kiên Giang,Cấp ủy tỉnh,Tỉnh,An Giang,True
+org:bo_cong_an,Bộ Công an,Bộ,TW,,True
+org:tinh_uy_ninh_binh,Tỉnh ủy Ninh Bình,Cấp ủy tỉnh,Tỉnh,Ninh Bình,True
+org:van_phong_quoc_hoi,Văn phòng Quốc hội,Quốc hội,TW,,True
+org:ban_chap_hanh_trung_uong_dang_cong_san_viet_nam_khoa_xi,Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa XI,Cơ quan Đảng TW,TW,,True
+org:cong_an_tinh_kien_giang,Công an tỉnh Kiên Giang,Công an tỉnh,Tỉnh,An Giang,True
+org:tinh_uy_bac_giang,Tỉnh ủy Bắc Giang,Cấp ủy tỉnh,Tỉnh,Bắc Ninh,True
+org:hoi_dong_nhan_dan_tinh_bac_giang,Hội đồng nhân dân tỉnh Bắc Giang,HĐND tỉnh,Tỉnh,Bắc Ninh,True
+org:uy_ban_nhan_dan_tinh_bac_giang,Ủy ban nhân dân tỉnh Bắc Giang,Cơ quan Quốc hội,TW,Bắc Ninh,True
+org:tong_cuc_chinh_tri_quan_doi_nhan_dan_viet_nam,Tổng cục chính trị Quân đội nhân dân Việt Nam,Lực lượng vũ trang,TW,,True
+org:ban_to_chuc_trung_uong,Ban Tổ chức Trung ương,Cơ quan Đảng TW,TW,,True
+org:ban_chi_dao_trung_uong_ve_phong_chong_tham_nhung_tieu_cuc,"Ban Chỉ đạo Trung ương về phòng, chống tham nhũng, tiêu cực",Cơ quan Đảng TW,TW,,True
+org:tinh_uy_quang_ngai,Tỉnh ủy Quảng Ngãi,Cấp ủy tỉnh,Tỉnh,Quảng Ngãi,True
+org:hoi_dong_nhan_dan_tinh_quang_ngai,Hội đồng nhân dân tỉnh Quảng Ngãi,HĐND tỉnh,Tỉnh,Quảng Ngãi,True
+org:ban_chap_hanh_trung_uong_dang_cong_san_viet_nam_khoa_xii,Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa XII,Cơ quan Đảng TW,TW,,True
+org:huyen_uy_ly_son,Huyện ủy Lý Sơn,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:huyen_uy_tu_nghia,Huyện ủy Tư Nghĩa,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:chinh_phu,Chính phủ,Thiết chế nhà nước,TW,,True
+org:bo_ngoai_giao,Bộ Ngoại giao,Bộ,TW,,True
+org:uy_ban_trung_uong_mat_tran_to_quoc_viet_nam,Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam,Cơ quan Quốc hội,TW,,True
+org:doan_thanh_nien_cong_san_ho_chi_minh,Đoàn Thanh niên Cộng sản Hồ Chí Minh,Khác,Tỉnh,Thành phố Hồ Chí Minh,True
+org:ban_chap_hanh_trung_uong_dang_cong_san_viet_nam_khoa_xiii,Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa XIII,Cơ quan Đảng TW,TW,,True
+org:uy_ban_trung_uong,Ủy ban Trung ương,Cơ quan Quốc hội,TW,,True
+org:thanh_uy_ha_noi,Thành ủy Hà Nội,Cấp ủy tỉnh,Tỉnh,Hà Nội,True
+org:ban_dan_van_trung_uong,Ban Dân vận Trung ương,Cơ quan Đảng TW,TW,,True
+org:uy_ban_kiem_tra_trung_uong,Ủy ban Kiểm tra Trung ương,Cơ quan Đảng TW,TW,,True
+org:uy_ban_nhan_dan_tinh_hoa_binh,Ủy ban nhân dân tỉnh Hòa Bình,Cơ quan Quốc hội,TW,Phú Thọ,True
+org:tinh_uy_hoa_binh,Tỉnh ủy Hòa Bình,Cấp ủy tỉnh,Tỉnh,Phú Thọ,True
+org:so_khoa_hoc_va_cong_nghe_tinh_hoa_binh,Sở Khoa học và Công nghệ tỉnh Hòa Bình,Sở,Tỉnh,Phú Thọ,True
+org:dang_uy_dai_hoc_quoc_gia_ha_noi,Đảng ủy Đại học Quốc gia Hà Nội,Đảng ủy,Tỉnh,Hà Nội,True
+org:dai_hoc_quoc_gia_ha_noi,Đại học Quốc gia Hà Nội,Đơn vị sự nghiệp,TW,Hà Nội,True
+org:vien_han_lam_khoa_hoc_va_cong_nghe_viet_nam,Viện Hàn lâm Khoa học và Công nghệ Việt Nam,Đơn vị sự nghiệp,TW,,True
+org:hoc_vien_thanh_thieu_nien_viet_nam,Học viện Thanh thiếu niên Việt Nam,Đơn vị sự nghiệp,TW,,True
+org:hoi_chu_thap_do_viet_nam,Hội Chữ thập đỏ Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:dang_doan,Đảng đoàn,Khác,,,True
+org:hoi_lien_hiep_phu_nu_viet_nam,Hội Liên hiệp Phụ nữ Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:so_tu_phap_tinh_hai_duong,Sở Tư pháp tỉnh Hải Dương,Sở,Tỉnh,Hải Phòng,True
+org:cong_an_tinh_nghe_an,Công an tỉnh Nghệ An,Công an tỉnh,Tỉnh,Nghệ An,True
+org:cong_an_tinh_dak_nong,Công an tỉnh Đắk Nông,Công an tỉnh,Tỉnh,Lâm Đồng,True
+org:cong_an_tinh_quang_binh,Công an tỉnh Quảng Bình,Công an tỉnh,Tỉnh,Quảng Trị,True
+org:ban_chap_hanh_trung_uong_dang_cong_san_viet_nam_khoa_xiv,Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa XIV,Cơ quan Đảng TW,TW,,True
+org:kiem_toan_nha_nuoc,Kiểm toán Nhà nước,Cơ quan tư pháp/kiểm toán,TW,,True
+org:van_phong_trung_uong,Văn phòng Trung ương,Cơ quan Đảng TW,TW,,True
+org:vu_chinh_sach_tien_te,Vụ Chính sách tiền tệ,Đơn vị thuộc bộ,TW,,True
+org:ngan_hang_nha_nuoc_viet_nam,Ngân hàng Nhà nước Việt Nam,Cơ quan ngang bộ,TW,,True
+org:thanh_uy_quang_ninh,Thành ủy Quảng Ninh,Cấp ủy tỉnh,Tỉnh,Quảng Ninh,True
+org:uy_ban_nhan_dan_thanh_pho_quang_ninh,Ủy ban nhân dân thành phố Quảng Ninh,Cơ quan Quốc hội,TW,Quảng Ninh,True
+org:tinh_uy_quang_ninh,Tỉnh ủy Quảng Ninh,Cấp ủy tỉnh,Tỉnh,Quảng Ninh,True
+org:uy_ban_nhan_dan_tinh_quang_ninh,Ủy ban nhân dân tỉnh Quảng Ninh,Cơ quan Quốc hội,TW,Quảng Ninh,True
+org:bo_tai_chinh,Bộ Tài chính,Bộ,TW,,True
+org:cong_an_thanh_pho_hai_phong,Công an thành phố Hải Phòng,Công an tỉnh,Tỉnh,Hải Phòng,True
+org:ban_thuong_vu_thanh_uy_hai_phong,Ban Thường vụ Thành ủy Hải Phòng,Cơ quan Đảng tỉnh,Tỉnh,Hải Phòng,True
+org:hoi_cuu_chien_binh_viet_nam,Hội Cựu chiến binh Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:bo_quoc_phong,Bộ Quốc phòng,Bộ,TW,,True
+org:quan_doi_nhan_dan_viet_nam,Quân đội nhân dân Việt Nam,Khác,,,True
+org:quan_khu_1,Quân khu 1,Lực lượng vũ trang,TW,,True
+org:quan_khu_1_quan_doi_nhan_dan_viet_nam,"Quân khu 1, Quân đội nhân dân Việt Nam",Lực lượng vũ trang,TW,,True
+org:dang_uy_cong_an_trung_uong,Đảng ủy Công an Trung ương,Đảng ủy,,,True
+org:tong_cuc_hau_can_ky_thuat_bo_cong_an,"Tổng cục Hậu cần – Kỹ thuật, Bộ Công an",Lực lượng vũ trang,TW,,True
+org:hoi_dong_nhan_dan_tinh_hoa_binh,Hội đồng nhân dân tỉnh Hòa Bình,HĐND tỉnh,Tỉnh,Phú Thọ,True
+org:bo_doi_bien_phong_viet_nam,Bộ đội Biên phòng Việt Nam,Bộ,TW,,True
+org:hoi_dong_nhan_dan_tinh_thai_nguyen,Hội đồng nhân dân tỉnh Thái Nguyên,HĐND tỉnh,Tỉnh,Thái Nguyên,True
+org:ban_noi_chinh_trung_uong,Ban Nội chính Trung ương,Cơ quan Đảng TW,TW,,True
+org:hoi_dong_nhan_dan_tinh_vinh_long,Hội đồng nhân dân tỉnh Vĩnh Long,HĐND tỉnh,Tỉnh,Vĩnh Long,True
+org:tinh_uy_vinh_long,Tỉnh ủy Vĩnh Long,Cấp ủy tỉnh,Tỉnh,Vĩnh Long,True
+org:uy_ban_nhan_dan_huyen_vung_liem,Ủy ban nhân dân huyện Vũng Liêm,Cơ quan Quốc hội,TW,,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_vinh_long,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh Vĩnh Long",Ban Chỉ đạo,Tỉnh,Vĩnh Long,True
+org:uy_ban_nhan_dan_tinh_ninh_binh,Ủy ban nhân dân tỉnh Ninh Bình,Cơ quan Quốc hội,TW,Ninh Bình,True
+org:hoi_dong_dan_toc,Hội đồng dân tộc,Mặt trận & đoàn thể,TW,,True
+org:tinh_uy_cao_bang,Tỉnh ủy Cao Bằng,Cấp ủy tỉnh,Tỉnh,Cao Bằng,True
+org:ban_kinh_te_trung_uong,Ban Kinh tế Trung ương,Cơ quan Đảng TW,TW,,True
+org:bo_nong_nghiep_va_phat_trien_nong_thon,Bộ Nông nghiệp và Phát triển Nông thôn,Bộ,TW,,True
+org:tong_cuc_canh_sat_thi_hanh_an_hinh_su_va_ho_tro_tu_phap_bo_cong_an,"Tổng cục Cảnh sát Thi hành án hình sự và Hỗ trợ Tư pháp, Bộ Công an",Lực lượng vũ trang,TW,,True
+org:uy_ban_nhan_dan_tinh_ben_tre,Ủy ban nhân dân tỉnh Bến Tre,Cơ quan Quốc hội,TW,Vĩnh Long,True
+org:tinh_uy_nam_dinh,Tỉnh ủy Nam Định,Cấp ủy tỉnh,Tỉnh,Ninh Bình,True
+org:tinh_uy_ben_tre,Tỉnh ủy Bến Tre,Cấp ủy tỉnh,Tỉnh,Vĩnh Long,True
+org:tong_cuc_canh_sat_bo_cong_an,"Tổng cục Cảnh sát, Bộ Công an",Lực lượng vũ trang,TW,,True
+org:cong_an_tinh_khanh_hoa,Công an tỉnh Khánh Hòa,Công an tỉnh,Tỉnh,Khánh Hòa,True
+org:tinh_uy_dong_nai,Tỉnh ủy Đồng Nai,Cấp ủy tỉnh,Tỉnh,Đồng Nai,True
+org:uy_ban_nhan_dan_tinh_dong_nai,Ủy ban nhân dân tỉnh Đồng Nai,Cơ quan Quốc hội,TW,Đồng Nai,True
+org:uy_ban_nhan_dan_tinh_quang_ngai,Ủy ban nhân dân tỉnh Quảng Ngãi,Cơ quan Quốc hội,TW,Quảng Ngãi,True
+org:dang_uy_dac_khu_van_don,Đảng ủy Đặc khu Vân Đồn,Đảng ủy,,,True
+org:hoi_dong_nhan_dan_tinh_son_la,Hội đồng nhân dân tỉnh Sơn La,HĐND tỉnh,Tỉnh,Sơn La,True
+org:so_dan_toc_va_ton_giao_tinh_khanh_hoa,Sở Dân tộc và Tôn giáo Tỉnh Khánh Hòa,Sở,Tỉnh,Khánh Hòa,True
+org:tinh_uy_ninh_thuan,Tỉnh ủy Ninh Thuận,Cấp ủy tỉnh,Tỉnh,Khánh Hòa,True
+org:uy_ban_tu_phap_cua_quoc_hoi,Ủy ban Tư pháp của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:tinh_uy_dak_lak,Tỉnh ủy Đắk Lắk,Cấp ủy tỉnh,Tỉnh,Đắk Lắk,True
+org:hoi_dong_nhan_dan_tinh_dak_lak,Hội đồng nhân dân tỉnh Đắk Lắk,HĐND tỉnh,Tỉnh,Đắk Lắk,True
+org:tinh_uy_phu_yen,Tỉnh ủy Phú Yên,Cấp ủy tỉnh,Tỉnh,Đắk Lắk,True
+org:hoi_dong_nhan_dan_tinh_phu_yen,Hội đồng nhân dân tỉnh Phú Yên,HĐND tỉnh,Tỉnh,Đắk Lắk,True
+org:quan_khu_9_quan_doi_nhan_dan_viet_nam,"Quân khu 9, Quân đội nhân dân Việt Nam",Lực lượng vũ trang,TW,,True
+org:hoi_nguoi_cao_tuoi_viet_nam,Hội Người cao tuổi Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:tong_lien_doan_lao_dong_viet_nam,Tổng Liên đoàn Lao động Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:hoi_dong_nhan_dan_thanh_pho_hai_phong,Hội đồng nhân dân thành phố Hải Phòng,HĐND tỉnh,Tỉnh,Hải Phòng,True
+org:thanh_uy_hai_phong,Thành ủy Hải Phòng,Cấp ủy tỉnh,Tỉnh,Hải Phòng,True
+org:uy_ban_nhan_dan_thanh_pho_hai_phong,Ủy ban nhân dân thành phố Hải Phòng,Cơ quan Quốc hội,TW,Hải Phòng,True
+org:tinh_uy_dong_thap,Tỉnh ủy Đồng Tháp,Cấp ủy tỉnh,Tỉnh,Đồng Tháp,True
+org:hoi_dong_nhan_dan_tinh_dong_thap,Hội đồng nhân dân tỉnh Đồng Tháp,HĐND tỉnh,Tỉnh,Đồng Tháp,True
+org:tinh_uy_tien_giang,Tỉnh ủy Tiền Giang,Cấp ủy tỉnh,Tỉnh,Đồng Tháp,True
+org:hoi_dong_nhan_dan_tinh_tien_giang,Hội đồng nhân dân tỉnh Tiền Giang,HĐND tỉnh,Tỉnh,Đồng Tháp,True
+org:hoi_dong_nhan_dan_tinh_tuyen_quang,Hội đồng nhân dân tỉnh Tuyên Quang,HĐND tỉnh,Tỉnh,Tuyên Quang,True
+org:tinh_uy_tuyen_quang,Tỉnh ủy Tuyên Quang,Cấp ủy tỉnh,Tỉnh,Tuyên Quang,True
+org:uy_ban_nhan_dan_tinh_tuyen_quang,Ủy ban nhân dân tỉnh Tuyên Quang,Cơ quan Quốc hội,TW,Tuyên Quang,True
+org:uy_ban_nhan_dan_tinh_lao_cai,Ủy ban nhân dân tỉnh Lào Cai,Cơ quan Quốc hội,TW,Lào Cai,True
+org:uy_ban_nhan_dan_tinh_son_la,Ủy ban nhân dân tỉnh Sơn La,Cơ quan Quốc hội,TW,Sơn La,True
+org:tinh_uy_son_la,Tỉnh ủy Sơn La,Cấp ủy tỉnh,Tỉnh,Sơn La,True
+org:lien_hiep_cac_hoi_khoa_hoc_va_ky_thuat_viet_nam,Liên hiệp các Hội Khoa học và Kỹ thuật Việt Nam,Mặt trận & đoàn thể,,,True
+org:hoi_dong_giao_su_nha_nuoc,Hội đồng Giáo sư Nhà nước,Mặt trận & đoàn thể,TW,,True
+org:thanh_uy_thanh_pho_ho_chi_minh,Thành ủy Thành phố Hồ Chí Minh,Cấp ủy tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:ban_tuyen_giao_va_dan_van_thanh_uy_thanh_pho_ho_chi_minh,Ban Tuyên giáo và Dân vận Thành ủy Thành phố Hồ Chí Minh,Cơ quan Đảng tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:uy_ban_nhan_dan_thanh_pho_ho_chi_minh,Ủy ban nhân dân thành phố Hồ Chí Minh,Cơ quan Quốc hội,TW,Thành phố Hồ Chí Minh,True
+org:so_thong_tin_va_truyen_thong_thanh_pho_ho_chi_minh,Sở Thông tin và Truyền thông Thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:dai_hoc_quoc_gia_thanh_pho_ho_chi_minh,Đại học Quốc gia Thành phố Hồ Chí Minh,Đơn vị sự nghiệp,TW,Thành phố Hồ Chí Minh,True
+org:hoi_dong_nhan_dan_tinh_gia_lai,Hội đồng nhân dân tỉnh Gia Lai,HĐND tỉnh,Tỉnh,Gia Lai,True
+org:tinh_uy_gia_lai,Tỉnh ủy Gia Lai,Cấp ủy tỉnh,Tỉnh,Gia Lai,True
+org:ban_dan_toc_tinh_phu_tho,Ban Dân tộc tỉnh Phú Thọ,Khác,Tỉnh,Phú Thọ,True
+org:so_khoa_hoc_va_cong_nghe_tinh_phu_yen,Sở Khoa học và Công nghệ tỉnh Phú Yên,Sở,Tỉnh,Đắk Lắk,True
+org:uy_ban_nhan_dan_tinh_thai_nguyen,Ủy ban nhân dân tỉnh Thái Nguyên,Cơ quan Quốc hội,TW,Thái Nguyên,True
+org:cuc_hang_hai_viet_nam,Cục Hàng hải Việt Nam,Đơn vị thuộc bộ,TW,,True
+org:hoi_dong_thanh_vien_tong_cong_ty_hang_hai_viet_nam,Hội đồng Thành viên Tổng công ty Hàng hải Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:tinh_uy_lang_son,Tỉnh ủy Lạng Sơn,Cấp ủy tỉnh,Tỉnh,Lạng Sơn,True
+org:uy_ban_thuong_vu_quoc_hoi,Ủy ban Thường vụ Quốc hội,Quốc hội,TW,,True
+org:tinh_uy_ca_mau,Tỉnh ủy Cà Mau,Cấp ủy tỉnh,Tỉnh,Cà Mau,True
+org:hoi_dong_nhan_dan_tinh_kon_tum,Hội đồng nhân dân tỉnh Kon Tum,HĐND tỉnh,Tỉnh,Quảng Ngãi,True
+org:ban_noi_chinh_thanh_uy_tp_hcm,Ban Nội chính Thành ủy Thành phố Hồ Chí Minh,Cơ quan Đảng tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:vien_kiem_sat_nhan_dan_thanh_pho_ho_chi_minh,Viện kiểm sát nhân dân Thành phố Hồ Chí Minh,Cơ quan tư pháp,Tỉnh,Thành phố Hồ Chí Minh,True
+org:hoi_dong_thanh_vien_tap_doan_dien_luc_viet_nam,Hội đồng thành viên Tập đoàn Điện lực Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:tap_doan_dien_luc_viet_nam,Tập đoàn Điện lực Việt Nam,Doanh nghiệp nhà nước,TW,,True
+org:uy_ban_kinh_te_cua_quoc_hoi_khoa_14,Ủy ban Kinh tế của Quốc hội khóa 14,Cơ quan Quốc hội,TW,,True
+org:hoi_dong_nhan_dan_tinh_yen_bai,Hội đồng nhân dân tỉnh Yên Bái,HĐND tỉnh,Tỉnh,Lào Cai,True
+org:tinh_uy_vinh_phuc,Tỉnh ủy Vĩnh Phúc,Cấp ủy tỉnh,Tỉnh,Phú Thọ,True
+org:tinh_uy_binh_thuan,Tỉnh ủy Bình Thuận,Cấp ủy tỉnh,Tỉnh,Lâm Đồng,True
+org:trung_uong_doan,Trung ương Đoàn,Mặt trận & đoàn thể,TW,,True
+org:ban_chap_hanh_trung_uong_doan_thanh_nien_cong_san_ho_chi_minh,Ban Chấp hành Trung ương Đoàn Thanh niên Cộng sản Hồ Chí Minh,Cơ quan Đảng TW,TW,Thành phố Hồ Chí Minh,True
+org:uy_ban_nhan_dan_tinh_bac_lieu,Ủy ban nhân dân tỉnh Bạc Liêu,Cơ quan Quốc hội,TW,Cà Mau,True
+org:tinh_uy_bac_lieu,Tỉnh ủy Bạc Liêu,Cấp ủy tỉnh,Tỉnh,Cà Mau,True
+org:toa_an_quan_su_trung_uong,Tòa án Quân sự Trung ương,Cơ quan tư pháp,,,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_bac_giang,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh Bắc Giang",Ban Chỉ đạo,Tỉnh,Bắc Ninh,True
+org:thanh_tra_chinh_phu,Thanh tra Chính phủ,Cơ quan ngang bộ,TW,,True
+org:hoc_vien_chinh_tri_quoc_gia_ho_chi_minh,Học viện Chính trị Quốc gia Hồ Chí Minh,Đơn vị sự nghiệp,TW,Thành phố Hồ Chí Minh,True
+org:cuc_canh_sat_phong_chay_chua_chay_va_cuu_nan_cuu_ho_bo_cong_an,"Cục Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:cong_an_thanh_pho_ha_noi,Công an thành phố Hà Nội,Công an tỉnh,Tỉnh,Hà Nội,True
+org:ban_doi_ngoai_trung_uong,Ban Đối ngoại Trung ương,Cơ quan Đảng TW,TW,,True
+org:tinh_uy_bac_kan,Tỉnh ủy Bắc Kạn,Cấp ủy tỉnh,Tỉnh,Thái Nguyên,True
+org:uy_ban_nhan_dan_tinh_bac_kan,Ủy ban nhân dân tỉnh Bắc Kạn,Cơ quan Quốc hội,TW,Thái Nguyên,True
+org:hoi_dong_nhan_dan_tinh_bac_kan,Hội đồng nhân dân tỉnh Bắc Kạn,HĐND tỉnh,Tỉnh,Thái Nguyên,True
+org:toa_an_nhan_dan_tinh_bac_kan,Tòa án nhân dân tỉnh Bắc Kạn,Cơ quan tư pháp,Tỉnh,Thái Nguyên,True
+org:so_noi_vu_tinh_bac_kan,Sở Nội vụ tỉnh Bắc Kạn,Sở,Tỉnh,Thái Nguyên,True
+org:hoi_dong_nhan_dan_tinh_lai_chau,Hội đồng nhân dân tỉnh Lai Châu,HĐND tỉnh,Tỉnh,Lai Châu,True
+org:tinh_uy_lai_chau,Tỉnh ủy Lai Châu,Cấp ủy tỉnh,Tỉnh,Lai Châu,True
+org:vu_che_do_va_kiem_soat_chat_luong_kiem_toan_kiem_toan_nha_nuoc,"Vụ Chế độ và Kiểm soát chất lượng kiểm toán, Kiểm toán Nhà nước",Đơn vị thuộc bộ,TW,,True
+org:kiem_toan_truong_kiem_toan_nha_nuoc_khu_vuc_vii,Kiểm toán trưởng Kiểm toán Nhà nước Khu vực VII,Khác,,,True
+org:cuc_an_ninh_mang_bo_cong_an,"Cục An ninh mạng, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:ban_bi_thu,Ban Bí thư,Cơ quan lãnh đạo Đảng,TW,,True
+org:uy_ban_kiem_tra_dang_uy_cong_an_trung_uong,Ủy ban Kiểm tra Đảng ủy Công an Trung ương,Cơ quan Đảng TW,TW,,True
+org:uy_ban_dan_nguyen_va_giam_sat_cua_quoc_hoi,Ủy ban Dân nguyện và Giám sát của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:hoi_dong_nhan_dan_tinh_nghe_an,Hội đồng nhân dân tỉnh Nghệ An,HĐND tỉnh,Tỉnh,Nghệ An,True
+org:tinh_uy_nghe_an,Tỉnh ủy Nghệ An,Cấp ủy tỉnh,Tỉnh,Nghệ An,True
+org:bo_giao_duc_va_dao_tao,Bộ Giáo dục và Đào tạo,Bộ,TW,,True
+org:bo_truong_bo_giao_duc_va_dao_tao,Bộ trưởng Bộ Giáo dục và Đào tạo,Bộ,TW,,True
+org:hoi_dong_dai_hoc_quoc_gia_ha_noi,Hội đồng Đại học Quốc gia Hà Nội,Mặt trận & đoàn thể,TW,Hà Nội,True
+org:bo_van_hoa_the_thao_va_du_lich,"Bộ Văn hóa, Thể thao và Du lịch",Bộ,TW,,True
+org:thanh_uy_da_nang,Thành ủy Đà Nẵng,Cấp ủy tỉnh,Tỉnh,Đà Nẵng,True
+org:hoi_dong_nhan_dan_tinh_vinh_phuc,Hội đồng nhân dân tỉnh Vĩnh Phúc,HĐND tỉnh,Tỉnh,Phú Thọ,True
+org:truong_dai_hoc_kinh_te_quoc_dan,Trường Đại học Kinh tế Quốc dân,Đơn vị sự nghiệp,TW,,True
+org:uy_ban_phap_luat_va_tu_phap_quoc_hoi,Ủy ban Pháp luật và Tư pháp Quốc hội,Cơ quan Quốc hội,TW,,True
+org:bo_tu_phap,Bộ Tư pháp,Bộ,TW,,True
+org:uy_ban_phap_luat_va_tu_phap_cua_quoc_hoi,Ủy ban Pháp luật và Tư pháp của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:hoi_dong_nhan_dan_tinh_lang_son,Hội đồng nhân dân tỉnh Lạng Sơn,HĐND tỉnh,Tỉnh,Lạng Sơn,True
+org:uy_ban_nhan_dan_tinh_ninh_thuan,Ủy ban nhân dân tỉnh Ninh Thuận,Cơ quan Quốc hội,TW,Khánh Hòa,True
+org:uy_ban_nhan_dan_tinh_dak_lak,Ủy ban nhân dân tỉnh Đắk Lắk,Cơ quan Quốc hội,TW,Đắk Lắk,True
+org:bo_chi_huy_quan_su_tinh_lai_chau,Bộ Chỉ huy Quân sự tỉnh Lai Châu,Bộ,TW,Lai Châu,True
+org:tap_chi_cong_san,Tạp chí Cộng sản,Cơ quan báo chí,TW,,True
+org:tinh_uy_ha_tinh,Tỉnh ủy Hà Tĩnh,Cấp ủy tỉnh,Tỉnh,Hà Tĩnh,True
+org:cuc_an_ninh_dieu_tra,Cục An ninh Điều tra,Đơn vị thuộc bộ,TW,,True
+org:hoi_dong_thanh_vien,Hội đồng thành viên,Mặt trận & đoàn thể,TW,,True
+org:tinh_uy_hau_giang,Tỉnh ủy Hậu Giang,Cấp ủy tỉnh,Tỉnh,Cần Thơ,True
+org:uy_ban_nhan_dan_tinh_hau_giang,Ủy ban nhân dân tỉnh Hậu Giang,Cơ quan Quốc hội,TW,Cần Thơ,True
+org:tinh_uy_lam_dong,Tỉnh ủy Lâm Đồng,Cấp ủy tỉnh,Tỉnh,Lâm Đồng,True
+org:dang_uy_khoi_cac_co_quan_trung_uong,Đảng ủy Khối Các cơ quan Trung ương,Đảng ủy,,,True
+org:hoi_dong_nhan_dan_tinh_quang_binh,Hội đồng nhân dân tỉnh Quảng Bình,HĐND tỉnh,Tỉnh,Quảng Trị,True
+org:tinh_uy_quang_binh,Tỉnh ủy Quảng Bình,Cấp ủy tỉnh,Tỉnh,Quảng Trị,True
+org:quan_khu_5,Quân khu 5,Lực lượng vũ trang,TW,,True
+org:hoc_vien_bien_phong,Học viện Biên phòng,Đơn vị sự nghiệp,TW,,True
+org:quan_khu_9,Quân khu 9,Lực lượng vũ trang,TW,,True
+org:uy_ban_nhan_dan_tinh_binh_thuan,Ủy ban nhân dân tỉnh Bình Thuận,Cơ quan Quốc hội,TW,Lâm Đồng,True
+org:uy_ban_nhan_dan_tinh_dong_thap,Ủy ban nhân dân tỉnh Đồng Tháp,Cơ quan Quốc hội,TW,Đồng Tháp,True
+org:thi_uy_hong_ngu,Thị ủy Hồng Ngự,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:so_khoa_hoc_va_cong_nghe_tinh_dong_thap,Sở Khoa học và Công nghệ tỉnh Đồng Tháp,Sở,Tỉnh,Đồng Tháp,True
+org:hoi_dong_nhan_dan_tinh_hau_giang,Hội đồng nhân dân tỉnh Hậu Giang,HĐND tỉnh,Tỉnh,Cần Thơ,True
+org:uy_ban_nhan_dan_tinh_phu_yen,Ủy ban nhân dân tỉnh Phú Yên,Cơ quan Quốc hội,TW,Đắk Lắk,True
+org:bo_chi_huy_quan_su_tinh_tay_ninh,Bộ Chỉ huy Quân sự tỉnh Tây Ninh,Bộ,TW,Tây Ninh,True
+org:ban_to_chuc_thanh_uy_thanh_pho_ho_chi_minh,Ban Tổ chức Thành ủy Thành phố Hồ Chí Minh,Cơ quan Đảng tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:uy_ban_nhan_dan_tinh_cao_bang,Ủy ban nhân dân tỉnh Cao Bằng,Cơ quan Quốc hội,TW,Cao Bằng,True
+org:cuc_to_chuc_can_bo,Cục Tổ chức Cán bộ,Đơn vị thuộc bộ,TW,,True
+org:quan_khu_2_quan_doi_nhan_dan_viet_nam,"Quân khu 2, Quân đội nhân dân Việt Nam",Lực lượng vũ trang,TW,,True
+org:quan_khu_2,Quân khu 2,Lực lượng vũ trang,TW,,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_ca_mau,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Cà Mau,Cơ quan Quốc hội,TW,Cà Mau,True
+org:hoi_dong_tu_van_cai_cach_thu_tuc_hanh_chinh,Hội đồng tư vấn Cải cách thủ tục hành chính,Mặt trận & đoàn thể,TW,,True
+org:bo_lao_dong_thuong_binh_va_xa_hoi,Bộ Lao động – Thương binh và Xã hội,Bộ,TW,,True
+org:hoi_dong_nhan_dan_tinh_ben_tre,Hội đồng nhân dân tỉnh Bến Tre,HĐND tỉnh,Tỉnh,Vĩnh Long,True
+org:vien_kiem_sat_nhan_dan_toi_cao,Viện kiểm sát nhân dân tối cao,Cơ quan tư pháp/kiểm toán,TW,,True
+org:hoi_dong_dan_toc_quoc_hoi,Hội đồng Dân tộc Quốc hội,Mặt trận & đoàn thể,TW,,True
+org:ban_tuyen_giao_va_dan_van_trung_uong,Ban Tuyên giáo và Dân vận Trung ương,Cơ quan Đảng TW,TW,,True
+org:uy_ban_nhan_dan_tinh_lam_dong,Ủy ban nhân dân tỉnh Lâm Đồng,Cơ quan Quốc hội,TW,Lâm Đồng,True
+org:uy_ban_nhan_dan_tinh_kon_tum,Ủy ban nhân dân tỉnh Kon Tum,Cơ quan Quốc hội,TW,Quảng Ngãi,True
+org:uy_ban_nhan_dan_thanh_pho_da_nang,Ủy ban nhân dân thành phố Đà Nẵng,Cơ quan Quốc hội,TW,Đà Nẵng,True
+org:so_ke_hoach_va_dau_tu,Sở Kế hoạch và Đầu tư,Sở,Tỉnh,,False
+org:uy_ban_nhan_dan_quan_ngu_hanh_son,Ủy ban nhân dân quận Ngũ Hành Sơn,Cơ quan Quốc hội,TW,,True
+org:uy_ban_paralympic_viet_nam,Ủy ban Paralympic Việt Nam,Cơ quan Quốc hội,TW,,True
+org:uy_ban_the_duc_the_thao,Ủy ban Thể dục thể thao,Cơ quan Quốc hội,TW,,True
+org:uy_ban_doi_ngoai_cua_quoc_hoi,Ủy ban Đối ngoại của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:vien_kiem_sat_nhan_dan_thanh_pho_dong_nai,Viện kiểm sát nhân dân Thành phố Đồng Nai,Cơ quan tư pháp,Tỉnh,Đồng Nai,True
+org:toa_an_nhan_dan_tinh_dong_nai,Tòa án nhân dân tỉnh Đồng Nai,Cơ quan tư pháp,Tỉnh,Đồng Nai,True
+org:thanh_uy_dong_nai,Thành ủy Đồng Nai,Cấp ủy tỉnh,Tỉnh,Đồng Nai,True
+org:uy_ban_mat_tran_to_quoc_viet_nam,Ủy ban Mặt trận Tổ quốc Việt Nam,Cơ quan Quốc hội,TW,,True
+org:tinh_uy_binh_phuoc,Tỉnh ủy Bình Phước,Cấp ủy tỉnh,Tỉnh,Đồng Nai,True
+org:tinh_uy_khanh_hoa,Tỉnh ủy Khánh Hòa,Cấp ủy tỉnh,Tỉnh,Khánh Hòa,True
+org:dang_uy_phuong_tan_thanh_thanh_pho_ho_chi_minh,"Đảng ủy phường Tân Thành, Thành phố Hồ Chí Minh",Đảng ủy,Tỉnh,Thành phố Hồ Chí Minh,True
+org:so_nong_nghiep,Sở Nông nghiệp,Sở,Tỉnh,,False
+org:hoi_nong_dan_tinh_khanh_hoa,Hội Nông dân tỉnh Khánh Hòa,Mặt trận & đoàn thể,TW,Khánh Hòa,True
+org:bo_giao_thong_van_tai,Bộ Giao thông Vận tải,Bộ,TW,,True
+org:van_phong_trung_uong_dang,Văn phòng Trung ương Đảng,Cơ quan Đảng TW,TW,,True
+org:tinh_uy_thanh_hoa,Tỉnh ủy Thanh Hóa,Cấp ủy tỉnh,Tỉnh,Thanh Hóa,True
+org:truong_dai_hoc_can_tho,Trường Đại học Cần Thơ,Đơn vị sự nghiệp,TW,Cần Thơ,True
+org:thanh_uy_can_tho,Thành ủy Cần Thơ,Cấp ủy tỉnh,Tỉnh,Cần Thơ,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_thanh_pho_can_tho,Ủy ban Mặt trận Tổ quốc Việt Nam thành phố Cần Thơ,Cơ quan Quốc hội,TW,Cần Thơ,True
+org:tinh_uy_ha_giang,Tỉnh ủy Hà Giang,Cấp ủy tỉnh,Tỉnh,Tuyên Quang,True
+org:uy_ban_dan_toc,Ủy ban Dân tộc,Cơ quan Quốc hội,TW,,True
+org:ban_chap_hanh_trung_uong_dang_cong_san_viet_nam_khoa_x,Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa X,Cơ quan Đảng TW,TW,,True
+org:uy_ban_quoc_phong_va_an_ninh_quoc_hoi_viet_nam_khoa_14,Ủy ban Quốc phòng và An ninh Quốc hội Việt Nam khóa 14,Cơ quan Quốc hội,TW,,True
+org:cong_an_tinh_ha_giang,Công an tỉnh Hà Giang,Công an tỉnh,Tỉnh,Tuyên Quang,True
+org:hoi_dong_nhan_dan_tinh_binh_dinh,Hội đồng nhân dân tỉnh Bình Định,HĐND tỉnh,Tỉnh,Gia Lai,True
+org:tinh_uy_binh_dinh,Tỉnh ủy Bình Định,Cấp ủy tỉnh,Tỉnh,Gia Lai,True
+org:uy_ban_nhan_dan_tinh_binh_dinh,Ủy ban nhân dân tỉnh Bình Định,Cơ quan Quốc hội,TW,Gia Lai,True
+org:cuc_canh_sat_hinh_su,Cục Cảnh sát hình sự,Đơn vị thuộc bộ,TW,,True
+org:tong_cuc_cong_nghiep_quoc_phong,Tổng cục Công nghiệp Quốc phòng,Lực lượng vũ trang,TW,,True
+org:tong_cuc_cong_nghiep_quoc_phong_quan_doi_nhan_dan_viet_nam,"Tổng cục Công nghiệp Quốc phòng, Quân đội nhân dân Việt Nam",Lực lượng vũ trang,TW,,True
+org:tinh_uy_tay_ninh,Tỉnh ủy Tây Ninh,Cấp ủy tỉnh,Tỉnh,Tây Ninh,True
+org:quan_khu_4,Quân khu 4,Lực lượng vũ trang,TW,,True
+org:quan_khu_4_quan_doi_nhan_dan_viet_nam,"Quân khu 4, Quân đội nhân dân Việt Nam",Lực lượng vũ trang,TW,,True
+org:lien_doan_thuong_mai_va_cong_nghiep_viet_nam,Liên đoàn Thương mại và Công nghiệp Việt Nam,Mặt trận & đoàn thể,,,True
+org:uy_ban_quan_ly_von_nha_nuoc_tai_doanh_nghiep,Ủy ban Quản lý vốn nhà nước tại doanh nghiệp,Cơ quan Quốc hội,TW,,True
+org:uy_ban_khoa_hoc_cong_nghe_va_moi_truong_cua_quoc_hoi,"Ủy ban Khoa học,Công nghệ và Môi trường của Quốc hội",Cơ quan Quốc hội,TW,,True
+org:uy_ban_nhan_dan_tinh_nghe_an,Ủy ban nhân dân tỉnh Nghệ An,Cơ quan Quốc hội,TW,Nghệ An,True
+org:ban_noi_chinh_tinh_uy_dong_nai,Ban Nội chính Tỉnh ủy Đồng Nai,Cơ quan Đảng tỉnh,Tỉnh,Đồng Nai,True
+org:vien_kiem_sat_nhan_dan_tinh_dong_nai,Viện kiểm sát nhân dân tỉnh Đồng Nai,Cơ quan tư pháp,Tỉnh,Đồng Nai,True
+org:bo_dan_toc_va_ton_giao,Bộ Dân tộc và Tôn giáo,Bộ,TW,,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_gia_lai,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh Gia Lai",Ban Chỉ đạo,Tỉnh,Gia Lai,True
+org:ban_noi_chinh_tinh_uy_gia_lai,Ban Nội chính Tỉnh ủy Gia Lai,Cơ quan Đảng tỉnh,Tỉnh,Gia Lai,True
+org:huyen_uy_dak_po,Huyện ủy Đak Pơ,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:cong_an_tinh_gia_lai,Công an tỉnh Gia Lai,Công an tỉnh,Tỉnh,Gia Lai,True
+org:toa_an_nhan_dan_tinh_nghe_an,Tòa án nhân dân tỉnh Nghệ An,Cơ quan tư pháp,Tỉnh,Nghệ An,True
+org:uy_ban_nhan_dan_tinh_lang_son,Ủy ban nhân dân tỉnh Lạng Sơn,Cơ quan Quốc hội,TW,Lạng Sơn,True
+org:uy_ban_nhan_dan_tinh_an_giang,Ủy ban nhân dân tỉnh An Giang,Cơ quan Quốc hội,TW,An Giang,True
+org:tinh_uy_tinh_uy_an_giang,Tỉnh ủy Tỉnh ủy An Giang,Cấp ủy tỉnh,Tỉnh,An Giang,True
+org:thanh_uy_nha_trang,Thành ủy Nha Trang,Cấp ủy tỉnh,Tỉnh,,True
+org:tinh_uy_dak_nong,Tỉnh ủy Đắk Nông,Cấp ủy tỉnh,Tỉnh,Lâm Đồng,True
+org:hoi_dong_nhan_dan_tinh_tra_vinh,Hội đồng nhân dân tỉnh Trà Vinh,HĐND tỉnh,Tỉnh,Vĩnh Long,True
+org:tinh_uy_tra_vinh,Tỉnh ủy Trà Vinh,Cấp ủy tỉnh,Tỉnh,Vĩnh Long,True
+org:bo_nong_nghiep_va_phat_trien_nong_thon_kiem_nhiem_chu_tich_hoi_dong_quan_tri_tap_doan_cong_nghiep_cao_su_viet_nam,"Bộ Nông nghiệp và Phát triển Nông thôn, kiêm nhiệm Chủ tịch Hội đồng Quản trị Tập đoàn Công nghiệp Cao su Việt Nam",Bộ,TW,,True
+org:bo_van_hoa_thong_tin,Bộ Văn hóa - Thông tin,Bộ,TW,,True
+org:vu_thong_tin_bao_chi,Vụ Thông tin Báo chí,Đơn vị thuộc bộ,TW,,True
+org:tong_cuc_chinh_tri,Tổng cục Chính trị,Lực lượng vũ trang,TW,,True
+org:bo_tu_lenh_thu_do_ha_noi,Bộ Tư lệnh Thủ đô Hà Nội,Bộ,TW,Hà Nội,True
+org:hoi_dong_nhan_dan_tinh_dak_nong,Hội đồng nhân dân tỉnh Đắk Nông,HĐND tỉnh,Tỉnh,Lâm Đồng,True
+org:uy_ban_nhan_dan_tinh_dak_nong,Ủy ban nhân dân tỉnh Đắk Nông,Cơ quan Quốc hội,TW,Lâm Đồng,True
+org:quan_khu_5_quan_doi_nhan_dan_viet_nam,"Quân khu 5, Quân đội nhân dân Việt Nam",Lực lượng vũ trang,TW,,True
+org:trung_uong_doan_thanh_nien_cong_san_ho_chi_minh,Trung ương Đoàn Thanh niên Cộng sản Hồ Chí Minh,Mặt trận & đoàn thể,TW,Thành phố Hồ Chí Minh,True
+org:quan_chung_phong_khong_khong_quan,Quân chủng Phòng không-Không quân,Lực lượng vũ trang,TW,,True
+org:hoi_nong_dan_tinh_bac_giang,Hội Nông dân tỉnh Bắc Giang,Mặt trận & đoàn thể,TW,Bắc Ninh,True
+org:tinh_uy_soc_trang,Tỉnh ủy Sóc Trăng,Cấp ủy tỉnh,Tỉnh,Cần Thơ,True
+org:hoi_dong_nhan_dan_tinh_soc_trang,Hội đồng nhân dân tỉnh Sóc Trăng,HĐND tỉnh,Tỉnh,Cần Thơ,True
+org:uy_ban_nhan_dan_tinh_soc_trang,Ủy ban nhân dân tỉnh Sóc Trăng,Cơ quan Quốc hội,TW,Cần Thơ,True
+org:huyen_uy_chau_thanh,Huyện ủy Châu Thành,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:cong_an_tinh_ba_ria_vung_tau,Công an tỉnh Bà Rịa – Vũng Tàu,Công an tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:uy_ban_nhan_dan_tinh_vinh_phuc,Ủy ban nhân dân tỉnh Vĩnh Phúc,Cơ quan Quốc hội,TW,Phú Thọ,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_an_giang,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh An Giang,Cơ quan Quốc hội,TW,An Giang,True
+org:tinh_uy_an_giang,Tỉnh ủy An Giang,Cấp ủy tỉnh,Tỉnh,An Giang,True
+org:hoi_dong_nhan_dan_tinh_kien_giang,Hội đồng nhân dân tỉnh Kiên Giang,HĐND tỉnh,Tỉnh,An Giang,True
+org:uy_ban_nhan_dan_tinh_kien_giang,Ủy ban nhân dân tỉnh Kiên Giang,Cơ quan Quốc hội,TW,An Giang,True
+org:huyen_uy_phu_quoc,Huyện ủy Phú Quốc,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:tong_cuc_tinh_bao,Tổng cục Tình báo,Lực lượng vũ trang,TW,,True
+org:uy_ban_xa_hoi_cua_quoc_hoi,Ủy ban Xã hội của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:bo_chinh_tri,Bộ Chính trị,Cơ quan lãnh đạo Đảng,TW,,True
+org:vu_cac_to_chuc_quoc_te,Vụ các Tổ chức quốc tế,Đơn vị thuộc bộ,TW,,True
+org:quan_chung,Quân chủng,Lực lượng vũ trang,TW,,True
+org:hoi_dong_bao_an_lien_hop_quoc,Hội đồng Bảo an Liên hợp quốc,Mặt trận & đoàn thể,TW,,True
+org:hoi_dong_thanh_vien_tap_doan_cong_nghiep_than_khoang_san_viet_nam,Hội đồng thành viên Tập đoàn Công nghiệp Than - Khóang sản Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:uy_ban_nhan_dan_thanh_pho_can_tho,Ủy ban nhân dân thành phố Cần Thơ,Cơ quan Quốc hội,TW,Cần Thơ,True
+org:ban_chi_dao_tay_nam_bo,Ban Chỉ đạo Tây Nam Bộ,Ban Chỉ đạo,,,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_an_giang,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh An Giang",Ban Chỉ đạo,Tỉnh,An Giang,True
+org:hoi_dong_truong_dai_hoc_kiem_sat_ha_noi,Hội đồng Trường Đại học Kiểm sát Hà Nội,Mặt trận & đoàn thể,TW,Hà Nội,True
+org:trung_tam_nghien_cuu_moi_truong_dia_chat_truong_dai_hoc_mo_dia_chat_ha_noi,"Trung tâm nghiên cứu môi trường địa chất, Trường Đại học Mỏ - Địa chất, Hà Nội",Khác,Tỉnh,Hà Nội,True
+org:cong_an_thanh_pho_ho_chi_minh,Công an thành phố Hồ Chí Minh,Công an tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:cong_an_tinh_long_an,Công an tỉnh Long An,Công an tỉnh,Tỉnh,Tây Ninh,True
+org:van_phong_chu_tich_nuoc,Văn phòng Chủ tịch nước,Thiết chế nhà nước,TW,,True
+org:hoi_dong_nhan_dan_tinh_quang_tri,Hội đồng nhân dân tỉnh Quảng Trị,HĐND tỉnh,Tỉnh,Quảng Trị,True
+org:uy_ban_tai_chinh_ngan_sach_cua_quoc_hoi,Ủy ban Tài chính – Ngân sách của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:uy_ban_khoa_hoc_cong_nghe_va_moi_truong_cua_quoc_hoi_viet_nam,"Ủy ban Khoa học, Công nghệ và Môi trường của Quốc hội Việt Nam",Cơ quan Quốc hội,TW,,True
+org:tinh_uy_quang_nam,Tỉnh ủy Quảng Nam,Cấp ủy tỉnh,Tỉnh,Đà Nẵng,True
+org:uy_ban_nhan_dan_tinh_quang_nam,Ủy ban nhân dân tỉnh Quảng Nam,Cơ quan Quốc hội,TW,Đà Nẵng,True
+org:dang_uy_chinh_phu,Đảng ủy Chính phủ,Đảng ủy,,,True
+org:hoi_dong_quoc_phong_va_an_ninh_viet_nam,Hội đồng Quốc phòng và An ninh Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:so_buu_chinh_vien_thong,"Sở Bưu chính, Viễn thông",Sở,Tỉnh,,False
+org:so_thong_tin_va_truyen_thong,Sở Thông tin và Truyền thông,Sở,Tỉnh,,False
+org:van_phong_chinh_phu,Văn phòng Chính phủ,Cơ quan ngang bộ,TW,,True
+org:ban_can_su_dang_chinh_phu,Ban cán sự Đảng Chính phủ,Khác,,,True
+org:ban_chi_dao_quoc_gia_phong_chong_dich_covid_19,Ban Chỉ đạo Quốc gia phòng chống dịch COVID-19,Ban Chỉ đạo,,,True
+org:bo_truong_bo_y_te_viet_nam,Bộ trưởng Bộ Y tế Việt Nam,Bộ,TW,,True
+org:cuc_giam_dinh_nha_nuoc_ve_chat_luong_cong_trinh_xay_dung_bo_xay_dung,Cục Giám định nhà nước về chất lượng công trình xây dựng - Bộ Xây dựng,Đơn vị thuộc bộ,TW,,True
+org:vien_kiem_sat_nhan_dan_tinh_dak_lak,Viện kiểm sát nhân dân tỉnh Đắk Lắk,Cơ quan tư pháp,Tỉnh,Đắk Lắk,True
+org:bo_ke_hoach_va_dau_tu,Bộ Kế hoạch và Đầu tư,Bộ,TW,,True
+org:hoc_vien_canh_sat_nhan_dan,Học viện Cảnh sát nhân dân,Đơn vị sự nghiệp,TW,,True
+org:hoc_vien_an_ninh_nhan_dan,Học viện An ninh nhân dân,Đơn vị sự nghiệp,TW,,True
+org:bo_nong_nghiep_va_moi_truong,Bộ Nông nghiệp và Môi trường,Bộ,TW,,True
+org:bo_tai_nguyen_va_moi_truong,Bộ Tài nguyên và Môi trường,Bộ,TW,,True
+org:uy_ban_nhan_dan_tinh_quang_binh,Ủy ban nhân dân tỉnh Quảng Bình,Cơ quan Quốc hội,TW,Quảng Trị,True
+org:so_tai_nguyen_va_moi_truong,Sở Tài nguyên và Môi trường,Sở,Tỉnh,,False
+org:dang_uy_chinh_uy_tong_cuc_ii,"Đảng ủy, Chính ủy Tổng cục II",Đảng ủy,,,True
+org:dai_truyen_hinh_viet_nam,Đài Truyền hình Việt Nam,Cơ quan báo chí,TW,,True
+org:dang_uy_dai_truyen_hinh_viet_nam,Đảng ủy Đài Truyền hình Việt Nam,Đảng ủy,,,True
+org:bo_cong_thuong,Bộ Công Thương,Bộ,TW,,True
+org:bo_truong_bo_cong_thuong,Bộ trưởng Bộ Công Thương,Bộ,TW,,True
+org:tap_doan_dau_khi_viet_nam,Tập đoàn Dầu khí Việt Nam,Doanh nghiệp nhà nước,TW,,True
+org:cuc_an_ninh_noi_dia,Cục An ninh nội địa,Đơn vị thuộc bộ,TW,,True
+org:uy_ban_nhan_dan_tinh_hai_duong,Ủy ban nhân dân tỉnh Hải Dương,Cơ quan Quốc hội,TW,Hải Phòng,True
+org:tinh_uy_hai_duong,Tỉnh ủy Hải Dương,Cấp ủy tỉnh,Tỉnh,Hải Phòng,True
+org:bo_tu_lenh_canh_sat_co_dong,Bộ Tư lệnh Cảnh sát Cơ động,Bộ,TW,,True
+org:hoi_cuu_cong_an_nhan_dan_viet_nam,Hội Cựu Công an nhân dân Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:vien_nghien_cuu_lap_phap,Viện Nghiên cứu lập pháp,Đơn vị sự nghiệp,TW,,True
+org:uy_ban_nhan_dan_tinh_binh_duong,Ủy ban nhân dân tỉnh Bình Dương,Cơ quan Quốc hội,TW,Thành phố Hồ Chí Minh,True
+org:tong_cuc_ky_thuat,Tổng cục Kỹ thuật,Lực lượng vũ trang,TW,,True
+org:ban_thuong_vu_dang_uy_chinh_phu,Ban Thường vụ Đảng ủy Chính phủ,Khác,,,True
+org:ban_chi_dao_cai_cach_tu_phap_trung_uong,Ban chỉ đạo cải cách Tư pháp Trung ương,Cơ quan Đảng TW,TW,,True
+org:hoi_lien_hiep_thanh_nien_viet_nam,Hội Liên hiệp Thanh niên Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:thanh_doan_thanh_pho_ho_chi_minh,Thành đoàn Thành phố Hồ Chí Minh,Mặt trận & đoàn thể,Tỉnh,Thành phố Hồ Chí Minh,True
+org:vu_doi_ngoai,Vụ Đối ngoại,Đơn vị thuộc bộ,TW,,True
+org:hoi_dong_nhan_dan_tinh_dien_bien,Hội đồng nhân dân tỉnh Điện Biên,HĐND tỉnh,Tỉnh,Điện Biên,True
+org:tinh_uy_dien_bien,Tỉnh ủy Điện Biên,Cấp ủy tỉnh,Tỉnh,Điện Biên,True
+org:uy_ban_nhan_dan_tinh_dien_bien,Ủy ban nhân dân tỉnh Điện Biên,Cơ quan Quốc hội,TW,Điện Biên,True
+org:hoi_dong_nhan_dan_tinh_khanh_hoa,Hội đồng nhân dân tỉnh Khánh Hòa,HĐND tỉnh,Tỉnh,Khánh Hòa,True
+org:bo_doi_bien_phong_thanh_pho_ho_chi_minh,Bộ đội Biên phòng Thành phố Hồ Chí Minh,Bộ,TW,Thành phố Hồ Chí Minh,True
+org:toa_an_nhan_dan_tinh_kien_giang,Tòa án nhân dân tỉnh Kiên Giang,Cơ quan tư pháp,Tỉnh,An Giang,True
+org:lien_doan_luat_su_viet_nam,Liên đoàn Luật sư Việt Nam,Mặt trận & đoàn thể,,,True
+org:toa_an_nhan_dan_thanh_pho_ho_chi_minh,Tòa án nhân dân Thành phố Hồ Chí Minh,Cơ quan tư pháp,Tỉnh,Thành phố Hồ Chí Minh,True
+org:toa_an_nhan_dan_quan_7_thanh_pho_ho_chi_minh,"Tòa án nhân dân Quận 7, Thành phố Hồ Chí Minh",Cơ quan tư pháp,Tỉnh,Thành phố Hồ Chí Minh,True
+org:cong_an_tinh_thua_thien_hue,Công an tỉnh Thừa Thiên – Huế,Công an tỉnh,Tỉnh,Huế,True
+org:hoi_dong_nhan_dan_thanh_pho_da_nang,Hội đồng nhân dân thành phố Đà Nẵng,HĐND tỉnh,Tỉnh,Đà Nẵng,True
+org:ban_chap_hanh_dang_bo_thanh_pho_da_nang,Ban Chấp hành Đảng bộ thành phố Đà Nẵng,Khác,Tỉnh,Đà Nẵng,True
+org:cong_an_thanh_pho_da_nang,Công an thành phố Đà Nẵng,Công an tỉnh,Tỉnh,Đà Nẵng,True
+org:dang_uy_bo_tong_tham_muu_co_quan,Đảng ủy Bộ Tổng Tham mưu - Cơ quan,Đảng ủy,,,True
+org:hoi_nha_bao_viet_nam,Hội Nhà báo Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:hoi_dong_nhan_dan_tinh_nam_dinh,Hội đồng nhân dân tỉnh Nam Định,HĐND tỉnh,Tỉnh,Ninh Bình,True
+org:ban_noi_chinh_tinh_uy_nam_dinh,Ban Nội chính Tỉnh ủy Nam Định,Cơ quan Đảng tỉnh,Tỉnh,Ninh Bình,True
+org:uy_ban_nhan_dan_thanh_pho_nam_dinh,Ủy ban nhân dân thành phố Nam Định,Cơ quan Quốc hội,TW,Ninh Bình,True
+org:hoi_dong_nhan_dan_tinh_ninh_binh,Hội đồng nhân dân tỉnh Ninh Bình,HĐND tỉnh,Tỉnh,Ninh Bình,True
+org:hoi_dong_nhan_dan_tinh_ha_nam,Hội đồng nhân dân tỉnh Hà Nam,HĐND tỉnh,Tỉnh,Ninh Bình,True
+org:tinh_uy_ha_nam,Tỉnh ủy Hà Nam,Cấp ủy tỉnh,Tỉnh,Ninh Bình,True
+org:uy_ban_kiem_tra_tinh_uy_nghe_an,Ủy ban Kiểm tra Tỉnh ủy Nghệ An,Cơ quan Quốc hội,TW,Nghệ An,True
+org:thanh_uy_hue,Thành ủy Huế,Cấp ủy tỉnh,Tỉnh,Huế,True
+org:tinh_uy_thua_thien_hue,Tỉnh ủy Thừa Thiên – Huế,Cấp ủy tỉnh,Tỉnh,Huế,True
+org:hoi_dong_nhan_dan_thanh_pho_hue,Hội đồng nhân dân thành phố Huế,HĐND tỉnh,Tỉnh,Huế,True
+org:uy_ban_nhan_dan_tinh_thua_thien_hue,Ủy ban nhân dân tỉnh Thừa Thiên – Huế,Cơ quan Quốc hội,TW,Huế,True
+org:thi_uy_huong_thuy,Thị ủy Hương Thủy,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:uy_ban_kiem_tra_tinh_uy_bac_giang,Ủy ban Kiểm tra Tỉnh ủy Bắc Giang,Cơ quan Quốc hội,TW,Bắc Ninh,True
+org:uy_ban_quoc_phong_an_ninh_va_doi_ngoai_cua_quoc_hoi,"Ủy ban Quốc phòng, An ninh và Đối ngoại của Quốc hội",Cơ quan Quốc hội,TW,,True
+org:cuc_to_chuc_can_bo_bo_cong_an,"Cục Tổ chức Cán bộ, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:cong_an_tinh_bac_lieu,Công an tỉnh Bạc Liêu,Công an tỉnh,Tỉnh,Cà Mau,True
+org:hoi_dong_nhan_dan_tinh_bac_lieu,Hội đồng nhân dân tỉnh Bạc Liêu,HĐND tỉnh,Tỉnh,Cà Mau,True
+org:uy_ban_nha_nuoc_ve_nguoi_viet_nam_o_nuoc_ngoai,Ủy ban Nhà nước về người Việt Nam ở nước ngoài,Cơ quan Quốc hội,TW,,True
+org:truong_dai_hoc_luat_ha_noi,Trường Đại học Luật Hà Nội,Đơn vị sự nghiệp,TW,Hà Nội,True
+org:vien_kiem_sat_nhan_dan_thanh_pho_da_nang,Viện kiểm sát nhân dân thành phố Đà Nẵng,Cơ quan tư pháp,Tỉnh,Đà Nẵng,True
+org:vu_hop_tac_quoc_te_va_tuong_tro_tu_phap_ve_hinh_su_vu_13_vien_kiem_sat_nhan_dan_toi_cao_viet_nam,"Vụ hợp tác quốc tế và tương trợ tư pháp về hình sự (vụ 13), Viện kiểm sát nhân dân tối cao Việt Nam",Đơn vị thuộc bộ,TW,,True
+org:uy_ban_nhan_dan_thanh_pho_hue,Ủy ban nhân dân thành phố Huế,Cơ quan Quốc hội,TW,Huế,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_thanh_pho_da_nang,Ủy ban Mặt trận Tổ quốc Việt Nam thành phố Đà Nẵng,Cơ quan Quốc hội,TW,Đà Nẵng,True
+org:cuc_an_ninh_chinh_tri_noi_bo_bo_cong_an_viet_nam,"Cục An ninh chính trị nội bộ, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:cuc_an_ninh_chinh_tri_noi_bo_a83_tong_cuc_an_ninh_bo_cong_an,"Cục An ninh chính trị nội bộ (A83), Tổng cục An ninh, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:cuc_an_ninh_van_hoa_thong_tin_va_truyen_thong_tong_cuc_an_ninh_bo_cong_an,"Cục An ninh Văn hóa, thông tin và truyền thông, Tổng cục An ninh, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:cuc_an_ninh_chinh_tri_noi_bo_a83_tong_cuc_an_ninh_2_bo_cong_an_viet_nam,"Cục An ninh Chính trị nội bộ (A83), Tổng cục An ninh 2, Bộ Công an Việt Nam",Đơn vị thuộc bộ,TW,,True
+org:hoi_dong_nhan_dan_quan_ngu_hanh_son,Hội đồng nhân dân quận Ngũ Hành Sơn,HĐND tỉnh,Tỉnh,,True
+org:quan_uy_ngu_hanh_son,Quận ủy Ngũ Hành Sơn,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:so_giao_duc_va_dao_tao,Sở Giáo dục và Đào tạo,Sở,Tỉnh,,False
+org:truong_trung_hoc_pho_thong_chuyen_le_quy_don_da_nang,"Trường Trung học phổ thông chuyên Lê Quý Đôn, Đà Nẵng",Đơn vị sự nghiệp,TW,Đà Nẵng,True
+org:quoc_hoi_viet_nam_khoa_xv,Quốc hội Việt Nam khóa XV,Khác,,,True
+org:lien_doan_lao_dong_tinh_hau_giang,Liên đoàn Lao động tỉnh Hậu Giang,Mặt trận & đoàn thể,Tỉnh,Cần Thơ,True
+org:bo_noi_vu,Bộ Nội vụ,Bộ,TW,,True
+org:tong_cuc_hau_can,Tổng cục Hậu cần,Lực lượng vũ trang,TW,,True
+org:uy_ban_nhan_dan_tinh_tien_giang,Ủy ban nhân dân tỉnh Tiền Giang,Cơ quan Quốc hội,TW,Đồng Tháp,True
+org:uy_ban_nhan_dan_tinh_tay_ninh,Ủy ban nhân dân tỉnh Tây Ninh,Cơ quan Quốc hội,TW,Tây Ninh,True
+org:uy_ban_nhan_dan_tinh_tra_vinh,Ủy ban nhân dân tỉnh Trà Vinh,Cơ quan Quốc hội,TW,Vĩnh Long,True
+org:thanh_uy_tra_vinh,Thành ủy Trà Vinh,Cấp ủy tỉnh,Tỉnh,Vĩnh Long,True
+org:cong_an_tinh_dak_lak,Công an tỉnh Đắk Lắk,Công an tỉnh,Tỉnh,Đắk Lắk,True
+org:bo_canh_sat_co_dong_viet_nam,Bộ Cảnh sát Cơ động Việt Nam,Bộ,TW,,True
+org:uy_ban_nhan_dan_tinh_lai_chau,Ủy ban nhân dân tỉnh Lai Châu,Cơ quan Quốc hội,TW,Lai Châu,True
+org:cuc_an_ninh_mang_va_phong_chong_toi_pham_su_dung_cong_nghe_cao,"Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao",Đơn vị thuộc bộ,TW,,True
+org:cong_an_tinh_hoa_binh,Công an tỉnh Hoà Bình,Công an tỉnh,Tỉnh,Phú Thọ,True
+org:hoi_dong_nhan_dan_tinh_an_giang,Hội đồng nhân dân tỉnh An Giang,HĐND tỉnh,Tỉnh,An Giang,True
+org:quan_doan_12,Quân đoàn 12,Lực lượng vũ trang,TW,,True
+org:cuc_quan_luc,Cục Quân lực,Đơn vị thuộc bộ,TW,,True
+org:quan_doan_4,Quân đoàn 4,Lực lượng vũ trang,TW,,True
+org:quan_doan_4_quan_doi_nhan_dan_viet_nam,"Quân đoàn 4, Quân đội nhân dân Việt Nam",Lực lượng vũ trang,TW,,True
+org:ban_chinh_sach_chien_luoc_trung_uong,"Ban Chính sách, Chiến lược Trung ương",Cơ quan Đảng TW,TW,,True
+org:uy_ban_giam_sat_tai_chinh_quoc_gia,Ủy ban Giám sát Tài chính Quốc gia,Cơ quan Quốc hội,TW,,True
+org:toa_an_nhan_dan_cap_cao_tai_thanh_pho_ho_chi_minh,Tòa án nhân dân cấp cao tại Thành phố Hồ Chí Minh,Cơ quan tư pháp,Tỉnh,Thành phố Hồ Chí Minh,True
+org:hoi_dong_nhan_dan_tinh_ha_tinh,Hội đồng nhân dân tỉnh Hà Tĩnh,HĐND tỉnh,Tỉnh,Hà Tĩnh,True
+org:uy_ban_nhan_dan_tinh_ha_tinh,Ủy ban nhân dân tỉnh Hà Tĩnh,Cơ quan Quốc hội,TW,Hà Tĩnh,True
+org:cong_an_tinh_thai_binh,Công an tỉnh Thái Bình,Công an tỉnh,Tỉnh,Hưng Yên,True
+org:ban_dan_nguyen_quoc_hoi_viet_nam,Ban Dân nguyện Quốc hội Việt Nam,Khác,,,True
+org:uy_ban_nhan_dan_tinh_khanh_hoa,Ủy ban nhân dân tỉnh Khánh Hòa,Cơ quan Quốc hội,TW,Khánh Hòa,True
+org:tap_doan_cong_nghiep_vien_thong_quan_doi,Tập đoàn Công nghiệp – Viễn thông Quân đội,Doanh nghiệp nhà nước,TW,,True
+org:cuc_canh_sat_giao_thong,Cục Cảnh sát giao thông,Đơn vị thuộc bộ,TW,,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_ben_tre,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh Bến Tre",Ban Chỉ đạo,Tỉnh,Vĩnh Long,True
+org:quan_khu_7,Quân khu 7,Lực lượng vũ trang,TW,,True
+org:bo_tu_lenh_thanh_pho_ho_chi_minh,Bộ Tư lệnh Thành phố Hồ Chí Minh,Bộ,TW,Thành phố Hồ Chí Minh,True
+org:ban_chi_dao_tay_nguyen,Ban Chỉ đạo Tây Nguyên,Ban Chỉ đạo,,,True
+org:chu_tich_nuoc,Chủ tịch nước,Thiết chế nhà nước,TW,,True
+org:hoi_dong_khoa_hoc_cac_co_quan_dang_trung_uong,Hội đồng Khoa học các cơ quan Đảng Trung ương,Mặt trận & đoàn thể,TW,,True
+org:hoi_nong_dan_viet_nam,Hội Nông dân Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:dang_uy_phuong_nha_trang_khanh_hoa,"Đảng ủy phường Nha Trang, Khánh Hòa",Đảng ủy,Tỉnh,Khánh Hòa,True
+org:thanh_uy_cam_ranh_khanh_hoa,"Thành ủy Cam Ranh, Khánh Hòa",Cấp ủy tỉnh,Tỉnh,Khánh Hòa,True
+org:toa_an_nhan_dan_tinh_ninh_binh,Tòa án nhân dân tỉnh Ninh Bình,Cơ quan tư pháp,Tỉnh,Ninh Bình,True
+org:ban_quan_ly_quan_the_danh_thang_trang_an,Ban quản lý Quần thể danh thắng Tràng An,Khác,,,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_bac_lieu,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh Bạc Liêu",Ban Chỉ đạo,Tỉnh,Cà Mau,True
+org:hoc_vien_quoc_phong,Học viện Quốc phòng,Đơn vị sự nghiệp,TW,,True
+org:uy_ban_kiem_tra_quan_uy_trung_uong,Ủy ban Kiểm tra Quân ủy Trung ương,Cơ quan Đảng TW,TW,,True
+org:quan_doan_1,Quân đoàn 1,Lực lượng vũ trang,TW,,True
+org:quan_chung_hai_quan,Quân chủng Hải quân,Lực lượng vũ trang,TW,,True
+org:uy_ban_nhan_dan_tinh_vinh_long,Ủy ban nhân dân tỉnh Vĩnh Long,Cơ quan Quốc hội,TW,Vĩnh Long,True
+org:quan_uy_hai_chau,Quận ủy Hải Châu,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:lien_doan_lao_dong_thanh_pho_da_nang,Liên đoàn Lao động Thành phố Đà Nẵng,Mặt trận & đoàn thể,Tỉnh,Đà Nẵng,True
+org:quan_uy_lien_chieu,Quận ủy Liên Chiểu,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:cong_an_huyen_moc_chau_tinh_son_la,"Công an huyện Mộc Châu, tỉnh Sơn La",Khác,Tỉnh,Sơn La,True
+org:uy_ban_nhan_dan_tinh_hung_yen,Ủy ban nhân dân tỉnh Hưng Yên,Cơ quan Quốc hội,TW,Hưng Yên,True
+org:uy_ban_nhan_dan_tinh_thai_binh,Ủy ban nhân dân tỉnh Thái Bình,Cơ quan Quốc hội,TW,Hưng Yên,True
+org:hoi_dong_nhan_dan_tinh_thanh_hoa,Hội đồng nhân dân tỉnh Thanh Hóa,HĐND tỉnh,Tỉnh,Thanh Hóa,True
+org:hoi_dong_nhan_dan_tinh_lam_dong,Hội đồng nhân dân tỉnh Lâm Đồng,HĐND tỉnh,Tỉnh,Lâm Đồng,True
+org:quan_khu_3,Quân khu 3,Lực lượng vũ trang,TW,,True
+org:hoi_dong_thanh_vien_tap_doan_hoa_chat_viet_nam,Hội đồng thành viên tập đoàn Hóa chất Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:cuc_truyen_thong_cand,Cục Truyền thông CAND,Đơn vị thuộc bộ,TW,,True
+org:uy_ban_nhan_dan_tinh_ha_nam,Ủy ban nhân dân tỉnh Hà Nam,Cơ quan Quốc hội,TW,Ninh Bình,True
+org:thanh_uy_phu_ly,Thành ủy Phủ Lý,Cấp ủy tỉnh,Tỉnh,,True
+org:huyen_uy_ly_nhan,Huyện ủy Lý Nhân,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:tinh_uy_long_an,Tỉnh ủy Long An,Cấp ủy tỉnh,Tỉnh,Tây Ninh,True
+org:vien_huyet_hoc_truyen_mau_trung_uong,Viện Huyết học - Truyền máu Trung ương,Đơn vị sự nghiệp,TW,,True
+org:tinh_uy_bac_ninh,Tỉnh ủy Bắc Ninh,Cấp ủy tỉnh,Tỉnh,Bắc Ninh,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_dien_bien,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Điện Biên,Cơ quan Quốc hội,TW,Điện Biên,True
+org:huyen_uy_dien_bien_dong,Huyện ủy Điện Biên Đông,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,Điện Biên,True
+org:uy_ban_tu_phap_quoc_hoi_viet_nam,Ủy ban Tư pháp Quốc hội,Cơ quan Quốc hội,TW,,True
+org:uy_ban_nhan_dan_tinh_thanh_hoa,Ủy ban nhân dân tỉnh Thanh Hóa,Cơ quan Quốc hội,TW,Thanh Hóa,True
+org:toa_an_nhan_dan_tinh_ben_tre,Tòa án nhân dân tỉnh Bến Tre,Cơ quan tư pháp,Tỉnh,Vĩnh Long,True
+org:toa_an_nhan_dan_huyen_mo_cay_tinh_ben_tre,"Tòa án nhân dân huyện Mỏ Cày, tỉnh Bến Tre",Cơ quan tư pháp,Tỉnh,Vĩnh Long,True
+org:uy_ban_nhan_dan_huyen_phu_quoc,Ủy ban nhân dân huyện Phú Quốc,Cơ quan Quốc hội,TW,,True
+org:hoi_dong_quan_tri_ngan_hang_vietcombank,Hội đồng Quản trị Ngân hàng Vietcombank,Mặt trận & đoàn thể,TW,,True
+org:ngan_hang_tmcp_ngoai_thuong_viet_nam,Ngân hàng TMCP Ngoại thương Việt Nam,Doanh nghiệp nhà nước,TW,,True
+org:tong_cuc_ii,Tổng cục II,Lực lượng vũ trang,TW,,True
+org:ban_chi_dao_trung_uong_ve_phong_chong_tham_nhung,"Ban Chỉ đạo Trung ương về phòng, chống tham nhũng",Cơ quan Đảng TW,TW,,True
+org:hoi_dong_nhan_dan_tinh_ninh_thuan,Hội đồng nhân dân tỉnh Ninh Thuận,HĐND tỉnh,Tỉnh,Khánh Hòa,True
+org:truong_dai_hoc_kinh_doanh_va_cong_nghe_ha_noi,Trường Đại học Kinh doanh và Công nghệ Hà Nội,Đơn vị sự nghiệp,TW,Hà Nội,True
+org:ban_to_chuc_thanh_uy_da_nang,Ban Tổ chức Thành ủy Đà Nẵng,Cơ quan Đảng tỉnh,Tỉnh,Đà Nẵng,True
+org:so_tu_phap_thanh_pho_da_nang,Sở Tư pháp thành phố Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:cuc_an_ninh_chinh_tri_noi_bo,Cục An ninh chính trị nội bộ,Đơn vị thuộc bộ,TW,,True
+org:quan_doan_34,Quân đoàn 34,Lực lượng vũ trang,TW,,True
+org:quan_doan_3,Quân đoàn 3,Lực lượng vũ trang,TW,,True
+org:toa_an_nhan_dan_tinh_dak_lak,Tòa án nhân dân tỉnh Đắk Lắk,Cơ quan tư pháp,Tỉnh,Đắk Lắk,True
+org:tinh_uy_binh_duong,Tỉnh ủy Bình Dương,Cấp ủy tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:cong_an_tinh_binh_duong,Công an tỉnh Bình Dương,Công an tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:ban_to_chuc_trung_uong_dang,Ban Tổ chức Trung ương Đảng,Cơ quan Đảng TW,TW,,True
+org:uy_ban_an_toan_giao_thong_quoc_gia,Ủy ban An toàn giao thông Quốc gia,Cơ quan Quốc hội,TW,,True
+org:quan_doan_2,Quân đoàn 2,Lực lượng vũ trang,TW,,True
+org:vien_kiem_sat_nhan_dan_cap_cao,Viện kiểm sát nhân dân cấp cao,Cơ quan tư pháp,,,True
+org:vien_kiem_sat_nhan_dan,Viện kiểm sát nhân dân,Cơ quan tư pháp,,,True
+org:vien_kiem_sat_nhan_dan_thanh_pho_ha_noi,Viện kiểm sát nhân dân thành phố Hà Nội,Cơ quan tư pháp,Tỉnh,Hà Nội,True
+org:vu_thuc_hanh_quyen_cong_to_va_kiem_sat_dieu_tra_an_kinh_te_chuc_vu_vu_3_vien_kiem_sat_nhan_dan_toi_cao_viet_nam,"Vụ thực hành quyền công tố và kiểm sát điều tra án kinh tế, chức vụ (Vụ 3) Viện kiểm sát nhân dân tối cao Việt Nam",Đơn vị thuộc bộ,TW,,True
+org:hoi_dong_nhan_dan_tinh_binh_thuan,Hội đồng nhân dân tỉnh Bình Thuận,HĐND tỉnh,Tỉnh,Lâm Đồng,True
+org:lien_doan_lao_dong,Liên đoàn Lao động,Mặt trận & đoàn thể,,,True
+org:ban_chi_dao_cua_chinh_phu,Ban Chỉ đạo của Chính phủ,Ban Chỉ đạo,,,True
+org:cuc_tin_hoc_hoa,Cục Tin học hóa,Đơn vị thuộc bộ,TW,,True
+org:cuc_an_toan_thong_tin,Cục An toàn thông tin,Đơn vị thuộc bộ,TW,,True
+org:cuc_the_duc_the_thao_viet_nam,Cục Thể dục thể thao Việt Nam,Đơn vị thuộc bộ,TW,,True
+org:hoi_dong_nhan_dan_tinh_thai_binh,Hội đồng nhân dân tỉnh Thái Bình,HĐND tỉnh,Tỉnh,Hưng Yên,True
+org:tinh_uy_thai_binh,Tỉnh ủy Thái Bình,Cấp ủy tỉnh,Tỉnh,Hưng Yên,True
+org:hoi_dong_nhan_dan_tinh_ba_ria_vung_tau,Hội đồng nhân dân tỉnh Bà Rịa – Vũng Tàu,HĐND tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:toa_an_nhan_dan_thanh_pho_ha_noi,Tòa án nhân dân thành phố Hà Nội,Cơ quan tư pháp,Tỉnh,Hà Nội,True
+org:thanh_uy_bac_ninh,Thành ủy Bắc Ninh,Cấp ủy tỉnh,Tỉnh,Bắc Ninh,True
+org:uy_ban_nhan_dan_tinh_bac_ninh,Ủy ban nhân dân tỉnh Bắc Ninh,Cơ quan Quốc hội,TW,Bắc Ninh,True
+org:hoi_dong_nhan_dan_tinh_bac_ninh,Hội đồng nhân dân tỉnh Bắc Ninh,HĐND tỉnh,Tỉnh,Bắc Ninh,True
+org:vu_phap_luat_va_cai_cach_tu_phap_van_phong_trung_uong_dang,"Vụ Pháp luật và cải cách tư pháp, Văn phòng Trung ương Đảng",Đơn vị thuộc bộ,TW,,True
+org:vu_phap_luat_ban_noi_chinh_trung_uong,"Vụ Pháp luật, Ban Nội chính Trung ương",Đơn vị thuộc bộ,TW,,True
+org:vu_thuc_hanh_quyen_cong_to_va_kiem_sat_dieu_tra_an_tham_nhung_chuc_vu_vu_5_vien_kiem_sat_nhan_dan_toi_cao,"Vụ thực hành quyền công tố và kiểm sát điều tra án tham nhũng, chức vụ (Vụ 5), Viện kiểm sát nhân dân tối cao",Đơn vị thuộc bộ,TW,,True
+org:vien_kiem_sat_nhan_dan_tinh_bac_ninh,Viện kiểm sát nhân dân tỉnh Bắc Ninh,Cơ quan tư pháp,Tỉnh,Bắc Ninh,True
+org:cong_an_tinh_thanh_hoa,Công an tỉnh Thanh Hóa,Công an tỉnh,Tỉnh,Thanh Hóa,True
+org:tong_cuc_chinh_tri_cong_an_nhan_dan_viet_nam,Tổng cục Chính trị Công an nhân dân,Lực lượng vũ trang,TW,,True
+org:cong_an_tinh_dong_nai,Công an tỉnh Đồng Nai,Công an tỉnh,Tỉnh,Đồng Nai,True
+org:cong_an_tinh_ha_tinh,Công an tỉnh Hà Tĩnh,Công an tỉnh,Tỉnh,Hà Tĩnh,True
+org:hoi_nghe_ca_viet_nam,Hội Nghề cá Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:uy_ban_quoc_phong_va_an_ninh_cua_quoc_hoi,Ủy ban Quốc phòng và An ninh của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:dang_uy_quoc_hoi,Đảng ủy Quốc hội,Đảng ủy,,,True
+org:so_giao_duc_va_dao_tao_ha_noi,Sở Giáo dục và Đào tạo Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:uy_ban_cong_tac_dai_bieu_cua_quoc_hoi,Ủy ban Công tác đại biểu của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:uy_ban_kiem_tra_dang_uy_quoc_hoi,Ủy ban Kiểm tra Đảng ủy Quốc hội,Cơ quan Quốc hội,TW,,True
+org:tinh_uy_hung_yen,Tỉnh ủy Hưng Yên,Cấp ủy tỉnh,Tỉnh,Hưng Yên,True
+org:dai_hoc_y_ha_noi,Đại học Y Hà Nội,Đơn vị sự nghiệp,TW,Hà Nội,True
+org:dang_uy_khoi_doanh_nghiep_trung_uong,Đảng ủy Khối Doanh nghiệp Trung ương,Đảng ủy,,,True
+org:hoi_dong_doi_trung_uong,Hội đồng đội Trung ương,Mặt trận & đoàn thể,TW,,True
+org:vu_kinh_te_van_phong_quoc_hoi,"Vụ kinh tế,Văn phòng Quốc hội",Đơn vị thuộc bộ,TW,,True
+org:cuc_an_ninh_doi_ngoai_bo_cong_an_viet_nam,"Cục An ninh đối ngoại, Bộ Công an Việt Nam",Đơn vị thuộc bộ,TW,,True
+org:tong_cuc_an_ninh_i_bo_cong_an,"Tổng cục An ninh I, Bộ Công an",Lực lượng vũ trang,TW,,True
+org:uy_ban_quoc_gia_unesco_viet_nam,Ủy ban Quốc gia UNESCO Việt Nam,Cơ quan Quốc hội,TW,,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_thanh_pho_ha_noi,Ủy ban Mặt trận Tổ quốc Việt Nam thành phố Hà Nội,Cơ quan Quốc hội,TW,Hà Nội,True
+org:ban_dan_van_thanh_uy_ha_noi,Ban Dân vận Thành ủy Hà Nội,Cơ quan Đảng tỉnh,Tỉnh,Hà Nội,True
+org:cuc_lanh_su,Cục Lãnh sự,Đơn vị thuộc bộ,TW,,True
+org:cong_an_tinh_phu_tho,Công an tỉnh Phú Thọ,Công an tỉnh,Tỉnh,Phú Thọ,True
+org:hoi_khuyen_hoc_viet_nam,Hội Khuyến học Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:hoi_dong_nhan_dan_tinh_hai_duong,Hội đồng nhân dân tỉnh Hải Dương,HĐND tỉnh,Tỉnh,Hải Phòng,True
+org:bo_truong_bo_thong_tin_va_truyen_thong,Bộ trưởng Bộ Thông tin và Truyền thông,Bộ,TW,,True
+org:hoi_dong_nhan_dan_tinh_quang_nam,Hội đồng nhân dân tỉnh Quảng Nam,HĐND tỉnh,Tỉnh,Đà Nẵng,True
+org:hoi_dong_nhan_dan_tinh_thua_thien_hue,Hội đồng nhân dân tỉnh Thừa Thiên – Huế,HĐND tỉnh,Tỉnh,Huế,True
+org:uy_ban_kinh_te_va_tai_chinh_cua_quoc_hoi,Ủy ban Kinh tế và Tài chính của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:vien_kiem_sat_nhan_dan_tinh_kien_giang,Viện kiểm sát nhân dân tỉnh Kiên Giang,Cơ quan tư pháp,Tỉnh,An Giang,True
+org:cuc_an_ninh_noi_dia_bo_cong_an_viet_nam,"Cục An ninh nội địa, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:cuc_ky_thuat_nghiep_vu,Cục Kỹ thuật nghiệp vụ,Đơn vị thuộc bộ,TW,,True
+org:cong_an_tinh_dien_bien,Công an tỉnh Điện Biên,Công an tỉnh,Tỉnh,Điện Biên,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_binh_phuoc,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh Bình Phước",Ban Chỉ đạo,Tỉnh,Đồng Nai,True
+org:cuc_canh_sat_dieu_tra_toi_pham_ve_tham_nhung_kinh_te_buon_lau_bo_cong_an,"Cục Cảnh sát điều tra tội phạm về tham nhũng, kinh tế, buôn lậu, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:cong_an_tinh_quang_ninh,Công an tỉnh Quảng Ninh,Công an tỉnh,Tỉnh,Quảng Ninh,True
+org:van_phong_co_quan_canh_sat_dieu_tra_bo_cong_an,Văn phòng Cơ quan Cảnh sát điều tra Bộ Công an,Khác,,,True
+org:uy_ban_kinh_te_cua_quoc_hoi,Ủy ban Kinh tế của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:trung_tam_du_lieu_quoc_gia,Trung tâm Dữ liệu quốc gia,Khác,,,True
+org:cuc_canh_sat_quan_ly_hanh_chinh_ve_trat_tu_xa_hoi_bo_cong_an,"Cục Cảnh sát quản lý hành chính về trật tự xã hội, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:hoc_vien_ky_thuat_va_cong_nghe_an_ninh,Học viện Kỹ thuật và Công nghệ An ninh,Đơn vị sự nghiệp,TW,,True
+org:hoi_dong_nhan_dan_tinh_tay_ninh,Hội đồng nhân dân tỉnh Tây Ninh,HĐND tỉnh,Tỉnh,Tây Ninh,True
+org:dang_uy_chinh_uy_quan_khu_3,"Đảng ủy, Chính ủy Quân khu 3",Đảng ủy,,,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_thanh_pho_ho_chi_minh,Ủy ban Mặt trận Tổ quốc Việt Nam Thành phố Hồ Chí Minh,Cơ quan Quốc hội,TW,Thành phố Hồ Chí Minh,True
+org:hoi_dong_nhan_dan_tinh_dong_nai,Hội đồng nhân dân tỉnh Đồng Nai,HĐND tỉnh,Tỉnh,Đồng Nai,True
+org:so_tai_chinh_dong_nai,Sở Tài chính Đồng Nai,Sở,Tỉnh,Đồng Nai,True
+org:hoi_dong_quan_ly_benh_vien_bach_mai,Hội đồng quản lý Bệnh viện Bạch Mai,Mặt trận & đoàn thể,TW,,True
+org:quan_khu_3_quan_doi_nhan_dan_viet_nam,"Quân khu 3, Quân đội nhân dân Việt Nam",Lực lượng vũ trang,TW,,True
+org:vu_thuc_hanh_quyen_cong_to_va_kiem_sat_dieu_tra_an_kinh_te_vu_3_vien_kiem_sat_nhan_dan_toi_cao,"Vụ Thực hành quyền công tố và kiểm sát điều tra án kinh tế (Vụ 3), Viện kiểm sát nhân dân tối cao",Đơn vị thuộc bộ,TW,,True
+org:vien_kiem_sat_nhan_dan_cap_cao_tai_da_nang,Viện kiểm sát nhân dân cấp cao tại Đà Nẵng,Cơ quan tư pháp,Tỉnh,Đà Nẵng,True
+org:vien_kiem_sat_nhan_dan_tinh_quang_nam,Viện kiểm sát nhân dân tỉnh Quảng Nam,Cơ quan tư pháp,Tỉnh,Đà Nẵng,True
+org:tong_cuc_canh_sat_phong_chong_toi_pham_bo_cong_an_viet_nam,"Tổng cục Cảnh sát Phòng chống Tội phạm, Bộ Công an",Lực lượng vũ trang,TW,,True
+org:tong_cuc_an_ninh_2_bo_cong_an,"Tổng cục An ninh 2, Bộ Công an",Lực lượng vũ trang,TW,,True
+org:cong_an_tinh_soc_trang,Công an tỉnh Sóc Trăng,Công an tỉnh,Tỉnh,Cần Thơ,True
+org:toa_an_nhan_dan_cap_cao_tai_ha_noi,Tòa án nhân dân cấp cao tại Hà Nội,Cơ quan tư pháp,Tỉnh,Hà Nội,True
+org:toa_an_nhan_dan_tinh_son_la,Tòa án nhân dân tỉnh Sơn La,Cơ quan tư pháp,Tỉnh,Sơn La,True
+org:cuc_cong_tac_dang_va_cong_tac_chinh_tri_bo_cong_an,"Cục Công tác Đảng và công tác chính trị, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:cuc_ho_so_nghiep_vu_bo_cong_an,"Cục Hồ sơ nghiệp vụ, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:vien_khoa_hoc_va_cong_nghe,Viện Khoa học và công nghệ,Đơn vị sự nghiệp,TW,,True
+org:cong_an_tinh_cao_bang,Công an tỉnh Cao Bằng,Công an tỉnh,Tỉnh,Cao Bằng,True
+org:cuc_tham_muu_chinh_tri_cong_an_nhan_dan_bo_cong_an,"Cục Tham mưu Chính trị Công an nhân dân, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:cong_an_tinh_nam_dinh,Công an tỉnh Nam Định,Công an tỉnh,Tỉnh,Ninh Bình,True
+org:hoi_dong_nhan_dan_thanh_pho_ha_noi,Hội đồng nhân dân thành phố Hà Nội,HĐND tỉnh,Tỉnh,Hà Nội,True
+org:uy_ban_nhan_dan_thanh_pho_ha_noi,Ủy ban nhân dân thành phố Hà Nội,Cơ quan Quốc hội,TW,Hà Nội,True
+org:cong_an_tinh_son_la,Công an tỉnh Sơn La,Công an tỉnh,Tỉnh,Sơn La,True
+org:bo_ngoai_giao_viet_namchu_nhiem_uy_ban_nha_nuoc_ve_nguoi_viet_nam_o_nuoc_ngoai,Bộ Ngoại giao Việt NamChủ nhiệm Ủy ban Nhà nước về người Việt Nam ở nước ngoài,Bộ,TW,,True
+org:ban_bao_ve_cham_soc_suc_khoe_can_bo_trung_uong,"Ban Bảo vệ, Chăm sóc sức khỏe cán bộ Trung ương",Cơ quan Đảng TW,TW,,True
+org:cong_an_tinh_ha_nam,Công an tỉnh Hà Nam,Công an tỉnh,Tỉnh,Ninh Bình,True
+org:truong_si_quan_luc_quan_1_dai_hoc_tran_quoc_tuan,Trường Sĩ quan Lục quân 1 – Đại học Trần Quốc Tuấn,Đơn vị sự nghiệp,TW,,True
+org:hoi_dong_tham_phan_toa_an_nhan_dan_toi_cao,Hội đồng Thẩm phán Tòa án nhân dân tối cao Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:ban_noi_chinh_tinh_uy_bac_ninh,Ban Nội chính Tỉnh ủy Bắc Ninh,Cơ quan Đảng tỉnh,Tỉnh,Bắc Ninh,True
+org:so_ke_hoach_va_dau_tu_tinh_bac_ninh,Sở Kế hoạch và Đầu tư tỉnh Bắc Ninh,Sở,Tỉnh,Bắc Ninh,True
+org:so_tai_chinh_tinh_bac_ninh,Sở Tài chính tỉnh Bắc Ninh,Sở,Tỉnh,Bắc Ninh,True
+org:uy_ban_nhan_dan_thi_xa_tu_son,Ủy ban nhân dân thị xã Từ Sơn,Cơ quan Quốc hội,TW,,True
+org:bo_tu_lenh_canh_sat_co_dong_bo_cong_an,"Bộ Tư lệnh Cảnh sát Cơ động, Bộ Công an",Bộ,TW,,True
+org:cuc_an_ninh_kinh_te,Cục An ninh kinh tế,Đơn vị thuộc bộ,TW,,True
+org:bo_cong_an_van_phong_dang_uy_cong_an_trung_uong,"Bộ Công an, Văn phòng Đảng ủy Công an Trung ương",Bộ,TW,,True
+org:cong_an_tinh_bac_giang,Công an tỉnh Bắc Giang,Công an tỉnh,Tỉnh,Bắc Ninh,True
+org:tong_cuc_an_ninh,Tổng cục An ninh,Lực lượng vũ trang,TW,,True
+org:truong_dai_hoc_kien_truc_thanh_pho_ho_chi_minh,Trường Đại học Kiến trúc Thành phố Hồ Chí Minh,Đơn vị sự nghiệp,TW,Thành phố Hồ Chí Minh,True
+org:toa_an_nhan_dan_tinh_thanh_hoa,Tòa án nhân dân tỉnh Thanh Hóa,Cơ quan tư pháp,Tỉnh,Thanh Hóa,True
+org:tinh_uy_thai_nguyen,Tỉnh ủy Thái Nguyên,Cấp ủy tỉnh,Tỉnh,Thái Nguyên,True
+org:uy_ban_van_hoa_giao_duc_thanh_nien_thieu_nien_va_nhi_dong_quoc_hoi,"Ủy ban Văn hóa, Giáo dục, Thanh niên, Thiếu niên và Nhi đồng Quốc hội",Cơ quan Quốc hội,TW,,True
+org:quan_khu_7_quan_doi_nhan_dan_viet_nam,"Quân khu 7, Quân đội nhân dân Việt Nam",Lực lượng vũ trang,TW,,True
+org:cuc_tuyen_huan,Cục Tuyên huấn,Đơn vị thuộc bộ,TW,,True
+org:hoi_dong_truong,Hội đồng trường,Mặt trận & đoàn thể,TW,,True
+org:bo_y_te,Bộ Y tế,Bộ,TW,,True
+org:ban_can_su_dang_bo_y_te,Ban Cán sự Đảng Bộ Y tế,Khác,,,True
+org:quan_uy_thanh_khe,Quận ủy Thanh Khê,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:uy_ban_mttq_viet_nam_tp_da_nang,Ủy ban MTTQ Việt Nam Tp Đà Nẵng,Cơ quan Quốc hội,TW,Đà Nẵng,True
+org:uy_ban_nhan_dan_tinh_ba_ria_vung_tau,Ủy ban nhân dân tỉnh Bà Rịa – Vũng Tàu,Cơ quan Quốc hội,TW,Thành phố Hồ Chí Minh,True
+org:cuc_doi_ngoai_bo_cong_an,"Cục Đối ngoại, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:vu_phap_luat_dan_su_kinh_te,Vụ Pháp luật dân sự - kinh tế,Đơn vị thuộc bộ,TW,,True
+org:cong_an_thanh_pho_hue,Công an thành phố Huế,Công an tỉnh,Tỉnh,Huế,True
+org:doan_thanh_nien_cong_an_nhan_dan,Đoàn Thanh niên Công an nhân dân,Khác,,,True
+org:ban_ton_giao_chinh_phu,Ban Tôn giáo Chính phủ,Khác,,,True
+org:hoi_dong_ly_luan_phe_binh_van_hoc_nghe_thuat_trung_uong,"Hội đồng Lý luận, phê bình văn học, nghệ thuật Trung ương",Mặt trận & đoàn thể,TW,,True
+org:dai_tieng_noi_viet_nam,Đài Tiếng nói Việt Nam,Cơ quan báo chí,TW,,True
+org:uy_ban_viet_nam_doan_ket_va_hop_tac_a_phi_my_latinh,Ủy ban Việt Nam Đoàn kết và Hợp tác Á - Phi - Mỹ Latinh,Cơ quan Quốc hội,TW,,True
+org:cuc_vien_thong_va_co_yeu_bo_cong_an_viet_nam,"Cục Viễn thông và cơ yếu, Bộ Công an Việt Nam",Đơn vị thuộc bộ,TW,,True
+org:bo_tham_muu_quan_chung_hai_quan_viet_nam,"Bộ Tham mưu, Quân chủng Hải quân Việt Nam",Bộ,TW,,True
+org:bao_hiem_xa_hoi_viet_nam,Bảo hiểm Xã hội Việt Nam,Khác,,,True
+org:bo_thuong_mai,Bộ Thương mại,Bộ,TW,,True
+org:ban_cong_tac_dai_bieu_quoc_hoi_viet_nam,Ban Công tác đại biểu Quốc hội Việt Nam,Khác,,,True
+org:uy_ban_phong_chong_hiv_aids,Ủy ban Phòng chống HIV/AIDS,Cơ quan Quốc hội,TW,,True
+org:hoi_dong_nhan_dan_thanh_pho_ho_chi_minh,Hội đồng nhân dân thành phố Hồ Chí Minh,HĐND tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:hoi_bao_ve_quyen_tre_em_viet_nam,Hội Bảo vệ quyền trẻ em Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:truong_can_bo_phu_nu_trung_uong,Trường Cán bộ Phụ nữ Trung ương,Đơn vị sự nghiệp,TW,,True
+org:uy_ban_khoa_hoc_cong_nghe_va_moi_truong_quoc_hoi,"Ủy ban Khoa học, Công nghệ và Môi trường Quốc hội",Cơ quan Quốc hội,TW,,True
+org:so_giao_duc_va_dao_tao_tinh_quang_binh,Sở Giáo dục và Đào tạo tỉnh Quảng Bình,Sở,Tỉnh,Quảng Trị,True
+org:tap_chi_toa_an_nhan_dan,Tạp chí Tòa án nhân dân,Cơ quan báo chí,TW,,True
+org:quan_uy_quan_3_thanh_pho_ho_chi_minh,"Quận ủy Quận 3, Thành phố Hồ Chí Minh",Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,Thành phố Hồ Chí Minh,True
+org:uy_ban_nhan_dan_quan_3_thanh_pho_ho_chi_minh,"Ủy ban nhân dân Quận 3, Thành phố Hồ Chí Minh",Cơ quan Quốc hội,TW,Thành phố Hồ Chí Minh,True
+org:uy_ban_tai_chinh_ngan_sach_quoc_hoi_viet_nam,Ủy ban Tài chính - Ngân sách Quốc hội Việt Nam,Cơ quan Quốc hội,TW,,True
+org:thi_uy_buon_ho,Thị ủy Buôn Hồ,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:so_giao_duc_va_dao_tao_tinh_vinh_long,Sở Giáo dục và Đào tạo tỉnh Vĩnh Long,Sở,Tỉnh,Vĩnh Long,True
+org:vien_kiem_sat_nhan_dan_tinh_long_an,Viện kiểm sát nhân dân tỉnh Long An,Cơ quan tư pháp,Tỉnh,Tây Ninh,True
+org:dang_uy_cac_co_quan_tham_muu_giup_viec_cua_dang_uy_chinh_phu,"Đảng ủy các cơ quan tham mưu, giúp việc của Đảng ủy Chính phủ",Đảng ủy,,,True
+org:cong_an_tinh_dak_lak_lan_2,Công an tỉnh Đăk Lắk lần 2,Công an tỉnh,Tỉnh,,True
+org:cuc_phap_che_va_cai_cach_thu_tuc_hanh_chinh_tu_phap_bo_cong_an,"Cục Pháp chế và Cải cách thủ tục Hành chính, Tư pháp, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:cong_an_tinh_dak_lak_lan_1,Công an tỉnh Đắk Lắk lần 1,Công an tỉnh,Tỉnh,Đắk Lắk,True
+org:vu_to_chuc_can_bo_toa_an_nhan_dan_toi_cao,Vụ Tổ chức cán bộ Tòa án nhân dân tối cao,Đơn vị thuộc bộ,TW,,True
+org:toa_an_nhan_dan_tinh_bac_ninh,Tòa án nhân dân tỉnh Bắc Ninh,Cơ quan tư pháp,Tỉnh,Bắc Ninh,True
+org:hoc_vien_toa_an,Học viện Tòa án,Đơn vị sự nghiệp,TW,,True
+org:dang_uy_khoi_co_so_bo_y_te,Đảng ủy khối cơ sở Bộ Y tế,Đảng ủy,,,True
+org:so_quy_hoach_kien_truc_ha_noi,Sở Quy hoạch – Kiến trúc Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:hoi_lien_hiep_phu_nu_tinh_binh_dinh,Hội Liên hiệp Phụ nữ tỉnh Bình Định,Mặt trận & đoàn thể,TW,Gia Lai,True
+org:vien_khoa_hoc_hinh_su,Viện Khoa học hình sự,Đơn vị sự nghiệp,TW,,True
+org:ban_chi_dao_trung_uong_ve_phong_chong_tham_nhung_lang_phi_tieu_cuc,"Ban Chỉ đạo Trung ương về phòng, chống tham nhũng, lãng phí, tiêu cực",Cơ quan Đảng TW,TW,,True
+org:hoi_dong_nhan_dan_thanh_pho_can_tho,Hội đồng nhân dân thành phố Cần Thơ,HĐND tỉnh,Tỉnh,Cần Thơ,True
+org:hoi_dong_nhan_dan_tinh_binh_phuoc,Hội đồng nhân dân tỉnh Bình Phước,HĐND tỉnh,Tỉnh,Đồng Nai,True
+org:uy_ban_nhan_dan_tinh_binh_phuoc,Ủy ban nhân dân tỉnh Bình Phước,Cơ quan Quốc hội,TW,Đồng Nai,True
+org:tinh_uy_tinh_ba_ria_vung_tau,Tỉnh ủy tỉnh Bà Rịa – Vũng Tàu,Cấp ủy tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:quan_doan_1_quan_doi_nhan_dan_viet_nam,"Quân đoàn 1, Quân đội nhân dân Việt Nam",Lực lượng vũ trang,TW,,True
+org:bo_tu_lenh_vung_1_hai_quan_nhan_dan_viet_nam,Bộ Tư lệnh Vùng 1 Hải quân nhân dân Việt Nam,Bộ,TW,,True
+org:cuc_ke_hoach_va_tai_chinh,Cục Kế hoạch và Tài chính,Đơn vị thuộc bộ,TW,,True
+org:bo_chi_huy_quan_su_tinh_ba_ria_vung_tau,Bộ Chỉ huy Quân sự tỉnh Bà Rịa Vũng Tàu,Bộ,TW,,True
+org:dang_uy_phuong_tam_binh_thanh_pho_ho_chi_minh,"Đảng ủy phường Tam Bình, Thành phố Hồ Chí Minh",Đảng ủy,Tỉnh,Thành phố Hồ Chí Minh,True
+org:uy_ban_nhan_dan_tinh_yen_bai,Ủy ban nhân dân tỉnh Yên Bái,Cơ quan Quốc hội,TW,Lào Cai,True
+org:tinh_uy_yen_bai,Tỉnh ủy Yên Bái,Cấp ủy tỉnh,Tỉnh,Lào Cai,True
+org:so_tai_nguyen_va_moi_truong_ha_noi,Sở Tài nguyên và Môi trường Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:ban_chap_hanh_trung_uong_dang_cong_san_viet_nam_khoa_v,Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa V,Cơ quan Đảng TW,TW,,True
+org:ban_chi_dao_tay_bac,Ban Chỉ đạo Tây Bắc,Ban Chỉ đạo,,,True
+org:hoi_dong_nhan_dan_thanh_pho_bac_ninh,Hội đồng nhân dân thành phố Bắc Ninh,HĐND tỉnh,Tỉnh,Bắc Ninh,True
+org:uy_ban_doi_ngoai_quoc_hoi,Ủy ban Đối ngoại Quốc hội,Cơ quan Quốc hội,TW,,True
+org:uy_ban_kinh_te_quoc_hoi,Ủy ban Kinh tế Quốc hội,Cơ quan Quốc hội,TW,,True
+org:vien_nghien_cuu_lap_phap_quoc_hoi_viet_nam,Viện Nghiên cứu lập pháp Quốc hội Việt Nam,Đơn vị sự nghiệp,TW,,True
+org:uy_ban_kiem_tra_thanh_uy_thanh_pho_ho_chi_minh,Ủy ban Kiểm tra Thành ủy Thành phố Hồ Chí Minh,Cơ quan Quốc hội,TW,Thành phố Hồ Chí Minh,True
+org:toa_an_nhan_dan_tinh_ba_ria_vung_tau,Tòa án nhân dân tỉnh Bà Rịa – Vũng Tàu,Cơ quan tư pháp,Tỉnh,Thành phố Hồ Chí Minh,True
+org:toa_an_nhan_dan_tinh_vinh_phuc,Tòa án nhân dân tỉnh Vĩnh Phúc,Cơ quan tư pháp,Tỉnh,Phú Thọ,True
+org:vien_kiem_sat_nhan_dan_tinh_tien_giang,Viện kiểm sát nhân dân tỉnh Tiền Giang,Cơ quan tư pháp,Tỉnh,Đồng Tháp,True
+org:bo_chi_huy_quan_su_quan_doi_nhan_dan_viet_nam,"Bộ Chỉ huy quân sự, Quân đội nhân dân Việt Nam",Bộ,TW,,True
+org:vien_kiem_sat_quan_su_trung_uong,Viện kiểm sát quân sự Trung ương,Cơ quan tư pháp,,,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_binh_duong,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh Bình Dương",Ban Chỉ đạo,Tỉnh,Thành phố Hồ Chí Minh,True
+org:cuc_quan_luc_quan_doi_nhan_dan_viet_nam,"Cục Quân lực, Quân đội nhân dân Việt Nam",Đơn vị thuộc bộ,TW,,True
+org:cuc_canh_sat_quan_ly_trai_giam_co_so_giao_duc_bat_buoc_truong_giao_duong_cuc_c10_bo_cong_an,"Cục Cảnh sát quản lý trại giam, cơ sở giáo dục bắt buộc, trường giáo dưỡng (Cục C10), Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:cong_an_tinh_hung_yen,Công an tỉnh Hưng Yên,Công an tỉnh,Tỉnh,Hưng Yên,True
+org:dang_uy_quan_su,Đảng ủy Quân sự,Đảng ủy,,,True
+org:cuc_canh_sat_dieu_tra_toi_pham_ve_tham_nhung_kinh_te_buon_lau,"Cục Cảnh sát điều tra tội phạm về tham nhũng, kinh tế, buôn lậu",Đơn vị thuộc bộ,TW,,True
+org:hoi_dong_nhan_dan_tinh_hung_yen,Hội đồng nhân dân tỉnh Hưng Yên,HĐND tỉnh,Tỉnh,Hưng Yên,True
+org:uy_ban_nhan_dan_tinh_ha_giang,Ủy ban nhân dân tỉnh Hà Giang,Cơ quan Quốc hội,TW,Tuyên Quang,True
+org:thanh_uy_vinh_long,Thành ủy Vĩnh Long,Cấp ủy tỉnh,Tỉnh,Vĩnh Long,True
+org:truong_dai_hoc_mo_thanh_pho_ho_chi_minh,Trường Đại học Mở Thành phố Hồ Chí Minh,Đơn vị sự nghiệp,TW,Thành phố Hồ Chí Minh,True
+org:vien_kiem_sat_nhan_dan_quan_son_tra_thanh_pho_da_nang,"Viện kiểm sát nhân dân quận Sơn Trà, thành phố Đà Nẵng",Cơ quan tư pháp,Tỉnh,Đà Nẵng,True
+org:cong_an_thanh_pho_can_tho,Công an thành phố Cần Thơ,Công an tỉnh,Tỉnh,Cần Thơ,True
+org:huyen_uy_chu_tich_hdnd_huyen_soc_son,"Huyện ủy, Chủ tịch HĐND huyện Sóc Sơn",Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:thanh_doan_ha_noi,Thành đoàn Hà Nội,Mặt trận & đoàn thể,Tỉnh,Hà Nội,True
+org:hoi_dong_nhan_dan_tinh_lao_cai,Hội đồng nhân dân tỉnh Lào Cai,HĐND tỉnh,Tỉnh,Lào Cai,True
+org:hoi_dong_quan_tri_vietinbank,Hội đồng Quản trị VietinBank,Mặt trận & đoàn thể,TW,,True
+org:ngan_hang_thuong_mai_co_phan_cong_thuong_viet_nam_vietinbank,Ngân hàng Thương mại cổ phần Công thương Việt Nam VietinBank,Doanh nghiệp nhà nước,TW,,True
+org:toa_an_nhan_dan_cap_cao_tai_da_nang,Tòa án nhân dân cấp cao tại Đà Nẵng,Cơ quan tư pháp,Tỉnh,Đà Nẵng,True
+org:toa_an_nhan_dan_tinh_ha_tinh,Tòa án nhân dân tỉnh Hà Tĩnh,Cơ quan tư pháp,Tỉnh,Hà Tĩnh,True
+org:cuc_canh_sat_dieu_tra_toi_pham_ve_ma_tuy_bo_cong_an,"Cục Cảnh sát điều tra tội phạm về ma túy, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:uy_ban_nhan_dan_tinh_nam_dinh,Ủy ban nhân dân tỉnh Nam Định,Cơ quan Quốc hội,TW,Ninh Bình,True
+org:uy_ban_nhan_dan_quan_lien_chieu,Ủy ban nhân dân quận Liên Chiểu,Cơ quan Quốc hội,TW,,True
+org:trung_tam_xuc_tien_dau_tu_tp_da_nang,Trung tâm Xúc tiến Đầu tư TP Đà Nẵng,Khác,Tỉnh,Đà Nẵng,True
+org:hoi_dong_nhan_dan_tinh_quang_ninh,Hội đồng nhân dân tỉnh Quảng Ninh,HĐND tỉnh,Tỉnh,Quảng Ninh,True
+org:uy_ban_nhan_dan_tinh_ha_tay,Ủy ban nhân dân tỉnh Hà Tây,Cơ quan Quốc hội,TW,,True
+org:cuc_an_ninh_tay_nguyen_bo_cong_an_viet_nam,"Cục An ninh Tây Nguyên, Bộ Công an Việt Nam",Đơn vị thuộc bộ,TW,,True
+org:hoi_dong_nhan_dan_tinh_long_an,Hội đồng nhân dân tỉnh Long An,HĐND tỉnh,Tỉnh,Tây Ninh,True
+org:uy_ban_nhan_dan_tinh_long_an,Ủy ban nhân dân tỉnh Long An,Cơ quan Quốc hội,TW,Tây Ninh,True
+org:huyen_uy_tan_thanh,Huyện ủy Tân Thạnh,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:so_tai_nguyen_va_moi_truong_tinh_long_an,Sở Tài nguyên và Môi trường tỉnh Long An,Sở,Tỉnh,Tây Ninh,True
+org:cong_an_tinh_phu_yen,Công an tỉnh Phú Yên,Công an tỉnh,Tỉnh,Đắk Lắk,True
+org:huyen_uy_duc_hoa,Huyện ủy Đức Hòa,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:so_tu_phap_thanh_pho_ho_chi_minh,Sở Tư pháp Thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:ban_chi_dao_chuong_trinh_muc_tieu_quoc_gia_xay_dung_nong_thon_moi,Ban Chỉ đạo Chương trình mục tiêu quốc gia xây dựng nông thôn mới,Ban Chỉ đạo,,,True
+org:doan_dai_bieu_quoc_hoi_tinh_thai_nguyen_khoa_xvi,Đoàn đại biểu Quốc hội tỉnh Thái Nguyên khóa XVI,Đoàn ĐBQH tỉnh,Tỉnh,Thái Nguyên,True
+org:uy_ban_kiem_tra_tinh_uy_dak_nong,Ủy ban Kiểm tra Tỉnh ủy Đắk Nông,Cơ quan Quốc hội,TW,Lâm Đồng,True
+org:bo_tu_lenh_vung_4_hai_quan_nhan_dan_viet_nam,Bộ Tư lệnh Vùng 4 Hải quân Nhân dân Việt Nam,Bộ,TW,,True
+org:huyen_uy_ninh_hai,Huyện ủy Ninh Hải,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:uy_ban_kinh_te_cua_quoc_hoi_khoa_13,Ủy ban Kinh tế của Quốc hội khóa 13,Cơ quan Quốc hội,TW,,True
+org:thong_tan_xa_viet_nam,Thông tấn xã Việt Nam,Cơ quan báo chí,TW,,True
+org:cong_an_tinh_quang_nam,Công an tỉnh Quảng Nam,Công an tỉnh,Tỉnh,Đà Nẵng,True
+org:so_canh_sat_phong_chay_chua_chay_thanh_pho_ha_noi,Sở Cảnh sát Phòng cháy chữa cháy thành phố Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:cong_an_quan_8,Công an Quận 8,Khác,,,True
+org:ban_to_chuc_tinh_uy_tra_vinh,Ban Tổ chức Tỉnh ủy Trà Vinh,Cơ quan Đảng tỉnh,Tỉnh,Vĩnh Long,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_dak_nong,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh Đắk Nông",Ban Chỉ đạo,Tỉnh,Lâm Đồng,True
+org:huyen_uy_tuy_duc,Huyện ủy Tuy Đức,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:ban_to_chuc_tinh_uy_yen_bai,Ban Tổ chức Tỉnh ủy Yên Bái,Cơ quan Đảng tỉnh,Tỉnh,Lào Cai,True
+org:toa_an_nhan_dan_tinh_nam_dinh,Tòa án nhân dân tỉnh Nam Định,Cơ quan tư pháp,Tỉnh,Ninh Bình,True
+org:cuc_cuu_ho_cuu_nan,Cục Cứu hộ Cứu nạn,Đơn vị thuộc bộ,TW,,True
+org:dang_uy_kiem_toan_nha_nuoc,Đảng ủy Kiểm toán Nhà nước,Đảng ủy,,,True
+org:tap_doan_cong_nghiep_than_khoang_san_viet_nam,Tập đoàn Công nghiệp Than – Khóang sản Việt Nam,Doanh nghiệp nhà nước,TW,,True
+org:cuc_cong_tac_chinh_tri,Cục Công tác chính trị,Đơn vị thuộc bộ,TW,,True
+org:cuc_cong_tac_dang_va,Cục Công tác Đảng và,Đơn vị thuộc bộ,TW,,True
+org:cuc_dien_anh,Cục Điện ảnh,Đơn vị thuộc bộ,TW,,True
+org:uy_ban_quoc_gia_phong_chong_aids_ma_tuy_mai_dam,"Ủy ban Quốc gia phòng, chống AIDS, ma túy, mại dâm",Cơ quan Quốc hội,TW,,True
+org:thi_uy_an_nhon,Thị ủy An Nhơn,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:huyen_uy_hoai_an,Huyện ủy Hoài Ân,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:so_thong_tin_va_truyen_thong_tinh_binh_dinh,Sở Thông tin và Truyền thông tỉnh Bình Định,Sở,Tỉnh,Gia Lai,True
+org:uy_ban_phap_luat_quoc_hoi_viet_nam,Ủy ban Pháp luật Quốc hội Việt Nam,Cơ quan Quốc hội,TW,,True
+org:so_van_hoa_va_the_thao_thanh_pho_ho_chi_minh,Sở Văn hóa và Thể thao Thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:uy_ban_kiem_tra_tinh_uy_quang_nam,Ủy ban Kiểm tra Tỉnh ủy Quảng Nam,Cơ quan Quốc hội,TW,Đà Nẵng,True
+org:bo_tu_lenh_canh_ve,Bộ Tư lệnh Cảnh vệ,Bộ,TW,,True
+org:thanh_uy_bac_lieu,Thành ủy Bạc Liêu,Cấp ủy tỉnh,Tỉnh,Cà Mau,True
+org:dang_uy_phuong_duc_nhuan,Đảng ủy phường Đức Nhuận,Đảng ủy,,,True
+org:hoi_dong_nhan_dan_tinh_cao_bang,Hội đồng nhân dân tỉnh Cao Bằng,HĐND tỉnh,Tỉnh,Cao Bằng,True
+org:cuc_bao_ve_chinh_tri_noi_bo_ban_to_chuc_trung_uong,"Cục Bảo vệ Chính trị Nội bộ, Ban Tổ chức Trung ương",Đơn vị thuộc bộ,TW,,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_dong_thap,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Đồng Tháp,Cơ quan Quốc hội,TW,Đồng Tháp,True
+org:hoc_vien_chinh_tri_cand,Học viện Chính trị CAND,Đơn vị sự nghiệp,TW,,True
+org:truong_dai_hoc_an_ninh_nhan_dan,Trường Đại học An ninh nhân dân,Đơn vị sự nghiệp,TW,,True
+org:dang_uy_bo_tong_tham_muu_co_quan_bo_quoc_phong,Đảng ủy Bộ Tổng Tham mưu - Cơ quan Bộ Quốc phòng,Đảng ủy,,,True
+org:ban_to_chuc_le_tang_nha_nuoc,Ban Tổ chức Lễ tang Nhà nước,Khác,,,True
+org:so_an_toan_thuc_pham_thanh_pho_ho_chi_minh,Sở An toàn thực phẩm thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:ban_quan_ly_an_toan_thuc_pham_thanh_pho_ho_chi_minh,Ban Quản lý An toàn thực phẩm thành phố Hồ Chí Minh,Khác,Tỉnh,Thành phố Hồ Chí Minh,True
+org:toa_an_nhan_dan_tinh_hau_giang,Tòa án nhân dân tỉnh Hậu Giang,Cơ quan tư pháp,Tỉnh,Cần Thơ,True
+org:toa_an_nhan_dan_huyen_long_my_tinh_hau_giang,"Tòa án nhân dân huyện Long Mỹ, tỉnh Hậu Giang",Cơ quan tư pháp,Tỉnh,Cần Thơ,True
+org:cuc_phap_che_va_cai_cach_hanh_chinh_tu_phap_bo_cong_an,"Cục Pháp chế và cải cách hành chính, tư pháp, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:ban_cong_tac_dai_bieu_thuoc_uy_ban_thuong_vu_quoc_hoi,Ban Công tác Đại biểu thuộc Ủy ban Thường vụ Quốc hội,Khác,,,True
+org:hoi_dong_nhan_dan_phuong_ba_dinh,Hội đồng nhân dân phường Ba Đình,HĐND tỉnh,Tỉnh,,True
+org:dang_uy_phuong_ba_dinh,Đảng ủy phường Ba Đình,Đảng ủy,,,True
+org:lien_doan_lao_dong_thanh_pho_ha_noi,Liên đoàn Lao động thành phố Hà Nội,Mặt trận & đoàn thể,Tỉnh,Hà Nội,True
+org:huyen_uy_soc_son,Huyện ủy Sóc Sơn,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:tong_cong_ty_du_lich_ha_noi,Tổng công ty Du lịch Hà Nội,Doanh nghiệp nhà nước,TW,Hà Nội,True
+org:vien_nghien_cuu_phat_trien_thanh_pho_ho_chi_minh,Viện Nghiên cứu phát triển Thành phố Hồ Chí Minh,Đơn vị sự nghiệp,TW,Thành phố Hồ Chí Minh,True
+org:cong_ty_dau_tu_tai_chinh_nha_nuoc_thanh_pho_ho_chi_minh,Công ty đầu tư Tài chính nhà nước thành phố Hồ Chí Minh,Khác,Tỉnh,Thành phố Hồ Chí Minh,True
+org:so_ke_hoach_va_dau_tu_tinh_dak_lak,Sở Kế hoạch và Đầu tư tỉnh Đắk Lắk,Sở,Tỉnh,Đắk Lắk,True
+org:huyen_uy_krong_ana,Huyện ủy Krông Ana,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:quan_chung_hai_quan_quan_doi_nhan_dan_viet_nam,"Quân chủng Hải quân, Quân đội nhân dân Việt Nam",Lực lượng vũ trang,TW,,True
+org:bo_tu_lenh_vung_5_hai_quan,Bộ Tư lệnh Vùng 5 Hải quân,Bộ,TW,,True
+org:uy_ban_quoc_gia_ve_nguoi_cao_tuoi_viet_nam,Ủy ban Quốc gia về Người cao tuổi Việt Nam,Cơ quan Quốc hội,TW,,True
+org:ban_chi_dao_trung_uong_ve_giam_ngheo_ben_vung,Ban Chỉ đạo Trung ương về giảm nghèo bền vững,Cơ quan Đảng TW,TW,,True
+org:so_y_te_tinh_dak_lak,Sở Y tế tỉnh Đắk Lắk,Sở,Tỉnh,Đắk Lắk,True
+org:uy_ban_mat_tran_to_quoc_tinh_thanh_hoa,Ủy ban Mặt trận Tổ quốc tỉnh Thanh Hóa,Cơ quan Quốc hội,TW,Thanh Hóa,True
+org:toa_an_nhan_dan_tinh_hoa_binh,Tòa án nhân dân tỉnh Hòa Bình,Cơ quan tư pháp,Tỉnh,Phú Thọ,True
+org:vu_thong_ke_tong_hop_toa_an_nhan_dan_toi_cao_viet_nam,"Vụ Thống kê - Tổng hợp, Tòa án nhân dân tối cao Việt Nam",Đơn vị thuộc bộ,TW,,True
+org:huyen_uy_thap_muoi,Huyện ủy Tháp Mười,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:cong_an_huyen_khoai_chau,Công an huyện Khóai Châu,Khác,,,True
+org:so_tu_phap_thanh_pho_can_tho,Sở Tư pháp Thành phố Cần Thơ,Sở,Tỉnh,Cần Thơ,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_lam_dong,Ủy ban Mặt trận Tổ quốc Việt Nam Tỉnh Lâm Đồng,Cơ quan Quốc hội,TW,Lâm Đồng,True
+org:bo_tu_lenh_canh_ve_bo_cong_an,"Bộ Tư lệnh Cảnh vệ, Bộ Công an",Bộ,TW,,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_ba_ria_vung_tau,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh Bà Rịa - Vũng Tàu",Ban Chỉ đạo,Tỉnh,Thành phố Hồ Chí Minh,True
+org:hoi_dong_nhan_dan_tinh_binh_duong,Hội đồng nhân dân tỉnh Bình Dương,HĐND tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:cuc_truyen_thong_cong_an_nhan_dan_bo_cong_an_viet_nam,"Cục Truyền thông Công an nhân dân, Bộ Công an Việt Nam",Đơn vị thuộc bộ,TW,,True
+org:vien_kiem_sat_nhan_dan_tinh_quang_tri,Viện kiểm sát nhân dân tỉnh Quảng Trị,Cơ quan tư pháp,Tỉnh,Quảng Trị,True
+org:vien_thuc_hanh_quyen_cong_to_va_kiem_sat_xet_xu_phuc_tham_tai_da_nang,Viện thực hành quyền công tố và kiểm sát xét xử phúc thẩm tại Đà Nẵng,Đơn vị sự nghiệp,TW,Đà Nẵng,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_thanh_pho_hai_phong,Ủy ban Mặt trận Tổ quốc Việt Nam thành phố Hải Phòng,Cơ quan Quốc hội,TW,Hải Phòng,True
+org:hoi_dong_nhan_dan_tinh_ha_giang,Hội đồng nhân dân tỉnh Hà Giang,HĐND tỉnh,Tỉnh,Tuyên Quang,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_nghe_an,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh Nghệ An",Ban Chỉ đạo,Tỉnh,Nghệ An,True
+org:ban_dan_van_tinh_uy_nghe_an,Ban Dân vận Tỉnh ủy Nghệ An,Cơ quan Đảng tỉnh,Tỉnh,Nghệ An,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_hau_giang,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Hậu Giang,Cơ quan Quốc hội,TW,Cần Thơ,True
+org:so_giao_duc_va_dao_tao_tinh_nghe_an,Sở Giáo dục và Đào tạo tỉnh Nghệ An,Sở,Tỉnh,Nghệ An,True
+org:cuc_tac_chien,Cục Tác chiến,Đơn vị thuộc bộ,TW,,True
+org:hoi_dong_dan_toc_cua_quoc_hoi,Hội đồng Dân tộc của Quốc hội,Mặt trận & đoàn thể,TW,,True
+org:cuc_canh_sat,Cục Cảnh sát,Đơn vị thuộc bộ,TW,,True
+org:tinh_doan_soc_trang,Tỉnh đoàn Sóc Trăng,Mặt trận & đoàn thể,Tỉnh,Cần Thơ,True
+org:ban_chap_hanh_trung_uong_dang_cong_san_viet_nam_khoa_vi,Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa VI,Cơ quan Đảng TW,TW,,True
+org:cuc_quan_ly_duoc_bo_y_te,"Cục Quản lý Dược, Bộ Y tế",Đơn vị thuộc bộ,TW,,True
+org:hoc_vien_chinh_tri,Học viện Chính trị,Đơn vị sự nghiệp,TW,,True
+org:uy_ban_nhan_dan_tinh_gia_lai,Ủy ban nhân dân tỉnh Gia Lai,Cơ quan Quốc hội,TW,Gia Lai,True
+org:cong_an_tinh_ben_tre,Công an tỉnh Bến Tre,Công an tỉnh,Tỉnh,Vĩnh Long,True
+org:hoc_vien_can_bo_thanh_pho_ho_chi_minh,Học viện Cán bộ Thành phố Hồ Chí Minh,Đơn vị sự nghiệp,TW,Thành phố Hồ Chí Minh,True
+org:truong_dai_hoc_tai_chinh_marketing,Trường Đại học Tài chính - Marketing,Đơn vị sự nghiệp,TW,,True
+org:tong_cuc_ii_bo_quoc_phong,"Tổng cục II, Bộ Quốc phòng",Lực lượng vũ trang,TW,,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_dak_lak,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Đắk Lắk,Cơ quan Quốc hội,TW,Đắk Lắk,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_phu_yen,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Phú Yên,Cơ quan Quốc hội,TW,Đắk Lắk,True
+org:dang_uy_khoi_co_quan_doanh_nghiep_tinh_phu_yen,"Đảng ủy Khối Cơ quan, doanh nghiệp tỉnh Phú Yên",Đảng ủy,Tỉnh,Đắk Lắk,True
+org:binh_chung_cong_binh,Binh chủng Công binh,Lực lượng vũ trang,TW,,True
+org:quan_uy_quan_1_thanh_pho_ho_chi_minh,"Quận ủy Quận 1, Thành phố Hồ Chí Minh",Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,Thành phố Hồ Chí Minh,True
+org:lien_doan_lao_dong_thanh_pho_ho_chi_minh,Liên đoàn Lao động Thành phố Hồ Chí Minh,Mặt trận & đoàn thể,Tỉnh,Thành phố Hồ Chí Minh,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_ninh_binh,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Ninh Bình,Cơ quan Quốc hội,TW,Ninh Bình,True
+org:cong_an_tinh_lam_dong,Công an tỉnh Lâm Đồng,Công an tỉnh,Tỉnh,Lâm Đồng,True
+org:tong_cuc_khi_tuong_thuy_van,Tổng cục Khí tượng Thủy văn,Lực lượng vũ trang,TW,,True
+org:bo_chi_huy_quan_su_tinh_quang_ngai,Bộ Chỉ huy Quân sự tỉnh Quảng Ngãi,Bộ,TW,Quảng Ngãi,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_dien_bien,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh Điện Biên",Ban Chỉ đạo,Tỉnh,Điện Biên,True
+org:uy_ban_quoc_phong_va_an_ninh_quoc_hoi,Ủy ban Quốc phòng và An ninh Quốc hội,Cơ quan Quốc hội,TW,,True
+org:cuc_canh_sat_hinh_su_bo_cong_an,"Cục Cảnh sát hình sự, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_hung_yen,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Hưng Yên,Cơ quan Quốc hội,TW,Hưng Yên,True
+org:thanh_uy_dong_hoi,Thành ủy Đồng Hới,Cấp ủy tỉnh,Tỉnh,,True
+org:kho_bac_nha_nuoc_bo_tai_chinh,"Kho bạc Nhà nước, Bộ Tài chính",Khác,,,True
+org:bo_tai_nguyen_moi_truong,Bộ Tài nguyên Môi trường,Bộ,TW,,True
+org:bo_truong_bo_cong_an,Bộ trưởng Bộ Công an,Bộ,TW,,True
+org:so_canh_sat_phong_chay_chua_chay_thanh_pho_can_tho,Sở Cảnh sát Phòng cháy chữa cháy Thành phố Cần Thơ,Sở,Tỉnh,Cần Thơ,True
+org:quan_uy_cau_giay_ha_noi,"Quận ủy Cầu Giấy, Hà Nội",Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,Hà Nội,True
+org:hoi_lien_hiep_phu_nu_tp_ha_noi,Hội Liên hiệp phụ nữ TP Hà Nội,Mặt trận & đoàn thể,TW,Hà Nội,True
+org:cong_an_tinh_binh_phuoc,Công an tỉnh Bình Phước,Công an tỉnh,Tỉnh,Đồng Nai,True
+org:thi_uy_ba_don,Thị ủy Ba Đồn,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:huyen_uy_van_lam,Huyện ủy Văn Lâm,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:so_y_te_ha_noi,Sở Y tế Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:cong_an_tinh_kon_tum,Công an tỉnh Kon Tum,Công an tỉnh,Tỉnh,Quảng Ngãi,True
+org:tinh_uy_tinh_tra_vinh,Tỉnh ủy tỉnh Trà Vinh,Cấp ủy tỉnh,Tỉnh,Vĩnh Long,True
+org:truong_dai_hoc_cong_nghiep_thanh_pho_ho_chi_minh,Trường Đại học Công nghiệp Thành phố Hồ Chí Minh,Đơn vị sự nghiệp,TW,Thành phố Hồ Chí Minh,True
+org:dang_uy_phuong_ninh_kieu,Đảng ủy phường Ninh Kiều,Đảng ủy,,,True
+org:huyen_uy_thoi_lai,Huyện ủy Thới Lai,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:ban_dan_van_thanh_uy,Ban Dân vận Thành ủy,Cơ quan Đảng tỉnh,Tỉnh,,False
+org:thanh_uy_cao_lanh_dong_thap,"Thành ủy Cao Lãnh, Đồng Tháp",Cấp ủy tỉnh,Tỉnh,Đồng Tháp,True
+org:tong_cuc_hau_can_bo_cong_an,Tổng cục Hậu cần - Bộ Công an,Lực lượng vũ trang,TW,,True
+org:toa_an_quan_su_trung_uong_bo_quoc_phong_viet_nam,"Tòa án Quân sự Trung ương, Bộ Quốc phòng Việt Nam",Cơ quan tư pháp,,,True
+org:uy_ban_kiem_tra_tinh_uy_dong_nai,Ủy ban kiểm tra Tỉnh ủy Đồng Nai,Cơ quan Quốc hội,TW,Đồng Nai,True
+org:huyen_uy_tan_uyen,Huyện ủy Tân Uyên,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:huyen_uy_vung_liem,Huyện ủy Vũng Liêm,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:so_ke_hoach_va_dau_tu_tinh_vinh_long,Sở Kế hoạch và Đầu tư tỉnh Vĩnh Long,Sở,Tỉnh,Vĩnh Long,True
+org:so_cong_nghiep_tinh_vinh_long,Sở Công nghiệp tỉnh Vĩnh Long,Sở,Tỉnh,Vĩnh Long,True
+org:vu_to_chuc_can_bo_tong_cuc_xay_dung_luc_luong_cong_an_nhan_dan_bo_cong_an_viet_nam,"Vụ Tổ chức - cán bộ, Tổng cục Xây dựng lực lượng Công an nhân dân, Bộ Công an Việt Nam",Đơn vị thuộc bộ,TW,,True
+org:cuc_canh_sat_quan_ly_tam_giu_tam_giam_va_thi_hanh_an_hinh_su_tai_cong_dong_bo_cong_an,"Cục Cảnh sát quản lý tạm giữ, tạm giam và thi hành án hình sự tại cộng đồng, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:cuc_canh_sat_quan_ly_trai_giam_co_so_giao_duc_bat_buoc_truong_giao_duong_bo_cong_an,"Cục Cảnh sát quản lý trại giam, cơ sở giáo dục bắt buộc, trường giáo dưỡng, Bộ Công an",Đơn vị thuộc bộ,TW,,True
+org:so_giao_duc_va_dao_tao_tinh_thanh_hoa,Sở Giáo dục và Đào tạo tỉnh Thanh Hóa,Sở,Tỉnh,Thanh Hóa,True
+org:uy_ban_chung_khoan_nha_nuoc,Ủy ban Chứng khóan Nhà nước,Cơ quan Quốc hội,TW,,True
+org:ban_tuyen_giao_tinh_uy_lam_dong,Ban Tuyên giáo Tỉnh ủy Lâm Đồng,Cơ quan Đảng tỉnh,Tỉnh,Lâm Đồng,True
+org:uy_ban_kiem_tra_tinh_uy_lam_dong,Ủy ban Kiểm tra Tỉnh ủy Lâm Đồng,Cơ quan Quốc hội,TW,Lâm Đồng,True
+org:cong_an_quan_1_thanh_pho_ho_chi_minh,"Công an Quận 1, Thành phố Hồ Chí Minh",Khác,Tỉnh,Thành phố Hồ Chí Minh,True
+org:so_canh_sat_phong_chay_chua_chay_thanh_pho_da_nang,Sở Cảnh sát Phòng cháy chữa cháy thành phố Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:van_phong_tong_bi_thu_ban_chap_hanh_trung_uong,Văn phòng Tổng Bí thư Ban Chấp hành Trung ương,Cơ quan Đảng TW,TW,,True
+org:dang_uy_cac_co_quan_dang,Đảng ủy các cơ quan Đảng,Đảng ủy,,,True
+org:hoi_dong_quan_tri,Hội đồng quản trị,Mặt trận & đoàn thể,TW,,True
+org:cuc_canh_sat_quan_ly_hanh_chinh,Cục Cảnh sát Quản lý hành chính,Đơn vị thuộc bộ,TW,,True
+org:ban_bien_soan_lich_su_dang_bo_tp_hcm,Ban biên soạn Lịch sử Đảng bộ TP.HCM,Khác,Tỉnh,Thành phố Hồ Chí Minh,True
+org:uy_ban_nhan_dan_quan_2,Ủy ban nhân dân Quận 2,Cơ quan Quốc hội,TW,,True
+org:uy_ban_van_hoa_giao_duc_thanh_nien_thieu_nien_va_nhi_dong_cua_quoc_hoi,"Ủy ban Văn hóa, Giáo dục, Thanh niên, Thiếu niên và Nhi đồng của Quốc hội",Cơ quan Quốc hội,TW,,True
+org:dang_uy_van_phong_quoc_hoi,"Đảng ủy, Văn phòng Quốc hội",Đảng ủy,,,True
+org:ban_cong_tac_dai_bieu,Ban Công tác đại biểu,Khác,,,True
+org:dang_uy_bo_van_hoa_the_thao_va_du_lich,"Đảng ủy Bộ Văn hóa, Thể thao và Du lịch",Đảng ủy,,,True
+org:cong_an_tinh_tay_ninh,Công an tỉnh Tây Ninh,Công an tỉnh,Tỉnh,Tây Ninh,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_quang_ngai,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Quảng Ngãi,Cơ quan Quốc hội,TW,Quảng Ngãi,True
+org:hoi_dong_khoa_hoc_cua_uy_ban_thuong_vu_quoc_hoi,Hội đồng Khoa học của Ủy ban Thường vụ Quốc hội,Mặt trận & đoàn thể,TW,,True
+org:thi_uy_soc_trang,Thị ủy Sóc Trăng,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,Cần Thơ,True
+org:cong_an_tinh_lai_chau,Công an tỉnh Lai Châu,Công an tỉnh,Tỉnh,Lai Châu,True
+org:mat_tran_to_quoc_tinh_son_la,Mặt trận Tổ quốc tỉnh Sơn La,Mặt trận & đoàn thể,Tỉnh,Sơn La,True
+org:ban_dan_toc_tinh_nghe_an,Ban Dân tộc tỉnh Nghệ An,Khác,Tỉnh,Nghệ An,True
+org:lien_doan_lao_dong_tinh_thanh_hoa,Liên đoàn Lao động tỉnh Thanh Hóa,Mặt trận & đoàn thể,Tỉnh,Thanh Hóa,True
+org:uy_ban_quoc_phong_va,Ủy ban Quốc phòng và,Cơ quan Quốc hội,TW,,True
+org:so_du_lich_thanh_pho_ho_chi_minh,Sở Du lịch Thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:lien_hiep_cac_hoi_khoa_hoc_va_ky_thuat_da_nang,Liên hiệp các Hội Khoa học và Kỹ thuật Đà Nẵng,Mặt trận & đoàn thể,Tỉnh,Đà Nẵng,True
+org:uy_ban_khoa_hoc_cong_nghe_va_moi_truong_cua_quoc_hoi_viet_nam_khoa_13,"Ủy ban Khoa học, Công nghệ và Môi trường của Quốc hội Việt Nam khóa 13",Cơ quan Quốc hội,TW,,True
+org:thanh_uy_dong_ha,Thành ủy Đông Hà,Cấp ủy tỉnh,Tỉnh,,True
+org:mat_tran_to_quoc_viet_nam_tinh_nghe_an,Mặt trận Tổ quốc Việt Nam tỉnh Nghệ An,Mặt trận & đoàn thể,Tỉnh,Nghệ An,True
+org:cuc_trinh_sat_bo_doi_bien_phong,Cục Trinh sát Bộ đội Biên phòng,Đơn vị thuộc bộ,TW,,True
+org:tong_cuc_canh_sat_phong_chong_toi_pham_bo_cong_an_bo_cong_an_viet_nam,"Tổng cục Cảnh sát Phòng, chống Tội phạm, Bộ Công an, Bộ Công an Việt Nam",Lực lượng vũ trang,TW,,True
+org:cuc_canh_sat_dieu_tra_toi_pham_ve_ma_tuy,Cục Cảnh sát điều tra tội phạm về ma túy,Đơn vị thuộc bộ,TW,,True
+org:so_cong_thuong_binh_phuoc,Sở Công Thương Bình Phước,Sở,Tỉnh,Đồng Nai,True
+org:tinh_doan_hung_yen,Tỉnh đoàn Hưng Yên,Mặt trận & đoàn thể,Tỉnh,Hưng Yên,True
+org:uy_ban_bien_gioi_quoc_gia,Ủy ban Biên giới quốc gia,Cơ quan Quốc hội,TW,,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_lang_son,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Lạng Sơn,Cơ quan Quốc hội,TW,Lạng Sơn,True
+org:bo_buu_chinh_vien_thong,Bộ Bưu chính – Viễn thông,Bộ,TW,,True
+org:huyen_uy_meo_vac,Huyện ủy Mèo Vạc,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:cuc_nghe_thuat_bieu_dien,Cục Nghệ thuật biểu diễn,Đơn vị thuộc bộ,TW,,True
+org:huyen_uy_bo_trach_tinh_quang_binh,"Huyện ủy Bố Trạch, tỉnh Quảng Bình",Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,Quảng Trị,True
+org:huyen_uy_y_yen,Huyện ủy Ý Yên,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:so_tai_chinh_nam_dinh,Sở Tài chính Nam Định,Sở,Tỉnh,Ninh Bình,True
+org:hoc_vien_chinh_tri_khu_vuc_i,Học viện Chính trị Khu vực I,Đơn vị sự nghiệp,TW,,True
+org:bo_lao_dong_va_an_sinh_xa_hoi_trung_quoc,Bộ Lao động và An sinh xã hội Trung Quốc,Bộ,TW,,True
+org:dang_uy_dac_khu_phu_quoc,Đảng ủy Đặc khu Phú Quốc,Đảng ủy,,,True
+org:huyen_uy_kim_son,Huyện ủy Kim Sơn,Cấp ủy huyện (bỏ cấp huyện từ 7/2025),Huyện,,True
+org:bo_chi_huy_quan_su_tinh_gia_lai,Bộ Chỉ huy Quân sự tỉnh Gia Lai,Bộ,TW,Gia Lai,True
+org:ban_can_su_dang_uy_ngoai_nuoc,Ban Cán sự Đảng ủy Ngoài nước,Khác,,,True
+org:dang_uy_cong_an_thanh_pho_ha_noi,Đảng ủy Công an thành phố Hà Nội,Đảng ủy,Tỉnh,Hà Nội,True
+org:cong_an_tinh_vinh_long,Công an tỉnh Vĩnh Long,Công an tỉnh,Tỉnh,Vĩnh Long,True
+org:thanh_doan_can_tho,Thành đoàn Cần Thơ,Mặt trận & đoàn thể,Tỉnh,Cần Thơ,True
+org:so_noi_vu_tinh_hung_yen,Sở Nội vụ tỉnh Hưng Yên,Sở,Tỉnh,Hưng Yên,True
+org:bo_chi_huy_quan_su_tinh_cao_bang,Bộ Chỉ huy Quân sự tỉnh Cao Bằng,Bộ,TW,Cao Bằng,True
+org:cong_an_tinh_ca_mau,Công an tỉnh Cà Mau,Công an tỉnh,Tỉnh,Cà Mau,True
+org:hoi_nong_dan_tinh_binh_dinh,Hội Nông dân tỉnh Bình Định,Mặt trận & đoàn thể,TW,Gia Lai,True
+org:toa_an_nhan_dan_tinh_binh_dinh,Tòa án nhân dân tỉnh Bình Định,Cơ quan tư pháp,Tỉnh,Gia Lai,True
+org:hoc_vien_luc_quan,Học viện Lục quân,Đơn vị sự nghiệp,TW,,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_hoa_binh,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Hòa Bình,Cơ quan Quốc hội,TW,Phú Thọ,True
+org:bo_ngoai_giaokiem_tro_ly_pho_thu_tuong_kiem_bo_truong_bo_ngoai_giao_tu_2019,Bộ Ngoại giaokiêm Trợ lý Phó Thủ tướng kiêm Bộ trưởng Bộ Ngoại giao từ 2019,Bộ,TW,,True
+org:so_giao_thong_van_tai_da_nang,Sở Giao thông Vận tải Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:cong_an_tinh_yen_bai,Công an tỉnh Yên Bái,Công an tỉnh,Tỉnh,Lào Cai,True
+org:cuc_doi_ngoai,Cục Đối ngoại,Đơn vị thuộc bộ,TW,,True
+org:truong_quan_su_quan_khu_7,Trường Quân sự Quân khu 7,Đơn vị sự nghiệp,TW,,True
+org:hoi_dong_tham_dinh_nha_nuoc,Hội đồng Thẩm định Nhà nước,Mặt trận & đoàn thể,TW,,True
+org:dang_uy_cong_an_thanh_hoa,Đảng ủy Công an Thanh Hóa,Đảng ủy,Tỉnh,Thanh Hóa,True
+org:ban_thuong_vu_tinh_uy_uy_vien_ubnd_tinh_thanh_hoa,"Ban thường vụ Tỉnh ủy, Ủy viên UBND Tỉnh Thanh Hóa",Cơ quan Đảng tỉnh,Tỉnh,Thanh Hóa,True
+org:lien_hiep_cac_hoi_van_hoc_nghe_thuat_viet_nam,Liên hiệp các Hội Văn học nghệ thuật Việt Nam,Mặt trận & đoàn thể,,,True
+org:hoi_nhac_si_viet_nam,Hội Nhạc sĩ Việt Nam,Mặt trận & đoàn thể,TW,,True
+org:hoc_vien_ngoai_giao,Học viện Ngoại giao Việt Nam,Đơn vị sự nghiệp,TW,,True
+org:uy_ban_quoc_phong_va_an_ninh,Ủy ban Quốc phòng và An ninh,Cơ quan Quốc hội,TW,,True
+org:vien_kiem_sat_nhan_dan_tinh_phu_tho,Viện kiểm sát nhân dân tỉnh Phú Thọ,Cơ quan tư pháp,Tỉnh,Phú Thọ,True
+org:dang_uy_uy_ban_nhan_dan_tinh_dak_lak,Đảng ủy Ủy ban nhân dân tỉnh Đắk Lắk,Đảng ủy,Tỉnh,Đắk Lắk,True
+org:vien_kiem_sat_nhan_dan_tinh_ninh_binh,Viện kiểm sát nhân dân tỉnh Ninh Bình,Cơ quan tư pháp,Tỉnh,Ninh Bình,True
+org:ban_chi_dao_phong_chong_tham_nhung_tieu_cuc_tinh_yen_bai,"Ban Chỉ đạo phòng, chống tham nhũng, tiêu cực tỉnh Yên Bái",Ban Chỉ đạo,Tỉnh,Lào Cai,True
+org:uy_ban_ve_cac_van_de_xa_hoi_cua_quoc_hoi,Ủy ban Về các vấn đề xã hội của Quốc hội,Cơ quan Quốc hội,TW,,True
+org:cong_an_tinh_vinh_phuc,Công an tỉnh Vĩnh Phúc,Công an tỉnh,Tỉnh,Phú Thọ,True
+org:cuc_can_bo_tong_cuc_chinh_tri,"Cục Cán bộ, Tổng cục Chính trị",Đơn vị thuộc bộ,TW,,True
+org:cuc_quan_ly_xuat_nhap_canh,Cục Quản lý xuất nhập cảnh,Đơn vị thuộc bộ,TW,,True
+org:uy_ban_phap_luat,Ủy ban Pháp luật,Cơ quan Quốc hội,TW,,True
+org:uy_ban_phap_luat_va_tu_phap,Ủy ban Pháp luật và Tư pháp,Cơ quan Quốc hội,TW,,True
+org:uy_ban_tu_phap,Ủy ban Tư pháp,Cơ quan Quốc hội,TW,,True
+org:uy_ban_kinh_te,Ủy ban Kinh tế,Cơ quan Quốc hội,TW,,True
+org:uy_ban_kinh_te_va_tai_chinh,Ủy ban Kinh tế và Tài chính,Cơ quan Quốc hội,TW,,True
+org:uy_ban_tai_chinh_ngan_sach,"Ủy ban Tài chính, Ngân sách",Cơ quan Quốc hội,TW,,True
+org:uy_ban_quoc_phong_an_ninh_va_doi_ngoai,"Ủy ban Quốc phòng, An ninh và Đối ngoại",Cơ quan Quốc hội,TW,,True
+org:uy_ban_doi_ngoai,Ủy ban Đối ngoại,Cơ quan Quốc hội,TW,,True
+org:uy_ban_van_hoa_giao_duc,"Ủy ban Văn hóa, Giáo dục",Cơ quan Quốc hội,TW,,True
+org:uy_ban_van_hoa_va_xa_hoi,Ủy ban Văn hóa và Xã hội,Cơ quan Quốc hội,TW,,True
+org:uy_ban_xa_hoi,Ủy ban Xã hội,Cơ quan Quốc hội,TW,,True
+org:ban_dan_nguyen,Ban Dân nguyện,Khác,,,True
+org:uy_ban_dan_nguyen_va_giam_sat,Ủy ban Dân nguyện và Giám sát,Cơ quan Quốc hội,TW,,True
+org:uy_ban_cong_tac_dai_bieu,Ủy ban Công tác đại biểu,Cơ quan Quốc hội,TW,,True
+org:ban_noi_chinh_thanh_uy_ha_noi,Ban Nội chính Thành ủy Hà Nội,Cơ quan Đảng tỉnh,Tỉnh,Hà Nội,True
+org:uy_ban_kiem_tra_thanh_uy_ha_noi,Ủy ban Kiểm tra Thành ủy Hà Nội,Cơ quan Đảng tỉnh,Tỉnh,Hà Nội,True
+org:doan_dai_bieu_quoc_hoi_tinh_nghe_an,Đoàn đại biểu Quốc hội tỉnh Nghệ An,Đoàn ĐBQH tỉnh,Tỉnh,Nghệ An,True
+org:ban_tuyen_giao_tinh_uy_quang_ngai,Ban Tuyên giáo Tỉnh ủy Quảng Ngãi,Cơ quan Đảng tỉnh,Tỉnh,Quảng Ngãi,True
+org:so_giao_duc_va_dao_tao_thanh_pho_da_nang,Sở Giáo dục và Đào tạo thành phố Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_thai_nguyen,"Sở Văn hóa, Thể thao và Du lịch tỉnh Thái Nguyên",Sở,Tỉnh,Thái Nguyên,True
+org:ban_tuyen_giao_thanh_uy_da_nang,Ban Tuyên giáo Thành ủy Đà Nẵng,Cơ quan Đảng tỉnh,Tỉnh,Đà Nẵng,True
+org:so_giao_duc_va_dao_tao_tinh_quang_ngai,Sở Giáo dục và Đào tạo tỉnh Quảng Ngãi,Sở,Tỉnh,Quảng Ngãi,True
+org:so_noi_vu_thanh_pho_ha_noi,Sở Nội vụ thành phố Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:so_cong_thuong_thanh_pho_ho_chi_minh,Sở Công Thương thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:thanh_tra_tinh_gia_lai,Thanh tra tỉnh Gia Lai,Cơ quan cấp tỉnh,Tỉnh,Gia Lai,True
+org:so_y_te_tinh_quang_ngai,Sở Y tế tỉnh Quảng Ngãi,Sở,Tỉnh,Quảng Ngãi,True
+org:so_khoa_hoc_va_cong_nghe_thanh_pho_ha_noi,Sở Khoa học và Công nghệ thành phố Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:ban_quan_ly_du_an_giao_thong_nong_nghiep_thanh_pho_can_tho,Ban Quản lý dự án giao thông nông nghiệp thành phố Cần Thơ,Cơ quan cấp tỉnh,Tỉnh,Cần Thơ,True
+org:so_nong_nghiep_va_moi_truong_thanh_pho_ho_chi_minh,Sở Nông nghiệp và Môi trường thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:cong_an_tinh_dong_thap,Công an tỉnh Đồng Tháp,Công an tỉnh,Tỉnh,Đồng Tháp,True
+org:ban_quan_ly_du_an_dau_tu_xay_dung_so_1_tinh_ninh_binh,Ban Quản lý dự án đầu tư xây dựng số 1 tỉnh Ninh Bình,Cơ quan cấp tỉnh,Tỉnh,Ninh Bình,True
+org:so_nong_nghiep_va_moi_truong_tinh_quang_tri,Sở Nông nghiệp và Môi trường tỉnh Quảng Trị,Sở,Tỉnh,Quảng Trị,True
+org:so_nong_nghiep_va_moi_truong_thanh_pho_can_tho,Sở Nông nghiệp và Môi trường thành phố Cần Thơ,Sở,Tỉnh,Cần Thơ,True
+org:doan_dai_bieu_quoc_hoi_thanh_pho_da_nang,Đoàn đại biểu Quốc hội thành phố Đà Nẵng,Đoàn ĐBQH tỉnh,Tỉnh,Đà Nẵng,True
+org:so_noi_vu_tinh_dong_nai,Sở Nội vụ tỉnh Đồng Nai,Sở,Tỉnh,Đồng Nai,True
+org:so_xay_dung_tinh_hung_yen,Sở Xây dựng tỉnh Hưng Yên,Sở,Tỉnh,Hưng Yên,True
+org:so_xay_dung_thanh_pho_hai_phong,Sở Xây dựng thành phố Hải Phòng,Sở,Tỉnh,Hải Phòng,True
+org:doan_dai_bieu_quoc_hoi_tinh_lam_dong,Đoàn đại biểu Quốc hội tỉnh Lâm Đồng,Đoàn ĐBQH tỉnh,Tỉnh,Lâm Đồng,True
+org:doan_dai_bieu_quoc_hoi_tinh_vinh_long,Đoàn đại biểu Quốc hội tỉnh Vĩnh Long,Đoàn ĐBQH tỉnh,Tỉnh,Vĩnh Long,True
+org:doan_dai_bieu_quoc_hoi_tinh_lao_cai,Đoàn đại biểu Quốc hội tỉnh Lào Cai,Đoàn ĐBQH tỉnh,Tỉnh,Lào Cai,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_vinh_long,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Vĩnh Long,Mặt trận & đoàn thể,Tỉnh,Vĩnh Long,True
+org:so_xay_dung_tinh_dong_nai,Sở Xây dựng tỉnh Đồng Nai,Sở,Tỉnh,Đồng Nai,True
+org:so_giao_duc_va_dao_tao_tinh_an_giang,Sở Giáo dục và Đào tạo tỉnh An Giang,Sở,Tỉnh,An Giang,True
+org:doan_dai_bieu_quoc_hoi_tinh_an_giang,Đoàn đại biểu Quốc hội tỉnh An Giang,Đoàn ĐBQH tỉnh,Tỉnh,An Giang,True
+org:doan_dai_bieu_quoc_hoi_thanh_pho_hai_phong,Đoàn đại biểu Quốc hội thành phố Hải Phòng,Đoàn ĐBQH tỉnh,Tỉnh,Hải Phòng,True
+org:doan_dai_bieu_quoc_hoi_tinh_dong_nai,Đoàn đại biểu Quốc hội tỉnh Đồng Nai,Đoàn ĐBQH tỉnh,Tỉnh,Đồng Nai,True
+org:doan_dai_bieu_quoc_hoi_tinh_thanh_hoa,Đoàn đại biểu Quốc hội tỉnh Thanh Hóa,Đoàn ĐBQH tỉnh,Tỉnh,Thanh Hóa,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_thanh_pho_hue,Ủy ban Mặt trận Tổ quốc Việt Nam thành phố Huế,Mặt trận & đoàn thể,Tỉnh,Huế,True
+org:doan_dai_bieu_quoc_hoi_tinh_quang_ngai,Đoàn đại biểu Quốc hội tỉnh Quảng Ngãi,Đoàn ĐBQH tỉnh,Tỉnh,Quảng Ngãi,True
+org:doan_dai_bieu_quoc_hoi_thanh_pho_ha_noi,Đoàn đại biểu Quốc hội thành phố Hà Nội,Đoàn ĐBQH tỉnh,Tỉnh,Hà Nội,True
+org:doan_dai_bieu_quoc_hoi_tinh_lai_chau,Đoàn đại biểu Quốc hội tỉnh Lai Châu,Đoàn ĐBQH tỉnh,Tỉnh,Lai Châu,True
+org:doan_dai_bieu_quoc_hoi_tinh_hung_yen,Đoàn đại biểu Quốc hội tỉnh Hưng Yên,Đoàn ĐBQH tỉnh,Tỉnh,Hưng Yên,True
+org:doan_dai_bieu_quoc_hoi_thanh_pho_can_tho,Đoàn đại biểu Quốc hội thành phố Cần Thơ,Đoàn ĐBQH tỉnh,Tỉnh,Cần Thơ,True
+org:doan_dai_bieu_quoc_hoi_tinh_dong_thap,Đoàn đại biểu Quốc hội tỉnh Đồng Tháp,Đoàn ĐBQH tỉnh,Tỉnh,Đồng Tháp,True
+org:doan_dai_bieu_quoc_hoi_tinh_ca_mau,Đoàn đại biểu Quốc hội tỉnh Cà Mau,Đoàn ĐBQH tỉnh,Tỉnh,Cà Mau,True
+org:doan_dai_bieu_quoc_hoi_tinh_thai_nguyen,Đoàn đại biểu Quốc hội tỉnh Thái Nguyên,Đoàn ĐBQH tỉnh,Tỉnh,Thái Nguyên,True
+org:doan_dai_bieu_quoc_hoi_thanh_pho_ho_chi_minh,Đoàn đại biểu Quốc hội thành phố Hồ Chí Minh,Đoàn ĐBQH tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:van_phong_uy_ban_nhan_dan_tinh_quang_ngai,Văn phòng Ủy ban nhân dân tỉnh Quảng Ngãi,Cơ quan cấp tỉnh,Tỉnh,Quảng Ngãi,True
+org:so_giao_duc_va_dao_tao_tinh_gia_lai,Sở Giáo dục và Đào tạo tỉnh Gia Lai,Sở,Tỉnh,Gia Lai,True
+org:ban_to_chuc_tinh_uy_ca_mau,Ban Tổ chức Tỉnh ủy Cà Mau,Cơ quan Đảng tỉnh,Tỉnh,Cà Mau,True
+org:so_giao_duc_va_dao_tao_tinh_ca_mau,Sở Giáo dục và Đào tạo tỉnh Cà Mau,Sở,Tỉnh,Cà Mau,True
+org:uy_ban_kiem_tra_tinh_uy_gia_lai,Ủy ban Kiểm tra Tỉnh ủy Gia Lai,Cơ quan Đảng tỉnh,Tỉnh,Gia Lai,True
+org:uy_ban_kiem_tra_tinh_uy_cao_bang,Ủy ban Kiểm tra Tỉnh ủy Cao Bằng,Cơ quan Đảng tỉnh,Tỉnh,Cao Bằng,True
+org:ban_dan_van_tinh_uy_thua_thien_hue,Ban Dân vận Tỉnh ủy Thừa Thiên Huế,Cơ quan Đảng tỉnh,Tỉnh,Thừa Thiên Huế,True
+org:so_ke_hoach_va_dau_tu_thanh_pho_ho_chi_minh,Sở Kế hoạch và Đầu tư thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:van_phong_uy_ban_nhan_dan_tinh_bac_ninh,Văn phòng Ủy ban nhân dân tỉnh Bắc Ninh,Cơ quan cấp tỉnh,Tỉnh,Bắc Ninh,True
+org:thanh_tra_tinh_bac_ninh,Thanh tra tỉnh Bắc Ninh,Cơ quan cấp tỉnh,Tỉnh,Bắc Ninh,True
+org:so_tai_nguyen_va_moi_truong_tinh_binh_phuoc,Sở Tài nguyên và Môi trường tỉnh Bình Phước,Sở,Tỉnh,Bình Phước,True
+org:so_tai_chinh_tinh_khanh_hoa,Sở Tài chính tỉnh Khánh Hòa,Sở,Tỉnh,Khánh Hòa,True
+org:doan_dai_bieu_quoc_hoi_tinh_gia_lai,Đoàn đại biểu Quốc hội tỉnh Gia Lai,Đoàn ĐBQH tỉnh,Tỉnh,Gia Lai,True
+org:van_phong_uy_ban_nhan_dan_thanh_pho_ha_noi,Văn phòng Ủy ban nhân dân thành phố Hà Nội,Cơ quan cấp tỉnh,Tỉnh,Hà Nội,True
+org:so_xay_dung_thanh_pho_can_tho,Sở Xây dựng thành phố Cần Thơ,Sở,Tỉnh,Cần Thơ,True
+org:so_tai_nguyen_va_moi_truong_tinh_thai_nguyen,Sở Tài nguyên và Môi trường tỉnh Thái Nguyên,Sở,Tỉnh,Thái Nguyên,True
+org:so_y_te_tinh_thai_nguyen,Sở Y tế tỉnh Thái Nguyên,Sở,Tỉnh,Thái Nguyên,True
+org:thanh_tra_thanh_pho_hai_phong,Thanh tra thành phố Hải Phòng,Cơ quan cấp tỉnh,Tỉnh,Hải Phòng,True
+org:doan_dai_bieu_quoc_hoi_tinh_tay_ninh,Đoàn đại biểu Quốc hội tỉnh Tây Ninh,Đoàn ĐBQH tỉnh,Tỉnh,Tây Ninh,True
+org:bo_chi_huy_quan_su_tinh_tuyen_quang,Bộ Chỉ huy Quân sự tỉnh Tuyên Quang,Lực lượng vũ trang,Tỉnh,Tuyên Quang,True
+org:bo_chi_huy_quan_su_tinh_thanh_hoa,Bộ Chỉ huy Quân sự tỉnh Thanh Hóa,Lực lượng vũ trang,Tỉnh,Thanh Hóa,True
+org:bo_chi_huy_quan_su_tinh_bac_ninh,Bộ Chỉ huy Quân sự tỉnh Bắc Ninh,Lực lượng vũ trang,Tỉnh,Bắc Ninh,True
+org:bo_chi_huy_quan_su_tinh_lang_son,Bộ Chỉ huy Quân sự tỉnh Lạng Sơn,Lực lượng vũ trang,Tỉnh,Lạng Sơn,True
+org:bo_chi_huy_quan_su_tinh_ca_mau,Bộ Chỉ huy Quân sự tỉnh Cà Mau,Lực lượng vũ trang,Tỉnh,Cà Mau,True
+org:ban_to_chuc_tinh_uy_phu_tho,Ban Tổ chức Tỉnh ủy Phú Thọ,Cơ quan Đảng tỉnh,Tỉnh,Phú Thọ,True
+org:so_y_te_thanh_pho_ha_noi,Sở Y tế thành phố Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:cong_an_tinh_quang_tri,Công an tỉnh Quảng Trị,Công an tỉnh,Tỉnh,Quảng Trị,True
+org:doan_dai_bieu_quoc_hoi_tinh_khanh_hoa,Đoàn đại biểu Quốc hội tỉnh Khánh Hòa,Đoàn ĐBQH tỉnh,Tỉnh,Khánh Hòa,True
+org:so_y_te_thanh_pho_can_tho,Sở Y tế thành phố Cần Thơ,Sở,Tỉnh,Cần Thơ,True
+org:cong_an_tinh_lao_cai,Công an tỉnh Lào Cai,Công an tỉnh,Tỉnh,Lào Cai,True
+org:cong_an_tinh_lang_son,Công an tỉnh Lạng Sơn,Công an tỉnh,Tỉnh,Lạng Sơn,True
+org:toa_an_nhan_dan_tinh_gia_lai,Tòa án nhân dân tỉnh Gia Lai,Cơ quan tư pháp,Tỉnh,Gia Lai,True
+org:toa_an_nhan_dan_tinh_phu_yen,Tòa án nhân dân tỉnh Phú Yên,Cơ quan tư pháp,Tỉnh,Phú Yên,True
+org:so_ngoai_vu_thanh_pho_ho_chi_minh,Sở Ngoại vụ thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:van_phong_thanh_uy_can_tho,Văn phòng Thành ủy Cần Thơ,Cơ quan Đảng tỉnh,Tỉnh,Cần Thơ,True
+org:ban_to_chuc_tinh_uy_lam_dong,Ban Tổ chức Tỉnh ủy Lâm Đồng,Cơ quan Đảng tỉnh,Tỉnh,Lâm Đồng,True
+org:bo_chi_huy_quan_su_tinh_quang_tri,Bộ Chỉ huy Quân sự tỉnh Quảng Trị,Lực lượng vũ trang,Tỉnh,Quảng Trị,True
+org:doan_dai_bieu_quoc_hoi_tinh_ninh_binh,Đoàn đại biểu Quốc hội tỉnh Ninh Bình,Đoàn ĐBQH tỉnh,Tỉnh,Ninh Bình,True
+org:so_noi_vu_tinh_phu_tho,Sở Nội vụ tỉnh Phú Thọ,Sở,Tỉnh,Phú Thọ,True
+org:so_noi_vu_thanh_pho_can_tho,Sở Nội vụ thành phố Cần Thơ,Sở,Tỉnh,Cần Thơ,True
+org:ban_tuyen_giao_thanh_uy_thanh_pho_ho_chi_minh,Ban Tuyên giáo Thành ủy Thành phố Hồ Chí Minh,Cơ quan Đảng tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:doan_dai_bieu_quoc_hoi_tinh_dien_bien,Đoàn đại biểu Quốc hội tỉnh Điện Biên,Đoàn ĐBQH tỉnh,Tỉnh,Điện Biên,True
+org:so_tai_chinh_thanh_pho_ho_chi_minh,Sở Tài chính thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:ban_quan_ly_du_an_dan_dung_va_phat_trien_do_thi_tinh_bac_ninh,Ban Quản lý dự án dân dụng và phát triển đô thị tỉnh Bắc Ninh,Cơ quan cấp tỉnh,Tỉnh,Bắc Ninh,True
+org:ban_quan_ly_du_an_giao_thong_va_nong_nghiep_tinh_bac_ninh,Ban Quản lý dự án giao thông và nông nghiệp tỉnh Bắc Ninh,Cơ quan cấp tỉnh,Tỉnh,Bắc Ninh,True
+org:thanh_tra_tinh_quang_ngai,Thanh tra tỉnh Quảng Ngãi,Cơ quan cấp tỉnh,Tỉnh,Quảng Ngãi,True
+org:so_xay_dung_thanh_pho_da_nang,Sở Xây dựng thành phố Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:so_cong_thuong_tinh_lao_cai,Sở Công Thương tỉnh Lào Cai,Sở,Tỉnh,Lào Cai,True
+org:so_cong_thuong_tinh_vinh_long,Sở Công Thương tỉnh Vĩnh Long,Sở,Tỉnh,Vĩnh Long,True
+org:so_cong_thuong_thanh_pho_hai_phong,Sở Công Thương thành phố Hải Phòng,Sở,Tỉnh,Hải Phòng,True
+org:van_phong_uy_ban_nhan_dan_tinh_lang_son,Văn phòng Ủy ban nhân dân tỉnh Lạng Sơn,Cơ quan cấp tỉnh,Tỉnh,Lạng Sơn,True
+org:so_xay_dung_thanh_pho_ho_chi_minh,Sở Xây dựng thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:so_cong_thuong_tinh_dak_lak,Sở Công Thương tỉnh Đắk Lắk,Sở,Tỉnh,Đắk Lắk,True
+org:so_tai_chinh_tinh_quang_tri,Sở Tài chính tỉnh Quảng Trị,Sở,Tỉnh,Quảng Trị,True
+org:thanh_tra_tinh_quang_tri,Thanh tra tỉnh Quảng Trị,Cơ quan cấp tỉnh,Tỉnh,Quảng Trị,True
+org:so_cong_thuong_tinh_quang_ngai,Sở Công Thương tỉnh Quảng Ngãi,Sở,Tỉnh,Quảng Ngãi,True
+org:so_cong_thuong_tinh_bac_ninh,Sở Công Thương tỉnh Bắc Ninh,Sở,Tỉnh,Bắc Ninh,True
+org:bo_chi_huy_quan_su_tinh_dong_nai,Bộ Chỉ huy Quân sự tỉnh Đồng Nai,Lực lượng vũ trang,Tỉnh,Đồng Nai,True
+org:so_dan_toc_va_ton_giao_tinh_tuyen_quang,Sở Dân tộc và Tôn giáo tỉnh Tuyên Quang,Sở,Tỉnh,Tuyên Quang,True
+org:ban_tuyen_giao_thanh_uy_ha_noi,Ban Tuyên giáo Thành ủy Hà Nội,Cơ quan Đảng tỉnh,Tỉnh,Hà Nội,True
+org:so_y_te_tinh_ca_mau,Sở Y tế tỉnh Cà Mau,Sở,Tỉnh,Cà Mau,True
+org:so_y_te_tinh_nghe_an,Sở Y tế tỉnh Nghệ An,Sở,Tỉnh,Nghệ An,True
+org:so_tu_phap_thanh_pho_ha_noi,Sở Tư pháp thành phố Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:ban_quan_ly_khu_kinh_te_tinh_cao_bang,Ban Quản lý Khu kinh tế tỉnh Cao Bằng,Cơ quan cấp tỉnh,Tỉnh,Cao Bằng,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_nghe_an,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Nghệ An,Mặt trận & đoàn thể,Tỉnh,Nghệ An,True
+org:so_nong_nghiep_va_moi_truong_tinh_cao_bang,Sở Nông nghiệp và Môi trường tỉnh Cao Bằng,Sở,Tỉnh,Cao Bằng,True
+org:van_phong_uy_ban_nhan_dan_tinh_ca_mau,Văn phòng Ủy ban nhân dân tỉnh Cà Mau,Cơ quan cấp tỉnh,Tỉnh,Cà Mau,True
+org:so_nong_nghiep_va_moi_truong_tinh_vinh_long,Sở Nông nghiệp và Môi trường tỉnh Vĩnh Long,Sở,Tỉnh,Vĩnh Long,True
+org:so_giao_duc_va_dao_tao_thanh_pho_ho_chi_minh,Sở Giáo dục và Đào tạo thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:so_giao_duc_va_dao_tao_thanh_pho_ha_noi,Sở Giáo dục và Đào tạo thành phố Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:toa_an_nhan_dan_tinh_binh_duong,Tòa án nhân dân tỉnh Bình Dương,Cơ quan tư pháp,Tỉnh,Bình Dương,True
+org:so_tai_nguyen_va_moi_truong_tinh_binh_duong,Sở Tài nguyên và Môi trường tỉnh Bình Dương,Sở,Tỉnh,Bình Dương,True
+org:thanh_tra_thanh_pho_ho_chi_minh,Thanh tra thành phố Hồ Chí Minh,Cơ quan cấp tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:so_khoa_hoc_va_cong_nghe_thanh_pho_hue,Sở Khoa học và Công nghệ thành phố Huế,Sở,Tỉnh,Huế,True
+org:ban_to_chuc_thanh_uy_ha_noi,Ban Tổ chức Thành ủy Hà Nội,Cơ quan Đảng tỉnh,Tỉnh,Hà Nội,True
+org:doan_dai_bieu_quoc_hoi_tinh_dak_lak,Đoàn đại biểu Quốc hội tỉnh Đắk Lắk,Đoàn ĐBQH tỉnh,Tỉnh,Đắk Lắk,True
+org:doan_dai_bieu_quoc_hoi_tinh_lang_son,Đoàn đại biểu Quốc hội tỉnh Lạng Sơn,Đoàn ĐBQH tỉnh,Tỉnh,Lạng Sơn,True
+org:so_cong_thuong_tinh_ca_mau,Sở Công Thương tỉnh Cà Mau,Sở,Tỉnh,Cà Mau,True
+org:so_nong_nghiep_va_moi_truong_tinh_an_giang,Sở Nông nghiệp và Môi trường tỉnh An Giang,Sở,Tỉnh,An Giang,True
+org:so_nong_nghiep_va_moi_truong_tinh_ca_mau,Sở Nông nghiệp và Môi trường tỉnh Cà Mau,Sở,Tỉnh,Cà Mau,True
+org:so_nong_nghiep_va_moi_truong_tinh_ha_tinh,Sở Nông nghiệp và Môi trường tỉnh Hà Tĩnh,Sở,Tỉnh,Hà Tĩnh,True
+org:so_nong_nghiep_va_moi_truong_tinh_dak_lak,Sở Nông nghiệp và Môi trường tỉnh Đắk Lắk,Sở,Tỉnh,Đắk Lắk,True
+org:so_xay_dung_tinh_gia_lai,Sở Xây dựng tỉnh Gia Lai,Sở,Tỉnh,Gia Lai,True
+org:doan_dai_bieu_quoc_hoi_thanh_pho_hue,Đoàn đại biểu Quốc hội thành phố Huế,Đoàn ĐBQH tỉnh,Tỉnh,Huế,True
+org:so_van_hoa_va_the_thao_thanh_pho_ha_noi,Sở Văn hóa và Thể thao thành phố Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:so_khoa_hoc_va_cong_nghe_tinh_phu_tho,Sở Khoa học và Công nghệ tỉnh Phú Thọ,Sở,Tỉnh,Phú Thọ,True
+org:so_khoa_hoc_va_cong_nghe_tinh_dong_nai,Sở Khoa học và Công nghệ tỉnh Đồng Nai,Sở,Tỉnh,Đồng Nai,True
+org:so_khoa_hoc_va_cong_nghe_tinh_hung_yen,Sở Khoa học và Công nghệ tỉnh Hưng Yên,Sở,Tỉnh,Hưng Yên,True
+org:so_khoa_hoc_va_cong_nghe_thanh_pho_da_nang,Sở Khoa học và Công nghệ thành phố Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:uy_ban_kiem_tra_tinh_uy_quang_tri,Ủy ban Kiểm tra Tỉnh ủy Quảng Trị,Cơ quan Đảng tỉnh,Tỉnh,Quảng Trị,True
+org:toa_an_nhan_dan_tinh_quang_tri,Tòa án nhân dân tỉnh Quảng Trị,Cơ quan tư pháp,Tỉnh,Quảng Trị,True
+org:so_y_te_thanh_pho_ho_chi_minh,Sở Y tế thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:bo_chi_huy_quan_su_thanh_pho_da_nang,Bộ Chỉ huy Quân sự thành phố Đà Nẵng,Lực lượng vũ trang,Tỉnh,Đà Nẵng,True
+org:so_dan_toc_va_ton_giao_tinh_cao_bang,Sở Dân tộc và Tôn giáo tỉnh Cao Bằng,Sở,Tỉnh,Cao Bằng,True
+org:cong_an_tinh_tra_vinh,Công an tỉnh Trà Vinh,Công an tỉnh,Tỉnh,Trà Vinh,True
+org:ban_to_chuc_tinh_uy_quang_ngai,Ban Tổ chức Tỉnh ủy Quảng Ngãi,Cơ quan Đảng tỉnh,Tỉnh,Quảng Ngãi,True
+org:so_dan_toc_va_ton_giao_tinh_an_giang,Sở Dân tộc và Tôn giáo tỉnh An Giang,Sở,Tỉnh,An Giang,True
+org:van_phong_uy_ban_nhan_dan_tinh_lao_cai,Văn phòng Ủy ban nhân dân tỉnh Lào Cai,Cơ quan cấp tỉnh,Tỉnh,Lào Cai,True
+org:so_noi_vu_tinh_quang_tri,Sở Nội vụ tỉnh Quảng Trị,Sở,Tỉnh,Quảng Trị,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_bac_ninh,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Bắc Ninh,Mặt trận & đoàn thể,Tỉnh,Bắc Ninh,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_bac_ninh,Ban Quản lý các khu công nghiệp tỉnh Bắc Ninh,Cơ quan cấp tỉnh,Tỉnh,Bắc Ninh,True
+org:cong_an_tinh_quang_ngai,Công an tỉnh Quảng Ngãi,Công an tỉnh,Tỉnh,Quảng Ngãi,True
+org:ban_tuyen_giao_va_dan_van_tinh_uy_quang_ninh,Ban Tuyên giáo và Dân vận Tỉnh ủy Quảng Ninh,Cơ quan Đảng tỉnh,Tỉnh,Quảng Ninh,True
+org:ban_tuyen_giao_tinh_uy_quang_ninh,Ban Tuyên giáo Tỉnh ủy Quảng Ninh,Cơ quan Đảng tỉnh,Tỉnh,Quảng Ninh,True
+org:so_van_hoa_the_thao_va_du_lich_thanh_pho_da_nang,"Sở Văn hóa, Thể thao và Du lịch thành phố Đà Nẵng",Sở,Tỉnh,Đà Nẵng,True
+org:ban_tuyen_giao_thanh_uy_hai_phong,Ban Tuyên giáo Thành ủy Hải Phòng,Cơ quan Đảng tỉnh,Tỉnh,Hải Phòng,True
+org:doan_dai_bieu_quoc_hoi_tinh_quang_ninh,Đoàn đại biểu Quốc hội tỉnh Quảng Ninh,Đoàn ĐBQH tỉnh,Tỉnh,Quảng Ninh,True
+org:van_phong_uy_ban_nhan_dan_thanh_pho_da_nang,Văn phòng Ủy ban nhân dân thành phố Đà Nẵng,Cơ quan cấp tỉnh,Tỉnh,Đà Nẵng,True
+org:so_xay_dung_thanh_pho_hue,Sở Xây dựng thành phố Huế,Sở,Tỉnh,Huế,True
+org:so_nong_nghiep_va_moi_truong_thanh_pho_da_nang,Sở Nông nghiệp và Môi trường thành phố Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:ban_tuyen_giao_thanh_uy_can_tho,Ban Tuyên giáo Thành ủy Cần Thơ,Cơ quan Đảng tỉnh,Tỉnh,Cần Thơ,True
+org:so_van_hoa_the_thao_va_du_lich_thanh_pho_can_tho,"Sở Văn hóa, Thể thao và Du lịch thành phố Cần Thơ",Sở,Tỉnh,Cần Thơ,True
+org:so_khoa_hoc_va_cong_nghe_thanh_pho_can_tho,Sở Khoa học và Công nghệ thành phố Cần Thơ,Sở,Tỉnh,Cần Thơ,True
+org:so_tai_chinh_tinh_gia_lai,Sở Tài chính tỉnh Gia Lai,Sở,Tỉnh,Gia Lai,True
+org:so_y_te_tinh_ninh_binh,Sở Y tế tỉnh Ninh Bình,Sở,Tỉnh,Ninh Bình,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_lai_chau,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Lai Châu,Mặt trận & đoàn thể,Tỉnh,Lai Châu,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_lao_cai,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Lào Cai,Mặt trận & đoàn thể,Tỉnh,Lào Cai,True
+org:bo_chi_huy_quan_su_tinh_lao_cai,Bộ Chỉ huy Quân sự tỉnh Lào Cai,Lực lượng vũ trang,Tỉnh,Lào Cai,True
+org:doan_dai_bieu_quoc_hoi_tinh_phu_tho,Đoàn đại biểu Quốc hội tỉnh Phú Thọ,Đoàn ĐBQH tỉnh,Tỉnh,Phú Thọ,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_tuyen_quang,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Tuyên Quang,Mặt trận & đoàn thể,Tỉnh,Tuyên Quang,True
+org:so_cong_thuong_tinh_tuyen_quang,Sở Công Thương tỉnh Tuyên Quang,Sở,Tỉnh,Tuyên Quang,True
+org:cong_an_tinh_tuyen_quang,Công an tỉnh Tuyên Quang,Công an tỉnh,Tỉnh,Tuyên Quang,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_thai_nguyen,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Thái Nguyên,Mặt trận & đoàn thể,Tỉnh,Thái Nguyên,True
+org:ban_to_chuc_tinh_uy_thai_nguyen,Ban Tổ chức Tỉnh ủy Thái Nguyên,Cơ quan Đảng tỉnh,Tỉnh,Thái Nguyên,True
+org:so_nong_nghiep_va_moi_truong_tinh_thai_nguyen,Sở Nông nghiệp và Môi trường tỉnh Thái Nguyên,Sở,Tỉnh,Thái Nguyên,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_phu_tho,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Phú Thọ,Mặt trận & đoàn thể,Tỉnh,Phú Thọ,True
+org:so_giao_duc_va_dao_tao_tinh_phu_tho,Sở Giáo dục và Đào tạo tỉnh Phú Thọ,Sở,Tỉnh,Phú Thọ,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_phu_tho,"Sở Văn hóa, Thể thao và Du lịch tỉnh Phú Thọ",Sở,Tỉnh,Phú Thọ,True
+org:so_tai_chinh_tinh_hoa_binh,Sở Tài chính tỉnh Hòa Bình,Sở,Tỉnh,Hòa Bình,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_dong_nai,"Sở Văn hóa, Thể thao và Du lịch tỉnh Đồng Nai",Sở,Tỉnh,Đồng Nai,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_quang_ninh,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Quảng Ninh,Mặt trận & đoàn thể,Tỉnh,Quảng Ninh,True
+org:so_nong_nghiep_va_moi_truong_tinh_dong_thap,Sở Nông nghiệp và Môi trường tỉnh Đồng Tháp,Sở,Tỉnh,Đồng Tháp,True
+org:van_phong_uy_ban_nhan_dan_thanh_pho_ho_chi_minh,Văn phòng Ủy ban nhân dân thành phố Hồ Chí Minh,Cơ quan cấp tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:ban_to_chuc_thanh_uy_hai_phong,Ban Tổ chức Thành ủy Hải Phòng,Cơ quan Đảng tỉnh,Tỉnh,Hải Phòng,True
+org:so_y_te_tinh_tay_ninh,Sở Y tế tỉnh Tây Ninh,Sở,Tỉnh,Tây Ninh,True
+org:uy_ban_kiem_tra_thanh_uy_da_nang,Ủy ban Kiểm tra Thành ủy Đà Nẵng,Cơ quan Đảng tỉnh,Tỉnh,Đà Nẵng,True
+org:so_cong_thuong_thanh_pho_da_nang,Sở Công Thương thành phố Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:bo_chi_huy_quan_su_thanh_pho_can_tho,Bộ Chỉ huy Quân sự thành phố Cần Thơ,Lực lượng vũ trang,Tỉnh,Cần Thơ,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_ha_tinh,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Hà Tĩnh,Mặt trận & đoàn thể,Tỉnh,Hà Tĩnh,True
+org:so_noi_vu_tinh_lao_cai,Sở Nội vụ tỉnh Lào Cai,Sở,Tỉnh,Lào Cai,True
+org:doan_dai_bieu_quoc_hoi_tinh_ha_tinh,Đoàn đại biểu Quốc hội tỉnh Hà Tĩnh,Đoàn ĐBQH tỉnh,Tỉnh,Hà Tĩnh,True
+org:so_xay_dung_tinh_lang_son,Sở Xây dựng tỉnh Lạng Sơn,Sở,Tỉnh,Lạng Sơn,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_cao_bang,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Cao Bằng,Mặt trận & đoàn thể,Tỉnh,Cao Bằng,True
+org:bo_chi_huy_quan_su_tinh_dien_bien,Bộ Chỉ huy Quân sự tỉnh Điện Biên,Lực lượng vũ trang,Tỉnh,Điện Biên,True
+org:so_giao_duc_va_dao_tao_tinh_dien_bien,Sở Giáo dục và Đào tạo tỉnh Điện Biên,Sở,Tỉnh,Điện Biên,True
+org:so_khoa_hoc_va_cong_nghe_tinh_lai_chau,Sở Khoa học và Công nghệ tỉnh Lai Châu,Sở,Tỉnh,Lai Châu,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_lai_chau,"Sở Văn hóa, Thể thao và Du lịch tỉnh Lai Châu",Sở,Tỉnh,Lai Châu,True
+org:so_dan_toc_va_ton_giao_tinh_lai_chau,Sở Dân tộc và Tôn giáo tỉnh Lai Châu,Sở,Tỉnh,Lai Châu,True
+org:doan_dai_bieu_quoc_hoi_tinh_son_la,Đoàn đại biểu Quốc hội tỉnh Sơn La,Đoàn ĐBQH tỉnh,Tỉnh,Sơn La,True
+org:ban_quan_ly_du_an_dau_tu_xay_dung_tinh_khanh_hoa,Ban Quản lý dự án đầu tư xây dựng tỉnh Khánh Hòa,Cơ quan cấp tỉnh,Tỉnh,Khánh Hòa,True
+org:so_tai_chinh_tinh_hung_yen,Sở Tài chính tỉnh Hưng Yên,Sở,Tỉnh,Hưng Yên,True
+org:ban_noi_chinh_tinh_uy_ninh_binh,Ban Nội chính Tỉnh ủy Ninh Bình,Cơ quan Đảng tỉnh,Tỉnh,Ninh Bình,True
+org:ban_to_chuc_tinh_uy_ninh_binh,Ban Tổ chức Tỉnh ủy Ninh Bình,Cơ quan Đảng tỉnh,Tỉnh,Ninh Bình,True
+org:so_nong_nghiep_va_moi_truong_tinh_ninh_binh,Sở Nông nghiệp và Môi trường tỉnh Ninh Bình,Sở,Tỉnh,Ninh Bình,True
+org:so_du_lich_tinh_ninh_binh,Sở Du lịch tỉnh Ninh Bình,Sở,Tỉnh,Ninh Bình,True
+org:so_nong_nghiep_va_moi_truong_tinh_thanh_hoa,Sở Nông nghiệp và Môi trường tỉnh Thanh Hóa,Sở,Tỉnh,Thanh Hóa,True
+org:ban_quan_ly_du_an_giao_thong_va_nong_nghiep_thanh_pho_hue,Ban Quản lý dự án giao thông và nông nghiệp thành phố Huế,Cơ quan cấp tỉnh,Tỉnh,Huế,True
+org:so_tai_chinh_tinh_thanh_hoa,Sở Tài chính tỉnh Thanh Hóa,Sở,Tỉnh,Thanh Hóa,True
+org:vien_kiem_sat_nhan_dan_tinh_nghe_an,Viện kiểm sát nhân dân tỉnh Nghệ An,Cơ quan tư pháp,Tỉnh,Nghệ An,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_quang_tri,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Quảng Trị,Mặt trận & đoàn thể,Tỉnh,Quảng Trị,True
+org:doan_dai_bieu_quoc_hoi_tinh_quang_tri,Đoàn đại biểu Quốc hội tỉnh Quảng Trị,Đoàn ĐBQH tỉnh,Tỉnh,Quảng Trị,True
+org:van_phong_uy_ban_nhan_dan_tinh_quang_tri,Văn phòng Ủy ban nhân dân tỉnh Quảng Trị,Cơ quan cấp tỉnh,Tỉnh,Quảng Trị,True
+org:so_nong_nghiep_va_moi_truong_tinh_gia_lai,Sở Nông nghiệp và Môi trường tỉnh Gia Lai,Sở,Tỉnh,Gia Lai,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_gia_lai,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Gia Lai,Mặt trận & đoàn thể,Tỉnh,Gia Lai,True
+org:van_phong_tinh_uy_gia_lai,Văn phòng Tỉnh ủy Gia Lai,Cơ quan Đảng tỉnh,Tỉnh,Gia Lai,True
+org:so_nong_nghiep_va_phat_trien_nong_thon_tinh_binh_dinh,Sở Nông nghiệp và Phát triển nông thôn tỉnh Bình Định,Sở,Tỉnh,Bình Định,True
+org:so_noi_vu_tinh_dak_lak,Sở Nội vụ tỉnh Đắk Lắk,Sở,Tỉnh,Đắk Lắk,True
+org:van_phong_uy_ban_nhan_dan_tinh_dak_lak,Văn phòng Ủy ban nhân dân tỉnh Đắk Lắk,Cơ quan cấp tỉnh,Tỉnh,Đắk Lắk,True
+org:so_tai_chinh_tinh_dak_lak,Sở Tài chính tỉnh Đắk Lắk,Sở,Tỉnh,Đắk Lắk,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_khanh_hoa,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Khánh Hòa,Mặt trận & đoàn thể,Tỉnh,Khánh Hòa,True
+org:so_noi_vu_tinh_khanh_hoa,Sở Nội vụ tỉnh Khánh Hòa,Sở,Tỉnh,Khánh Hòa,True
+org:so_nong_nghiep_va_moi_truong_tinh_khanh_hoa,Sở Nông nghiệp và Môi trường tỉnh Khánh Hòa,Sở,Tỉnh,Khánh Hòa,True
+org:so_cong_thuong_tinh_lam_dong,Sở Công Thương tỉnh Lâm Đồng,Sở,Tỉnh,Lâm Đồng,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_tay_ninh,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Tây Ninh,Mặt trận & đoàn thể,Tỉnh,Tây Ninh,True
+org:so_cong_thuong_tinh_dak_nong,Sở Công Thương tỉnh Đắk Nông,Sở,Tỉnh,Đắk Nông,True
+org:thanh_tra_tinh_lam_dong,Thanh tra tỉnh Lâm Đồng,Cơ quan cấp tỉnh,Tỉnh,Lâm Đồng,True
+org:so_xay_dung_tinh_binh_phuoc,Sở Xây dựng tỉnh Bình Phước,Sở,Tỉnh,Bình Phước,True
+org:so_khoa_hoc_va_cong_nghe_tinh_tay_ninh,Sở Khoa học và Công nghệ tỉnh Tây Ninh,Sở,Tỉnh,Tây Ninh,True
+org:so_nong_nghiep_va_moi_truong_tinh_tay_ninh,Sở Nông nghiệp và Môi trường tỉnh Tây Ninh,Sở,Tỉnh,Tây Ninh,True
+org:so_cong_thuong_tinh_tay_ninh,Sở Công Thương tỉnh Tây Ninh,Sở,Tỉnh,Tây Ninh,True
+org:so_y_te_tinh_dong_thap,Sở Y tế tỉnh Đồng Tháp,Sở,Tỉnh,Đồng Tháp,True
+org:so_tai_chinh_tinh_dong_thap,Sở Tài chính tỉnh Đồng Tháp,Sở,Tỉnh,Đồng Tháp,True
+org:thanh_tra_tinh_dong_thap,Thanh tra tỉnh Đồng Tháp,Cơ quan cấp tỉnh,Tỉnh,Đồng Tháp,True
+org:ban_quan_ly_khu_kinh_te_tinh_dong_thap,Ban Quản lý Khu kinh tế tỉnh Đồng Tháp,Cơ quan cấp tỉnh,Tỉnh,Đồng Tháp,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_dong_thap,"Sở Văn hóa, Thể thao và Du lịch tỉnh Đồng Tháp",Sở,Tỉnh,Đồng Tháp,True
+org:so_tu_phap_tinh_an_giang,Sở Tư pháp tỉnh An Giang,Sở,Tỉnh,An Giang,True
+org:ban_quan_ly_khu_kinh_te_tinh_an_giang,Ban Quản lý Khu kinh tế tỉnh An Giang,Cơ quan cấp tỉnh,Tỉnh,An Giang,True
+org:thanh_tra_tinh_an_giang,Thanh tra tỉnh An Giang,Cơ quan cấp tỉnh,Tỉnh,An Giang,True
+org:ban_quan_ly_du_an_nong_nghiep_tinh_vinh_long,Ban Quản lý dự án nông nghiệp tỉnh Vĩnh Long,Cơ quan cấp tỉnh,Tỉnh,Vĩnh Long,True
+org:bo_chi_huy_quan_su_tinh_vinh_long,Bộ Chỉ huy Quân sự tỉnh Vĩnh Long,Lực lượng vũ trang,Tỉnh,Vĩnh Long,True
+org:so_khoa_hoc_va_cong_nghe_tinh_ca_mau,Sở Khoa học và Công nghệ tỉnh Cà Mau,Sở,Tỉnh,Cà Mau,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_ca_mau,"Sở Văn hóa, Thể thao và Du lịch tỉnh Cà Mau",Sở,Tỉnh,Cà Mau,True
+org:so_dan_toc_va_ton_giao_tinh_ca_mau,Sở Dân tộc và Tôn giáo tỉnh Cà Mau,Sở,Tỉnh,Cà Mau,True
+org:so_nong_nghiep_va_moi_truong_tinh_dong_nai,Sở Nông nghiệp và Môi trường tỉnh Đồng Nai,Sở,Tỉnh,Đồng Nai,True
+org:ban_quan_ly_du_an_phat_trien_tinh_khanh_hoa,Ban Quản lý Dự án Phát triển tỉnh Khánh Hòa,Cơ quan cấp tỉnh,Tỉnh,Khánh Hòa,True
+org:so_khoa_hoc_va_cong_nghe_thanh_pho_ho_chi_minh,Sở Khoa học và Công nghệ thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:so_khoa_hoc_va_cong_nghe_tinh_bac_ninh,Sở Khoa học và Công nghệ tỉnh Bắc Ninh,Sở,Tỉnh,Bắc Ninh,True
+org:so_khoa_hoc_va_cong_nghe_tinh_gia_lai,Sở Khoa học và Công nghệ tỉnh Gia Lai,Sở,Tỉnh,Gia Lai,True
+org:so_giao_duc_va_dao_tao_tinh_lang_son,Sở Giáo dục và Đào tạo tỉnh Lạng Sơn,Sở,Tỉnh,Lạng Sơn,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_dien_bien,"Sở Văn hóa, Thể thao và Du lịch tỉnh Điện Biên",Sở,Tỉnh,Điện Biên,True
+org:so_van_hoa_the_thao_va_du_lich_thanh_pho_hai_phong,"Sở Văn hóa, Thể thao và Du lịch thành phố Hải Phòng",Sở,Tỉnh,Hải Phòng,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_lang_son,"Sở Văn hóa, Thể thao và Du lịch tỉnh Lạng Sơn",Sở,Tỉnh,Lạng Sơn,True
+org:so_van_hoa_the_thao_va_du_lich_thanh_pho_ha_noi,"Sở Văn hóa, Thể thao và Du lịch thành phố Hà Nội",Sở,Tỉnh,Hà Nội,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_lam_dong,"Sở Văn hóa, Thể thao và Du lịch tỉnh Lâm Đồng",Sở,Tỉnh,Lâm Đồng,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_hung_yen,"Sở Văn hóa, Thể thao và Du lịch tỉnh Hưng Yên",Sở,Tỉnh,Hưng Yên,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_ninh_binh,"Sở Văn hóa, Thể thao và Du lịch tỉnh Ninh Bình",Sở,Tỉnh,Ninh Bình,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_gia_lai,"Sở Văn hóa, Thể thao và Du lịch tỉnh Gia Lai",Sở,Tỉnh,Gia Lai,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_dak_lak,"Sở Văn hóa, Thể thao và Du lịch tỉnh Đắk Lắk",Sở,Tỉnh,Đắk Lắk,True
+org:so_dan_toc_va_ton_giao_thanh_pho_da_nang,Sở Dân tộc và Tôn giáo thành phố Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:so_dan_toc_va_ton_giao_tinh_phu_tho,Sở Dân tộc và Tôn giáo tỉnh Phú Thọ,Sở,Tỉnh,Phú Thọ,True
+org:so_khoa_hoc_va_cong_nghe_tinh_cao_bang,Sở Khoa học và Công nghệ tỉnh Cao Bằng,Sở,Tỉnh,Cao Bằng,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_lam_dong,Ban Quản lý các khu công nghiệp tỉnh Lâm Đồng,Cơ quan cấp tỉnh,Tỉnh,Lâm Đồng,True
+org:so_cong_thuong_thanh_pho_ha_noi,Sở Công Thương thành phố Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:so_tai_nguyen_va_moi_truong_tinh_ha_tinh,Sở Tài nguyên và Môi trường tỉnh Hà Tĩnh,Sở,Tỉnh,Hà Tĩnh,True
+org:so_cong_thuong_thanh_pho_can_tho,Sở Công Thương thành phố Cần Thơ,Sở,Tỉnh,Cần Thơ,True
+org:thanh_tra_tinh_dong_nai,Thanh tra tỉnh Đồng Nai,Cơ quan cấp tỉnh,Tỉnh,Đồng Nai,True
+org:so_van_hoa_the_thao_va_du_lich_thanh_pho_hue,"Sở Văn hóa, Thể thao và Du lịch thành phố Huế",Sở,Tỉnh,Huế,True
+org:ban_quan_ly_du_an_dau_tu_xay_dung_va_phat_trien_do_thi_thanh_pho_hue,Ban Quản lý dự án đầu tư xây dựng và Phát triển đô thị thành phố Huế,Cơ quan cấp tỉnh,Tỉnh,Huế,True
+org:ban_quan_ly_du_an_dau_tu_xay_dung_tinh_son_la,Ban Quản lý dự án đầu tư xây dựng tỉnh Sơn La,Cơ quan cấp tỉnh,Tỉnh,Sơn La,True
+org:toa_an_nhan_dan_thanh_pho_da_nang,Tòa án nhân dân thành phố Đà Nẵng,Cơ quan tư pháp,Tỉnh,Đà Nẵng,True
+org:toa_an_nhan_dan_thanh_pho_hai_phong,Tòa án nhân dân thành phố Hải Phòng,Cơ quan tư pháp,Tỉnh,Hải Phòng,True
+org:thanh_tra_tinh_khanh_hoa,Thanh tra tỉnh Khánh Hòa,Cơ quan cấp tỉnh,Tỉnh,Khánh Hòa,True
+org:ban_tuyen_giao_tinh_uy_gia_lai,Ban Tuyên giáo Tỉnh ủy Gia Lai,Cơ quan Đảng tỉnh,Tỉnh,Gia Lai,True
+org:so_khoa_hoc_va_cong_nghe_tinh_son_la,Sở Khoa học và Công nghệ tỉnh Sơn La,Sở,Tỉnh,Sơn La,True
+org:so_khoa_hoc_va_cong_nghe_tinh_lam_dong,Sở Khoa học và Công nghệ tỉnh Lâm Đồng,Sở,Tỉnh,Lâm Đồng,True
+org:so_noi_vu_thanh_pho_hue,Sở Nội vụ thành phố Huế,Sở,Tỉnh,Huế,True
+org:so_y_te_thanh_pho_hue,Sở Y tế thành phố Huế,Sở,Tỉnh,Huế,True
+org:so_noi_vu_thanh_pho_ho_chi_minh,Sở Nội vụ thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_lao_cai,"Sở Văn hóa, Thể thao và Du lịch tỉnh Lào Cai",Sở,Tỉnh,Lào Cai,True
+org:so_ngoai_vu_thanh_pho_hue,Sở Ngoại vụ thành phố Huế,Sở,Tỉnh,Huế,True
+org:bo_chi_huy_quan_su_thanh_pho_hue,Bộ Chỉ huy Quân sự thành phố Huế,Lực lượng vũ trang,Tỉnh,Huế,True
+org:ban_tuyen_giao_tinh_uy_lao_cai,Ban Tuyên giáo Tỉnh ủy Lào Cai,Cơ quan Đảng tỉnh,Tỉnh,Lào Cai,True
+org:so_y_te_tinh_phu_tho,Sở Y tế tỉnh Phú Thọ,Sở,Tỉnh,Phú Thọ,True
+org:so_tu_phap_tinh_phu_tho,Sở Tư pháp tỉnh Phú Thọ,Sở,Tỉnh,Phú Thọ,True
+org:so_xay_dung_tinh_phu_tho,Sở Xây dựng tỉnh Phú Thọ,Sở,Tỉnh,Phú Thọ,True
+org:ban_tuyen_giao_tinh_uy_dong_nai,Ban Tuyên giáo Tỉnh ủy Đồng Nai,Cơ quan Đảng tỉnh,Tỉnh,Đồng Nai,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_phu_tho,Ban Quản lý các khu công nghiệp tỉnh Phú Thọ,Cơ quan cấp tỉnh,Tỉnh,Phú Thọ,True
+org:doan_dai_bieu_quoc_hoi_tinh_vinh_phuc,Đoàn đại biểu Quốc hội tỉnh Vĩnh Phúc,Đoàn ĐBQH tỉnh,Tỉnh,Vĩnh Phúc,True
+org:so_cong_thuong_tinh_dong_thap,Sở Công Thương tỉnh Đồng Tháp,Sở,Tỉnh,Đồng Tháp,True
+org:so_khoa_hoc_va_cong_nghe_tinh_vinh_long,Sở Khoa học và Công nghệ tỉnh Vĩnh Long,Sở,Tỉnh,Vĩnh Long,True
+org:so_y_te_tinh_cao_bang,Sở Y tế tỉnh Cao Bằng,Sở,Tỉnh,Cao Bằng,True
+org:doan_dai_bieu_quoc_hoi_tinh_cao_bang,Đoàn đại biểu Quốc hội tỉnh Cao Bằng,Đoàn ĐBQH tỉnh,Tỉnh,Cao Bằng,True
+org:so_giao_duc_va_dao_tao_tinh_quang_ninh,Sở Giáo dục và Đào tạo tỉnh Quảng Ninh,Sở,Tỉnh,Quảng Ninh,True
+org:bo_chi_huy_quan_su_tinh_thai_nguyen,Bộ Chỉ huy Quân sự tỉnh Thái Nguyên,Lực lượng vũ trang,Tỉnh,Thái Nguyên,True
+org:toa_an_nhan_dan_tinh_quang_ninh,Tòa án nhân dân tỉnh Quảng Ninh,Cơ quan tư pháp,Tỉnh,Quảng Ninh,True
+org:so_nong_nghiep_va_moi_truong_thanh_pho_hai_phong,Sở Nông nghiệp và Môi trường thành phố Hải Phòng,Sở,Tỉnh,Hải Phòng,True
+org:so_nong_nghiep_va_moi_truong_tinh_hai_duong,Sở Nông nghiệp và Môi trường tỉnh Hải Dương,Sở,Tỉnh,Hải Dương,True
+org:van_phong_uy_ban_nhan_dan_tinh_thanh_hoa,Văn phòng Ủy ban nhân dân tỉnh Thanh Hóa,Cơ quan cấp tỉnh,Tỉnh,Thanh Hóa,True
+org:so_tai_nguyen_va_moi_truong_tinh_thanh_hoa,Sở Tài nguyên và Môi trường tỉnh Thanh Hóa,Sở,Tỉnh,Thanh Hóa,True
+org:ban_tuyen_giao_va_dan_van_thanh_uy_ha_noi,Ban Tuyên giáo và Dân vận Thành ủy Hà Nội,Cơ quan Đảng tỉnh,Tỉnh,Hà Nội,True
+org:bo_chi_huy_quan_su_tinh_quang_ninh,Bộ Chỉ huy Quân sự tỉnh Quảng Ninh,Lực lượng vũ trang,Tỉnh,Quảng Ninh,True
+org:bo_chi_huy_quan_su_tinh_khanh_hoa,Bộ Chỉ huy Quân sự tỉnh Khánh Hòa,Lực lượng vũ trang,Tỉnh,Khánh Hòa,True
+org:so_giao_duc_va_dao_tao_thanh_pho_hue,Sở Giáo dục và Đào tạo thành phố Huế,Sở,Tỉnh,Huế,True
+org:so_y_te_tinh_lao_cai,Sở Y tế tỉnh Lào Cai,Sở,Tỉnh,Lào Cai,True
+org:so_nong_nghiep_va_moi_truong_tinh_lao_cai,Sở Nông nghiệp và Môi trường tỉnh Lào Cai,Sở,Tỉnh,Lào Cai,True
+org:doan_dai_bieu_quoc_hoi_tinh_tuyen_quang,Đoàn đại biểu Quốc hội tỉnh Tuyên Quang,Đoàn ĐBQH tỉnh,Tỉnh,Tuyên Quang,True
+org:cong_an_tinh_thai_nguyen,Công an tỉnh Thái Nguyên,Công an tỉnh,Tỉnh,Thái Nguyên,True
+org:van_phong_tinh_uy_phu_tho,Văn phòng Tỉnh ủy Phú Thọ,Cơ quan Đảng tỉnh,Tỉnh,Phú Thọ,True
+org:vien_kiem_sat_nhan_dan_tinh_cao_bang,Viện kiểm sát nhân dân tỉnh Cao Bằng,Cơ quan tư pháp,Tỉnh,Cao Bằng,True
+org:so_tu_phap_tinh_dien_bien,Sở Tư pháp tỉnh Điện Biên,Sở,Tỉnh,Điện Biên,True
+org:doan_dai_bieu_quoc_hoi_tinh_bac_ninh,Đoàn đại biểu Quốc hội tỉnh Bắc Ninh,Đoàn ĐBQH tỉnh,Tỉnh,Bắc Ninh,True
+org:ban_to_chuc_tinh_uy_hung_yen,Ban Tổ chức Tỉnh ủy Hưng Yên,Cơ quan Đảng tỉnh,Tỉnh,Hưng Yên,True
+org:bo_chi_huy_quan_su_tinh_hung_yen,Bộ Chỉ huy Quân sự tỉnh Hưng Yên,Lực lượng vũ trang,Tỉnh,Hưng Yên,True
+org:ban_tuyen_giao_tinh_uy_thanh_hoa,Ban Tuyên giáo Tỉnh ủy Thanh Hóa,Cơ quan Đảng tỉnh,Tỉnh,Thanh Hóa,True
+org:vien_kiem_sat_nhan_dan_tinh_lao_cai,Viện kiểm sát nhân dân tỉnh Lào Cai,Cơ quan tư pháp,Tỉnh,Lào Cai,True
+org:so_xay_dung_tinh_quang_tri,Sở Xây dựng tỉnh Quảng Trị,Sở,Tỉnh,Quảng Trị,True
+org:so_tai_chinh_tinh_quang_ngai,Sở Tài chính tỉnh Quảng Ngãi,Sở,Tỉnh,Quảng Ngãi,True
+org:so_noi_vu_tinh_quang_ngai,Sở Nội vụ tỉnh Quảng Ngãi,Sở,Tỉnh,Quảng Ngãi,True
+org:so_dan_toc_va_ton_giao_tinh_dak_lak,Sở Dân tộc và Tôn giáo tỉnh Đắk Lắk,Sở,Tỉnh,Đắk Lắk,True
+org:so_xay_dung_tinh_dak_lak,Sở Xây dựng tỉnh Đắk Lắk,Sở,Tỉnh,Đắk Lắk,True
+org:bo_chi_huy_quan_su_tinh_dak_lak,Bộ Chỉ huy Quân sự tỉnh Đắk Lắk,Lực lượng vũ trang,Tỉnh,Đắk Lắk,True
+org:so_khoa_hoc_va_cong_nghe_tinh_dak_lak,Sở Khoa học và Công nghệ tỉnh Đắk Lắk,Sở,Tỉnh,Đắk Lắk,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_khanh_hoa,"Sở Văn hóa, Thể thao và Du lịch tỉnh Khánh Hòa",Sở,Tỉnh,Khánh Hòa,True
+org:so_cong_thuong_tinh_khanh_hoa,Sở Công Thương tỉnh Khánh Hòa,Sở,Tỉnh,Khánh Hòa,True
+org:so_xay_dung_tinh_khanh_hoa,Sở Xây dựng tỉnh Khánh Hòa,Sở,Tỉnh,Khánh Hòa,True
+org:vien_kiem_sat_nhan_dan_tinh_lam_dong,Viện kiểm sát nhân dân tỉnh Lâm Đồng,Cơ quan tư pháp,Tỉnh,Lâm Đồng,True
+org:so_noi_vu_tinh_lam_dong,Sở Nội vụ tỉnh Lâm Đồng,Sở,Tỉnh,Lâm Đồng,True
+org:so_xay_dung_tinh_lam_dong,Sở Xây dựng tỉnh Lâm Đồng,Sở,Tỉnh,Lâm Đồng,True
+org:doan_dai_bieu_quoc_hoi_tinh_long_an,Đoàn đại biểu Quốc hội tỉnh Long An,Đoàn ĐBQH tỉnh,Tỉnh,Long An,True
+org:vien_kiem_sat_nhan_dan_tinh_vinh_long,Viện kiểm sát nhân dân tỉnh Vĩnh Long,Cơ quan tư pháp,Tỉnh,Vĩnh Long,True
+org:van_phong_uy_ban_nhan_dan_tinh_dong_thap,Văn phòng Ủy ban nhân dân tỉnh Đồng Tháp,Cơ quan cấp tỉnh,Tỉnh,Đồng Tháp,True
+org:uy_ban_kiem_tra_tinh_uy_an_giang,Ủy ban Kiểm tra Tỉnh ủy An Giang,Cơ quan Đảng tỉnh,Tỉnh,An Giang,True
+org:ban_to_chuc_tinh_uy_vinh_long,Ban Tổ chức Tỉnh ủy Vĩnh Long,Cơ quan Đảng tỉnh,Tỉnh,Vĩnh Long,True
+org:so_noi_vu_tinh_an_giang,Sở Nội vụ tỉnh An Giang,Sở,Tỉnh,An Giang,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_vinh_long,"Sở Văn hóa, Thể thao và Du lịch tỉnh Vĩnh Long",Sở,Tỉnh,Vĩnh Long,True
+org:toa_an_nhan_dan_tinh_vinh_long,Tòa án nhân dân tỉnh Vĩnh Long,Cơ quan tư pháp,Tỉnh,Vĩnh Long,True
+org:so_noi_vu_tinh_vinh_long,Sở Nội vụ tỉnh Vĩnh Long,Sở,Tỉnh,Vĩnh Long,True
+org:vien_kiem_sat_nhan_dan_tinh_ca_mau,Viện kiểm sát nhân dân tỉnh Cà Mau,Cơ quan tư pháp,Tỉnh,Cà Mau,True
+org:so_xay_dung_tinh_tay_ninh,Sở Xây dựng tỉnh Tây Ninh,Sở,Tỉnh,Tây Ninh,True
+org:so_noi_vu_tinh_tay_ninh,Sở Nội vụ tỉnh Tây Ninh,Sở,Tỉnh,Tây Ninh,True
+org:so_giao_duc_va_dao_tao_tinh_tay_ninh,Sở Giáo dục và Đào tạo tỉnh Tây Ninh,Sở,Tỉnh,Tây Ninh,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_dong_nai,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Đồng Nai,Mặt trận & đoàn thể,Tỉnh,Đồng Nai,True
+org:ban_tuyen_giao_tinh_uy_hung_yen,Ban Tuyên giáo Tỉnh ủy Hưng Yên,Cơ quan Đảng tỉnh,Tỉnh,Hưng Yên,True
+org:ban_quan_ly_du_an_ha_tang_do_thi_thanh_pho_ho_chi_minh,Ban Quản lý dự án hạ tầng đô thị thành phố Hồ Chí Minh,Cơ quan cấp tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:van_phong_uy_ban_nhan_dan_thanh_pho_hue,Văn phòng Ủy ban nhân dân thành phố Huế,Cơ quan cấp tỉnh,Tỉnh,Huế,True
+org:so_tu_phap_tinh_hau_giang,Sở Tư pháp tỉnh Hậu Giang,Sở,Tỉnh,Hậu Giang,True
+org:so_ngoai_vu_thanh_pho_da_nang,Sở Ngoại vụ thành phố Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:ban_to_chuc_tinh_uy_kien_giang,Ban Tổ chức Tỉnh ủy Kiên Giang,Cơ quan Đảng tỉnh,Tỉnh,Kiên Giang,True
+org:ban_tuyen_giao_va_dan_van_tinh_uy_ca_mau,Ban Tuyên giáo và Dân vận Tỉnh ủy Cà Mau,Cơ quan Đảng tỉnh,Tỉnh,Cà Mau,True
+org:bo_chi_huy_quan_su_thanh_pho_ho_chi_minh,Bộ Chỉ huy Quân sự thành phố Hồ Chí Minh,Lực lượng vũ trang,Tỉnh,Thành phố Hồ Chí Minh,True
+org:ban_to_chuc_tinh_uy_an_giang,Ban Tổ chức Tỉnh ủy An Giang,Cơ quan Đảng tỉnh,Tỉnh,An Giang,True
+org:ban_noi_chinh_tinh_uy_quang_ninh,Ban Nội chính Tỉnh ủy Quảng Ninh,Cơ quan Đảng tỉnh,Tỉnh,Quảng Ninh,True
+org:bo_chi_huy_quan_su_tinh_nghe_an,Bộ Chỉ huy Quân sự tỉnh Nghệ An,Lực lượng vũ trang,Tỉnh,Nghệ An,True
+org:so_tu_phap_tinh_ha_tinh,Sở Tư pháp tỉnh Hà Tĩnh,Sở,Tỉnh,Hà Tĩnh,True
+org:ban_tuyen_giao_tinh_uy_hau_giang,Ban Tuyên giáo Tỉnh ủy Hậu Giang,Cơ quan Đảng tỉnh,Tỉnh,Hậu Giang,True
+org:toa_an_nhan_dan_tinh_khanh_hoa,Tòa án nhân dân tỉnh Khánh Hòa,Cơ quan tư pháp,Tỉnh,Khánh Hòa,True
+org:toa_an_nhan_dan_tinh_hung_yen,Tòa án nhân dân tỉnh Hưng Yên,Cơ quan tư pháp,Tỉnh,Hưng Yên,True
+org:van_phong_uy_ban_nhan_dan_thanh_pho_can_tho,Văn phòng Ủy ban nhân dân thành phố Cần Thơ,Cơ quan cấp tỉnh,Tỉnh,Cần Thơ,True
+org:uy_ban_kiem_tra_tinh_uy_quang_binh,Ủy ban Kiểm tra Tỉnh ủy Quảng Bình,Cơ quan Đảng tỉnh,Tỉnh,Quảng Bình,True
+org:so_tai_nguyen_va_moi_truong_tinh_quang_binh,Sở Tài nguyên và Môi trường tỉnh Quảng Bình,Sở,Tỉnh,Quảng Bình,True
+org:toa_an_nhan_dan_thanh_pho_can_tho,Tòa án nhân dân thành phố Cần Thơ,Cơ quan tư pháp,Tỉnh,Cần Thơ,True
+org:so_tai_chinh_thanh_pho_da_nang,Sở Tài chính thành phố Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:van_phong_tinh_uy_dong_thap,Văn phòng Tỉnh ủy Đồng Tháp,Cơ quan Đảng tỉnh,Tỉnh,Đồng Tháp,True
+org:bo_chi_huy_quan_su_tinh_phu_tho,Bộ Chỉ huy Quân sự tỉnh Phú Thọ,Lực lượng vũ trang,Tỉnh,Phú Thọ,True
+org:van_phong_thanh_uy_thanh_pho_ho_chi_minh,Văn phòng Thành ủy Thành phố Hồ Chí Minh,Cơ quan Đảng tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:doan_dai_bieu_quoc_hoi_tinh_phu_yen,Đoàn đại biểu Quốc hội tỉnh Phú Yên,Đoàn ĐBQH tỉnh,Tỉnh,Phú Yên,True
+org:thanh_tra_bo_cong_an,Thanh tra Bộ Công an,Đơn vị thuộc bộ,TW,,True
+org:so_xay_dung_thanh_pho_ha_noi,Sở Xây dựng thành phố Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:uy_ban_kiem_tra_tinh_uy_bac_ninh,Ủy ban Kiểm tra Tỉnh ủy Bắc Ninh,Cơ quan Đảng tỉnh,Tỉnh,Bắc Ninh,True
+org:doan_dai_bieu_quoc_hoi_tinh_quang_binh,Đoàn đại biểu Quốc hội tỉnh Quảng Bình,Đoàn ĐBQH tỉnh,Tỉnh,Quảng Bình,True
+org:ban_to_chuc_tinh_uy_dien_bien,Ban Tổ chức Tỉnh ủy Điện Biên,Cơ quan Đảng tỉnh,Tỉnh,Điện Biên,True
+org:so_tai_chinh_tinh_dien_bien,Sở Tài chính tỉnh Điện Biên,Sở,Tỉnh,Điện Biên,True
+org:ban_noi_chinh_tinh_uy_ha_tinh,Ban Nội chính Tỉnh ủy Hà Tĩnh,Cơ quan Đảng tỉnh,Tỉnh,Hà Tĩnh,True
+org:so_ke_hoach_va_dau_tu_tinh_thua_thien_hue,Sở Kế hoạch và Đầu tư tỉnh Thừa Thiên Huế,Sở,Tỉnh,Thừa Thiên Huế,True
+org:so_lao_dong_thuong_binh_va_xa_hoi_tinh_vinh_long,Sở Lao động - Thương binh và Xã hội tỉnh Vĩnh Long,Sở,Tỉnh,Vĩnh Long,True
+org:van_phong_tinh_uy_vinh_long,Văn phòng Tỉnh ủy Vĩnh Long,Cơ quan Đảng tỉnh,Tỉnh,Vĩnh Long,True
+org:so_ke_hoach_va_dau_tu_tinh_dong_nai,Sở Kế hoạch và Đầu tư tỉnh Đồng Nai,Sở,Tỉnh,Đồng Nai,True
+org:bo_chi_huy_quan_su_tinh_binh_dinh,Bộ Chỉ huy Quân sự tỉnh Bình Định,Lực lượng vũ trang,Tỉnh,Bình Định,True
+org:thanh_tra_tinh_nam_dinh,Thanh tra tỉnh Nam Định,Cơ quan cấp tỉnh,Tỉnh,Nam Định,True
+org:thanh_tra_tinh_ha_nam,Thanh tra tỉnh Hà Nam,Cơ quan cấp tỉnh,Tỉnh,Hà Nam,True
+org:uy_ban_kiem_tra_tinh_uy_ha_nam,Ủy ban Kiểm tra Tỉnh ủy Hà Nam,Cơ quan Đảng tỉnh,Tỉnh,Hà Nam,True
+org:so_xay_dung_tinh_quang_ngai,Sở Xây dựng tỉnh Quảng Ngãi,Sở,Tỉnh,Quảng Ngãi,True
+org:van_phong_tinh_uy_binh_dinh,Văn phòng Tỉnh ủy Bình Định,Cơ quan Đảng tỉnh,Tỉnh,Bình Định,True
+org:van_phong_uy_ban_nhan_dan_tinh_binh_dinh,Văn phòng Ủy ban nhân dân tỉnh Bình Định,Cơ quan cấp tỉnh,Tỉnh,Bình Định,True
+org:ban_noi_chinh_tinh_uy_phu_tho,Ban Nội chính Tỉnh ủy Phú Thọ,Cơ quan Đảng tỉnh,Tỉnh,Phú Thọ,True
+org:so_tai_chinh_thanh_pho_ha_noi,Sở Tài chính thành phố Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:van_phong_thanh_uy_ha_noi,Văn phòng Thành ủy Hà Nội,Cơ quan Đảng tỉnh,Tỉnh,Hà Nội,True
+org:thanh_tra_thanh_pho_ha_noi,Thanh tra thành phố Hà Nội,Cơ quan cấp tỉnh,Tỉnh,Hà Nội,True
+org:uy_ban_kiem_tra_tinh_uy_dien_bien,Ủy ban Kiểm tra Tỉnh ủy Điện Biên,Cơ quan Đảng tỉnh,Tỉnh,Điện Biên,True
+org:so_dan_toc_va_ton_giao_thanh_pho_ho_chi_minh,Sở Dân tộc và Tôn giáo thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:uy_ban_kiem_tra_tinh_uy_tay_ninh,Ủy ban Kiểm tra Tỉnh ủy Tây Ninh,Cơ quan Đảng tỉnh,Tỉnh,Tây Ninh,True
+org:so_tai_chinh_tinh_hau_giang,Sở Tài chính tỉnh Hậu Giang,Sở,Tỉnh,Hậu Giang,True
+org:van_phong_uy_ban_nhan_dan_tinh_hau_giang,Văn phòng Ủy ban nhân dân tỉnh Hậu Giang,Cơ quan cấp tỉnh,Tỉnh,Hậu Giang,True
+org:bo_chi_huy_quan_su_tinh_dak_nong,Bộ Chỉ huy Quân sự tỉnh Đắk Nông,Lực lượng vũ trang,Tỉnh,Đắk Nông,True
+org:uy_ban_kiem_tra_tinh_uy_ninh_binh,Ủy ban Kiểm tra Tỉnh ủy Ninh Bình,Cơ quan Đảng tỉnh,Tỉnh,Ninh Bình,True
+org:thanh_tra_thanh_pho_can_tho,Thanh tra thành phố Cần Thơ,Cơ quan cấp tỉnh,Tỉnh,Cần Thơ,True
+org:so_tai_nguyen_va_moi_truong_tinh_bac_lieu,Sở Tài nguyên và Môi trường tỉnh Bạc Liêu,Sở,Tỉnh,Bạc Liêu,True
+org:so_y_te_tinh_bac_lieu,Sở Y tế tỉnh Bạc Liêu,Sở,Tỉnh,Bạc Liêu,True
+org:ban_tuyen_giao_va_dan_van_thanh_uy_can_tho,Ban Tuyên giáo và Dân vận Thành ủy Cần Thơ,Cơ quan Đảng tỉnh,Tỉnh,Cần Thơ,True
+org:van_phong_tinh_uy_khanh_hoa,Văn phòng Tỉnh ủy Khánh Hòa,Cơ quan Đảng tỉnh,Tỉnh,Khánh Hòa,True
+org:thanh_tra_bo_tai_chinh,Thanh tra Bộ Tài chính,Đơn vị thuộc bộ,TW,,True
+org:van_phong_uy_ban_nhan_dan_tinh_nghe_an,Văn phòng Ủy ban nhân dân tỉnh Nghệ An,Cơ quan cấp tỉnh,Tỉnh,Nghệ An,True
+org:ban_quan_ly_khu_kinh_te_tinh_tay_ninh,Ban Quản lý Khu kinh tế tỉnh Tây Ninh,Cơ quan cấp tỉnh,Tỉnh,Tây Ninh,True
+org:so_noi_vu_tinh_quang_ninh,Sở Nội vụ tỉnh Quảng Ninh,Sở,Tỉnh,Quảng Ninh,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_dak_lak,Ban Quản lý các khu công nghiệp tỉnh Đắk Lắk,Cơ quan cấp tỉnh,Tỉnh,Đắk Lắk,True
+org:so_xay_dung_tinh_cao_bang,Sở Xây dựng tỉnh Cao Bằng,Sở,Tỉnh,Cao Bằng,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_quang_nam,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Quảng Nam,Mặt trận & đoàn thể,Tỉnh,Quảng Nam,True
+org:so_tai_chinh_tinh_ha_tinh,Sở Tài chính tỉnh Hà Tĩnh,Sở,Tỉnh,Hà Tĩnh,True
+org:uy_ban_kiem_tra_tinh_uy_thai_nguyen,Ủy ban Kiểm tra Tỉnh ủy Thái Nguyên,Cơ quan Đảng tỉnh,Tỉnh,Thái Nguyên,True
+org:thanh_tra_tinh_thai_nguyen,Thanh tra tỉnh Thái Nguyên,Cơ quan cấp tỉnh,Tỉnh,Thái Nguyên,True
+org:so_noi_vu_tinh_tuyen_quang,Sở Nội vụ tỉnh Tuyên Quang,Sở,Tỉnh,Tuyên Quang,True
+org:thanh_tra_bo_quoc_phong,Thanh tra Bộ Quốc phòng,Đơn vị thuộc bộ,TW,,True
+org:so_nong_nghiep_va_moi_truong_thanh_pho_ha_noi,Sở Nông nghiệp và Môi trường thành phố Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:van_phong_tinh_uy_hau_giang,Văn phòng Tỉnh ủy Hậu Giang,Cơ quan Đảng tỉnh,Tỉnh,Hậu Giang,True
+org:ban_noi_chinh_tinh_uy_lao_cai,Ban Nội chính Tỉnh ủy Lào Cai,Cơ quan Đảng tỉnh,Tỉnh,Lào Cai,True
+org:ban_to_chuc_tinh_uy_lao_cai,Ban Tổ chức Tỉnh ủy Lào Cai,Cơ quan Đảng tỉnh,Tỉnh,Lào Cai,True
+org:so_xay_dung_tinh_lao_cai,Sở Xây dựng tỉnh Lào Cai,Sở,Tỉnh,Lào Cai,True
+org:ban_to_chuc_tinh_uy_cao_bang,Ban Tổ chức Tỉnh ủy Cao Bằng,Cơ quan Đảng tỉnh,Tỉnh,Cao Bằng,True
+org:van_phong_tinh_uy_ca_mau,Văn phòng Tỉnh ủy Cà Mau,Cơ quan Đảng tỉnh,Tỉnh,Cà Mau,True
+org:ban_tuyen_giao_tinh_uy_thua_thien_hue,Ban Tuyên giáo Tỉnh ủy Thừa Thiên Huế,Cơ quan Đảng tỉnh,Tỉnh,Thừa Thiên Huế,True
+org:so_du_lich_tinh_thua_thien_hue,Sở Du lịch tỉnh Thừa Thiên Huế,Sở,Tỉnh,Thừa Thiên Huế,True
+org:van_phong_uy_ban_nhan_dan_tinh_thua_thien_hue,Văn phòng Ủy ban nhân dân tỉnh Thừa Thiên Huế,Cơ quan cấp tỉnh,Tỉnh,Thừa Thiên Huế,True
+org:so_giao_thong_van_tai_tinh_nghe_an,Sở Giao thông vận tải tỉnh Nghệ An,Sở,Tỉnh,Nghệ An,True
+org:van_phong_tinh_uy_quang_tri,Văn phòng Tỉnh ủy Quảng Trị,Cơ quan Đảng tỉnh,Tỉnh,Quảng Trị,True
+org:ban_dan_van_tinh_uy_quang_binh,Ban Dân vận Tỉnh ủy Quảng Bình,Cơ quan Đảng tỉnh,Tỉnh,Quảng Bình,True
+org:van_phong_tinh_uy_lai_chau,Văn phòng Tỉnh ủy Lai Châu,Cơ quan Đảng tỉnh,Tỉnh,Lai Châu,True
+org:ban_dan_van_tinh_uy_thai_nguyen,Ban Dân vận Tỉnh ủy Thái Nguyên,Cơ quan Đảng tỉnh,Tỉnh,Thái Nguyên,True
+org:so_giao_thong_van_tai_tinh_ba_ria_vung_tau,Sở Giao thông vận tải tỉnh Bà Rịa – Vũng Tàu,Sở,Tỉnh,Bà Rịa – Vũng Tàu,True
+org:so_ke_hoach_va_dau_tu_tinh_ba_ria_vung_tau,Sở Kế hoạch và Đầu tư tỉnh Bà Rịa – Vũng Tàu,Sở,Tỉnh,Bà Rịa – Vũng Tàu,True
+org:thanh_tra_bo_tu_lenh_thu_do_ha_noi,Thanh tra Bộ Tư lệnh Thủ đô Hà Nội,Đơn vị thuộc bộ,TW,,True
+org:so_noi_vu_thanh_pho_hai_phong,Sở Nội vụ thành phố Hải Phòng,Sở,Tỉnh,Hải Phòng,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_tuyen_quang,Ban Quản lý các khu công nghiệp tỉnh Tuyên Quang,Cơ quan cấp tỉnh,Tỉnh,Tuyên Quang,True
+org:ban_quan_ly_khu_kinh_te_tinh_ha_giang,Ban Quản lý Khu kinh tế tỉnh Hà Giang,Cơ quan cấp tỉnh,Tỉnh,Hà Giang,True
+org:so_tai_chinh_tinh_son_la,Sở Tài chính tỉnh Sơn La,Sở,Tỉnh,Sơn La,True
+org:van_phong_uy_ban_nhan_dan_tinh_dong_nai,Văn phòng Ủy ban nhân dân tỉnh Đồng Nai,Cơ quan cấp tỉnh,Tỉnh,Đồng Nai,True
+org:ban_quan_ly_khu_kinh_te_tinh_ca_mau,Ban Quản lý Khu kinh tế tỉnh Cà Mau,Cơ quan cấp tỉnh,Tỉnh,Cà Mau,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_bac_lieu,Ban Quản lý các khu công nghiệp tỉnh Bạc Liêu,Cơ quan cấp tỉnh,Tỉnh,Bạc Liêu,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_dak_nong,Ban Quản lý các khu công nghiệp tỉnh Đắk Nông,Cơ quan cấp tỉnh,Tỉnh,Đắk Nông,True
+org:ban_quan_ly_khu_kinh_te_tinh_vinh_long,Ban Quản lý Khu kinh tế tỉnh Vĩnh Long,Cơ quan cấp tỉnh,Tỉnh,Vĩnh Long,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_ben_tre,Ban Quản lý các khu công nghiệp tỉnh Bến Tre,Cơ quan cấp tỉnh,Tỉnh,Bến Tre,True
+org:thanh_tra_tinh_quang_ninh,Thanh tra tỉnh Quảng Ninh,Cơ quan cấp tỉnh,Tỉnh,Quảng Ninh,True
+org:so_nong_nghiep_va_phat_trien_nong_thon_tinh_quang_ninh,Sở Nông nghiệp và Phát triển nông thôn tỉnh Quảng Ninh,Sở,Tỉnh,Quảng Ninh,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_ninh_thuan,Ban Quản lý các khu công nghiệp tỉnh Ninh Thuận,Cơ quan cấp tỉnh,Tỉnh,Ninh Thuận,True
+org:ban_quan_ly_khu_kinh_te_tinh_gia_lai,Ban Quản lý Khu kinh tế tỉnh Gia Lai,Cơ quan cấp tỉnh,Tỉnh,Gia Lai,True
+org:ban_quan_ly_khu_kinh_te_tinh_kien_giang,Ban Quản lý Khu kinh tế tỉnh Kiên Giang,Cơ quan cấp tỉnh,Tỉnh,Kiên Giang,True
+org:ban_quan_ly_khu_kinh_te_tinh_binh_dinh,Ban Quản lý Khu kinh tế tỉnh Bình Định,Cơ quan cấp tỉnh,Tỉnh,Bình Định,True
+org:ban_quan_ly_khu_kinh_te_tinh_kon_tum,Ban Quản lý Khu kinh tế tỉnh Kon Tum,Cơ quan cấp tỉnh,Tỉnh,Kon Tum,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_hau_giang,Ban Quản lý các khu công nghiệp tỉnh Hậu Giang,Cơ quan cấp tỉnh,Tỉnh,Hậu Giang,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_soc_trang,Ban Quản lý các khu công nghiệp tỉnh Sóc Trăng,Cơ quan cấp tỉnh,Tỉnh,Sóc Trăng,True
+org:ban_quan_ly_khu_kinh_te_tinh_phu_tho,Ban Quản lý Khu kinh tế tỉnh Phú Thọ,Cơ quan cấp tỉnh,Tỉnh,Phú Thọ,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_hoa_binh,Ban Quản lý các khu công nghiệp tỉnh Hòa Bình,Cơ quan cấp tỉnh,Tỉnh,Hòa Bình,True
+org:ban_quan_ly_khu_kinh_te_tinh_binh_phuoc,Ban Quản lý Khu kinh tế tỉnh Bình Phước,Cơ quan cấp tỉnh,Tỉnh,Bình Phước,True
+org:ban_quan_ly_khu_kinh_te_tinh_long_an,Ban Quản lý Khu kinh tế tỉnh Long An,Cơ quan cấp tỉnh,Tỉnh,Long An,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_hai_duong,Ban Quản lý các khu công nghiệp tỉnh Hải Dương,Cơ quan cấp tỉnh,Tỉnh,Hải Dương,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_bac_giang,Ban Quản lý các khu công nghiệp tỉnh Bắc Giang,Cơ quan cấp tỉnh,Tỉnh,Bắc Giang,True
+org:ban_quan_ly_khu_kinh_te_tinh_quang_tri,Ban Quản lý Khu kinh tế tỉnh Quảng Trị,Cơ quan cấp tỉnh,Tỉnh,Quảng Trị,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_ninh_binh,Ban Quản lý các khu công nghiệp tỉnh Ninh Bình,Cơ quan cấp tỉnh,Tỉnh,Ninh Bình,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_ha_nam,Ban Quản lý các khu công nghiệp tỉnh Hà Nam,Cơ quan cấp tỉnh,Tỉnh,Hà Nam,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_nam_dinh,Ban Quản lý các khu công nghiệp tỉnh Nam Định,Cơ quan cấp tỉnh,Tỉnh,Nam Định,True
+org:ban_quan_ly_du_an_dau_tu_xay_dung_tinh_binh_phuoc,Ban Quản lý dự án đầu tư xây dựng tỉnh Bình Phước,Cơ quan cấp tỉnh,Tỉnh,Bình Phước,True
+org:ban_quan_ly_du_an_duong_sat_do_thi_thanh_pho_ha_noi,Ban Quản lý dự án đường sắt đô thị thành phố Hà Nội,Cơ quan cấp tỉnh,Tỉnh,Hà Nội,True
+org:ban_quan_ly_du_an_dau_tu_xay_dung_tinh_long_an,Ban Quản lý dự án đầu tư xây dựng tỉnh Long An,Cơ quan cấp tỉnh,Tỉnh,Long An,True
+org:thanh_tra_tinh_lao_cai,Thanh tra tỉnh Lào Cai,Cơ quan cấp tỉnh,Tỉnh,Lào Cai,True
+org:so_nong_nghiep_va_phat_trien_nong_thon_tinh_tuyen_quang,Sở Nông nghiệp và Phát triển nông thôn tỉnh Tuyên Quang,Sở,Tỉnh,Tuyên Quang,True
+org:van_phong_tinh_uy_long_an,Văn phòng Tỉnh ủy Long An,Cơ quan Đảng tỉnh,Tỉnh,Long An,True
+org:so_noi_vu_tinh_long_an,Sở Nội vụ tỉnh Long An,Sở,Tỉnh,Long An,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_dong_nai,Ban Quản lý các khu công nghiệp tỉnh Đồng Nai,Cơ quan cấp tỉnh,Tỉnh,Đồng Nai,True
+org:so_lao_dong_thuong_binh_va_xa_hoi_thanh_pho_ho_chi_minh,Sở Lao động - Thương binh và Xã hội thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:van_phong_uy_ban_nhan_dan_tinh_hoa_binh,Văn phòng Ủy ban nhân dân tỉnh Hòa Bình,Cơ quan cấp tỉnh,Tỉnh,Hòa Bình,True
+org:so_giao_thong_van_tai_tinh_bac_giang,Sở Giao thông vận tải tỉnh Bắc Giang,Sở,Tỉnh,Bắc Giang,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_thai_nguyen,Ban Quản lý các khu công nghiệp tỉnh Thái Nguyên,Cơ quan cấp tỉnh,Tỉnh,Thái Nguyên,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_binh_duong,Ban Quản lý các khu công nghiệp tỉnh Bình Dương,Cơ quan cấp tỉnh,Tỉnh,Bình Dương,True
+org:van_phong_uy_ban_nhan_dan_tinh_binh_duong,Văn phòng Ủy ban nhân dân tỉnh Bình Dương,Cơ quan cấp tỉnh,Tỉnh,Bình Dương,True
+org:bo_chi_huy_quan_su_tinh_vinh_phuc,Bộ Chỉ huy Quân sự tỉnh Vĩnh Phúc,Lực lượng vũ trang,Tỉnh,Vĩnh Phúc,True
+org:uy_ban_kiem_tra_tinh_uy_binh_thuan,Ủy ban Kiểm tra Tỉnh ủy Bình Thuận,Cơ quan Đảng tỉnh,Tỉnh,Bình Thuận,True
+org:so_ke_hoach_va_dau_tu_tinh_son_la,Sở Kế hoạch và Đầu tư tỉnh Sơn La,Sở,Tỉnh,Sơn La,True
+org:so_cong_thuong_tinh_binh_duong,Sở Công Thương tỉnh Bình Dương,Sở,Tỉnh,Bình Dương,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_binh_duong,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Bình Dương,Mặt trận & đoàn thể,Tỉnh,Bình Dương,True
+org:ban_quan_ly_du_an_xay_dung_dai_hoc_quoc_gia_thanh_pho_ho_chi_minh,Ban Quản lý dự án xây dựng Đại học Quốc gia thành phố Hồ Chí Minh,Cơ quan cấp tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:so_giao_thong_van_tai_thanh_pho_ho_chi_minh,Sở Giao thông vận tải thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:uy_ban_mat_tran_to_quoc_viet_nam_tinh_thua_thien_hue,Ủy ban Mặt trận Tổ quốc Việt Nam tỉnh Thừa Thiên Huế,Mặt trận & đoàn thể,Tỉnh,Thừa Thiên Huế,True
+org:so_ke_hoach_va_dau_tu_tinh_kien_giang,Sở Kế hoạch và Đầu tư tỉnh Kiên Giang,Sở,Tỉnh,Kiên Giang,True
+org:doan_dai_bieu_quoc_hoi_tinh_quang_nam,Đoàn đại biểu Quốc hội tỉnh Quảng Nam,Đoàn ĐBQH tỉnh,Tỉnh,Quảng Nam,True
+org:ban_noi_chinh_tinh_uy_tay_ninh,Ban Nội chính Tỉnh ủy Tây Ninh,Cơ quan Đảng tỉnh,Tỉnh,Tây Ninh,True
+org:so_noi_vu_tinh_nghe_an,Sở Nội vụ tỉnh Nghệ An,Sở,Tỉnh,Nghệ An,True
+org:ban_quan_ly_cac_khu_cong_nghiep_tinh_tien_giang,Ban Quản lý các khu công nghiệp tỉnh Tiền Giang,Cơ quan cấp tỉnh,Tỉnh,Tiền Giang,True
+org:so_noi_vu_tinh_thai_binh,Sở Nội vụ tỉnh Thái Bình,Sở,Tỉnh,Thái Bình,True
+org:so_nong_nghiep_va_phat_trien_nong_thon_tinh_binh_thuan,Sở Nông nghiệp và Phát triển nông thôn tỉnh Bình Thuận,Sở,Tỉnh,Bình Thuận,True
+org:so_xay_dung_tinh_kien_giang,Sở Xây dựng tỉnh Kiên Giang,Sở,Tỉnh,Kiên Giang,True
+org:so_van_hoa_the_thao_va_du_lich_tinh_quang_binh,"Sở Văn hóa, Thể thao và Du lịch tỉnh Quảng Bình",Sở,Tỉnh,Quảng Bình,True
+org:so_du_lich_tinh_quang_binh,Sở Du lịch tỉnh Quảng Bình,Sở,Tỉnh,Quảng Bình,True
+org:so_ke_hoach_va_dau_tu_tinh_quang_binh,Sở Kế hoạch và Đầu tư tỉnh Quảng Bình,Sở,Tỉnh,Quảng Bình,True
+org:so_nong_nghiep_va_phat_trien_nong_thon_tinh_ninh_thuan,Sở Nông nghiệp và Phát triển nông thôn tỉnh Ninh Thuận,Sở,Tỉnh,Ninh Thuận,True
+org:thanh_tra_thanh_pho_da_nang,Thanh tra thành phố Đà Nẵng,Cơ quan cấp tỉnh,Tỉnh,Đà Nẵng,True
+org:so_y_te_thanh_pho_da_nang,Sở Y tế thành phố Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:ban_to_chuc_tinh_uy_soc_trang,Ban Tổ chức Tỉnh ủy Sóc Trăng,Cơ quan Đảng tỉnh,Tỉnh,Sóc Trăng,True
+org:so_tai_nguyen_va_moi_truong_tinh_hung_yen,Sở Tài nguyên và Môi trường tỉnh Hưng Yên,Sở,Tỉnh,Hưng Yên,True
+org:so_xay_dung_tinh_ca_mau,Sở Xây dựng tỉnh Cà Mau,Sở,Tỉnh,Cà Mau,True
+org:so_tai_chinh_tinh_vinh_phuc,Sở Tài chính tỉnh Vĩnh Phúc,Sở,Tỉnh,Vĩnh Phúc,True
+org:ban_dan_van_tinh_uy_binh_phuoc,Ban Dân vận Tỉnh ủy Bình Phước,Cơ quan Đảng tỉnh,Tỉnh,Bình Phước,True
+org:so_xay_dung_tinh_dak_nong,Sở Xây dựng tỉnh Đắk Nông,Sở,Tỉnh,Đắk Nông,True
+org:toa_an_nhan_dan_tinh_kon_tum,Tòa án nhân dân tỉnh Kon Tum,Cơ quan tư pháp,Tỉnh,Kon Tum,True
+org:so_giao_duc_va_dao_tao_tinh_ha_giang,Sở Giáo dục và Đào tạo tỉnh Hà Giang,Sở,Tỉnh,Hà Giang,True
+org:so_tai_nguyen_va_moi_truong_tinh_an_giang,Sở Tài nguyên và Môi trường tỉnh An Giang,Sở,Tỉnh,An Giang,True
+org:so_tai_chinh_tinh_hai_duong,Sở Tài chính tỉnh Hải Dương,Sở,Tỉnh,Hải Dương,True
+org:uy_ban_kiem_tra_tinh_uy_yen_bai,Ủy ban Kiểm tra Tỉnh ủy Yên Bái,Cơ quan Đảng tỉnh,Tỉnh,Yên Bái,True
+org:so_y_te_tinh_tra_vinh,Sở Y tế tỉnh Trà Vinh,Sở,Tỉnh,Trà Vinh,True
+org:uy_ban_kiem_tra_tinh_uy_tra_vinh,Ủy ban Kiểm tra Tỉnh ủy Trà Vinh,Cơ quan Đảng tỉnh,Tỉnh,Trà Vinh,True
+org:so_tai_nguyen_va_moi_truong_tinh_phu_yen,Sở Tài nguyên và Môi trường tỉnh Phú Yên,Sở,Tỉnh,Phú Yên,True
+org:uy_ban_kiem_tra_tinh_uy_hung_yen,Ủy ban Kiểm tra Tỉnh ủy Hưng Yên,Cơ quan Đảng tỉnh,Tỉnh,Hưng Yên,True
+org:uy_ban_kiem_tra_tinh_uy_ca_mau,Ủy ban Kiểm tra Tỉnh ủy Cà Mau,Cơ quan Đảng tỉnh,Tỉnh,Cà Mau,True
+org:thanh_tra_bo_y_te,Thanh tra Bộ Y tế,Đơn vị thuộc bộ,TW,,True
+org:so_tai_chinh_tinh_binh_thuan,Sở Tài chính tỉnh Bình Thuận,Sở,Tỉnh,Bình Thuận,True
+org:so_tai_nguyen_va_moi_truong_tinh_binh_thuan,Sở Tài nguyên và Môi trường tỉnh Bình Thuận,Sở,Tỉnh,Bình Thuận,True
+org:so_ke_hoach_va_dau_tu_tinh_ninh_binh,Sở Kế hoạch và Đầu tư tỉnh Ninh Bình,Sở,Tỉnh,Ninh Bình,True
+org:so_ke_hoach_va_dau_tu_tinh_lao_cai,Sở Kế hoạch và Đầu tư tỉnh Lào Cai,Sở,Tỉnh,Lào Cai,True
+org:so_lao_dong_thuong_binh_va_xa_hoi_tinh_binh_phuoc,Sở Lao động - Thương binh và Xã hội tỉnh Bình Phước,Sở,Tỉnh,Bình Phước,True
+org:doan_dai_bieu_quoc_hoi_tinh_dak_nong,Đoàn đại biểu Quốc hội tỉnh Đắk Nông,Đoàn ĐBQH tỉnh,Tỉnh,Đắk Nông,True
+org:ban_dan_van_thanh_uy_thanh_pho_ho_chi_minh,Ban Dân vận Thành ủy Thành phố Hồ Chí Minh,Cơ quan Đảng tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:so_y_te_tinh_quang_ninh,Sở Y tế tỉnh Quảng Ninh,Sở,Tỉnh,Quảng Ninh,True
+org:so_noi_vu_tinh_kien_giang,Sở Nội vụ tỉnh Kiên Giang,Sở,Tỉnh,Kiên Giang,True
+org:ban_tuyen_giao_va_dan_van_tinh_uy_binh_duong,Ban Tuyên giáo và Dân vận Tỉnh ủy Bình Dương,Cơ quan Đảng tỉnh,Tỉnh,Bình Dương,True
+org:so_quy_hoach_kien_truc_thanh_pho_ho_chi_minh,Sở Quy hoạch - Kiến trúc thành phố Hồ Chí Minh,Sở,Tỉnh,Thành phố Hồ Chí Minh,True
+org:so_tu_phap_tinh_tay_ninh,Sở Tư pháp tỉnh Tây Ninh,Sở,Tỉnh,Tây Ninh,True
+org:ban_quan_ly_du_an_2_thuoc_ban_quan_ly_duong_sat_do_thi_thanh_pho_ho_chi_minh,Ban Quản lý dự án 2 thuộc Ban Quản lý đường sắt đô thị thành phố Hồ Chí Minh,Cơ quan cấp tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:so_tai_nguyen_va_moi_truong_tinh_dak_nong,Sở Tài nguyên và Môi trường tỉnh Đắk Nông,Sở,Tỉnh,Đắk Nông,True
+org:so_ngoai_vu_tinh_quang_nam,Sở Ngoại vụ tỉnh Quảng Nam,Sở,Tỉnh,Quảng Nam,True
+org:so_noi_vu_tinh_bac_ninh,Sở Nội vụ tỉnh Bắc Ninh,Sở,Tỉnh,Bắc Ninh,True
+org:so_noi_vu_tinh_cao_bang,Sở Nội vụ tỉnh Cao Bằng,Sở,Tỉnh,Cao Bằng,True
+org:uy_ban_kiem_tra_thanh_uy_hue,Ủy ban Kiểm tra Thành ủy Huế,Cơ quan Đảng tỉnh,Tỉnh,Huế,True
+org:van_phong_tinh_uy_an_giang,Văn phòng Tỉnh ủy An Giang,Cơ quan Đảng tỉnh,Tỉnh,An Giang,True
+org:van_phong_tinh_uy_thua_thien_hue,Văn phòng Tỉnh ủy Thừa Thiên Huế,Cơ quan Đảng tỉnh,Tỉnh,Thừa Thiên Huế,True
+org:van_phong_uy_ban_nhan_dan_tinh_dien_bien,Văn phòng Ủy ban nhân dân tỉnh Điện Biên,Cơ quan cấp tỉnh,Tỉnh,Điện Biên,True
+org:so_xay_dung_tinh_ba_ria_vung_tau,Sở Xây dựng tỉnh Bà Rịa – Vũng Tàu,Sở,Tỉnh,Bà Rịa – Vũng Tàu,True
+org:uy_ban_kiem_tra_tinh_uy_son_la,Ủy ban Kiểm tra Tỉnh ủy Sơn La,Cơ quan Đảng tỉnh,Tỉnh,Sơn La,True
+org:uy_ban_kiem_tra_tinh_uy_lang_son,Ủy ban Kiểm tra Tỉnh ủy Lạng Sơn,Cơ quan Đảng tỉnh,Tỉnh,Lạng Sơn,True
+org:ban_to_chuc_tinh_uy_bac_lieu,Ban Tổ chức Tỉnh ủy Bạc Liêu,Cơ quan Đảng tỉnh,Tỉnh,Bạc Liêu,True
+org:so_tai_chinh_thanh_pho_hai_phong,Sở Tài chính thành phố Hải Phòng,Sở,Tỉnh,Hải Phòng,True
+org:so_giao_duc_va_dao_tao_tinh_hai_duong,Sở Giáo dục và Đào tạo tỉnh Hải Dương,Sở,Tỉnh,Hải Dương,True
+org:so_dan_toc_va_ton_giao_tinh_ba_ria_vung_tau,Sở Dân tộc và Tôn giáo tỉnh Bà Rịa – Vũng Tàu,Sở,Tỉnh,Bà Rịa – Vũng Tàu,True
+org:so_noi_vu_thanh_pho_da_nang,Sở Nội vụ thành phố Đà Nẵng,Sở,Tỉnh,Đà Nẵng,True
+org:van_phong_uy_ban_nhan_dan_tinh_quang_nam,Văn phòng Ủy ban nhân dân tỉnh Quảng Nam,Cơ quan cấp tỉnh,Tỉnh,Quảng Nam,True
+org:so_dan_toc_va_ton_giao_thanh_pho_ha_noi,Sở Dân tộc và Tôn giáo thành phố Hà Nội,Sở,Tỉnh,Hà Nội,True
+org:ban_to_chuc_tinh_uy_phu_yen,Ban Tổ chức Tỉnh ủy Phú Yên,Cơ quan Đảng tỉnh,Tỉnh,Phú Yên,True
+org:ban_to_chuc_tinh_uy_dak_lak,Ban Tổ chức Tỉnh ủy Đắk Lắk,Cơ quan Đảng tỉnh,Tỉnh,Đắk Lắk,True
+org:so_nong_nghiep_va_phat_trien_nong_thon_tinh_kien_giang,Sở Nông nghiệp và Phát triển nông thôn tỉnh Kiên Giang,Sở,Tỉnh,Kiên Giang,True
+org:so_tu_phap_tinh_ca_mau,Sở Tư pháp tỉnh Cà Mau,Sở,Tỉnh,Cà Mau,True
+org:ban_quan_ly_du_an_xay_dung_tinh_ca_mau,Ban Quản lý dự án xây dựng tỉnh Cà Mau,Cơ quan cấp tỉnh,Tỉnh,Cà Mau,True
+org:thanh_tra_tinh_ca_mau,Thanh tra tỉnh Cà Mau,Cơ quan cấp tỉnh,Tỉnh,Cà Mau,True
+org:thanh_tra_tinh_bac_lieu,Thanh tra tỉnh Bạc Liêu,Cơ quan cấp tỉnh,Tỉnh,Bạc Liêu,True
+org:so_noi_vu_tinh_ca_mau,Sở Nội vụ tỉnh Cà Mau,Sở,Tỉnh,Cà Mau,True
+org:van_phong_tinh_uy_lam_dong,Văn phòng Tỉnh ủy Lâm Đồng,Cơ quan Đảng tỉnh,Tỉnh,Lâm Đồng,True
+org:ban_quan_ly_khu_cong_nghe_cao_thanh_pho_ho_chi_minh,Ban Quản lý Khu công nghệ cao thành phố Hồ Chí Minh,Cơ quan cấp tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:ban_to_chuc_tinh_uy_ha_tinh,Ban Tổ chức Tỉnh ủy Hà Tĩnh,Cơ quan Đảng tỉnh,Tỉnh,Hà Tĩnh,True
+org:so_noi_vu_tinh_gia_lai,Sở Nội vụ tỉnh Gia Lai,Sở,Tỉnh,Gia Lai,True
+org:so_tu_phap_tinh_dong_nai,Sở Tư pháp tỉnh Đồng Nai,Sở,Tỉnh,Đồng Nai,True
+org:so_tai_chinh_tinh_nghe_an,Sở Tài chính tỉnh Nghệ An,Sở,Tỉnh,Nghệ An,True
+org:toa_an_nhan_dan_tinh_lam_dong,Tòa án nhân dân tỉnh Lâm Đồng,Cơ quan tư pháp,Tỉnh,Lâm Đồng,True
+org:uy_ban_kiem_tra_tinh_uy_binh_phuoc,Ủy ban Kiểm tra Tỉnh ủy Bình Phước,Cơ quan Đảng tỉnh,Tỉnh,Bình Phước,True
+org:so_tu_phap_tinh_binh_phuoc,Sở Tư pháp tỉnh Bình Phước,Sở,Tỉnh,Bình Phước,True
+org:so_tai_chinh_tinh_dong_nai,Sở Tài chính tỉnh Đồng Nai,Sở,Tỉnh,Đồng Nai,True
+org:ban_quan_ly_du_an_dau_tu_xay_dung_ha_tang_do_thi_thanh_pho_ho_chi_minh,Ban Quản lý dự án đầu tư xây dựng hạ tầng đô thị thành phố Hồ Chí Minh,Cơ quan cấp tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:toa_an_nhan_dan_tinh_ca_mau,Tòa án nhân dân tỉnh Cà Mau,Cơ quan tư pháp,Tỉnh,Cà Mau,True
+org:van_phong_uy_ban_nhan_dan_tinh_lam_dong,Văn phòng Ủy ban nhân dân tỉnh Lâm Đồng,Cơ quan cấp tỉnh,Tỉnh,Lâm Đồng,True
+org:thanh_tra_tinh_quang_binh,Thanh tra tỉnh Quảng Bình,Cơ quan cấp tỉnh,Tỉnh,Quảng Bình,True
+org:thanh_tra_thanh_pho_hue,Thanh tra thành phố Huế,Cơ quan cấp tỉnh,Tỉnh,Huế,True
+org:bo_chi_huy_quan_su_tinh_an_giang,Bộ Chỉ huy Quân sự tỉnh An Giang,Lực lượng vũ trang,Tỉnh,An Giang,True
+org:so_giao_duc_va_dao_tao_tinh_binh_duong,Sở Giáo dục và Đào tạo tỉnh Bình Dương,Sở,Tỉnh,Bình Dương,True
+org:uy_ban_kiem_tra_tinh_uy_quang_ngai,Ủy ban Kiểm tra Tỉnh ủy Quảng Ngãi,Cơ quan Đảng tỉnh,Tỉnh,Quảng Ngãi,True
+org:so_thong_tin_va_truyen_thong_tinh_binh_duong,Sở Thông tin và Truyền thông tỉnh Bình Dương,Sở,Tỉnh,Bình Dương,True
+org:ban_to_chuc_tinh_uy_quang_tri,Ban Tổ chức Tỉnh ủy Quảng Trị,Cơ quan Đảng tỉnh,Tỉnh,Quảng Trị,True
+org:thanh_tra_tinh_vinh_long,Thanh tra tỉnh Vĩnh Long,Cơ quan cấp tỉnh,Tỉnh,Vĩnh Long,True
+org:ban_quan_ly_du_an_chuyen_nganh_dan_dung_va_cong_nghiep_tinh_ba_ria_vung_tau,Ban Quản lý dự án chuyên ngành dân dụng và công nghiệp tỉnh Bà Rịa – Vũng Tàu,Cơ quan cấp tỉnh,Tỉnh,Bà Rịa – Vũng Tàu,True
+org:ban_quan_ly_du_an_dai_lo_dong_tay_va_moi_truong_nuoc_thanh_pho_ho_chi_minh,Ban Quản lý dự án đại lộ Đông Tây và Môi trường nước thành phố Hồ Chí Minh,Cơ quan cấp tỉnh,Tỉnh,Thành phố Hồ Chí Minh,True
+org:thanh_tra_tinh_ninh_binh,Thanh tra tỉnh Ninh Bình,Cơ quan cấp tỉnh,Tỉnh,Ninh Bình,True
+org:van_phong_uy_ban_nhan_dan_tinh_gia_lai,Văn phòng Ủy ban nhân dân tỉnh Gia Lai,Cơ quan cấp tỉnh,Tỉnh,Gia Lai,True
+org:bo_chi_huy_quan_su_thanh_pho_hai_phong,Bộ Chỉ huy Quân sự thành phố Hải Phòng,Lực lượng vũ trang,Tỉnh,Hải Phòng,True
+org:so_tai_chinh_tinh_ca_mau,Sở Tài chính tỉnh Cà Mau,Sở,Tỉnh,Cà Mau,True
+org:so_ngoai_vu_tinh_quang_tri,Sở Ngoại vụ tỉnh Quảng Trị,Sở,Tỉnh,Quảng Trị,True
+org:toa_an_nhan_dan_tinh_bac_lieu,Tòa án nhân dân tỉnh Bạc Liêu,Cơ quan tư pháp,Tỉnh,Bạc Liêu,True
+org:so_dan_toc_va_ton_giao_tinh_dong_nai,Sở Dân tộc và Tôn giáo tỉnh Đồng Nai,Sở,Tỉnh,Đồng Nai,True
+org:so_tai_chinh_tinh_lam_dong,Sở Tài chính tỉnh Lâm Đồng,Sở,Tỉnh,Lâm Đồng,True
+org:so_xay_dung_tinh_binh_thuan,Sở Xây dựng tỉnh Bình Thuận,Sở,Tỉnh,Bình Thuận,True
+org:van_phong_uy_ban_nhan_dan_tinh_tay_ninh,Văn phòng Ủy ban nhân dân tỉnh Tây Ninh,Cơ quan cấp tỉnh,Tỉnh,Tây Ninh,True
+org:so_giao_duc_va_dao_tao_tinh_tuyen_quang,Sở Giáo dục và Đào tạo tỉnh Tuyên Quang,Sở,Tỉnh,Tuyên Quang,True
+org:ban_quan_ly_du_an_dau_tu_xay_dung_tinh_dong_nai,Ban Quản lý dự án đầu tư xây dựng tỉnh Đồng Nai,Cơ quan cấp tỉnh,Tỉnh,Đồng Nai,True

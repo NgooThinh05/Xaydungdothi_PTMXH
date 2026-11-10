@@ -16,7 +16,7 @@ Loại cạnh sinh ở bước này:
   TRUC_THUOC         Org -> Org           (cơ cấu tổ chức, suy từ tên)
   THUOC_DIA_PHUONG   Org -> Province
   HOP_NHAT_VAO       Org -> Org / Province -> Province (sắp xếp bộ máy 2025)
-  QUE_QUAN           Person -> Province
+  NOI_SINH           Person -> Province
 """
 from __future__ import annotations
 
@@ -280,11 +280,11 @@ def main():
     pid = lambda t: "per:" + slug(t)  # noqa: E731
     persons_rows = []
     for t, p in kept.items():
-        hometown = find_province(p["birth_place"])
+        birth_place = find_province(p["birth_place"])
         persons_rows.append({"id": pid(t), "name": nfc(p["name"]), "wiki_title": t, "wikidata": p.get("wikidata") or "",
-                             "birth_year": p.get("birth_year") or "", "hometown": hometown or ""})
-        if hometown:
-            add_edge(pid(t), "Person", "QUE_QUAN", add_prov(hometown), "Province", source="wikipedia:nơi sinh")
+                             "birth_year": p.get("birth_year") or "", "birth_place": birth_place or ""})
+        if birth_place:
+            add_edge(pid(t), "Person", "NOI_SINH", add_prov(birth_place), "Province", source="wikipedia:nơi sinh")
         for pos in p["positions"]:
             ys = [year_of(pos["start"]), year_of(pos["end"])]
             if not (pos["current"] or any(y and y >= MIN_YEAR for y in ys)):
@@ -345,7 +345,7 @@ def main():
             w = csv.DictWriter(f, fieldnames=fields)
             w.writeheader()
             w.writerows(rows)
-    write_csv(PROC / "nodes_person.csv", persons_rows, ["id", "name", "wiki_title", "wikidata", "birth_year", "hometown"])
+    write_csv(PROC / "nodes_person.csv", persons_rows, ["id", "name", "wiki_title", "wikidata", "birth_year", "birth_place"])
     write_csv(PROC / "nodes_org.csv", list(orgs.values()), ["id", "name", "type", "level", "province"])
     write_csv(PROC / "nodes_province.csv", list(provinces.values()), ["id", "name", "status", "valid_from"])
     write_csv(PROC / "edges_wiki.csv", edges,

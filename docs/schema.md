@@ -4,11 +4,16 @@
 
 | Nhãn | Thuộc tính | Nguồn |
 |---|---|---|
-| `Person` | `id` (per:<slug tiêu đề wiki>), `name`, `wiki_title`, `wikidata`, `birth_year`, `hometown` | Wikipedia tiếng Việt (infobox) |
+| `Person` | `id`, `name`, `wiki_title`, `wikidata`, `birth_year`, `birth_place`, `hometown`, `status`, `source`, `news_article_count`, `verification_status` | Báo chí; Wikipedia bổ sung hồ sơ |
+| `ChucVu` | `id` (pos:<slug chức danh>__<slug cơ quan>), `name` (chức danh chuẩn: "Thứ trưởng"), `org_id`, `org_name`, `hien_thi` ("Thứ trưởng · Bộ Nội vụ"), `kind` (Cấp trưởng / Cấp phó / Thành viên) | Sinh từ (chức danh, cơ quan) của mọi cạnh giữ chức vụ |
 | `Organization` | `id` (org:<slug tên>), `name`, `type` (Bộ, UBND tỉnh, Cơ quan Đảng TW, Doanh nghiệp nhà nước...), `level` (TW/Tỉnh), `province` | Infobox + chuẩn hoá tên + config |
 | `Province` | `id` (prov:<slug>), `name`, `status` (hiện hành / đã sáp nhập), `valid_from` | config/provinces_2025.json |
 
 Bài báo **không** là nút: URL, ngày và câu bằng chứng được lưu làm thuộc tính cạnh.
+
+**Mô hình 3 lớp:** `(Person)-[:GIU_CHUC_VU {start, end, current}]->(ChucVu)-[:THUOC_CO_QUAN]->(Organization)`.
+Mỗi cặp (chức danh, cơ quan) là một nút `ChucVu` dùng chung cho mọi người từng giữ chức đó, nên có thể truy vấn
+"ai từng giữ chức Bộ trưởng Bộ Nội vụ" hay chuỗi kế nhiệm theo chức vụ.
 
 ## Cạnh
 
@@ -19,14 +24,16 @@ Thuộc tính chung: `role`, `start`, `end`, `current`, `source` (wikipedia:<tra
 
 | Quan hệ | Hướng | Ý nghĩa |
 |---|---|---|
-| `GIU_CHUC_VU` | Person → Organization | Giữ chức vụ `role` tại cơ quan, từ `start` đến `end` |
+| `GIU_CHUC_VU` | Person → ChucVu | Giữ chức vụ từ `start` đến `end` (mỗi nhiệm kỳ một cạnh) |
+| `THUOC_CO_QUAN` | ChucVu → Organization | Chức vụ thuộc cơ quan |
 | `KE_NHIEM` | Person → Person | A kế nhiệm B ở chức vụ `role` |
 | `LANH_DAO_TRUC_TIEP` | Person → Person | A là cấp trên trực tiếp của B (trưởng viên chức trong infobox) |
 | `CAP_PHO` | Person → Person | A là cấp phó của B |
 | `TRUC_THUOC` | Organization → Organization | Cơ cấu tổ chức (Bộ → Chính phủ, Ban Đảng → BCH TW ...) |
 | `THUOC_DIA_PHUONG` | Organization → Province | Cơ quan cấp tỉnh thuộc tỉnh nào |
 | `HOP_NHAT_VAO` | Org → Org, Province → Province | Sắp xếp bộ máy / đơn vị hành chính 2025 |
-| `QUE_QUAN` | Person → Province | Nơi sinh / quê quán |
+| `NOI_SINH` | Person → Province | Nơi sinh có nguồn rõ ràng; không suy thành quê quán |
+| `QUE_QUAN` | Person → Province | Quê quán, chỉ tạo khi nguồn nêu rõ |
 
 ### Nhóm B – cạnh trích xuất từ tin tức (NLP, luật), theo yêu cầu đề bài
 
@@ -64,6 +71,25 @@ Ngoài ra từ tin tức còn sinh thêm cạnh nhóm A:
    công tác → coi là người khác.
 3. Đồng tham chiếu trong bài: tên đã gặp; chức danh đứng một mình ("Thủ tướng yêu cầu…") → người gần nhất giữ chức danh đó
    trong bài (conf 0.85); bỏ qua khi chức danh là nội dung ("giữ chức Thủ tướng") hoặc của nước ngoài ("Thủ tướng Lào …").
+
+## Khử trùng (graph/build_graph.py, chạy trước khi nạp)
+- Cơ quan trùng tên chỉ khác hậu tố "Việt Nam", "(Việt Nam)", "nước CHXHCN Việt Nam", kiểu bỏ dấu, hoa/thường -> gộp;
+  bỏ các tên chung chung không xác định ("Ủy ban nhân dân tỉnh").
+- Cơ quan cấp tỉnh không nêu tỉnh ("Sở Kế hoạch và Đầu tư" trong infobox) -> suy tỉnh từ các chức vụ khác của người đó
+  (cùng thời kỳ / cả sự nghiệp ở một tỉnh / chức vụ gần nhất ≤ 3 năm) rồi nối vào cơ quan cụ thể; không suy được ->
+  thuộc tính `cu_the = false`, hiển thị "(chưa rõ tỉnh)". Mọi nút `ChucVu` đều có đúng một cạnh `THUOC_CO_QUAN`.
+- Chức danh chuẩn hoá: bỏ phần tên cơ quan dính kèm, bỏ "nguyên/tân/cựu/cố", thống nhất hoa/thường.
+- `GIU_CHUC_VU`: gộp theo (người, chức vụ, năm bắt đầu); tin tức chỉ thêm nhiệm kỳ khi Wikipedia không có.
+- `KE_NHIEM`, `LANH_DAO_TRUC_TIEP`, `CAP_PHO`: một cạnh cho mỗi cặp người (thông tin xuất hiện ở trang của cả hai người,
+  `weight` = số nguồn); cặp kế nhiệm mâu thuẫn hai chiều -> giữ chiều có ngày nhậm chức muộn hơn.
+- Cạnh còn lại: gộp theo (nguồn, quan hệ, đích), cộng `weight`.
+
+## Thuộc tính hiển thị (graph/cypher/display.cypher)
+Sinh tự động sau khi nạp, dùng làm **Caption** trên Neo4j Browser:
+- Nút: `hien_thi` – người: "Tên · chức vụ hiện tại" (tối đa 2, ưu tiên Wikipedia), chức vụ: "Thứ trưởng · Bộ Nội vụ",
+  cơ quan: tên rút gọn (UBND, HĐND…);
+  `chuc_vu` (người) – chức vụ hiện tại, hoặc "nguyên …" nếu không còn chức vụ.
+- Cạnh: `nhan` – `GIU_CHUC_VU`: nhiệm kỳ "2021–2025"; cạnh tin tức: "chỉ đạo ×3 · 2026-10"; còn lại: tên tiếng Việt.
 
 ## Quy tắc chuẩn hoá thực thể
 - Tên cơ quan: bỏ hậu tố "(Việt Nam)", "Đảng Cộng sản Việt Nam"; alias viết tắt (Bộ KH&ĐT, NHNN, EVN...) trong `config/org_mergers_2025.json`.

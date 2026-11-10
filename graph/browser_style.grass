@@ -1,0 +1,51 @@
+node.Person {
+  color: #6ea8fe;
+  border-color: #3f6dad;
+  text-color-internal: #ffffff;
+  caption: "{hien_thi}";
+  size: 36px;
+}
+node.Organization {
+  color: #f5b942;
+  border-color: #9a7228;
+  text-color-internal: #1b2028;
+  caption: "{hien_thi}";
+  size: 32px;
+}
+node.ChucVu {
+  color: #e9e6d8;
+  border-color: #9e9a8a;
+  text-color-internal: #1b2028;
+  caption: "{hien_thi}";
+  size: 28px;
+}
+node.Province {
+  color: #b28dff;
+  border-color: #755aaa;
+  text-color-internal: #ffffff;
+  caption: "{hien_thi}";
+  size: 30px;
+}
+relationship.GIU_CHUC_VU { color: #5d6b82; width: 2px; caption: "{nhan}"; }
+relationship.THUOC_CO_QUAN { color: #8a8f99; width: 2px; caption: "{nhan}"; }
+relationship.LANH_DAO_TRUC_TIEP { color: #6f6a8f; width: 2px; caption: "{nhan}"; }
+relationship.KE_NHIEM { color: #7c6a5a; width: 2px; caption: "{nhan}"; }
+relationship.CAP_PHO { color: #5f7d78; width: 2px; caption: "{nhan}"; }
+relationship.NOI_SINH { color: #7b5f86; width: 2px; caption: "{nhan}"; }
+relationship.QUE_QUAN { color: #7b5f86; width: 2px; caption: "{nhan}"; }
+relationship.THUOC_DIA_PHUONG { color: #4f7a5e; width: 2px; caption: "{nhan}"; }
+relationship.TRUC_THUOC { color: #80744a; width: 2px; caption: "{nhan}"; }
+relationship.HOP_NHAT_VAO { color: #8a5c5c; width: 2px; caption: "{nhan}"; }
+relationship.CHI_DAO { color: #ff8c42; width: 3px; caption: "{nhan}"; }
+relationship.BO_NHIEM { color: #4dd4ff; width: 3px; caption: "{nhan}"; }
+relationship.PHOI_HOP { color: #9be564; width: 3px; caption: "{nhan}"; }
+relationship.CHU_TRI { color: #ffd166; width: 3px; caption: "{nhan}"; }
+relationship.DIEU_DONG { color: #00e5b0; width: 3px; caption: "{nhan}"; }
+relationship.KY_LUAT { color: #ff4d6d; width: 3px; caption: "{nhan}"; }
+relationship.LAM_VIEC_VOI { color: #c77dff; width: 3px; caption: "{nhan}"; }
+relationship.MIEN_NHIEM { color: #ff9ecd; width: 3px; caption: "{nhan}"; }
+relationship.KIEM_TRA { color: #f4f1bb; width: 3px; caption: "{nhan}"; }
+relationship.THANH_TRA { color: #ffffff; width: 3px; caption: "{nhan}"; }
+relationship.PARENT_OF { color: #ffbd7a; width: 3px; caption: "{nhan}"; }
+relationship.SPOUSE_OF { color: #ff91a4; width: 3px; caption: "{nhan}"; }
+relationship.SIBLING_OF { color: #c5a2ff; width: 3px; caption: "{nhan}"; }

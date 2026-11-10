@@ -41,12 +41,23 @@ cd ..
 # 2) Tin tức: crawl bổ sung -> gộp corpus -> NER + liên kết thực thể + trích quan hệ bằng luật
 #    (corpus Báo Mới của nhóm đặt tại data/raw/news/baomoi/baomoi_political_corpus.jsonl)
 python crawler/crawl_news.py                 # baochinhphu, baochinhphu_search, vnexpress -> data/raw/news/*.jsonl
+# Crawl bù theo người/cơ quan chưa có cạnh sự kiện (xem kế hoạch trước khi tải)
+python crawler/crawl_targeted.py plan --people 50 --orgs 50
+python crawler/crawl_targeted.py crawl --max-queries 20 --pages 1 --dry-run
+python crawler/crawl_targeted.py crawl --max-queries 20 --pages 1
 python preprocess/build_corpus.py            # -> data/interim/news_docs.jsonl (khử trùng, tách câu)
+# Đối chiếu bộ GitHub bổ sung; chỉ sinh bảng ứng viên, không tự nạp Neo4j
+python preprocess/audit_github_supplement.py
 python extraction/relations.py               # -> data/processed/edges_news.csv, nodes_*_news.csv, data/eval/sample_to_label.csv
 
-# 3) Nạp Neo4j & thống kê
+# 3) Dựng đồ thị cuối (khử trùng, mô hình Người – Chức vụ – Cơ quan) -> nạp Neo4j -> thống kê
+python graph/build_graph.py                  # -> data/processed/graph/*.csv
 python graph/load_neo4j.py --reset
 python stats/graph_stats.py
+
+# 3b) Xem toàn bộ mạng trên một màn hình (WebGL, chạy offline): viz/index.html
+cd viz && npm install --no-bin-links && cd ..   # một lần (gói graphology cho bố cục ForceAtlas2)
+python viz/build_view.py && xdg-open viz/index.html
 
 # 4) Đánh giá: điền cột label (1/0) trong data/eval/sample_to_label.csv rồi
 python extraction/evaluate.py                # -> report/eval_precision.md
@@ -63,3 +74,31 @@ python extraction/evaluate.py                # -> report/eval_precision.md
 | NLP tiếng Việt (bài cuối kỳ, dự kiến) | PhoBERT (`vinai/phobert-base-v2`) phân loại quan hệ, học từ nhãn luật + nhãn thủ công |
 | CSDL đồ thị | Neo4j 5.26 Community + APOC + Graph Data Science (Docker) |
 | Thống kê / hình | `networkx`, `matplotlib`, Neo4j Browser |
+
+Mô tả chi tiết nguồn, ràng buộc crawl, NER, liên kết thực thể, đồng tham chiếu,
+luật quan hệ và cách đo độ phủ: [docs/news_pipeline.md](docs/news_pipeline.md).
+
+### Chạy đồ thị lấy người từ báo trước
+
+```bash
+python preprocess/build_corpus.py
+python extraction/relations.py
+python extraction/family.py
+python graph/build_graph.py --news-first
+python crawler/crawl_targeted.py plan --people 50 --orgs 0 --min-relations 1
+python crawler/crawl_targeted.py crawl --max-queries 20 --pages 1
+# Sau khi có bài mới: chạy lại bốn bước đầu, rồi nạp Neo4j khi dịch vụ hoạt động.
+python graph/load_neo4j.py
+```
+
+Các bài crawl bổ sung chỉ khớp tên được lưu để rà soát, chưa nhập corpus.
+`event_id` giữ riêng từng lần trích sự kiện; `event_date` là ngày ghi rõ trong câu,
+`date` là ngày đăng bài. Quan hệ gia đình chỉ sinh từ câu nêu rõ hai người và
+được đánh dấu là ứng viên cần rà soát.
+
+Trong Neo4j Browser, dùng [truy vấn một người](graph/cypher/browser_focus.cypher)
+để xem láng giềng và chuỗi Người → Chức vụ → Cơ quan; có thể nhập
+[bảng màu Browser](graph/browser_style.grass) bằng lệnh `:style`. Browser cho phép
+nhấp đúp node để mở rộng quan hệ. Giao diện [HTML](viz/index.html) làm nổi bật
+láng giềng và làm mờ phần còn lại khi nhấp node; chạy `python viz/build_view_csv.py`
+để cập nhật giao diện trực tiếp từ CSV đã dựng.

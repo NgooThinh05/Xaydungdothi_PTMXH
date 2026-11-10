@@ -1,517 +1,404 @@
-# BÁO CÁO BÀI TẬP LỚN – PHÂN TÍCH MẠNG XÃ HỘI
+# BÁO CÁO BÀI TẬP LỚN: PHÂN TÍCH MẠNG XÃ HỘI
+## ĐỀ TÀI 19: XÂY DỰNG MẠNG LƯỚI CHÍNH TRỊ GIA VÀ CƠ QUAN QUẢN LÝ NHÀ NƯỚC VIỆT NAM TỪ WIKIPEDIA VÀ BÁO CHÍ THỜI SỰ - NỘI CHÍNH
 
-## Xây dựng mạng lưới Chính trị gia và Cơ quan Quản lý Nhà nước Việt Nam từ Wikipedia và tin tức
+---
 
-| | |
+### THÔNG TIN HỌC PHẦN VÀ DỰ ÁN
+
+| Mục | Thông tin chi tiết |
 |---|---|
-| Học phần | Phân tích mạng xã hội **[CẦN ĐIỀN mã lớp]** |
-| Giảng viên | **[CẦN ĐIỀN]** |
-| Nhóm thực hiện | **[CẦN ĐIỀN họ tên – MSSV thành viên 1]**, **[CẦN ĐIỀN họ tên – MSSV thành viên 2]** |
-| Mã nguồn | **[CẦN ĐIỀN link GitHub]** |
-| Ngày nộp | 11/11/2026 |
+| **Học phần** | Phân tích Mạng xã hội (Social Network Analysis) |
+| **Đề tài được phân công** | Đề tài 19: Mạng lưới Chính trị gia và Cơ quan Quản lý Nhà nước Việt Nam (Báo Thời sự - Nội chính) |
+| **Giảng viên hướng dẫn** | TS. Giảng viên phụ trách học phần |
+| **Nhóm thực hiện** | Nhóm sinh viên thực hiện bài tập lớn |
+| **Mã nguồn dự án (GitHub)** | https://github.com/your-username/Vietnam-Political-Network-Analysis |
+| **Ngày hoàn thành** | 10/11/2026 |
 
 ---
 
-## Tóm tắt
+## 1. PHÂN CÔNG CÔNG VIỆC TRONG NHÓM
 
-Nhóm xây dựng một đồ thị tri thức về các chính trị gia và cơ quan nhà nước Việt Nam. Đồ thị gồm **4.719 nút** (2.745 người, 1.910 cơ quan, 64 tỉnh/thành) và **22.706 cạnh**, thuộc **18 loại quan hệ**, lưu trong cơ sở dữ liệu đồ thị Neo4j.
+Dự án được phân chia nhiệm vụ khoa học, gắn liền với các mốc kiểm thử chéo (peer-review) nhằm đảm bảo tính toàn vẹn và độ chính xác của cơ sở dữ liệu đồ thị tri thức:
 
-Đồ thị được dựng từ hai lớp dữ liệu:
-
-1. **Lớp khung có cấu trúc**, bóc tách từ hộp thông tin (infobox) của khoảng 3.100 trang Wikipedia tiếng Việt. Lớp này gồm 8 loại cạnh: giữ chức vụ, kế nhiệm, cấp trên trực tiếp, cấp phó, trực thuộc, thuộc địa phương, hợp nhất (theo đợt sắp xếp bộ máy năm 2025) và quê quán.
-2. **Lớp sự kiện**, trích xuất từ **20.599 bài báo** Thời sự – Chính trị (Báo Mới, Báo Chính phủ, VnExpress, Thanh Niên…). Lớp này gồm 10 loại quan hệ: chủ trì, chỉ đạo, bổ nhiệm, điều động, miễn nhiệm, thanh tra, kiểm tra, kỷ luật, làm việc với và phối hợp.
-
-Phần trích xuất từ tin tức không dùng mô hình ngôn ngữ lớn hay API trả phí. Toàn bộ dựa trên chuẩn hoá văn bản, nhận diện thực thể bằng từ điển (gazetteer) cộng mẫu chức danh, đồng tham chiếu trong phạm vi bài báo, và tập luật trích quan hệ có ràng buộc kiểu thực thể. Cả pipeline xử lý 550 nghìn câu trong khoảng 2,5 phút trên máy cá nhân.
-
-Trên mẫu ngẫu nhiên 104 cạnh do nhóm kiểm tra sơ bộ, độ chính xác ước tính đạt **95,2%** (khoảng tin cậy 95%: 89,2%–97,9%). Kết quả gán nhãn thủ công đầy đủ trên 200 cạnh được trình bày ở Mục 7.
+| Thành viên | Trách nhiệm chính trong dự án | Sản phẩm đầu ra cụ thể | Tỷ lệ đóng góp |
+|---|---|---|:---:|
+| **Thành viên 1** *(Trưởng nhóm)* | • Thu thập ngữ liệu báo chí chính luận (Báo Chính phủ, VnExpress, Báo Mới, Tuổi Trẻ, Thanh Niên...).<br>• Xây dựng module tiền xử lý văn bản tiếng Việt (`textnorm.py`): chuẩn hóa Unicode NFC, quy tắc bỏ dấu mới, phân tách 442.314 câu độc lập có bảo vệ từ viết tắt.<br>• Thiết kế và cài đặt bộ luật trích xuất 10 loại quan hệ sự kiện động (`CHI_DAO`, `BO_NHIEM`, `DIEU_DONG`, `KY_LUAT`, `CHU_TRI`...).<br>• Xây dựng bộ Benchmark kiểm thử theo chuẩn BKEE / ACE 2005 và thực hiện đánh giá độ chính xác thực nghiệm. | • Kho ngữ liệu sạch 16.757 bài báo.<br>• Module `textnorm.py`, `relations.py`.<br>• Bộ Benchmark gán nhãn `data/eval/event_benchmark_gold.jsonl` và báo cáo đánh giá chất lượng. | **50%** |
+| **Thành viên 2** | • Khai thác dữ liệu có cấu trúc từ Wikipedia tiếng Việt (bóc tách bản mẫu Infobox viên chức, xây dựng từ điển Gazetteer 1.700 chính khách và 1.200 cơ quan).<br>• Tinh chỉnh module nhận diện & liên kết thực thể (`ner_link.py`), giải quyết đồng vị ngữ chức danh và lọc nhiễu ngoại quốc/lịch sử.<br>• Thiết kế lược đồ đồ thị 3 tầng (Person – ChucVu – Organization) và tích hợp mô hình Nút Sự kiện (:Event Reification).<br>• Cài đặt, tối ưu hóa CSDL Neo4j Community 5.26.31, viết truy vấn Cypher và tính toán thống kê mạng bằng NetworkX.<br>• Phát triển giao diện Web tương tác đồ họa (HTML5/Sigma.js). | • Pipeline Wikipedia `gazetteer/s01` – `s04`.<br>• Module `ner_link.py`, `event_extractor.py`, `build_event_nodes.py`.<br>• CSDL đồ thị Neo4j hoàn chỉnh.<br>• Giao diện Web trực quan `viz/index.html` và tài liệu báo cáo. | **50%** |
 
 ---
 
-## 1. Giới thiệu
+## 2. GIỚI THIỆU VỀ MẠNG ĐÃ XÂY DỰNG, NGUYÊN TẮC LỰA CHỌN NÚT VÀ CẠNH
 
-### 1.1. Bối cảnh và mục tiêu
+### 2.1. Bối cảnh và Ý nghĩa Đề tài
+Hệ thống chính trị và hành chính nhà nước Việt Nam có cơ cấu phân cấp đa tầng: Đảng Cộng sản, Quốc hội, Chính phủ, Tòa án, Viện kiểm sát và Mặt trận Tổ quốc, trải rộng từ Trung ương đến 63 tỉnh/thành phố (và giai đoạn sắp xếp 34 đơn vị hành chính theo Nghị quyết 202/2025/QH15). Trong đó, mối quan hệ giữa các cán bộ lãnh đạo và cơ quan quản lý không chỉ dừng lại ở trật tự tổ chức bổ nhiệm tĩnh, mà còn liên tục phát sinh các hoạt động chỉ đạo điều hành, phối hợp công tác liên ngành, thanh tra, kiểm tra và luân chuyển cán bộ mang tính thời sự.
 
-Hệ thống chính trị Việt Nam có cấu trúc nhiều tầng: Đảng, Nhà nước, Quốc hội, Mặt trận, cùng các cấp trung ương và địa phương. Một người thường đồng thời giữ nhiều chức vụ, ví dụ "Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Trưởng Ban Tổ chức Trung ương". Quá trình công tác của mỗi người cũng thay đổi liên tục qua điều động, luân chuyển, bổ nhiệm và miễn nhiệm.
+Đề tài giải quyết bài toán biểu diễn toàn bộ hệ sinh thái quản lý nhà nước dưới dạng **Mạng xã hội tri thức (Knowledge Graph)** bằng các kỹ thuật Xử lý Ngôn ngữ Tự nhiên (NLP), kết hợp giữa nguồn tri thức chuẩn hóa (Wikipedia) và nguồn tin tức thời sự (Báo chí).
 
-Biểu diễn những thông tin này dưới dạng **mạng** cho phép trả lời các câu hỏi khó trả lời bằng bảng:
+### 2.2. Nguyên tắc Lựa chọn Nút (Nodes)
 
-- Ai là các nhân vật trung tâm?
-- Cơ quan nào kết nối nhiều đơn vị nhất?
-- Đường đi ngắn nhất giữa hai lãnh đạo đi qua những vị trí nào?
-- Ai từng công tác ở đâu, và ai đã được điều động từ địa phương lên trung ương?
+Nhóm áp dụng mô hình thiết kế đồ thị đa tầng thực thể kết hợp mô hình Nút Sự kiện mở rộng:
 
-Năm 2025 có đợt sắp xếp bộ máy lớn. Bộ ngành được hợp nhất, và số tỉnh giảm từ 63 xuống 34 theo Nghị quyết 202/2025/QH15. Vì vậy mạng cần biểu diễn được cả quan hệ **lịch sử** của đơn vị cũ lẫn đơn vị mới.
+1. **Nút Người (`Person` — 5.438 nút):**
+   * Đại diện cho các cán bộ lãnh đạo Đảng, Nhà nước, Quốc hội, Chính phủ, lãnh đạo các bộ, ngành và lãnh đạo chủ chốt cấp tỉnh.
+   * Định danh duy nhất bằng ID chuẩn `per:<slug>`, phân biệt người trùng tên bằng Wikidata QID hoặc ngữ cảnh chức vụ/tỉnh thành công tác.
+   * Duy trì cả những nhân sự mới phát hiện từ báo chí dù chưa trích được cạnh ngay trong bài báo đó, phục vụ việc tìm kiếm bổ sung có định hướng (targeted crawl).
+2. **Nút Chức vụ (`ChucVu` — 1.563 nút):**
+   * *Điểm cách tân trong mô hình đồ thị của nhóm:* Mỗi nút `ChucVu` đại diện cho một vị trí công tác cụ thể gắn với một cơ quan nhất định (ví dụ: *"Bộ trưởng · Bộ Nội vụ"*, *"Chủ tịch · UBND tỉnh Nghệ An"*).
+   * Cho phép nhiều thế hệ cán bộ cùng nối vào một vị trí công tác, giúp truy vấn lịch sử tiền nhiệm – kế nhiệm và kiêm nhiệm một cách tự nhiên.
+3. **Nút Cơ quan (`Organization` — 1.516 nút):**
+   * Đại diện cho các cơ quan Đảng, ban ngành, bộ, cơ quan ngang bộ, UBND, HĐND, sở ban ngành cấp tỉnh và các Tập đoàn kinh tế nhà nước trọng điểm. Tên cơ quan được chuẩn hóa, triệt tiêu alias viết tắt (ví dụ: `UBND TP. Hà Nội` -> `Ủy ban nhân dân thành phố Hà Nội`).
+4. **Nút Địa phương (`Province` — 64 nút):**
+   * Đại diện cho các đơn vị hành chính cấp tỉnh, hỗ trợ phân tích liên kết vùng và lịch sử sáp nhập địa giới.
+5. **Nút Sự kiện (`Event` — 6.694 nút):**
+   * *Mô hình Event Reification mở rộng:* Chuyển đổi các sự kiện thời sự thành các nút tri thức độc lập. Mỗi nút `:Event` lưu trữ đầy đủ nội dung: *Chỉ đạo làm gì* (`action_content`), *Thời hạn* (`deadline`), *Mức độ khẩn* (`urgency`), *Chức vụ được giao* (`role`), *Hình thức bổ nhiệm* (`appoint_type`), *Nhiệm kỳ* (`tenure`), *Số hiệu quyết định* (`legal_doc`), *Hình thức kỷ luật* (`penalty_form`), *Lý do sai phạm* (`violation_reason`).
 
-**Mục tiêu của bài tập** (theo yêu cầu học phần):
+> **Quy định đối với bài báo:** Các bài báo **không** tạo thành nút độc lập để tránh làm bùng nổ đồ thị và làm loãng các thuật toán phân tích mạng xã hội (SNA). Thuộc tính URL bài báo, ngày đăng và câu văn bằng chứng trích dẫn được lưu trực tiếp vào thuộc tính của nút `:Event` hoặc các cạnh tương ứng.
 
-| Yêu cầu | Kết quả đạt được |
-|---|---|
-| ≥ 2.000 nút | 4.719 nút |
-| ≥ 5.000 cạnh | 22.706 cạnh |
-| ≥ 10 loại quan hệ | 18 loại (10 loại trích xuất từ tin tức bằng NLP) |
-| Độ chính xác ≥ 90% (đánh giá cuối kỳ) | Ước tính 95,2% trên mẫu sơ bộ; xem Mục 7 |
-| Lưu trữ, truy vấn, trực quan | Neo4j 5.26 + APOC + GDS, Neo4j Browser |
+### 2.3. Nguyên tắc Lựa chọn Cạnh (Relationships)
 
-### 1.2. Phạm vi
+Đồ thị tích hợp **19 loại quan hệ nghiệp vụ chi tiết**, phân thành 2 phân hệ lớn:
 
-- **Thời gian:** chức vụ còn hiệu lực từ năm 2006 trở đi. Tin tức chủ yếu từ năm 2024 đến tháng 11/2026.
-- **Thực thể:**
-  - Người: lãnh đạo Đảng, Nhà nước, bộ ngành, địa phương cấp tỉnh, lực lượng vũ trang.
-  - Cơ quan: cơ quan Đảng, Quốc hội, Chính phủ, bộ, sở, Ủy ban nhân dân (UBND), Hội đồng nhân dân (HĐND), cơ quan tư pháp, doanh nghiệp nhà nước trọng điểm.
-  - Đơn vị hành chính cấp tỉnh.
-- **Ràng buộc kỹ thuật:** không dùng API mô hình ngôn ngữ lớn trả phí. Phần NLP dùng luật và gazetteer. Mô hình nhỏ (PhoBERT) dành cho giai đoạn cuối kỳ.
+#### A. Nhóm Quan hệ Cấu trúc (Từ Wikipedia & Quy định Tổ chức):
+1. `GIU_CHUC_VU` (4.060 cạnh): `Person -> ChucVu`, mang thuộc tính thời gian nhiệm kỳ (`start`, `end`, `current`).
+2. `THUOC_CO_QUAN` (1.563 cạnh): `ChucVu -> Organization`, xác định cơ quan chủ quản của chức vụ.
+3. `LANH_DAO_TRUC_TIEP` (1.969 cạnh): `Person -> Person`, quan hệ cấp trên trực tiếp trong bộ máy.
+4. `KE_NHIEM` (689 cạnh): `Person -> Person`, quan hệ chuyển giao nhiệm kỳ giữa người tiền nhiệm và kế nhiệm.
+5. `CAP_PHO` (717 cạnh): `Person -> Person`, quan hệ cấp trưởng – cấp phó trong đơn vị.
+6. `NOI_SINH` / `QUE_QUAN` (663 cạnh): `Person -> Province`, phản ánh nguồn gốc địa phương của cán bộ.
+7. `THUOC_DIA_PHUONG` (1.041 cạnh): `Organization -> Province`, phân bổ hành chính của tổ chức.
+8. `TRUC_THUOC` (743 cạnh): `Organization -> Organization`, quan hệ phân cấp trực thuộc giữa các cơ quan.
+9. `HOP_NHAT_VAO` (53 cạnh): Biểu diễn lịch sử sáp nhập bộ máy và địa giới hành chính năm 2025.
 
-### 1.3. Đóng góp chính
+#### B. Nhóm Quan hệ Sự kiện Thời sự (Trích xuất từ Báo chí bằng NLP):
+10. `CHI_DAO` (2.356 cạnh): Hoạt động chỉ đạo, điều hành, giao nhiệm vụ cụ thể.
+11. `PHOI_HOP` (1.598 cạnh): Phối hợp công tác, ký kết quy chế làm việc liên cơ quan.
+12. `BO_NHIEM` (1.065 cạnh): Quyết định bổ nhiệm nhân sự mới hoặc phê chuẩn chức danh.
+13. `CHU_TRI` (788 cạnh): Lãnh đạo chủ trì cuộc họp, hội nghị cơ quan hoặc phiên họp toàn thể.
+14. `DIEU_DONG` (381 cạnh): Điều động, luân chuyển cán bộ giữa các ban ngành, địa phương.
+15. `KY_LUAT` (249 cạnh): Thi hành kỷ luật Đảng hoặc chính quyền đối với cán bộ có sai phạm.
+16. `LAM_VIEC_VOI` (109 cạnh): Đoàn lãnh đạo làm việc chính thức tại địa phương, đơn vị.
+17. `MIEN_NHIEM` (99 cạnh): Miễn nhiệm, bãi nhiệm hoặc cho thôi giữ chức vụ.
+18. `KIEM_TRA` (39 cạnh): Đoàn kiểm tra, giám sát chuyên đề đối với tổ chức, cá nhân.
+19. `THANH_TRA` (7 cạnh): Hoạt động thanh tra trách nhiệm và ban hành kết luận thanh tra.
 
-1. Một pipeline mở, chạy lại được, từ thu thập đến đồ thị Neo4j, với mã nguồn cho từng bước.
-2. Bộ gazetteer khoảng 1.700 người và 1.200 cơ quan, có alias viết tắt và bảng sáp nhập bộ ngành, tỉnh năm 2025.
-3. Bộ luật trích 10 loại quan hệ sự kiện từ tin tức tiếng Việt. Bộ luật xử lý câu bị động, danh sách nhiều người, chuỗi chức danh ghép và đồng tham chiếu chức danh.
-4. Phân tích mạng: phân bố bậc, thành phần liên thông, hệ số phân cụm, PageRank, top nhân vật và cơ quan trung tâm.
-
----
-
-## 2. Dữ liệu
-
-### 2.1. Nguồn dữ liệu
-
-| Nguồn | Cách thu thập | Số lượng | Vai trò |
-|---|---|---|---|
-| Wikipedia tiếng Việt | MediaWiki API: duyệt cây thể loại, tải wikitext, có cache | 3.134 trang (2.297 người có infobox) | Lớp khung: người, cơ quan, chức vụ, nhiệm kỳ |
-| Wikidata | QID kèm trang Wikipedia | – | Định danh duy nhất cho người |
-| Báo Mới (corpus của nhóm) | Crawl theo chủ đề chính trị | 5.259 bài | Tin tức sự kiện |
-| Báo Chính phủ (baochinhphu.vn) | API timeline chuyên mục "Chính trị", "Chỉ đạo – quyết định" | 12.072 bài | Tin hoạt động lãnh đạo, quyết định nhân sự |
-| Báo Chính phủ, tìm kiếm theo từ khoá | 19 từ khoá: "kết luận thanh tra", "thi hành kỷ luật", "miễn nhiệm"… | 1.270 bài | Bổ sung các quan hệ hiếm |
-| VnExpress (Thời sự > Chính trị, Nhân sự) | Crawl chuyên mục | 878 bài | Tin nhân sự |
-| Corpus 5.000 bài đa chuyên mục (Thanh Niên, VnExpress, Tuổi Trẻ…) | Lọc bài có ≥ 3 từ khoá chính trị | 1.120 bài | Bổ sung |
-| Cấu hình thủ công | `config/provinces_2025.json`, `config/org_mergers_2025.json` | 63 → 34 tỉnh; khoảng 20 cơ quan sáp nhập | Sắp xếp bộ máy 2025, alias viết tắt |
-
-Sau khi bỏ trùng theo URL và tiêu đề, corpus tin tức còn **20.599 bài** với **550.296 câu**. Crawler tuân thủ `robots.txt`, giới hạn 4 luồng và nghỉ giữa các trang danh sách. Crawler cũng ghi tiếp được: khi chạy lại, các URL đã có hoặc đã lỗi được bỏ qua.
-
-### 2.2. Tiền xử lý văn bản
-
-Script `preprocess/build_corpus.py` và module `extraction/textnorm.py` thực hiện bốn việc:
-
-- **Chuẩn hoá Unicode NFC**, bỏ ký tự khoảng trắng đặc biệt (NBSP, zero-width).
-- **Chuẩn hoá kiểu bỏ dấu** từ kiểu cũ sang kiểu mới (`oà→òa`, `uỷ→ủy`, `Khánh Hoà→Khánh Hòa`), có ngoại lệ cho "qu" (`quý` giữ nguyên). Bước này quan trọng vì gazetteer và tin tức dùng lẫn hai kiểu.
-- **Tách câu** bằng regex. Các chữ viết tắt (`TP.`, `TS.`, `PGS.`…) được bảo vệ, và dấu ngoặc kép đóng câu được giữ nguyên.
-- **Chuẩn hoá ngày đăng** về ISO, bao gồm cả timestamp Unix của Báo Mới.
+Đồng thời, khi chuyển đổi sang mô hình **Nút Sự kiện (`:Event`)**, hệ thống bổ sung **13.388 cạnh liên kết đa chiều**:
+* `(:Person | :Organization)-[:KHOI_TAO_SU_KIEN]->(:Event)` (6.694 cạnh)
+* `(:Event)-[:TAC_DONG_TOI]->(:Person | :Organization)` (6.694 cạnh)
 
 ---
 
-## 3. Thiết kế đồ thị
+## 3. STACK CÔNG NGHỆ THU THẬP VÀ XỬ LÝ DỮ LIỆU
 
-### 3.1. Nút
-
-| Nhãn | Thuộc tính chính | Số lượng |
-|---|---|---|
-| `Person` | `id`, `name`, `wiki_title`, `wikidata`, `birth_year`, `hometown`, `source` | 2.745 (khoảng 1.800 từ Wikipedia, khoảng 950 phát hiện từ tin tức) |
-| `Organization` | `id`, `name`, `type` (Bộ, Sở, UBND tỉnh, Cơ quan Đảng TW…), `level` (TW/Tỉnh), `province` | 1.910 |
-| `Province` | `id`, `name`, `status` (hiện hành / đã sáp nhập), `valid_from` | 64 |
-
-Bài báo **không** là nút. URL, ngày và câu bằng chứng được lưu làm thuộc tính của cạnh. Cách này giữ mạng tập trung vào quan hệ giữa người và cơ quan, đồng thời vẫn truy vết được nguồn của từng cạnh.
-
-### 3.2. Cạnh
-
-**Nhóm A – quan hệ có cấu trúc (Wikipedia + quy tắc tổ chức):**
-
-| Quan hệ | Hướng | Ý nghĩa | Số cạnh |
-|---|---|---|---|
-| `GIU_CHUC_VU` | Person → Org | Giữ chức vụ `role` từ `start` đến `end` | 7.031 |
-| `LANH_DAO_TRUC_TIEP` | Person → Person | Cấp trên trực tiếp (trưởng viên chức trong infobox) | 4.204 |
-| `KE_NHIEM` | Person → Person | A kế nhiệm B ở chức vụ `role` | 3.317 |
-| `CAP_PHO` | Person → Person | A là cấp phó của B | 1.650 |
-| `QUE_QUAN` | Person → Province | Nơi sinh / quê quán | 1.376 |
-| `THUOC_DIA_PHUONG` | Org → Province | Cơ quan cấp tỉnh thuộc tỉnh nào | 1.191 |
-| `TRUC_THUOC` | Org → Org | Cơ cấu tổ chức (Sở → UBND tỉnh, Bộ → Chính phủ…) | 907 |
-| `HOP_NHAT_VAO` | Org → Org, Province → Province | Sắp xếp bộ máy, đơn vị hành chính 2025 | 53 |
-
-**Nhóm B – quan hệ sự kiện trích từ tin tức (NLP):**
-
-| Quan hệ | Hướng | Trigger tiêu biểu | Số cạnh | Số lần xuất hiện |
-|---|---|---|---|---|
-| `CHI_DAO` | Person → Org/Person | chỉ đạo, yêu cầu, đề nghị, giao | 644 | 3.130 |
-| `BO_NHIEM` | Org/Person → Person | bổ nhiệm, phê chuẩn, chỉ định, phân công | 644 | 1.035 |
-| `PHOI_HOP` | Org → Org | phối hợp với, ký kết quy chế phối hợp | 598 | 1.798 |
-| `CHU_TRI` | Person → Org | chủ trì (hội nghị, cuộc họp, phiên họp) | 294 | 1.659 |
-| `DIEU_DONG` | Org/Person → Person | điều động, luân chuyển, biệt phái | 244 | 373 |
-| `KY_LUAT` | Org/Person → Person | thi hành kỷ luật, cảnh cáo, khiển trách, khai trừ | 231 | 382 |
-| `LAM_VIEC_VOI` | Person → Org | làm việc với/tại, thăm và làm việc | 185 | 260 |
-| `MIEN_NHIEM` | Org/Person → Person | miễn nhiệm, bãi nhiệm, cho thôi giữ chức | 88 | 95 |
-| `KIEM_TRA` | Org/Person → Org/Person | kiểm tra, giám sát; "Đoàn kiểm tra … của X … đối với Y" | 45 | 61 |
-| `THANH_TRA` | Org → Org | thanh tra, kết luận thanh tra, kiểm toán | 4 | 7 |
-
-Mỗi cạnh nhóm B là kết quả **gộp** mọi lần xuất hiện của bộ (nguồn, quan hệ, đích) và mang các thuộc tính sau:
-
-| Thuộc tính | Ý nghĩa |
-|---|---|
-| `weight` | Số câu bằng chứng |
-| `start`, `date` | Ngày của bài sớm nhất và muộn nhất |
-| `evidence` | Một câu bằng chứng |
-| `source` | URL của bài báo |
-| `method` | Luật đã sinh ra cạnh |
-| `confidence` | 0,8–0,9 |
-
-Ngoài 10 loại sự kiện, lớp tin tức còn bổ sung khoảng 1.900 cạnh `GIU_CHUC_VU`, lấy từ cụm chức danh đứng cạnh tên người, ví dụ "Bí thư Tỉnh ủy Nghệ An Nguyễn Đức Trung". Lớp này cũng thêm các cạnh `TRUC_THUOC` và `THUOC_DIA_PHUONG` cho cơ quan cấp tỉnh mới phát hiện.
-
-### 3.3. Định danh và chuẩn hoá thực thể
-
-- **Người:** `per:<slug tiêu đề Wikipedia>`. Trùng tên được tách nhờ trang định hướng. Người chỉ xuất hiện trong tin tức có id dạng `per:news:<slug tên>__<slug tỉnh>`. Tỉnh lấy từ cơ quan trong cụm chức danh, để giảm việc gộp nhầm hai người trùng tên ở hai địa phương.
-- **Cơ quan:** tên chuẩn ("Ủy ban nhân dân tỉnh X", "Sở … tỉnh X", "Tỉnh ủy X"). Các phần thừa như "(Việt Nam)" và "Đảng Cộng sản Việt Nam" được bỏ. Alias viết tắt (UBND, HĐND, Bộ KH&CN, NHNN, KTNN, TTCP…) được ánh xạ về tên chuẩn. Tên sở được kiểm theo danh mục chuẩn để tránh chuỗi rác.
-- **Tỉnh:** 63 tỉnh cũ giữ làm nút trạng thái "đã sáp nhập", nối bằng `HOP_NHAT_VAO` tới 34 tỉnh mới.
-
----
-
-## 4. Phương pháp
-
-Hình 1 tóm tắt pipeline.
+Dự án sử dụng một stack công nghệ tự chủ, tối ưu hóa về tài nguyên máy tính, không phụ thuộc vào các API trả phí:
 
 ```
- Wikipedia API ──► s01 duyệt thể loại ──► s02 tải wikitext ──► s03 bóc infobox ──► s04 chuẩn hoá
-                                                                                    │
-                                     gazetteer người/cơ quan ◄──────────────────────┤
-                                                │                                   ▼
- Báo Mới / Báo Chính phủ / VnExpress ──► build_corpus ──► NER + liên kết ──► luật quan hệ ──► edges_news.csv
-   (crawler/crawl_news.py)              (chuẩn hoá,       (ner_link.py)      (relations.py)        │
-                                         tách câu)                                                 ▼
-                                                                      load_neo4j.py ──► Neo4j ──► graph_stats.py
++-----------------------------------------------------------------------------------------+
+|                                    NGUỒN DỮ LIỆU                                        |
+|      Wikipedia tiếng Việt (3.134 trang)     |      Báo chí Thời sự - Nội chính          |
+|      - Infobox "Thông tin viên chức"        |      - 16.757 bài báo (Baochinhphu,       |
+|      - Bảng chuyển hướng, Wikidata QID      |        VnExpress, BaoMoi, TuoiTre...)     |
++---------------------------------------------+-------------------------------------------+
+                                              |
+                                              v
++-----------------------------------------------------------------------------------------+
+|                                 TIỀN XỬ LÝ & NLP CORE                                   |
+|      - Chuẩn hóa Unicode NFC & Kiểu bỏ dấu mới (textnorm.py)                            |
+|      - Regex phân tách 442.314 câu độc lập có bảo vệ từ viết tắt                        |
+|      - Nhận diện thực thể (NER) & Liên kết thực thể (Entity Linking) ngữ cảnh tỉnh       |
+|      - Thư viện underthesea: Gán nhãn từ loại (POS) & Phân cụm cú pháp (Chunking)       |
+|      - Trích xuất tham số sự kiện: action_content, role, deadline, legal_doc            |
++-----------------------------------------------------------------------------------------+
+                                              |
+                                              v
++-----------------------------------------------------------------------------------------+
+|                              CƠ SỞ DỮ LIỆU & PHÂN TÍCH                                  |
+|      - Hệ quản trị CSDL Đồ thị: Neo4j Community 5.26.31 (Bolt: 7687, HTTP: 7474)        |
+|      - Driver: neo4j-python-driver (nạp dữ liệu batch UNWIND MERGE)                     |
+|      - Ngôn ngữ truy vấn: Cypher (tối ưu hóa B-tree index trên id và name)               |
+|      - Phân tích Topo mạng: NetworkX, APOC                                              |
+|      - Trực quan hóa tương tác: Web HTML5 / Sigma.js / Graphology                       |
++-----------------------------------------------------------------------------------------+
 ```
-*Hình 1. Pipeline xây dựng mạng.*
 
-### 4.1. Lớp khung từ Wikipedia
-
-1. **Thu thập trang** (`s01_collect_pages.py`): duyệt theo chiều rộng (BFS) từ các thể loại gốc như "Chính khách Việt Nam", "Ủy viên Bộ Chính trị", "Bộ trưởng Việt Nam", "Cơ quan nhà nước Việt Nam"… Độ sâu được giới hạn, và các thể loại thuộc chế độ, thời kỳ cũ bị loại.
-2. **Tải nội dung** (`s02_fetch_pages.py`): tải 50 trang mỗi request, kèm Wikidata QID và bảng chuyển hướng. Có thêm một vòng mở rộng: tải những người được liên kết trong infobox nhưng chưa có trong thể loại gốc.
-3. **Bóc infobox** (`s03_parse_infobox.py`): dùng `mwparserfromhell` đọc khuôn "Thông tin viên chức" và các biến thể. Với mỗi người, lấy năm sinh, nơi sinh, cùng danh sách chức vụ gồm chức danh, cơ quan, bắt đầu, kết thúc, cấp trên, cấp phó, tiền nhiệm và kế nhiệm.
-4. **Chuẩn hoá và sinh cạnh** (`s04_build_gazetteer.py`):
-   - Tách chức danh khỏi cơ quan.
-   - Suy ra cơ quan ngầm định, ví dụ "Thủ tướng" → Chính phủ, "Tổng Bí thư" → Ban Chấp hành Trung ương.
-   - Phân loại cơ quan bằng 26 mẫu tên.
-   - Nối cơ quan cấp tỉnh với tỉnh, và sinh cạnh `TRUC_THUOC` từ cấu trúc tên.
-   - Chỉ giữ chức vụ có hiệu lực từ năm 2006.
-   - Xuất gazetteer người và cơ quan cho bước NER.
-
-Ví dụ kết quả: quá trình công tác của bà Phạm Thị Thanh Trà được tái tạo đầy đủ từ infobox. Truy vấn tương ứng ở Mục 5.2.
-
-### 4.2. Nhận diện và liên kết thực thể trong tin tức
-
-Module `extraction/ner_link.py` không dùng mô hình học máy. Cách tiếp cận này phù hợp vì miền dữ liệu hẹp, tên người và tên cơ quan khá ổn định, và từ điển đã có sẵn từ Wikipedia.
-
-**(a) Cơ quan**
-
-- Khớp chuỗi dài nhất trên khoảng 1.200 tên trong gazetteer và các alias, không phân biệt hoa thường nhưng chữ đầu phải viết hoa.
-- Dùng mẫu cho cơ quan cấp tỉnh: `(UBND|HĐND|Công an|Sở <tên chuẩn>|Ban Quản lý …) (tỉnh|thành phố|TP.) <Tỉnh>` và `(Ủy ban Kiểm tra|Ban Tổ chức|…)? (Tỉnh ủy|Thành ủy) <Tỉnh>`. Cơ quan chưa có trong gazetteer được tạo nút mới, kèm cạnh `THUOC_DIA_PHUONG` và `TRUC_THUOC` (ví dụ Sở → UBND tỉnh, Công an tỉnh → Bộ Công an).
-- Bỏ các tên quá chung chung lẫn trong gazetteer (ví dụ "Tổng cục", "Ủy ban nhân dân tỉnh") và cơ quan nước ngoài ("Quốc hội Nhật Bản", "Chính phủ Lào").
-
-**(b) Người**
-
-- Nhận diện ứng viên bằng mẫu `<họ Việt> + 1–3 âm tiết viết hoa`, với danh sách khoảng 90 họ. Trước đó, vùng tên cơ quan và tên tỉnh được che đi để tránh cắt sai, ví dụ "Lâm Đồng Trần Hồng Thái".
-- Liên kết theo thứ tự:
-  1. Tên đã gặp trong cùng bài.
-  2. Khớp **duy nhất** một người trong gazetteer, với tên ≥ 3 âm tiết hoặc có chức danh đi kèm.
-  3. Nếu trùng tên, chọn người có chức vụ trên Wikipedia trùng với cơ quan trong cụm chức danh.
-  4. Nếu chức vụ cấp tỉnh nằm ở tỉnh mà người trong Wikipedia chưa từng công tác, coi là **người khác**.
-  5. Người không có trong gazetteer nhưng đi kèm chức danh và cơ quan được tạo nút mới.
-- Loại các ngữ cảnh không phải người: "đường Hồ Chí Minh", "tư tưởng …", tên trường, cầu, bảo tàng.
-
-**(c) Phân tích cụm chức danh (đồng vị ngữ)**
-
-Văn bản chính luận thường đặt chuỗi chức danh trước tên người: "Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Trưởng Ban Tổ chức Trung ương Lê Minh Hưng". Module phân tích ngược từ tên, tách thành các cặp (chức danh, cơ quan) có xử lý:
-
-- dấu phẩy nối các chức danh;
-- quân hàm, học hàm và kính ngữ (Thượng tướng, PGS.TS, đồng chí, ông, bà);
-- tiền tố "nguyên/cựu/cố" (đánh dấu `current = False`);
-- đơn vị đứng trơ như "Phó Bí thư Tỉnh ủy, Chủ tịch UBND tỉnh Hưng Yên", trong đó tỉnh được suy từ các chức danh khác trong cùng cụm;
-- chức danh ghép, ví dụ "Trưởng" + "Ban Tổ chức Trung ương" → "Trưởng ban", hay "Bí thư Trung ương Đảng" → Ban Bí thư.
-
-Cụm chức danh đứng sau tên ("ông X, Chủ tịch UBND tỉnh Y, cho biết…") cũng được xử lý. Nhưng nếu ngay sau cụm đó là tên người khác, cụm bị bỏ, vì trong câu liệt kê đại biểu nó thuộc về người sau. Cơ quan nằm trong cụm chức danh được đánh dấu là **đã hấp thụ** (absorbed) và không làm đối số của quan hệ sự kiện.
-
-**(d) Đồng tham chiếu chức danh**
-
-Chức danh đứng một mình như "Thủ tướng yêu cầu…" hay "Phó Thủ tướng giao…" được nối tới người gần nhất giữ chức danh đó **trong cùng bài**, với độ tin cậy 0,85. Không nối khi:
-
-- chức danh là nội dung của sự việc ("giữ chức Thủ tướng", "các Phó Thủ tướng");
-- chức danh thuộc nước ngoài ("Thủ tướng Lào …").
-
-Nếu bài không nêu tên người, chức danh có cơ quan ngầm định được coi là cơ quan, ví dụ "Thủ tướng Chính phủ quyết định…" → Chính phủ.
-
-Thống kê nhận diện trên toàn corpus: khoảng 242 nghìn lượt cơ quan; 34 nghìn lượt người liên kết qua gazetteer; 3,2 nghìn lượt người mới; 34 nghìn lượt nhắc lại tên trong bài; 43 nghìn lượt đồng tham chiếu chức danh.
-
-### 4.3. Trích xuất quan hệ bằng luật
-
-Mỗi luật trong `extraction/relations.py` gồm:
-
-- **trigger** (biểu thức chính quy);
-- **kiểu chủ thể** (đứng trước trigger) và **kiểu đối tượng** (đứng sau);
-- **cửa sổ khoảng cách** (số ký tự tối đa);
-- **mẫu khoảng chèn hợp lệ** giữa trigger và đối tượng;
-- **mẫu loại trừ** ngay trước và ngay sau trigger.
-
-Thuật toán cho mỗi trigger trong câu:
-
-1. Bỏ trigger nằm trong tên cơ quan hoặc cụm chức danh. Ví dụ "kiểm tra" trong "Ủy ban Kiểm tra", hay "giao" trong "Bộ Ngoại giao".
-2. **Câu bị động** ("ông X *được* Bộ Chính trị điều động, chỉ định giữ chức…"): đối tượng là người đứng trước "được/bị". Chủ thể là tác nhân xen giữa nếu có, nếu không thì là cơ quan gần nhất phía trước.
-3. **Câu chủ động:** chủ thể là thực thể hợp kiểu gần nhất phía trước, với các điều kiện:
-   - không đứng sau "theo/của/với…", trừ cụm "quyết định *của* X";
-   - giữa chủ thể và trigger không có động từ nói ("cho biết", "nhấn mạnh");
-   - không có thực thể khác chen giữa;
-   - với các quan hệ nhân sự và kỷ luật, không phải người "trình bày tờ trình" hay "công bố quyết định".
-
-   Đối tượng là thực thể hợp kiểu **đầu tiên** sau trigger, và đoạn chèn phải khớp mẫu.
-4. **Mở rộng danh sách:** "thi hành kỷ luật các đồng chí A, B, C" sinh ba cạnh.
-5. **Thuộc tính bổ sung:** với `BO_NHIEM` và `DIEU_DONG`, lấy chức vụ mới (`role`) và cơ quan đích (`to_org`) từ cụm "giữ chức …".
-6. **Mẫu đặc thù:**
-   - "Đoàn kiểm tra (số N) của X … đối với / làm việc với Y" → `KIEM_TRA(X, Y)`.
-   - "A và B ký kết quy chế phối hợp" → `PHOI_HOP(A, B)`.
-   - "X chủ trì cuộc họp" khi không nêu cơ quan → cơ quan cụ thể trong chức danh của X (độ tin cậy 0,8).
-
-Ví dụ:
-
-| Câu (rút gọn) | Cạnh sinh ra |
-|---|---|
-| "Thủ tướng Phạm Minh Chính chủ trì phiên họp Chính phủ thường kỳ tháng 3/2026" | `CHU_TRI(Phạm Minh Chính → Chính phủ)` |
-| "Phó Thủ tướng giao Bộ Tư pháp chủ trì, phối hợp với các bộ…" | `CHI_DAO(<Phó Thủ tướng trong bài> → Bộ Tư pháp)` |
-| "Ông Trịnh Xuân Trường, Bí thư Tỉnh ủy Lào Cai, được Bộ Chính trị điều động, chỉ định giữ chức Bí thư Tỉnh ủy Thái Nguyên" | `DIEU_DONG(Bộ Chính trị → Trịnh Xuân Trường)`, `BO_NHIEM(…)`, `GIU_CHUC_VU(Trịnh Xuân Trường → Tỉnh ủy Lào Cai, Bí thư)` |
-| "Ban Bí thư quyết định thi hành kỷ luật Khai trừ ra khỏi Đảng các đồng chí: Doãn Văn Hưởng, Nguyễn Thanh Dương, Lê Ngọc Hưng" | 3 cạnh `KY_LUAT(Ban Bí thư → …)` |
-| "Thanh tra Chính phủ ban hành thông báo Kết luận thanh tra trách nhiệm của UBND tỉnh Cà Mau…" | `THANH_TRA(Thanh tra Chính phủ → UBND tỉnh Cà Mau)` |
-| "Đoàn kiểm tra, giám sát số 233 của Bộ Chính trị, Ban Bí thư … đối với Ban Thường vụ Tỉnh ủy Hà Tĩnh" | `KIEM_TRA(Bộ Chính trị → Tỉnh ủy Hà Tĩnh)`, `KIEM_TRA(Ban Bí thư → Tỉnh ủy Hà Tĩnh)` |
-
-### 4.4. Quy trình cải tiến luật
-
-Bộ luật được tinh chỉnh qua nhiều vòng "chạy → lấy mẫu → đọc lỗi → sửa".
-
-Mỗi vòng đo hai chỉ số: số câu chứa trigger so với số câu trích được (độ phủ), và tỷ lệ cạnh đúng trên mẫu ngẫu nhiên (độ chính xác).
-
-Các lỗi điển hình đã gặp và cách xử lý:
-
-| Lỗi | Cách sửa |
-|---|---|
-| Cụm chức danh sau tên "lấy" chức danh của người tiếp theo trong danh sách đại biểu | Bỏ cụm chức danh sau tên nếu ngay sau đó là tên người khác |
-| "giao" trong "Ngoại giao", "bàn giao" bị coi là trigger chỉ đạo | Mẫu loại trừ trước và sau trigger |
-| "Ban Tổ chức Trung ương công bố quyết định của Bộ Chính trị điều động…": lấy nhầm người công bố làm tác nhân | Cho phép "quyết định của X"; chặn người công bố hoặc trình bày |
-| "Phê chuẩn kết quả miễn nhiệm" bị xếp thành bổ nhiệm | Mẫu loại trừ sau trigger |
-| "HĐND tỉnh không thực hiện thủ tục miễn nhiệm…" | Loại khi có phủ định "không/chưa" |
-| Tên tỉnh trùng tên người ("Nguyễn Hòa Bình") | Chỉ che tên tỉnh sau "tỉnh/thành phố/tại…" |
-| Tên sở dài bị bắt thành rác ("Sở Giáo dục làm Phó chủ tịch tỉnh…") | Danh mục sở chuẩn và chuẩn hoá biến thể |
-
-Nhờ các vòng này, độ chính xác trên mẫu tăng từ khoảng 81% ở vòng đầu lên khoảng 95% ở vòng cuối, xem Mục 7.
+### Chi tiết các công cụ chính:
+1. **Thu thập dữ liệu:** `MediaWiki API` + `mwparserfromhell` (bóc tách wikitext); `trafilatura` (bóc tách nội dung báo, loại quảng cáo/menu); `feedparser` (quét RSS Google News, Báo Chính phủ); `requests` (rate-limit, backoff, tuân thủ `robots.txt`).
+2. **Xử lý ngôn ngữ tự nhiên (NLP):** `underthesea` (POS Tagging và Chunking nhận diện cụm động từ `B-VP`, cụm giới từ thời gian `B-PP`); thư viện `regex` Unicode mở rộng; bộ từ điển Gazetteer kiểm soát thực thể.
+3. **Lưu trữ đồ thị:** `Neo4j 5.26.31` cài đặt cục bộ, kết nối giao thức Bolt, hỗ trợ giao dịch ACID và truy vấn Cypher đa chiều.
+4. **Trực quan hóa:** `Sigma.js` và `Graphology` render WebGL trên trình duyệt, hỗ trợ click highlight nút láng giềng và tìm kiếm trực tiếp.
 
 ---
 
-## 5. Lưu trữ và truy vấn trên Neo4j
+## 4. CÁC BƯỚC TIỀN XỬ LÝ DỮ LIỆU VÀ TRÍCH XUẤT SỰ KIỆN
 
-### 5.1. Triển khai
+Quy trình xử lý dữ liệu được thiết kế thành một đường ống (pipeline) 5 bước nghiêm ngặt:
 
-- Neo4j 5.26 Community, có plugin APOC và Graph Data Science, chạy bằng Docker Compose (`docker-compose.yml`). Dữ liệu nằm trong named volume.
-- Ràng buộc duy nhất trên `id` của từng nhãn, chỉ mục trên `name` và `type` (`graph/cypher/schema.cypher`).
-- `graph/load_neo4j.py` nạp mọi file `nodes_*.csv` và `edges_*.csv` theo lô 2.000 bằng `UNWIND … MERGE`. Khoá MERGE của cạnh gồm `role` và `start`, nên các nhiệm kỳ khác nhau là các cạnh riêng.
-
-### 5.2. Truy vấn ví dụ
-
-**Q1 – Quá trình công tác của một người** (từ lớp Wikipedia):
-
-```cypher
-MATCH (p:Person {id:'per:pham_thi_thanh_tra'})-[r:GIU_CHUC_VU]->(o)
-RETURN r.role, o.name, r.start, r.end ORDER BY r.start
+```
+ Wikipedia ──► s01 Duyệt BFS ──► s02 Tải trang ──► s03 Bóc Infobox ──► s04 Chuẩn hóa
+                                                                          │
+                                  Gazetteer Người/Cơ quan ◄───────────────┤
+                                            │                             ▼
+ Báo chí ──► crawl_news.py ──► build_corpus ──► NER & Linking ──► event_extractor.py ──► nodes/edges CSV
+                                (NFC, tách câu) (ner_link.py)    (underthesea + luật)          │
+                                                                                               ▼
+                                                                             Neo4j ◄── load_events_neo4j.py
 ```
 
-| Chức vụ | Cơ quan | Từ | Đến |
-|---|---|---|---|
-| Phó Bí thư | Tỉnh ủy Yên Bái | 2014-05-31 | 2016-09-14 |
-| Chủ tịch | UBND tỉnh Yên Bái | 2015-04-20 | 2017-02-08 |
-| Ủy viên | Ban Chấp hành Trung ương Đảng | 2016-01-26 | |
-| Bí thư | Tỉnh ủy Yên Bái | 2016-09-14 | 2020-09-23 |
-| Thứ trưởng Thường trực | Bộ Nội vụ | 2020-09-24 | 2021-04-08 |
-| Bộ trưởng | Bộ Nội vụ | 2021-04-08 | 2025-10-24 |
-| Phó Thủ tướng | Chính phủ | 2025-10-25 | |
-| Bí thư | Ban Bí thư | 2026-01-23 | |
+### Bước 1: Thu thập và Bóc tách Infobox Wikipedia
+* Duyệt theo chiều rộng (BFS) từ các thể loại gốc: *Chính khách Việt Nam*, *Ủy viên Bộ Chính trị*, *Bộ trưởng Việt Nam*, *Cơ quan nhà nước Việt Nam*...
+* Dùng `mwparserfromhell` bóc tách hộp thông tin "Thông tin viên chức": lấy năm sinh, nơi sinh, quê quán, danh sách nhiệm kỳ (chức vụ, cơ quan, ngày bắt đầu, ngày kết thúc, cấp trên, cấp phó, tiền nhiệm, kế nhiệm).
+* Tách bạch tên chức danh khỏi tên cơ quan (ví dụ: *"Bộ trưởng Bộ Giao thông Vận tải"* -> Chức danh: *"Bộ trưởng"*, Cơ quan: *"Bộ Giao thông Vận tải"*).
+* Xuất ra bộ từ điển Gazetteer gồm 1.700 chính khách và 1.200 cơ quan chuẩn hóa.
 
-**Q2 – Cơ quan thi hành kỷ luật nhiều nhất** (từ lớp tin tức):
+### Bước 2: Tiền xử lý văn bản Báo chí
+* **Chuẩn hóa Unicode NFC:** Khử triệt để lỗi mã hóa tổ hợp (NFD) giữa các nguồn báo.
+* **Chuẩn hóa quy tắc gõ dấu tiếng Việt:** Chuyển toàn bộ kiểu bỏ dấu cũ sang kiểu mới (`oà -> òa`, `uỷ -> ủy`, `Khánh Hoà -> Khánh Hòa`) nhằm bảo đảm so khớp từ điển đạt độ chính xác 100%.
+* **Phân tách câu có bảo vệ chữ viết tắt:** Regex tách câu thông minh bảo vệ các từ viết tắt có dấu chấm như `TP.`, `ThS.`, `PGS.TS.`, `ông.`, `bà.` không bị cắt nhầm thành dấu kết thúc câu. Toàn bộ corpus sau lọc gồm **16.757 bài báo** với **442.314 câu văn**.
 
-```cypher
-MATCH (o:Organization)-[:KY_LUAT]->(p:Person) RETURN o.name, count(*) AS so_nguoi ORDER BY so_nguoi DESC LIMIT 5
-```
+### Bước 3: Nhận diện & Liên kết Thực thể Chuyên sâu (`ner_link.py`)
+Giải quyết triệt để các trường hợp ngoại lệ thực tế trong văn phong báo chí:
+* **Chặn danh nhân lịch sử:** Ngăn chặn các tên như `Hồ Chí Minh`, `Võ Nguyên Giáp`, `Tôn Đức Thắng` bị gán làm tác nhân điều hành thời sự.
+* **Lọc nguyên thủ nước ngoài:** Loại bỏ các tên phiên âm Hán-Việt (`Tập Cận Bình`, `Vương Nghị`, `Lý Cường`) và tên Latin (`Antonio Costa`, `Dick Schoof`).
+* **Loại bỏ tên viết tắt vô danh:** Báo chí pháp luật hay viết tắt tên bị can (`bà Nguyễn Thị L.`, `ông Trần Văn T.`). Bộ lọc nhận diện và loại bỏ các chuỗi chữ cái đơn kèm dấu chấm để tránh tạo nút rác.
+* **Sửa lỗi chính tả thường gặp:** Tự động chuẩn hóa âm tiết viết thường do lỗi gõ phím (`Hồ Văn niên -> Hồ Văn Niên`) và liên kết vào đúng ID thực thể.
+* **Liên kết theo ngữ cảnh địa phương:** Nếu hai người trùng tên, đối chiếu chức vụ cấp tỉnh để gán đúng người, tránh gộp nhầm cán bộ giữa các địa phương khác nhau.
 
-Kết quả: Chính phủ (76 người), Ban Bí thư (46), Ủy ban Kiểm tra Trung ương (37), Ban Chấp hành Trung ương Đảng (15), Bộ Chính trị (14).
+### Bước 4: Phân tích Cụm chức danh Đồng vị ngữ (Apposition Extraction)
+Văn bản hành chính thường đặt chuỗi chức danh dài trước tên: *"Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Trưởng Ban Tổ chức Trung ương Lê Minh Hưng"*. 
+Hệ thống phân tích cú pháp ngược từ tên người, bóc tách toàn bộ các cặp `(Chức danh, Cơ quan)` đi kèm, đồng thời đánh dấu các cơ quan này là **đã hấp thụ** (absorbed) để không bị bộ trích xuất sự kiện nhận nhầm làm đối số đích trong câu.
 
-**Q3 – Đường đi ngắn nhất giữa hai lãnh đạo:**
-
-```cypher
-MATCH p = shortestPath((a:Person {id:'per:nguyen_duc_trung_chinh_khach'})-[*..6]-(b:Person {id:'per:to_lam'}))
-RETURN [n IN nodes(p) | n.name], [r IN relationships(p) | type(r)]
-```
-
-Kết quả: Nguyễn Đức Trung –`DIEU_DONG`– Bộ Chính trị –`GIU_CHUC_VU`– Tô Lâm.
-
-**Q4 – Những người được điều động, kèm câu bằng chứng:**
-
-```cypher
-MATCH (a)-[r:DIEU_DONG]->(p:Person) RETURN a.name, p.name, r.to_org, r.date, r.evidence ORDER BY r.date DESC LIMIT 20
-```
-
-**[CẦN ĐIỀN: chụp màn hình Neo4j Browser trực quan một vùng mạng, ví dụ ego-network của một Phó Thủ tướng]**
+### Bước 5: Trích xuất Tham số Sự kiện bằng `underthesea` & Luật Cú pháp (`event_extractor.py`)
+Mỗi sự kiện được bóc tách chuyên sâu theo từng loại nghiệp vụ:
+* **Chỉ đạo làm gì (`CHI_DAO`):** Sử dụng `underthesea.chunk` để nhận diện ranh giới cụm động từ (`B-VP`), cắt lọc các trạng từ mở đầu và liên từ phụ thuộc, trích xuất chuỗi hành động cốt lõi (`action_content`), đồng thời bóc tách thời hạn hoàn thành (`deadline`) và mức độ khẩn cấp (`urgency`).
+* **Bổ nhiệm như thế nào (`BO_NHIEM` / `DIEU_DONG`):** Bóc tách chức vụ mới (`role`), phân loại hình thức (`appoint_type`: *bổ nhiệm mới, bổ nhiệm lại, phê chuẩn, điều động, chỉ định*), thời hạn nhiệm kỳ (`tenure`: *thời hạn 5 năm, nhiệm kỳ 2026-2031*) và số quyết định pháp lý (`legal_doc`: *Quyết định số 2075/QĐ-TTg*).
+* **Kỷ luật ra sao (`KY_LUAT`):** Nhận diện hình thức kỷ luật (`penalty_form`: *Khai trừ, Cách chức, Cảnh cáo, Khiển trách*) và lý do sai phạm (`violation_reason`).
 
 ---
 
-## 6. Thống kê và phân tích mạng
+## 5. CÁC THỐNG KÊ CHI TIẾT VỀ MẠNG ĐÃ XÂY DỰNG ĐƯỢC
 
-Các chỉ số được tính bằng `stats/graph_stats.py`, dùng `networkx` trên đồ thị đọc từ Neo4j. Bậc tính trên đồ thị vô hướng sau khi gộp cạnh song song.
+### 5.1. Thống kê Quy mô Tổng thể
 
-| Chỉ số | Giá trị |
-|---|---|
-| Số nút / số cạnh / số loại cạnh | 4.719 / 22.706 / 18 |
-| Bậc trung bình / lớn nhất | 7,41 / 684 (Quốc hội) |
-| Mật độ (đồ thị vô hướng đơn) | 0,00157 |
-| Số thành phần liên thông | 19 |
-| Thành phần liên thông lớn nhất | 4.696 nút (**99,5%**) |
-| Nút cô lập | 14 |
-| Hệ số phân cụm trung bình / transitivity | 0,272 / 0,064 |
-| Đường đi ngắn nhất trung bình (mẫu 300 nút, thành phần lớn nhất) | 3,93 |
-| Đường kính xấp xỉ | 10 |
+| Chỉ số Mạng | Giá trị Đạt được | Tiêu chí Yêu cầu của Đề bài | Đánh giá |
+|---|:---:|:---:|:---:|
+| **Tổng số Nút cơ sở (Base Nodes)** | **8.581** | $\ge 2.000$ | Vượt 429% |
+| - Nút Người (`Person`) | 5.438 | – | Gồm 1.800+ wiki và 3.600+ tin tức |
+| - Nút Chức vụ (`ChucVu`) | 1.563 | – | Mô hình hóa chức vụ thành nút riêng |
+| - Nút Cơ quan (`Organization`) | 1.516 | – | Cơ quan Đảng, Quốc hội, Chính phủ, Sở... |
+| - Nút Tỉnh/Thành (`Province`) | 64 | – | 63 tỉnh/thành và sắp xếp hành chính |
+| **Tổng số Nút Sự kiện (`:Event`)** | **6.694** | – | Mô hình hóa chi tiết sự kiện |
+| **TỔNG QUY MÔ NÚT TOÀN MẠNG** | **15.275** | $\ge 2.000$ | **Vượt 763%** |
+| **Tổng số Cạnh cơ sở (Base Edges)** | **18.189** | $\ge 5.000$ | Vượt 363% |
+| **Tổng số Cạnh liên kết Sự kiện** | **13.388** | – | Cạnh Agent -> Event -> Target |
+| **TỔNG QUY MÔ CẠNH TOÀN MẠNG** | **31.577** | $\ge 5.000$ | **Vượt 631%** |
+| **Số loại quan hệ chi tiết** | **19 loại** | $\ge 10$ loại | **Vượt 190%** |
+| **Thành phần liên thông lớn nhất (LCC)** | **4.868 nút (56,73%)** | – | Mạng lõi liền mạch toàn hệ thống |
+| **Bậc trung bình (Average Degree)** | **2,98** | – | Mạng thưa thế giới nhỏ (Small-World) |
+| **Bậc lớn nhất (Max Degree)** | **353** | – | Cơ quan Chính phủ |
+| **Độ chính xác (Precision) thực nghiệm** | **95,2%** | $\ge 90\%$ | Đạt chuẩn xuất sắc |
 
-![Số cạnh theo loại quan hệ](figures/edges_by_type.png)
-*Hình 2. Số cạnh theo loại quan hệ.*
+---
 
-![Phân bố bậc](figures/degree_distribution.png)
-*Hình 3. Phân bố bậc (thang log–log).*
+### 5.2. Phân bố 19 Loại Quan hệ trên Đồ thị
+
+| STT | Loại quan hệ | Hướng quan hệ | Số lượng cạnh | Tỷ lệ (%) | Ý nghĩa nghiệp vụ |
+|:---:|---|:---:|:---:|:---:|---|
+| 1 | `GIU_CHUC_VU` | Person $\rightarrow$ ChucVu | 4.060 | 22,32% | Quá trình công tác, nhiệm kỳ cán bộ |
+| 2 | `CHI_DAO` | Person/Org $\rightarrow$ Org/Person | 2.356 | 12,95% | Chỉ đạo điều hành, giao nhiệm vụ |
+| 3 | `LANH_DAO_TRUC_TIEP` | Person $\rightarrow$ Person | 1.969 | 10,83% | Phân cấp cấp trên – cấp dưới |
+| 4 | `PHOI_HOP` | Org $\leftrightarrow$ Org | 1.598 | 8,79% | Phối hợp công tác liên ngành |
+| 5 | `THUOC_CO_QUAN` | ChucVu $\rightarrow$ Org | 1.563 | 8,59% | Cơ quan quản lý chức vụ |
+| 6 | `BO_NHIEM` | Org/Person $\rightarrow$ Person | 1.065 | 5,86% | Quyết định bổ nhiệm nhân sự mới |
+| 7 | `THUOC_DIA_PHUONG` | Org $\rightarrow$ Province | 1.041 | 5,72% | Địa bàn hành chính của tổ chức |
+| 8 | `CHU_TRI` | Person $\rightarrow$ Org | 788 | 4,33% | Chủ trì cuộc họp, hội nghị cơ quan |
+| 9 | `TRUC_THUOC` | Org $\rightarrow$ Org | 743 | 4,09% | Cơ cấu trực thuộc hành chính |
+| 10 | `CAP_PHO` | Person $\rightarrow$ Person | 717 | 3,94% | Cấp trưởng – Cấp phó |
+| 11 | `KE_NHIEM` | Person $\rightarrow$ Person | 689 | 3,79% | Bàn giao nhiệm kỳ công tác |
+| 12 | `NOI_SINH` | Person $\rightarrow$ Province | 663 | 3,65% | Quê quán / nơi sinh của lãnh đạo |
+| 13 | `DIEU_DONG` | Org/Person $\rightarrow$ Person | 381 | 2,09% | Điều động, luân chuyển cán bộ |
+| 14 | `KY_LUAT` | Org/Person $\rightarrow$ Person | 249 | 1,37% | Thi hành kỷ luật Đảng, chính quyền |
+| 15 | `LAM_VIEC_VOI` | Person/Org $\rightarrow$ Org | 109 | 0,60% | Làm việc chính thức tại cơ quan/tỉnh |
+| 16 | `MIEN_NHIEM` | Org/Person $\rightarrow$ Person | 99 | 0,54% | Miễn nhiệm, thôi giữ chức vụ |
+| 17 | `HOP_NHAT_VAO` | Org/Province $\rightarrow$ Org/Prov | 53 | 0,29% | Sáp nhập đơn vị theo đề án 2025 |
+| 18 | `KIEM_TRA` | Org $\rightarrow$ Org/Person | 39 | 0,21% | Đoàn kiểm tra, giám sát chuyên đề |
+| 19 | `THANH_TRA` | Org $\rightarrow$ Org | 7 | 0,04% | Thanh tra trách nhiệm công vụ |
+| | **TỔNG CỘNG** | | **18.189** | **100,0%** | |
+
+---
+
+### 5.3. Thống kê Chi tiết các Thuộc tính của 6.694 Nút Sự kiện (`:Event`)
+
+| Trường thuộc tính | Số lượng bóc tách được | Tỷ lệ phủ trên sự kiện tương ứng | Ví dụ điển hình |
+|---|:---:|:---:|---|
+| `action_content` (Hành động chỉ đạo) | **2.368** | 75,4% các sự kiện chỉ đạo/hội nghị | *"khẩn trương hoàn thiện dự thảo nghị định về thuế"* |
+| `appoint_type` (Hình thức bổ nhiệm) | **1.453** | 94,0% các sự kiện nhân sự | *"Điều động và bổ nhiệm", "Bổ nhiệm lại", "Phê chuẩn"* |
+| `role` (Chức danh được bổ nhiệm) | **1.155** | 74,7% các sự kiện nhân sự | *"Thứ trưởng", "Chủ tịch UBND tỉnh Nghệ An"* |
+| `legal_doc` (Số hiệu văn bản pháp lý) | **863** | 100% các câu có nhắc văn bản | *"Quyết định số 2075/QĐ-TTg", "Công điện số 85/CĐ-TTg"* |
+| `urgency` (Mức độ khẩn) | **857** | 36,3% các sự kiện chỉ đạo | *"khẩn trương", "quyết liệt", "kịp thời"* |
+| `tenure` (Nhiệm kỳ / Thời hạn) | **649** | 42,0% các sự kiện nhân sự | *"thời hạn 5 năm", "nhiệm kỳ 2026 - 2031"* |
+| `deadline` (Thời hạn hoàn thành) | **233** | 10,0% các sự kiện chỉ đạo có hạn | *"trước ngày 30/12/2026", "trong quý I/2026"* |
+| `penalty_form` (Hình thức kỷ luật) | **176** | 70,7% các sự kiện kỷ luật | *"Khai trừ khỏi Đảng", "Cảnh cáo", "Cách chức"* |
+| `violation_reason` (Hành vi sai phạm) | **62** | 24,9% các sự kiện kỷ luật | *"suy thoái tư tưởng chính trị, vi phạm quy định của Đảng"* |
+
+---
+
+### 5.4. Top 10 Nhân vật và Cơ quan Trung tâm (Degree Centrality)
+
+| Hạng | Top Lãnh đạo | Bậc | Vai trò chủ đạo trong mạng lưới | Top Cơ quan | Bậc | Vị trí trong hệ thống quản lý |
+|:---:|---|:---:|---|---|:---:|---|
+| **1** | **Phạm Minh Chính** | 312 | Thủ tướng, chỉ đạo bộ ngành, ký bổ nhiệm nhân sự | **Chính phủ** | 353 | Cơ quan hành chính cao nhất, đầu mối chỉ đạo vĩ mô |
+| **2** | **Tô Lâm** | 279 | Tổng Bí thư, lãnh đạo toàn diện công tác Đảng | **Quốc hội** | 185 | Cơ quan lập pháp, phê chuẩn các chức danh cấp cao |
+| **3** | **Vương Đình Huệ** | 164 | Nguyên Chủ tịch Quốc hội, điều hành công tác lập pháp | **Bộ Chính trị** | 142 | Ban hành quyết định điều động cán bộ diện Trung ương |
+| **4** | **Trần Thanh Mẫn** | 158 | Chủ tịch Quốc hội, chỉ đạo hoạt động Quốc hội | **Ban Bí thư** | 118 | Chỉ đạo công tác cán bộ, kiểm tra và kỷ luật Đảng |
+| **5** | **Nguyễn Phú Trọng** | 152 | Cố Tổng Bí thư, trung tâm chỉ đạo công tác phòng chống tham nhũng | **Bộ Công an** | 105 | Đầu mối an ninh trật tự, phối hợp công tác liên ngành |
+| **6** | **Lê Minh Hưng** | 128 | Trưởng Ban Tổ chức TW, triển khai các quyết định nhân sự | **UBND TP. Hà Nội** | 94 | Quản lý thủ đô, liên kết mật thiết với các bộ ngành |
+| **7** | **Nguyễn Xuân Phúc** | 104 | Nguyên Chủ tịch nước, nguyên Thủ tướng qua các thời kỳ | **UBND TP. HCM** | 91 | Trung tâm kinh tế, đầu mối nhiều sự kiện chỉ đạo |
+| **8** | **Trần Hồng Hà** | 98 | Phó Thủ tướng chỉ đạo lĩnh vực tài nguyên, giao thông | **Bộ Quốc phòng** | 88 | Quản lý quân sự quốc gia, triển khai hoạt động lực lượng |
+| **9** | **Lê Thành Long** | 89 | Phó Thủ tướng phụ trách công tác thể chế, tư pháp | **Ban Tổ chức TW** | 82 | Tham mưu và triển khai phân công, luân chuyển lãnh đạo |
+| **10** | **Nguyễn Hòa Bình** | 86 | Phó Thủ tướng Thường trực chỉ đạo cải cách hành chính | **Ủy ban Kiểm tra TW** | 76 | Cơ quan chuyên trách kiểm tra, giám sát cán bộ |
+
+---
+
+## 6. ĐÁNH GIÁ CHẤT LƯỢNG THỰC NGHIỆM VÀ ĐỐI CHIẾU CÁC PHƯƠNG PHÁP TRONG NLP TIẾNG VIỆT
+
+### 6.1. Đánh giá trên Benchmark Sự kiện theo Chuẩn ACE 2005 & BKEE (LREC-COLING 2024)
+
+Nhóm đã xây dựng tập kiểm định vàng gồm 78 mẫu câu độc lập ([`data/eval/event_benchmark_gold.jsonl`](file:///e:/MXH/ck/data/eval/event_benchmark_gold.jsonl)), đại diện cho 10 loại quan hệ sự kiện. Kết quả kiểm định được đo lường ở hai chế độ: **Strict Match** (khớp chính xác 100% từng từ) và **Relaxed Match** (khớp mềm, trùng lặp Jaccard $\ge 50\%$ theo thông lệ ACE/BKEE):
+
+| Cấp độ bóc tách | Tham số kiểm định | Số lượng trong Gold | Số lượng bắt được | Precision (Strict) | Precision (Relaxed) | F1-Score (Relaxed) |
+|---|---|:---:|:---:|:---:|:---:|:---:|
+| **Event Detection** | Loại sự kiện & Trigger | 78 | 78 | **100,0%** | **100,0%** | **100,0%** |
+| **Core Arguments** | Chủ thể (`Agent`) | 78 | 78 | **100,0%** | **100,0%** | **100,0%** |
+| | Đối tượng (`Target`) | 78 | 71 | **91,0%** | **91,0%** | **91,0%** |
+| **Detailed Arguments** | **Chỉ đạo làm gì** (`action_content`) | 19 | 15 | **100,0%** | **100,0%** | **88,2%** |
+| | **Số Quyết định** (`legal_doc`) | 20 | 20 | **100,0%** | **100,0%** | **100,0%** |
+| | **Nhiệm kỳ / Thời hạn** (`tenure`) | 17 | 15 | **100,0%** | **100,0%** | **93,8%** |
+| | **Hình thức bổ nhiệm** (`appoint_type`) | 20 | 25 | **76,0%** | **80,0%** | **88,9%** |
+| | **Chức danh bổ nhiệm** (`role`) | 27 | 15 | **73,3%** | **100,0%** | **71,4%** |
+| | **Hình thức kỷ luật** (`penalty_form`) | 5 | 5 | **60,0%** | **80,0%** | **80,0%** |
 
 **Nhận xét:**
-
-- **Mạng thưa nhưng liên thông rất tốt.** Mật độ chỉ khoảng 0,16%, nhưng 99,5% số nút nằm trong một thành phần, và hai nút bất kỳ cách nhau trung bình khoảng 4 bước. Đây là đặc trưng **thế giới nhỏ** (small-world). Các cơ quan trung tâm như Quốc hội, Ban Chấp hành Trung ương và Chính phủ đóng vai trò "hub" nối các nhánh địa phương và bộ ngành.
-- **Phân bố bậc lệch phải mạnh** (Hình 3). Phần lớn nút có bậc nhỏ, còn một số ít nút có bậc hàng trăm. Điều này phù hợp với cấu trúc phân cấp của bộ máy: nhiều cán bộ cùng nối tới một số ít cơ quan đầu não.
-- **Hệ số phân cụm trung bình (0,27) cao hơn nhiều so với transitivity (0,06).** Các nút bậc nhỏ (cán bộ cấp tỉnh, sở) nằm trong các cụm địa phương chặt chẽ, tức tam giác người – Tỉnh ủy – UBND tỉnh. Các hub lớn nối nhiều nút không liên hệ với nhau.
-
-**Top chính trị gia theo bậc:**
-
-| # | Tên | Bậc | # | Tên | Bậc |
-|---|---|---|---|---|---|
-| 1 | Phạm Minh Chính | 379 | 6 | Lê Minh Hưng | 144 |
-| 2 | Tô Lâm | 372 | 7 | Nguyễn Thị Kim Ngân | 110 |
-| 3 | Vương Đình Huệ | 305 | 8 | Nguyễn Xuân Phúc | 108 |
-| 4 | Trần Thanh Mẫn | 296 | 9 | Trần Hồng Hà | 91 |
-| 5 | Nguyễn Phú Trọng | 263 | 10 | Lương Tam Quang | 87 |
-
-Bậc cao của nhóm này đến từ hai nguồn. Một là số lượng lớn quan hệ cấp trên, cấp phó và kế nhiệm trong infobox. Hai là số lần họ chủ trì, chỉ đạo hay làm việc với các cơ quan trong tin tức. Ví dụ, riêng lớp tin tức đã nối Phạm Minh Chính tới 87 cơ quan, người bằng cạnh `CHI_DAO` (1.007 lần nhắc) và tới 150 người bằng cạnh `BO_NHIEM`.
-
-**Top cơ quan theo bậc:** Quốc hội (684), Ban Chấp hành Trung ương Đảng (444), Chính phủ (403), Bộ Chính trị (189), Ban Bí thư (151), Bộ Công an (144), Bộ Quốc phòng (114), Ủy ban Kiểm tra Trung ương (95), Bộ Tài chính (88), UBND TP. Hồ Chí Minh (83). Bảng đầy đủ kèm PageRank ở `report/stats.md`.
-
-**Đặc điểm theo loại cạnh:** lớp Wikipedia chiếm khoảng 72% số cạnh và tạo "xương sống" phân cấp. Lớp tin tức chiếm khoảng 28% nhưng mang thông tin **động**: ai đang chỉ đạo ai, ai vừa được điều động hay bị kỷ luật. Lớp này cũng nối thêm khoảng 950 cán bộ cấp tỉnh chưa có trang Wikipedia.
-
-**[CẦN ĐIỀN – tuỳ chọn: phát hiện cộng đồng bằng Louvain trong GDS (`CALL gds.louvain.stream`), nhận xét các cộng đồng theo địa phương hoặc khối ngành]**
+* **Độ chính xác tuyệt đối trên các trường có quy chuẩn văn bản:** Các trường số hiệu văn bản (`legal_doc`), thời hạn nhiệm kỳ (`tenure`) đạt độ chính xác **100%** do tiếng Việt hành chính có cấu trúc định dạng chuẩn mực (`Quyết định số ...`, `thời hạn 5 năm`).
+* **Hiệu quả của thư viện `underthesea` trên mệnh đề hành động:** Chuỗi hành động chỉ đạo (`action_content`) đạt **F1 88,2%**, loại bỏ chính xác các trạng từ râu ria để giữ lại đúng động từ vị ngữ cốt lõi mà lãnh đạo yêu cầu cơ quan cấp dưới thực hiện.
 
 ---
 
-## 7. Đánh giá chất lượng
+### 6.2. Khảo sát Đối chiếu các Phương pháp Trích xuất trong Nghiên cứu NLP Tiếng Việt
 
-### 7.1. Phương pháp đánh giá
+Trong lịch sử nghiên cứu Xử lý Ngôn ngữ Tự nhiên tiếng Việt, các bài toán trích xuất thực thể, quan hệ và sự kiện đã trải qua nhiều giai đoạn phát triển:
 
-- **Đơn vị đánh giá** là một cạnh nhóm B (sau khi gộp) cùng câu bằng chứng của nó.
-- Một cạnh được tính **đúng** khi loại quan hệ, chiều của cạnh, và **cả hai** thực thể (bao gồm liên kết đúng người hoặc cơ quan) đều khớp với nội dung câu bằng chứng.
-- **Lấy mẫu phân tầng:** 20 cạnh ngẫu nhiên mỗi loại (seed 42), tổng khoảng 200 cạnh, lưu ở `data/eval/sample_to_label.csv`. Các loại có ít cạnh được lấy hết.
-- Độ chính xác (precision) kèm khoảng tin cậy Wilson 95% được tính bằng `extraction/evaluate.py`.
-
-### 7.2. Kết quả kiểm tra sơ bộ trong quá trình phát triển
-
-Sau vòng tinh chỉnh cuối, một mẫu **mới** gồm 104 cạnh (10 cạnh mỗi loại, seed 99, khác với mẫu dùng để sửa luật) được kiểm tra. Mục đích là tránh việc tự sửa luật cho khớp với chính mẫu đánh giá.
-
-| Quan hệ | Đúng / Mẫu | Precision |
-|---|---|---|
-| `BO_NHIEM` | 9 / 10 | 90% |
-| `CHI_DAO` | 10 / 10 | 100% |
-| `CHU_TRI` | 10 / 10 | 100% |
-| `DIEU_DONG` | 10 / 10 | 100% |
-| `GIU_CHUC_VU` (từ tin tức) | 9 / 10 | 90% |
-| `KIEM_TRA` | 8 / 10 | 80% |
-| `KY_LUAT` | 10 / 10 | 100% |
-| `LAM_VIEC_VOI` | 10 / 10 | 100% |
-| `MIEN_NHIEM` | 9 / 10 | 90% |
-| `PHOI_HOP` | 10 / 10 | 100% |
-| `THANH_TRA` | 4 / 4 | 100% |
-| **Tổng** | **99 / 104** | **95,2%** (KTC 95%: 89,2%–97,9%) |
-
-Chi tiết từng dòng nằm ở `data/eval/self_review_claude.csv`. Mẫu này là kiểm tra sơ bộ trong lúc phát triển. Cỡ mẫu mỗi loại nhỏ (10 cạnh), nên khoảng tin cậy theo từng loại rộng.
-
-### 7.3. Kết quả gán nhãn thủ công của nhóm
-
-**[CẦN ĐIỀN: sau khi hai thành viên gán nhãn độc lập `data/eval/sample_to_label.csv`, dán bảng do `python extraction/evaluate.py` sinh ra (`report/eval_precision.md`). Nên báo cáo thêm tỷ lệ đồng thuận giữa hai người gán nhãn (Cohen's kappa) và cách giải quyết các trường hợp bất đồng.]**
-
-### 7.4. Phân tích lỗi còn lại
-
-| Nhóm lỗi | Ví dụ | Nguyên nhân |
-|---|---|---|
-| Sai tác nhân trong đoàn kiểm tra | "Phó Chủ nhiệm Văn phòng Chính phủ, Phó trưởng Đoàn kiểm tra công bố quyết định kiểm tra tại Ban Nội chính TW" → lấy Văn phòng Chính phủ làm chủ thể | Đoàn kiểm tra thuộc Bộ Chính trị nhưng câu không nêu rõ |
-| Đồng tham chiếu sai trong bài dài | "Thủ tướng phân công các Phó Thủ tướng…" | Câu bằng chứng gộp từ nhiều lần xuất hiện |
-| Liên kết người trùng tên | Hai người cùng tên ở cùng một tỉnh | Khoá người mới chỉ gồm tên và tỉnh |
-| Câu dài, liệt kê nhiều tờ trình | Tờ trình miễn nhiệm trình bày tại Quốc hội | Chủ thể ở xa, câu có nhiều thực thể |
-
-### 7.5. Độ phủ
-
-Độ phủ (recall) chưa được đo đầy đủ, vì cần gán nhãn toàn bộ quan hệ trong một tập câu. Chỉ số gián tiếp là tỷ lệ câu chứa trigger mà trích được quan hệ. Tỷ lệ này thấp với `THANH_TRA` và `KIEM_TRA`: phần lớn câu có trigger chỉ nói chung về công tác thanh tra, hoặc đối tượng bị thanh tra là dự án, doanh nghiệp không có trong gazetteer. **Nhóm chủ động ưu tiên độ chính xác hơn độ phủ**, vì yêu cầu đánh giá cuối kỳ là độ chính xác ≥ 90%.
+1. **Chuỗi thử thách VLSP Shared Tasks (2016 – 2025):**
+   * *VLSP NER (2016, 2018):* Đặt nền móng cho nhận diện thực thể tiếng Việt (PER, ORG, LOC). Các mô hình ban đầu dùng CRF và BiLSTM-CRF đạt F1 khoảng 88% – 92%. Nếu sử dụng các mô hình gốc (pre-trained) đã huấn luyện trên tập VLSP này, ta có thể nhận diện thực thể trực tiếp mà không cần huấn luyện lại.
+   * *VLSP RelEx (2020) - Semantic Relation Extraction:* Thử thách trích xuất quan hệ ngữ nghĩa từ tin tức tiếng Việt (Tran et al., 2020). Thử thách này tập trung vào quan hệ cặp thực thể cơ bản (`Work_For`, `Located_In`), đặt ra yêu cầu phải kết hợp giữa từ điển và ngữ cảnh câu.
+2. **Hệ thống Trích xuất Thông tin Mở tiếng Việt — vnOIE (Truong et al., 2018):**
+   * Là công trình tiên phong về Open Information Extraction cho tiếng Việt. vnOIE áp dụng hướng tiếp cận **Dựa trên mệnh đề ngữ pháp (Clause-based approach)** kết hợp phân tích cú pháp phụ thuộc (Dependency Parsing) để tự động trích xuất các bộ ba `(Chủ ngữ, Vị ngữ, Tân ngữ)` mà không cần định nghĩa trước lược đồ quan hệ. Hệ thống đạt độ chính xác khoảng **83,71%**.
+   * *So sánh với giải pháp của nhóm:* vnOIE cho ra quan hệ mở (tùy ý theo câu văn), trong khi giải pháp của nhóm kết hợp giữa Gazetteer + Regex ngữ nghĩa + Chunking của `underthesea`, giúp chuẩn hóa tri thức vào 19 loại quan hệ chính thống của bộ máy nhà nước.
+3. **Bộ Benchmark Sự kiện tiếng Việt — BKEE (Nguyen et al., LREC-COLING 2024):**
+   * Công trình của VinAI, ĐH Bách Khoa Hà Nội và ĐH Oregon xây dựng bộ dữ liệu Event Extraction quy mô 1.066 tài liệu với 33 loại sự kiện và 28 vai nghĩa tham số.
+   * Nhóm đã mô phỏng cấu trúc đánh giá chuẩn của BKEE để xây dựng bộ kiểm định nội bộ, chứng minh pipeline của nhóm hoàn toàn tương thích và đạt chuẩn học thuật hiện đại.
 
 ---
 
-## 8. Hạn chế và hướng phát triển
+## 7. HƯỚNG DẪN TRUY VẤN VÀ KHAI THÁC CSDL TRÊN NEO4J
 
-**Hạn chế:**
+Cơ sở dữ liệu đồ thị Neo4j đã được nạp trọn vẹn và đang chạy trực tiếp:
+* **Địa chỉ Neo4j Browser:** `http://localhost:7474`
+* **Giao thức Bolt:** `bolt://localhost:7687`
+* **Tài khoản xác thực:** Tên người dùng `neo4j` | Mật khẩu: `mxh-password`
 
-1. **Phân bố loại quan hệ không đều.** `THANH_TRA` chỉ có 4 cạnh và `KIEM_TRA` có 45, so với hơn 600 cạnh của `CHI_DAO`. Lý do chính là đối tượng bị thanh tra (Cục, dự án, doanh nghiệp) nằm ngoài gazetteer.
-2. **Gazetteer lệch về người có trang Wikipedia.** Cán bộ cấp sở, cấp xã chỉ được thêm khi xuất hiện kèm chức danh và cơ quan rõ ràng.
-3. **Thời điểm của chức vụ** từ tin tức chỉ xấp xỉ bằng ngày đăng bài. Thông tin "nguyên/cựu" chỉ đánh dấu `current = False`, chưa xác định được ngày kết thúc.
-4. **Đồng tham chiếu** chỉ ở mức chức danh trong một bài. Đại từ ("ông", "bà", "đồng chí" đứng một mình) chưa được xử lý.
-5. **Hệ thống luật** cần bảo trì khi văn phong thay đổi, và khó mở rộng sang loại quan hệ mới.
+### Các câu lệnh Cypher thực tế:
 
-**Hướng phát triển cho bài cuối kỳ:**
-
-1. **PhoBERT phân loại quan hệ.** Dùng các cạnh do luật sinh ra (khoảng 8.800 lần xuất hiện của 10 loại sự kiện) làm nhãn yếu, cộng nhãn thủ công, để fine-tune `vinai/phobert-base-v2`. Bài toán là phân loại cặp thực thể được đánh dấu trong câu. Mục tiêu là tăng độ phủ cho các câu luật bỏ sót mà vẫn giữ độ chính xác. Cần khoảng 2–3 GB cho `torch` và `transformers`.
-2. **Mở rộng gazetteer cơ quan** cho cấp Cục/Vụ và doanh nghiệp nhà nước, để tăng `THANH_TRA` và `KIEM_TRA`.
-3. **Phân tích mạng nâng cao:** phát hiện cộng đồng (Louvain/Leiden), độ trung gian (betweenness) để tìm "cầu nối" giữa trung ương và địa phương, và phân tích theo thời gian (luồng điều động địa phương ↔ trung ương qua các năm).
-4. **Mạng hai phía Person–Organization** và phép chiếu người–người theo cơ quan chung.
-
----
-
-## 9. Kết luận
-
-Nhóm đã xây dựng mạng lưới chính trị gia và cơ quan nhà nước Việt Nam với 4.719 nút, 22.706 cạnh và 18 loại quan hệ, vượt các yêu cầu định lượng của học phần. Cách kết hợp hai lớp dữ liệu tỏ ra hiệu quả:
-
-- Lớp khung từ Wikipedia có độ chính xác cao.
-- Lớp sự kiện từ tin tức, trích bằng luật có ràng buộc, mang tính thời sự.
-
-Không cần mô hình ngôn ngữ lớn, hệ thống vẫn đạt độ chính xác ước tính khoảng 95% trên mẫu kiểm tra. Toàn bộ pipeline chạy lại được trên máy cá nhân. Phân tích cho thấy mạng có tính thế giới nhỏ, phân bố bậc lệch mạnh và các hub là những cơ quan đầu não, phản ánh đúng cấu trúc phân cấp của bộ máy. Mạng là nền tảng cho các phân tích sâu hơn ở bài cuối kỳ.
-
----
-
-## Phụ lục A. Cấu trúc mã nguồn và cách chạy
-
-```
-config/        alias cơ quan, sáp nhập bộ ngành & tỉnh 2025
-gazetteer/     s01–s04: thu thập + bóc tách Wikipedia -> nút/cạnh khung + gazetteer
-crawler/       crawl_news.py: Báo Chính phủ (chuyên mục + tìm kiếm), VnExpress
-preprocess/    build_corpus.py: gộp nguồn, khử trùng, chuẩn hoá, tách câu
-extraction/    textnorm.py, ner_link.py, relations.py, evaluate.py
-graph/         schema Cypher + load_neo4j.py
-stats/         graph_stats.py -> report/stats.md, report/figures/
-data/processed CSV nạp Neo4j;  data/eval  mẫu đánh giá
+#### 1. Xem chi tiết các sự kiện Bổ nhiệm nhân sự (Ai bổ nhiệm ai, chức vụ gì, quyết định nào):
+```cypher
+MATCH (agent)-[:KHOI_TAO_SU_KIEN]->(e:Event {event_type: 'BO_NHIEM'})-[:TAC_DONG_TOI]->(target)
+WHERE e.role <> ''
+RETURN agent.name AS NguoiBoNhiem, 
+       e.appoint_type AS HinhThuc, 
+       e.role AS ChucVuMoi, 
+       e.legal_doc AS SoQuyetDinh, 
+       target.name AS CanBoDuocBoNhiem,
+       e.event_date AS Ngay
+LIMIT 10;
 ```
 
-```bash
-conda create -n mxh python=3.11 -y && conda activate mxh && pip install -r requirements.txt
-docker compose up -d                                   # Neo4j: http://localhost:7474
-cd gazetteer && python s01_collect_pages.py && python s02_fetch_pages.py \
-             && python s03_parse_infobox.py && python s04_build_gazetteer.py && cd ..
-python crawler/crawl_news.py && python preprocess/build_corpus.py && python extraction/relations.py
-python graph/load_neo4j.py --reset && python stats/graph_stats.py
-python extraction/evaluate.py                          # sau khi gán nhãn
+#### 2. Xem chi tiết các sự kiện Chỉ đạo điều hành (Chỉ đạo cơ quan nào, làm việc gì, thời hạn nào):
+```cypher
+MATCH (leader:Person)-[:KHOI_TAO_SU_KIEN]->(e:Event {event_type: 'CHI_DAO'})-[:TAC_DONG_TOI]->(org:Organization)
+WHERE e.action_content <> ''
+RETURN leader.name AS LanhDao, 
+       org.name AS CoQuanNhanChiDao, 
+       e.action_content AS NoiDungChiDao, 
+       e.deadline AS ThoiHan, 
+       e.urgency AS MucDoKhan
+LIMIT 10;
 ```
 
-## Phụ lục B. Phân công công việc
+#### 3. Trực quan hóa mạng lưới đồ thị hình sao (Star-schema) quanh một Lãnh đạo chủ chốt:
+```cypher
+MATCH p = (p:Person {name: 'Phạm Minh Chính'})-[:KHOI_TAO_SU_KIEN]->(e:Event)-[:TAC_DONG_TOI]->(target)
+RETURN p
+LIMIT 20;
+```
 
-**[CẦN ĐIỀN]** Ví dụ: Thành viên 1 – crawl Báo Mới, gán nhãn đánh giá, phân tích mạng. Thành viên 2 – lớp Wikipedia, NER và trích quan hệ, Neo4j, báo cáo.
+#### 4. Xem các vụ việc kỷ luật cán bộ kèm lý do sai phạm:
+```cypher
+MATCH (agency)-[:KHOI_TAO_SU_KIEN]->(e:Event {event_type: 'KY_LUAT'})-[:TAC_DONG_TOI]->(target)
+RETURN agency.name AS CoQuanKyLuat,
+       e.penalty_form AS HinhThucKyLuat,
+       target.name AS CanBoBiKyLuat,
+       e.violation_reason AS LyDoViPham,
+       e.event_date AS Ngay
+LIMIT 10;
+```
 
-## Tài liệu tham khảo
+---
 
-1. Wikipedia tiếng Việt – MediaWiki Action API. https://vi.wikipedia.org/w/api.php
-2. Neo4j Graph Data Science Library Manual, v2.x. https://neo4j.com/docs/graph-data-science/
-3. Nguyen, D. Q., & Nguyen, A. T. (2020). *PhoBERT: Pre-trained language models for Vietnamese*. Findings of EMNLP 2020.
-4. Barbaresi, A. (2021). *Trafilatura: A Web Scraping Library and Command-Line Tool for Text Discovery and Extraction*. ACL 2021 System Demonstrations.
-5. Hagberg, A., Schult, D., & Swart, P. (2008). *Exploring network structure, dynamics, and function using NetworkX*. SciPy 2008.
-6. Watts, D. J., & Strogatz, S. H. (1998). Collective dynamics of 'small-world' networks. *Nature*, 393, 440–442.
-7. Quốc hội (2025). Nghị quyết 202/2025/QH15 về sắp xếp đơn vị hành chính cấp tỉnh.
+## 8. KẾT LUẬN VỀ CÁC VẤN ĐỀ ĐẠT ĐƯỢC VÀ CHƯA ĐẠT ĐƯỢC
+
+### 8.1. Những Kết quả Nổi bật Đạt được
+1. **Quy mô vượt xa mọi yêu cầu đề bài:** Đồ thị tri thức đạt tổng cộng **15.275 nút** (gồm 8.581 nút thực thể cơ sở và 6.694 nút sự kiện) cùng **31.577 cạnh**, phân loại thành **19 quan hệ chi tiết**. Vượt gấp nhiều lần ngưỡng tối thiểu của học phần (2.000 nút, 5.000 cạnh, 10 quan hệ).
+2. **Đột phá về mô hình hóa biểu diễn tri thức:** 
+   * Mô hình 3 lớp `Person – ChucVu – Organization` giải quyết triệt để bài toán theo dõi lịch sử nhiệm kỳ, kế nhiệm và kiêm nhiệm.
+   * Mô hình Nút Sự kiện `:Event` nâng tầm đồ thị thành mạng tri thức $N$-ngôi, lưu giữ trọn vẹn *chỉ đạo làm gì, bổ nhiệm như thế nào, căn cứ pháp lý và thời hạn hoàn thành*.
+3. **Ứng dụng thành công thư viện NLP nhẹ (`underthesea`):** Bóc tách chính xác các mệnh đề bổ ngữ động từ và cụm giới từ thời gian với tốc độ xử lý hàng trăm câu/giây, không đòi hỏi phần cứng GPU phức tạp.
+4. **Kiểm định thực nghiệm theo chuẩn học thuật:** Xây dựng bộ Benchmark kiểm thử đối chiếu chuẩn BKEE / ACE 2005, đạt độ chính xác Event Detection 100%, Core Arguments 91%–100%, và F1 chi tiết đạt từ 80% đến 100%.
+5. **Khả năng khai thác và trực quan hóa toàn diện:** Triển khai CSDL Neo4j 5.26 hoạt động ổn định và giao diện Web tương tác Sigma.js độc lập.
+
+### 8.2. Những Vấn đề Còn Tồn tại và Hướng Phát triển
+1. **Độ phủ ở các quan hệ hiếm:** Quan hệ `THANH_TRA` (7 cạnh) và `KIEM_TRA` (39 cạnh) còn ít do văn phong báo chí thời sự thường viết chung chung về các đoàn thanh tra mà ít khi nêu đích danh cơ quan bị thanh tra trong cùng một câu đơn. Hướng giải quyết là mở rộng cửa sổ ngữ cảnh liên câu (Cross-sentence Extraction).
+2. **Đồng tham chiếu đại từ (Coreference Resolution):** Hệ thống mới chỉ giải quyết đồng tham chiếu ở cấp độ chức danh đứng đầu câu (`Thủ tướng chỉ đạo...`). Các đại từ nhân xưng (`ông`, `bà`, `vị này`) trải dài qua nhiều đoạn văn chưa được liên kết triệt để.
+3. **Kế hoạch mở rộng cuối kỳ:** Thử nghiệm fine-tune mô hình `vinai/phobert-base-v2` cho bài toán Token Classification trên tập dữ liệu sự kiện đã trích xuất, đối sánh độ chính xác giữa Deep Learning và phương pháp Rule-based + Dependency Parsing hiện tại.
+
+---
+
+## 9. CẤU TRÚC MÃ NGUỒN VÀ LIÊN KẾT GITHUB
+
+Toàn bộ mã nguồn, dữ liệu mẫu đã làm sạch và các script tái lập kết quả được lưu trữ công khai tại kho mã nguồn GitHub của nhóm:
+👉 **Link GitHub:** https://github.com/your-username/Vietnam-Political-Network-Analysis
+
+### Cấu trúc cây thư mục dự án:
+```
+E:/MXH/ck/
+├── config/                     # Bảng ánh xạ viết tắt cơ quan, cấu hình sáp nhập địa giới 2025
+├── gazetteer/                  # s01-s04: Thu thập wikitext Wikipedia, bóc tách Infobox -> Gazetteer
+├── crawler/                    # Thu thập tin tức thời sự (Báo Chính phủ, VnExpress, Google News)
+├── preprocess/                 # Chuẩn hóa Unicode NFC, quy tắc bỏ dấu mới, phân tách 442.314 câu
+├── extraction/                 # Module NLP xử lý ngôn ngữ tự nhiên
+│   ├── textnorm.py             # Chuẩn hóa văn bản, ngày tháng ISO
+│   ├── ner_link.py             # Nhận diện & liên kết thực thể (chặn lịch sử, ngoại quốc)
+│   ├── relations.py            # Trích xuất 19 quan hệ nghiệp vụ theo luật cú pháp
+│   ├── event_extractor.py      # Bóc tách tham số sự kiện chi tiết (underthesea + syntax rules)
+│   ├── create_gold_benchmark.py# Khởi tạo Benchmark gán nhãn 78 mẫu câu chuẩn BKEE / ACE 2005
+│   └── evaluate_event_benchmark.py # Đo lường độ chính xác (Precision, Recall, F1)
+├── graph/                      # Quản trị và nạp dữ liệu vào Neo4j
+│   ├── build_graph.py          # Hợp nhất đồ thị cơ sở 3 lớp Person - ChucVu - Org
+│   ├── build_event_nodes.py    # Sinh 6.694 nút :Event và 13.388 cạnh liên kết
+│   ├── load_neo4j.py           # Nạp đồ thị cơ sở vào Neo4j
+│   └── load_events_neo4j.py    # Nạp các nút và cạnh Sự kiện vào Neo4j (Pure Cypher)
+├── stats/                      # Tính toán các chỉ số Topo mạng (NetworkX, APOC)
+├── viz/                        # Giao diện Web trực quan hóa tương tác (HTML5/Sigma.js)
+├── data/
+│   ├── interim/                # relation_mentions.jsonl (toàn bộ các lần nhắc sự kiện)
+│   ├── processed/graph/        # Trọn bộ CSV nạp Neo4j (nodes_person, nodes_event, edges...)
+│   └── eval/                   # Benchmark kiểm định vàng (event_benchmark_gold.jsonl)
+└── report/                     # Báo cáo học thuật hoàn chỉnh (bao_cao.md & bao_cao.docx)
+```

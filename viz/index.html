@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mạng chính trị gia VN</title>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #171a21; --line: #2a2f3a; --text: #e6e8ec; --muted: #9aa3b2; --accent: #6ea8fe;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+    font: 13px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; overflow: hidden; }
+  #graph { position: absolute; inset: 0 0 0 320px; }
+  body.detail #graph { right: 400px; }
+  #left { position: absolute; left: 0; top: 0; bottom: 0; width: 320px; background: var(--panel);
+    border-right: 1px solid var(--line); overflow-y: auto; padding: 14px 14px 24px; }
+  #right { position: absolute; right: 0; top: 0; bottom: 0; width: 400px; background: var(--panel);
+    border-left: 1px solid var(--line); overflow-y: auto; padding: 14px; display: none; }
+  h1 { font-size: 16px; margin: 0 0 2px; } h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em;
+    color: var(--muted); margin: 18px 0 6px; font-weight: 600; }
+  .stats { color: var(--muted); font-size: 12px; }
+  input[type=search] { width: 100%; padding: 7px 9px; border-radius: 6px; border: 1px solid var(--line);
+    background: #0f1218; color: var(--text); font: inherit; }
+  .row { display: flex; align-items: center; gap: 7px; padding: 2px 0; cursor: pointer; user-select: none; }
+  .row input { margin: 0; accent-color: var(--accent); }
+  .sw { width: 11px; height: 11px; border-radius: 50%; flex: none; }
+  .swl { width: 16px; height: 3px; border-radius: 2px; flex: none; }
+  .cnt { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .btns { display: flex; gap: 6px; flex-wrap: wrap; margin: 4px 0 2px; }
+  button { background: #222733; color: var(--text); border: 1px solid var(--line); border-radius: 6px;
+    padding: 4px 8px; font: inherit; font-size: 12px; cursor: pointer; } button:hover { border-color: var(--accent); }
+  .hint { color: var(--muted); font-size: 12px; margin-top: 16px; }
+  #right .close { float: right; }
+  .nm { font-size: 17px; font-weight: 650; margin: 2px 0 2px; }
+  .meta { color: var(--muted); margin-bottom: 8px; }
+  .rel { margin: 14px 0 4px; font-weight: 600; display: flex; align-items: center; gap: 7px; }
+  .e { border-left: 2px solid var(--line); padding: 4px 0 6px 9px; margin: 4px 0; }
+  .e a.node { color: var(--accent); cursor: pointer; text-decoration: none; font-weight: 550; }
+  .e .sub { color: var(--muted); font-size: 12px; }
+  .e .ev { font-size: 12px; margin-top: 3px; color: #c9ced8; }
+  .e .ev a { color: var(--muted); }
+  .tag { font-size: 11px; padding: 0 5px; border-radius: 4px; background: #2a3242; color: #b8c7e6; }
+  #loading { position: absolute; inset: 0 0 0 320px; display: grid; place-items: center; color: var(--muted); }
+</style>
+</head>
+<body>
+<div id="left">
+  <h1>Mạng chính trị gia – cơ quan nhà nước VN</h1>
+  <div class="stats" id="stats"></div>
+  <h2>Tìm</h2>
+  <input type="search" id="q" list="names" placeholder="Gõ tên người / cơ quan / tỉnh…">
+  <datalist id="names"></datalist>
+  <h2>Loại nút</h2>
+  <div id="groups"></div>
+  <h2>Quan hệ – Wikipedia (cấu trúc)</h2>
+  <div id="rels-wiki"></div>
+  <h2>Quan hệ – Tin tức (trích bằng luật)</h2>
+  <div id="rels-news"></div>
+  <div class="btns">
+    <button id="all">Tất cả</button><button id="newsonly">Chỉ sự kiện tin tức</button><button id="none">Bỏ chọn</button>
+  </div>
+  <label class="row" style="margin-top:8px"><input type="checkbox" id="hideIso" checked> Ẩn nút không còn cạnh hiển thị</label>
+  <div class="hint">Cuộn để phóng to · kéo để di chuyển · rê chuột vào nút để xem láng giềng · bấm vào nút để xem
+    chi tiết các liên kết và câu bằng chứng · bấm nền để bỏ chọn.</div>
+</div>
+<div id="loading">Đang dựng đồ thị…</div>
+<div id="graph"></div>
+<div id="right"></div>
+
+<script src="vendor/graphology.umd.min.js"></script>
+<script src="vendor/sigma.min.js"></script>
+<script src="graph_data.js"></script>
+<script>
+(function () {
+  const GROUPS = {
+    person:      { label: "Người", color: "#6ea8fe" },
+    position:    { label: "Chức vụ", color: "#e9e6d8" },
+    org_party:   { label: "Cơ quan Đảng (TW)", color: "#ff6b6b" },
+    org_central: { label: "Nhà nước / Quốc hội / Bộ ngành (TW)", color: "#f5b942" },
+    org_local:   { label: "Cơ quan cấp tỉnh", color: "#3ecf8e" },
+    province:    { label: "Tỉnh / thành phố", color: "#b28dff" },
+  };
+  const RELS = {
+    GIU_CHUC_VU: ["Giữ chức vụ (người → chức vụ)", "#5d6b82", "wiki"], THUOC_CO_QUAN: ["Chức vụ thuộc cơ quan", "#8a8f99", "wiki"], LANH_DAO_TRUC_TIEP: ["Cấp trên trực tiếp", "#6f6a8f", "wiki"],
+    KE_NHIEM: ["Kế nhiệm", "#7c6a5a", "wiki"], CAP_PHO: ["Cấp phó", "#5f7d78", "wiki"],
+    QUE_QUAN: ["Quê quán", "#7b5f86", "wiki"], NOI_SINH: ["Nơi sinh", "#7b5f86", "wiki"], THUOC_DIA_PHUONG: ["Thuộc địa phương", "#4f7a5e", "wiki"],
+    TRUC_THUOC: ["Trực thuộc", "#80744a", "wiki"], HOP_NHAT_VAO: ["Hợp nhất vào (2025)", "#8a5c5c", "wiki"],
+    CHI_DAO: ["Chỉ đạo", "#ff8c42", "news"], BO_NHIEM: ["Bổ nhiệm", "#4dd4ff", "news"],
+    PHOI_HOP: ["Phối hợp", "#9be564", "news"], CHU_TRI: ["Chủ trì", "#ffd166", "news"],
+    DIEU_DONG: ["Điều động", "#00e5b0", "news"], KY_LUAT: ["Kỷ luật", "#ff4d6d", "news"],
+    LAM_VIEC_VOI: ["Làm việc với", "#c77dff", "news"], MIEN_NHIEM: ["Miễn nhiệm", "#ff9ecd", "news"],
+    KIEM_TRA: ["Kiểm tra", "#f4f1bb", "news"], THANH_TRA: ["Thanh tra", "#ffffff", "news"],
+    PARENT_OF: ["Cha/mẹ của", "#ffbd7a", "news"], SPOUSE_OF: ["Vợ/chồng", "#ff91a4", "news"], SIBLING_OF: ["Anh/chị/em", "#c5a2ff", "news"],
+  };
+  const D = window.GRAPH;
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  // trộn màu với nền thay vì dùng alpha (WebGL của một số máy vẽ rgba thành màu đặc)
+  const BG = [15, 17, 21];
+  const hexA = (hex, a) => { const n = parseInt(hex.slice(1), 16), c = [n >> 16, (n >> 8) & 255, n & 255];
+    return "#" + c.map((v, i) => Math.round(v * a + BG[i] * (1 - a)).toString(16).padStart(2, "0")).join(""); };
+
+  const graph = new graphology.Graph({ multi: true, type: "directed", allowSelfLoops: false });
+  const byName = new Map();
+  for (const n of D.nodes) {
+    graph.addNode(n.id, { x: n.x, y: n.y, label: n.n, size: Math.min(13, 1.2 + 0.6 * Math.sqrt(n.d)),
+      color: GROUPS[n.g].color, g: n.g, info: n });
+    if (!byName.has(n.n)) byName.set(n.n, n.id);
+  }
+  const relCount = {};
+  D.edges.forEach((e, i) => {
+    if (e.s === e.t || !graph.hasNode(e.s) || !graph.hasNode(e.t)) return;
+    const r = RELS[e.r] || [e.r, "#666", "wiki"];
+    graph.addEdgeWithKey("e" + i, e.s, e.t, { rel: e.r, color: hexA(r[1], r[2] === "news" ? 0.55 : 0.35),
+      size: r[2] === "news" ? 0.6 : 0.3, info: e });
+    relCount[e.r] = (relCount[e.r] || 0) + 1;
+  });
+
+  document.getElementById("stats").textContent =
+    `${graph.order.toLocaleString("vi")} nút · ${graph.size.toLocaleString("vi")} cạnh · ${Object.keys(relCount).length} loại quan hệ`;
+
+  // ---------- trạng thái lọc
+  const relOn = new Set(Object.keys(RELS));
+  const grpOn = new Set(Object.keys(GROUPS));
+  let hideIso = true, selected = null, hovered = null, focusSet = null;
+  let visibleDeg = new Map();
+
+  function recomputeVisible() {
+    visibleDeg = new Map();
+    graph.forEachEdge((k, a, s, t) => {
+      if (!relOn.has(a.rel) || !grpOn.has(graph.getNodeAttribute(s, "g")) || !grpOn.has(graph.getNodeAttribute(t, "g"))) return;
+      visibleDeg.set(s, (visibleDeg.get(s) || 0) + 1); visibleDeg.set(t, (visibleDeg.get(t) || 0) + 1);
+    });
+  }
+  let focusEdges = new Set();
+  function neighbours(node) {
+    const s = new Set([node]); focusEdges = new Set();
+    graph.forEachEdge(node, (k, a, src, dst) => { if (relOn.has(a.rel)) { s.add(src); s.add(dst); focusEdges.add(k); } });
+    // Người -> Chức vụ -> Cơ quan: hiện luôn cơ quan của các chức vụ (bước 2)
+    for (const v of [...s]) {
+      if (v === node || graph.getNodeAttribute(v, "g") !== "position") continue;
+      graph.forEachOutEdge(v, (k, a, src, dst) => { if (a.rel === "THUOC_CO_QUAN" && relOn.has(a.rel)) { s.add(dst); focusEdges.add(k); } });
+    }
+    return s;
+  }
+  function setFocus() {
+    const f = selected || hovered;
+    focusSet = f ? neighbours(f) : null;
+    renderer.refresh();
+  }
+
+  // ---------- legend
+  const gEl = document.getElementById("groups");
+  const gCount = {}; graph.forEachNode((n, a) => gCount[a.g] = (gCount[a.g] || 0) + 1);
+  for (const [k, v] of Object.entries(GROUPS)) {
+    const row = document.createElement("label"); row.className = "row";
+    row.innerHTML = `<input type="checkbox" checked><span class="sw" style="background:${v.color}"></span>${v.label}<span class="cnt">${(gCount[k] || 0).toLocaleString("vi")}</span>`;
+    row.querySelector("input").onchange = ev => { ev.target.checked ? grpOn.add(k) : grpOn.delete(k); recomputeVisible(); setFocus(); };
+    gEl.appendChild(row);
+  }
+  const relBoxes = {};
+  for (const [k, [lab, col, grp]] of Object.entries(RELS)) {
+    if (!relCount[k]) continue;
+    const row = document.createElement("label"); row.className = "row";
+    row.innerHTML = `<input type="checkbox" checked><span class="swl" style="background:${col}"></span>${lab}<span class="cnt">${relCount[k].toLocaleString("vi")}</span>`;
+    const cb = row.querySelector("input"); relBoxes[k] = cb;
+    cb.onchange = () => { cb.checked ? relOn.add(k) : relOn.delete(k); recomputeVisible(); setFocus(); };
+    document.getElementById(grp === "news" ? "rels-news" : "rels-wiki").appendChild(row);
+  }
+  function setRels(pred) {
+    for (const [k, cb] of Object.entries(relBoxes)) { cb.checked = pred(k); cb.checked ? relOn.add(k) : relOn.delete(k); }
+    recomputeVisible(); setFocus();
+  }
+  document.getElementById("all").onclick = () => setRels(() => true);
+  document.getElementById("none").onclick = () => setRels(() => false);
+  document.getElementById("newsonly").onclick = () => setRels(k => RELS[k][2] === "news");
+  document.getElementById("hideIso").onchange = ev => { hideIso = ev.target.checked; renderer.refresh(); };
+
+  // ---------- renderer
+  document.getElementById("loading").remove();
+  recomputeVisible();
+  const renderer = new Sigma(graph, document.getElementById("graph"), {
+    renderEdgeLabels: false, labelRenderedSizeThreshold: 9, labelColor: { color: "#d7dbe3" },
+    labelFont: "system-ui, sans-serif", labelSize: 12, minCameraRatio: 0.01, maxCameraRatio: 3, zIndex: true,
+    defaultEdgeType: "line",
+    nodeReducer: (node, d) => {
+      const r = { ...d };
+      if (!grpOn.has(d.g) || (hideIso && !visibleDeg.get(node) && node !== selected)) { r.hidden = true; return r; }
+      if (focusSet) {
+        if (focusSet.has(node)) { r.forceLabel = true; r.zIndex = 2; if (node === selected) r.highlighted = true; }
+        else { r.color = "#22262e"; r.label = ""; r.zIndex = 0; }
+      }
+      return r;
+    },
+    edgeReducer: (edge, d) => {
+      const r = { ...d };
+      if (!relOn.has(d.rel)) { r.hidden = true; return r; }
+      if (focusSet) {
+        if (!focusEdges.has(edge)) { r.hidden = true; return r; }
+        r.color = RELS[d.rel] ? RELS[d.rel][1] : "#aaa"; r.size = 1.6; r.zIndex = 2;
+      }
+      return r;
+    },
+  });
+  renderer.on("enterNode", ({ node }) => { hovered = node; if (!selected) setFocus(); });
+  renderer.on("leaveNode", () => { hovered = null; if (!selected) setFocus(); });
+  renderer.on("clickNode", ({ node }) => select(node));
+  renderer.on("clickStage", () => select(null));
+
+  // ---------- tìm kiếm
+  const dl = document.getElementById("names");
+  dl.innerHTML = [...byName.keys()].sort((a, b) => a.localeCompare(b, "vi")).map(n => `<option value="${esc(n)}">`).join("");
+  document.getElementById("q").addEventListener("change", ev => {
+    const id = byName.get(ev.target.value.trim()); if (id) select(id, true);
+  });
+
+  // ---------- panel chi tiết
+  const right = document.getElementById("right");
+  function select(node, fly) {
+    selected = node; setFocus();
+    const wasOpen = document.body.classList.contains("detail");
+    document.body.classList.toggle("detail", !!node);
+    if (wasOpen !== !!node) renderer.resize();
+    if (!node) { right.style.display = "none"; history.replaceState(null, "", location.pathname); return; }
+    if (fly) {  // khung hình vừa với nút và các láng giềng
+      let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+      for (const v of focusSet) { const p = renderer.getNodeDisplayData(v); if (!p) continue;
+        x0 = Math.min(x0, p.x); x1 = Math.max(x1, p.x); y0 = Math.min(y0, p.y); y1 = Math.max(y1, p.y); }
+      if (isFinite(x0)) renderer.getCamera().animate({ x: (x0 + x1) / 2, y: (y0 + y1) / 2,
+        ratio: Math.min(1.2, Math.max(0.04, Math.max(x1 - x0, y1 - y0) * 1.25)) }, { duration: 500 });
+    }
+    const a = graph.getNodeAttributes(node), n = a.info;
+    const groups = {};
+    graph.forEachEdge(node, (k, ea, s, t) => {
+      if (!relOn.has(ea.rel)) return;
+      (groups[ea.rel] = groups[ea.rel] || []).push({ ea, other: s === node ? t : s, out: s === node });
+    });
+    let h = `<button class="close" id="cl">Đóng ✕</button>
+      <div class="nm">${esc(n.n)}</div>${n.cv ? `<div style="margin-bottom:4px">${esc(n.cv)}</div>` : ""}
+      <div class="meta">${esc(GROUPS[n.g].label)}${n.ty && n.g !== "person" ? " · " + esc(n.ty) : ""}${n.p ? " · " + esc(n.p) : ""}${n.by ? " · sinh " + esc(n.by) : ""}${n.news ? ' · <span class="tag">phát hiện từ tin tức</span>' : ""}<br>
+      ${graph.degree(node)} cạnh · id <code>${esc(n.id)}</code></div>`;
+    const order = Object.keys(RELS).filter(k => groups[k]);
+    for (const rel of order) {
+      const L = groups[rel].sort((x, y) => (y.ea.info.w || 1) - (x.ea.info.w || 1) || String(y.ea.info.dt).localeCompare(String(x.ea.info.dt)));
+      h += `<div class="rel"><span class="swl" style="background:${RELS[rel][1]}"></span>${esc(RELS[rel][0])} (${L.length})</div>`;
+      for (const { ea, other, out } of L.slice(0, 60)) {
+        const e = ea.info, on = graph.getNodeAttribute(other, "label");
+        const when = e.nh ? esc(e.nh) : (e.st || e.en ? `${esc(e.st || "?")} → ${esc(e.en || "nay")}` : (e.dt ? esc(e.dt) : ""));
+        h += `<div class="e">${out ? "→" : "←"} <a class="node" data-id="${esc(other)}">${esc(on)}</a>
+          <div class="sub">${e.ro && e.r !== "GIU_CHUC_VU" ? esc(e.ro) + " · " : ""}${when}</div>
+          ${e.ev ? `<div class="ev">“${esc(e.ev)}” ${e.src && e.src.startsWith("http") ? `<a href="${esc(e.src)}" target="_blank" rel="noopener">nguồn</a>` : ""}</div>` : ""}</div>`;
+      }
+      if (L.length > 60) h += `<div class="sub">… và ${L.length - 60} liên kết khác</div>`;
+    }
+    right.innerHTML = h; right.style.display = "block"; right.scrollTop = 0;
+    right.querySelector("#cl").onclick = () => select(null);
+    right.querySelectorAll("a.node").forEach(x => x.onclick = () => select(x.dataset.id, true));
+    history.replaceState(null, "", "#" + encodeURIComponent(node));
+  }
+  // mở sẵn một nút qua URL: index.html#per:pham_thi_thanh_tra
+  const h0 = decodeURIComponent(location.hash.slice(1));
+  if (h0 && graph.hasNode(h0)) select(h0, true);
+})();
+</script>
+</body>
+</html>

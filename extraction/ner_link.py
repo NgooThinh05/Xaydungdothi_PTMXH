@@ -103,10 +103,20 @@ COUNTRIES = ("Nhật Bản|Hy Lạp|Lào|Campuchia|Trung Quốc|Hàn Quốc|Tri�
              "Venezuela|Argentina|Chile|Mexico|Canada|New Zealand|Panama|Peru|Colombia|Thổ Nhĩ Kỳ|Saudi Arabia|UAE|Qatar|"
              "Kuwait|Angola|Uzbekistan|Azerbaijan|Armenia|Slovakia|Bulgaria|Romania|Serbia|Croatia|Slovenia|"
              "Luxembourg|Ireland|Sri Lanka|Nepal|Bhutan|Maldives|hai nước|nước bạn|các nước|ASEAN|EU|Liên minh châu Âu")
+COUNTRY_RE = re.compile(rf"(?<![\w])(?:nước |Vương quốc |Cộng hòa |Liên bang )?(?:{COUNTRIES}|châu Âu|Châu Âu|châu Á|Châu Á|châu Mỹ|Châu Mỹ|châu Phi|Châu Phi)(?![\w])", re.I)
 FOREIGN_AFTER_RE = re.compile(rf"\s+(?:nước |Vương quốc |Cộng hòa |Liên bang )?(?:{COUNTRIES})(?![\w])")
 NOT_PERSON_BEFORE_RE = re.compile(r"(?:đường|Đường|phố|tuyến|cầu|Cầu|[Tt]rường|quảng trường|[Ll]ăng|[Bb]ảo tàng|tư tưởng|"
                                   r"di sản|[Tt]hành phố|TP\.?|Huân chương|[Gg]iải thưởng|[Kk]hu di tích|[Nn]hà văn hóa|"
-                                  r"[Cc]ông viên|[Bb]ến|[Kk]hu|Sân vận động|Bệnh viện|Đại lộ|đại lộ)\s*$")
+                                  r"[Cc]ông viên|[Bb]ến|[Kk]hu|Sân vận động|Bệnh viện|Đại lộ|đại lộ|châu|Châu|"
+                                  r"Học viện|học viện|Học viện Chính trị|học viện chính trị|"
+                                  r"tượng đài|Tượng đài|khu lưu niệm|Khu lưu niệm|ngày sinh|Ngày sinh|ngày mất|Ngày mất)\s*$")
+HISTORICAL_OR_FOREIGN = {
+    "Hồ Chí Minh", "Hồ Chí Mình", "Tôn Đức Thắng", "Võ Nguyên Giáp", "Trường Chinh", "Lê Duẩn", "Phạm Văn Đồng",
+    "Vương Nghị", "Lý Cường", "Hà Vĩ", "Tập Cận Bình", "Lý Khắc Cường", "Hồ Cẩm Đào", "Giang Trạch Dân"
+}
+INITIAL_AFTER_RE = re.compile(r"^\s+[A-ZĐ](\.|\b)")
+FOREIGN_NAME_CHAR_RE = re.compile(r"[fwzFWZ]|(?<!\b)[jJ]")
+COUNTRY_BEFORE_RE = re.compile(rf"(?:{COUNTRIES}|nước ngoài)\s*$", re.I)
 BARE_UNIT = r"(?:Tỉnh ủy|Thành ủy|Ủy ban nhân dân tỉnh|Ủy ban nhân dân thành phố|UBND tỉnh|UBND thành phố|HĐND tỉnh|HĐND thành phố|Hội đồng nhân dân tỉnh|Đoàn ĐBQH tỉnh|Đoàn đại biểu Quốc hội tỉnh|Công an tỉnh|UBND|HĐND|tỉnh|thành phố)"
 BARE_END_RE = re.compile(rf"(?<![\w])(?P<u>{BARE_UNIT})\s*$")
 BARE_START_RE = re.compile(rf"^\s*(?P<u>{BARE_UNIT})(?![\w])")
@@ -148,13 +158,17 @@ class Linker:
         self.prov_alt = "|".join(map(re.escape, sorted(names, key=len, reverse=True)))
         self.prov_any_re = re.compile(r"(?<![\w])(?:tỉnh|thành phố|Thành phố|TP\.?|Tp\.?|tại|ở|về|đến|của|và|Tỉnh|Tại)\s+(" + self.prov_alt + ")" + E)
 
-        # ---- cơ quan (gazetteer)
-        g_org = json.loads((PROC / "gazetteer_org.json").read_text(encoding="utf-8"))
+        # ---- cơ quan (gazetteer từ Wiki nếu có, tự sinh nếu chưa có)
+        g_org_path = PROC / "gazetteer_org.json"
+        g_org = json.loads(g_org_path.read_text(encoding="utf-8")) if g_org_path.exists() else {}
         self.org_name = {}   # id -> tên hiển thị
         self.org_prov = {}
-        for r in csv.DictReader((PROC / "nodes_org.csv").open(encoding="utf-8")):
-            self.org_name[r["id"]] = r["name"]
-            self.org_prov[r["id"]] = r.get("province") or ""
+        nodes_org_path = PROC / "nodes_org.csv"
+        if nodes_org_path.exists():
+            with nodes_org_path.open(encoding="utf-8") as source:
+                for r in csv.DictReader(source):
+                    self.org_name[r["id"]] = r["name"]
+                    self.org_prov[r["id"]] = r.get("province") or ""
         self.org_lookup = {}  # tên chuẩn hoá (lower) -> id
         for name, oid in g_org.items():
             self.org_lookup[norm_text(name).lower()] = oid
@@ -181,8 +195,11 @@ class Linker:
         })
         for k, v in aliases.items():
             vid = self.org_lookup.get(v.lower())
-            if vid:
-                self.org_lookup[k.lower()] = vid
+            if not vid:
+                vid = "org:" + slug(v)
+                self.org_lookup[v.lower()] = vid
+                self.org_name[vid] = v
+            self.org_lookup[k.lower()] = vid
         # tên quá chung chung -> bỏ
         bad = re.compile(r"^(Sở [^ ]+( [^ ]+)?|Ủy ban Kiểm tra( Đảng ủy)?|Đảng ủy|Ủy ban|Ban [^ ]+|Văn phòng|Hội đồng|"
                          r"Tổng cục [^ ]+|Cục [^ ]+|Vụ [^ ]+|Ủy ban nhân dân|Hội đồng nhân dân|Công an|Trường .*|"
@@ -210,18 +227,27 @@ class Linker:
         self.new_orgs: dict[str, dict] = {}       # id -> {name,type,level,province}
         self.new_org_edges: list[tuple] = []      # (src, rel, dst, dst_label)
 
-        # ---- người
-        g_per = json.loads((PROC / "gazetteer_person.json").read_text(encoding="utf-8"))
+        # ---- người (tùy chọn gazetteer Wiki nếu có)
+        g_per_path = PROC / "gazetteer_person.json"
+        g_per = json.loads(g_per_path.read_text(encoding="utf-8")) if g_per_path.exists() else {}
         self.per_lookup = {}
         for name, lst in g_per.items():
             n = norm_text(name)
             ids = {x["id"] for x in lst}
             self.per_lookup.setdefault(n, set()).update(ids)
-        self.per_name = {r["id"]: r["name"] for r in csv.DictReader((PROC / "nodes_person.csv").open(encoding="utf-8"))}
+        nodes_per_path = PROC / "nodes_person.csv"
+        if nodes_per_path.exists():
+            with nodes_per_path.open(encoding="utf-8") as source:
+                self.per_name = {r["id"]: r["name"] for r in csv.DictReader(source)}
+        else:
+            self.per_name = {}
         self.per_orgs: dict[str, set] = {}
-        for r in csv.DictReader((PROC / "edges_wiki.csv").open(encoding="utf-8")):
-            if r["rel"] == "GIU_CHUC_VU":
-                self.per_orgs.setdefault(r["src"], set()).add(r["dst"])
+        edges_wiki_path = PROC / "edges_wiki.csv"
+        if edges_wiki_path.exists():
+            with edges_wiki_path.open(encoding="utf-8") as source:
+                for r in csv.DictReader(source):
+                    if r["rel"] == "GIU_CHUC_VU":
+                        self.per_orgs.setdefault(r["src"], set()).add(r["dst"])
         self.new_persons: dict[str, dict] = {}
 
     @staticmethod
@@ -332,11 +358,22 @@ class Linker:
             masked[o.start:o.end] = "#" * (o.end - o.start)
         for m in self.prov_any_re.finditer(s):
             masked[m.start(1):m.end(1)] = "#" * (m.end(1) - m.start(1))
+        for m in COUNTRY_RE.finditer(s):
+            masked[m.start():m.end()] = "#" * (m.end() - m.start())
         masked = "".join(masked)
         out = []
         for m in NAME_RE.finditer(masked):
             a, b = m.start(), m.end()
+            # Bỏ qua đối tượng viết tắt chữ cái đơn lẻ trong bản án / phóng sự (vd: "ông Nguyễn Văn A.", "Bà Nguyễn Thị L,")
+            if INITIAL_AFTER_RE.match(s[b:]):
+                continue
+            # Bỏ qua tên chứa ký tự ngoại lai không có trong tiếng Việt
+            if FOREIGN_NAME_CHAR_RE.search(m.group(0)):
+                continue
             parts = m.group(0).split()
+            # Bỏ qua tên cụt 2 âm tiết chỉ gồm họ + đệm nữ ("Thị")
+            if len(parts) == 2 and parts[1] == "Thị":
+                continue
             # tên dài 4 âm tiết mà 2–3 âm tiết đầu khớp gazetteer -> cắt (ví dụ "Phạm Minh Chính Chủ")
             if m.group(0) not in self.per_lookup:
                 for k in range(len(parts) - 1, 1, -1):
@@ -344,6 +381,13 @@ class Linker:
                         parts = parts[:k]
                         break
             name = " ".join(parts)
+            # Khắc phục lỗi chính tả phóng viên viết thường âm tiết cuối (ví dụ "Hồ Văn niên" -> "Hồ Văn Niên")
+            if name not in self.per_lookup and len(parts) in (2, 3):
+                m_low = re.match(r"^\s+([a-zđàáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵ]+)", s[a + len(name):])
+                if m_low:
+                    cand = name + " " + m_low.group(1).capitalize()
+                    if cand in self.per_lookup:
+                        name = cand
             out.append((a, a + len(name), name))
         return out
 
@@ -433,7 +477,8 @@ class DocContext:
 
 
 def resolve_role_org(title: str, org_id: str | None, lk: Linker) -> str | None:
-    if org_id == "org:ban_chap_hanh_trung_uong_dang" and title.endswith("Bí thư") and "Phó" not in title:
+    if org_id == "org:ban_chap_hanh_trung_uong_dang" and title.endswith("Bí thư") and "Phó" not in title \
+            and "Tổng" not in title:
         return lk.org_lookup.get("ban bí thư", org_id)
     if org_id:
         return org_id
@@ -450,10 +495,18 @@ def analyse_sentence(s: str, lk: Linker, ctx: DocContext) -> list[Mention]:
     raw = lk.find_persons_raw(s, orgs)
     persons = []
     for a, b, name in raw:
-        if NOT_PERSON_BEFORE_RE.search(s[max(0, a - 20):a]) or name in ("Hồ Chí Minh",) and "Chủ tịch Hồ Chí Minh" not in s:
+        if (NOT_PERSON_BEFORE_RE.search(s[max(0, a - 25):a]) or
+            name in HISTORICAL_OR_FOREIGN or
+            (name not in lk.per_lookup and COUNTRY_BEFORE_RE.search(s[max(0, a - 35):a]))):
             continue
         start, roles_b = lk.appositive_before(s, a, by_end)
         end, roles_a = lk.appositive_after(s, b, by_start)
+        if name not in lk.per_lookup and re.search(rf"\b(?:{COUNTRIES})\b", s[b:end]):
+            continue
+        if roles_b:
+            # đã có chức danh đứng trước tên -> cụm sau tên là của người khác trong danh sách
+            # ("Tổng Bí thư Tô Lâm, Thủ tướng Chính phủ, Chủ tịch Quốc hội ...")
+            end, roles_a = b, []
         roles = roles_b + roles_a
         chain_prov = next((lk.org_prov.get(oid) or lk.new_orgs.get(oid, {}).get("province")
                            for _, oid, _ in roles if oid and not oid.startswith("BARE:")
@@ -489,10 +542,10 @@ def analyse_sentence(s: str, lk: Linker, ctx: DocContext) -> list[Mention]:
                 # chức vụ cấp tỉnh ở tỉnh mà người trong Wikipedia chưa từng công tác -> người khác trùng tên
                 if not (role_provs and c_provs and not (role_provs & c_provs)):
                     pid, via = c, "gazetteer"
-        if not pid and role_orgs and n_syl >= 3 and name not in ctx.name2pid:
+        if not pid and (role_orgs or has_title) and n_syl >= 2 and name not in ctx.name2pid:
             prov = next(iter(sorted(role_provs)), "")
             pid = "per:news:" + slug(name) + ("__" + slug(prov) if prov else "")
-            via, conf = "news", 0.9
+            via, conf = "news", 0.9 if role_orgs else 0.85
             lk.new_persons.setdefault(pid, {"id": pid, "name": name, "wiki_title": "", "wikidata": "",
                                             "birth_year": "", "hometown": "", "source": "news"})
         if not pid:

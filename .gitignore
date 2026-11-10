@@ -8,3 +8,6 @@ data/interim/
 *.jsonl
 !data/samples/*.jsonl
 logs/
+viz/node_modules/
+viz/package-lock.json
+~$*

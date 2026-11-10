@@ -1,0 +1,10 @@
+{
+  "name": "mxh-viz-layout",
+  "private": true,
+  "type": "module",
+  "description": "Tính bố cục ForceAtlas2 (Barnes-Hut) cho viz/graph_data.js",
+  "dependencies": {
+    "graphology": "0.25.4",
+    "graphology-layout-forceatlas2": "0.10.1"
+  }
+}
