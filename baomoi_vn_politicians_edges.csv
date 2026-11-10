@@ -1,39 +1,39 @@
 ﻿source_person,target_person,weight,shared_article_ids,shared_organizations,shared_ban_nganh,shared_provinces
-Trần Thanh Mẫn,Tô Lâm,36,"56436535, 56432338, 56434810, 56389292, 56393132, 56418000, 56353282, 56358068, 56303370, 56307354, 56277634, 56277293, 56293944, 56217835, 56451458, 56451373, 56447906, 56445448, 56445244, 56444444, 56444212, 56446188, 56445365, 56444895, 56444820, 56445617, 56443669, 56443670, 56445183, 56440661, 56439895, 56440334, 56243129, 56441332, 51561218, 51387532","Ban Chấp hành Trung ương Đảng, Nhà nước CHXHCN Việt Nam",Khối Đảng Trung ương,
-Lê Minh Hưng,Tô Lâm,28,"56436535, 56432338, 56434451, 56393132, 56358068, 56307354, 56277293, 56293944, 56229165, 56219187, 56217835, 56451458, 56447906, 56445244, 56446188, 56445365, 56444895, 56444820, 56445617, 56443670, 56440661, 56439895, 56445318, 51561218, 51930051, 52990388, 52461287, 56444521","Ban Chấp hành Trung ương Đảng, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
-Nguyễn Thị Thanh,Trần Thanh Mẫn,27,"56435300, 56435903, 56432423, 56436255, 56433077, 56427347, 56422846, 56411673, 56435590, 56427380, 56437040, 56427349, 56436352, 56425998, 56428964, 56412739, 56411522, 56345426, 56322432, 56318851, 56321046, 56298029, 56440661, 56440334, 56442752, 56447132, 56441332","Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
+Trần Thanh Mẫn,Tô Lâm,44,"56436535, 56432338, 56434810, 56389292, 56393132, 56418000, 56353282, 56358068, 56303370, 56307354, 56277634, 56277293, 56293944, 56217835, 56451458, 56451373, 56447906, 56445448, 56445244, 56444444, 56444212, 56446188, 56445365, 56444895, 56444820, 56445617, 56443669, 56443670, 56445183, 56440661, 56439895, 56440334, 56243129, 56441332, 51561218, 51387532, 56471835, 56471650, 56471369, 56469721, 56468666, 56465679, 56465085, 56353470","Ban Chấp hành Trung ương Đảng, Nhà nước CHXHCN Việt Nam",Khối Đảng Trung ương,
+Lê Minh Hưng,Tô Lâm,30,"56436535, 56432338, 56434451, 56393132, 56358068, 56307354, 56277293, 56293944, 56229165, 56219187, 56217835, 56451458, 56447906, 56445244, 56446188, 56445365, 56444895, 56444820, 56445617, 56443670, 56440661, 56439895, 56445318, 51561218, 51930051, 52990388, 52461287, 56444521, 56469721, 56468666","Ban Chấp hành Trung ương Đảng, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
+Nguyễn Thị Thanh,Trần Thanh Mẫn,29,"56435300, 56435903, 56432423, 56436255, 56433077, 56427347, 56422846, 56411673, 56435590, 56427380, 56437040, 56427349, 56436352, 56425998, 56428964, 56412739, 56411522, 56345426, 56322432, 56318851, 56321046, 56298029, 56440661, 56440334, 56442752, 56447132, 56441332, 56470879, 56471279","Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
+Lê Minh Hưng,Trần Thanh Mẫn,22,"56436535, 56432338, 56393132, 56358068, 56307354, 56277293, 56293944, 56217835, 56451458, 56447906, 56445244, 56446188, 56445365, 56444895, 56444820, 56445617, 56443670, 56440661, 56439895, 51561218, 56469721, 56468666","Ban Chấp hành Trung ương Đảng, Bộ Chính trị, Quốc hội, Đảng ủy","Khối Quốc hội, Khối Đảng Trung ương",
 Phạm Gia Túc,Tô Lâm,21,"56389292, 56450477, 56449819, 56449623, 56450814, 56450310, 56449416, 56443524, 56444477, 56443545, 56443077, 56441113, 56441268, 56440517, 56446465, 56452047, 56454664, 56455217, 56454398, 56455545, 56456115",Chính phủ,"Khối Chính phủ, Khối Đảng Trung ương",
-Lê Minh Hưng,Trần Thanh Mẫn,20,"56436535, 56432338, 56393132, 56358068, 56307354, 56277293, 56293944, 56217835, 56451458, 56447906, 56445244, 56446188, 56445365, 56444895, 56444820, 56445617, 56443670, 56440661, 56439895, 51561218","Ban Chấp hành Trung ương Đảng, Bộ Chính trị, Quốc hội, Đảng ủy","Khối Quốc hội, Khối Đảng Trung ương",
 Nguyễn Hồng Diên,Trần Thanh Mẫn,20,"56420947, 56421400, 56421659, 56423008, 56389292, 56389470, 56422087, 56421279, 56414660, 56421947, 56421750, 56422006, 56389259, 56372684, 56344830, 56345426, 56343455, 56337243, 56313075, 56451751",Quốc hội,Khối Quốc hội,
 Nguyễn Khắc Định,Trần Thanh Mẫn,18,"56430598, 56433077, 56419868, 56423008, 56434744, 56431091, 56421720, 56414359, 56417622, 56417881, 56414153, 56413740, 56361810, 56361989, 56334841, 56298485, 56293944, 51387532","Ban Chấp hành Trung ương Đảng, Quốc hội, Đảng ủy",Khối Quốc hội,
-Bùi Thị Minh Hoài,Tô Lâm,15,"56436311, 56437134, 56393132, 56293944, 56445244, 56445365, 56444895, 56444820, 56445617, 56439895, 56439326, 56452280, 51561218, 51930051, 56435988","Ban Chấp hành Trung ương Đảng, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
+Bùi Thị Minh Hoài,Tô Lâm,16,"56436311, 56437134, 56393132, 56293944, 56445244, 56445365, 56444895, 56444820, 56445617, 56439895, 56439326, 56452280, 51561218, 51930051, 56435988, 56465681","Ban Chấp hành Trung ương Đảng, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
+Trần Cẩm Tú,Tô Lâm,15,"56437256, 56293944, 56447906, 56445244, 56446188, 56445365, 56444895, 56444820, 56445617, 56443670, 56439895, 56237810, 51387532, 56469721, 56468666",Chính phủ,"Khối Chính phủ, Khối Đảng Trung ương",
 Trần Thanh Mẫn,Đỗ Văn Chiến,14,"56435858, 56432423, 56435668, 56435112, 56434818, 56436285, 56434782, 56435760, 56436032, 56293944, 56451751, 56437338, 56441332, 51387532","Ban Chấp hành Trung ương Đảng, Bộ Chính trị, Quốc hội, Đảng ủy, Ủy ban Trung ương MTTQ Việt Nam","Khối Mặt trận - Đoàn thể, Khối Quốc hội, Khối Đảng Trung ương",
 Bùi Thị Minh Hoài,Trần Thanh Mẫn,14,"56393132, 56293944, 56445244, 56445365, 56444895, 56444820, 56445617, 56439895, 56452398, 56453118, 56452393, 51561218, 56453429, 56454972","Ban Chấp hành Trung ương Đảng, Bộ Chính trị, Đảng ủy, Ủy ban Trung ương MTTQ Việt Nam","Khối Mặt trận - Đoàn thể, Khối Quốc hội, Khối Đảng Trung ương",
 Lê Quang Mạnh,Trần Thanh Mẫn,13,"56435112, 56434818, 56403571, 56436285, 56434782, 56436032, 56449827, 56449611, 56442435, 56437338, 56452398, 56453118, 56452393","Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
-Trần Cẩm Tú,Tô Lâm,13,"56437256, 56293944, 56447906, 56445244, 56446188, 56445365, 56444895, 56444820, 56445617, 56443670, 56439895, 56237810, 51387532",Chính phủ,"Khối Chính phủ, Khối Đảng Trung ương",
+Lương Tam Quang,Tô Lâm,13,"56389292, 56300752, 56240901, 56241477, 56241428, 51930051, 56242166, 51839928, 52990388, 52461287, 52910178, 56469849, 56464688","Chính phủ, Nhà nước CHXHCN Việt Nam","Khối Chính phủ, Khối Đảng Trung ương",
+Trần Cẩm Tú,Trần Thanh Mẫn,13,"56293944, 56447906, 56445244, 56446188, 56445365, 56444895, 56444820, 56445617, 56443670, 56439895, 51387532, 56469721, 56468666",Bộ Chính trị,Khối Đảng Trung ương,
 Phạm Gia Túc,Thái Đại Ngọc,13,"56453280, 56452602, 56454453, 56454664, 56454932, 56454904, 56455489, 56455217, 56454398, 56454681, 56455392, 56455158, 56454992",,,
 Lương Tam Quang,Trần Thanh Mẫn,12,"56436380, 56435858, 56435348, 56435300, 56427347, 56389292, 56427380, 56434744, 56437040, 56354135, 56442435, 56439300","Bộ Chính trị, Nhà nước CHXHCN Việt Nam, Quốc hội","Khối Quốc hội, Khối Đảng Trung ương",
+Phan Văn Giang,Tô Lâm,12,"56437256, 56394714, 56394207, 56300752, 56452280, 51561218, 51930051, 51839928, 52461287, 56471240, 56470269, 56463105","Chính phủ, Quân ủy Trung ương","Khối Chính phủ, Khối Đảng Trung ương, Ngành Quốc phòng",
 Lương Hoàng Thái,Phạm Gia Túc,12,"56274500, 56274043, 56209520, 56454453, 56454664, 56454932, 56454904, 56455217, 56454398, 56454681, 56455158, 56456115",,,
+Nguyễn Thị Hồng,Trần Thanh Mẫn,12,"56383484, 56384320, 56373770, 56372337, 56293941, 56293944, 56440661, 56440334, 56447703, 56439733, 56441332, 56470877","Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
+Lê Minh Hưng,Trần Cẩm Tú,12,"56293944, 56447906, 56445244, 56446188, 56445365, 56444895, 56444820, 56445617, 56443670, 56439895, 56469721, 56468666","Ban Bí thư Trung ương Đảng, Bộ Chính trị, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
 Nguyễn Ngọc Tú,Vũ Đại Thắng,12,"56446623, 56447915, 56448000, 56446520, 56445702, 56440301, 56440675, 56446815, 56443067, 56446732, 56453079, 56447387",Sở Tài chính Hà Nội,Sở Tài chính,Hà Nội
+Nguyễn Duy Ngọc,Tô Lâm,11,"56436311, 56437134, 56394714, 56394207, 56439326, 51839928, 52990388, 52461287, 51387532, 56435988, 56471236",Ban Chấp hành Trung ương Đảng,Khối Đảng Trung ương,
 Lê Hoài Trung,Tô Lâm,11,"56432338, 56300752, 56449819, 56449623, 56450814, 56450310, 56440601, 51561218, 52990388, 52461287, 51387532",Ban Chấp hành Trung ương Đảng,Khối Đảng Trung ương,
-Lương Tam Quang,Tô Lâm,11,"56389292, 56300752, 56240901, 56241477, 56241428, 51930051, 56242166, 51839928, 52990388, 52461287, 52910178","Chính phủ, Nhà nước CHXHCN Việt Nam","Khối Chính phủ, Khối Đảng Trung ương",
-Nguyễn Thị Hồng,Trần Thanh Mẫn,11,"56383484, 56384320, 56373770, 56372337, 56293941, 56293944, 56440661, 56440334, 56447703, 56439733, 56441332","Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
-Trần Cẩm Tú,Trần Thanh Mẫn,11,"56293944, 56447906, 56445244, 56446188, 56445365, 56444895, 56444820, 56445617, 56443670, 56439895, 51387532",Bộ Chính trị,Khối Đảng Trung ương,
 Bùi Hoài Sơn,Nguyễn Huy Dũng,10,"56436325, 56436173, 56436505, 56437838, 56436713, 56441057, 56441388, 56448042, 56436127, 56436876","Ban Chấp hành Trung ương Đảng, Ban Tuyên giáo Trung ương",Ban Tuyên giáo Trung ương,
 Bùi Hoài Sơn,Vũ Thu Hà,10,"56436325, 56436505, 56437838, 56436713, 56436696, 56441057, 56439393, 56441388, 56436127, 56443308",,,
-Nguyễn Duy Ngọc,Tô Lâm,10,"56436311, 56437134, 56394714, 56394207, 56439326, 51839928, 52990388, 52461287, 51387532, 56435988",Ban Chấp hành Trung ương Đảng,Khối Đảng Trung ương,
 Bùi Thị Minh Hoài,Lê Minh Hưng,10,"56393132, 56293944, 56445244, 56445365, 56444895, 56444820, 56445617, 56439895, 51561218, 51930051","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Ban Tổ chức Trung ương, Bộ Chính trị, Chính phủ, Đảng ủy","Ban Tổ chức Trung ương, Khối Chính phủ, Khối Quốc hội, Khối Đảng Trung ương",
-Lê Minh Hưng,Trần Cẩm Tú,10,"56293944, 56447906, 56445244, 56446188, 56445365, 56444895, 56444820, 56445617, 56443670, 56439895","Ban Bí thư Trung ương Đảng, Bộ Chính trị, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
+Nguyễn Thanh Tùng,Vũ Đại Thắng,10,"56233572, 56418081, 56392816, 56428694, 56313549, 56234864, 56428593, 56430200, 56428757, 56420538","Thành ủy Hà Nội, Đảng ủy",Khối Đảng Thành ủy,Hà Nội
 Nguyễn Hồng Ky,Nguyễn Trọng Đông,10,"56441020, 56439242, 56438799, 56438841, 56441255, 56438774, 56439112, 56439142, 56440262, 56439330",,,Hà Nội
 Nguyễn Trọng Đông,Vũ Thu Hà,10,"56441020, 56439242, 56438799, 56438841, 56441255, 56438774, 56439112, 56439142, 56439330, 56438826",Thành ủy Hà Nội,Khối Đảng Thành ủy,Hà Nội
 Nguyễn Văn Gấu,Trần Chí Tâm,9,"56437094, 56437121, 56436248, 56436256, 56437727, 56438044, 56440279, 56444756, 56440315",,Ngành Quốc phòng,
 Lương Tam Quang,Nguyễn Thị Thanh,9,"56435300, 56435507, 56432595, 56427347, 56427380, 56437040, 56428742, 56443906, 56436980",Quốc hội,Khối Quốc hội,
-Phan Văn Giang,Tô Lâm,9,"56437256, 56394714, 56394207, 56300752, 56452280, 51561218, 51930051, 51839928, 52461287","Chính phủ, Quân ủy Trung ương","Khối Chính phủ, Khối Đảng Trung ương, Ngành Quốc phòng",
-Nguyễn Thanh Tùng,Vũ Đại Thắng,9,"56233572, 56418081, 56392816, 56428694, 56313549, 56234864, 56428593, 56430200, 56428757","Thành ủy Hà Nội, Đảng ủy",Khối Đảng Thành ủy,Hà Nội
+Tô Lâm,Đỗ Văn Chiến,9,"56394714, 56293944, 56394207, 56441332, 51930051, 52990388, 52461287, 51387532, 56465681",Ban Chấp hành Trung ương Đảng,"Khối Đảng Trung ương, Ngành Quốc phòng",
 Bùi Thị Minh Hoài,Trần Cẩm Tú,9,"56293944, 56299140, 56445244, 56445365, 56444895, 56444820, 56445617, 56439895, 56299144","Ban Bí thư Trung ương Đảng, Bộ Chính trị, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
 Nguyễn Hồng Ky,Vũ Thu Hà,9,"56441020, 56439242, 56438799, 56438841, 56441255, 56438774, 56439112, 56439142, 56439330","Công an TP Hà Nội, UBND thành phố Hà Nội","Khối Chính quyền địa phương, Ngành Công an",Hà Nội
 Nguyễn Huy Dũng,Vũ Thu Hà,8,"56436325, 56436505, 56437838, 56436713, 56441057, 56441388, 56436127, 56437265","Bộ Văn hóa, Thể thao và Du lịch, UBND thành phố, UBND thành phố Hà Nội","Khối Chính quyền địa phương, Ngành Văn hóa, Thể thao và Du lịch",Hà Nội
-Tô Lâm,Đỗ Văn Chiến,8,"56394714, 56293944, 56394207, 56441332, 51930051, 52990388, 52461287, 51387532",Ban Chấp hành Trung ương Đảng,"Khối Đảng Trung ương, Ngành Quốc phòng",
 Lê Minh Hưng,Nguyễn Thị Loan,8,"56416885, 56414717, 56417586, 56414884, 56416837, 56419596, 56397518, 56417486","Bộ Nông nghiệp và Môi trường, Bộ Y tế, Chính phủ","Khối Chính phủ, Ngành Nông nghiệp và Môi trường, Ngành Y tế",
 Hoàng Kim,Mai Thị Kim,8,"56408719, 56406764, 56418700, 56419027, 56407337, 56440159, 56439667, 56422748",,,
 Hoàng Kim,Nguyễn Văn Công,8,"56408719, 56406764, 56418700, 56419027, 56407337, 56440159, 56439667, 56422748",,,
@@ -46,6 +46,7 @@ Nguyễn Văn Gấu,Trần Vinh Ngọc,7,"56437094, 56437121, 56436797, 56436256
 Lê Ngọc Quang,Trần Cẩm Tú,7,"56436719, 56436798, 56437237, 56436813, 56437255, 56250771, 56252910",,,
 Trần Lưu Quang,Tô Lâm,7,"56436311, 56437134, 56300752, 56439326, 52990388, 51387532, 56435988",Ban Chấp hành Trung ương Đảng,Khối Đảng Trung ương,
 Lê Minh Hưng,Nguyễn Văn Thắng,7,"56381592, 56388386, 56274309, 56262739, 56260802, 56260500, 56236559","Chính phủ, Đảng ủy",Khối Chính phủ,
+Hồ Quốc Dũng,Nguyễn Văn Thắng,7,"56342175, 56274309, 56260500, 56236559, 56286433, 56452047, 56395658",Chính phủ,Khối Chính phủ,
 Lê Quốc Hùng,Nguyễn Văn Gấu,7,"56358173, 56451624, 56448010, 56445758, 56446389, 56451281, 56447747",Ban Chấp hành Trung ương Đảng,,
 Hoàng Kim,Lê Mai Tú,7,"56408719, 56406764, 56418700, 56419027, 56407337, 56440159, 56439667",,,
 Hoàng Kim,Trần Quốc Lộc,7,"56408719, 56406764, 56418700, 56419027, 56407337, 56440159, 56439667",,,
@@ -77,7 +78,6 @@ Trần Thanh Hải,Đặng Thị Mai,6,"56436434, 56436062, 56435583, 56437287, 
 Bùi Thị Minh Hoài,Nguyễn Duy Ngọc,6,"56436311, 56437134, 56299140, 56439326, 56299144, 56435988","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Ban Tổ chức Trung ương, Bộ Chính trị","Ban Tổ chức Trung ương, Khối Đảng Trung ương",
 Nguyễn Duy Ngọc,Trần Lưu Quang,6,"56436311, 56437134, 56439326, 52990388, 51387532, 56435988","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Bộ Chính trị",Khối Đảng Trung ương,
 Lê Quang Mạnh,Đỗ Văn Chiến,6,"56435112, 56434818, 56436285, 56434782, 56436032, 56437338","Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
-Hồ Quốc Dũng,Nguyễn Văn Thắng,6,"56342175, 56274309, 56260500, 56236559, 56286433, 56452047",Chính phủ,Khối Chính phủ,
 Nguyễn Thanh Hải,Trần Thanh Mẫn,6,"56389292, 56344830, 56345426, 56298485, 56293944, 56348283",Quốc hội,Khối Quốc hội,
 Nguyễn Thị Hồng,Tô Lâm,6,"56293944, 56300752, 56440661, 56440334, 56236891, 56441332",Ban Chấp hành Trung ương Đảng,,
 Nguyễn Quốc Toản,Phạm Thế Tùng,6,"56437363, 56439085, 56438580, 56440053, 56441812, 56441614","Bộ Công an, Đảng ủy Công an Trung ương",Ngành Công an,
@@ -92,9 +92,59 @@ Nguyễn Trung Cấp,Vũ Thị Thu Hương,6,"56448647, 56447696, 56447543, 5644
 Nguyễn Phi Long,Nguyễn Đình Khang,6,"56447549, 56447573, 56445950, 56445132, 56444564, 56444996",Ban Chấp hành Trung ương Đảng,,
 Nguyễn Bá Hoan,Nguyễn Lâm Sơn,6,"56445686, 56445951, 56444602, 56447533, 56452051, 56445401",,,
 Nguyễn Hồng Diên,Ngô Văn Tuấn,6,"56447043, 56448996, 56446202, 56446799, 56447145, 56456551",,,
+Lâm Thị Phương Thanh,Tô Lâm,6,"56237810, 51561218, 56462830, 56462433, 56463083, 56461999",Ban Chấp hành Trung ương Đảng,Khối Chính quyền địa phương,
+Huỳnh Ngọc Thanh,Lê Hồng Lợi,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Huỳnh Ngọc Thanh,Nguyễn Thanh Long,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485","Sở Xây dựng, Sở Xây dựng Lâm Đồng",Sở Xây dựng,Lâm Đồng
+Huỳnh Ngọc Thanh,Nguyễn Thanh Sang,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Huỳnh Ngọc Thanh,Nguyễn Thanh Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Huỳnh Ngọc Thanh,Nguyễn Thúc Phước Hải,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Huỳnh Ngọc Thanh,Nguyễn Trường Sa,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Huỳnh Ngọc Thanh,Nguyễn Vũ Linh Sang,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Huỳnh Ngọc Thanh,Phạm Thành Bắc,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Huỳnh Ngọc Thanh,Trần Hoàng Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Lê Hồng Lợi,Nguyễn Thanh Long,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485","Đảng ủy Đặc khu Phú Quý, Đảng ủy đặc khu Phú Quý",,Lâm Đồng
+Lê Hồng Lợi,Nguyễn Thanh Sang,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy,Chính quyền địa phương,Lâm Đồng
+Lê Hồng Lợi,Nguyễn Thanh Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Lê Hồng Lợi,Nguyễn Thúc Phước Hải,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy,Chính quyền địa phương,Lâm Đồng
+Lê Hồng Lợi,Nguyễn Trường Sa,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy,Chính quyền địa phương,Lâm Đồng
+Lê Hồng Lợi,Nguyễn Vũ Linh Sang,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy,Chính quyền địa phương,Lâm Đồng
+Lê Hồng Lợi,Phạm Thành Bắc,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy,Chính quyền địa phương,Lâm Đồng
+Lê Hồng Lợi,Trần Hoàng Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Long,Nguyễn Thanh Sang,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Long,Nguyễn Thanh Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Long,Nguyễn Thúc Phước Hải,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Long,Nguyễn Trường Sa,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Long,Nguyễn Vũ Linh Sang,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Long,Phạm Thành Bắc,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Long,Trần Hoàng Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Sang,Nguyễn Thanh Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy xã Vĩnh Hảo,,Lâm Đồng
+Nguyễn Thanh Sang,Nguyễn Thúc Phước Hải,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485","Đảng ủy, Đảng ủy xã Bắc Bình",Chính quyền địa phương,Lâm Đồng
+Nguyễn Thanh Sang,Nguyễn Trường Sa,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy,Chính quyền địa phương,Lâm Đồng
+Nguyễn Thanh Sang,Nguyễn Vũ Linh Sang,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy,Chính quyền địa phương,Lâm Đồng
+Nguyễn Thanh Sang,Phạm Thành Bắc,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy,Chính quyền địa phương,Lâm Đồng
+Nguyễn Thanh Sang,Trần Hoàng Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Vũ,Nguyễn Thúc Phước Hải,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Vũ,Nguyễn Trường Sa,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Vũ,Nguyễn Vũ Linh Sang,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485","UBND tỉnh, UBND tỉnh Lâm Đồng",Khối Chính quyền địa phương,Lâm Đồng
+Nguyễn Thanh Vũ,Phạm Thành Bắc,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Vũ,Trần Hoàng Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thúc Phước Hải,Nguyễn Trường Sa,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485","Đảng ủy, Đảng ủy xã Liên Hương",Chính quyền địa phương,Lâm Đồng
+Nguyễn Thúc Phước Hải,Nguyễn Vũ Linh Sang,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy,Chính quyền địa phương,Lâm Đồng
+Nguyễn Thúc Phước Hải,Phạm Thành Bắc,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy,Chính quyền địa phương,Lâm Đồng
+Nguyễn Thúc Phước Hải,Trần Hoàng Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Trường Sa,Nguyễn Vũ Linh Sang,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy,Chính quyền địa phương,Lâm Đồng
+Nguyễn Trường Sa,Phạm Thành Bắc,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485","Đảng ủy, Đảng ủy xã Tuy Phong",Chính quyền địa phương,Lâm Đồng
+Nguyễn Trường Sa,Trần Hoàng Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Vũ Linh Sang,Phạm Thành Bắc,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy,Chính quyền địa phương,Lâm Đồng
+Nguyễn Vũ Linh Sang,Trần Hoàng Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",Đảng ủy xã Tà Năng,,Lâm Đồng
+Phạm Thành Bắc,Trần Hoàng Vũ,6,"56472455, 56471752, 56471427, 56470959, 56470508, 56469485",,,Lâm Đồng
+Hoàng Trung Dũng,Trần Quốc Bình,6,"56471785, 56471913, 56471425, 56471329, 56470921, 56470325",Ban Chấp hành Trung ương Đảng,,
 Lương Tam Quang,Đỗ Văn Chiến,5,"56435858, 56435507, 51930051, 52990388, 52461287","Ban Bí thư Trung ương Đảng, Bộ Chính trị, Bộ Công an, Quốc hội","Khối Quốc hội, Khối Đảng Trung ương, Ngành Công an",Hà Nội
 Lê Tiến Châu,Nguyễn Văn Thắng,5,"56342175, 56260500, 56236559, 56287739, 56286433",Chính phủ,Khối Chính phủ,
 Lê Minh Hưng,Phạm Thị Thanh Trà,5,"56304112, 56306294, 56260500, 56236559, 56358173","Ban Bí thư Trung ương Đảng, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
+Nguyễn Văn Thắng,Phạm Thị Thanh Trà,5,"56260500, 56236559, 56287739, 56452047, 56395658",Chính phủ,Khối Chính phủ,
+Hoàng Thanh Tùng,Trần Thanh Mẫn,5,"56421838, 56421750, 56422006, 56337243, 56465679",Ban Chấp hành Trung ương Đảng,,
+Nguyễn Hồng Diên,Nguyễn Thanh Hải,5,"56389292, 56344830, 56345426, 56343741, 56346037",Quốc hội,Khối Quốc hội,
 Hà Minh Hải,Nguyễn Duy Ngọc,5,"56431280, 56429139, 56330906, 56431155, 56431812","Ban Chấp hành Trung ương Đảng, Ban Tổ chức Trung ương",Ban Tổ chức Trung ương,
 Nguyễn Duy Ngọc,Đỗ Văn Chiến,5,"56394714, 56394207, 52990388, 52461287, 51387532","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Ban Tổ chức Trung ương, Bộ Chính trị","Ban Tổ chức Trung ương, Khối Đảng Trung ương",
 Nguyễn Mạnh Cường,Nguyễn Đình Chuẩn,5,"56383782, 56384742, 56385164, 56385125, 56390297",,,TP.HCM
@@ -102,8 +152,9 @@ Lê Hoài Trung,Phạm Gia Túc,5,"56209520, 56449819, 56449623, 56450814, 56450
 Cao Bảo Ngọc,Lê Mai Tú,5,"56408719, 56406764, 56418700, 56419027, 56440159",,,
 Cao Bảo Ngọc,Trần Quốc Lộc,5,"56408719, 56406764, 56418700, 56419027, 56440159",,,
 Hoàng Kim,Đỗ Thế Năng,5,"56410013, 56418700, 56407337, 56440159, 56439667",,,
-Lương Hoàng Thái,Tô Lâm,5,"56433730, 56454664, 56455217, 56454398, 56456115",,,
+Lương Hoàng Thái,Tô Lâm,5,"56433730, 56454664, 56455217, 56454398, 56456115",Bộ Công Thương,Ngành Công Thương,
 Nguyễn Duy Ngọc,Phạm Tất Thắng,5,"56450821, 56450080, 56449362, 56453649, 51387532",Ban Chấp hành Trung ương Đảng,,
+Nguyễn Minh Vũ,Tô Lâm,5,"56451202, 56450976, 56450191, 56449882, 56471236",Ban Chấp hành Trung ương Đảng,,
 Hoàng Đạo Cương,Trần Thế Thuận,5,"56449856, 56446345, 56445626, 56446913, 56445797",,,
 Nguyễn Phi Long,Nguyễn Văn Được,5,"56447549, 56445950, 56445132, 56444564, 56444996",Ban Chấp hành Trung ương Đảng,,
 Nguyễn Phi Long,Đặng Thị Ngọc Thịnh,5,"56447549, 56447573, 56445132, 56444564, 56444996",Ban Chấp hành Trung ương Đảng,,
@@ -112,18 +163,34 @@ Nguyễn Văn Được,Phạm Gia Túc,5,"56447549, 56445950, 56445132, 56444564
 Nguyễn Đình Khang,Đặng Thị Ngọc Thịnh,5,"56447549, 56447573, 56445132, 56444564, 56444996",Ban Chấp hành Trung ương Đảng,,
 Phạm Gia Túc,Trần Văn Thuấn,5,"56440939, 56440357, 56440863, 56441222, 56440985",Chính phủ,Khối Chính phủ,
 Nguyễn Tường Văn,Trần Quốc Thái,5,"56445647, 56448829, 56449098, 56446558, 56446988",Bộ Xây dựng,Ngành Xây dựng,
+Lê Trường Sơn,Tôn Ngọc Hạnh,5,"56402085, 56476170, 56475554, 56475303, 56475173","HĐND thành phố Đồng Nai, Thành ủy Đồng Nai","Khối HĐND địa phương, Khối Đảng Thành ủy",Đồng Nai
 Nguyễn Ngọc Tú,Nguyễn Xuân Lưu,5,"56445702, 56440301, 56440675, 56443067, 56453079",,,Hà Nội
 Bùi Thị Minh Hoài,Trương Tấn Sang,5,"56452280, 56452398, 56453118, 56452393, 56453429",Bộ Chính trị,Khối Đảng Trung ương,
 Phùng Thị Hồng Hà,Vũ Đại Thắng,5,"56431221, 56425463, 56451440, 56429769, 56428593",Thành ủy Hà Nội,Khối Đảng Thành ủy,Hà Nội
 Nguyễn Thanh Tùng,Trương Việt Dũng,5,"56428694, 56278768, 56428593, 56430200, 56428757",,,Hà Nội
 Bùi Thị Minh Hoài,Nguyễn Đình Khang,5,"56452398, 56453118, 56452393, 56453429, 56454972",Ban Chấp hành Trung ương Đảng,,
 Nguyễn Đình Khang,Trần Thanh Mẫn,5,"56452398, 56453118, 56452393, 56453429, 56454972","Ban Chấp hành Trung ương Đảng, Bộ Dân tộc và Tôn giáo",Ngành Dân tộc và Tôn giáo,
+Lê Hải Hòa,Phan Thăng An,5,"56437198, 56469905, 56466631, 56465483, 56465519","Ban Chấp hành Trung ương Đảng, Tỉnh ủy, Tỉnh ủy Cao Bằng",Khối Đảng Tỉnh ủy,Cao Bằng
 Phan Đăng Sơn,Phạm Thị Thanh Hường,5,"56449465, 56450527, 56449285, 56450305, 56450001",,,
+Lê Văn Tú,Nguyễn Sinh Nhật Tân,5,"56475815, 56470819, 56470475, 56469955, 56469597",,,
+Dương Văn Phúc,Trương Đặng Vĩnh Phúc,5,"56475627, 56474890, 56474767, 56474470, 56473951","Sở Tài chính, Tỉnh ủy, Tỉnh ủy Vĩnh Long, Tỉnh ủy Vĩnh Phúc, UBND tỉnh, UBND tỉnh Vĩnh Long","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy, Sở Tài chính",Vĩnh Long
+Huỳnh Ngọc Thanh,Nguyễn Hữu Khánh,5,"56472455, 56471752, 56471427, 56470959, 56469485",,,Lâm Đồng
+Lê Hồng Lợi,Nguyễn Hữu Khánh,5,"56472455, 56471752, 56471427, 56470959, 56469485",,,Lâm Đồng
+Nguyễn Hữu Khánh,Nguyễn Thanh Long,5,"56472455, 56471752, 56471427, 56470959, 56469485",,,Lâm Đồng
+Nguyễn Hữu Khánh,Nguyễn Thanh Sang,5,"56472455, 56471752, 56471427, 56470959, 56469485",,,Lâm Đồng
+Nguyễn Hữu Khánh,Nguyễn Thanh Vũ,5,"56472455, 56471752, 56471427, 56470959, 56469485",,,Lâm Đồng
+Nguyễn Hữu Khánh,Nguyễn Thúc Phước Hải,5,"56472455, 56471752, 56471427, 56470959, 56469485",,,Lâm Đồng
+Nguyễn Hữu Khánh,Nguyễn Trường Sa,5,"56472455, 56471752, 56471427, 56470959, 56469485",,,Lâm Đồng
+Nguyễn Hữu Khánh,Nguyễn Vũ Linh Sang,5,"56472455, 56471752, 56471427, 56470959, 56469485",,,Lâm Đồng
+Nguyễn Hữu Khánh,Phạm Thành Bắc,5,"56472455, 56471752, 56471427, 56470959, 56469485",,,Lâm Đồng
+Nguyễn Hữu Khánh,Trần Hoàng Vũ,5,"56472455, 56471752, 56471427, 56470959, 56469485",,,Lâm Đồng
+Phạm Thị Phúc,Y Thanh Hà Niê Kđăm,5,"56469485, 56464211, 56463302, 56462680, 56462449",Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
 Nguyễn Hồng Ky,Trần Thị Phương Hoa,4,"56436808, 56437180, 56435905, 56438541",,,Hà Nội
 Nguyễn Thị Thu Hà,Trần Cẩm Tú,4,"56437237, 56432407, 56439281, 51387532",,,
 Hồ Quốc Dũng,Lê Minh Hưng,4,"56436535, 56274309, 56260500, 56236559","Ban Chấp hành Trung ương Đảng, Bộ Nông nghiệp và Môi trường, Chính phủ","Khối Chính phủ, Ngành Nông nghiệp và Môi trường",
 Lương Cường,Tô Lâm,4,"56436535, 56249727, 56238516, 51561218",Nhà nước CHXHCN Việt Nam,Khối Đảng Trung ương,
 Bùi Thị Minh Hoài,Trần Lưu Quang,4,"56436311, 56437134, 56439326, 56435988","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Bộ Chính trị, Thành ủy TP.HCM","Khối Quốc hội, Khối Đảng Thành ủy, Khối Đảng Trung ương",TP.HCM
+La Công Phương,Trịnh Xuân Trường,4,"56436153, 56470631, 56470013, 56470057",Ban Chấp hành Trung ương Đảng,,
 Phan Văn Giang,Trịnh Xuân Trường,4,"56436153, 56394714, 56394207, 56439126",,,
 Lê Thị Hường,Nguyễn Sỹ Cảnh,4,"56436066, 56446213, 56445688, 56438809",,,Lai Châu
 Lê Hoài Trung,Lê Minh Hưng,4,"56432338, 51561218, 52990388, 52461287","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Bộ Chính trị, Đảng ủy",Khối Đảng Trung ương,
@@ -132,19 +199,21 @@ Lê Quang Tự Do,Vũ Thu Hà,4,"56436505, 56439393, 56437703, 56441388","Bộ V
 Hồ Quốc Dũng,Nguyễn Trường Thắng,4,"56383634, 56388363, 56384996, 56385059",Ban Chấp hành Trung ương Đảng,,
 Hồ Quốc Dũng,Thái Đại Ngọc,4,"56383634, 56239645, 56240198, 56388363",Ban Chấp hành Trung ương Đảng,,
 Hồ Quốc Dũng,Lê Tiến Châu,4,"56342175, 56260500, 56236559, 56286433","Ban Chấp hành Trung ương Đảng, Chính phủ",Khối Chính phủ,
-Nguyễn Văn Thắng,Phạm Thị Thanh Trà,4,"56260500, 56236559, 56287739, 56452047",Chính phủ,Khối Chính phủ,
+Nguyễn Văn Thắng,Phạm Gia Túc,4,"56342175, 56287739, 56452047, 56395658",Chính phủ,Khối Chính phủ,
+Hồ Quốc Dũng,Phạm Thị Thanh Trà,4,"56260500, 56236559, 56452047, 56395658",Chính phủ,Khối Chính phủ,
 Phạm Gia Túc,Phạm Thế Tùng,4,"56233883, 56389292, 56314258, 56209520",,,
-Hoàng Thanh Tùng,Trần Thanh Mẫn,4,"56421838, 56421750, 56422006, 56337243",Ban Chấp hành Trung ương Đảng,,
 Lê Mạnh Hùng,Nguyễn Hồng Diên,4,"56423008, 56421947, 56372684, 56423309",Quốc hội,Khối Quốc hội,
-Nguyễn Hồng Diên,Nguyễn Thanh Hải,4,"56389292, 56344830, 56345426, 56343741",Quốc hội,Khối Quốc hội,
 Hoàng Thanh Tùng,Nguyễn Hồng Diên,4,"56421524, 56421750, 56422006, 56337243",,,
 Nguyễn Thị Hồng,Ngô Văn Tuấn,4,"56371157, 56372337, 56446209, 56456551",,,
+Lê Tấn Tới,Trần Thanh Mẫn,4,"56353282, 56354135, 56298485, 56353470","Ban Chấp hành Trung ương Đảng, Quốc hội",,
 Nguyễn Hồng Diên,Nguyễn Đắc Vinh,4,"56345426, 56313075, 56456551, 56454307",Quốc hội,Khối Quốc hội,
 Nguyễn Thị Thanh,Nguyễn Đắc Vinh,4,"56345426, 56322432, 56318413, 56317582","Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
+Nguyễn Khắc Định,Nguyễn Thanh Hải,4,"56343741, 56298485, 56293944, 56346037",Quốc hội,Khối Quốc hội,
 Nguyễn Huy Tiến,Nguyễn Thanh Hải,4,"56298485, 56447534, 56457617, 56457521",Viện kiểm sát nhân dân tối cao,Ngành Kiểm sát,
 Nguyễn Thị Hồng,Phan Văn Mãi,4,"56293941, 56293944, 56456551, 56454307",Quốc hội,,
 Nguyễn Duy Ngọc,Phan Văn Giang,4,"56394714, 56394207, 51839928, 52461287",Bộ Chính trị,Khối Đảng Trung ương,
 Phan Văn Giang,Đỗ Văn Chiến,4,"56394714, 56394207, 51930051, 52461287","Bộ Chính trị, Bộ Quốc phòng","Khối Đảng Trung ương, Ngành Quốc phòng",
+Trần Sỹ Thanh,Tô Lâm,4,"56394714, 56394207, 56300752, 56430566",Ban Chấp hành Trung ương Đảng,"Khối Đảng Trung ương, Ngành Quốc phòng",
 Lê Minh Hưng,Đỗ Văn Chiến,4,"56293944, 51930051, 52990388, 52461287","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Ban Tổ chức Trung ương, Bộ Chính trị, Quốc hội, Đảng ủy","Ban Tổ chức Trung ương, Khối Quốc hội, Khối Đảng Trung ương",
 Nguyễn Bá Lực,Phùng Thị Phú,4,"56437835, 56440097, 56448262, 56439956",,,
 Lương Tam Quang,Phan Văn Giang,4,"56300752, 51930051, 51839928, 52461287","Bộ Chính trị, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
@@ -153,7 +222,7 @@ Nguyễn Trọng Nghĩa,Trịnh Văn Quyết,4,"56299140, 56394447, 56395827, 56
 Nguyễn Trọng Nghĩa,Phan Văn Giang,4,"56413148, 56277705, 51930051, 51839928","Bộ Chính trị, Bộ Quốc phòng, Quân ủy Trung ương","Khối Đảng Trung ương, Ngành Quốc phòng",
 Phạm Thế Tùng,Trần Minh Tiến,4,"56411064, 56412929, 56445063, 56447144","Bộ Công an, Đảng ủy Công an Trung ương",Ngành Công an,
 Nguyễn Duy Nghiệp,Nguyễn Xuân Tốt,4,"56399976, 56402145, 56399998, 56400002",,,
-Nguyễn Trọng Đông,Vũ Đại Thắng,4,"56392816, 56425463, 56425002, 56369599",Thành ủy Hà Nội,Khối Đảng Thành ủy,Hà Nội
+Nguyễn Trọng Đông,Vũ Đại Thắng,4,"56392816, 56425463, 56425002, 56369599","Ban Chấp hành Trung ương Đảng, Thành ủy Hà Nội",Khối Đảng Thành ủy,Hà Nội
 Lê Mai Tú,Đỗ Thế Năng,4,"56418700, 56407337, 56440159, 56439667",,,
 Mai Thị Kim,Đỗ Thế Năng,4,"56418700, 56407337, 56440159, 56439667",,,
 Nguyễn Văn Công,Đỗ Thế Năng,4,"56418700, 56407337, 56440159, 56439667",,,
@@ -168,12 +237,17 @@ Nguyễn Duy Ngọc,Trần Đăng Quỳnh,4,"56450821, 56450080, 56449362, 56453
 Phạm Tất Thắng,Trần Huy Tuấn,4,"56450821, 56450080, 56449362, 56453649",Ban Chấp hành Trung ương Đảng,,
 Phạm Tất Thắng,Trần Đăng Quỳnh,4,"56450821, 56450080, 56449362, 56453649",Ban Chấp hành Trung ương Đảng,,
 Trần Huy Tuấn,Trần Đăng Quỳnh,4,"56450821, 56450080, 56449362, 56453649","Ban Chấp hành Trung ương Đảng, Tỉnh ủy Ninh Bình",Khối Đảng Tỉnh ủy,Ninh Bình
-Nguyễn Minh Vũ,Tô Lâm,4,"56451202, 56450976, 56450191, 56449882",Ban Chấp hành Trung ương Đảng,,
+Nguyễn Huy Tiến,Nguyễn Quang Chung,4,"56451137, 56449458, 56447534, 56453952",Viện kiểm sát nhân dân tối cao,Ngành Kiểm sát,
+Nguyễn Huy Tiến,Nguyễn Thanh Phong,4,"56451137, 56449458, 56447534, 56453952","Ban Chấp hành Trung ương Đảng, Nhà nước CHXHCN Việt Nam, Viện kiểm sát nhân dân tối cao, Đảng ủy",Ngành Kiểm sát,
+Nguyễn Quang Chung,Nguyễn Thanh Phong,4,"56451137, 56449458, 56447534, 56453952","Viện kiểm sát nhân dân, Viện kiểm sát nhân dân tối cao",Ngành Kiểm sát,
+Dương Đình Chỉnh,Lê Thị Hoài Chung,4,"56449522, 56455490, 56472175, 56462473",,,Nghệ An
 Phạm Thị Thanh Trà,Phạm Văn Nhất,4,"56448154, 56445480, 56445850, 56444642",Chính phủ,Khối Chính phủ,
 Nguyễn Văn Được,Đặng Thị Ngọc Thịnh,4,"56447549, 56445132, 56444564, 56444996",Ban Chấp hành Trung ương Đảng,,
+Nguyễn Văn Út,Tôn Ngọc Hạnh,4,"56446645, 56402085, 56444479, 56475554",Thành ủy Đồng Nai,Khối Đảng Thành ủy,Đồng Nai
 Nguyễn Việt Hùng,Trần Hòa Nam,4,"56437909, 56442085, 56440028, 56456856","Tỉnh ủy Khánh Hòa, UBND tỉnh Khánh Hòa","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Khánh Hòa
 Nguyễn Ngọc Tuấn,Trần Quốc Thái,4,"56445647, 56448829, 56449098, 56446558",,,
 Lê Minh Hưng,Phan Văn Giang,4,"56230137, 51561218, 51930051, 52461287","Bộ Chính trị, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
+Nguyễn Phú Trọng,Tô Lâm,4,"56452280, 56236891, 56444521, 56471236","Ban Chấp hành Trung ương Đảng, Nhà nước CHXHCN Việt Nam",Khối Đảng Trung ương,
 Lương Tam Quang,Nguyễn Tiến Đạt,4,"56240901, 56241477, 56241428, 56242166",Công an TP Hà Nội,Ngành Công an,Hà Nội
 Nguyễn Tiến Đạt,Tô Lâm,4,"56240901, 56241477, 56241428, 56242166",,,
 Hoàng Văn Lộc,Nguyễn Minh Tuấn,4,"56362235, 56360522, 56331578, 56331612",,,Phú Thọ
@@ -188,9 +262,30 @@ Nghiêm Văn Định,Nguyễn Bá Hoan,4,"56445951, 56444602, 56447533, 56445401
 Nghiêm Văn Định,Nguyễn Lâm Sơn,4,"56445951, 56444602, 56447533, 56445401",,,
 Nguyễn Bá Hoan,Tống Hải Nam,4,"56444602, 56445754, 56445401, 56434374",,,
 Thái Đại Ngọc,Tô Lâm,4,"51839928, 56454664, 56455217, 56454398",Ban Chấp hành Trung ương Đảng,Ngành Quốc phòng,
+Lê Thị Hoài Chung,Lê Văn Giáp,4,"56455490, 56472175, 56470262, 56462473",Đảng ủy,,Nghệ An
+Hoàng Thanh Tùng,Tô Lâm,4,"56454196, 56465679, 56465422, 56454586",Ban Chấp hành Trung ương Đảng,,
+Lê Tiến Châu,Tô Lâm,4,"56476133, 56475304, 56464785, 56465422","Ban Chấp hành Trung ương Đảng, Chính phủ",Khối Chính phủ,
+Lê Văn Tú,Trần Xuân Lương,4,"56475815, 56472971, 56470475, 56469597",,Ngành Quốc phòng,
+Lê Quang Tùng,Tống Phước Trường,4,"56472455, 56471428, 56470750, 56470272",Tỉnh ủy An Giang,Khối Đảng Tỉnh ủy,An Giang
+Hoàng Trung Dũng,Phạm Quang Ngọc,4,"56471785, 56471329, 56470921, 56470325",Ban Chấp hành Trung ương Đảng,,
+Phạm Quang Ngọc,Trần Quốc Bình,4,"56471785, 56471329, 56470921, 56470325","Ban Chấp hành Trung ương Đảng, Tỉnh ủy Hưng Yên, Đảng ủy",Khối Đảng Tỉnh ủy,Hưng Yên
+Huỳnh Ngọc Thanh,Trần Mậu Dũng,4,"56471752, 56471427, 56470508, 56469485",,,Lâm Đồng
+Lê Hồng Lợi,Trần Mậu Dũng,4,"56471752, 56471427, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Long,Trần Mậu Dũng,4,"56471752, 56471427, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Sang,Trần Mậu Dũng,4,"56471752, 56471427, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thanh Vũ,Trần Mậu Dũng,4,"56471752, 56471427, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Thúc Phước Hải,Trần Mậu Dũng,4,"56471752, 56471427, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Trường Sa,Trần Mậu Dũng,4,"56471752, 56471427, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Vũ Linh Sang,Trần Mậu Dũng,4,"56471752, 56471427, 56470508, 56469485",,,Lâm Đồng
+Phạm Thành Bắc,Trần Mậu Dũng,4,"56471752, 56471427, 56470508, 56469485",,,Lâm Đồng
+Trần Hoàng Vũ,Trần Mậu Dũng,4,"56471752, 56471427, 56470508, 56469485",,,Lâm Đồng
+Nguyễn Văn Quảng,Phạm Thị Phúc,4,"56464211, 56463302, 56462680, 56462449",,,Lâm Đồng
+Nguyễn Văn Quảng,Y Thanh Hà Niê Kđăm,4,"56464211, 56463302, 56462680, 56462449",Ban Chấp hành Trung ương Đảng,,Lâm Đồng
 Lê Xuân Bình,Nguyễn Văn Gấu,3,"56437121, 56436256, 56444756",,Ngành Quốc phòng,
 Lê Xuân Bình,Trần Chí Tâm,3,"56437121, 56436256, 56444756","Ban Thường vụ Đảng ủy, Quân khu 7, Đảng ủy",Ngành Quốc phòng,
 Lê Xuân Bình,Trần Vinh Ngọc,3,"56437121, 56436256, 56444756","Quân khu 7, Đảng ủy",Ngành Quốc phòng,
+Hồ Quốc Dũng,Trần Thanh Mẫn,3,"56436535, 56403571, 56466821",Ban Chấp hành Trung ương Đảng,,
+Lê Minh Hưng,Lương Cường,3,"56436535, 51561218, 56474659",Bộ Chính trị,Khối Đảng Trung ương,
 Lê Minh Dưỡng,Nguyễn Trọng Đông,3,"56436062, 56435583, 56437287",,,Hà Nội
 Nguyễn Thái Nhàn,Nguyễn Trọng Đông,3,"56436062, 56435583, 56437287",Thành ủy Hà Nội,,Hà Nội
 Nguyễn Trọng Đông,Nguyễn Đình Phương,3,"56436062, 56435583, 56437287",,,Hà Nội
@@ -203,12 +298,12 @@ Lê Hoài Trung,Trần Thanh Mẫn,3,"56432338, 51561218, 51387532","Ban Chấp 
 Lê Quang Tự Do,Nguyễn Huy Dũng,3,"56436505, 56441388, 56436876","Bộ Văn hóa, Thể thao và Du lịch","Ngành Văn hóa, Thể thao và Du lịch",
 Bùi Thế Duy,Lê Tiến Châu,3,"56421458, 56423375, 56421247",,,
 Nguyễn Văn Thắng,Phạm Thanh Hà,3,"56390213, 56262739, 56260802",,,
-Nguyễn Văn Thắng,Phạm Gia Túc,3,"56342175, 56287739, 56452047",Chính phủ,Khối Chính phủ,
+Phạm Gia Túc,Trần Thanh Mẫn,3,"56349647, 56389292, 56464662",Bộ Chính trị,"Khối Quốc hội, Khối Đảng Trung ương",
+Hồ Quốc Dũng,Phạm Gia Túc,3,"56342175, 56452047, 56395658",Chính phủ,Khối Chính phủ,
 Phạm Thị Thanh Trà,Trần Cẩm Tú,3,"56320358, 56244723, 56237810","Ban Bí thư Trung ương Đảng, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
 Lê Minh Hưng,Phan Thị Thắng,3,"56304112, 56262739, 56260802",,,
 Nguyễn Lộc Hà,Phạm Thế Tùng,3,"56262739, 56260802, 56209520",,,
 Cao Xuân Thạo,Phạm Thị Thanh Trà,3,"56260500, 56358173, 56250221",,,
-Hồ Quốc Dũng,Phạm Thị Thanh Trà,3,"56260500, 56236559, 56452047",Chính phủ,Khối Chính phủ,
 Lê Minh Hưng,Đặng Xuân Phong,3,"56260500, 56261511, 52461287",Ban Chấp hành Trung ương Đảng,Khối Quốc hội,
 Lê Tiến Châu,Phạm Thị Thanh Trà,3,"56260500, 56236559, 56287739",Chính phủ,Khối Chính phủ,
 Nguyễn Ngọc Cảnh,Nguyễn Thị Hằng,3,"56260500, 56259480, 56258660",,,
@@ -216,12 +311,12 @@ Lương Tam Quang,Phạm Thế Tùng,3,"56233883, 56389292, 56411593","Bộ Côn
 Nguyễn Danh Huy,Phạm Gia Túc,3,"56233883, 56434607, 56454453",,,
 Phạm Thế Tùng,Trần Thanh Mẫn,3,"56414216, 56389292, 56414359",Ban Chấp hành Trung ương Đảng,,
 Lê Mạnh Hùng,Trần Thanh Mẫn,3,"56423008, 56421947, 56372684",Quốc hội,Khối Quốc hội,
+Nguyễn Hồng Diên,Nguyễn Khắc Định,3,"56423008, 56343741, 56346037",Quốc hội,Khối Quốc hội,
 Nguyễn Hồng Diên,Tô Lâm,3,"56389292, 56450493, 56449691",,,
 Nguyễn Hồng Diên,Phan Văn Mãi,3,"56414660, 56456551, 56454307",Quốc hội,,
 Phan Văn Mãi,Trần Thanh Mẫn,3,"56414660, 56293941, 56293944",Quốc hội,,
-Lê Tấn Tới,Trần Thanh Mẫn,3,"56353282, 56354135, 56298485","Ban Chấp hành Trung ương Đảng, Quốc hội",,
+Lê Tấn Tới,Tô Lâm,3,"56353282, 56469375, 56353470",Ban Chấp hành Trung ương Đảng,,
 Nguyễn Đắc Vinh,Trần Thanh Mẫn,3,"56345426, 56322432, 56313075","Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
-Nguyễn Khắc Định,Nguyễn Thanh Hải,3,"56343741, 56298485, 56293944",Quốc hội,Khối Quốc hội,
 Bùi Duy Cường,Vũ Đại Thắng,3,"56314314, 56412190, 56267544","UBND thành phố, UBND thành phố Hà Nội",Khối Chính quyền địa phương,Hà Nội
 Nguyễn Ngọc Thư,Trần Sỹ Thanh,3,"56376848, 56403910, 56375836",,,
 Nguyễn Ngọc Thư,Trịnh Trường Huy,3,"56376848, 56403910, 56375836",,,
@@ -230,7 +325,7 @@ Lê Minh Trí,Phan Văn Giang,3,"56394714, 56394207, 56300752","Bộ Chính tr�
 Lê Minh Trí,Trần Sỹ Thanh,3,"56394714, 56394207, 56300752","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Bộ Chính trị, Bộ Quốc phòng","Khối Đảng Trung ương, Ngành Quốc phòng",
 Lê Minh Trí,Tô Lâm,3,"56394714, 56394207, 56300752",Ban Chấp hành Trung ương Đảng,"Khối Đảng Trung ương, Ngành Quốc phòng",
 Phan Văn Giang,Trần Sỹ Thanh,3,"56394714, 56394207, 56300752","Bộ Chính trị, Bộ Quốc phòng","Khối Đảng Trung ương, Ngành Quốc phòng",
-Trần Sỹ Thanh,Tô Lâm,3,"56394714, 56394207, 56300752",Ban Chấp hành Trung ương Đảng,"Khối Đảng Trung ương, Ngành Quốc phòng",
+Bùi Thị Minh Hoài,Đỗ Văn Chiến,3,"56293944, 51930051, 56465681","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Ban Tổ chức Trung ương, Bộ Chính trị, Thành ủy Hà Nội, Đảng ủy, Đảng ủy Mặt trận Tổ quốc, các đoàn thể Trung ương, Ủy ban Trung ương MTTQ Việt Nam","Ban Tổ chức Trung ương, Khối Mặt trận - Đoàn thể, Khối Quốc hội, Khối Đảng Thành ủy, Khối Đảng Trung ương",Hà Nội
 Nguyễn Thị Loan,Trịnh Việt Hùng,3,"56396906, 56414884, 56397518",Bộ Nông nghiệp và Môi trường,Ngành Nông nghiệp và Môi trường,
 Nguyễn Trường Thắng,Phan Văn Giang,3,"56392900, 56450234, 56448594","Bộ Quốc phòng, Quân ủy Trung ương",Ngành Quốc phòng,
 Lê Hoài Trung,Lương Tam Quang,3,"56300752, 52990388, 52461287","Ban Bí thư Trung ương Đảng, Bộ Chính trị",Khối Đảng Trung ương,
@@ -240,6 +335,7 @@ Trịnh Việt Hùng,Tô Lâm,3,"56300752, 56236956, 56233128",Ban Chấp hành 
 Bùi Thị Minh Hoài,Nguyễn Trọng Nghĩa,3,"56299140, 51930051, 56299144","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Bộ Chính trị",Khối Đảng Trung ương,
 Nguyễn Duy Ngọc,Trần Cẩm Tú,3,"56299140, 56299144, 51387532","Ban Bí thư Trung ương Đảng, Bộ Chính trị",Khối Đảng Trung ương,
 Nguyễn Trọng Nghĩa,Trần Cẩm Tú,3,"56299140, 56299144, 51387532","Ban Bí thư Trung ương Đảng, Bộ Chính trị",Khối Đảng Trung ương,
+Lương Tam Quang,Vũ Đại Thắng,3,"56418081, 56240901, 56420538",,,Hà Nội
 Nguyễn Thúy Quỳnh,Phạm Thế Tùng,3,"56412929, 56445063, 56447144",Đảng ủy Công an Trung ương,Ngành Công an,
 Nguyễn Thúy Quỳnh,Trần Minh Tiến,3,"56412929, 56445063, 56447144",Đảng ủy Công an Trung ương,Ngành Công an,
 Hồ Quốc Dũng,Trịnh Việt Hùng,3,"56363326, 56360931, 56362454","Ban Chấp hành Trung ương Đảng, Bộ Nông nghiệp và Môi trường",Ngành Nông nghiệp và Môi trường,
@@ -247,15 +343,13 @@ Nguyễn Duy Nghiệp,Ngô Tiến Cương,3,"56399976, 56402145, 56400002",,,
 Nguyễn Xuân Tốt,Ngô Tiến Cương,3,"56399976, 56402145, 56400002",,,
 Lê Minh Hưng,Trần Lưu Quang,3,"56389094, 56261511, 52990388","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Bộ Chính trị","Khối Quốc hội, Khối Đảng Trung ương",
 Lê Hoài Trung,Nguyễn Trọng Nghĩa,3,"56394447, 56395827, 51387532","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Bộ Chính trị",Khối Đảng Trung ương,
+Phạm Gia Túc,Phạm Thị Thanh Trà,3,"56287739, 56452047, 56395658","Ban Bí thư Trung ương Đảng, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
 Cao Bảo Ngọc,Trương Đình Hải,3,"56408719, 56406764, 56419027",,,
 Hoàng Kim,Trương Đình Hải,3,"56408719, 56406764, 56419027",,,
 Lê Mai Tú,Trương Đình Hải,3,"56408719, 56406764, 56419027",,,
 Mai Thị Kim,Trương Đình Hải,3,"56408719, 56406764, 56419027",,,
 Nguyễn Văn Công,Trương Đình Hải,3,"56408719, 56406764, 56419027",,,
 Trương Đình Hải,Trần Quốc Lộc,3,"56408719, 56406764, 56419027",,,
-Nguyễn Huy Tiến,Nguyễn Quang Chung,3,"56451137, 56449458, 56447534",Viện kiểm sát nhân dân tối cao,Ngành Kiểm sát,
-Nguyễn Huy Tiến,Nguyễn Thanh Phong,3,"56451137, 56449458, 56447534","Ban Chấp hành Trung ương Đảng, Nhà nước CHXHCN Việt Nam, Viện kiểm sát nhân dân tối cao, Đảng ủy",Ngành Kiểm sát,
-Nguyễn Quang Chung,Nguyễn Thanh Phong,3,"56451137, 56449458, 56447534",Viện kiểm sát nhân dân tối cao,Ngành Kiểm sát,
 Hoàng Trung Dũng,Lê Quốc Chỉnh,3,"56450080, 56449362, 56453649",,,
 Hoàng Trung Dũng,Nguyễn Thanh Bình,3,"56450080, 56449362, 56453649",,,
 Hoàng Trung Dũng,Đinh Thị Lụa,3,"56450080, 56449362, 56453649",,,
@@ -278,7 +372,6 @@ Thái Đại Ngọc,Trần Thanh Hải,3,"56449065, 56454664, 56454129",,Ngành 
 Nguyễn Thị Hồng,Nguyễn Thị Thanh,3,"56440661, 56440334, 56441332","Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
 Nguyễn Thị Thanh,Tô Lâm,3,"56440661, 56440334, 56441332",Ban Chấp hành Trung ương Đảng,,
 Phạm Thị Thanh Trà,Tô Lâm,3,"56452047, 56237810, 56439326",Chính phủ,"Khối Chính phủ, Khối Đảng Trung ương",
-Nguyễn Văn Út,Tôn Ngọc Hạnh,3,"56446645, 56402085, 56444479",Thành ủy Đồng Nai,Khối Đảng Thành ủy,Đồng Nai
 Nguyễn Hữu Hợp,Nguyễn Thanh Trung,3,"56445646, 56447333, 56454610",,,
 Nguyễn Hữu Hợp,Nguyễn Thị Xuân Tiên,3,"56445646, 56447333, 56454610",Công an TP Đà Nẵng,Ngành Công an,Đà Nẵng
 Nguyễn Hữu Hợp,Trần Đình Thanh,3,"56445646, 56447333, 56454610",,,
@@ -290,11 +383,11 @@ Nguyễn Thị Xuân Tiên,Trần Đình Thanh,3,"56445646, 56447333, 56454610",
 Nguyễn Thị Xuân Tiên,Đỗ Hùng Cường,3,"56445646, 56447333, 56454610",,,
 Trần Đình Thanh,Đỗ Hùng Cường,3,"56445646, 56447333, 56454610",,,
 Bùi Duy Cường,Nguyễn Minh Tấn,3,"56451906, 56407795, 56283003",,,Hà Nội
+Phạm Ngọc Cảnh,Trần Minh Ngọc,3,"56440930, 56440065, 56470010",,,Nghệ An
 Dương Văn Lượng,Tạ Quang Đông,3,"56450839, 56450766, 56450833",,,
 Bùi Hoài Sơn,Nguyễn Thu Thủy,3,"56450565, 56449113, 56445731",,,
 Nguyễn Việt Oanh,Trần Huy Phương,3,"56440243, 56439043, 56457597",Thành ủy Bắc Ninh,Khối Đảng Thành ủy,Bắc Ninh
 Bùi Thị Minh Hoài,Phan Văn Giang,3,"56452280, 51561218, 51930051","Bộ Chính trị, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
-Nguyễn Phú Trọng,Tô Lâm,3,"56452280, 56236891, 56444521","Ban Chấp hành Trung ương Đảng, Nhà nước CHXHCN Việt Nam",Khối Đảng Trung ương,
 Lê Hải Hòa,Nguyễn Thế Mạnh,3,"56440694, 56439230, 56440958",Tỉnh ủy,"Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",
 Phạm Duy Hùng,Trịnh Xuân Trường,3,"56408717, 56409368, 56409837",,,Thái Nguyên
 Phạm Văn Thọ,Trịnh Xuân Trường,3,"56408717, 56409368, 56409837",Tỉnh ủy Thái Nguyên,Khối Đảng Tỉnh ủy,Thái Nguyên
@@ -315,9 +408,9 @@ Lâm Văn Mẫn,Trần Thanh Mẫn,3,"56452398, 56453118, 56452393","Ban Chấp 
 Lê Quang Mạnh,Nguyễn Phước Lộc,3,"56452398, 56453118, 56452393",Ban Chấp hành Trung ương Đảng,,TP.HCM
 Lê Quang Mạnh,Nguyễn Đình Khang,3,"56452398, 56453118, 56452393",Ban Chấp hành Trung ương Đảng,,
 Lê Quang Mạnh,Trương Tấn Sang,3,"56452398, 56453118, 56452393",,,
-Phạm Quang Ngọc,Tô Lâm,3,"56236956, 56390424, 56233128",Ban Chấp hành Trung ương Đảng,,
-Hồ Văn Mười,Nguyễn Bá Út,3,"56449803, 56445542, 56384712",UBND tỉnh Lâm Đồng,Khối Chính quyền địa phương,Lâm Đồng
-Hồ Văn Mười,Nguyễn Hồng Hải,3,"56449803, 56445542, 56427996",UBND tỉnh Lâm Đồng,Khối Chính quyền địa phương,Lâm Đồng
+Phạm Quang Ngọc,Tô Lâm,3,"56236956, 56390424, 56233128","Ban Chấp hành Trung ương Đảng, UBND tỉnh Hưng Yên",Khối Chính quyền địa phương,Hưng Yên
+Hồ Văn Mười,Nguyễn Bá Út,3,"56449803, 56445542, 56384712","Tỉnh ủy Lâm Đồng, UBND tỉnh Lâm Đồng","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Lâm Đồng
+Hồ Văn Mười,Nguyễn Hồng Hải,3,"56449803, 56445542, 56427996","Tỉnh ủy Lâm Đồng, UBND tỉnh Lâm Đồng","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Lâm Đồng
 Phan Văn Thắng,Đinh Văn Dũng,3,"56450508, 56448586, 56313288","Tỉnh ủy, Tỉnh ủy Đồng Tháp, Ủy ban MTTQ Việt Nam tỉnh Đồng Tháp, Ủy ban MTTQ Việt Nam địa phương","Khối Mặt trận - Đoàn thể, Khối Đảng Tỉnh ủy",Đồng Tháp
 Lê Quang Tùng,Đinh Văn Nơi,3,"56412315, 56404769, 56405028",Tỉnh ủy An Giang,Khối Đảng Tỉnh ủy,An Giang
 Nguyễn Tấn Dũng,Trần Minh Khoa,3,"56445355, 56449792, 56447336",,,
@@ -325,23 +418,40 @@ Trần Minh Khoa,Đinh Văn Nơi,3,"56445355, 56404769, 56449792",,,An Giang
 Hồ Văn Mừng,Nguyễn Tất Đạt,3,"56442487, 56447433, 56442884",,,
 Hồ Văn Mừng,Trần Thanh Mẫn,3,"56442487, 56447433, 56348283",Ban Chấp hành Trung ương Đảng,,
 Nguyễn Hồ Hải,Nguyễn Minh Luân,3,"56404722, 56407582, 56393306",Tỉnh ủy Cà Mau,Khối Đảng Tỉnh ủy,Cà Mau
-Nguyễn Huy Tiến,Đặng Văn Dũng,3,"56453229, 56457617, 56457521",Ban Chấp hành Trung ương Đảng,,Cà Mau
+Huỳnh Quốc Việt,Đặng Văn Dũng,3,"56314695, 56314736, 56467219",Tỉnh ủy Cà Mau,Khối Đảng Tỉnh ủy,Cà Mau
+Nguyễn Huy Tiến,Đặng Văn Dũng,3,"56453229, 56457617, 56457521","Ban Chấp hành Trung ương Đảng, Đảng ủy",,Cà Mau
 Dương Mạnh Hùng,Nguyễn Thế Hiệp,3,"56449755, 56445527, 56444767",,,Hà Nội
 Lê Văn Thái,Trần Thế Thuận,3,"56440487, 56440209, 56441313","Sở VHTT TP TP.HCM, Sở Văn hóa và Thể thao TP.HCM","Sở VHTT TP, Sở Văn hóa và Thể thao",TP.HCM
 Nguyễn Trọng Nghĩa,Tô Lâm,3,"51930051, 51839928, 51387532","Ban Chấp hành Trung ương Đảng, Nhà nước CHXHCN Việt Nam, Quân ủy Trung ương","Khối Đảng Trung ương, Ngành Quốc phòng",
 Lương Tam Quang,Nguyễn Duy Ngọc,3,"51839928, 52990388, 52461287","Ban Bí thư Trung ương Đảng, Bộ Chính trị",Khối Đảng Trung ương,
 Lê Hoài Trung,Nguyễn Duy Ngọc,3,"52990388, 52461287, 51387532","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Bộ Chính trị, Văn phòng Trung ương Đảng","Khối Đảng Trung ương, Văn phòng Trung ương Đảng",
 Lê Hoài Trung,Đỗ Văn Chiến,3,"52990388, 52461287, 51387532","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Bộ Chính trị, Đảng ủy",Khối Đảng Trung ương,
+Dương Đình Chỉnh,Lê Văn Giáp,3,"56455490, 56472175, 56462473",Tỉnh ủy Nghệ An,,Nghệ An
+Lưu Nhất Phong,Phạm Gia Túc,3,"56455726, 56456374, 56472773",,,
 Cao Xuân Thạo,Nguyễn Huy Tiến,3,"56457617, 56454366, 56454481",,,
+Nguyễn Hồ Hải,Đặng Văn Dũng,3,"56457521, 56471069, 56467219","Ban Chấp hành Trung ương Đảng, Tỉnh ủy Cà Mau",Khối Đảng Tỉnh ủy,Cà Mau
+Lê Trường Sơn,Trần Trọng Toàn,3,"56476328, 56476170, 56475554",,,Đồng Nai
+Nguyễn Sinh Nhật Tân,Trần Xuân Lương,3,"56475815, 56470475, 56469597",,,
+Dương Văn Phúc,Nguyễn Thị Ngọc Giàu,3,"56475627, 56474890, 56474470","Sở Xây dựng, UBND tỉnh, UBND tỉnh Vĩnh Long","Khối Chính quyền địa phương, Sở Tài chính, Sở Xây dựng",Vĩnh Long
+Nguyễn Minh Dũng,Trương Đặng Vĩnh Phúc,3,"56475627, 56475492, 56473951",Tỉnh ủy Vĩnh Long,Khối Đảng Tỉnh ủy,Vĩnh Long
+Nguyễn Thị Ngọc Giàu,Trương Đặng Vĩnh Phúc,3,"56475627, 56474890, 56474470","Sở Tài chính Vĩnh Long, UBND tỉnh, UBND tỉnh Vĩnh Long","Khối Chính quyền địa phương, Sở Tài chính",Vĩnh Long
+Nguyễn Văn Út,Trần Trọng Toàn,3,"56475554, 56467989, 56466958",,,Đồng Nai
+Lê Thị Hoài Chung,Đỗ Quang Thái,3,"56472175, 56470262, 56462473",,,
+Lê Văn Giáp,Đỗ Quang Thái,3,"56472175, 56470262, 56462473",,,
+Ngô Văn Tuấn,Tô Lâm,3,"56472124, 56468158, 56467204",,Khối Chính quyền địa phương,
+Nguyễn Hữu Khánh,Trần Mậu Dũng,3,"56471752, 56471427, 56469485",,,Lâm Đồng
+Nguyễn Tấn Dũng,Vũ Trọng Lâm,3,"56470897, 56470437, 56469869",,,
+La Công Phương,Trần Xuân Mạnh,3,"56470631, 56470013, 56470057","Quân khu, Quân khu 1",Ngành Quốc phòng,
+Trần Xuân Mạnh,Trịnh Xuân Trường,3,"56470631, 56470013, 56470057",,,
+Lê Hải Hòa,Vũ Hồng Quang,3,"56466631, 56465483, 56465519","Tỉnh ủy, Tỉnh ủy Cao Bằng",Khối Đảng Tỉnh ủy,Cao Bằng
+Phan Thăng An,Vũ Hồng Quang,3,"56466631, 56465483, 56465519","Tỉnh ủy, Tỉnh ủy Cao Bằng",Khối Đảng Tỉnh ủy,Cao Bằng
 Hoàng Trung Dũng,Nguyễn Thị Thu Hà,2,"56437237, 56439281",Ban Chấp hành Trung ương Đảng,,
 Hoàng Trung Dũng,Trần Cẩm Tú,2,"56437237, 56439281",,,
-Hồ Quốc Dũng,Trần Thanh Mẫn,2,"56436535, 56403571",Ban Chấp hành Trung ương Đảng,,
 Hồ Quốc Dũng,Tô Lâm,2,"56436535, 56452047","Ban Chấp hành Trung ương Đảng, Chính phủ",Khối Chính phủ,
-Lê Minh Hưng,Lương Cường,2,"56436535, 51561218",Bộ Chính trị,Khối Đảng Trung ương,
 Lương Cường,Trần Thanh Mẫn,2,"56436535, 51561218","Bộ Chính trị, Nhà nước CHXHCN Việt Nam",Khối Đảng Trung ương,
 Nguyễn Huy Tiến,Trần Thanh Mẫn,2,"56436535, 56298485","Ban Chấp hành Trung ương Đảng, Nhà nước CHXHCN Việt Nam, Đảng ủy",,
 Nguyễn Tấn Dũng,Trần Thanh Mẫn,2,"56436535, 56298029",Bộ Chính trị,Khối Đảng Trung ương,
-Phan Văn Giang,Trương Thiên Tô,2,"56436153, 51839928",Bộ Quốc phòng,,
+Phan Văn Giang,Trương Thiên Tô,2,"56436153, 51839928",Bộ Quốc phòng,Ngành Quốc phòng,
 Lê Quang Mạnh,Lương Tam Quang,2,"56435177, 56442435",Quốc hội,Khối Quốc hội,
 Huỳnh Thanh Nhân,Nguyễn Mạnh Cường,2,"56436086, 56438028",Thành ủy TP.HCM,Khối Đảng Thành ủy,TP.HCM
 Huỳnh Thanh Nhân,Nguyễn Phước Lộc,2,"56436086, 56438028",Thành ủy TP.HCM,Khối Đảng Thành ủy,TP.HCM
@@ -350,6 +460,7 @@ Nguyễn Mạnh Cường,Nguyễn Phước Lộc,2,"56436086, 56438028","Ban Ch�
 Nguyễn Mạnh Cường,Nguyễn Thị Ngọc Xuân,2,"56436086, 56438028",Thành ủy TP.HCM,Khối Đảng Thành ủy,TP.HCM
 Nguyễn Phước Lộc,Nguyễn Thị Ngọc Xuân,2,"56436086, 56438028","Thành ủy TP.HCM, Ủy ban MTTQ Việt Nam thành phố TP.HCM","Khối Mặt trận - Đoàn thể, Khối Đảng Thành ủy",TP.HCM
 Nguyễn Mạnh Cường,Võ Văn Thật,2,"56434849, 56451205",UBND thành phố TP.HCM,Khối Chính quyền địa phương,TP.HCM
+Phùng Thị Hồng Hà,Vũ Đăng Định,2,"56432875, 56430566",Thành ủy Hà Nội,Khối Đảng Thành ủy,Hà Nội
 Hoàng Quốc Thưởng,Lê Xuân Trường,2,"56432627, 56451205","Thành ủy, Thành ủy Hải Phòng",,Hải Phòng
 Hoàng Quốc Thưởng,Nguyễn Quang Phúc,2,"56432627, 56451205","Ban Tuyên giáo Thành ủy Hải Phòng, Thành ủy Hải Phòng","Ban Tuyên giáo Thành ủy Hải Phòng, Khối Đảng Thành ủy",Hải Phòng
 Hoàng Quốc Thưởng,Trần Văn Sơn,2,"56432627, 56451205","Thành ủy, Thành ủy Hải Phòng",,Hải Phòng
@@ -363,8 +474,6 @@ Lê Minh Hưng,Nguyễn Văn Được,2,"56376053, 56261511",Ban Chấp hành Tr
 Bùi Hoàng Phương,Lê Tiến Châu,2,"56322563, 56322488",Ban Chấp hành Trung ương Đảng,,
 Bùi Thế Duy,Hồ Quốc Dũng,2,"56348812, 56350445",,,
 Lê Quang Tùng,Phạm Gia Túc,2,"56349647, 56331449",,Khối Quốc hội,
-Phạm Gia Túc,Trần Thanh Mẫn,2,"56349647, 56389292",Bộ Chính trị,"Khối Quốc hội, Khối Đảng Trung ương",
-Hồ Quốc Dũng,Phạm Gia Túc,2,"56342175, 56452047",Chính phủ,Khối Chính phủ,
 Lê Tiến Châu,Phạm Gia Túc,2,"56342175, 56287739",Chính phủ,Khối Chính phủ,
 Hồ Văn Mừng,Phạm Gia Túc,2,"56331449, 56209520",,,
 Hồ Quốc Dũng,Phạm Trường Sơn,2,"56328352, 56327556",,,
@@ -566,7 +675,6 @@ Nguyễn Thị Hằng,Phạm Gia Túc,2,"56259480, 56258660",,,
 Hồ Quốc Dũng,Trần Thanh Vân,2,"56239645, 56240198",Chính phủ,Khối Chính phủ,
 Thái Đại Ngọc,Trần Thanh Vân,2,"56239645, 56240198",,,
 Lương Tam Quang,Phạm Gia Túc,2,"56233883, 56389292","Ban Bí thư Trung ương Đảng, Bộ Chính trị, Chính phủ","Khối Chính phủ, Khối Quốc hội, Khối Đảng Trung ương",
-Nguyễn Hồng Diên,Nguyễn Khắc Định,2,"56423008, 56343741",Quốc hội,Khối Quốc hội,
 Lương Tam Quang,Nguyễn Hồng Diên,2,"56389292, 56411593",Quốc hội,Khối Quốc hội,
 Nguyễn Hồng Diên,Phạm Thế Tùng,2,"56389292, 56411593",,,
 Nguyễn Thanh Hải,Tô Lâm,2,"56389292, 56293944",,,
@@ -598,9 +706,9 @@ Nguyễn Thanh Nghị,Đỗ Văn Chiến,2,"56394714, 56394207","Ban Bí thư Tr
 Trần Sỹ Thanh,Trịnh Xuân Trường,2,"56394714, 56394207",Ban Chấp hành Trung ương Đảng,,
 Trần Sỹ Thanh,Đỗ Văn Chiến,2,"56394714, 56394207","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Bộ Chính trị, Bộ Quốc phòng","Khối Đảng Trung ương, Ngành Quốc phòng",
 Trịnh Xuân Trường,Tô Lâm,2,"56394714, 56394207",Ban Chấp hành Trung ương Đảng,,
-Trịnh Xuân Trường,Đỗ Văn Chiến,2,"56394714, 56394207",Ban Chấp hành Trung ương Đảng,,
+Trịnh Xuân Trường,Đỗ Văn Chiến,2,"56394714, 56394207",Ban Chấp hành Trung ương Đảng,Khối Quốc hội,
+Trần Văn Khải,Tô Lâm,2,"56433900, 56471236",,,
 Nguyễn Hữu Nghĩa,Nguyễn Thị Hồng,2,"56361593, 56293944",,Khối Quốc hội,
-Bùi Thị Minh Hoài,Đỗ Văn Chiến,2,"56293944, 51930051","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Ban Tổ chức Trung ương, Bộ Chính trị, Thành ủy Hà Nội, Đảng ủy, Đảng ủy Mặt trận Tổ quốc, các đoàn thể Trung ương, Ủy ban Trung ương MTTQ Việt Nam","Ban Tổ chức Trung ương, Khối Mặt trận - Đoàn thể, Khối Quốc hội, Khối Đảng Thành ủy, Khối Đảng Trung ương",Hà Nội
 Lê Minh Hưng,Nguyễn Thị Hồng,2,"56293944, 56440661","Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
 Nguyễn Khắc Định,Phan Văn Mãi,2,"56293944, 56334643",Quốc hội,,
 Nguyễn Khắc Định,Trần Cẩm Tú,2,"56293944, 51387532",,,
@@ -628,6 +736,7 @@ Nguyễn Quang Ngọc,Nguyễn Tân Cương,2,"56390761, 56394896","Ban Chấp h
 Nguyễn Mạnh Cường,Nguyễn Ngọc Vũ Vương,2,"56383782, 56385164",,,
 Nguyễn Ngọc Vũ Vương,Nguyễn Đình Chuẩn,2,"56383782, 56385164",,,
 Lê Mạnh Hùng,Phan Văn Mãi,2,"56312383, 56312390",Quốc hội,,
+Phạm Gia Túc,Đinh Hữu Học,2,"56304113, 56471912",,,
 Lê Hoài Trung,Nguyễn Thị Hồng,2,"56300752, 56456551",Ban Chấp hành Trung ương Đảng,,
 Lê Hoài Trung,Trần Hồng Minh,2,"56300752, 56456551",,,
 Lương Tam Quang,Trần Lưu Quang,2,"56300752, 52990388","Ban Bí thư Trung ương Đảng, Bộ Chính trị","Khối Quốc hội, Khối Đảng Trung ương",
@@ -652,7 +761,7 @@ Bùi Yên Tĩnh,Nguyễn Đình Chuẩn,2,"56383036, 56385125",,Ngành Quốc ph
 Lương Cường,Nguyễn Trọng Nghĩa,2,"56342943, 56344329","Bộ Chính trị, Nhà nước CHXHCN Việt Nam",Khối Đảng Trung ương,
 Lê Văn Phước,Nguyễn Việt Thắng,2,"56329612, 56229168",,,
 Nguyễn Quốc Toản,Đặng Xuân Phong,2,"56429265, 56427848",,,
-Lương Tam Quang,Vũ Đại Thắng,2,"56418081, 56240901",,,Hà Nội
+Lương Tam Quang,Nguyễn Thanh Tùng,2,"56418081, 56420538",Công an TP Hà Nội,Ngành Công an,Hà Nội
 Lê Minh Hưng,Mai Hoàng,2,"56434771, 56388939",,,
 Lê Minh Hưng,Đặng Minh Thông,2,"56434771, 56388939",,,
 Mai Hoàng,Đặng Minh Thông,2,"56434771, 56388939",Thành ủy TP.HCM,Khối Đảng Thành ủy,TP.HCM
@@ -663,13 +772,15 @@ Bùi Duy Hưng,Phạm Văn Thịnh,2,"56394290, 56440322",Thành ủy Bắc Ninh
 Hồ Quốc Dũng,Đặng Ngọc Điệp,2,"56360931, 56362454",Bộ Nông nghiệp và Môi trường,Ngành Nông nghiệp và Môi trường,
 Trịnh Việt Hùng,Đặng Ngọc Điệp,2,"56360931, 56362454",Bộ Nông nghiệp và Môi trường,Ngành Nông nghiệp và Môi trường,
 Lê Hoài Trung,Trịnh Văn Quyết,2,"56394447, 56395827","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Bộ Chính trị",Khối Đảng Trung ương,
-Nguyễn Trọng Nghĩa,Trương Thiên Tô,2,"56394447, 51839928","Ban Chấp hành Trung ương Đảng, Bộ Quốc phòng, Tổng cục Chính trị, Tổng cục Chính trị Quân đội nhân dân Việt Nam, Tổng cục Chính trị QĐND Việt Nam","Tổng cục Chính trị, Tổng cục Chính trị Quân đội nhân dân Việt Nam, Tổng cục Chính trị QĐND Việt Nam",
+Nguyễn Trọng Nghĩa,Trương Thiên Tô,2,"56394447, 51839928","Ban Chấp hành Trung ương Đảng, Bộ Quốc phòng, Tổng cục Chính trị, Tổng cục Chính trị Quân đội nhân dân Việt Nam, Tổng cục Chính trị QĐND Việt Nam","Ngành Quốc phòng, Tổng cục Chính trị, Tổng cục Chính trị Quân đội nhân dân Việt Nam, Tổng cục Chính trị QĐND Việt Nam",
 Lê Văn Lương,Trần Tiến Dũng,2,"56357856, 56251045",Tỉnh ủy Điện Biên,Khối Đảng Tỉnh ủy,Điện Biên
 Lê Hoài Trung,Phan Xuân Thủy,2,"56209520, 51387532",Ban Chấp hành Trung ương Đảng,,
 Lương Hoàng Thái,Nguyễn Lộc Hà,2,"56209520, 56223693",,,
 Nguyễn Duy Ngọc,Nguyễn Văn Quảng,2,"56330906, 51839928","Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng",Khối Đảng Trung ương,
 Hoàng Thanh Tùng,Phan Văn Mãi,2,"56326963, 56326335",,,
-Phạm Gia Túc,Phạm Thị Thanh Trà,2,"56287739, 56452047","Ban Bí thư Trung ương Đảng, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
+Nguyễn Văn Thắng,Phan Văn Giang,2,"56287739, 56395658",Chính phủ,Khối Chính phủ,
+Phan Văn Giang,Phạm Gia Túc,2,"56287739, 56395658","Bộ Chính trị, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
+Phan Văn Giang,Phạm Thị Thanh Trà,2,"56287739, 56395658",Chính phủ,"Khối Chính phủ, Khối Đảng Trung ương",
 Bùi Thị Minh Hoài,Nguyễn Khánh Ngọc,2,"56215961, 56215047",Đảng ủy,,
 Trần Thanh Hải,Trần Tiến Dũng,2,"56436882, 56454664",,,
 Nguyễn Việt Quang,Vũ Thị Chân Phương,2,"56405204, 56398584",,,
@@ -699,11 +810,14 @@ Lê Ngọc Hải,Lê Ngọc Quang,2,"56449456, 56448894",Ban Chấp hành Trung 
 Lê Ngọc Hải,Lương Đình Chung,2,"56449456, 56448894",Quân khu,Ngành Quốc phòng,
 Lê Ngọc Quang,Lương Đình Chung,2,"56449456, 56448894",,,
 Trần Vũ Khiêm,Võ Tiến Nghị,2,"56449472, 56441504",,,
-Dương Đình Chỉnh,Lê Thị Hoài Chung,2,"56449522, 56455490",,,Nghệ An
+Trần Huy Tuấn,Đinh Việt Dũng,2,"56449362, 56470432","Tỉnh ủy, Tỉnh ủy Ninh Bình",Khối Đảng Tỉnh ủy,Ninh Bình
 Hoàng Nghĩa Hiếu,Võ Thị Minh Sinh,2,"56449172, 56453565",Tỉnh ủy Nghệ An,"Khối HĐND địa phương, Khối Đảng Tỉnh ủy",Nghệ An
+Nguyễn Chí Tài,Nguyễn Đình Trung,2,"56448817, 56462139",Thành ủy Huế,Khối Đảng Thành ủy,Huế
+Hoàng Quốc Khánh,Trần Quân,2,"56448808, 56469941","Ban Chấp hành Trung ương Đảng, Tỉnh ủy, Tỉnh ủy Lạng Sơn",Khối Đảng Tỉnh ủy,Lạng Sơn
 Nguyễn Khắc Hiếu,Phan Thị Thắng,2,"56447964, 56446804",,,
 Nguyễn Hồng Sơn,Tô Lâm,2,"56447235, 51387532",Ban Chấp hành Trung ương Đảng,,
 Lê Hoài Trung,Ngô Phương Nghị,2,"56440601, 56440751",Bộ Ngoại giao,Ngành Ngoại giao,
+Ngô Phương Nghị,Tô Lâm,2,"56440601, 56468973",,,
 Bùi Huy Vĩnh,Bùi Thị Minh,2,"56445513, 56445514",Tỉnh ủy,Khối Đảng Tỉnh ủy,Phú Thọ
 Bùi Huy Vĩnh,Bùi Văn Quang,2,"56445513, 56445514","Tỉnh ủy, Tỉnh ủy Phú Thọ",Khối Đảng Tỉnh ủy,Phú Thọ
 Bùi Huy Vĩnh,Nguyễn Mạnh Sơn,2,"56445513, 56445514",Tỉnh ủy,Khối Đảng Tỉnh ủy,
@@ -715,6 +829,7 @@ Bùi Thị Minh,Trần Duy Đông,2,"56445513, 56445514",Tỉnh ủy,Khối Đ�
 Bùi Văn Quang,Nguyễn Mạnh Sơn,2,"56445513, 56445514",Tỉnh ủy,Khối Đảng Tỉnh ủy,
 Bùi Văn Quang,Trần Duy Đông,2,"56445513, 56445514",Tỉnh ủy,Khối Đảng Tỉnh ủy,Phú Thọ
 Nguyễn Mạnh Sơn,Trần Duy Đông,2,"56445513, 56445514",Tỉnh ủy,Khối Đảng Tỉnh ủy,
+Nguyễn Hữu Định,Nguyễn Văn Út,2,"56446645, 56466958",,,Đồng Nai
 Nguyễn Văn Út,Vũ Hồng Văn,2,"56446645, 56444479",Thành ủy Đồng Nai,Khối Đảng Thành ủy,Đồng Nai
 Tôn Ngọc Hạnh,Vũ Hồng Văn,2,"56446645, 56444479","Ban Chấp hành Trung ương Đảng, Thành ủy Đồng Nai",Khối Đảng Thành ủy,Đồng Nai
 Mai Hoàng,Nguyễn Thành Hưng,2,"56444737, 56327513",Công an TP TP.HCM,Ngành Công an,TP.HCM
@@ -729,12 +844,11 @@ Lê Hoàng Châu,Nguyễn Văn Đính,2,"56447921, 56451985",,,
 Lê Trọng Yên,Nguyễn Minh Tấn,2,"56407795, 56434345",,,
 Nguyễn Bá Hảo,Phạm Ngọc Cảnh,2,"56440930, 56440065",,,Nghệ An
 Nguyễn Bá Hảo,Trần Minh Ngọc,2,"56440930, 56440065",,,Nghệ An
-Phạm Ngọc Cảnh,Trần Minh Ngọc,2,"56440930, 56440065",,,Nghệ An
 Nguyễn Lê Huy,Nguyễn Mạnh Quyền,2,"56401113, 56437457",UBND tỉnh Hưng Yên,Khối Chính quyền địa phương,Hưng Yên
-Lâm Thị Phương Thanh,Tô Lâm,2,"56237810, 51561218",Ban Chấp hành Trung ương Đảng,,
-Tô Lâm,Vũ Đại Thắng,2,"56237810, 56240901",,,
+Tô Lâm,Vũ Đại Thắng,2,"56237810, 56240901",Ban Chấp hành Trung ương Đảng,Khối Chính quyền địa phương,
 Nguyễn Thanh Nhàn,Ngô Chí Cường,2,"56412074, 56262417",Tỉnh ủy Đồng Tháp,Khối Đảng Tỉnh ủy,Đồng Tháp
 Nguyễn Thanh Nhàn,Vũ Hải Quân,2,"56412074, 56413528",,,
+Lê Trường Sơn,Nguyễn Văn Út,2,"56402085, 56475554","Thành ủy Đồng Nai, UBND thành phố Đồng Nai","Khối Chính quyền địa phương, Khối Đảng Thành ủy",Đồng Nai
 Nguyễn Đình Khang,Nông Thị Hà,2,"56439389, 56436621",,,
 Nguyễn Đình Khang,Vũ Chiến Thắng,2,"56444564, 56452398",,,
 Bùi Thị Minh Hoài,Sơn Cang,2,"56439326, 56435988",,,
@@ -759,6 +873,7 @@ Nguyễn Việt Oanh,Thân Trung Kiên,2,"56440243, 56439043",Thành ủy Bắc 
 Phạm Hoàng Sơn,Thân Trung Kiên,2,"56440243, 56439043",Thành ủy Bắc Ninh,Khối Đảng Thành ủy,Bắc Ninh
 Phạm Hoàng Sơn,Trần Huy Phương,2,"56440243, 56439043",Thành ủy Bắc Ninh,Khối Đảng Thành ủy,Bắc Ninh
 Thân Trung Kiên,Trần Huy Phương,2,"56440243, 56439043",Thành ủy Bắc Ninh,Khối Đảng Thành ủy,Bắc Ninh
+Nguyễn Trọng Đông,Phùng Thị Hồng Hà,2,"56425463, 56430566",Thành ủy Hà Nội,Khối Đảng Thành ủy,Hà Nội
 Cù Ngọc Trang,Vũ Thu Hà,2,"56434554, 56446176",,,Hà Nội
 Nguyễn Mạnh Dũng,Vũ Thu Hà,2,"56434554, 56436183",,,Hà Nội
 Tạ Văn Tường,Vũ Đại Thắng,2,"56313549, 56267544",,,Hà Nội
@@ -773,9 +888,18 @@ Nguyễn Bá Thanh,Nguyễn Mạnh Hùng,2,"56428368, 56428001",UBND thành ph�
 Nguyễn Bá Thanh,Phan Văn Khải,2,"56428368, 56428001",,,
 Nguyễn Mạnh Hùng,Phan Văn Khải,2,"56428368, 56428001",,,
 Lê Minh Cường,Đỗ Thanh Bình,2,"56399585, 56401097",,,Cần Thơ
+Dương Quốc Huy,Hoàng Giang,2,"56440049, 56470465",Tỉnh ủy Lào Cai,Khối Đảng Tỉnh ủy,Lào Cai
+Dương Quốc Huy,Nguyễn Thế Phước,2,"56440049, 56470465",Tỉnh ủy Lào Cai,Khối Đảng Tỉnh ủy,Lào Cai
+Hoàng Giang,Nguyễn Thế Phước,2,"56440049, 56470465",Tỉnh ủy Lào Cai,Khối Đảng Tỉnh ủy,Lào Cai
+Lâm Văn Mẫn,Đỗ Văn Chiến,2,"56251045, 56468660","Ban Chấp hành Trung ương Đảng, Quốc hội",,
 Nguyễn Phi Long,Đỗ Văn Chiến,2,"56251045, 52461287","Ban Chấp hành Trung ương Đảng, Đảng ủy, Ủy ban Trung ương MTTQ Việt Nam",Khối Mặt trận - Đoàn thể,
 Cao Sơn Dũng,Huỳnh Duy Khôi,2,"56401683, 56384712",,,Lâm Đồng
 Hà Thị Khiết,Hầu A Lềnh,2,"56351142, 56279088","Ban Chấp hành Trung ương Đảng, Tỉnh ủy Tuyên Quang",Khối Đảng Tỉnh ủy,Tuyên Quang
+Dương Văn Tiến,Hà Minh Hải,2,"56439967, 56470158",,,
+Dương Văn Tiến,Trịnh Xuân Trường,2,"56439967, 56473173",Tỉnh ủy Thái Nguyên,,Thái Nguyên
+Nguyễn Thế Mạnh,Đinh Quang Tuyên,2,"56394472, 56470631","Tỉnh ủy, Tỉnh ủy Thái Nguyên",Khối Đảng Tỉnh ủy,Thái Nguyên
+Nguyễn Thế Mạnh,Trịnh Xuân Trường,2,"56348915, 56470631",Tỉnh ủy Thái Nguyên,Khối Đảng Tỉnh ủy,Thái Nguyên
+Phạm Gia Túc,Vũ Đại Thắng,2,"56270398, 56471280",,,
 Hoàng Văn Lộc,Kim Hoàng Văn Lộc,2,"56331578, 56331612",,,Phú Thọ
 Hoàng Văn Lộc,Đinh Thanh Tùng,2,"56331578, 56331612",,,Phú Thọ
 Kim Hoàng Văn Lộc,Nguyễn Minh Tuấn,2,"56331578, 56331612",,Chính quyền địa phương,Phú Thọ
@@ -807,6 +931,7 @@ Phạm Bảo Sơn,Đinh Việt Hòa,2,"56423368, 56429377",,,
 Mai Khanh,Nguyễn Minh Tiến,2,"56437565, 56441432","Ban Nội chính Tỉnh ủy Ninh Bình, Tỉnh ủy Ninh Bình","Ban Nội chính Tỉnh ủy Ninh Bình, Khối Đảng Tỉnh ủy",Ninh Bình
 Mai Khanh,Phạm Thị Thu Thủy,2,"56437565, 56441432",,,
 Nguyễn Minh Tiến,Phạm Thị Thu Thủy,2,"56437565, 56441432",,,
+Phạm Thị Thu Hằng,Đinh Việt Dũng,2,"56437045, 56470432","Tỉnh ủy, Tỉnh ủy Ninh Bình",Khối Đảng Tỉnh ủy,Ninh Bình
 Nguyễn Ny Hương,Phan Thiên Định,2,"56432710, 56437939",,,Hà Tĩnh
 Hoàng Ngọc Đan,Lê Văn Sơn,2,"56274630, 56273629",,Chính quyền địa phương,Quảng Trị
 Hoàng Ngọc Đan,Lê Vĩnh Phú,2,"56274630, 56273629",,Chính quyền địa phương,Quảng Trị
@@ -1002,7 +1127,7 @@ Lữ Thanh Hải,Nguyễn Việt Hùng,2,"56442085, 56440028",Tỉnh ủy Khánh
 Lữ Thanh Hải,Trần Hòa Nam,2,"56442085, 56440028",Tỉnh ủy Khánh Hòa,Khối Đảng Tỉnh ủy,Khánh Hòa
 Nguyễn Thành Phú,Nguyễn Việt Hùng,2,"56442085, 56456856",,,Khánh Hòa
 Nguyễn Thành Phú,Trần Hòa Nam,2,"56442085, 56456856",,,Khánh Hòa
-Hồ Văn Mười,Nguyễn Minh,2,"56449803, 56445542",UBND tỉnh Lâm Đồng,Khối Chính quyền địa phương,Lâm Đồng
+Hồ Văn Mười,Nguyễn Minh,2,"56449803, 56445542","Tỉnh ủy Lâm Đồng, UBND tỉnh Lâm Đồng","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Lâm Đồng
 Hồ Văn Mười,Nguyễn Ngọc Phúc,2,"56449803, 56445542",UBND tỉnh Lâm Đồng,Khối Chính quyền địa phương,Lâm Đồng
 Hồ Văn Mười,Võ Ngọc Hiệp,2,"56449803, 56445542",UBND tỉnh Lâm Đồng,Khối Chính quyền địa phương,Lâm Đồng
 Hồ Văn Mười,Đinh Văn Tuấn,2,"56449803, 56445542",UBND tỉnh Lâm Đồng,Khối Chính quyền địa phương,Lâm Đồng
@@ -1021,6 +1146,8 @@ Nguyễn Minh,Đinh Văn Tuấn,2,"56449803, 56445542",UBND tỉnh Lâm Đồng,
 Nguyễn Ngọc Phúc,Võ Ngọc Hiệp,2,"56449803, 56445542",UBND tỉnh Lâm Đồng,Khối Chính quyền địa phương,Lâm Đồng
 Nguyễn Ngọc Phúc,Đinh Văn Tuấn,2,"56449803, 56445542",UBND tỉnh Lâm Đồng,Khối Chính quyền địa phương,Lâm Đồng
 Võ Ngọc Hiệp,Đinh Văn Tuấn,2,"56449803, 56445542",UBND tỉnh Lâm Đồng,Khối Chính quyền địa phương,Lâm Đồng
+Bùi Thắng,Y Thanh Hà Niê Kđăm,2,"56453839, 56469485",Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Hồ Văn Mười,Đặng Hồng Sỹ,2,"56384712, 56469485",Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
 Lê Minh Hưng,Nguyễn Bá Út,2,"56414355, 56413886",Đảng ủy,,
 Huỳnh Thị Hồng Nhung,Phạm Tấn Hòa,2,"56446467, 56334848",,,Tây Ninh
 Nguyễn Phước Thiện,Phan Văn Thắng,2,"56450508, 56448586","Tỉnh ủy, Tỉnh ủy Đồng Tháp",Khối Đảng Tỉnh ủy,Đồng Tháp
@@ -1028,9 +1155,9 @@ Nguyễn Phước Thiện,Đinh Văn Dũng,2,"56450508, 56448586","Tỉnh ủy, 
 Nguyễn Tấn Dũng,Đinh Văn Nơi,2,"56445355, 56449792",,,
 Nguyễn Tất Đạt,Trần Thanh Mẫn,2,"56442487, 56447433",,,
 Trần Trí Quang,Vũ Hải Quân,2,"56407942, 56418398",,,
-Nguyễn Hồ Hải,Vũ Hải Quân,2,"56404722, 56407582",,,
+Nguyễn Hồ Hải,Vũ Hải Quân,2,"56404722, 56407582",Ban Chấp hành Trung ương Đảng,,
 Nguyễn Minh Luân,Vũ Hải Quân,2,"56404722, 56407582",,,
-Huỳnh Quốc Việt,Đặng Văn Dũng,2,"56314695, 56314736",Tỉnh ủy Cà Mau,Khối Đảng Tỉnh ủy,Cà Mau
+Lữ Quang Ngời,Nguyễn Hồ Hải,2,"56410622, 56467219",,,Cà Mau
 Bùi Thị Duyên,Ngô Đình Loát,2,"56450226, 56440335",,,Hà Nội
 Nguyễn Thị Hiền Thanh,Trần Thế Thuận,2,"56445174, 56438610",,,
 Nguyễn Ngọc Tuấn,Phạm Gia Túc,2,"56449361, 56447797",,,
@@ -1061,6 +1188,9 @@ Trần Lưu Quang,Đỗ Văn Chiến,2,"52990388, 51387532","Ban Bí thư Trung 
 Chu Tiến Đạt,Nguyễn Thị Hiền Thanh,2,"56438610, 56443584",,,
 Chu Tiến Đạt,Đinh Thị Thanh Thủy,2,"56438610, 56443584",,,
 Nguyễn Thị Hiền Thanh,Đinh Thị Thanh Thủy,2,"56438610, 56443584",,,
+Hoàng Quốc Khánh,Nguyễn Cảnh Toàn,2,"56454276, 56469941","Tỉnh ủy, Tỉnh ủy Lạng Sơn",Khối Đảng Tỉnh ủy,Lạng Sơn
+Nguyễn Thị Thu Hà,Trần Thanh Mẫn,2,"51387532, 56471279","Ban Chấp hành Trung ương Đảng, Đảng ủy, Ủy ban Trung ương MTTQ Việt Nam","Khối Mặt trận - Đoàn thể, Khối Quốc hội",
+Lê Thành Đô,Lê Văn Lương,2,"56455006, 56467071",Tỉnh ủy Điện Biên,Khối Đảng Tỉnh ủy,Điện Biên
 Nguyễn Hồng Diên,Nguyễn Thị Hồng,2,"56456551, 56454307",Quốc hội,Khối Quốc hội,
 Nguyễn Thị Hồng,Nguyễn Đắc Vinh,2,"56456551, 56454307","Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
 Nguyễn Đắc Vinh,Phan Văn Mãi,2,"56456551, 56454307",Quốc hội,,
@@ -1074,7 +1204,6 @@ Phạm Hồng Hiệp,Trần Hữu Linh,2,"56336111, 56337720",,,
 Nguyễn Hữu Quế,Thái Đại Ngọc,2,"56454453, 56454129",Tỉnh ủy Gia Lai,Khối Đảng Tỉnh ủy,Gia Lai
 Nguyễn Hữu Quế,Trương Văn Đạt,2,"56454453, 56454129",Tỉnh ủy Gia Lai,Khối Đảng Tỉnh ủy,Gia Lai
 Thái Đại Ngọc,Trương Văn Đạt,2,"56454453, 56454129",Tỉnh ủy Gia Lai,Khối Đảng Tỉnh ủy,Gia Lai
-Lưu Nhất Phong,Phạm Gia Túc,2,"56455726, 56456374",,,
 Bùi Đăng Ninh,Phạm Tấn Hòa,2,"56338971, 56378264",,,Tây Ninh
 Bùi Việt Cường,Nguyễn Huy Tiến,2,"56457617, 56457521",Viện kiểm sát nhân dân tối cao,Ngành Kiểm sát,
 Bùi Việt Cường,Nguyễn Thanh Hải,2,"56457617, 56457521",Viện kiểm sát nhân dân tối cao,Ngành Kiểm sát,
@@ -1090,8 +1219,47 @@ Nguyễn Thanh Hải,Nguyễn Thanh Liêm,2,"56457617, 56457521",,Ngành Kiểm 
 Nguyễn Thanh Hải,Nguyễn Văn Hà,2,"56457617, 56457521",,,
 Nguyễn Thanh Hải,Đặng Văn Dũng,2,"56457617, 56457521",,,
 Nguyễn Thanh Liêm,Nguyễn Văn Hà,2,"56457617, 56457521",,,
-Nguyễn Thanh Liêm,Đặng Văn Dũng,2,"56457617, 56457521",,Khối Đảng Tỉnh ủy,Cà Mau
+Nguyễn Thanh Liêm,Đặng Văn Dũng,2,"56457617, 56457521",Đảng ủy,Khối Đảng Tỉnh ủy,Cà Mau
 Nguyễn Văn Hà,Đặng Văn Dũng,2,"56457617, 56457521",,,
+Nguyễn Huy Tiến,Nguyễn Hồ Hải,2,"56457521, 56476385",Ban Chấp hành Trung ương Đảng,,Cà Mau
+Nguyễn Minh Dũng,Nguyễn Thị Bé Mười,2,"56476145, 56473951",Tỉnh ủy Vĩnh Long,Khối Đảng Tỉnh ủy,Vĩnh Long
+Nguyễn Thị Bé Mười,Trần Trí Quang,2,"56476145, 56474767","Tỉnh ủy Vĩnh Long, UBND tỉnh Vĩnh Long","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Vĩnh Long
+Trần Trọng Toàn,Tôn Ngọc Hạnh,2,"56476170, 56475554",,,Đồng Nai
+Nguyễn Hồ Hải,Phạm Văn Thiều,2,"56476385, 56467219",Tỉnh ủy Cà Mau,Khối Đảng Tỉnh ủy,Cà Mau
+Dương Văn Phúc,Nguyễn Minh Dũng,2,"56475627, 56473951",Tỉnh ủy Vĩnh Long,Khối Đảng Tỉnh ủy,Vĩnh Long
+Dương Văn Phúc,Nguyễn Thị Bé Mười,2,"56474767, 56473951","Tỉnh ủy Vĩnh Long, UBND tỉnh Vĩnh Long","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Vĩnh Long
+Nguyễn Thị Bé Mười,Trương Đặng Vĩnh Phúc,2,"56474767, 56473951","Tỉnh ủy Vĩnh Long, UBND tỉnh Vĩnh Long","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Vĩnh Long
+Dương Đình Chỉnh,Đỗ Quang Thái,2,"56472175, 56462473",,,
+Nguyễn Hữu Định,Trần Trọng Toàn,2,"56472455, 56466958",,,Đồng Nai
+Huỳnh Ngọc Thanh,Y Thanh Hà Niê Kđăm,2,"56471427, 56469485",,,Lâm Đồng
+Lê Hồng Lợi,Y Thanh Hà Niê Kđăm,2,"56471427, 56469485",,,Lâm Đồng
+Nguyễn Hữu Khánh,Y Thanh Hà Niê Kđăm,2,"56471427, 56469485",Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Nguyễn Thanh Long,Y Thanh Hà Niê Kđăm,2,"56471427, 56469485",,,Lâm Đồng
+Nguyễn Thanh Sang,Y Thanh Hà Niê Kđăm,2,"56471427, 56469485",,,Lâm Đồng
+Nguyễn Thanh Vũ,Y Thanh Hà Niê Kđăm,2,"56471427, 56469485",,,Lâm Đồng
+Nguyễn Thúc Phước Hải,Y Thanh Hà Niê Kđăm,2,"56471427, 56469485",,,Lâm Đồng
+Nguyễn Trường Sa,Y Thanh Hà Niê Kđăm,2,"56471427, 56469485",,,Lâm Đồng
+Nguyễn Vũ Linh Sang,Y Thanh Hà Niê Kđăm,2,"56471427, 56469485",,,Lâm Đồng
+Phạm Thành Bắc,Y Thanh Hà Niê Kđăm,2,"56471427, 56469485",,,Lâm Đồng
+Trần Hoàng Vũ,Y Thanh Hà Niê Kđăm,2,"56471427, 56469485",,,Lâm Đồng
+Trần Mậu Dũng,Y Thanh Hà Niê Kđăm,2,"56471427, 56469485",,,Lâm Đồng
+Nông Lâm Ngư,Tô Lâm,2,"56471236, 56470848",,,
+Lê Trung Hồ,Nguyễn Tấn Dũng,2,"56470897, 56470437",,,
+Lê Trung Hồ,Vũ Trọng Lâm,2,"56470897, 56470437",,,
+Lê Hải Hòa,Lý Vạn,2,"56470802, 56468955","UBND tỉnh, UBND tỉnh Cao Bằng",Khối Chính quyền địa phương,Cao Bằng
+Nguyễn Trọng Hiếu,Trần Việt Hà,2,"56470259, 56466956",Tỉnh ủy Hà Tĩnh,Khối Đảng Tỉnh ủy,Hà Tĩnh
+Nguyễn Mạnh Quyền,Tô Lâm,2,"56476306, 56462655",UBND tỉnh Hưng Yên,Khối Chính quyền địa phương,Hưng Yên
+Hồ Văn Nam,Nguyễn Văn Út,2,"56470825, 56462320",Thành ủy,Khối Đảng Thành ủy,
+Lê Hải Hòa,Nguyễn Hoàng,2,"56466631, 56465519",,,
+Lê Hải Hòa,Trương Thành Trung,2,"56466631, 56465519",,,
+Nguyễn Hoàng,Phan Thăng An,2,"56466631, 56465519",,,
+Nguyễn Hoàng,Trương Thành Trung,2,"56466631, 56465519",Đảng ủy,,
+Nguyễn Hoàng,Vũ Hồng Quang,2,"56466631, 56465519",,,
+Phan Thăng An,Trương Thành Trung,2,"56466631, 56465519",,,
+Trương Thành Trung,Vũ Hồng Quang,2,"56466631, 56465519",,Khối Mặt trận - Đoàn thể,
+Lê Hải Hòa,Tưởng Vệ Sinh,2,"56465483, 56462348",,,
+Dương Đình Chỉnh,Tô Lâm,2,"56462473, 56462607",,,
+Bùi Xuân Dũng,Vũ Đại Thắng,2,"56471509, 56471280",,,
 Nguyễn Trung Kiên,Nguyễn Văn Hiền,1,56436680,Bộ Quốc phòng,,
 Nguyễn Trung Kiên,Trịnh Thị Mùi,1,56436680,,,
 Nguyễn Văn Hiền,Trịnh Thị Mùi,1,56436680,,,
@@ -1100,8 +1268,8 @@ Lương Đình Hưng,Trần Thanh Mẫn,1,56436881,Quốc hội,Khối Quốc h�
 Nguyễn Thành Trung,Trần Thanh Mẫn,1,56436881,,Khối Quốc hội,
 Bùi Văn Quang,Hồ Văn Hương,1,56436889,,,
 Hà Minh Hải,Nguyễn Hữu Đông,1,56436548,Ban Chấp hành Trung ương Đảng,,
-Hoàng Trung Dũng,Lê Ngọc Quang,1,56437237,Ban Chấp hành Trung ương Đảng,,
-Lê Ngọc Quang,Nguyễn Thị Thu Hà,1,56437237,Ban Chấp hành Trung ương Đảng,,
+Hoàng Trung Dũng,Lê Ngọc Quang,1,56437237,Ban Chấp hành Trung ương Đảng,Khối Đảng Thành ủy,
+Lê Ngọc Quang,Nguyễn Thị Thu Hà,1,56437237,Ban Chấp hành Trung ương Đảng,Khối Quốc hội,
 Bùi Hồng Thanh,Nguyễn Minh Tuấn,1,56436979,,,
 Bùi Hồng Thanh,Trần Báu Hà,1,56436979,,,
 Bùi Hồng Thanh,Trần Đình Nghị,1,56436979,,,
@@ -1139,8 +1307,7 @@ La Thị Vũ Hiền,Nông Thanh Tùng,1,56436079,,,
 La Thị Vũ Hiền,Vũ Đình Quang,1,56436079,,,
 Nông Thanh Tùng,Vũ Đình Quang,1,56436079,Tỉnh ủy,Khối Đảng Tỉnh ủy,
 La Công Phương,Phan Văn Giang,1,56436153,Bộ Quốc phòng,Ngành Quốc phòng,
-La Công Phương,Trương Thiên Tô,1,56436153,"Ban Chấp hành Trung ương Đảng, Bộ Quốc phòng",,
-La Công Phương,Trịnh Xuân Trường,1,56436153,Ban Chấp hành Trung ương Đảng,,
+La Công Phương,Trương Thiên Tô,1,56436153,"Ban Chấp hành Trung ương Đảng, Bộ Quốc phòng",Ngành Quốc phòng,
 Trương Thiên Tô,Trịnh Xuân Trường,1,56436153,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Quang Hưng,Phùng Thế Sơn,1,56436047,,,
 Huỳnh Tấn Hùng,Phạm Trung Kiên,1,56435883,"Tổng cục Hậu cần, Đảng ủy","Ngành Quốc phòng, Tổng cục Hậu cần",
@@ -1150,7 +1317,7 @@ Mai Sơn,Phạm Minh Hùng,1,56435638,,,
 Nguyễn Văn Hồi,Phạm Minh Hùng,1,56435638,Bộ Nội vụ,Ngành Nội vụ,
 Giang Văn Phục,Hồ Văn Mừng,1,56435719,,,An Giang
 Giang Văn Phục,Lê Trung Hồ,1,56435719,HĐND tỉnh An Giang,Khối HĐND địa phương,An Giang
-Hồ Văn Mừng,Lê Trung Hồ,1,56435719,UBND tỉnh An Giang,Khối Chính quyền địa phương,An Giang
+Hồ Văn Mừng,Lê Trung Hồ,1,56435719,"Tỉnh ủy An Giang, UBND tỉnh An Giang","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",An Giang
 Lê Minh Dưỡng,Trần Đình Cảnh,1,56435583,,,Hà Nội
 Nguyễn Thái Nhàn,Trần Đình Cảnh,1,56435583,"Thành ủy Hà Nội, Ủy ban Kiểm tra Thành ủy Hà Nội",Ủy ban Kiểm tra Thành ủy Hà Nội,Hà Nội
 Nguyễn Trọng Đông,Trần Đình Cảnh,1,56435583,Thành ủy Hà Nội,Khối Đảng Thành ủy,Hà Nội
@@ -1179,7 +1346,6 @@ Lâm Sum,Đàm Thị Vân,1,56433194,,,
 Đinh Thị Thanh Huyền,Đàm Thị Vân,1,56433194,,,
 Đinh Thị Tấm,Đàm Thị Vân,1,56433194,,,
 Nguyễn Long Biên,Trần Văn Hiếu,1,56432899,,,Khánh Hòa
-Phùng Thị Hồng Hà,Vũ Đăng Định,1,56432875,Thành ủy Hà Nội,Khối Đảng Thành ủy,Hà Nội
 Hoàng Quốc Thưởng,Nguyễn Sỹ Hiệp,1,56432627,Thành ủy Hải Phòng,Khối Đảng Thành ủy,Hải Phòng
 Lê Xuân Trường,Nguyễn Sỹ Hiệp,1,56432627,Thành ủy Hải Phòng,,Hải Phòng
 Nguyễn Quang Phúc,Nguyễn Sỹ Hiệp,1,56432627,Thành ủy Hải Phòng,Khối Đảng Thành ủy,Hải Phòng
@@ -1246,7 +1412,7 @@ Bùi Văn Khắng,Nguyễn Văn Thắng,1,56391556,,,
 Nguyễn Văn Thắng,Trương Minh Huy Vũ,1,56384782,,,
 Lê Minh Hưng,Nguyễn Thị Phương Thảo,1,56381592,,,
 Lê Minh Hưng,Phạm Quốc Thanh,1,56381592,,,
-Nguyễn Thị Phương Thảo,Nguyễn Văn Thắng,1,56381592,,,
+Nguyễn Thị Phương Thảo,Nguyễn Văn Thắng,1,56381592,,Chính quyền địa phương,Nghệ An
 Nguyễn Thị Phương Thảo,Phạm Quốc Thanh,1,56381592,,,
 Nguyễn Văn Thắng,Phạm Quốc Thanh,1,56381592,,,
 Lê Quang Tùng,Trần Thanh Mẫn,1,56349647,Ban Chấp hành Trung ương Đảng,Khối Quốc hội,
@@ -1309,30 +1475,30 @@ Cao Xuân Thạo,Nguyễn Thị Hằng,1,56260500,,,
 Cao Xuân Thạo,Nguyễn Việt Sơn,1,56260500,,,
 Cao Xuân Thạo,Nguyễn Văn Thắng,1,56260500,,,
 Cao Xuân Thạo,Đặng Xuân Phong,1,56260500,,,
-Hồ Quốc Dũng,Lê Văn Tuyến,1,56260500,,,
+Hồ Quốc Dũng,Lê Văn Tuyến,1,56260500,"Ban Chấp hành Trung ương Đảng, Bộ Công an",Ngành Công an,
 Hồ Quốc Dũng,Nguyễn Ngọc Cảnh,1,56260500,,,
 Hồ Quốc Dũng,Nguyễn Quang Ngọc,1,56260500,Ban Chấp hành Trung ương Đảng,,
 Hồ Quốc Dũng,Nguyễn Thị Hằng,1,56260500,,,
 Hồ Quốc Dũng,Nguyễn Việt Sơn,1,56260500,,,
 Hồ Quốc Dũng,Đặng Xuân Phong,1,56260500,Ban Chấp hành Trung ương Đảng,,
-Lê Minh Hưng,Lê Văn Tuyến,1,56260500,,,
+Lê Minh Hưng,Lê Văn Tuyến,1,56260500,Ban Chấp hành Trung ương Đảng,,
 Lê Minh Hưng,Nguyễn Ngọc Cảnh,1,56260500,,,
 Lê Minh Hưng,Nguyễn Quang Ngọc,1,56260500,Ban Chấp hành Trung ương Đảng,,
 Lê Minh Hưng,Nguyễn Thị Hằng,1,56260500,,,
 Lê Minh Hưng,Nguyễn Việt Sơn,1,56260500,,,
-Lê Tiến Châu,Lê Văn Tuyến,1,56260500,,,
+Lê Tiến Châu,Lê Văn Tuyến,1,56260500,Ban Chấp hành Trung ương Đảng,,
 Lê Tiến Châu,Nguyễn Ngọc Cảnh,1,56260500,,,
 Lê Tiến Châu,Nguyễn Quang Ngọc,1,56260500,Ban Chấp hành Trung ương Đảng,,
 Lê Tiến Châu,Nguyễn Thị Hằng,1,56260500,,,
 Lê Tiến Châu,Nguyễn Việt Sơn,1,56260500,,,
 Lê Tiến Châu,Đặng Xuân Phong,1,56260500,Ban Chấp hành Trung ương Đảng,,
 Lê Văn Tuyến,Nguyễn Ngọc Cảnh,1,56260500,,,
-Lê Văn Tuyến,Nguyễn Quang Ngọc,1,56260500,,,
+Lê Văn Tuyến,Nguyễn Quang Ngọc,1,56260500,Ban Chấp hành Trung ương Đảng,,
 Lê Văn Tuyến,Nguyễn Thị Hằng,1,56260500,,,
 Lê Văn Tuyến,Nguyễn Việt Sơn,1,56260500,,,
 Lê Văn Tuyến,Nguyễn Văn Thắng,1,56260500,,,
 Lê Văn Tuyến,Phạm Thị Thanh Trà,1,56260500,,,
-Lê Văn Tuyến,Đặng Xuân Phong,1,56260500,,,
+Lê Văn Tuyến,Đặng Xuân Phong,1,56260500,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Ngọc Cảnh,Nguyễn Quang Ngọc,1,56260500,,,
 Nguyễn Ngọc Cảnh,Nguyễn Việt Sơn,1,56260500,,,
 Nguyễn Ngọc Cảnh,Nguyễn Văn Thắng,1,56260500,,,
@@ -1411,12 +1577,11 @@ Dương Khắc Mai,Trần Thanh Mẫn,1,56353282,,Khối Quốc hội,
 Dương Khắc Mai,Tô Lâm,1,56353282,,,
 Lê Tấn Tới,Nguyễn Thị Minh Tú,1,56353282,,,
 Lê Tấn Tới,Nguyễn Văn Huy,1,56353282,,,
-Lê Tấn Tới,Tô Lâm,1,56353282,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Thị Minh Tú,Nguyễn Văn Huy,1,56353282,,Khối Quốc hội,
 Nguyễn Thị Minh Tú,Trần Thanh Mẫn,1,56353282,,Khối Quốc hội,
 Nguyễn Thị Minh Tú,Tô Lâm,1,56353282,,,
 Nguyễn Văn Huy,Trần Thanh Mẫn,1,56353282,,Khối Quốc hội,
-Nguyễn Văn Huy,Tô Lâm,1,56353282,,,
+Nguyễn Văn Huy,Tô Lâm,1,56353282,,,Hưng Yên
 Lê Tấn Tới,Lương Tam Quang,1,56354135,Quốc hội,,
 Nguyễn Hồng Diên,Nguyễn Thị Thanh,1,56345426,Quốc hội,Khối Quốc hội,
 Nguyễn Thanh Hải,Nguyễn Thị Thanh,1,56345426,Quốc hội,Khối Quốc hội,
@@ -1488,7 +1653,7 @@ Lê Hồng Thịnh,Trần Văn Đoan,1,56331131,Đảng ủy,,Cà Mau
 Lê Hồng Thịnh,Trịnh Thanh Sang,1,56331131,,,Cà Mau
 Lê Hồng Thịnh,Tăng Hồng Trường,1,56331131,,,Cà Mau
 Lê Hồng Thịnh,Võ Minh Tám,1,56331131,,,Cà Mau
-Lê Hồng Thịnh,Đặng Văn Dũng,1,56331131,,,Cà Mau
+Lê Hồng Thịnh,Đặng Văn Dũng,1,56331131,Đảng ủy,,Cà Mau
 Mã Minh Tâm,Nguyễn Bình Thuận,1,56331131,,,Cà Mau
 Mã Minh Tâm,Nguyễn Thế Châu,1,56331131,Đảng ủy,Hội đồng nhân dân địa phương,Cà Mau
 Mã Minh Tâm,Nguyễn Trúc Ly,1,56331131,Đảng ủy,Hội đồng nhân dân địa phương,Cà Mau
@@ -1500,7 +1665,7 @@ Mã Minh Tâm,Trần Văn Đoan,1,56331131,Đảng ủy,Hội đồng nhân dân
 Mã Minh Tâm,Trịnh Thanh Sang,1,56331131,,,Cà Mau
 Mã Minh Tâm,Tăng Hồng Trường,1,56331131,UBND tỉnh Cà Mau,Khối Chính quyền địa phương,Cà Mau
 Mã Minh Tâm,Võ Minh Tám,1,56331131,UBND tỉnh Cà Mau,Khối Chính quyền địa phương,Cà Mau
-Mã Minh Tâm,Đặng Văn Dũng,1,56331131,,,Cà Mau
+Mã Minh Tâm,Đặng Văn Dũng,1,56331131,Đảng ủy,,Cà Mau
 Nguyễn Bình Thuận,Nguyễn Thế Châu,1,56331131,,,Cà Mau
 Nguyễn Bình Thuận,Nguyễn Trúc Ly,1,56331131,,,Cà Mau
 Nguyễn Bình Thuận,Ngô Nguyên Phong,1,56331131,,,Cà Mau
@@ -1521,7 +1686,7 @@ Nguyễn Thế Châu,Trần Văn Đoan,1,56331131,Đảng ủy,Hội đồng nh�
 Nguyễn Thế Châu,Trịnh Thanh Sang,1,56331131,,,Cà Mau
 Nguyễn Thế Châu,Tăng Hồng Trường,1,56331131,,,Cà Mau
 Nguyễn Thế Châu,Võ Minh Tám,1,56331131,,,Cà Mau
-Nguyễn Thế Châu,Đặng Văn Dũng,1,56331131,,,Cà Mau
+Nguyễn Thế Châu,Đặng Văn Dũng,1,56331131,Đảng ủy,,Cà Mau
 Nguyễn Trúc Ly,Ngô Nguyên Phong,1,56331131,Đảng ủy,Hội đồng nhân dân địa phương,Cà Mau
 Nguyễn Trúc Ly,Ngô Văn Huynh,1,56331131,,,Cà Mau
 Nguyễn Trúc Ly,Tiêu Thanh Phương,1,56331131,,,Cà Mau
@@ -1530,7 +1695,7 @@ Nguyễn Trúc Ly,Trần Văn Đoan,1,56331131,Đảng ủy,Hội đồng nhân 
 Nguyễn Trúc Ly,Trịnh Thanh Sang,1,56331131,,,Cà Mau
 Nguyễn Trúc Ly,Tăng Hồng Trường,1,56331131,,,Cà Mau
 Nguyễn Trúc Ly,Võ Minh Tám,1,56331131,"Tỉnh ủy Cà Mau, Văn phòng Tỉnh ủy Cà Mau",Văn phòng Tỉnh ủy Cà Mau,Cà Mau
-Nguyễn Trúc Ly,Đặng Văn Dũng,1,56331131,Tỉnh ủy Cà Mau,,Cà Mau
+Nguyễn Trúc Ly,Đặng Văn Dũng,1,56331131,"Tỉnh ủy Cà Mau, Đảng ủy",,Cà Mau
 Ngô Nguyên Phong,Ngô Văn Huynh,1,56331131,"Ban Quản lý dự án Xây dựng tỉnh, Sở Tài chính Cà Mau","Ban Quản lý dự án Xây dựng tỉnh, Sở Tài chính",Cà Mau
 Ngô Nguyên Phong,Tiêu Thanh Phương,1,56331131,,,Cà Mau
 Ngô Nguyên Phong,Trần Văn Hùng,1,56331131,,,Cà Mau
@@ -1538,7 +1703,7 @@ Ngô Nguyên Phong,Trần Văn Đoan,1,56331131,Đảng ủy,Hội đồng nhân
 Ngô Nguyên Phong,Trịnh Thanh Sang,1,56331131,Ban Quản lý dự án Xây dựng tỉnh,Ban Quản lý dự án Xây dựng tỉnh,Cà Mau
 Ngô Nguyên Phong,Tăng Hồng Trường,1,56331131,,,Cà Mau
 Ngô Nguyên Phong,Võ Minh Tám,1,56331131,,,Cà Mau
-Ngô Nguyên Phong,Đặng Văn Dũng,1,56331131,,,Cà Mau
+Ngô Nguyên Phong,Đặng Văn Dũng,1,56331131,Đảng ủy,,Cà Mau
 Ngô Văn Huynh,Tiêu Thanh Phương,1,56331131,,,Cà Mau
 Ngô Văn Huynh,Trần Văn Hùng,1,56331131,,,Cà Mau
 Ngô Văn Huynh,Trần Văn Đoan,1,56331131,,,Cà Mau
@@ -1560,7 +1725,7 @@ Trần Văn Hùng,Đặng Văn Dũng,1,56331131,,,Cà Mau
 Trần Văn Đoan,Trịnh Thanh Sang,1,56331131,,,Cà Mau
 Trần Văn Đoan,Tăng Hồng Trường,1,56331131,,,Cà Mau
 Trần Văn Đoan,Võ Minh Tám,1,56331131,,,Cà Mau
-Trần Văn Đoan,Đặng Văn Dũng,1,56331131,,,Cà Mau
+Trần Văn Đoan,Đặng Văn Dũng,1,56331131,Đảng ủy,,Cà Mau
 Trịnh Thanh Sang,Tăng Hồng Trường,1,56331131,,,Cà Mau
 Trịnh Thanh Sang,Võ Minh Tám,1,56331131,,,Cà Mau
 Trịnh Thanh Sang,Đặng Văn Dũng,1,56331131,,,Cà Mau
@@ -1572,7 +1737,7 @@ Hoàng Thanh Hải,Phạm Thanh Tùng,1,56403910,Ban Thường vụ Đảng ủy
 Hoàng Thanh Hải,Phạm Văn Tuấn,1,56403910,Ban Thường vụ Đảng ủy,,
 Hoàng Thanh Hải,Trần Sỹ Thanh,1,56403910,,,
 Hoàng Thanh Hải,Trịnh Trường Huy,1,56403910,,,Cao Bằng
-Nguyễn Ngọc Thư,Phạm Thanh Tùng,1,56403910,,,
+Nguyễn Ngọc Thư,Phạm Thanh Tùng,1,56403910,Đảng ủy,,
 Nguyễn Ngọc Thư,Phạm Văn Tuấn,1,56403910,,,
 Phạm Thanh Tùng,Trần Sỹ Thanh,1,56403910,,Ngành Quốc phòng,
 Phạm Thanh Tùng,Trịnh Trường Huy,1,56403910,,,
@@ -1601,7 +1766,6 @@ Nguyễn Trường Thắng,Đỗ Thị Thanh Hà,1,56375837,Ban Chấp hành Tru
 Nguyễn Xuân Trường,Đỗ Thị Thanh Hà,1,56375837,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Thanh Hải,Trần Hồng Minh,1,56296189,,,
 Nguyễn Thanh Tuấn,Nguyễn Văn Quyết,1,56278506,,,
-Trần Văn Khải,Tô Lâm,1,56433900,,,
 Lê Mạnh Hùng,Lê Thị Ngọc Linh,1,56421717,,Khối Quốc hội,
 Bùi Thị Minh Hoài,Nguyễn Hữu Nghĩa,1,56293944,,Khối Quốc hội,
 Bùi Thị Minh Hoài,Nguyễn Khắc Định,1,56293944,"Ban Chấp hành Trung ương Đảng, Đảng ủy",Khối Quốc hội,
@@ -1616,7 +1780,7 @@ Nguyễn Hữu Nghĩa,Nguyễn Khắc Định,1,56293944,,Khối Quốc hội,
 Nguyễn Hữu Nghĩa,Nguyễn Thanh Hải,1,56293944,,Khối Quốc hội,
 Nguyễn Hữu Nghĩa,Phan Văn Mãi,1,56293944,,,
 Nguyễn Hữu Nghĩa,Trần Cẩm Tú,1,56293944,,,
-Nguyễn Hữu Nghĩa,Tô Lâm,1,56293944,,,
+Nguyễn Hữu Nghĩa,Tô Lâm,1,56293944,,,Hưng Yên
 Nguyễn Hữu Nghĩa,Đỗ Văn Chiến,1,56293944,,Khối Quốc hội,
 Nguyễn Khắc Định,Nguyễn Thị Hồng,1,56293944,"Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
 Nguyễn Thanh Hải,Nguyễn Thị Hồng,1,56293944,Quốc hội,Khối Quốc hội,
@@ -1629,7 +1793,7 @@ Phan Văn Mãi,Đỗ Văn Chiến,1,56293944,Quốc hội,,
 Lương Nguyễn Minh Triết,Nguyễn Hữu Nghĩa,1,56262414,,,
 Lương Nguyễn Minh Triết,Nguyễn Việt Hùng,1,56262414,,Khối Đảng Tỉnh ủy,
 Lương Nguyễn Minh Triết,Thái Đại Ngọc,1,56262414,Ban Chấp hành Trung ương Đảng,Khối Đảng Tỉnh ủy,
-Lương Nguyễn Minh Triết,Trần Phong,1,56262414,,Khối Đảng Tỉnh ủy,
+Lương Nguyễn Minh Triết,Trần Phong,1,56262414,Ban Chấp hành Trung ương Đảng,Khối Đảng Tỉnh ủy,
 Nguyễn Hữu Nghĩa,Nguyễn Việt Hùng,1,56262414,,,
 Nguyễn Hữu Nghĩa,Thái Đại Ngọc,1,56262414,,,
 Nguyễn Hữu Nghĩa,Trần Phong,1,56262414,,,
@@ -1637,7 +1801,7 @@ Nguyễn Hữu Nghĩa,Đỗ Hữu Huy,1,56262414,,,
 Nguyễn Việt Hùng,Thái Đại Ngọc,1,56262414,,Khối Đảng Tỉnh ủy,
 Nguyễn Việt Hùng,Trần Phong,1,56262414,Tỉnh ủy Khánh Hòa,Khối Đảng Tỉnh ủy,Khánh Hòa
 Nguyễn Việt Hùng,Đỗ Hữu Huy,1,56262414,,"Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",
-Thái Đại Ngọc,Trần Phong,1,56262414,,Khối Đảng Tỉnh ủy,
+Thái Đại Ngọc,Trần Phong,1,56262414,Ban Chấp hành Trung ương Đảng,Khối Đảng Tỉnh ủy,
 Thái Đại Ngọc,Đỗ Hữu Huy,1,56262414,,Khối Đảng Tỉnh ủy,
 Trần Phong,Đỗ Hữu Huy,1,56262414,,Khối Đảng Tỉnh ủy,
 Lê Công Lý,Mai Văn Tân,1,56376406,,,Cần Thơ
@@ -1734,22 +1898,21 @@ Nguyễn Trường Thắng,Phạm Mạnh Thắng,1,56337039,Bộ Quốc phòng,N
 Hồ Quốc Dũng,Nguyễn Hoàng Hiệp,1,56327556,,,
 Nguyễn Hoàng Hiệp,Phạm Trường Sơn,1,56327556,,,
 Nguyễn Nhật Trường,Trần Minh Khoa,1,56328211,,,An Giang
-Lê Quang Đạo,Phạm Gia Túc,1,56304113,,,
+Lê Quang Đạo,Phạm Gia Túc,1,56304113,,Khối Quốc hội,
 Lê Quang Đạo,Đinh Hữu Học,1,56304113,,,
-Phạm Gia Túc,Đinh Hữu Học,1,56304113,,,
 Hoàng Minh Sơn,Lê Hoài Trung,1,56300752,,,
 Hoàng Minh Sơn,Lê Khánh Hải,1,56300752,,,
-Hoàng Minh Sơn,Lê Minh Trí,1,56300752,,,
+Hoàng Minh Sơn,Lê Minh Trí,1,56300752,,Ngành Quốc phòng,
 Hoàng Minh Sơn,Lương Tam Quang,1,56300752,,,
 Hoàng Minh Sơn,Nguyễn Hải Ninh,1,56300752,,,
 Hoàng Minh Sơn,Nguyễn Hữu Đông,1,56300752,,,
 Hoàng Minh Sơn,Nguyễn Thị Hồng,1,56300752,,,
-Hoàng Minh Sơn,Phan Văn Giang,1,56300752,,,
+Hoàng Minh Sơn,Phan Văn Giang,1,56300752,,Ngành Quốc phòng,
 Hoàng Minh Sơn,Trần Hồng Minh,1,56300752,,,
 Hoàng Minh Sơn,Trần Lưu Quang,1,56300752,,,
-Hoàng Minh Sơn,Trần Sỹ Thanh,1,56300752,,,
+Hoàng Minh Sơn,Trần Sỹ Thanh,1,56300752,,Ngành Quốc phòng,
 Hoàng Minh Sơn,Trịnh Việt Hùng,1,56300752,,,
-Hoàng Minh Sơn,Tô Lâm,1,56300752,,,
+Hoàng Minh Sơn,Tô Lâm,1,56300752,,Ngành Quốc phòng,
 Lê Hoài Trung,Lê Khánh Hải,1,56300752,,,
 Lê Hoài Trung,Lê Minh Trí,1,56300752,"Ban Bí thư Trung ương Đảng, Ban Chấp hành Trung ương Đảng, Bộ Chính trị",Khối Đảng Trung ương,
 Lê Hoài Trung,Nguyễn Hải Ninh,1,56300752,"Ban Chấp hành Trung ương Đảng, Văn phòng Trung ương Đảng",Văn phòng Trung ương Đảng,
@@ -1927,7 +2090,7 @@ Khuất Việt Dũng,Trần Quốc Phương,1,56358173,,,
 Khuất Việt Dũng,Vũ Mạnh Hà,1,56358173,,,
 Khuất Việt Dũng,Vũ Xuân Hân,1,56358173,,,
 Lê Minh Hưng,Lê Quang Minh,1,56358173,,,
-Lê Minh Hưng,Lê Quang Đạo,1,56358173,,,
+Lê Minh Hưng,Lê Quang Đạo,1,56358173,Quốc hội,Khối Quốc hội,
 Lê Minh Hưng,Lê Quốc Hùng,1,56358173,Ban Chấp hành Trung ương Đảng,,
 Lê Minh Hưng,Lê Thị Thu Hằng,1,56358173,,,
 Lê Minh Hưng,Lê Xuân Định,1,56358173,,,
@@ -2050,7 +2213,6 @@ Lê Minh Hưng,Trần Văn Thông,1,56229165,,,
 Trần Văn Thông,Tô Lâm,1,56229165,,,
 Huỳnh Văn Chương,Lê Quân,1,56436619,Bộ Giáo dục và Đào tạo,Ngành Giáo dục và Đào tạo,
 Nguyễn Thái Bình,Vũ Thị Bích Hường,1,56435546,,,
-Lương Tam Quang,Nguyễn Thanh Tùng,1,56418081,Công an TP Hà Nội,Ngành Công an,Hà Nội
 Nguyễn Văn Hà,Vũ Huy Tài,1,56435374,,,
 Hoàng Văn Hà,Nguyễn Thuý Quỳnh,1,56411064,,,
 Hoàng Văn Hà,Phạm Thế Tùng,1,56411064,,,
@@ -2272,9 +2434,6 @@ Nguyễn Mạnh Cường,Nguyễn Ngọc Hồi,1,56385125,,,TP.HCM
 Nguyễn Ngọc Hồi,Nguyễn Đình Chuẩn,1,56385125,,,TP.HCM
 Nguyễn Tiến Hải,Nguyễn Đắc Vinh,1,56317992,,,
 Lê Tiến Châu,Phan Văn Giang,1,56287739,Chính phủ,Khối Chính phủ,
-Nguyễn Văn Thắng,Phan Văn Giang,1,56287739,Chính phủ,Khối Chính phủ,
-Phan Văn Giang,Phạm Gia Túc,1,56287739,"Bộ Chính trị, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
-Phan Văn Giang,Phạm Thị Thanh Trà,1,56287739,Chính phủ,"Khối Chính phủ, Khối Đảng Trung ương",
 Bùi Thị Minh Hoài,Lê Thành Long,1,56215961,"Ban Chấp hành Trung ương Đảng, Chính phủ",Khối Chính phủ,
 Bùi Thị Minh Hoài,Nguyễn Văn Quyền,1,56215961,,,
 Bùi Thị Minh Hoài,Trần Công Phàm,1,56215961,,,
@@ -2342,7 +2501,7 @@ Nguyễn Văn Bình,Nguyễn Xuân Tốt,1,56402145,,,
 Nguyễn Văn Bình,Ngô Tiến Cương,1,56402145,,,
 Trần Nhựt Thanh,Đỗ Thị Minh Trâm,1,56434981,,,
 Lương Hoàng Thái,Đặng Xuân Phong,1,56427855,,,
-Trịnh Quốc Vũ,Tô Lâm,1,56433730,,,
+Trịnh Quốc Vũ,Tô Lâm,1,56433730,Bộ Công Thương,Ngành Công Thương,
 Lương Hoàng Thái,Nguyễn Công Hân,1,56434099,,,
 Lương Hoàng Thái,Nguyễn Thanh Tâm,1,56434099,,,
 Lương Hoàng Thái,Nguyễn Thảo Hiền,1,56434099,Bộ Công Thương,Ngành Công Thương,
@@ -2694,7 +2853,6 @@ Phạm Duy Hưng,Trần Đăng Quỳnh,1,56449362,Tỉnh ủy Ninh Bình,Khối 
 Phạm Duy Hưng,Đinh Thị Lụa,1,56449362,Tỉnh ủy Ninh Bình,Khối Đảng Tỉnh ủy,Ninh Bình
 Phạm Duy Hưng,Đinh Việt Dũng,1,56449362,Tỉnh ủy Ninh Bình,Khối Đảng Tỉnh ủy,Ninh Bình
 Phạm Tất Thắng,Đinh Việt Dũng,1,56449362,,,
-Trần Huy Tuấn,Đinh Việt Dũng,1,56449362,"Tỉnh ủy, Tỉnh ủy Ninh Bình",Khối Đảng Tỉnh ủy,Ninh Bình
 Trần Đăng Quỳnh,Đinh Việt Dũng,1,56449362,Tỉnh ủy Ninh Bình,Khối Đảng Tỉnh ủy,Ninh Bình
 Đinh Thị Lụa,Đinh Việt Dũng,1,56449362,"Tỉnh ủy, Tỉnh ủy Ninh Bình",Khối Đảng Tỉnh ủy,Ninh Bình
 Lê Thành Đô,Nguyễn Thị Liễm,1,56449297,,,
@@ -2712,16 +2870,14 @@ Nguyễn Chí Công,Ngô Vũ Thăng,1,56448984,,,Cà Mau
 Nguyễn Thanh Bình,Võ Thị Minh Sinh,1,56449172,"Tỉnh ủy, Tỉnh ủy Nghệ An",Khối Đảng Tỉnh ủy,Nghệ An
 Lê Trí Thanh,Nguyễn Chí Tài,1,56448817,Thành ủy Huế,Khối Đảng Thành ủy,Huế
 Lê Trí Thanh,Nguyễn Đình Trung,1,56448817,Thành ủy Huế,Khối Đảng Thành ủy,Huế
-Nguyễn Chí Tài,Nguyễn Đình Trung,1,56448817,Thành ủy Huế,Khối Đảng Thành ủy,Huế
 Tô Lâm,Đỗ Xuân Tuất,1,56449040,,,
-Hoàng Quốc Khánh,Trần Quân,1,56448808,"Ban Chấp hành Trung ương Đảng, Tỉnh ủy Lạng Sơn",Khối Đảng Tỉnh ủy,Lạng Sơn
 Bùi Hoàng Phương,Hoàng Nam,1,56448762,"Tỉnh ủy, UBND tỉnh, UBND tỉnh Quảng Trị","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Quảng Trị
 Lê Văn Hùng,Trịnh Tuấn Sinh,1,56448890,,Khối Mặt trận - Đoàn thể,
 Hoàng Văn Năm,La Công Phương,1,56448786,Quân khu 1,Ngành Quốc phòng,
 Hoàng Văn Năm,Trần Quang Tiến,1,56448786,Quân khu 1,Ngành Quốc phòng,
 Hoàng Văn Năm,Đàm Minh Tuân,1,56448786,,Ngành Quốc phòng,
 La Công Phương,Trần Quang Tiến,1,56448786,Quân khu 1,Ngành Quốc phòng,
-La Công Phương,Đàm Minh Tuân,1,56448786,,Ngành Quốc phòng,
+La Công Phương,Đàm Minh Tuân,1,56448786,Quân khu,Ngành Quốc phòng,
 Trần Quang Tiến,Đàm Minh Tuân,1,56448786,,Ngành Quốc phòng,
 Hoàng Đạo Cương,Nguyễn Danh Hoàng Việt,1,56448602,,,
 Nguyễn Duy Tân,Nguyễn Phước Lộc,1,56447375,,,TP.HCM
@@ -2766,7 +2922,6 @@ Nguyễn Trần Phượng Trân,Trần Thị Phương Hoa,1,56438200,,,TP.HCM
 Nguyễn Trần Phượng Trân,Tô Lâm,1,56438200,,,
 Trần Thị Phương Hoa,Tô Lâm,1,56438200,,,
 Nguyễn Văn Thắng,Tô Lâm,1,56452047,Chính phủ,Khối Chính phủ,
-Ngô Phương Nghị,Tô Lâm,1,56440601,,,
 Lê Tiến Châu,Trần Thanh Nhàn,1,56447189,,,
 Lâm Văn Hoàng,Trần Hồng Minh,1,56448847,Bộ Xây dựng,Ngành Xây dựng,
 Hà Nhật Lệ,Lê Tiến Châu,1,56447075,,,
@@ -2790,7 +2945,6 @@ Nguyễn Mạnh Sơn,Phạm Đại Dương,1,56445513,Tỉnh ủy,Khối Đảng
 Nguyễn Trung Kiên,Phạm Đại Dương,1,56445513,Tỉnh ủy,"Khối Quốc hội, Khối Đảng Tỉnh ủy",
 Nguyễn Trung Kiên,Trần Duy Đông,1,56445513,Tỉnh ủy,Khối Đảng Tỉnh ủy,
 Phạm Đại Dương,Trần Duy Đông,1,56445513,"Ban Chấp hành Trung ương Đảng, Tỉnh ủy",Khối Đảng Tỉnh ủy,Phú Thọ
-Nguyễn Hữu Định,Nguyễn Văn Út,1,56446645,,,Đồng Nai
 Nguyễn Hữu Định,Tôn Ngọc Hạnh,1,56446645,,,Đồng Nai
 Nguyễn Hữu Định,Vũ Hồng Văn,1,56446645,,,Đồng Nai
 Nguyễn Phúc Nhân,Phạm Gia Túc,1,56437258,,,
@@ -2850,7 +3004,7 @@ Bùi Tuấn Quynh,Tạ Văn Tuệ,1,56441796,,,
 Lê Quang Hiển,Nguyễn Việt Dũng,1,56441796,,,
 Lê Quang Hiển,Tạ Văn Tuệ,1,56441796,,,
 Nguyễn Việt Dũng,Tạ Văn Tuệ,1,56441796,,,
-Nguyễn Văn Trị,Trương Thiên Tô,1,56440245,,,
+Nguyễn Văn Trị,Trương Thiên Tô,1,56440245,,Ngành Quốc phòng,
 Trương Mạnh Dũng,Trương Quang Khánh,1,56445391,Bộ Quốc phòng,Ngành Quốc phòng,
 Cao Xuân Thắng,Lê Quang Minh,1,56439095,"Bộ Quốc phòng, Tổng cục Chính trị QĐND Việt Nam",Tổng cục Chính trị QĐND Việt Nam,
 Cao Xuân Thắng,Lê Văn Bảo,1,56439095,,,Quảng Trị
@@ -2954,7 +3108,7 @@ Phạm Thị Diệu,Đỗ Thị Ánh Tuyết,1,56266392,,,
 Lâm Thị Phương Thanh,Phạm Thị Thanh Trà,1,56237810,,,
 Lâm Thị Phương Thanh,Phạm Trường Sơn,1,56237810,,,
 Lâm Thị Phương Thanh,Trần Cẩm Tú,1,56237810,,,
-Lâm Thị Phương Thanh,Vũ Đại Thắng,1,56237810,UBND thành phố Hà Nội,Khối Chính quyền địa phương,Hà Nội
+Lâm Thị Phương Thanh,Vũ Đại Thắng,1,56237810,"Ban Chấp hành Trung ương Đảng, UBND thành phố Hà Nội",Khối Chính quyền địa phương,Hà Nội
 Phạm Thị Thanh Trà,Phạm Trường Sơn,1,56237810,,,
 Phạm Thị Thanh Trà,Vũ Đại Thắng,1,56237810,,,
 Phạm Trường Sơn,Trần Cẩm Tú,1,56237810,,,
@@ -2985,11 +3139,9 @@ Lê Thu Hà,Trần Trung Nhân,1,56402085,,,
 Lê Thu Hà,Tôn Ngọc Hạnh,1,56402085,,,
 Lê Trường Sơn,Nguyễn Minh Quang,1,56402085,,,Đồng Nai
 Lê Trường Sơn,Nguyễn Thị Bích Lan,1,56402085,,,
-Lê Trường Sơn,Nguyễn Văn Út,1,56402085,"Thành ủy Đồng Nai, UBND thành phố Đồng Nai","Khối Chính quyền địa phương, Khối Đảng Thành ủy",Đồng Nai
 Lê Trường Sơn,Trương Xuân Lam,1,56402085,,,
 Lê Trường Sơn,Trần Thị Quốc Hiền,1,56402085,,,Đồng Nai
 Lê Trường Sơn,Trần Trung Nhân,1,56402085,Thành ủy Đồng Nai,,Đồng Nai
-Lê Trường Sơn,Tôn Ngọc Hạnh,1,56402085,Thành ủy Đồng Nai,Khối Đảng Thành ủy,Đồng Nai
 Nguyễn Minh Quang,Nguyễn Thị Bích Lan,1,56402085,,,
 Nguyễn Minh Quang,Nguyễn Văn Út,1,56402085,,,Đồng Nai
 Nguyễn Minh Quang,Trương Xuân Lam,1,56402085,,,
@@ -3152,7 +3304,6 @@ Nguyễn Ái Quốc,Trương Tấn Sang,1,56452280,,,
 Nguyễn Ái Quốc,Tô Lâm,1,56452280,,,
 Phan Văn Giang,Trương Tấn Sang,1,56452280,Bộ Chính trị,Khối Đảng Trung ương,
 Trương Tấn Sang,Tô Lâm,1,56452280,Nhà nước CHXHCN Việt Nam,Khối Đảng Trung ương,
-Nguyễn Trọng Đông,Phùng Thị Hồng Hà,1,56425463,Thành ủy Hà Nội,Khối Đảng Thành ủy,Hà Nội
 Cù Ngọc Trang,Nguyễn Mạnh Dũng,1,56434554,,,Hà Nội
 Nguyễn Thanh Tùng,Trần Hợp Dũng,1,56428694,,,Hà Nội
 Trương Việt Dũng,Trần Hợp Dũng,1,56428694,,,Hà Nội
@@ -3331,7 +3482,7 @@ Nguyễn Phú Trọng,Nguyễn Thế Thảo,1,56236891,,,
 Nguyễn Phú Trọng,Nguyễn Thị Hồng,1,56236891,"Ban Chấp hành Trung ương Đảng, Quốc hội",Khối Quốc hội,
 Nguyễn Phú Trọng,Vương Thừa Vũ,1,56236891,,,
 Nguyễn Thế Thảo,Nguyễn Thị Hồng,1,56236891,,,
-Nguyễn Thế Thảo,Tô Lâm,1,56236891,,,
+Nguyễn Thế Thảo,Tô Lâm,1,56236891,,Khối Chính quyền địa phương,
 Nguyễn Thế Thảo,Vương Thừa Vũ,1,56236891,,,
 Nguyễn Thị Hồng,Vương Thừa Vũ,1,56236891,,,
 Tô Lâm,Vương Thừa Vũ,1,56236891,,Ngành Quốc phòng,
@@ -3353,9 +3504,6 @@ Lâm Nguyễn Hải Long,Nguyễn Phú Tiến,1,56317440,,,
 Lâm Nguyễn Hải Long,Nguyễn Văn Khởi,1,56317440,,,
 Nguyễn Phú Tiến,Nguyễn Văn Khởi,1,56317440,,,Cần Thơ
 Lưu Thị Thanh Mẫu,Vương Quốc Nam,1,56260308,,,
-Dương Quốc Huy,Hoàng Giang,1,56440049,Tỉnh ủy Lào Cai,Khối Đảng Tỉnh ủy,Lào Cai
-Dương Quốc Huy,Nguyễn Thế Phước,1,56440049,Tỉnh ủy Lào Cai,Khối Đảng Tỉnh ủy,Lào Cai
-Hoàng Giang,Nguyễn Thế Phước,1,56440049,Tỉnh ủy Lào Cai,Khối Đảng Tỉnh ủy,Lào Cai
 Giang Đình Hải,Hà Trọng Hải,1,56441281,,,Lai Châu
 Giang Đình Hải,Nguyễn Ngọc Vinh,1,56441281,,,Lai Châu
 Hà Trọng Hải,Nguyễn Ngọc Vinh,1,56441281,Tỉnh ủy Lai Châu,Khối Đảng Tỉnh ủy,Lai Châu
@@ -3365,7 +3513,6 @@ Lâm Văn Mẫn,Lê Văn Lương,1,56251045,,,
 Lâm Văn Mẫn,Nguyễn Phi Long,1,56251045,Ban Chấp hành Trung ương Đảng,,
 Lâm Văn Mẫn,Trần Tiến Dũng,1,56251045,"Ban Chấp hành Trung ương Đảng, Quốc hội",,
 Lâm Văn Mẫn,Trịnh Thị Thủy,1,56251045,,,
-Lâm Văn Mẫn,Đỗ Văn Chiến,1,56251045,"Ban Chấp hành Trung ương Đảng, Quốc hội",,
 Lê Văn Lương,Nguyễn Phi Long,1,56251045,,Khối Đảng Tỉnh ủy,
 Lê Văn Lương,Trịnh Thị Thủy,1,56251045,,,
 Lê Văn Lương,Đỗ Văn Chiến,1,56251045,,,
@@ -3460,8 +3607,6 @@ Hầu A Lềnh,Âu Thị Mai,1,56279088,,,Tuyên Quang
 Nguyễn Mạnh Tuấn,Phan Huy Ngọc,1,56254142,"Tỉnh ủy, UBND tỉnh, UBND tỉnh Tuyên Quang","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Tuyên Quang
 Triệu Quang Hùng,Đinh Quang Tuyên,1,56447322,,,Thái Nguyên
 Bùi Văn Lương,Trịnh Xuân Trường,1,56439132,Tỉnh ủy Thái Nguyên,Khối Đảng Tỉnh ủy,Thái Nguyên
-Dương Văn Tiến,Hà Minh Hải,1,56439967,,,
-Dương Văn Tiến,Trịnh Xuân Trường,1,56439967,Tỉnh ủy Thái Nguyên,,Thái Nguyên
 Hà Minh Hải,Trịnh Xuân Trường,1,56439967,Ban Chấp hành Trung ương Đảng,,
 Lê Hải Hòa,Lương Tuấn Hùng,1,56440958,"Tỉnh ủy, UBND tỉnh Cao Bằng","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Cao Bằng
 Lê Hải Hòa,Trần Văn Hậu,1,56440958,,Khối Chính quyền địa phương,
@@ -3472,10 +3617,8 @@ Lê Hoài Trung,Nguyễn Thế Mạnh,1,56394472,,,
 Lê Hoài Trung,Ngô Lê Văn,1,56394472,Bộ Ngoại giao,Ngành Ngoại giao,
 Lê Hoài Trung,Đinh Quang Tuyên,1,56394472,,,
 Nguyễn Thế Mạnh,Ngô Lê Văn,1,56394472,,,
-Nguyễn Thế Mạnh,Đinh Quang Tuyên,1,56394472,"Tỉnh ủy, Tỉnh ủy Thái Nguyên",Khối Đảng Tỉnh ủy,Thái Nguyên
 Ngô Lê Văn,Đinh Quang Tuyên,1,56394472,,,
-Phạm Gia Túc,Trịnh Xuân Trường,1,56380339,,,
-Nguyễn Thế Mạnh,Trịnh Xuân Trường,1,56348915,Tỉnh ủy Thái Nguyên,Khối Đảng Tỉnh ủy,Thái Nguyên
+Phạm Gia Túc,Trịnh Xuân Trường,1,56380339,,Khối Quốc hội,
 Dương Văn Lượng,Hà Thị Bích Hồng,1,56450766,,,Thái Nguyên
 Hà Thị Bích Hồng,Tạ Quang Đông,1,56450766,,,
 Dương Văn Lượng,Trương Hải Long,1,56439134,,,
@@ -3487,9 +3630,8 @@ Nguyễn Huy Quang,Trần Minh Điển,1,56405304,,,
 Nguyễn Thế Mạnh,Trần Minh Điển,1,56405304,,,
 Dương Văn Lượng,Hoàng Hải An,1,56333329,,,Thái Nguyên
 Lê Ngọc Quang,Phạm Gia Túc,1,56270398,,Khối Quốc hội,
-Lê Ngọc Quang,Vũ Đại Thắng,1,56270398,,Khối Đảng Thành ủy,
+Lê Ngọc Quang,Vũ Đại Thắng,1,56270398,Ban Chấp hành Trung ương Đảng,Khối Đảng Thành ủy,
 Lê Ngọc Quang,Vương Quốc Tuấn,1,56270398,,,
-Phạm Gia Túc,Vũ Đại Thắng,1,56270398,,,
 Phạm Gia Túc,Vương Quốc Tuấn,1,56270398,,,
 Vũ Đại Thắng,Vương Quốc Tuấn,1,56270398,,,
 Nguyễn Văn Khu,Phạm Đại Dương,1,56253137,,,
@@ -3901,7 +4043,7 @@ Nguyễn Thị Hà,Nguyễn Thị Kim Thoa,1,56287576,,Khối Mặt trận - Đo
 Nguyễn Thị Hà,Nguyễn Thị Liên,1,56287576,,,
 Nguyễn Thị Hà,Nguyễn Thị Minh Hương,1,56287576,,,
 Nguyễn Thị Hà,Nguyễn Thị Ngọc Linh,1,56287576,,,
-Nguyễn Thị Hà,Nguyễn Thị Phương Thảo,1,56287576,,,
+Nguyễn Thị Hà,Nguyễn Thị Phương Thảo,1,56287576,,,Nghệ An
 Nguyễn Thị Hà,Nguyễn Thị Quyên,1,56287576,,,
 Nguyễn Thị Hà,Nguyễn Thụy Nhã Trúc,1,56287576,,Khối Mặt trận - Đoàn thể,
 Nguyễn Thị Hà,Ngô Thị Hồng Huệ,1,56287576,,,
@@ -4070,7 +4212,7 @@ Trịnh Thị Thanh,Vũ Thị Thanh Thúy,1,56287576,,,
 Vũ Thị Hương,Vũ Thị Thanh Thúy,1,56287576,,,
 Dương Quốc Lâm,Nguyễn Văn Chung,1,56282912,,,Phú Thọ
 Nguyễn Cảnh Toàn,Trần Thanh Nhàn,1,56437808,"UBND tỉnh, UBND tỉnh Lạng Sơn",Khối Chính quyền địa phương,Lạng Sơn
-Nguyễn Cảnh Toàn,Đinh Hữu Học,1,56437808,"Tỉnh ủy Lạng Sơn, UBND tỉnh, UBND tỉnh Lạng Sơn","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Lạng Sơn
+Nguyễn Cảnh Toàn,Đinh Hữu Học,1,56437808,"Tỉnh ủy, Tỉnh ủy Lạng Sơn, UBND tỉnh, UBND tỉnh Lạng Sơn","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Lạng Sơn
 Trần Thanh Nhàn,Đinh Hữu Học,1,56437808,"UBND tỉnh, UBND tỉnh Lạng Sơn",Khối Chính quyền địa phương,Lạng Sơn
 Nguyễn Hữu Dũng,Vi Thị Lụa,1,56387358,,,Lạng Sơn
 Phạm Lê Minh,Vũ Hồng Quang,1,56445507,,,
@@ -4106,7 +4248,7 @@ Ngô Văn Cương,Trần Quốc Toản,1,56440033,,,
 Phạm Quang Ngọc,Trần Quốc Toản,1,56440033,"Tỉnh ủy Hưng Yên, Ủy ban MTTQ Việt Nam tỉnh Hưng Yên","Khối Mặt trận - Đoàn thể, Khối Đảng Tỉnh ủy",Hưng Yên
 Phạm Quang Ngọc,Phạm Văn Nghiêm,1,56362185,"UBND tỉnh Hưng Yên, Đảng ủy",Khối Chính quyền địa phương,Hưng Yên
 Lê Quang Hòa,Phạm Quang Ngọc,1,56390424,UBND tỉnh Hưng Yên,Khối Chính quyền địa phương,Hưng Yên
-Lê Quang Hòa,Tô Lâm,1,56390424,,,
+Lê Quang Hòa,Tô Lâm,1,56390424,UBND tỉnh Hưng Yên,Khối Chính quyền địa phương,Hưng Yên
 Phạm Bảo Sơn,Phạm Đồng Thụy,1,56439965,,,Hưng Yên
 Lê Quang Hòa,Nguyễn Mạnh Quyền,1,56439381,UBND tỉnh Hưng Yên,Khối Chính quyền địa phương,Hưng Yên
 Phạm Bảo Sơn,Thái Thị Thu Hường,1,56429377,,,Hưng Yên
@@ -4129,7 +4271,7 @@ Dương Thị Tươi,Đinh Văn Tiên,1,56437045,,,
 Dương Thị Tươi,Đặng Thị Vân,1,56437045,,,
 Dương Thị Tươi,Đỗ Hoàng Hải,1,56437045,,,
 Nguyễn Cao Sơn,Nguyễn Thị Nhung,1,56437045,Tỉnh ủy,Khối Đảng Tỉnh ủy,
-Nguyễn Cao Sơn,Phạm Thị Thu Hằng,1,56437045,,Khối Đảng Tỉnh ủy,Ninh Bình
+Nguyễn Cao Sơn,Phạm Thị Thu Hằng,1,56437045,Tỉnh ủy,Khối Đảng Tỉnh ủy,Ninh Bình
 Nguyễn Cao Sơn,Phạm Vinh Dự,1,56437045,,,
 Nguyễn Cao Sơn,Trần Thanh Sơn,1,56437045,,Khối Đảng Tỉnh ủy,
 Nguyễn Cao Sơn,Trần Thị Thùy Dương,1,56437045,,,
@@ -4138,7 +4280,7 @@ Nguyễn Cao Sơn,Đinh Việt Dũng,1,56437045,Tỉnh ủy,Khối Đảng Tỉn
 Nguyễn Cao Sơn,Đinh Văn Tiên,1,56437045,Tỉnh ủy,Khối Đảng Tỉnh ủy,
 Nguyễn Cao Sơn,Đặng Thị Vân,1,56437045,,,
 Nguyễn Cao Sơn,Đỗ Hoàng Hải,1,56437045,,Khối Đảng Tỉnh ủy,
-Nguyễn Thị Nhung,Phạm Thị Thu Hằng,1,56437045,,Khối Đảng Tỉnh ủy,
+Nguyễn Thị Nhung,Phạm Thị Thu Hằng,1,56437045,Tỉnh ủy,Khối Đảng Tỉnh ủy,
 Nguyễn Thị Nhung,Phạm Vinh Dự,1,56437045,,,
 Nguyễn Thị Nhung,Trần Thanh Sơn,1,56437045,,Khối Đảng Tỉnh ủy,
 Nguyễn Thị Nhung,Trần Thị Thùy Dương,1,56437045,,,
@@ -4151,8 +4293,7 @@ Phạm Thị Thu Hằng,Phạm Vinh Dự,1,56437045,,,
 Phạm Thị Thu Hằng,Trần Thanh Sơn,1,56437045,,Khối Đảng Tỉnh ủy,
 Phạm Thị Thu Hằng,Trần Thị Thùy Dương,1,56437045,,,
 Phạm Thị Thu Hằng,Trần Đăng Sơn,1,56437045,,,Ninh Bình
-Phạm Thị Thu Hằng,Đinh Việt Dũng,1,56437045,Tỉnh ủy Ninh Bình,Khối Đảng Tỉnh ủy,Ninh Bình
-Phạm Thị Thu Hằng,Đinh Văn Tiên,1,56437045,,Khối Đảng Tỉnh ủy,
+Phạm Thị Thu Hằng,Đinh Văn Tiên,1,56437045,Tỉnh ủy,Khối Đảng Tỉnh ủy,
 Phạm Thị Thu Hằng,Đặng Thị Vân,1,56437045,,,
 Phạm Thị Thu Hằng,Đỗ Hoàng Hải,1,56437045,,Khối Đảng Tỉnh ủy,
 Phạm Vinh Dự,Trần Thanh Sơn,1,56437045,,Hội đồng nhân dân địa phương,
@@ -4244,7 +4385,6 @@ Lữ Thanh Hải,Nguyễn Thành Phú,1,56442085,,,Khánh Hòa
 Lê Hải Hòa,Lưu Văn Vượng,1,56437198,,,
 Lê Hải Hòa,Lục Quang Trung,1,56437198,,,
 Lê Hải Hòa,Nguyễn Hoàng Quốc Dũng,1,56437198,,,
-Lê Hải Hòa,Phan Thăng An,1,56437198,"Ban Chấp hành Trung ương Đảng, Tỉnh ủy, Tỉnh ủy Cao Bằng",Khối Đảng Tỉnh ủy,Cao Bằng
 Lê Hải Hòa,Đinh Mạnh Thắng,1,56437198,,,
 Lưu Văn Vượng,Lục Quang Trung,1,56437198,,,
 Lưu Văn Vượng,Nguyễn Hoàng Quốc Dũng,1,56437198,,,
@@ -4279,9 +4419,8 @@ Nguyễn Minh Thư,Trịnh Minh Hoàng,1,56382340,,,Khánh Hòa
 Nguyễn Văn Quế,Trịnh Minh Hoàng,1,56382340,,,
 Lê Quốc Bảo,Y Thanh Hà Niê Kđăm,1,56441960,,,
 Bùi Thắng,Bùi Thị Quỳnh Vân,1,56453839,,,
-Bùi Thắng,Y Thanh Hà Niê Kđăm,1,56453839,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
 Bùi Thị Quỳnh Vân,Y Thanh Hà Niê Kđăm,1,56453839,"Ban Chấp hành Trung ương Đảng, Ban Tổ chức Trung ương",Ban Tổ chức Trung ương,
-Cao Sơn Dũng,Hồ Văn Mười,1,56384712,Sở Xây dựng Lâm Đồng,Sở Xây dựng,Lâm Đồng
+Cao Sơn Dũng,Hồ Văn Mười,1,56384712,"Sở Xây dựng Lâm Đồng, Tỉnh ủy Lâm Đồng","Khối Đảng Tỉnh ủy, Sở Xây dựng",Lâm Đồng
 Cao Sơn Dũng,Nguyễn Bá Út,1,56384712,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
 Cao Sơn Dũng,Trương Trung Thắng,1,56384712,Sở Xây dựng Lâm Đồng,Sở Xây dựng,Lâm Đồng
 Cao Sơn Dũng,Đặng Hồng Sỹ,1,56384712,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
@@ -4290,7 +4429,6 @@ Huỳnh Duy Khôi,Nguyễn Bá Út,1,56384712,Sở Công Thương Lâm Đồng,S
 Huỳnh Duy Khôi,Trương Trung Thắng,1,56384712,,,Lâm Đồng
 Huỳnh Duy Khôi,Đặng Hồng Sỹ,1,56384712,,,Lâm Đồng
 Hồ Văn Mười,Trương Trung Thắng,1,56384712,"Sở Xây dựng Lâm Đồng, UBND phường Xuân Trường","Chính quyền địa phương, Sở Xây dựng",Lâm Đồng
-Hồ Văn Mười,Đặng Hồng Sỹ,1,56384712,,,Lâm Đồng
 Nguyễn Bá Út,Trương Trung Thắng,1,56384712,Đảng ủy,,Lâm Đồng
 Nguyễn Bá Út,Đặng Hồng Sỹ,1,56384712,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
 Trương Trung Thắng,Đặng Hồng Sỹ,1,56384712,,,Lâm Đồng
@@ -4346,13 +4484,13 @@ Ngô Chí Cường,Đinh Văn Dũng,1,56450508,"Tỉnh ủy, Tỉnh ủy Đồng
 Phan Văn Thắng,Trần Văn Độ,1,56450508,,,
 Trần Văn Độ,Đinh Văn Dũng,1,56450508,,,
 Lương Văn Ngoan,Ngô Chí Cường,1,56385034,,,
-Lê Trung Hồ,Nguyễn Thanh Nhàn,1,56262417,,Khối Chính quyền địa phương,
-Lê Trung Hồ,Ngô Chí Cường,1,56262417,,Khối HĐND địa phương,
-Lê Trung Hồ,Trần Thị Thanh Hương,1,56262417,HĐND tỉnh An Giang,Khối HĐND địa phương,An Giang
+Lê Trung Hồ,Nguyễn Thanh Nhàn,1,56262417,,"Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",
+Lê Trung Hồ,Ngô Chí Cường,1,56262417,,"Khối HĐND địa phương, Khối Đảng Tỉnh ủy",
+Lê Trung Hồ,Trần Thị Thanh Hương,1,56262417,"HĐND tỉnh An Giang, Tỉnh ủy An Giang","Khối HĐND địa phương, Khối Đảng Tỉnh ủy",An Giang
 Lê Trung Hồ,Vũ Thị Diễm Thúy,1,56262417,,,An Giang
-Nguyễn Thanh Nhàn,Trần Thị Thanh Hương,1,56262417,,,Đồng Tháp
+Nguyễn Thanh Nhàn,Trần Thị Thanh Hương,1,56262417,,Khối Đảng Tỉnh ủy,Đồng Tháp
 Nguyễn Thanh Nhàn,Vũ Thị Diễm Thúy,1,56262417,,,
-Ngô Chí Cường,Trần Thị Thanh Hương,1,56262417,,Khối HĐND địa phương,Đồng Tháp
+Ngô Chí Cường,Trần Thị Thanh Hương,1,56262417,,"Khối HĐND địa phương, Khối Đảng Tỉnh ủy",Đồng Tháp
 Ngô Chí Cường,Vũ Thị Diễm Thúy,1,56262417,,,
 Trần Thị Thanh Hương,Vũ Thị Diễm Thúy,1,56262417,,,An Giang
 Huỳnh Minh Thức,Nguyễn Phước Thiện,1,56448586,Tỉnh ủy Đồng Tháp,Khối Đảng Tỉnh ủy,Đồng Tháp
@@ -4389,7 +4527,6 @@ Nguyễn Minh Luân,Trần Trung Tính,1,56404722,,,
 Trần Trung Tính,Vũ Hải Quân,1,56404722,Bộ Khoa học và Công nghệ,Ngành Khoa học và Công nghệ,
 Huỳnh Công Quân,Lữ Quang Ngời,1,56410622,,,Cà Mau
 Huỳnh Công Quân,Nguyễn Hồ Hải,1,56410622,,,Cà Mau
-Lữ Quang Ngời,Nguyễn Hồ Hải,1,56410622,,,Cà Mau
 Nguyễn Hồ Hải,Nguyễn Thị Ánh Hoa,1,56407369,,,
 Bùi Tứ Hải,Dương Vũ Nam,1,56407582,,,Cà Mau
 Bùi Tứ Hải,Nguyễn Hồ Hải,1,56407582,,,Cà Mau
@@ -4613,7 +4750,7 @@ Nguyễn Long Hải,Đỗ Trường Giang,1,56438415,,,
 Nguyễn Thị Thu Hoài,Đỗ Trường Giang,1,56438415,,,
 Nguyễn Thanh Tú,Phạm Thị Hòa,1,56449296,,,
 Lưu Nam Tiến,Lương Đình Hưng,1,56418401,,Ngành Quốc phòng,
-Hoàng Hữu Chiến,Vũ Trung Kiên,1,56413092,,Ngành Quốc phòng,
+Hoàng Hữu Chiến,Vũ Trung Kiên,1,56413092,,"Ngành Quốc phòng, Ngành Quốc phòng - Biên phòng",
 Dương Mạnh Hùng,Nguyễn Đăng Sinh,1,56448265,,,
 Nguyễn Trọng Đô,Tạ Văn Tường,1,56420260,,,Hà Nội
 Nguyễn Trọng Đô,Tống Văn Thái,1,56420260,,Chính quyền địa phương,Hà Nội
@@ -4718,7 +4855,7 @@ Ngô Quốc Vương,Phùng Văn Huy,1,56439117,,,Đà Nẵng
 Phan Tấn Quang,Phùng Văn Huy,1,56439117,,,
 Nguyễn Hồng Minh,Phạm Đình Nam,1,56442787,,,
 Lương Tam Quang,Nguyễn Hòa Bình,1,51839928,"Ban Bí thư Trung ương Đảng, Bộ Chính trị, Chính phủ","Khối Chính phủ, Khối Đảng Trung ương",
-Lương Tam Quang,Nguyễn Văn Quảng,1,51839928,Ban Bí thư Trung ương Đảng,Khối Đảng Trung ương,
+Lương Tam Quang,Nguyễn Văn Quảng,1,51839928,Ban Bí thư Trung ương Đảng,Khối Đảng Trung ương,Hà Nội
 Lương Tam Quang,Phan Diễn,1,51839928,"Ban Bí thư Trung ương Đảng, Bộ Chính trị",Khối Đảng Trung ương,
 Lương Tam Quang,Thái Đại Ngọc,1,51839928,,,
 Lương Tam Quang,Trương Thiên Tô,1,51839928,,,
@@ -4743,8 +4880,8 @@ Phan Diễn,Thái Đại Ngọc,1,51839928,,,
 Phan Diễn,Trương Thiên Tô,1,51839928,,,
 Phan Diễn,Tô Lâm,1,51839928,,Khối Đảng Trung ương,
 Phan Văn Giang,Thái Đại Ngọc,1,51839928,Bộ Quốc phòng,Ngành Quốc phòng,
-Thái Đại Ngọc,Trương Thiên Tô,1,51839928,"Ban Chấp hành Trung ương Đảng, Bộ Quốc phòng",,
-Trương Thiên Tô,Tô Lâm,1,51839928,Ban Chấp hành Trung ương Đảng,,
+Thái Đại Ngọc,Trương Thiên Tô,1,51839928,"Ban Chấp hành Trung ương Đảng, Bộ Quốc phòng",Ngành Quốc phòng,
+Trương Thiên Tô,Tô Lâm,1,51839928,Ban Chấp hành Trung ương Đảng,Ngành Quốc phòng,
 Lê Minh Trí,Lê Ngọc Quang,1,56239288,Ban Chấp hành Trung ương Đảng,,
 Lê Ngọc Quang,Nguyễn Văn Quảng,1,56239288,"Ban Chấp hành Trung ương Đảng, Thành ủy Đà Nẵng",Khối Đảng Thành ủy,Đà Nẵng
 Lê Ngọc Quang,Trương Quân,1,56239288,,,Đà Nẵng
@@ -4871,7 +5008,7 @@ Nguyễn Phi Long,Phan Văn Giang,1,52461287,,,
 Nguyễn Phi Long,Tô Lâm,1,52461287,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Phi Long,Đặng Xuân Phong,1,52461287,Ban Chấp hành Trung ương Đảng,Khối Đảng Tỉnh ủy,
 Phan Văn Giang,Đặng Xuân Phong,1,52461287,,,
-Tô Lâm,Đặng Xuân Phong,1,52461287,Ban Chấp hành Trung ương Đảng,,
+Tô Lâm,Đặng Xuân Phong,1,52461287,Ban Chấp hành Trung ương Đảng,Khối Chính quyền địa phương,
 Đặng Xuân Phong,Đỗ Văn Chiến,1,52461287,Ban Chấp hành Trung ương Đảng,Khối Quốc hội,
 Bùi Thanh Nhân,Hồ Thị Ánh Tuyết,1,56283927,,Khối Mặt trận - Đoàn thể,
 Bùi Thanh Nhân,Lê Trương Hải Hiếu,1,56283927,Thành ủy TP.HCM,,
@@ -4910,20 +5047,16 @@ Chu Văn Trọng,Đỗ Bình Dương,1,56445834,Đảng ủy,,Bắc Ninh
 Lê Xuân Thắng,Trần Văn An,1,56445834,,,
 Lê Xuân Thắng,Đỗ Bình Dương,1,56445834,Đảng ủy,,Bắc Ninh
 Trần Văn An,Đỗ Bình Dương,1,56445834,,,
-Hoàng Quốc Khánh,Nguyễn Cảnh Toàn,1,56454276,Tỉnh ủy Lạng Sơn,Khối Đảng Tỉnh ủy,Lạng Sơn
 Hoàng Quốc Khánh,Trần Sỹ Thanh,1,56454276,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Cảnh Toàn,Trần Sỹ Thanh,1,56454276,,,
 Hà Nhật Lệ,Lê Văn Định,1,56455481,,,Cao Bằng
 Hà Nhật Lệ,Nông Thị Thanh Huyền,1,56455481,,,Cao Bằng
 Lê Văn Định,Nông Thị Thanh Huyền,1,56455481,,,Cao Bằng
 Nông Tuấn Phong,Đàm Trung Nghĩa,1,56276929,,,Cao Bằng
-Dương Đình Chỉnh,Lê Văn Giáp,1,56455490,Tỉnh ủy Nghệ An,,Nghệ An
 Dương Đình Chỉnh,Phạm Thị Kim Hoa,1,56455490,HĐND tỉnh Nghệ An,Khối HĐND địa phương,Nghệ An
-Lê Thị Hoài Chung,Lê Văn Giáp,1,56455490,Đảng ủy,,Nghệ An
 Lê Thị Hoài Chung,Phạm Thị Kim Hoa,1,56455490,,,Nghệ An
 Lê Văn Giáp,Phạm Thị Kim Hoa,1,56455490,,,Nghệ An
 Hà Trung Văn,Vũ Hồng Quang,1,56417605,Ủy ban MTTQ Việt Nam tỉnh Cao Bằng,Khối Mặt trận - Đoàn thể,Cao Bằng
-Hoàng Thanh Tùng,Tô Lâm,1,56454196,Ban Chấp hành Trung ương Đảng,,
 Lê Minh Hưng,Nguyễn Phú Trọng,1,56444521,"Ban Chấp hành Trung ương Đảng, Quốc hội","Khối Quốc hội, Khối Đảng Trung ương",
 Nguyễn Thanh Bình,Nguyễn Xuân Yêm,1,56430231,,,
 Nguyễn Thanh Bình,Vũ Hùng Vương,1,56430231,,,
@@ -5235,7 +5368,7 @@ Nguyễn Hồng Sơn,Đỗ Văn Phới,1,51387532,Ban Chấp hành Trung ương 
 Nguyễn Khắc Định,Nguyễn Lam,1,51387532,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Khắc Định,Nguyễn Quang Trường,1,51387532,Đảng ủy,,
 Nguyễn Khắc Định,Nguyễn Thị Hoàng Vân,1,51387532,"Ban Chấp hành Trung ương Đảng, Đảng ủy",,
-Nguyễn Khắc Định,Nguyễn Thị Thu Hà,1,51387532,"Ban Chấp hành Trung ương Đảng, Đảng ủy",,
+Nguyễn Khắc Định,Nguyễn Thị Thu Hà,1,51387532,"Ban Chấp hành Trung ương Đảng, Đảng ủy",Khối Quốc hội,
 Nguyễn Khắc Định,Nguyễn Trọng Nghĩa,1,51387532,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Khắc Định,Nguyễn Văn Hiếu,1,51387532,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Khắc Định,Ngô Đông Hải,1,51387532,Ban Chấp hành Trung ương Đảng,,
@@ -5323,19 +5456,18 @@ Nguyễn Thị Thu Hà,Nguyễn Văn Hiếu,1,51387532,Ban Chấp hành Trung ư
 Nguyễn Thị Thu Hà,Ngô Đông Hải,1,51387532,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Thị Thu Hà,Phan Xuân Thủy,1,51387532,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Thị Thu Hà,Phạm Tất Thắng,1,51387532,"Ban Chấp hành Trung ương Đảng, Đảng ủy",,
-Nguyễn Thị Thu Hà,Phạm Đại Dương,1,51387532,Ban Chấp hành Trung ương Đảng,,
+Nguyễn Thị Thu Hà,Phạm Đại Dương,1,51387532,Ban Chấp hành Trung ương Đảng,Khối Quốc hội,
 Nguyễn Thị Thu Hà,Thái Thanh Quý,1,51387532,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Thị Thu Hà,Triệu Tài Vinh,1,51387532,Ban Chấp hành Trung ương Đảng,,
-Nguyễn Thị Thu Hà,Trần Lưu Quang,1,51387532,Ban Chấp hành Trung ương Đảng,,
-Nguyễn Thị Thu Hà,Trần Thanh Mẫn,1,51387532,"Ban Chấp hành Trung ương Đảng, Đảng ủy, Ủy ban Trung ương MTTQ Việt Nam",Khối Mặt trận - Đoàn thể,
+Nguyễn Thị Thu Hà,Trần Lưu Quang,1,51387532,Ban Chấp hành Trung ương Đảng,Khối Quốc hội,
 Nguyễn Thị Thu Hà,Trần Thắng,1,51387532,"Đảng ủy, Ủy ban Trung ương MTTQ Việt Nam",Khối Mặt trận - Đoàn thể,
 Nguyễn Thị Thu Hà,Tô Lâm,1,51387532,Ban Chấp hành Trung ương Đảng,,
-Nguyễn Thị Thu Hà,Vũ Hải Hà,1,51387532,"Ban Chấp hành Trung ương Đảng, Đảng ủy",,
+Nguyễn Thị Thu Hà,Vũ Hải Hà,1,51387532,"Ban Chấp hành Trung ương Đảng, Đảng ủy",Khối Quốc hội,
 Nguyễn Thị Thu Hà,Vũ Thanh Mai,1,51387532,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Thị Thu Hà,Đinh Thị Mai,1,51387532,Ban Chấp hành Trung ương Đảng,,
-Nguyễn Thị Thu Hà,Đặng Xuân Phương,1,51387532,Đảng ủy,,
+Nguyễn Thị Thu Hà,Đặng Xuân Phương,1,51387532,"Đoàn ĐBQH Quảng Ninh, Đảng ủy",Khối Quốc hội,Quảng Ninh
 Nguyễn Thị Thu Hà,Đỗ Việt Hà,1,51387532,Đảng ủy,,
-Nguyễn Thị Thu Hà,Đỗ Văn Chiến,1,51387532,"Ban Chấp hành Trung ương Đảng, Đảng ủy, Ủy ban Trung ương MTTQ Việt Nam",Khối Mặt trận - Đoàn thể,
+Nguyễn Thị Thu Hà,Đỗ Văn Chiến,1,51387532,"Ban Chấp hành Trung ương Đảng, Đảng ủy, Ủy ban Trung ương MTTQ Việt Nam","Khối Mặt trận - Đoàn thể, Khối Quốc hội",
 Nguyễn Thị Thu Hà,Đỗ Văn Phới,1,51387532,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Trọng Nghĩa,Nguyễn Văn Hiếu,1,51387532,"Ban Chấp hành Trung ương Đảng, Ban Tuyên giáo Trung ương",Ban Tuyên giáo Trung ương,
 Nguyễn Trọng Nghĩa,Ngô Đông Hải,1,51387532,"Ban Chấp hành Trung ương Đảng, Ban Tuyên giáo Trung ương",Ban Tuyên giáo Trung ương,
@@ -5517,7 +5649,6 @@ Vũ Thanh Mai,Đỗ Văn Phới,1,51387532,Ban Chấp hành Trung ương Đảng
 Đỗ Việt Hà,Đỗ Văn Phới,1,51387532,,,
 Đỗ Văn Chiến,Đỗ Văn Phới,1,51387532,"Ban Chấp hành Trung ương Đảng, Ban Dân vận Trung ương",Ban Dân vận Trung ương,
 Nguyễn Hoàng Hải,Nguyễn Văn Đoạt,1,56455780,,,
-Lê Thành Đô,Lê Văn Lương,1,56455006,Tỉnh ủy Điện Biên,Khối Đảng Tỉnh ủy,Điện Biên
 Lê Quốc Minh,Nguyễn Quang Vũ,1,56234231,,,
 Lâm Thị Phương Thanh,Nguyễn Hồng Diên,1,56456551,,,
 Lâm Thị Phương Thanh,Nguyễn Thị Hồng,1,56456551,Ban Chấp hành Trung ương Đảng,,
@@ -5632,7 +5763,7 @@ Nguyễn Xuân Thảo,Tô Lâm,1,56454664,,,
 Phạm Gia Túc,Trần Thanh Hải,1,56454664,,,
 Phạm Gia Túc,Trần Tiến Dũng,1,56454664,,Khối Quốc hội,
 Thái Đại Ngọc,Trần Tiến Dũng,1,56454664,"Ban Chấp hành Trung ương Đảng, Tỉnh ủy",Khối Đảng Tỉnh ủy,
-Trần Thanh Hải,Tô Lâm,1,56454664,,Ngành Quốc phòng,
+Trần Thanh Hải,Tô Lâm,1,56454664,Bộ Công Thương,"Ngành Công Thương, Ngành Quốc phòng",
 Trần Tiến Dũng,Tô Lâm,1,56454664,Ban Chấp hành Trung ương Đảng,,
 Nguyễn Hữu Quế,Trần Thanh Hải,1,56454129,,,
 Trương Văn Đạt,Trần Thanh Hải,1,56454129,,,
@@ -5724,7 +5855,7 @@ Huỳnh Thanh Tuấn,Nguyễn Thanh Hải,1,56457617,,,
 Huỳnh Thanh Tuấn,Nguyễn Thanh Liêm,1,56457617,Đảng ủy,,
 Huỳnh Thanh Tuấn,Nguyễn Văn Hà,1,56457617,,,
 Huỳnh Thanh Tuấn,Nguyễn Văn Khởi,1,56457617,,,
-Huỳnh Thanh Tuấn,Đặng Văn Dũng,1,56457617,,,
+Huỳnh Thanh Tuấn,Đặng Văn Dũng,1,56457617,Đảng ủy,,
 Lý Công Bắc,Nguyễn Huy Tiến,1,56457617,,,Cà Mau
 Lý Công Bắc,Nguyễn Thanh Hải,1,56457617,,,
 Lý Công Bắc,Nguyễn Thanh Liêm,1,56457617,,,Cà Mau
@@ -5744,11 +5875,9 @@ Lâm Văn Bi,Nguyễn Thanh Hải,1,56457521,,,
 Lâm Văn Bi,Nguyễn Thanh Liêm,1,56457521,UBND tỉnh Cà Mau,Khối Chính quyền địa phương,Cà Mau
 Lâm Văn Bi,Nguyễn Văn Hà,1,56457521,,,
 Lâm Văn Bi,Đặng Văn Dũng,1,56457521,,,Cà Mau
-Nguyễn Huy Tiến,Nguyễn Hồ Hải,1,56457521,,,Cà Mau
 Nguyễn Hồ Hải,Nguyễn Thanh Hải,1,56457521,,Khối Quốc hội,
 Nguyễn Hồ Hải,Nguyễn Thanh Liêm,1,56457521,,Khối Đảng Tỉnh ủy,Cà Mau
 Nguyễn Hồ Hải,Nguyễn Văn Hà,1,56457521,,,
-Nguyễn Hồ Hải,Đặng Văn Dũng,1,56457521,Tỉnh ủy Cà Mau,Khối Đảng Tỉnh ủy,Cà Mau
 Lâm Hồ Sỹ,Lê Thị Nhung,1,56454468,,,Cà Mau
 Lâm Hồ Sỹ,Lê Văn Sử,1,56454468,,,Cà Mau
 Lâm Hồ Sỹ,Nguyễn Văn Khởi,1,56454468,,,Cà Mau
@@ -5801,3 +5930,406 @@ Lê Thành Chung,Đặng Thị Huệ,1,56401368,,Chính quyền địa phương,
 Tô Nguyễn Nhị Linh,Đặng Thị Huệ,1,56401368,,Chính quyền địa phương,Tây Ninh
 Nguyễn Thị Quyên Thanh,Trần Ngọc Uyển,1,56291269,,,
 Nguyễn Tấn Quốc,Phạm Tấn Hòa,1,56284625,,,Tây Ninh
+Khúc Thị Thoi,Nguyễn Thị Bích Ngọc,1,56476073,"Sở Văn hóa, Thể thao và Du lịch Lâm Đồng","Sở Văn hóa, Thể thao và Du lịch",Lâm Đồng
+Khúc Thị Thoi,Đinh Văn Tuấn,1,56476073,,,Lâm Đồng
+Nguyễn Thị Bích Ngọc,Đinh Văn Tuấn,1,56476073,,,Lâm Đồng
+Nguyễn Minh Dũng,Trần Trí Quang,1,56476145,Tỉnh ủy Vĩnh Long,Khối Đảng Tỉnh ủy,Vĩnh Long
+Huỳnh Thị Thu Năm,Nguyễn Hồng Thanh,1,56476336,Tỉnh ủy Tây Ninh,Khối Đảng Tỉnh ủy,Tây Ninh
+Huỳnh Thị Thu Năm,Nguyễn Tiến Tân,1,56476336,,,Tây Ninh
+Nguyễn Hồng Thanh,Nguyễn Tiến Tân,1,56476336,,,Tây Ninh
+Nguyễn Hồng Lĩnh,Phan Thiên,1,56475917,"HĐND tỉnh Hà Tĩnh, Tỉnh ủy Hà Tĩnh","Khối HĐND địa phương, Khối Đảng Tỉnh ủy",Hà Tĩnh
+Lê Văn Tuyến,Trần Văn Thiện,1,56475943,,,
+Nguyễn Việt Dũng,Đinh Minh Tuấn,1,56476151,,Sở Giáo dục và Đào tạo,
+Lê Huyền,Nguyễn Tân Cương,1,56475951,,,
+Mai Sơn,Nguyễn Mạnh Đông,1,56476153,,,Bắc Ninh
+Lê Xuân Dương,Nguyễn Quốc Hà,1,56475983,,,
+Lê Xuân Dương,Vương Tuấn Nghĩa,1,56475983,,,
+Nguyễn Quốc Hà,Vương Tuấn Nghĩa,1,56475983,,,
+Huỳnh Chí Nguyện,Lâm Dương Minh Em,1,56476385,,,Cà Mau
+Huỳnh Chí Nguyện,Nguyễn Huy Tiến,1,56476385,,,Cà Mau
+Huỳnh Chí Nguyện,Nguyễn Hồ Hải,1,56476385,,,Cà Mau
+Huỳnh Chí Nguyện,Phạm Văn Thiều,1,56476385,,,Cà Mau
+Lâm Dương Minh Em,Nguyễn Huy Tiến,1,56476385,,,Cà Mau
+Lâm Dương Minh Em,Nguyễn Hồ Hải,1,56476385,,,Cà Mau
+Lâm Dương Minh Em,Phạm Văn Thiều,1,56476385,,,Cà Mau
+Nguyễn Huy Tiến,Phạm Văn Thiều,1,56476385,,,Cà Mau
+Nguyễn Minh Dũng,Nguyễn Thị Ngọc Giàu,1,56475627,,,Vĩnh Long
+Bùi Thắng,Nguyễn Thị Thanh Thảo,1,56475945,,,Lâm Đồng
+Bùi Thắng,Nguyễn Văn Tám,1,56475945,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Nguyễn Thị Thanh Thảo,Nguyễn Văn Tám,1,56475945,,,Lâm Đồng
+Cao Văn Cường,Nguyễn Tân Cương,1,56475610,,,
+Cao Văn Cường,Đinh Bạt Văn,1,56475610,Tỉnh ủy Thanh Hóa,Khối Đảng Tỉnh ủy,Thanh Hóa
+Nguyễn Tân Cương,Đinh Bạt Văn,1,56475610,,Ngành Quốc phòng,
+Nguyễn Khắc Trung,Nguyễn Tân Cương,1,56475448,,Ngành Quốc phòng,
+Dương Quốc Huy,Phan Trung Bá,1,56475305,,,Lào Cai
+Hà Trung Kiên,Trần Quang Minh,1,56475258,Tỉnh ủy Tuyên Quang,Khối Đảng Tỉnh ủy,Tuyên Quang
+Hà Trung Kiên,Đặng Ái Xoan,1,56475258,"Tỉnh ủy Tuyên Quang, Ủy ban MTTQ Việt Nam tỉnh Tuyên Quang",Khối Mặt trận - Đoàn thể,Tuyên Quang
+Trần Quang Minh,Đặng Ái Xoan,1,56475258,Tỉnh ủy Tuyên Quang,,Tuyên Quang
+Nguyễn Tân Cương,Nông Quang Nhất,1,56475189,,,
+Nguyễn Quốc Triều,Phạm Thế Bính,1,56475171,,,
+Nguyễn Ngọc Vinh,Nguyễn Vĩnh Thanh,1,56475040,,,
+Nguyễn Thanh Sơn,Nguyễn Việt Oanh,1,56474709,,,
+Dương Văn Phúc,Trần Trí Quang,1,56474767,"Tỉnh ủy Vĩnh Long, Tỉnh ủy Vĩnh Phúc, UBND tỉnh Vĩnh Long","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Vĩnh Long
+Trương Đặng Vĩnh Phúc,Trần Trí Quang,1,56474767,"Tỉnh ủy Vĩnh Long, Tỉnh ủy Vĩnh Phúc, UBND tỉnh Vĩnh Long","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Vĩnh Long
+Hồ Quang Bửu,Ngô Xuân Thắng,1,56474509,,,Đà Nẵng
+Hồ Quang Bửu,Vũ Quang Hùng,1,56474509,,,Đà Nẵng
+Ngô Xuân Thắng,Vũ Quang Hùng,1,56474509,,,Đà Nẵng
+Dương Văn Tiến,Triệu Thị Thu Hoài,1,56473173,,,Thái Nguyên
+Dương Văn Tiến,Trần Xuân Trường,1,56473173,,,Thái Nguyên
+Triệu Thị Thu Hoài,Trần Xuân Trường,1,56473173,,,Thái Nguyên
+Triệu Thị Thu Hoài,Trịnh Xuân Trường,1,56473173,,,Thái Nguyên
+Trần Xuân Trường,Trịnh Xuân Trường,1,56473173,,,Thái Nguyên
+Bùi Nam Dũng,Phạm Thị Hồng Hạnh,1,56472689,,,
+Bùi Nam Dũng,Đinh Thị Ngơi,1,56472689,,,
+Phạm Thị Hồng Hạnh,Đinh Thị Ngơi,1,56472689,,,
+Huỳnh Ngọc Thanh,Lê Quang Tùng,1,56472455,,,
+Huỳnh Ngọc Thanh,Nguyễn Hữu Định,1,56472455,,,
+Huỳnh Ngọc Thanh,Trần Trọng Toàn,1,56472455,,,
+Huỳnh Ngọc Thanh,Tống Phước Trường,1,56472455,,,
+Lê Hồng Lợi,Lê Quang Tùng,1,56472455,,,
+Lê Hồng Lợi,Nguyễn Hữu Định,1,56472455,,,
+Lê Hồng Lợi,Trần Trọng Toàn,1,56472455,,,
+Lê Hồng Lợi,Tống Phước Trường,1,56472455,,,
+Lê Quang Tùng,Nguyễn Hữu Khánh,1,56472455,,Khối Đảng Tỉnh ủy,
+Lê Quang Tùng,Nguyễn Hữu Định,1,56472455,,,
+Lê Quang Tùng,Nguyễn Thanh Long,1,56472455,,,
+Lê Quang Tùng,Nguyễn Thanh Sang,1,56472455,,,
+Lê Quang Tùng,Nguyễn Thanh Vũ,1,56472455,,Khối Chính quyền địa phương,
+Lê Quang Tùng,Nguyễn Thúc Phước Hải,1,56472455,,,
+Lê Quang Tùng,Nguyễn Trường Sa,1,56472455,,,
+Lê Quang Tùng,Nguyễn Vũ Linh Sang,1,56472455,,Khối Chính quyền địa phương,
+Lê Quang Tùng,Phạm Thành Bắc,1,56472455,,,
+Lê Quang Tùng,Trần Hoàng Vũ,1,56472455,,,
+Lê Quang Tùng,Trần Trọng Toàn,1,56472455,,,
+Nguyễn Hữu Khánh,Nguyễn Hữu Định,1,56472455,,,
+Nguyễn Hữu Khánh,Trần Trọng Toàn,1,56472455,,,
+Nguyễn Hữu Khánh,Tống Phước Trường,1,56472455,Tỉnh ủy,Khối Đảng Tỉnh ủy,
+Nguyễn Hữu Định,Nguyễn Thanh Long,1,56472455,,,
+Nguyễn Hữu Định,Nguyễn Thanh Sang,1,56472455,,,
+Nguyễn Hữu Định,Nguyễn Thanh Vũ,1,56472455,,,
+Nguyễn Hữu Định,Nguyễn Thúc Phước Hải,1,56472455,,,
+Nguyễn Hữu Định,Nguyễn Trường Sa,1,56472455,,,
+Nguyễn Hữu Định,Nguyễn Vũ Linh Sang,1,56472455,,,
+Nguyễn Hữu Định,Phạm Thành Bắc,1,56472455,,,
+Nguyễn Hữu Định,Trần Hoàng Vũ,1,56472455,,,
+Nguyễn Hữu Định,Tống Phước Trường,1,56472455,,,
+Nguyễn Thanh Long,Trần Trọng Toàn,1,56472455,,,
+Nguyễn Thanh Long,Tống Phước Trường,1,56472455,,,
+Nguyễn Thanh Sang,Trần Trọng Toàn,1,56472455,,,
+Nguyễn Thanh Sang,Tống Phước Trường,1,56472455,,,
+Nguyễn Thanh Vũ,Trần Trọng Toàn,1,56472455,,,
+Nguyễn Thanh Vũ,Tống Phước Trường,1,56472455,,,
+Nguyễn Thúc Phước Hải,Trần Trọng Toàn,1,56472455,,,
+Nguyễn Thúc Phước Hải,Tống Phước Trường,1,56472455,,,
+Nguyễn Trường Sa,Trần Trọng Toàn,1,56472455,,,
+Nguyễn Trường Sa,Tống Phước Trường,1,56472455,,,
+Nguyễn Vũ Linh Sang,Trần Trọng Toàn,1,56472455,,,
+Nguyễn Vũ Linh Sang,Tống Phước Trường,1,56472455,,,
+Phạm Thành Bắc,Trần Trọng Toàn,1,56472455,,,
+Phạm Thành Bắc,Tống Phước Trường,1,56472455,,,
+Trần Hoàng Vũ,Trần Trọng Toàn,1,56472455,,,
+Trần Hoàng Vũ,Tống Phước Trường,1,56472455,,,
+Trần Trọng Toàn,Tống Phước Trường,1,56472455,,,
+Bùi Thắng,Đậu Đình Thái,1,56472202,,,
+Huỳnh Minh Tuấn,Nguyễn Đình Thông,1,56471859,,Khối Chính quyền địa phương,
+Lê Mạnh Hùng,Tô Lâm,1,56471838,Chính phủ,Khối Chính phủ,
+Lê Quang Tùng,Phạm Hoàng Nam,1,56471428,Tỉnh ủy An Giang,,An Giang
+Phạm Hoàng Nam,Tống Phước Trường,1,56471428,"Ban Nội chính Tỉnh ủy An Giang, Tỉnh ủy An Giang",Ban Nội chính Tỉnh ủy An Giang,An Giang
+Cao Trường Sơn,Nguyễn Thanh Bình,1,56471229,Tỉnh ủy,Khối Đảng Tỉnh ủy,
+Cao Trường Sơn,Trần Thị Tèo,1,56471229,Tỉnh ủy,Khối Đảng Tỉnh ủy,
+Cao Trường Sơn,Trịnh Như Lâm,1,56471229,Đảng ủy,Hội đồng nhân dân địa phương,
+Nguyễn Thanh Bình,Trần Thị Tèo,1,56471229,"Tỉnh ủy, UBND tỉnh","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",
+Nguyễn Thanh Bình,Trịnh Như Lâm,1,56471229,,,
+Trần Thị Tèo,Trịnh Như Lâm,1,56471229,,,
+Hoàng Nguyên Dự,Đinh Thị Lụa,1,56471362,"Tỉnh ủy, Tỉnh ủy Ninh Bình",Khối Đảng Tỉnh ủy,Ninh Bình
+Phạm Quang Hưng,Tô Lâm,1,56471136,,,
+Nguyễn Duy Ngọc,Nguyễn Minh Vũ,1,56471236,Ban Chấp hành Trung ương Đảng,,
+Nguyễn Duy Ngọc,Nguyễn Ngọc Hà,1,56471236,,,
+Nguyễn Duy Ngọc,Nguyễn Phú Trọng,1,56471236,Ban Chấp hành Trung ương Đảng,Khối Đảng Trung ương,
+Nguyễn Duy Ngọc,Nông Lâm Ngư,1,56471236,,,
+Nguyễn Duy Ngọc,Trần Văn Khải,1,56471236,,,
+Nguyễn Minh Vũ,Nguyễn Ngọc Hà,1,56471236,,,
+Nguyễn Minh Vũ,Nguyễn Phú Trọng,1,56471236,Ban Chấp hành Trung ương Đảng,,
+Nguyễn Minh Vũ,Nông Lâm Ngư,1,56471236,,,
+Nguyễn Minh Vũ,Trần Văn Khải,1,56471236,,,
+Nguyễn Ngọc Hà,Nguyễn Phú Trọng,1,56471236,Quốc hội,,
+Nguyễn Ngọc Hà,Nông Lâm Ngư,1,56471236,,,
+Nguyễn Ngọc Hà,Trần Văn Khải,1,56471236,Quốc hội,,
+Nguyễn Ngọc Hà,Tô Lâm,1,56471236,,,
+Nguyễn Phú Trọng,Nông Lâm Ngư,1,56471236,,,
+Nguyễn Phú Trọng,Trần Văn Khải,1,56471236,Quốc hội,Khối Quốc hội,
+Nông Lâm Ngư,Trần Văn Khải,1,56471236,,,
+Lê Quốc Chỉnh,Nguyễn Lãm,1,56471006,HĐND tỉnh,Khối HĐND địa phương,
+Lê Quốc Chỉnh,Trần Minh Thắng,1,56471006,,Khối Đảng Tỉnh ủy,
+Nguyễn Lãm,Trần Minh Thắng,1,56471006,,,
+Hoàng Minh Sơn,Hoàng Thanh Tùng,1,56473160,,,
+Hoàng Nguyên Dự,Ngô Văn Cả,1,56470801,Tỉnh ủy Ninh Bình,Khối Đảng Tỉnh ủy,Ninh Bình
+Hoàng Nguyên Dự,Trần Đăng Quỳnh,1,56470801,Tỉnh ủy Ninh Bình,Khối Đảng Tỉnh ủy,Ninh Bình
+Ngô Văn Cả,Trần Đăng Quỳnh,1,56470801,Tỉnh ủy Ninh Bình,Khối Đảng Tỉnh ủy,Ninh Bình
+La Công Phương,Nguyễn Thế Mạnh,1,56470631,,,
+La Công Phương,Đinh Quang Tuyên,1,56470631,,,
+Nguyễn Thế Mạnh,Trần Xuân Mạnh,1,56470631,,,
+Trần Xuân Mạnh,Đinh Quang Tuyên,1,56470631,,,
+Trịnh Xuân Trường,Đinh Quang Tuyên,1,56470631,Tỉnh ủy Thái Nguyên,Khối Đảng Tỉnh ủy,Thái Nguyên
+Hoàng Minh Sơn,Vũ Trung Kiên,1,56470685,Bộ đội Biên phòng tỉnh Hà Nội,"Ngành Quốc phòng, Ngành Quốc phòng - Biên phòng",
+Dương Quốc Huy,Giàng Thị Dung,1,56470465,Tỉnh ủy Lào Cai,Khối Đảng Tỉnh ủy,Lào Cai
+Dương Quốc Huy,Nguyễn Duy Bắc,1,56470465,,,
+Giàng Thị Dung,Hoàng Giang,1,56470465,Tỉnh ủy Lào Cai,Khối Đảng Tỉnh ủy,Lào Cai
+Giàng Thị Dung,Nguyễn Duy Bắc,1,56470465,,,
+Giàng Thị Dung,Nguyễn Thế Phước,1,56470465,Tỉnh ủy Lào Cai,Khối Đảng Tỉnh ủy,Lào Cai
+Hoàng Giang,Nguyễn Duy Bắc,1,56470465,,,
+Nguyễn Duy Bắc,Nguyễn Thế Phước,1,56470465,,,
+Trần Quang Dũng,Tô Lâm,1,56470496,,,
+Phạm Thị Thu Hằng,Trần Huy Tuấn,1,56470432,"Tỉnh ủy, Tỉnh ủy Ninh Bình",Khối Đảng Tỉnh ủy,Ninh Bình
+Vũ Trung Kiên,Vũ Văn Hưng,1,56470571,,,
+Trần Ngọc Hữu,Trần Quốc Khánh,1,56470317,Bộ đội Biên phòng tỉnh An Giang,Ngành Quốc phòng - Biên phòng,An Giang
+Trần Ngọc Hữu,Trần Văn Le,1,56470317,,,
+Trần Quốc Khánh,Trần Văn Le,1,56470317,,,
+Nguyễn Hồ Hải,Võ Thị Ngọc Hân,1,56470459,,,Cà Mau
+Bùi Văn Lương,Dương Văn Tiến,1,56470158,Tỉnh ủy Thái Nguyên,,Thái Nguyên
+Bùi Văn Lương,Hà Minh Hải,1,56470158,,,
+Bùi Thanh Thủy,Nguyễn Quang Lâm,1,56470170,,,
+Nguyễn Thị Việt Hà,Nguyễn Trọng Hiếu,1,56470259,,,Hà Tĩnh
+Nguyễn Thị Việt Hà,Trần Việt Hà,1,56470259,,,Hà Tĩnh
+Hầu A Lềnh,Nguyễn Văn Sơn,1,56469943,Tỉnh ủy Tuyên Quang,Khối Đảng Tỉnh ủy,Tuyên Quang
+Nguyễn Cảnh Toàn,Trần Quân,1,56469941,"Tỉnh ủy, Tỉnh ủy Lạng Sơn",Khối Đảng Tỉnh ủy,Lạng Sơn
+Hà Minh Hải,Nguyễn Hồng Phong,1,56469726,Ban Chấp hành Trung ương Đảng,,
+Hà Minh Hải,Nguyễn Văn Hùng,1,56469726,,,
+Nguyễn Hồng Phong,Nguyễn Văn Hùng,1,56469726,Tỉnh ủy Thanh Hóa,,
+La Minh Dũng,Nguyễn Mạnh Thắng,1,56472063,Đảng ủy,,Đồng Nai
+La Minh Dũng,Nguyễn Quốc Hân,1,56472063,"Thành ủy Đồng Nai, Đảng ủy",Khối Đảng Thành ủy,Đồng Nai
+Nguyễn Mạnh Thắng,Nguyễn Quốc Hân,1,56472063,Đảng ủy,,Đồng Nai
+Hoàng Minh Cường,Đỗ Thành Trung,1,56469601,UBND thành phố Hải Phòng,Khối Chính quyền địa phương,Hải Phòng
+Bùi Thắng,Huỳnh Ngọc Thanh,1,56469485,,,Lâm Đồng
+Bùi Thắng,Hồ Văn Mười,1,56469485,"Tỉnh ủy Lâm Đồng, UBND tỉnh Lâm Đồng","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Lâm Đồng
+Bùi Thắng,Lê Hồng Lợi,1,56469485,,,Lâm Đồng
+Bùi Thắng,Lưu Văn Trung,1,56469485,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Bùi Thắng,Nguyễn Hữu Khánh,1,56469485,"Tỉnh ủy, Tỉnh ủy Lâm Đồng",Khối Đảng Tỉnh ủy,Lâm Đồng
+Bùi Thắng,Nguyễn Thanh Long,1,56469485,,,Lâm Đồng
+Bùi Thắng,Nguyễn Thanh Sang,1,56469485,,,Lâm Đồng
+Bùi Thắng,Nguyễn Thanh Vũ,1,56469485,UBND tỉnh Lâm Đồng,Khối Chính quyền địa phương,Lâm Đồng
+Bùi Thắng,Nguyễn Thúc Phước Hải,1,56469485,,,Lâm Đồng
+Bùi Thắng,Nguyễn Trường Sa,1,56469485,,,Lâm Đồng
+Bùi Thắng,Nguyễn Vũ Linh Sang,1,56469485,UBND tỉnh Lâm Đồng,Khối Chính quyền địa phương,Lâm Đồng
+Bùi Thắng,Phạm Thành Bắc,1,56469485,,,Lâm Đồng
+Bùi Thắng,Phạm Thị Phúc,1,56469485,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Bùi Thắng,Trần Hoàng Vũ,1,56469485,,,Lâm Đồng
+Bùi Thắng,Trần Mậu Dũng,1,56469485,,,Lâm Đồng
+Bùi Thắng,Đặng Hồng Sỹ,1,56469485,"Tỉnh ủy, Tỉnh ủy Lâm Đồng",Khối Đảng Tỉnh ủy,Lâm Đồng
+Huỳnh Ngọc Thanh,Hồ Văn Mười,1,56469485,Sở Xây dựng Lâm Đồng,Sở Xây dựng,Lâm Đồng
+Huỳnh Ngọc Thanh,Lưu Văn Trung,1,56469485,,,Lâm Đồng
+Huỳnh Ngọc Thanh,Phạm Thị Phúc,1,56469485,,,Lâm Đồng
+Huỳnh Ngọc Thanh,Đặng Hồng Sỹ,1,56469485,,,Lâm Đồng
+Hồ Văn Mười,Lê Hồng Lợi,1,56469485,,Chính quyền địa phương,Lâm Đồng
+Hồ Văn Mười,Lưu Văn Trung,1,56469485,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Hồ Văn Mười,Nguyễn Hữu Khánh,1,56469485,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Hồ Văn Mười,Nguyễn Thanh Long,1,56469485,Sở Xây dựng Lâm Đồng,Sở Xây dựng,Lâm Đồng
+Hồ Văn Mười,Nguyễn Thanh Sang,1,56469485,,Chính quyền địa phương,Lâm Đồng
+Hồ Văn Mười,Nguyễn Thanh Vũ,1,56469485,"UBND tỉnh, UBND tỉnh Lâm Đồng",Khối Chính quyền địa phương,Lâm Đồng
+Hồ Văn Mười,Nguyễn Thúc Phước Hải,1,56469485,,Chính quyền địa phương,Lâm Đồng
+Hồ Văn Mười,Nguyễn Trường Sa,1,56469485,,Chính quyền địa phương,Lâm Đồng
+Hồ Văn Mười,Nguyễn Vũ Linh Sang,1,56469485,"UBND tỉnh, UBND tỉnh Lâm Đồng","Chính quyền địa phương, Khối Chính quyền địa phương",Lâm Đồng
+Hồ Văn Mười,Phạm Thành Bắc,1,56469485,,Chính quyền địa phương,Lâm Đồng
+Hồ Văn Mười,Phạm Thị Phúc,1,56469485,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Hồ Văn Mười,Trần Hoàng Vũ,1,56469485,,,Lâm Đồng
+Hồ Văn Mười,Trần Mậu Dũng,1,56469485,,,Lâm Đồng
+Hồ Văn Mười,Y Thanh Hà Niê Kđăm,1,56469485,"Ban Chấp hành Trung ương Đảng, Tỉnh ủy Lâm Đồng",Khối Đảng Tỉnh ủy,Lâm Đồng
+Lê Hồng Lợi,Lưu Văn Trung,1,56469485,,,Lâm Đồng
+Lê Hồng Lợi,Phạm Thị Phúc,1,56469485,,,Lâm Đồng
+Lê Hồng Lợi,Đặng Hồng Sỹ,1,56469485,,,Lâm Đồng
+Lưu Văn Trung,Nguyễn Hữu Khánh,1,56469485,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Lưu Văn Trung,Nguyễn Thanh Long,1,56469485,,,Lâm Đồng
+Lưu Văn Trung,Nguyễn Thanh Sang,1,56469485,,,Lâm Đồng
+Lưu Văn Trung,Nguyễn Thanh Vũ,1,56469485,,,Lâm Đồng
+Lưu Văn Trung,Nguyễn Thúc Phước Hải,1,56469485,,,Lâm Đồng
+Lưu Văn Trung,Nguyễn Trường Sa,1,56469485,,,Lâm Đồng
+Lưu Văn Trung,Nguyễn Vũ Linh Sang,1,56469485,,,Lâm Đồng
+Lưu Văn Trung,Phạm Thành Bắc,1,56469485,,,Lâm Đồng
+Lưu Văn Trung,Phạm Thị Phúc,1,56469485,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Lưu Văn Trung,Trần Hoàng Vũ,1,56469485,,,Lâm Đồng
+Lưu Văn Trung,Trần Mậu Dũng,1,56469485,,,Lâm Đồng
+Lưu Văn Trung,Y Thanh Hà Niê Kđăm,1,56469485,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Lưu Văn Trung,Đặng Hồng Sỹ,1,56469485,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Nguyễn Hữu Khánh,Phạm Thị Phúc,1,56469485,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Nguyễn Hữu Khánh,Đặng Hồng Sỹ,1,56469485,"Tỉnh ủy, Tỉnh ủy Lâm Đồng",Khối Đảng Tỉnh ủy,Lâm Đồng
+Nguyễn Thanh Long,Phạm Thị Phúc,1,56469485,,,Lâm Đồng
+Nguyễn Thanh Long,Đặng Hồng Sỹ,1,56469485,,,Lâm Đồng
+Nguyễn Thanh Sang,Phạm Thị Phúc,1,56469485,,,Lâm Đồng
+Nguyễn Thanh Sang,Đặng Hồng Sỹ,1,56469485,,,Lâm Đồng
+Nguyễn Thanh Vũ,Phạm Thị Phúc,1,56469485,,,Lâm Đồng
+Nguyễn Thanh Vũ,Đặng Hồng Sỹ,1,56469485,,,Lâm Đồng
+Nguyễn Thúc Phước Hải,Phạm Thị Phúc,1,56469485,,,Lâm Đồng
+Nguyễn Thúc Phước Hải,Đặng Hồng Sỹ,1,56469485,,,Lâm Đồng
+Nguyễn Trường Sa,Phạm Thị Phúc,1,56469485,,,Lâm Đồng
+Nguyễn Trường Sa,Đặng Hồng Sỹ,1,56469485,,,Lâm Đồng
+Nguyễn Vũ Linh Sang,Phạm Thị Phúc,1,56469485,,,Lâm Đồng
+Nguyễn Vũ Linh Sang,Đặng Hồng Sỹ,1,56469485,,,Lâm Đồng
+Phạm Thành Bắc,Phạm Thị Phúc,1,56469485,,,Lâm Đồng
+Phạm Thành Bắc,Đặng Hồng Sỹ,1,56469485,,,Lâm Đồng
+Phạm Thị Phúc,Trần Hoàng Vũ,1,56469485,,,Lâm Đồng
+Phạm Thị Phúc,Trần Mậu Dũng,1,56469485,,,Lâm Đồng
+Phạm Thị Phúc,Đặng Hồng Sỹ,1,56469485,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Trần Hoàng Vũ,Đặng Hồng Sỹ,1,56469485,,,Lâm Đồng
+Trần Mậu Dũng,Đặng Hồng Sỹ,1,56469485,,,Lâm Đồng
+Y Thanh Hà Niê Kđăm,Đặng Hồng Sỹ,1,56469485,Tỉnh ủy Lâm Đồng,Khối Đảng Tỉnh ủy,Lâm Đồng
+Lê Hải Hòa,Sùng Tả,1,56468955,,Khối Chính quyền địa phương,
+Lý Vạn,Sùng Tả,1,56468955,,Khối Chính quyền địa phương,
+Cao Xuân Thạo,Nguyễn Văn Hiển,1,56468460,Ủy ban Trung ương MTTQ Việt Nam,Khối Mặt trận - Đoàn thể,
+Cao Thị Xuân,Lâm Văn Mẫn,1,56468660,"Hội đồng Dân tộc của Quốc hội, Quốc hội",Hội đồng Dân tộc của Quốc hội,
+Cao Thị Xuân,Tạ Thị Yên,1,56468660,Quốc hội,,
+Cao Thị Xuân,Đỗ Văn Chiến,1,56468660,Quốc hội,,
+Lâm Văn Mẫn,Tạ Thị Yên,1,56468660,Quốc hội,,
+Tạ Thị Yên,Đỗ Văn Chiến,1,56468660,Quốc hội,,
+Cao Xuân Thạo,Mai Xuân Liêm,1,56468045,,,
+Cao Xuân Thạo,Trịnh Tuấn Sinh,1,56468045,,Khối Mặt trận - Đoàn thể,
+Mai Xuân Liêm,Trịnh Tuấn Sinh,1,56468045,Tỉnh ủy Thanh Hóa,Khối Đảng Tỉnh ủy,Thanh Hóa
+Phan Thanh Lăng,Thào A Só,1,56467998,,,Sơn La
+Nghiêm Xuân Cường,Nguyễn Thanh Ngọc,1,56467945,,,Quảng Ninh
+Nguyễn Hải Cường,Nguyễn Thị Minh Nguyệt,1,56467627,,,
+Nguyễn Hải Cường,Quàng Văn Lâm,1,56467627,,,
+Nguyễn Thị Minh Nguyệt,Quàng Văn Lâm,1,56467627,,,
+Hồ Văn Nam,Nguyễn Quốc Hân,1,56470825,"Thành ủy, Đảng ủy",Khối Đảng Thành ủy,
+Nguyễn Quốc Hân,Nguyễn Văn Út,1,56470825,"Thành ủy, Thành ủy Đồng Nai",Khối Đảng Thành ủy,Đồng Nai
+Nguyễn Thị Bích Ly,Trần Quốc Dinh,1,56467483,,,
+Lê Minh Quang,Nguyễn Tường Lâm,1,56467520,,,
+Ngô Chí Tuệ,Trần Duy Đông,1,56467363,UBND tỉnh,Khối Chính quyền địa phương,
+Huỳnh Quốc Việt,Hồ Thanh Thuỷ,1,56467219,,,Cà Mau
+Huỳnh Quốc Việt,Lữ Quang Ngời,1,56467219,,,Cà Mau
+Huỳnh Quốc Việt,Nguyễn Hồ Hải,1,56467219,Tỉnh ủy Cà Mau,Khối Đảng Tỉnh ủy,Cà Mau
+Huỳnh Quốc Việt,Phạm Văn Thiều,1,56467219,Tỉnh ủy Cà Mau,Khối Đảng Tỉnh ủy,Cà Mau
+Hồ Thanh Thuỷ,Lữ Quang Ngời,1,56467219,,,Cà Mau
+Hồ Thanh Thuỷ,Nguyễn Hồ Hải,1,56467219,,,Cà Mau
+Hồ Thanh Thuỷ,Phạm Văn Thiều,1,56467219,,,Cà Mau
+Hồ Thanh Thuỷ,Đặng Văn Dũng,1,56467219,,,Cà Mau
+Lữ Quang Ngời,Phạm Văn Thiều,1,56467219,,,Cà Mau
+Lữ Quang Ngời,Đặng Văn Dũng,1,56467219,,,Cà Mau
+Phạm Văn Thiều,Đặng Văn Dũng,1,56467219,Tỉnh ủy Cà Mau,Khối Đảng Tỉnh ủy,Cà Mau
+Lê Thành Đô,Lò Văn Cương,1,56467071,Tỉnh ủy Điện Biên,Khối Đảng Tỉnh ủy,Điện Biên
+Lê Văn Lương,Lò Văn Cương,1,56467071,"Tỉnh ủy Điện Biên, UBND tỉnh Điện Biên","Khối Chính quyền địa phương, Khối Đảng Tỉnh ủy",Điện Biên
+Bùi Thanh Thủy,Phan Thế Thắng,1,56466820,,,
+Nguyễn Văn Bình,Phạm Thị Thu Hà,1,56466959,TAND tỉnh/TP TP.HCM,Ngành Tòa án,TP.HCM
+Nguyễn Lương Bình,Phạm Tiến Nam,1,56466921,Đảng ủy,,
+Nguyễn Thị Cẩm Phương,Nguyễn Thị Hồng Lâm,1,56467467,HĐND tỉnh,Khối HĐND địa phương,
+Nguyễn Thị Cẩm Phương,Nguyễn Trung Kiên,1,56467467,HĐND tỉnh,Khối HĐND địa phương,
+Nguyễn Thị Cẩm Phương,Vũ Việt Văn,1,56467467,,,
+Nguyễn Thị Hồng Lâm,Nguyễn Trung Kiên,1,56467467,"HĐND tỉnh, Tỉnh ủy","Khối HĐND địa phương, Khối Đảng Tỉnh ủy",
+Nguyễn Thị Hồng Lâm,Vũ Việt Văn,1,56467467,,,Phú Thọ
+Nguyễn Trung Kiên,Vũ Việt Văn,1,56467467,,,
+Mai Cao Vị,Trần Huy Tuấn,1,56466636,,,Ninh Bình
+Bùi Ngọc Tuyên,Lê Minh Quang,1,56466463,,,
+Nguyễn Hùng Vương,Nguyễn Văn Tiến,1,56466542,,Ngành Quốc phòng,
+Lâm Thị Phương Thanh,Nguyễn Trịnh Khánh Linh,1,56468415,,,
+Nguyễn Văn Tùng,Trịnh Xá,1,56466263,,,
+Lê Ngọc Sơn,Tô Lâm,1,56466449,,,
+Nguyễn Thị Phương,Trịnh Đăng Vĩnh,1,56465879,Ủy ban MTTQ Việt Nam địa phương,Khối Mặt trận - Đoàn thể,
+Hà San,Lê Hải Hòa,1,56465483,,,Cao Bằng
+Hà San,Phan Thăng An,1,56465483,,,Cao Bằng
+Hà San,Tưởng Vệ Sinh,1,56465483,,,
+Hà San,Vũ Hồng Quang,1,56465483,,,Cao Bằng
+Phan Thăng An,Tưởng Vệ Sinh,1,56465483,,,
+Tưởng Vệ Sinh,Vũ Hồng Quang,1,56465483,,,
+Lê Hồng Hiệp,Nguyễn Trọng Hổ,1,56465352,,,
+Mai Đại Trung,Đinh Văn Tùng,1,56465353,,,Ninh Bình
+Hà Minh Hồng,Lê Nguyên Hiều,1,56468123,,,TP.HCM
+Hà Minh Hồng,Trương Tứ Muối,1,56468123,,,TP.HCM
+Lê Nguyên Hiều,Trương Tứ Muối,1,56468123,,,TP.HCM
+Chu Văn Hợp,Nguyễn Thúy Hường,1,56465305,,Chính quyền địa phương,
+Hứa Tân Hưng,Nguyễn Thị Thanh Nhàn,1,56465277,,,
+Trần Văn Tuấn,Đỗ Vĩnh Thăng,1,56463570,,,TP.HCM
+Hoàng Thanh Tùng,Lê Tiến Châu,1,56465422,Ban Chấp hành Trung ương Đảng,,
+Hoàng Thanh Tùng,Nguyễn Văn Hiền,1,56465422,Ban Chấp hành Trung ương Đảng,,
+Lê Tiến Châu,Nguyễn Văn Hiền,1,56465422,Ban Chấp hành Trung ương Đảng,,
+Nguyễn Văn Hiền,Tô Lâm,1,56465422,Ban Chấp hành Trung ương Đảng,Ngành Quốc phòng,
+Hà Nhật Lệ,Tô Vũ Ninh,1,56463834,Tỉnh ủy,Khối Đảng Tỉnh ủy,
+Hà Nhật Lệ,Vũ Hồng Quang,1,56463834,Tỉnh ủy,Khối Đảng Tỉnh ủy,Cao Bằng
+Tô Vũ Ninh,Vũ Hồng Quang,1,56463834,Tỉnh ủy,Khối Đảng Tỉnh ủy,
+Nguyễn Hữu Mạnh,Ngô Quốc Phong,1,56463484,,,
+Nguyễn Thanh Bình,Tô Lâm,1,56463506,,Khối Chính quyền địa phương,
+Lê Tiến,Nguyễn Văn Quảng,1,56463091,Tòa án nhân dân tối cao,Ngành Tòa án,
+Nguyễn Thị Việt Hà,Trần Quang Tuấn,1,56463072,,,Hà Tĩnh
+Lê Thị Hoài Chung,Tô Lâm,1,56462473,,,
+Lê Văn Giáp,Tô Lâm,1,56462473,,,
+Tô Lâm,Đỗ Quang Thái,1,56462473,,,
+Dương Đình Chỉnh,Võ Thị Minh Sinh,1,56462607,Tỉnh ủy Nghệ An,"Khối HĐND địa phương, Khối Đảng Tỉnh ủy",Nghệ An
+Tô Lâm,Võ Thị Minh Sinh,1,56462607,,,
+Nguyễn Văn Oanh,Đinh Quang Tuyên,1,56462533,,,
+Lâm Thị Phương Thanh,Phạm Thanh Tùng,1,56467580,,,
+Hoàng Gia Long,Triệu Quốc Lương,1,56462390,,,
+Phạm Minh Tuấn,Vũ Ngọc Tuất,1,56462324,,,TP.HCM
+Phạm Minh Tuấn,Vũ Văn Điền,1,56462324,,,TP.HCM
+Vũ Ngọc Tuất,Vũ Văn Điền,1,56462324,,,TP.HCM
+Dương Thúy Huyền,Nguyễn Phước Lộc,1,56462777,,,TP.HCM
+Dương Thúy Huyền,Phạm Thị Thanh Liễu,1,56462777,,,
+Dương Thúy Huyền,Vũ Văn Điền,1,56462777,,,TP.HCM
+Dương Thúy Huyền,Vũ Văn Đô,1,56462777,,,
+Nguyễn Phước Lộc,Phạm Thị Thanh Liễu,1,56462777,,,
+Nguyễn Phước Lộc,Vũ Văn Điền,1,56462777,Thành ủy TP.HCM,Khối Đảng Thành ủy,TP.HCM
+Nguyễn Phước Lộc,Vũ Văn Đô,1,56462777,,,
+Phạm Thị Thanh Liễu,Vũ Văn Điền,1,56462777,,,
+Phạm Thị Thanh Liễu,Vũ Văn Đô,1,56462777,,,
+Vũ Văn Điền,Vũ Văn Đô,1,56462777,,,
+Hầu A Lềnh,Nguyễn Mạnh Tuấn,1,56464643,,Khối Đảng Tỉnh ủy,Tuyên Quang
+Hầu A Lềnh,Trần Thanh Mẫn,1,56464643,Ban Chấp hành Trung ương Đảng,,
+Nguyễn Mạnh Tuấn,Trần Thanh Mẫn,1,56464643,,,
+Nguyễn Thị Hà,Nguyễn Thị Hương,1,56462237,"Thành ủy Bắc Giang, Thành ủy Bắc Ninh",Khối Đảng Thành ủy,Bắc Giang
+Lã Hoài Nam,Lê Hải Hòa,1,56462348,"Tỉnh ủy, Tỉnh ủy Cao Bằng",Khối Đảng Tỉnh ủy,Cao Bằng
+Lã Hoài Nam,Tưởng Vệ Sinh,1,56462348,,,
+Nguyễn Chí Tài,Nguyễn Minh Triết,1,56462139,Thành ủy Huế,"Khối Mặt trận - Đoàn thể, Khối Đảng Thành ủy",Huế
+Nguyễn Minh Triết,Nguyễn Đình Trung,1,56462139,"Ban Chấp hành Trung ương Đảng, Nhà nước CHXHCN Việt Nam, Thành ủy Huế",Khối Đảng Thành ủy,Huế
+Phạm Hồng Sơn,Vũ Văn Điền,1,56462665,Thành ủy TP.HCM,Khối Đảng Thành ủy,TP.HCM
+Phan Đình,Phan Đình Điểm,1,56476271,,,
+Nguyễn Tân,Võ Đại Thắng,1,56476499,,,Huế
+Nguyễn Tân,Nguyễn Viết Hà,1,56476392,,,Huế
+Nguyễn Tân,Đặng Văn Hòa,1,56476392,,,Huế
+Nguyễn Viết Hà,Đặng Văn Hòa,1,56476392,,,Huế
+Nguyễn Tân Cương,Vũ Văn Định,1,56476446,,Ngành Quốc phòng,
+Hồ Văn Vân,Lê Văn Vin,1,56475861,,,
+Lương Tam Quang,Nguyễn Trường Giang,1,56475615,,Khối Quốc hội,
+Nguyễn Quang Thắng,Phạm Tấn Hòa,1,56475496,,,Tây Ninh
+Nguyễn Quang Thắng,Trương Nhật Minh,1,56475496,,,
+Phạm Tấn Hòa,Trương Nhật Minh,1,56475496,,,
+Lê Thanh Sơn,Nguyễn Đình Vui,1,56473621,,,
+Lê Thanh Sơn,Trần Việt Hưng,1,56473621,,,
+Nguyễn Đình Vui,Trần Việt Hưng,1,56473621,,,
+Huỳnh Văn Tùng,Nguyễn Văn Lanh,1,56473449,,Chính quyền địa phương,
+Huỳnh Văn Tùng,Phan Thị Nhi,1,56473449,,,
+Nguyễn Văn Lanh,Phan Thị Nhi,1,56473449,,,
+Lê Trung Tính,Nguyễn Văn Thắng,1,56473440,,,
+Lê Trung Tính,Đỗ Duy Thanh,1,56473440,,,
+Nguyễn Văn Thắng,Đỗ Duy Thanh,1,56473440,,,
+Nguyễn Quang Trung,Trương Thị Lệ Thủy,1,56473252,,,
+Nguyễn Quang Trung,Trần Phú Hải,1,56473252,,,
+Trương Thị Lệ Thủy,Trần Phú Hải,1,56473252,,,
+Nguyễn Thị Thanh Huyền,Phạm Văn Nam,1,56473037,,,
+Cao Văn Mạnh,Lê Diệt,1,56472429,,,
+Cao Văn Mạnh,Nguyễn Thanh Sơn,1,56472429,,,
+Lê Diệt,Nguyễn Thanh Sơn,1,56472429,,,
+Lê Thị Kim Hoa,Nguyễn Thanh Hà,1,56472321,,,Khánh Hòa
+Nguyễn Thành Danh,Vũ Ngọc An,1,56472191,,,
+Phan Thanh Cường,Trần Thống Nhất,1,56471798,,,
+Bùi Xuân Dũng,Nguyễn Mạnh Quyền,1,56471280,,,
+Bùi Xuân Dũng,Phạm Gia Túc,1,56471280,,,
+Nguyễn Mạnh Quyền,Phạm Gia Túc,1,56471280,,,
+Nguyễn Mạnh Quyền,Vũ Đại Thắng,1,56471280,,Khối Chính quyền địa phương,
+Nguyễn Hải Long,Nguyễn Thị Thanh,1,56471279,,Khối Quốc hội,
+Nguyễn Hải Long,Nguyễn Thị Thu Hà,1,56471279,,"Khối Mặt trận - Đoàn thể, Khối Quốc hội",
+Nguyễn Hải Long,Trần Thanh Mẫn,1,56471279,,"Khối Mặt trận - Đoàn thể, Khối Quốc hội",
+Nguyễn Thị Thanh,Nguyễn Thị Thu Hà,1,56471279,Ban Chấp hành Trung ương Đảng,Khối Quốc hội,
+Nguyễn Văn Lý,Võ Duy Lâm,1,56473250,,Chính quyền địa phương,Đà Nẵng
+Lê Nữ Thùy Dương,Tô Lâm,1,56460539,,,
+Hoàng Trung Dũng,Nguyễn Trọng Đông,1,56430566,"Ban Chấp hành Trung ương Đảng, Thành ủy Hà Nội",Khối Đảng Thành ủy,Hà Nội
+Hoàng Trung Dũng,Phùng Thị Hồng Hà,1,56430566,Thành ủy Hà Nội,Khối Đảng Thành ủy,Hà Nội
+Hoàng Trung Dũng,Trần Sỹ Thanh,1,56430566,Ban Chấp hành Trung ương Đảng,,
+Hoàng Trung Dũng,Tô Lâm,1,56430566,Ban Chấp hành Trung ương Đảng,,
+Hoàng Trung Dũng,Vũ Đăng Định,1,56430566,Thành ủy Hà Nội,Khối Đảng Thành ủy,Hà Nội
+Nguyễn Trọng Đông,Trần Sỹ Thanh,1,56430566,Ban Chấp hành Trung ương Đảng,,
+Nguyễn Trọng Đông,Tô Lâm,1,56430566,Ban Chấp hành Trung ương Đảng,,
+Nguyễn Trọng Đông,Vũ Đăng Định,1,56430566,Thành ủy Hà Nội,Khối Đảng Thành ủy,Hà Nội
+Phùng Thị Hồng Hà,Trần Sỹ Thanh,1,56430566,,,
+Phùng Thị Hồng Hà,Tô Lâm,1,56430566,,,
+Trần Sỹ Thanh,Vũ Đăng Định,1,56430566,,,
+Tô Lâm,Vũ Đăng Định,1,56430566,,,
+Hồ Quốc Dũng,Phan Văn Giang,1,56395658,Chính phủ,Khối Chính phủ,
+Huỳnh Tấn Hùng,Nguyễn Trọng Nghĩa,1,56425904,Quân ủy Trung ương,Ngành Quốc phòng,
+Huỳnh Tấn Hùng,Đỗ Văn Thiện,1,56425904,"Chính phủ, Tổng cục Hậu cần - Kỹ thuật","Khối Chính phủ, Ngành Quốc phòng, Tổng cục Hậu cần - Kỹ thuật",
+Nguyễn Trọng Nghĩa,Đỗ Văn Thiện,1,56425904,,Ngành Quốc phòng,

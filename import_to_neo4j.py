@@ -21,7 +21,7 @@ INPUT_PROFILES_JSON = "baomoi_vn_politicians_profiles.json"
 
 NEO4J_URI = "neo4j://127.0.0.1:7687"
 NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = ""
+NEO4J_PASSWORD = "12345678"
 NEO4J_DATABASE = "neo4j"
 
 # Các nhãn ban ngành địa phương chung cần gắn kèm tên Tỉnh/Thành để không nối nhầm giữa các tỉnh khác nhau
