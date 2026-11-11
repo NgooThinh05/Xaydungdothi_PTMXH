@@ -25,3 +25,4 @@ for r in records:
             print(f"    GOLD: {g}")
             print(f"    BASE: {b}")
             print(f"    VIGOV: {v}\n")
+

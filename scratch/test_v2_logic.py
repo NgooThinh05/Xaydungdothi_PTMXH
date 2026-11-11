@@ -105,3 +105,4 @@ def extract_penalty_v2(sentence: str) -> str:
     if re.search(r"\bkỷ luật\b", sentence, re.I):
         return "Kỷ luật"
     return ""
+
