@@ -7,6 +7,7 @@ data/raw/
 data/interim/
 *.jsonl
 !data/samples/*.jsonl
+!data/eval/*.jsonl
 logs/
 viz/node_modules/
 viz/package-lock.json

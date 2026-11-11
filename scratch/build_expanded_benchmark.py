@@ -68,14 +68,7 @@ def build_expanded_benchmark():
                 "loophole_category": lh_type,
                 "is_complex": True
             }
-            # Gán nhãn vàng đầy đủ từ item gốc
-            for field in ("action_content", "role", "appoint_type", "penalty_form", "tenure"):
-                val = ev.get(field, "").strip()
-                if val:
-                    rec["gold_arguments"][field] = val
-
-            # Bóc tách thêm ground truth văn bản, deadline, urgency
-            # Gán nhãn vàng đầy đủ từ item gốc
+            # Gán nhãn vàng đầy đủ từ ev gốc cho loophole
             for field in ("action_content", "role", "appoint_type", "penalty_form", "tenure"):
                 val = ev.get(field, "").strip()
                 if val:
@@ -133,9 +126,9 @@ def build_expanded_benchmark():
                 "loophole_category": "Standard",
                 "is_complex": False
             }
-            # Gán nhãn vàng đầy đủ từ item gốc
+            # Gán nhãn vàng đầy đủ từ item gốc (nhóm chuẩn)
             for field in ("action_content", "role", "appoint_type", "penalty_form", "tenure"):
-                val = ev.get(field, "").strip()
+                val = item.get(field, "").strip()
                 if val:
                     rec["gold_arguments"][field] = val
 

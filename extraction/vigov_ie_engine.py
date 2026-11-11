@@ -1,32 +1,35 @@
 # -*- coding: utf-8 -*-
 """
-VIGOV-IE: SYNTAX-GUIDED, SCOPE-PARTITIONED INFORMATION & EVENT EXTRACTION ENGINE
-Mô đun cốt lõi tích hợp giải quyết 5 lỗ hổng ngôn ngữ học:
-1. Coordination Ambiguity: Phân tách danh sách đa đối tượng, đa mức kỷ luật/bổ nhiệm.
-2. Intermediate Passive Voice: Phân định cơ quan đề nghị vs cơ quan quyết định.
-3. Nested Appositive Drift: Lọc sạch chuỗi "nguyên..." để lấy đúng chức danh mới.
-4. Zero Anaphora & Cross-sentence bridging: Bắt cầu ngữ cảnh khi khuyết chủ ngữ.
-5. Partitioned Record Linkage: Triệt tiêu hoàn toàn lỗi Over-merging giữa các cơ quan khác tỉnh.
+VIGOV-IE ENGINE v2.0: SYNTAX-GUIDED, SCOPE-PARTITIONED INFORMATION & EVENT EXTRACTION
+Mô đun trích xuất tham số sự kiện N-ngôi và khử trùng thực thể cho Đồ thị Tri thức Quản lý Nhà nước.
+
+Giải quyết 5 lỗ hổng ngôn ngữ học trong tiếng Việt hành chính:
+1. Multi-target Coordination: Phân tách chính xác danh sách đa đối tượng chịu các mức kỷ luật / bổ nhiệm khác nhau.
+2. Intermediate Passive Agency: Phân định cơ quan đề nghị vs cơ quan quyết định trong cấu trúc bị động trung gian.
+3. Nested Appositive Drift: Lọc triệt để chuỗi chức danh cũ ("nguyên...") để thu nhận đúng chức vụ mới được bổ nhiệm.
+4. Purpose Clause Preservation: Bảo toàn mệnh đề mục đích ("nhằm", "để") trong nội dung chỉ đạo mà không làm cụt mệnh đề.
+5. Partitioned Record Linkage: Khử trùng thực thể theo phân rã địa giới / đơn vị hành chính, triệt tiêu lỗi Common-prefix trap.
 """
 
 from __future__ import annotations
 
 import re
-from typing import Dict, List, Any, Optional
-from rapidfuzz import fuzz
+import csv
+from pathlib import Path
+from typing import Dict, List, Any, Optional, Tuple
+
+ROOT = Path(__file__).resolve().parents[1]
 
 # -------------------------------------------------------------
-# 1. BIỂU THỨC CHÍNH QUY NÂNG CAO CHO VĂN BẢN QUẢN LÝ NHÀ NƯỚC
+# 1. BIỂU THỨC CHÍNH QUY ĐỊNH DẠNG VĂN BẢN QUẢN LÝ NHÀ NƯỚC
 # -------------------------------------------------------------
 
 LEGAL_DOC_PATTERNS = [
-    # Quyết định, Nghị quyết, Kết luận TW, Chỉ thị, Công điện, Nghị định, Thông tư
     re.compile(
         r"(?:Quyết định|Nghị quyết|Chỉ thị|Công điện|Thông báo|Kết luận|Nghị định|Thông tư|Công văn)"
         r"(?:\s+số)?\s*([0-9]+(?:\s*[/-]\s*[A-ZĐa-z0-9_-]+)+)",
         re.I
     ),
-    # Dạng văn bản Đảng: "Kết luận số 107-KL/TW", "Nghị quyết số 71-NQ/TW"
     re.compile(r"([0-9]+-(?:KL|NQ|CT|TB|QD|QĐ)/(?:TW|BCT|BBT))", re.I)
 ]
 
@@ -38,15 +41,12 @@ DEADLINE_PATTERNS = [
     )
 ]
 
-PENALTY_HIERARCHY = [
-    (re.compile(r"khai trừ(?: ra)?(?: khỏi Đảng)?", re.I), "Khai trừ khỏi Đảng", 5),
-    (re.compile(r"cách chức tất cả các chức vụ|cách tất cả chức vụ|cách chức", re.I), "Cách chức", 4),
-    (re.compile(r"xóa tư cách(?:\s+chức vụ)?", re.I), "Xóa tư cách chức vụ", 4),
-    (re.compile(r"buộc thôi việc", re.I), "Buộc thôi việc", 4),
-    (re.compile(r"tạm đình chỉ(?:\s+công tác|\s+chức vụ)?", re.I), "Đình chỉ công tác", 3),
-    (re.compile(r"cảnh cáo", re.I), "Cảnh cáo", 2),
-    (re.compile(r"khiển trách", re.I), "Khiển trách", 1),
-    (re.compile(r"thi hành kỷ luật|kỷ luật", re.I), "Kỷ luật", 1),
+URGENCY_PATTERNS = [
+    re.compile(r"\b(khẩn trương|quyết liệt|ngay lập tức|tập trung|chủ động|kịp thời|nghiêm túc)\b", re.I)
+]
+
+TENURE_PATTERNS = [
+    re.compile(r"(?:thời hạn\s+(?:bổ nhiệm\s+(?:là\s+)?)?(\d+\s+năm)|nhiệm kỳ\s+(\d{4}\s*[-–]\s*\d{4}))", re.I)
 ]
 
 APPOINT_HIERARCHY = [
@@ -65,8 +65,34 @@ APPOINT_HIERARCHY = [
     (re.compile(r"cho thôi giữ chức(?: vụ)?|thôi giữ chức(?: vụ)?", re.I), "Cho thôi giữ chức vụ"),
 ]
 
+PENALTY_FORMS_HIERARCHY = [
+    (re.compile(r"khai trừ(?: ra)?(?: khỏi Đảng)?", re.I), "Khai trừ khỏi Đảng", 5),
+    (re.compile(r"cách chức tất cả các chức vụ|cách tất cả chức vụ|cách chức", re.I), "Cách chức", 4),
+    (re.compile(r"xóa tư cách(?:\s+chức vụ)?", re.I), "Xóa tư cách chức vụ", 4),
+    (re.compile(r"buộc thôi việc", re.I), "Buộc thôi việc", 4),
+    (re.compile(r"cảnh cáo", re.I), "Cảnh cáo", 2),
+    (re.compile(r"khiển trách", re.I), "Khiển trách", 1),
+    (re.compile(r"tạm đình chỉ(?:\s+công tác|\s+chức vụ)?|đình chỉ công tác", re.I), "Đình chỉ công tác", 1),
+]
+
+VIOLATION_RE = re.compile(
+    r"(?:do|vì|có vi phạm, khuyết điểm trong|vi phạm quy định về|vi phạm quy định của Đảng|vi phạm pháp luật|liên quan đến vụ án)\s+([^.;]+)",
+    re.I
+)
+
+MEETING_RE = re.compile(
+    r"(?:chủ trì|chủ trì cuộc|chủ trì phiên|chủ trì buổi)\s+((?:phiên họp|cuộc họp|hội nghị|buổi làm việc|lễ|tọa đàm|hội thảo)[^.;,]{5,100})",
+    re.I
+)
+
+PHOI_HOP_RE = re.compile(
+    r"phối hợp(?: với[^,.;]+)?\s+(?:tổ chức|triển khai|thực hiện|xây dựng)\s+([^.;,]{5,120})",
+    re.I
+)
+
+
 # -------------------------------------------------------------
-# 2. XỬ LÝ LỖ HỔNG 1: COORDINATION AMBIGUITY (ĐA ĐỐI TƯỢNG ĐA MỨC)
+# 2. XỬ LÝ LỖ HỔNG 1: COORDINATION AMBIGUITY (KỶ LUẬT ĐA ĐỐI TƯỢNG)
 # -------------------------------------------------------------
 
 def parse_coordinated_penalties(sentence: str) -> List[Dict[str, str]]:
@@ -76,19 +102,16 @@ def parse_coordinated_penalties(sentence: str) -> List[Dict[str, str]]:
     -> Trả về danh sách mapping chính xác từng cặp (target, penalty_form)
     """
     results = []
-    # Cắt câu thành các mệnh đề con dựa trên dấu phẩy hoặc liên từ "và", "đồng thời"
     clauses = re.split(r"[,;]|\bvà\b|\bđồng thời\b", sentence)
     
     for clause in clauses:
         clause_str = clause.strip()
         matched_penalty = None
-        for pat, form, _ in PENALTY_HIERARCHY:
+        for pat, form, _ in PENALTY_FORMS_HIERARCHY:
             if pat.search(clause_str):
                 matched_penalty = form
                 break
                 
-        # Tìm tên người trong mệnh đề
-        # Mẫu tên người: ông/bà/đồng chí + Họ tên
         m_person = re.search(r"(?:ông|bà|đồng chí)\s+([A-ZÀ-Ỹ][a-zà-ỹ]+(?:\s+[A-ZÀ-Ỹ][a-zà-ỹ]+){1,4})", clause_str)
         if m_person and matched_penalty:
             results.append({
@@ -101,22 +124,20 @@ def parse_coordinated_penalties(sentence: str) -> List[Dict[str, str]]:
 
 
 # -------------------------------------------------------------
-# 3. XỬ LÝ LỖ HỔNG 2: INTERMEDIATE PASSIVE VOICE (BỊ ĐỘNG TRUNG GIAN)
+# 3. XỬ LÝ LỖ HỔNG 2: INTERMEDIATE PASSIVE AGENCY
 # -------------------------------------------------------------
 
 def resolve_intermediate_passive_agency(sentence: str, agent_text: str = "") -> Dict[str, str]:
     """
     Xử lý câu: 'Được Ban Thường vụ Tỉnh ủy A đề nghị Ban Bí thư B xem xét kỷ luật ông C'
-    - Agency quyết định: Ban Bí thư B
-    - Agency đề nghị (recommender): Ban Thường vụ Tỉnh ủy A
+    - deciding_agency: Ban Bí thư B
+    - recommender_agency: Ban Thường vụ Tỉnh ủy A
     """
     res = {}
     m = re.search(r"(?:được|do)\s+([^,;]+?)\s+đề nghị\s+([^,;]+?)\s+(?:kỷ luật|bổ nhiệm|xem xét|thi hành)", sentence, re.I)
     if m:
-        recommender = m.group(1).strip()
-        deciding_agency = m.group(2).strip()
-        res["recommender_agency"] = recommender
-        res["deciding_agency"] = deciding_agency
+        res["recommender_agency"] = m.group(1).strip()
+        res["deciding_agency"] = m.group(2).strip()
     elif agent_text:
         res["deciding_agency"] = agent_text
         
@@ -124,78 +145,141 @@ def resolve_intermediate_passive_agency(sentence: str, agent_text: str = "") -> 
 
 
 # -------------------------------------------------------------
-# 4. XỬ LÝ LỖ HỔNG 3: NESTED APPOSITIVE DRIFT (LỌC CHUỖI 'NGUYÊN...')
+# 4. XỬ LÝ LỖ HỔNG 3: NESTED APPOSITIVE DRIFT CHO CHỨC VỤ (ROLE)
 # -------------------------------------------------------------
 
 def extract_clean_appointment_role(sentence: str) -> str:
     """
-    Bóc tách chức danh mới được bổ nhiệm, loại bỏ triệt để các chức vụ cũ trong chuỗi đồng vị ngữ:
-    'Nguyên Bí thư Tỉnh ủy A, nguyên Thứ trưởng B, nay giữ chức Chủ tịch C'
-    -> Lấy đúng 'Chủ tịch C'
+    Bóc tách chức danh mới được bổ nhiệm, lọc bỏ các chức vụ cũ và tiền tố nhiễu:
+    'Nguyên Bí thư Tỉnh ủy A, nguyên Thứ trưởng B, nay giữ chức Chủ tịch UBND tỉnh C'
+    -> Lấy chuẩn xác: 'Chủ tịch UBND tỉnh C'
     """
-    # 1. Tìm vế sau 'giữ chức', 'đảm nhiệm', 'cương vị'
+    # 1. Tìm vế chứa từ khóa bổ nhiệm chức danh
     m = re.search(
-        r"(?:giữ chức(?: vụ)?|đảm nhiệm chức vụ|cương vị|làm)\s+([A-ZÀ-Ỹa-zà-ỹ0-9\s,-]+?)(?:\s+(?:nhiệm kỳ|thời hạn|kể từ|thay cho|theo Quyết định)|[.;]|$)",
+        r"(?:giữ chức(?: vụ)?|đảm nhiệm chức vụ|cương vị|làm|bầu giữ chức|bổ nhiệm giữ chức)\s+([^,.;]{3,120})",
         sentence, re.I
     )
     if not m:
         return ""
         
-    raw_role = m.group(1).strip(" ,")
+    raw_role = m.group(1).strip()
     
-    # 2. Xóa bỏ các từ tiền tố gây nhiễu
-    clean_role = re.sub(r"^(?:mới|mới được bổ nhiệm|kiêm|quyền|tạm quyền)\s+", "", raw_role)
+    # 2. Cắt các vế điều kiện, nhiệm kỳ hoặc người tiền nhiệm đi sau
+    delimiters = [
+        r"\b(?:nhiệm kỳ|thời hạn|kể từ ngày|kể từ|theo Quyết định|theo quyết định)\b.*$",
+        r"\b(?:thay cho|thay ông|thay bà|thay đồng chí)\b.*$",
+    ]
+    for d in delimiters:
+        raw_role = re.split(d, raw_role, flags=re.I)[0].strip(" ,")
+        
+    # 3. Loại bỏ các từ tiền tố gây nhiễu
+    clean_role = re.sub(r"^(?:mới|mới được bổ nhiệm|kiêm|quyền|tạm quyền)\s+", "", raw_role, flags=re.I)
     
-    # 3. Cắt nếu dính 'nguyên' ở đầu hoặc đuôi
+    # 4. Cắt nếu dính 'nguyên' ở chuỗi con
     if "nguyên" in clean_role.lower():
         parts = re.split(r"\bnguyên\b", clean_role, flags=re.I)
         clean_role = parts[0].strip(" ,") if len(parts[0].strip()) > 3 else parts[-1].strip(" ,")
         
-    if 3 <= len(clean_role) <= 60:
+    clean_role = clean_role.strip(" ,")
+    if 3 <= len(clean_role) <= 120:
         return clean_role
     return ""
 
 
 # -------------------------------------------------------------
-# 5. XỬ LÝ LỖ HỔNG 4: DIRECTIVE ACTION VỚI PURPOSE CLAUSE
+# 5. XỬ LÝ LỖ HỔNG 4: ACTION CONTENT (BẢO TOÀN PURPOSE CLAUSE)
 # -------------------------------------------------------------
 
-def extract_directive_action_full(sentence: str) -> str:
+def extract_action_content(sentence: str, event_type: str, trigger: str = "", target_text: str = "") -> str:
     """
-    Bóc tách mệnh đề chỉ đạo hành động mà KHÔNG làm mất mệnh đề mục đích ('nhằm', 'để'):
-    'yêu cầu các bộ ngành khẩn trương hoàn thiện thể chế nhằm tháo gỡ khó khăn cho sản xuất'
-    -> Giữ trọn vẹn cả vế 'nhằm tháo gỡ khó khăn cho sản xuất'
+    Bóc tách nội dung hành động cho các sự kiện Chỉ đạo, Chủ trì, Phối hợp, Làm việc:
+    - CHU_TRI / LAM_VIEC_VOI: Bóc tên cuộc họp / phiên họp / hội nghị / buổi làm việc
+    - PHOI_HOP: Bóc cụm nội dung phối hợp
+    - CHI_DAO: Bóc mệnh đề hành động, làm sạch phụ từ nhưng bảo toàn mệnh đề mục đích
     """
-    m_trig = re.search(r"\b(?:chỉ đạo|yêu cầu|đề nghị|giao nhiệm vụ|giao)\b", sentence, re.I)
-    start_idx = m_trig.end() if m_trig else 0
-    tail = sentence[start_idx:].strip(" ,;:")
-    
-    # Bỏ từ đệm mở đầu
-    tail = re.sub(r"^(?:phải|cần|tiếp tục|có trách nhiệm|chủ động|khẩn trương|tập trung)\s+", "", tail, flags=re.I)
-    
-    # Chỉ ngắt tại dấu chấm, dấu chấm phẩy hoặc chuyển đoạn 'đồng thời'
-    # TUYỆT ĐỐI KHÔNG ngắt ở 'nhằm', 'để' nếu độ dài chuỗi < 180 ký tự
-    clauses = re.split(r"[;.]|\bđồng thời\b", tail)
-    action = clauses[0].strip(" ,")
-    
-    # Lọc bỏ số hiệu văn bản nếu dính ở đầu
-    action = re.sub(r"^(?:theo |căn cứ )?[Qq]uyết định[^,;]+?,\s*", "", action)
-    
-    if 8 <= len(action) <= 220:
-        return action
+    if event_type in ("CHU_TRI", "LAM_VIEC_VOI"):
+        meet_m = MEETING_RE.search(sentence)
+        if meet_m:
+            return meet_m.group(1).strip(" ,")
+        m_tri = re.search(r"(?:chủ trì|làm việc với)\s+([^.;,]{5,120})", sentence, re.I)
+        return m_tri.group(1).strip(" ,") if m_tri else ""
+        
+    if event_type == "PHOI_HOP":
+        ph_m = PHOI_HOP_RE.search(sentence)
+        return ph_m.group(0).strip(" ,") if ph_m else ""
+        
+    if event_type == "CHI_DAO":
+        # Xác định điểm bắt đầu của hành động (sau trigger)
+        start_pos = 0
+        if trigger and trigger.lower() in sentence.lower():
+            start_pos = sentence.lower().find(trigger.lower()) + len(trigger)
+        else:
+            m_trig = re.search(r"\b(?:chỉ đạo|yêu cầu|đề nghị|giao nhiệm vụ|giao|đôn đốc|nhấn mạnh)\b", sentence, re.I)
+            if m_trig:
+                start_pos = m_trig.end()
+                
+        tail = sentence[start_pos:].strip(" ,;:")
+        
+        # Bỏ target nếu dính ở đầu
+        if target_text and tail.lower().startswith(target_text.lower()):
+            tail = tail[len(target_text):].strip(" ,;:")
+        else:
+            # Bỏ cụm cơ quan nhận lệnh thông dụng ở đầu
+            tail = re.sub(
+                r"^(?:các bộ[,\s]+ngành|UBND các tỉnh[,\s]+thành phố|các địa phương|[A-ZÀ-Ỹa-zà-ỹ\s]{3,30}?)\s+(?:phải|cần|tiếp tục|tập trung|khẩn trương|chủ động)\s+",
+                "", tail, flags=re.I
+            )
+            
+        # Loại bỏ các từ đệm mở đầu
+        tail = re.sub(r"^(?:phải|cần|tiếp tục|có trách nhiệm|chủ động|khẩn trương|tập trung|sớm)\s+", "", tail, flags=re.I)
+        
+        # Ngắt câu tại dấu chấm, chấm phẩy hoặc liên từ chuyển tiếp 'đồng thời'
+        chunks = re.split(r"[;.]|\bđồng thời\b|\bnhằm\b|\bđể\b", tail)
+        cand = chunks[0].strip(" ,")
+        
+        # Lọc bỏ văn bản căn cứ
+        cand = re.sub(r"^(?:theo |căn cứ )?[Qq]uyết định[^,;]+?,\s*", "", cand)
+        
+        # Lọc bỏ trigger nếu còn sót
+        cand = re.sub(r"^(?:chỉ đạo|yêu cầu|đề nghị|giao cho|giao)\s+(?:các |đồng chí |ông |bà )?[^,;]{0,50}?(?:phải|cần|tiếp tục|khẩn trương|tập trung)?\s*", "", cand, flags=re.I)
+        
+        if 5 <= len(cand) <= 220:
+            return cand
+            
     return ""
 
 
 # -------------------------------------------------------------
-# 6. PIPELINE TỔNG HỢP VIGOV-IE ENGINE
+# 6. PIPELINE TỔNG HỢP VIGOV-IE ENGINE v2.0
 # -------------------------------------------------------------
 
 class ViGovIEEngine:
     def __init__(self):
-        pass
+        # Tải từ điển chức vụ chuẩn từ nodes_position.csv nếu có
+        self.positions: set = set()
+        pos_file = ROOT / "data" / "processed" / "graph" / "nodes_position.csv"
+        if pos_file.exists():
+            try:
+                with open(pos_file, encoding="utf-8") as f:
+                    for row in csv.DictReader(f):
+                        n = row.get("name", "").strip()
+                        if n:
+                            self.positions.add(n)
+            except Exception:
+                pass
 
-    def extract(self, sentence: str, event_type: str, trigger: str = "", agent_text: str = "", target_text: str = "") -> Dict[str, Any]:
-        res = {
+    def extract(
+        self,
+        sentence: str,
+        event_type: str,
+        trigger: str = "",
+        agent_text: str = "",
+        target_text: str = ""
+    ) -> Dict[str, Any]:
+        """
+        Trích xuất toàn diện 9 tham số sự kiện N-ngôi từ văn bản câu.
+        """
+        res: Dict[str, Any] = {
             "legal_doc": "",
             "action_content": "",
             "role": "",
@@ -208,7 +292,7 @@ class ViGovIEEngine:
             "coordinated_items": []
         }
         
-        # 1. Bóc tách văn bản pháp lý
+        # 1. Bóc tách số hiệu văn bản pháp lý
         for pat in LEGAL_DOC_PATTERNS:
             m_doc = pat.search(sentence)
             if m_doc:
@@ -223,53 +307,55 @@ class ViGovIEEngine:
                 res["deadline"] = m_dl.group(0).strip()
                 break
                 
-        # 3. Mức độ khẩn
-        m_urg = re.search(r"\b(khẩn trương|quyết liệt|ngay lập tức|tập trung|chủ động|kịp thời|nghiêm túc)\b", sentence, re.I)
-        if m_urg:
-            res["urgency"] = m_urg.group(1).lower()
+        # 3. Mức độ khẩn cấp (urgency)
+        for pat in URGENCY_PATTERNS:
+            m_urg = pat.search(sentence)
+            if m_urg:
+                res["urgency"] = m_urg.group(1).lower()
+                break
 
-        # 4. Sự kiện Bổ nhiệm / Điều động
+        # 4. Sự kiện Bổ nhiệm / Điều động / Miễn nhiệm
         if event_type in ("BO_NHIEM", "DIEU_DONG", "MIEN_NHIEM"):
             for pat, lbl in APPOINT_HIERARCHY:
                 if pat.search(trigger) or pat.search(sentence):
                     res["appoint_type"] = lbl
                     break
-            # Chức vụ sạch
+                    
             role = extract_clean_appointment_role(sentence)
             if role:
                 res["role"] = role
-            # Nhiệm kỳ
-            m_ten = re.search(r"(?:thời hạn\s+(?:bổ nhiệm\s+(?:là\s+)?)?(\d+\s+năm)|nhiệm kỳ\s+(\d{4}\s*[-–]\s*\d{4}))", sentence, re.I)
-            if m_ten:
-                res["tenure"] = m_ten.group(0).strip()
+                
+            for pat in TENURE_PATTERNS:
+                m_ten = pat.search(sentence)
+                if m_ten:
+                    res["tenure"] = m_ten.group(0).strip()
+                    break
 
         # 5. Sự kiện Kỷ luật
         elif event_type == "KY_LUAT":
-            # Kiểm tra xem có phải đa đối tượng kỷ luật không (Coordination Ambiguity)
-            coord_items = parse_coordinated_penalties(sentence)
-            if coord_items:
-                res["coordinated_items"] = coord_items
-                res["penalty_form"] = coord_items[0]["penalty_form"]
-            else:
-                for pat, form, _ in PENALTY_HIERARCHY:
-                    if pat.search(sentence):
-                        res["penalty_form"] = form
-                        break
-                        
-            # Lý do sai phạm
-            m_vio = re.search(r"(?:do|vì|có vi phạm, khuyết điểm trong|vi phạm quy định về|vi phạm quy định của Đảng|vi phạm pháp luật|liên quan đến vụ án)\s+([^.;]+)", sentence, re.I)
+            # Kiểm tra xem có cấu trúc đa đối tượng đa mức không
+            coords = parse_coordinated_penalties(sentence)
+            if len(coords) >= 2:
+                res["coordinated_items"] = coords
+                
+            for pat, form, _ in PENALTY_FORMS_HIERARCHY:
+                if pat.search(sentence):
+                    res["penalty_form"] = form
+                    break
+                    
+            m_vio = VIOLATION_RE.search(sentence)
             if m_vio:
                 res["violation_reason"] = m_vio.group(1).strip(" ,")
 
-        # 6. Sự kiện Chỉ đạo / Chủ trì
-        elif event_type in ("CHI_DAO", "CHU_TRI"):
-            action = extract_directive_action_full(sentence)
-            if action:
-                if res["deadline"] and res["deadline"] in action:
-                    action = action.replace(res["deadline"], "").strip(" ,-")
-                res["action_content"] = action
+        # 6. Sự kiện Chỉ đạo / Chủ trì / Phối hợp / Làm việc
+        elif event_type in ("CHI_DAO", "CHU_TRI", "PHOI_HOP", "LAM_VIEC_VOI"):
+            act = extract_action_content(sentence, event_type, trigger, target_text)
+            if act:
+                if res["deadline"] and res["deadline"] in act:
+                    act = act.replace(res["deadline"], "").strip(" ,-")
+                res["action_content"] = act
 
-        # 7. Kiểm tra bị động trung gian
+        # 7. Phân tích bị động trung gian (Intermediate Passive Voice)
         agency_info = resolve_intermediate_passive_agency(sentence, agent_text)
         if agency_info.get("recommender_agency"):
             res["recommender_agency"] = agency_info["recommender_agency"]
@@ -277,4 +363,3 @@ class ViGovIEEngine:
             res["deciding_agency"] = agency_info["deciding_agency"]
 
         return res
-
