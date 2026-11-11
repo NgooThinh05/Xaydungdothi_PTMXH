@@ -1,0 +1,31 @@
+{
+  "method_a": {
+    "edges": 4758,
+    "duplicates": 4179,
+    "time_s": 0.006760597229003906,
+    "topo": {
+      "nodes": 2324,
+      "edges": 4190,
+      "avg_degree": 3.6058519793459554,
+      "density": 0.0015522393367825894,
+      "giant_size": 2186,
+      "giant_ratio": 94.06196213425129,
+      "clustering": 0.0652858873493348
+    }
+  },
+  "method_b": {
+    "edges": 4738,
+    "duplicates": 4199,
+    "fuzzy_merged": 20,
+    "time_s": 0.17821621894836426,
+    "topo": {
+      "nodes": 2323,
+      "edges": 4171,
+      "avg_degree": 3.591046061127852,
+      "density": 0.001546531464740677,
+      "giant_size": 2185,
+      "giant_ratio": 94.05940594059405,
+      "clustering": 0.0651135651506394
+    }
+  }
+}

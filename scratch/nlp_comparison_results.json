@@ -1,0 +1,150 @@
+{
+  "num_test_cases": 200,
+  "method_a": {
+    "total_extracted": 180,
+    "counts": {
+      "legal_doc": 18,
+      "action_content": 64,
+      "role": 18,
+      "appoint_type": 30,
+      "deadline": 4,
+      "urgency": 26,
+      "penalty_form": 5,
+      "tenure": 15
+    },
+    "time_s": 2.558128833770752,
+    "speed_sps": 78.18214523042396
+  },
+  "method_b": {
+    "total_extracted": 194,
+    "counts": {
+      "legal_doc": 21,
+      "action_content": 71,
+      "role": 17,
+      "appoint_type": 30,
+      "deadline": 4,
+      "urgency": 26,
+      "penalty_form": 10,
+      "tenure": 15
+    },
+    "time_s": 1.8072001934051514,
+    "speed_sps": 110.66842551801484
+  },
+  "sample_comparisons": [
+    {
+      "sentence": "Tại Quyết định số 385/QĐ-TTg, Thủ tướng Chính phủ bổ nhiệm đồng chí Thiếu tướng Trần Vinh Ngọc, Phó Chính ủy Quân khu 7, Bộ Quốc phòng giữ chức Chính ủy Quân khu 7, Bộ Quốc phòng.",
+      "rel": "BO_NHIEM",
+      "pred_a": {
+        "event_type": "BO_NHIEM",
+        "trigger": "",
+        "action_content": "",
+        "role": "Chính ủy Quân khu 7",
+        "appoint_type": "Bổ nhiệm mới",
+        "tenure": "",
+        "legal_doc": "Quyết định số 385/QĐ-TTg",
+        "deadline": "",
+        "urgency": "",
+        "penalty_form": "",
+        "violation_reason": "",
+        "subject_matter": ""
+      },
+      "pred_b": {
+        "legal_doc": "Quyết định số 385/QĐ-TTg",
+        "appoint_type": "Bổ nhiệm mới",
+        "role": "Chính ủy · Quân khu 1"
+      }
+    },
+    {
+      "sentence": "Tại Quyết định số 397/QĐ-TTg ngày 25/2/2025, Thủ tướng điều động, bổ nhiệm Trung tướng Nguyễn Hải Trung, Giám đốc Công an thành phố Hà Nội giữ chức Thứ trưởng Bộ Dân tộc và Tôn giáo.",
+      "rel": "BO_NHIEM",
+      "pred_a": {
+        "event_type": "BO_NHIEM",
+        "trigger": "",
+        "action_content": "",
+        "role": "Thứ trưởng Bộ Dân tộc và Tôn giáo",
+        "appoint_type": "Điều động và bổ nhiệm",
+        "tenure": "",
+        "legal_doc": "Quyết định số 397/QĐ-TTg",
+        "deadline": "",
+        "urgency": "",
+        "penalty_form": "",
+        "violation_reason": "",
+        "subject_matter": ""
+      },
+      "pred_b": {
+        "legal_doc": "Quyết định số 397/QĐ-TTg",
+        "appoint_type": "Điều động",
+        "role": "Thứ trưởng Thường trực · Bộ Dân tộc và Tôn giáo"
+      }
+    },
+    {
+      "sentence": "Tại Nghị quyết số 1558/NQ-UBTVQH15, Ủy ban Thường vụ Quốc hội phê chuẩn kết quả bầu ông Vũ Hồng Văn, Bí thư Tỉnh ủy Đồng Nai, đại biểu Quốc hội khóa XV giữ chức vụ Trưởng Đoàn đại biểu Quốc hội khóa XV tỉnh Đồng Nai.",
+      "rel": "BO_NHIEM",
+      "pred_a": {
+        "event_type": "BO_NHIEM",
+        "trigger": "",
+        "action_content": "",
+        "role": "Trưởng Đoàn đại biểu Quốc hội khóa XV tỉnh Đồng Nai",
+        "appoint_type": "Phê chuẩn",
+        "tenure": "",
+        "legal_doc": "Nghị quyết số 1558/NQ-UBTVQH15",
+        "deadline": "",
+        "urgency": "",
+        "penalty_form": "",
+        "violation_reason": "",
+        "subject_matter": ""
+      },
+      "pred_b": {
+        "legal_doc": "Nghị quyết số 1558/NQ-UBTVQH15",
+        "appoint_type": "Phê chuẩn",
+        "role": "Phó Trưởng Đoàn đại biểu · Quốc hội"
+      }
+    },
+    {
+      "sentence": "Bộ Chính trị cũng chỉ định các ông Bùi Văn Quang, Chủ tịch HĐND tỉnh; Trần Duy Đông (Chủ tịch UBND tỉnh), Bùi Đức Hinh (Chủ tịch Ủy ban Mặt trận Tổ quốc tỉnh), Bùi Huy Vĩnh (Phó bí thư Tỉnh ủy), Nguyễn Mạnh Sơn (Phó chủ tịch UBND tỉnh) và bà Bùi Thị Minh (Phó bí thư Tỉnh ủy), giữ chức Phó bí thư Tỉnh ủy Phú Thọ khóa mới.",
+      "rel": "BO_NHIEM",
+      "pred_a": {
+        "event_type": "BO_NHIEM",
+        "trigger": "",
+        "action_content": "",
+        "role": "Phó bí thư Tỉnh ủy Phú Thọ khóa mới",
+        "appoint_type": "Chỉ định",
+        "tenure": "",
+        "legal_doc": "",
+        "deadline": "",
+        "urgency": "",
+        "penalty_form": "",
+        "violation_reason": "",
+        "subject_matter": ""
+      },
+      "pred_b": {
+        "appoint_type": "Chỉ định",
+        "role": "Phó Bí thư · Tỉnh ủy Phú Thọ"
+      }
+    },
+    {
+      "sentence": "Tại Nghị quyết số 1730/NQ-UBTVQH15, Ủy ban Thường vụ Quốc hội quyết nghị chỉ định ông Nguyễn Khắc Toàn, Phó Bí thư Thường trực Tỉnh ủy giữ chức vụ Chủ tịch Hội đồng nhân dân tỉnh Khánh Hòa nhiệm kỳ 2021 - 2026; chỉ định bà Phạm Thị Xuân Trang, Tỉnh ủy viên giữ chức vụ Phó Chủ tịch Hội đồng nhân dân tỉnh Khánh Hòa nhiệm kỳ 2021 - 2026.",
+      "rel": "BO_NHIEM",
+      "pred_a": {
+        "event_type": "BO_NHIEM",
+        "trigger": "",
+        "action_content": "",
+        "role": "Chủ tịch Hội đồng nhân dân tỉnh Khánh Hòa",
+        "appoint_type": "Chỉ định",
+        "tenure": "nhiệm kỳ 2021 - 2026",
+        "legal_doc": "Nghị quyết số 1730/NQ-UBTVQH15",
+        "deadline": "",
+        "urgency": "",
+        "penalty_form": "",
+        "violation_reason": "",
+        "subject_matter": ""
+      },
+      "pred_b": {
+        "legal_doc": "Nghị quyết số 1730/NQ-UBTVQH15",
+        "appoint_type": "Chỉ định",
+        "tenure": "nhiệm kỳ 2021 - 2026",
+        "role": "Chủ tịch · Hội đồng dân tộc"
+      }
+    }
+  ]
+}

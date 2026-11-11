@@ -1,0 +1,39 @@
+{
+  "nlp_full": {
+    "stats_a": {
+      "legal_doc": 863,
+      "action_content": 2368,
+      "role": 1155,
+      "appoint_type": 1453,
+      "deadline": 233,
+      "urgency": 857,
+      "penalty_form": 176,
+      "violation_reason": 62,
+      "tenure": 649
+    },
+    "stats_b": {
+      "legal_doc": 922,
+      "action_content": 2320,
+      "role": 926,
+      "appoint_type": 1462,
+      "deadline": 267,
+      "urgency": 1151,
+      "penalty_form": 249,
+      "violation_reason": 57,
+      "tenure": 619
+    },
+    "time_b": 0.5735719203948975,
+    "diff_counts": {
+      "legal_doc": 124,
+      "penalty": 73,
+      "action": 538
+    }
+  },
+  "dedup_full": {
+    "raw_edges": 8937,
+    "stage1_edges": 4758,
+    "stage2_edges": 4735,
+    "fuzzy_merged_count": 23,
+    "time_total": 0.11437654495239258
+  }
+}
