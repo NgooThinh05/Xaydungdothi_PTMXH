@@ -5,7 +5,7 @@ TẠO BÁO CÁO TIỂU LUẬN / BÀI BÁO NGHIÊN CỨU KHOA HỌC CHUẨN DOCX:
 """
 
 import docx
-from docx.shared import Inches, Pt, RGBColor
+from docx.shared import Inches, Pt, RGBColor, Cm
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
 from docx.oxml import OxmlElement, parse_xml
@@ -240,10 +240,13 @@ def build_docx():
     # Chèn Hình 1
     p_fig1_img = doc.add_paragraph()
     p_fig1_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p_fig1_img.paragraph_format.left_indent = Cm(0)
+    p_fig1_img.paragraph_format.right_indent = Cm(0)
+    p_fig1_img.paragraph_format.first_line_indent = Cm(0)
     p_fig1_img.paragraph_format.space_before = Pt(8)
     p_fig1_img.paragraph_format.space_after = Pt(4)
     run_f1 = p_fig1_img.add_run()
-    run_f1.add_picture(str(FIG_DIR / "hinh1_kien_truc_tong_the.png"), width=Inches(6.2))
+    run_f1.add_picture(str(FIG_DIR / "hinh1_kien_truc_tong_the.png"), width=Cm(12.5))
 
     p_fig1_cap = doc.add_paragraph()
     p_fig1_cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -276,10 +279,13 @@ def build_docx():
     # Chèn Hình 2
     p_fig2_img = doc.add_paragraph()
     p_fig2_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p_fig2_img.paragraph_format.left_indent = Cm(0)
+    p_fig2_img.paragraph_format.right_indent = Cm(0)
+    p_fig2_img.paragraph_format.first_line_indent = Cm(0)
     p_fig2_img.paragraph_format.space_before = Pt(8)
     p_fig2_img.paragraph_format.space_after = Pt(4)
     run_f2 = p_fig2_img.add_run()
-    run_f2.add_picture(str(FIG_DIR / "hinh2_partitioned_record_linkage.png"), width=Inches(6.2))
+    run_f2.add_picture(str(FIG_DIR / "hinh2_partitioned_record_linkage.png"), width=Cm(13.5))
 
     p_fig2_cap = doc.add_paragraph()
     p_fig2_cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -322,10 +328,13 @@ def build_docx():
     # Chèn Hình 3
     p_fig3_img = doc.add_paragraph()
     p_fig3_img.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p_fig3_img.paragraph_format.left_indent = Cm(0)
+    p_fig3_img.paragraph_format.right_indent = Cm(0)
+    p_fig3_img.paragraph_format.first_line_indent = Cm(0)
     p_fig3_img.paragraph_format.space_before = Pt(8)
     p_fig3_img.paragraph_format.space_after = Pt(4)
     run_f3 = p_fig3_img.add_run()
-    run_f3.add_picture(str(FIG_DIR / "hinh3_khung_su_kien_n_ngoi.png"), width=Inches(6.2))
+    run_f3.add_picture(str(FIG_DIR / "hinh3_khung_su_kien_n_ngoi.png"), width=Cm(13.5))
 
     p_fig3_cap = doc.add_paragraph()
     p_fig3_cap.alignment = WD_ALIGN_PARAGRAPH.CENTER

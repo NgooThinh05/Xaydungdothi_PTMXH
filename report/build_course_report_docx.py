@@ -189,7 +189,7 @@ figure("hinh1_kien_truc_tong_the.png",
        "Hình 2. Sơ đồ kiến trúc tổng thể hệ thống ViGov-IE v2.0 qua bốn tầng xử lý. Mũi tên liên kết tầng 1 thể hiện cơ chế khép kín: "
        "Wikipedia bóc tách infobox cung cấp danh sách lãnh đạo định hướng crawl báo chí có mục tiêu qua Google News RSS, đồng thời tạo "
        "Gazetteer làm neo liên kết thực thể chính tắc ở tầng 2. Động cơ ViGov-IE v2.0 và thuật toán Partitioned Record Linkage đảm bảo "
-       "độ chính xác tuyệt đối trước khi nạp đồ thị vào Neo4j 5.26.", width=14.0)
+       "độ chính xác tuyệt đối trước khi nạp đồ thị vào Neo4j 5.26.", width=12.5)
 table("Bảng 6. Stack công nghệ, thư viện và giải thuật sử dụng",
       ["Công đoạn", "Thư viện & Công cụ", "Giải thuật / Kỹ thuật chính", "Vai trò và Đầu ra"],
       [["Thu thập Wikipedia", "MediaWiki API (`requests`), `mwparserfromhell`", "Duyệt BFS cây thể loại, Regex bóc tách Infobox", "Tải 3.134 trang wikitext, bóc tách 1.798 lãnh đạo và 1.181 cơ quan"],
@@ -281,13 +281,13 @@ bullets([
 ])
 figure("hinh3_luong_trich_xuat.png",
        "Hình 3. Luồng trích xuất tham số sự kiện ViGov-IE v2.0. Bước 1 trích xuất tham số chung bằng Regex chuyên sâu; "
-       "Bước 2 rẽ nhánh ba mô-đun nghiệp vụ chuyên biệt đạt thông lượng 12.671 câu/giây trên CPU.", width=13.5)
+       "Bước 2 rẽ nhánh ba mô-đun nghiệp vụ chuyên biệt đạt thông lượng 12.671 câu/giây trên CPU.", width=13.0)
 para("Nội dung chỉ đạo (`action_content`) là tham số thách thức nhất vì tồn tại dưới dạng mệnh đề tự do. Hình 4 minh họa ba thao tác "
      "xử lý của ViGov-IE v2.0: cắt sau động từ kích hoạt, che vị trí thực thể và lọc từ đệm, ngắt mệnh đề cú pháp bảo toàn mục đích (*nhằm/để*). "
      "Kết quả loại bỏ hoàn toàn các lỗi lẫn chủ thể và cơ quan nhận lệnh vốn làm hỏng đầu ra của bộ phân cụm cú pháp cũ.")
 figure("hinh4_vi_du_action_content.png",
        "Hình 4. Minh họa ba thao tác trích xuất nội dung chỉ đạo của ViGov-IE v2.0 trên câu thật. So sánh với đầu ra lỗi của hệ cơ sở "
-       "underthesea vốn bị lẫn cả trạng ngữ mở đầu, chủ thể và cơ quan nhận lệnh.", width=14.0)
+       "underthesea vốn bị lẫn cả trạng ngữ mở đầu, chủ thể và cơ quan nhận lệnh.", width=13.5)
 
 heading("Bước 7. Khử trùng thực thể và nạp đồ thị (Partitioned Record Linkage v2)", level=2)
 para("Các cạnh quan hệ từ Wikipedia, quy tắc tổ chức bộ máy và báo chí được hợp nhất vào một đồ thị thống nhất. Trước khi nạp, "
@@ -427,10 +427,10 @@ bullets([
 figure("hinh5_hai_bay_khu_trung.png",
        "Hình 9. Hai cạm bẫy khi so khớp mờ chuỗi tên cơ quan và giải pháp của Thuật toán Partitioned Record Linkage v2. "
        "(a) Bẫy trùng tiền tố giữa hai tỉnh. (b) Bẫy cùng địa phương giữa Đảng và Chính quyền. (c) Cơ chế phân rã ba thành phần "
-       "và ma trận chặn thể chế cứng giúp giải quyết triệt để cả hai cạm bẫy.", width=14.0)
+       "và ma trận chặn thể chế cứng giúp giải quyết triệt để cả hai cạm bẫy.", width=13.0)
 figure("hinh8_ket_qua_khu_trung.png",
        "Hình 10. Kết quả kiểm định thuật toán Partitioned Record Linkage v2 trên 8.937 cạnh tin tức. Hợp nhất an toàn 4.354 cạnh trùng lặp "
-       "xuống còn 4.583 cạnh duy nhất với độ chính xác 100,0% (0 lỗi sai), thời gian thực thi chỉ 0,117 giây.", width=13.5)
+       "xuống còn 4.583 cạnh duy nhất với độ chính xác 100,0% (0 lỗi sai), thời gian thực thi chỉ 0,117 giây.", width=12.5)
 para("Kiểm định thực nghiệm trên toàn bộ 8.937 cạnh báo chí (Hình 10) chứng minh: Thuật toán đã hợp nhất an toàn 4.354 cạnh trùng lặp xuống "
      "còn **4.583 cạnh duy nhất**; đạt **độ chính xác 100,0%** (không có bất kỳ trường hợp nào gộp sai giữa hai cơ quan khác nhau hay giữa "
      "Đảng và Chính quyền); và thời gian thực thi chỉ mất **0,117 giây** (tốc độ đạt 76.384 cạnh/giây).")
@@ -563,10 +563,10 @@ doc.core_properties.author = "Nhóm thực hiện Đề tài 19"
 
 doc.save(OUT1)
 print(f"Đã lưu OUT1: {OUT1.relative_to(ROOT)}")
-try:
-    doc.save(OUT2)
-    print(f"Đã lưu OUT2: {OUT2.relative_to(ROOT)}")
-except PermissionError:
-    OUT2_alt = ROOT / "report" / "Bao_Cao_De_Tai_19_1_CapNhat.docx"
-    doc.save(OUT2_alt)
-    print(f"Bao_Cao_De_Tai_19_1.docx đang được mở trong Word. Đã lưu bản cập nhật tại: {OUT2_alt.relative_to(ROOT)}")
+for out_path in [OUT2, ROOT / "report" / "Bao_Cao_De_Tai_19_1_CapNhat.docx", ROOT / "report" / "Bao_Cao_De_Tai_19_1_MoiNhat.docx", ROOT / "report" / "Bao_Cao_De_Tai_19_1_v3.docx"]:
+    try:
+        doc.save(out_path)
+        print(f"Đã lưu bản cập nhật tại: {out_path.relative_to(ROOT)}")
+        break
+    except PermissionError:
+        print(f"Tệp {out_path.name} đang mở trong Word, thử lưu tệp thay thế tiếp theo...")
