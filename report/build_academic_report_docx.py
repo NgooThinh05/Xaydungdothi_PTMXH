@@ -567,8 +567,14 @@ def build_docx():
         r_run.font.size = Pt(10)
         r_run.font.color.rgb = RGBColor(71, 85, 105)
 
-    doc.save(OUTPUT_DOCX)
-    print(f"🎉 Đã xuất thành công Báo cáo DOCX chuẩn nghiên cứu khoa học: {OUTPUT_DOCX}")
+    try:
+        doc.save(OUTPUT_DOCX)
+        print(f"🎉 Đã xuất thành công Báo cáo DOCX chuẩn nghiên cứu khoa học: {OUTPUT_DOCX}")
+    except PermissionError:
+        alt_docx = OUTPUT_DOCX.parent / (OUTPUT_DOCX.stem + "_CapNhat.docx")
+        doc.save(alt_docx)
+        print(f"⚠️ {OUTPUT_DOCX.name} đang mở trong Word. Đã lưu bản cập nhật tại: {alt_docx.name}")
 
 if __name__ == "__main__":
     build_docx()
+
